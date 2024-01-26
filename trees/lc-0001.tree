@@ -6,7 +6,7 @@
 \p{Here are some example pages:}
 
 \ul{
-\li{#Lecture: [[01 - The Concept of Representation]]}
+\li{#Lecture: [01 - The Concept of Representation](lec-0001)}
 \li{#Example: [[Shopping list]]}
 \li{#Person: [[Ludwig Wittgenstein]]}
 \li{#Argument: [[Kant-Sellars thesis]]}
@@ -14,6 +14,11 @@
 \li{#Distinction: [[Theoretical and observable objects]]}
 \li{#School: [[Emotivism]]}
 \li{#Work: [[Empiricism and the Philosophy of Mind]]}
+}
+
+\scope{
+  \put\transclude/title{Blog}
+  \query{\query/tag{blog}}
 }
 
 \scope{
