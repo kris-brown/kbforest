@@ -1,0 +1,12 @@
+\title{John Locke}
+\taxon{person}
+\tag{philosopher}
+\meta{external}{https://plato.stanford.edu/entries/locke/}
+\import{macros}
+
+\p{
+John Locke was an English philospher (1632-1704).
+}
+
+\image{headshots/locke.jpeg}
+

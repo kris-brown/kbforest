@@ -1,0 +1,205 @@
+\title{Empiricism and the Philosophy of Mind}
+\taxon{reference}
+\import{macros}
+\author{Wilfrid Sellars}
+
+\notes{
+
+
+(Much of this content is copied or paraphrased from Brandom's study guide for EPM)
+
+# Summary
+
+## Why is EPM interesting?
+
+The essay challenges a core aspect of how many people make sense of the world. The proposed alternative is a good idea which, in some sense, improves our ability to comprehend and cope with the world, especially in an era of AI and people making analogies between human minds and AI.
+
+The belief being challenged is a prevalent kind of empiricism. Colloquially, 'empiricism' is a word with positive connotations; we like it when our claims are backed by empirical evidence, we like avoiding superstitions and religious manipulation. Although we don't yet have a fully worked out scientific theory for the human mind, we accept that we are biochemical beings, part of the natural world. Regardless of whether we like the idea of a "spirit" or "soul", the Cartesian distinction of a "mind" and a "body" seems like a good one. The mind is sitting in a Cartesian theater: somehow it's being presented sense impressions from the real world and it is also exercising its will by issuing commands to the body. 
+
+While 'empiricism' as such doesn't actually play much of a role in our day-to-day life, it does tend to get invoked when we ask "how do you know that?" (epistemological) or "what do you mean?" (semantic) questions.
+
+Viewing the mind this way, it seems like there's nothing categorically different from humans and dogs and flies and neural networks: they differ in their capabilities and sophistication. As AI gains more capabilities, it becomes harder to distinguish ourselves from it. 
+
+# Introduction 
+
+This paper is an attack on "The Myth of the Given", i.e. "the whole framework of givenness", including empricism as a foundation for epistemology and sense-datum theories.
+
+The narrative being attacked is a process like this: 
+
+1. Physical objects
+2. Sensing of sense contents
+3. Noninferential beliefs
+4. Inferential beliefs
+
+- (1->2) *Because* there is a red object with a triangular facing surface in front of me, I find myself with a sensing of red-triangular content. 
+- (2->3) *Because* I have such as sense content that I acquire the noninferential belief that there is a red-triangular object in front of me.
+- (3->4) *Because* I have this belief (along with others), I am justified in believing there is a yield sign in front of me.
+
+- The first inference is a *causal* notion (studied by neurophysiologists). 
+	- It is a matter-of-factual relation. It is describable in non-normative vocabulary.
+- The third inference is *epistemic*, an inferential notion which relates sententially-structured beliefs/believables which are repeatable abstracta. This is a matter of *reasons* rather than *causes*. It is not a natural justificatory relation but rather a *normative* one; the logician rather than the scientist has the final say in adjudicating it.
+- What of the second arrow? It is pointing from content in the causal order to the conceptual order. Sellars denies that sensings can ground the non-inferential beliefs (as *reasons*); they do not entail commitment to any claim as they are not normative. It would be possible to have a sensing without coming to believe anything or to know anything.[^sap] Sellars argues that the sensing of sense content is not an epistemic fact[^ep] about the sensing agent.
+
+[^sap]: We do not (or ought not) attribute knowledge to mere sentient beings, only sapient ones
+
+## Cartesian Minds
+
+One of Descartes' innovations was defining the mind in epistemic terms:
+
+- A state is a *mental* state when:
+	- *Being* in that state entails *knowing* that one is in that state 
+		- (transparency, ruling out ignorance)
+		- Having a red triangular perception entails I know I have the perception.
+	- *Believing* to be in that state entails *being* in that state
+		- (incorrigibility, ruling out error)
+		- Believing that I have a red triangular perception, entails I actually have one.
+- The mind is the realm of what is known *immediately*.
+	- This is stronger than non-inferentially: the mind's goings-on are *given* to us in a way that banishes the possibility of both ignorance and error.[^med]
+
+[^med]: Descartes' thought: if anything is known to us *mediately*, i.e. via representations, then some things must be known to us *immediately*, to avoid an infinite regress.
+
+Sellars will show that the Cartesian way of talking about the mind is a confusion between epistemic and non-epistemic items and the roles they can play in various sorts of explanation.
+
+## The Myth of the Given 
+
+The Myth, at a high level: Some kind of non-epistemic facts about knowers could *entail* epistemic facts about them. 
+
+[^ep]: Facts about what someone *knows* (or believes).
+
+The Myth blurs the distinction between sentience and sapience.
+
+- Sentience: being aware in the sense of being merely *awake* (which we share with nondiscursive animals, those which do not grasp concepts).
+- Sapience: being aware in a sense that involves *knowledge* (awareness that *is* a kind of knowledge or can serve to *justify* judgments of knowledge).
+
+The Myth blurs the distinction between "knowledge which presupposes no other facts" and "noninferential knowledge".
+
+The Myth: "A sensation of a red triangle is the very paradigm of empirical knowledge". This is conflating sentience and sapience. Importantly there *is* something to saying human knowledge rests on observation reports, but calling it a 'foundation' is misleading (makes us blind to seeing how observation reports depend on inferential/conceptual knowledge). Sellars can be understood as trying to *save* empiricism from the myth by denying the traditional empiricist dogma. 
+
+The Myth: the idea that there can be a kind of *awareness* that has two properties:
+
+1. It is/entails having a certain sort of *knowledge* (e.g. knowledge of having a certain experience)
+2. It entails that the capacity to have that sort of awareness does not presuppose the acquisition of any *concepts* - that one can be aware independently and antecedently to grasping/mastering the use of any concepts (paradigmatically through language learning)
+
+As McDowell puts the point in *Mind and World*: “The idea of the Given is the idea that the space of reasons, the space of justifications or warrants, extends more widely than the conceptual sphere.” That is, that what is Given can serve as a justification, without its being given requiring the exercise of conceptual capacities.
+
+In denying the Myth, Sellars will argue that only what is propositionally contentful (conceptually articulated) can serve as a justification, and so ground or constitute knowledge.
+
+Conceptual contentfulness: playing a role in the "game of giving and asking for reasons" / [[Space of reasons]]. To treat something as even a candidate for knowledge is to talk about its potential role in *inference*, as a premise and conclusion. The contents of knowledge are *normative* (they concern what other claims someone is *committed to* and what they are *entitled to*).
+
+# Foundationalism 
+
+Ing-ed distinction: an episode of sensing vs what is sensed (i.e. sense content). When one hallucinates a pink elephant, the sense content is an of-a-pink-elephant hallucincation. 
+
+Foundationalism for knowledge: our beliefs constitute knowledge insofar as they are not only true but *justified*. A belief/claim #{p$ can justify another belief $q} if they are inferentially related, but where does this regress end (or is it circular -  [[Agrippan Trilemma]])?  Some conclude there must be some way of *being* justified without having to *be* justified. There must be another way of acquiring positive justificatory status besides the offering of an inferential justification, thus there must be some noninferential acquisition mechanism for this epistemic status.
+
+Descartes concluded from this that there is a kind of claim/belief (call them *basic*) that form the foundation of all other beliefs.[^cav] He believed that unless basic beliefs were certain (the ultimate positive justifactory status), all other beliefs were not even probable. 
+
+[^cav]: What follows is, for each chain of justification, that there exists a belief which has positive justificatory status without being justified. It does *not* follow that there exists a *kind* of belief that justifies all such chains.
+
+Sense datum theorists treat sensing as epistemic noninferential beliefs, from which infereces may be made (and justification status inherited). 
+
+Sense datum theorists endorse: "The primitive notion is believing that sense content #{x$ has property $F$. To sense the sense content $x$ is to believe that it has some characteristic $F}. The sense content, which is a particular, is the intentional object of the epistemic sensing." Important that the epistemic notions are presupposed as opposed to derived from the non-epistemic (causal) relation of sensing sense content. Sellars will show this presupposition leads to contradiction.
+
+The epistemic foundationalist requires the ability to sense not be something that must be *acquired* through experience or training (as sensing is foundational). But the capacity to have beliefs of the form "#{x$ is $F}" involves classifying unrepeatables (particulars) under repeatables (universals). That capacity to classify must be acquired (learning what the boundaries of the classes are). This leads to an inconsistent triad of the sense datum theorists' beliefs:
+
+A. 'Bob senses red sense content #{x$' entails 'Bob noninferentially believes (knows) that $x} is red'
+B. The ability to sense sense contents is unacquired.
+C. The capacity to have classificatory believes of the form '#{x$ is $F}' is acquired.
+
+Giving up (B) says that we need practice to feel pain/hunger/itches or that these things aren't sensing. This would be very difficult.
+
+Giving up (C) requires telling a story of which universal concepts are innate and which are not. This goes beyond Chomskyan innatists because substantive concepts (e.g. *red* and *tall*), rather than just grammatical forms, must be innate.
+
+Belief (A) is the myth of the given, which Sellars advocates we give up. Giving it up makes sensing a nonepistemic event (it could be a logically necessary condition for knowledge or noniferential beliefs, but not sufficient).  He owes us an account of thoughts and sensations and of the origins (both in the causal order and the order of justification) of knowledge.
+
+Foundationalism is the claim that there is a structure of *particular* beliefs such that:
+
+1. Each one is noninferentially arrived at
+2. The believes in (1) presuppose no other belief, neither particular nor general
+3. These noninferentially acquired beliefs constitute the ultimate court of appeal
+Sellars accepts (1) and (3) but not (2). Sellars accepts a hierarchical picture of *justification* but not one of *understanding*. There is no such thing as a noninferential belief for Sellars: to grasp a propositional content is to place it in the space of reasons (assigning it an infernetial role). One cannot have a concept without many interrelated ones.  What is the authority (a patently normative notion) of noninferential beliefs, i.e. their capacity to justify other claims? Need a distinction between sentence *types* and *tokens* (type is repeatable, token unrepeatable). Some sentence types have all tokens justified (e.g. "2+2=4") and others are justified/true on some occasions.
+
+The difference between a noninferential reporter and a photocell, or a parrot trained to utter ‘It's getting warmer,’ as the temperature rises, does not lie in the reliability or range of their responsive dispositions. It lies in the capacity of the reporter to redeem the commitment undertaken, the authority claimed by the reporting, by justifying the claim (if challenged) by giving reasons for it. For a noninferential report to express knowledge (or the belief it expresses to constitute knowledge), the reporter must be able to justify it, by exhibiting reasons for it. This is to say that the reporter must be able to exhibit it as the conclusion of an inference, even though (causally) that is not how the commitment originally came about. Thus: one cannot know noninferentially that something is green unless one also knows that one is a reliable reporter of green things under the prevailing circumstances.
+
+
+> "Empirical knowledge is rational, not because it has a foundation but because it is a self-correcting enterprise which can put any claim in jeopardy, though not all at once."
+
+# 'Looks talk' vs 'is talk'
+
+Main question: does 'looks-red' come before 'is-red' conceptually (and so in the order of explanation)? Cartesian tradition claims looks-talk forms a class of statements which are incorrigible and a foundation for knowledge, thus they must be prior to is-talk. 
+
+Consider the inner episodes to which each subject has privileged access, common to sensations and thoughts:
+
+- Logical positivists deny there can be such episodes because they are not verifiable/falsifiable.
+- Wittgenstein attacked the idea that inner episodes can be premises for inferentially-based knowledge (as private, they escape the net of public discourse/language learning).
+
+Sellars disagrees with the first point; rejecting the Myth of the Given is a lower friction thing to reject than the idea of inner episodes. He also believes the second point is not sufficient to avoid the myth. 
+
+## Incorrigibility 
+Descartes was struck that the appearance/reality distinction doesn't apply to appearances: appearing to be X is not being X (this gap *is* the appearance reality distinction), but appearing to appear to be X is just appearing to be X. Looks/seems/appears operators are idempotent. Thus we know appearances immediately by *having* them, rather than representing them. This requires that looks-#{F$ to be intelligible in principle in advance of grasping the concept is-$F}.
+
+Sellars' linguistic pragmatism: grasp of a concept is just mastery of the use of a word (or words).[^gra] He argues Descartes got the order backwards. He agrees with the Cartesian/common sense that "#{x$ is red" is definitionally equivalent to "$x} would look red under standard conditions". But this rather is a definition of standard conditions rather than of "is red". Standard conditions are those in which one's RDRDs can be trusted and ought be endorsed.
+
+[^gra]: For it to be a *concept* one grasps, the word must have an inferential role (serve as premise or conclusion, assessable as correct or incorrect). Acquiring the differential responsive disposition to say "ough" does not qualify as grasping a concept.
+
+Sentences have **reporting** (noninferential) uses as well as (merely) **fact-stating** (inferential) uses. Reports are the manifestation of a **reliable differential responsive disposition**: the result of one's being trained in a certain way when in certain environmental situations. 
+
+What is the difference between the parrot trained to say "that's red" in the presence of red things and genuine noninfernetial reporter of red things? Having RDRD is not enough to have the concept. Sentient things have RDRDs. The additional thing is that the response must take a position in the space of reasons - being a move in the game of giving and asking for reasons. The parrot has not mastered the inferential role of "that's red".  
+
+## Sellars' key constructive move, according to Brandom: 
+
+The ability to use "#{x$ looks red" correctly appeals to the same RDRD acquired in learning to use "$x} is red" correctly. Saying it looks red is to express the same disposition to call it head but also to *withhold* one's endorsement of that claim. 
+
+### Things explained
+
+This explains the incorrigibility of looks-talk: no claim has been made. 
+
+It explains the idempotency: there is no claim left for the second level of "looks" to withhold.
+
+Consider
+- The apple over there is red
+- The apple over there looks red
+- It looks as though there were a red apple there.
+
+All three express the same RDRD to report the presence of a red apple, but the difference in scopes of endorsement are captured by Sellars' account. It is trickier to explain this on a sense datum approach.
+
+Something can *look* like it is polygonal without looking to have any number of determinate number of sides. Something cannot *be* polygonal without being a determinate number of sides. This is explained as a withholding of certain reports, but the sense datum theorist who wants to say "looks #{F$ to me" means something (an appearing) *in* me *is* $F} would have to endorse certain things are polygonal without having a determinate # of sides.
+
+# Regress?
+Using a concept requires a lot of other concepts. So how can we ground knowledge? This is addressed in Sellars' notions of ought-to-be and ought-to-do, but the basic idea is that, 1. sentient creatures can be trained to be have in accordance with rules (this is stronger than just merely conforming with rules, such as "+" vs "quus", as the teacher who has the concept already), and 2. a community of speakers can dignify certain trained behaviors as claiming things are thus-and-so.
+
+Consider the difference between a parrot, and 1-year-old, and a six-year-old saying "the house is on fire". Because the six-year-old has already been moved into the space of giving and asking for reasons (w/r/t simple concepts like "house" and "fire") his clams can be treated as authoritative (one who hears this has a feeling of alarm) and responsible (e.g. for answering follow up questions like "what? did you smell smoke?"). 
+
+The status of being able to undertake contractual obligations consists in a community's recognition of it (the "fact" does not lie in describing features of people below 21 and those above 21).
+
+# Attack on instrumentalism
+
+Positivists claim there is an "observation language" in which data are formulated and the results of experiments expressed. All we directly know about are the objects of observation. A theoretical language is introduced in order to systematize our observations, and facilitate prediction and control. But the objects the theory postulates are virtual, mere calculational devices or instruments for the expression and systematization of observations. Theories are instruments, and their assertions should not be taken as entailing the existence of the objects they postulate.
+
+This becomes less appealing without the Myth of the Given. But how do we make sense of the relation between theoretical and observable vocabularies? Sellars claims this is *methodological*, not *ontological*.  Theoretical objects are ones of which we can only have inferential knowledge, while observable objects can also be known noninferentially. This is not ontological because it can change: see [[Pluto]], as we invent stronger telescopes.
+
+Yet societally we now have a very strong intuition of primary vs secondary qualities, that some things are just permanently/in principle inaccessible to observation. Sellars denies anything is unobservable in this sense: **to be observable is just to be noninferentially reportable**.  Noninferential reportability requires only that there are circumstances in which reporters can apply the concepts in question (the dimension of inferentially articulated endorsement) by exercising reliable differential dispositions to respond to the objects in question (the causal dimension), and know that they are doing so. In this sense, physicists with the right training can noninferentially report the presence of mu mesons in bubble chambers. *Causally*, there may be a story involving a particular hooked-shape trail in the bubble chamber and photons hitting the scientist's eyes, and the physicist needs to be able to respond to challenges to back up his report ... but this is not to say the report was the result of an inference. What makes it a report of mu mesons, and not of hooked vapor trails or retinal images is the inferential role of the concept the physicist noninferentially applies.[^hook] The scientist then actually *sees* the mu meson, and the retreat, when a question is raised, to a report of a hooked vapor trail (whose presence provides good inferential reason for the original, noninferentially elicited claim) is a retreat to a report that is safer in the sense that he is a more reliable reporter of hooked vapor trails than of mu mesons, and that it takes less training to be able reliably to report vapor trails of a certain shape, so that is a skill shared more widely.
+
+But the fact that an inferential justification can be offered, and that the demand for one may be in order, no more undermines the status of the original report as noninferential (as genuinely an observation) than does the corresponding fact that I may under various circumstances be obliged to back up my report of something as red by invoking my reliability as a reporter of red things in these circumstances—from which, together with my disposition to call it red, the claim originally endorsed noninferentially may be inferred.
+
+Likewise, non-sociopaths can perceive the immorality of torturing helpless strangers - they can also, if challenged, explain the report.
+
+[^hook]: E.g. a consequence of something’s being a mu meson, for instance, is that it is much smaller than a finger; this does not follow from something’s being a hooked vapor trail.
+
+Methodological Behaviorism, distinct from 
+- analytic/logical behaviorism: accounts of the mental real but *defined* in terms of observable behaviors
+- instrumentalism: theoretical entities are calculational tools we make up to manipulate 'real' things, e.g. behaviors.
+
+Distinct because by denying the physical/theoretical distinction, mental concepts *might* coincide with physical ones.
+
+
+# Brandom's conclusion
+We now have recipes telling us how to diagnose and treat the Myth of the Given in all its multifarious manifestations, whether what is given shows up in the guise of particulars whose occurrence entails knowing or believing something (e.g. sense datum theories), or in the form of noninferentially acquired propositionally contentful beliefs (e.g. what is expressed by ‘looks’ talk). Epistemologically foundationalist appeals to the given of the Cartesian sort have been shown to fail because noninferential uses of concepts (no matter whether their subject matter is construed as ‘inner’ or ‘outer’) turn out to presuppose inferential uses of concepts. Empiricist appeals to the preconceptual given to explain concept acquisition (whether by abstraction or otherwise) fail because 
+
+> “We now recognize that instead of coming to have a concept of something because we have noticed that sort of thing, to have the ability to notice a sort of thing is already to have the concept of that sort of thing, and cannot account for it.” 
+
+Nonetheless, Sellars has shown us how we can make sense of the idea that we have direct awareness of mental episodes (the applications of inferentially articulated concepts of thoughts and sense impressions elicited noninferentially by thoughts and sense impressions), including the limited but very real privileged access each of us has to such inner episodes, without committing ourselves to the Myth of the Given.
+
+# MacDowell's conclusion
+
+Sellar's concern is with a requirement for claims to be expressive of observational knowledge, with the distinctive *authority* that implies. Understanding *what it is* that one is claiming is not what is in question. Sellars’s thesis is that observational authority depends on the subject’s own reliability in the order of justification/space of reasons, and this dependence requires that the subject be aware of her own reliability. Observational knowledge *always* rests in the order of justification - on other sorts of knowledge. That is why it is not foundational in the sense envisaged by traditional empiricism.}

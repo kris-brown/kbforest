@@ -1,0 +1,67 @@
+\title{11 - Price on Sellars and McDowell, Blackburn on Brandom and McDowell}
+
+\p{
+
+[[Robert Brandom|Author]] [[10 - Simon Blackburn on Expressivism and Pragmatism|Prev]] [[12 - Price's Pragmatist Philosophy of Language|Next]]
+
+# Two species of language
+
+When Rorty writes about [the ironist](https://en.wikipedia.org/wiki/Ironism) and about [[redescription]] he doesn't explicitly differentiate two species of language:
+
+1. Autonomous discursive practice (downtown of language, the game of giving and asking for reasons, a game you have to be able to play to be regarded as sapient/speaking at all). E.g. English or German.
+2. Idioms (suburbs of language, things like nautical or quantum mechanical vocabulary). 
+	1. "Ground-level" ones are often what Rorty is thinking about us redescribing. 
+	2. Metavocabularies (semantic and pragmatic) are idioms, not ADPs.
+	3. Categorial metavocabularies: ELaborated from[^el] and EXplicative (LX) of[^ex] every ADP because they are LX for every minimal ADP. Therefore universally LX. They are explicating the framework of E-representation. Paradigm example: alethic modal vocabulary.
+
+[^ex]: They let us say what you need to be able to do in order be using that vocabulary.
+[^el]: What we make of Kant's idea that they are *a priori*. In using ADP, you already know how to do everything you need to do to use the categorial metaconcept.  Consider Sellars' "Grasp of a concept is always mastery of a word."
+
+In *The World Well Lost*, Rorty argues that it's unintelligible that ADPs are not intertranslatable.[^tr] 
+
+[^tr]: Some work needed to make this crisp. It's not that we can translate the idiom of quantum mechanics word-for-word into a small tribe's language, but it should be introduc*able*.  I.e this translatability amounts to being able to, through hard work and lots of interaction, teach the tribal speakers QM.
+
+Price's I-representation applies to ADP. His E-representation applies to *some* idioms. It's important to him that E-representational semantic metavocabulary be a naturalistic one.
+
+
+What declarativism holds is that the conception of truth-evaluability, fact-stating, and proposition-expressing (so embeddable) that applies to all declarative sentences.
+
+Price identifies E-representation with Sellars’s notion of the “dimension of picturing” of ordinary empirical descriptive (OED) vocabulary.
+
+[[Making it Explicit]] argues that *assertions* are the core of an ADP. They are essentially things that can serve as (and stand in need of) reasons, playing the role of a premise and conclusion of an inference. 
+
+## Was the vocabulary vocabulary pointless?
+The vocabulary vocabulary was to remove the language-theory distinction, but the ADP / idiom distinction may seem like it reveals no progress has been made. Brandom notes that there are some similarities in Language:ADP::Theory:Idiom. This is where Brandom says Rorty's rhetoric about description sometimes sounds as if he's slipping back into Carnappian pragmatism.
+
+Brandom says it's a pragmatist version of that distinction. It's not the same. For Carnap, you choose the language and the world settles the proper theory. In the new version, there's only one (up to intertranslatability) 'language', and the theory is up to you. So the Carnappian picture is turned on its head. 
+
+# Price and Cambridge Pragmatism
+
+Price extends the notion of I and E representation to different notions of fact and world. E-world, natural world (object of study of science). I-world is all of the facts.
+
+This distinction resolves the tension between [[Scienta mensura]] and Tractarian "the world is everything that is the case".
+
+What's in common between representation as homomorphism (a relational matter) and one-way-counterfactual dependencies? Think about map facts (facts in the map vocabulary) and inferences in the terrain vocabulary. That inferential use is what it means to *use* the map as a representation.
+
+# About Time's Arrow
+Huw's book on the philosophy of time.
+
+Fundamental physics *doesn't* have an arrow of time. It is completely reversible. But macroscopy time has a direction. 
+
+That direction of time shows up in serious physics
+- Statistical thermodynamics (second law)
+- Radiation phenomena (e.g. throwing a pebble in a pond)
+- Cosmological phenomena (asymmetry between big bang and big crunch)
+
+Physics needs to explain how these arise at the macro level from a micro level where everything is reversible. Many explanations have been given by Huw says they're all wrong.
+
+Huw claims that the arrow of time is something humans project onto a world with no arrow of time. Because our agency / habits of thought are such that we cannot help our selves from projecting the time-directedness of our human lives into the physics. Fundamental physics achieves a "view from nowhen".
+
+Price argues every attempt is flawed - projecting assumptions irresistable to us but not licit in the fundamental physics. Time is asymmetric in some bits of the universe (the bits around us), but we have no reason to think causation can't/doesn't run backwards in some parts of the universe.
+
+At this point, Price accepts the Kantian problematic: it makes sense to assign some features of our vocabulary to what we're talking about and other features we're responsible for (our projectings). 
+
+Classical pragmatism is sometimes thought of as a kind of subjectivism. Rortyan pragmatism is explicitly not subjectivist because it denies the Kantian problematic with the vocabulary vocabulary. If we're not thinking of vocabularies in object naturalist terms, the Kantian problematic doesn't make sense.
+
+Even the language of physics is not fully object-naturalistic - Huw begins interrogating physics from (what he will later call) a subject naturalist point of view. What would we have to be able to *do* to express the view from nowhen? He found representational semantic models were not helpful for him in investigating that question.
+}

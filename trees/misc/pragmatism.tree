@@ -1,0 +1,91 @@
+\title{Pragmatism}
+
+\p{
+
+# Overview 
+TODO 
+
+# History
+
+American pragmatism
+- [[Charles Sanders Pierce|Pierce]]
+- [[William James|James]]
+- [[John Dewey|Dewey]]
+
+"Cambridge" pragmatism
+- [[Frank Ramsey]]
+- The later [[Ludwig Wittgenstein|Wittgenstein]]
+
+Neo-pragmatism
+- [[Richard Rorty|Rorty]]
+- [[Robert Brandom|Brandom]]
+- [[Huw Price|Price]]
+
+## Graphical representation of influences
+
+```mermaid
+graph TD
+
+H[G. W. F. Hegel] -.-> B[F. H. Bradley]
+
+H -.-> P[C. S. Pierce]
+
+H -.-> R[Josiah Royce]
+
+H -.-> D[John Dewey]
+
+  
+
+B -.-> R
+
+  
+
+R -.-> D
+
+R --> L{C. I. Lewis}
+
+  
+
+P -.-> J[William James]
+
+P -.-> L
+
+  
+
+J --> L
+
+  
+
+L --> G[Nelson Goodman]
+
+L --> Q[W. V. O. Quine]
+
+L --> S{Wilfrid Sellars}
+
+  
+
+C{Rudolph Carnap} --> G
+
+C --> Q
+
+C -.-> S
+
+  
+
+Q --> DD[Donald Davidson]
+```
+Dotted lines are influence, solid lines are advisors, diamonds are neo-kantians.
+
+# Semantics
+What does it *mean* that "All #{A$'s are necessarily $B$'s"? A pragmatist answer is that it is a license to infer statements like "$x$ is a $B$" from statements like "$x$ is an $A}".
+
+## Truth 
+- Pierce: [[Truth as the limit of inquiry]]
+- James: Truth as what is good for belief[^bb]
+
+[^bb]: [[Simon Blackburn|Blackburn]]: false beliefs can be useful, e.g. it may be useful to believe you are the most popular person in class but that does not make it true. Conversely, many things we think of as true are useless.
+
+
+# External resources
+- [SEP](https://plato.stanford.edu/entries/pragmatism/)
+}

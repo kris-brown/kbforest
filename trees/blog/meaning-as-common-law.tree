@@ -1,0 +1,182 @@
+\title{Meaning as common law}
+
+\p{
+
+This is a summary of [[Robert Brandom]]'s paper [[A Hegelian Concept of Legal Determination]]. That paper nominally addresses a problem 
+involving the meanings of legal concepts, but the problem (and its solution) are applicable to conceptual reasoning generally. It focuses on the legal setting because interactions between judges *create* the content of legal concepts 
+in a way that is paradigmatic: the legal setting foregrounds certain features of ordinary concept use which are essential yet often implicit.
+
+> [!info]- Running example
+> I'll try to concretize certain ideas introduced here through a running example,
+where a business owner named Bob has been coerced by the state to pay a fine. Alice, the judge, cites **Statute #123** in her ruling. The statute says "Business owners who require customers to sign unreasonable contracts are subject to a fine." 
+## The authority of law: a problem 
+
+In a simplified version of the various positions one can take in the theory 
+of where legal authority comes from, taken from [[Legal formalism and legal realism - what is the issue|Leiter]], there are extremes of **legal realism** and **legal formalism**. 
+
+> [!info]- Example: vulgar formalism
+> This is a flavor of legal formalism which holds that judicial decision-making 
+involves nothing more than the syllogistic / mechanical deduction from the law and 
+the facts. One thinks, "Whether or not Bob should pay the fine just depends on 
+whether the facts of Bob's case must be suitably related to the contents of 
+**Statute #123** (i.e. Bob must be a business owner who required his customers to 
+sign an unreasonable contract). The judge has nothing to do but grasp the meaning of the law and look at the facts in order to deduce Bob's guilt or innocence."
+
+Although actual judicial decisions do have syllogistic form, no intellectuals 
+today are vulgar formalists; they all acknowledge the 
+interesting question is what the relevant legal facts are and why the applied 
+laws are applicable.[^dec] 
+
+| | Legal Formalism | Legal Realism |
+|--|----|---|
+| What is the goal of legal theory? | Determine correct procedures for determining the relevant facts and applicability of statutes. This is a normative ideal; there is a right and wrong way to do it. | Describe what judges *really* do,  which is contingent on their cultural upbringing, personal biases and beliefs, mood, etc. |
+| Does the law does provide sufficient content to settle the verdict of the case? | Yes, law is *determinate* (if the judge is doing their job correctly). | No, law is *indeterminate*.|
+
+
+> [!info]- Example: formalism and realism
+> Suppose a kind of legal formalist believes that the 
+correct way to resolve ambiguities in the law is to pick the fairest 
+interpretation (achieved through adequate moral reflection). This particular 
+formalist will view the judge's verdict in Bob's case as proper insofar as the 
+judge's interpretation of "unreasonable contract" was fair. 
+>
+> A legal realist has many ways to analyze the outcome of the case. Perhaps the 
+judge wanted to rule Bob was innocent because Bob reminded her of her son. But 
+perhaps that was outweighed by the fact that the judge worries other judges will
+look poorly upon her if she does not fine Bob. Furthermore when looking for 
+precedent, she happened to give more attention to previous cases of a judge she thinks is 
+very cool, and that judge interprets contracts like those of Bob's as unreasonable.
+
+[^dec]: Some intellectuals in the 18th century did subscribe to vulgar formalism. Today, many laypeople believe something like this, and political figureheads act as if they believe it too (e.g. during a Supreme Court nominee's confirmation hearing, there is intense political pressure to say that one will merely apply the law, not 'make' law).
+
+The belief that the letter of the law is not determinate is a kind of 
+[[semantic skepticism]]: if there is no principled way to resolve the ambiguity of what the law *means*, then judges are forced to rely on their unprincipled whims/prejudices. This seems very plausible to those who appreciate the subtleties and ambiguities of language, leading such people to legal realism. The problem with legal realism is that it leads to **legal nihilism**: the inability to distinguish rule by *power* from rule by *law* (i.e. *rational* authority). If verdicts are given based on unprincipled whims/prejudices of judges rather than on reasons answerable to the law, then the legal system's authority will cease to be rational. This is incompatible with our [[Enlightenment]] values. 
+
+>[!info]- Example: semantic skepticism and legal nihilism
+If Bob's coercement to pay a fine is an 
+act of law (regardless of whether we like the law) rather than a pure act of force, 
+then we are owed a *reason* for the verdict. For the stated reason (**Statute #123**) 
+to actually be responsive to our request, the statute must apply to the 
+circumstances of the case. But this isn't obvious; 
+for example, what does it mean to be an "unreasonable 
+contract"? This is not skepticism about the facts of the case, but skepticism
+about what the statute *means* - whether applying it to the current circumstances 
+is *correctly* applying it.
+> 
+Certain concepts seem like common sense to apply (e.g. whether or not Bob is a 
+"business owner"), but in general we will lose faith in the legal process if
+justification merely boils down to "The judge felt like 100 pages was an 
+unreasonable length for a contract; I mean, *come on*!" 
+
+In the extreme scenario (which is a clear example of rule by power), if judges 
+were to behave like [Humpty Dumpty](https://www.jstor.org/stable/430352) who says "When *I* use a word it means just what I choose it to mean - neither more nor less", then they could supply any statute as a reason for any verdict. 
+
+## Common law in practice
+
+How do judges systematically deal with these kinds of ambiguity, such that every 
+case doesn't need to be resolved with some kind of "[I know it when I see it](https://en.wikipedia.org/wiki/I_know_it_when_I_see_it)"? We first need a distinction between *statute law* and *common law* (AKA case law). Statute law is a written body of rules created by elected officials, while common law is a set of unwritten principles based on judicial decisions and precedent.[^stare] 
+
+[^stare]: The principle of [stare decisis](https://www.americanbar.org/groups/public_education/publications/preview_home/understand-stare-decisis/) expresses this common law principle of honoring precedent. 
+
+**Regress of interpretations**: Ultimately, addressing semantic skepticism of 
+statute law reduces to addressing it for the case of common law. For it is only 
+through a background of implicit practical norms of a community (for how to 
+interpret the rule) that an explicit rule can have meaning at all. (Explicating the interpretation of an explicit rule via another rule just leads to a [[Regress of rules|regress]]
+if it does not culminate in implicit practical norms.)
+
+To unpack a legal concept, such as "unreasonable contract" or "strict liability",
+a common law judge must make a *rational reconstruction* of the tradition of 
+prior judges' interpretations of the concept. This involves picking which past interpretations of the concept were progressive, good, and precedential, in contrast to past interpretations which were regressive, bad, and should not be precedential. The judge expresses the concept as a *rule*, which the progressive applications can be seen as satisfying or at least working towards.
+
+> [!info]- Example: rational reconstruction of the concept "reasonable contract"
+> The judge for Bob's case writes in the rationale of the ruling that, historically, judges ruled that contracts were unreasonable if they were "too long" (the cutoff for this has stabilized around 100 pages in the more recent rulings). There have been occasional exceptions, but these each have an explanation for why they are exceptional, including a case where the contract was mostly figures (unlike Bob's, which was all text) and a case with a judge who has since been disbarred for taking bribes.
+
+[[Ronald Dworkin]] likens the task of a common law judge to being an author of a 
+chain novel in *media res*.
+
+> Your assignment is to make of the text the best it can be, and you will 
+> therefore choose the interpretation you believe makes the work more 
+> significant and otherwise better.  — [[Law's Empire]]
+
+This is how things work in practice. We need to make sense of this practice in 
+a way that does not grant the semantic skeptic that the *content* of 
+concepts like "unreasonable contract" is nonexistent or indeterminate.
+
+## Inadequate solutions
+
+To overcome the main problem, where we were torn between legal formalism and 
+realism due to competing intuitions, we need to amend our notion of "conceptual determinateness", which I'll call *mechanical determinateness*.[^kant] That framework says that concepts must be semantically settled *prior* to their application; objects either fall under a concept or they don't, and what inferences are good or not are settled by the content of the concept.
+
+[^kant]: Brandom traces this idea to [[Immanuel Kant|Kant]] and [[Gottlob Frege|Frege]], calling it "Fregean determinateness" or [[Georg Wilhelm Friedrich Hegel|Hegel]]'s word, *Verstand*. He refers to the dynamic, historical alternative as *Vernunft*, following Hegel.
+
+>[!info]- Example: Mechanical determinateness for "reasonable contract"
+> The real content of the concept of "reasonable contract", whether we know it 
+explicitly or not, is something like a definition or logical formula, e.g. 
+"A reasonable contract is defined as a contract which is under 100 pages and has 
+no hidden terms/conditions." We can understand this independently of anyone *using* (i.e. *applying*) the concept in real life. This content gives us a mechanical procedure to deduce whether "reasonable contract" is applicable in the circumstance of a given contract. It also should provide a means of deducing all inferential relations involving the concept with other grasped concepts, e.g. "If the unreasonable contract has no hidden terms/conditions, then it has above 50 pages." Someone who thinks a reasonable contract can have 200 pages is *wrong*; they don't grasp the concept. 
+>
+> People in the future may use the concept "reasonable contract" differently 
+(they realize page size is arbitrary and switch to a word count, then a later generation realizes words in the title should be included in the word count, etc.) – we must either admit our grasp of the concept was wrong or we must think 
+that we got it right while the future concept-users are making a regressive move and failing to grasp the concept. 
+
+This notion of conceptual content, which is unproblematic in the context of 
+artificial languages, e.g. in ordinary math or physics, leads us to severe problems in
+natural languages. The regress of interpretations point mentioned above means 
+that we cannot keep unpacking definitions of terms in our definitions forever;
+we are forced to derive the *content* of at least some of our terms from their 
+*usage* somehow. The process of looking at the historical usage of a concept and 
+*mechanically* deducing its conceptual content is doomed to fail due to 
+[[Disjunctivitis|gerrymandering]] problems / [[Rules|rule]]-following paradoxes.
+
+The many strategies one can take to try to make sense of conceptual content as 
+mechanically determinate lead to dead ends. The challenging task undertaken by 
+Brandom is to argue that an alternative notion of determinateness (which circumvents the dead ends) deserves to be called determinateness at all, which is needed to be an answer to the semantic skeptic.
+
+## Proposed solution
+
+Wanting our conceptual contents to have mechanical determinateness demanded that we have no freedom in deciding which inferences involving the concept are good and bad. Surely to have *complete* freedom would be bad (remember Humpty Dumpty), but something in between is better: we must acknowledge the prior use of a word *constrains* (but doesn't *settle*) future use - how does this work?
+
+The kind of determinateness we need should acknowledge the socially- and 
+temporally-perspectival nature of conceptual content *without* lapsing into 
+relativism.[^want] It should also make sense of mechanical determinateness 
+as a kind of special case; in order to win you over on this new notion of determinateness, we owe you an explanation why the old one was both attractive while showing why it's deficient.[^irony] Core to this new notion of determinateness is the idea of a rational reconstruction which is both forward- and backward-looking. 
+
+[^want]: Given our culture's current sensibilities, we should *want* conceptual content to have these dependencies (despite it being convenient when concepts are such that reasoning about them becomes mere deduction). 1. It's essential to conceptual content that it regulates the proper *usage* of our concepts. 2. We want the proper usage of our concepts to evolve over time (consider concepts like *God*, *electron*, *freedom*). 3. The above two points make it desirable to have a notion of conceptual content which is in some sense perspectival. This argument holds whether you want to give [[Concepts and judgment|explanatory priority]] to the conceptual content over the rightness or wrongness of the usage of concepts or vice-versa.
+
+[^irony]: Meta: Brandom is making is a rational reconstruction of the concept of determinateness; the moves he makes can be understood as the kinds of moves a common law judge would make.
+
+| Perspective | *Retro*spective | *Pro*spective |
+|:--:|:--:|:--:|
+| What kind of task is determining conceptual contents? | Theoretical / epistemic | Practical / constructive |
+| What is rational reconstruction doing? | Finding out which past applications of the concept were the right ones / which norms govern the process. | Investing one's authority to authorize future concept-users to apply concepts in particular ways.
+| Normativity of concepts | We are **authoritative** over concepts. | We are **responsible** to concepts. |
+| Modality[^heg] | Necessity | Contingency |
+
+
+>[!info]- Example: Socio-historical determinateness for "reasonable contract"
+> Even though another judge could've potentially given a different rational 
+reconstruction of "reasonable contract", Alice presents her ruling in the form 
+of a *mechanically* determinate rule, in light of her rational reconstruction 
+which shows how this rule emerged out of judicial history. Although this rule 
+has the form of being universal, independent of social/historical context, the 
+way it determines the content of "reasonable contract" is contingent on the 
+future judges applying **Statute #123** in their cases. They 
+will have to decide whether to regard her ruling as precedential - whether 
+or not she grasped the concept of "reasonable contract" or not. 
+Whether or not this happens depends both on Alice's written rationale for Bob's particular case (to see how well 
+her verdict fits in with other judges we deem to be authoritative) as well as 
+whether she herself is overall to be considered an authoritative judge 
+(considering her whole career).
+
+By thinking only of mechanical determinateness, we were forced to oscillate between extremes of legal formalist dogmatism (we have the 'right' definition for our concepts; future and past people are wrong if their concepts are different) or legal realist skepticism (we have complete freedom over our definitions).
+
+We are constrained by the past due to our need to formulate a principle which
+is shown as emerging from past applications of a concept. We are also constrained in how we  formulate that principle because we are going to be judged by our peers / future  concept users, who will decide whether or not to buy into our formulation.[^witt] We navigate concepts like *God*, *electron*, *freedom*, *cat*,
+in our ordinary conversations and debates; in doing so, it's essential to the 
+fact that we are using those concepts that we are open to justifying our usage 
+of them (formulated as an explicit rule) via appealing to precedent, and the meaningfulness of our justifications is subject to future concept-users taking our formulation to be precedential.
+
+[^witt]: [[Ludwig Wittgenstein|Wittgenstein]]'s emphasis of language as public showed that to count as meaning something at all we need buy-in from one's community.
+
+[^heg]: Hegel characterizes rational reconstructions as "giving contingency the form of necessity" (necessity for him, like Kant, is "according to a rule").
+}

@@ -1,0 +1,12 @@
+\title{Plato}
+\taxon{person}
+\tag{philosopher}
+\meta{external}{https://plato.stanford.edu/entries/plato/}
+\import{macros}
+
+\p{
+
+Plato was an ancient Greek philosopher (428 BC - 348 BC).
+}
+\image{headshots/plato.jpeg}
+

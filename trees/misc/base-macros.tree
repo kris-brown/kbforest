@@ -1,0 +1,86 @@
+\title{basic macros}
+
+\def\nowrap[body]{\iftex{\body}{\xml{span}[style]{white-space: nowrap}{\body}}}
+\def\mark[body]{\iftex{\body}{\xml{mark}{\body}}}
+
+\def\table[body]{
+  \xml{table}{\body}
+}
+\def\tr[body]{
+  \xml{tr}{\body}
+}
+\def\td[body]{
+  \xml{td}{\body}
+}
+\def\th[body]{
+  \xml{th}{\body}
+}
+\def\hr{
+  \iftex{}{\xml{hr}{}}
+}
+
+\def\texfig[body]{
+  \iftex{\tex{\body}}{
+    \xml{center}{\tex{\body}}
+  }
+}
+
+\def\proof[body]{
+  \iftex{
+    \block{Proof}{\body}
+  }{
+    \block{\strong{Proof}.}{\body}
+  }
+}
+
+\def\labeled-proof[lbl][body]{
+  \iftex{
+    \block{Proof (\lbl)}{\body}
+  }{
+    \block{\strong{Proof} (\lbl).}{\body}
+  }
+}
+
+\def\Con[arg1]{#{\mathsf{\arg1}}}
+\def\BoldSymbol[arg1]{#{\boldsymbol{\arg1}}}
+\def\prn[x]{#{{\mathopen{}\left(\x\right)\mathclose{}}}}
+\def\brc[x]{#{{\mathopen{}\left\{\x\right\}\mathclose{}}}}
+\def\brk[x]{#{{\mathopen{}\left [\x\right ]\mathclose{}}}}
+\def\vrt[x]{#{{\mathopen{}\left\lvert\x\right\rvert\mathclose{}}}}
+\def\vvrt[x]{#{{\mathopen{}\left\lVert\x\right\rVert\mathclose{}}}}
+\def\gl[x]{#{{\mathopen{}\left\langle\x\right\rangle\mathclose{}}}}
+\def\floors[x]{#{{\mathopen{}\left\lfloor\x\right\rfloor\mathclose{}}}}
+
+\def\Sub[arg1]{#{_{\arg1}}}
+\def\Sup[arg1]{#{^{\arg1}}}
+\def\SubSup[arg1][arg2]{#{_{\arg1}^{\arg2}}}
+\def\Sl[arg1][arg2]{#{{\arg1}\Sub{/\arg2}}}
+\def\Homs[arg1]{#{\mathbf{hom}\Sub{\arg1}}}
+\def\Hom[arg1][arg2][arg3]{#{\mathbf{hom}\Sub{\arg1}\prn{\arg2,\arg3}}}
+\def\Ob[arg1]{#{\mathbf{ob}\Sub{\arg1}}}
+\def\Idn[arg1]{#{1\Sub{\arg1}}}
+\def\SET{#{\mathbf{Set}}}
+\def\InvImg[arg1]{#{\arg1\Sup{*}}}
+\def\DirImg[arg1]{#{\arg1\Sub{*}}}
+\def\OpCat[arg1]{#{\arg1\Sup{\mathsf{o}}}}
+\def\ObjTerm[arg1]{#{\mathbf{1}\Sub{\arg1}}}
+\def\ObjInit[arg1]{#{\mathbf{0}\Sub{\arg1}}}
+\def\tick{#{'}}
+\def\Cod[arg1]{#{\Con{cod}\Sub{\arg1}}}
+\def\CoSl[arg1][arg2]{#{\arg2\Sup{\setminus \arg1}}}
+\def\FibProd[arg1][arg2][arg3]{#{\arg1\mathbin{\times\Sub{\arg2}}\arg3}}
+\def\Mor[arg1][arg2][arg3]{#{{\arg2}\xrightarrow{{\arg1}}{\arg3}}}
+\def\Comma[arg1][arg2]{#{{\arg1}\downarrow{\arg2}}}
+\def\Prod[arg1]{#{{\textstyle\prod_{\arg1}}}}
+\def\Sum[arg1]{#{{\textstyle\sum_{\arg1}}}}
+\def\Coprod[arg1]{#{{\textstyle\coprod_{\arg1}}}}
+\def\Lim[arg1]{\operatorname{lim}_{\arg1}}
+\def\Colim[arg1]{\operatorname{colim}_{\arg1}}
+
+\def\FinPow[X]{#{\mathcal{P}\Sub{\mathit{fin}}\prn{\X}}}
+\def\Psh{#{\operatorname{Pr}}}
+
+
+\def\citek[uid]{\let\escape[x]{\x}[\escape{[\uid]}](\uid)}
+
+\p{This tree defines the basic notational macros used across my forest.}

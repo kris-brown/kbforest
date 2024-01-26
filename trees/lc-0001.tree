@@ -1,0 +1,27 @@
+\title{Notes}
+\author{kris-brown}
+
+\p{A collection of notes on math and philosophy.}
+
+\p{Here are some example pages:}
+
+\ul{
+\li{#Lecture: [[01 - The Concept of Representation]]}
+\li{#Example: [[Shopping list]]}
+\li{#Person: [[Ludwig Wittgenstein]]}
+\li{#Argument: [[Kant-Sellars thesis]]}
+\li{#Quote: [[Analytic philosophy is neokantian]]}
+\li{#Distinction: [[Theoretical and observable objects]]}
+\li{#School: [[Emotivism]]}
+\li{#Work: [[Empiricism and the Philosophy of Mind]]}
+}
+
+\scope{
+  \put\transclude/title{People}
+  \query{\query/taxon{person}}
+}
+
+\scope{
+  \put\transclude/title{Works}
+  \query{\query/taxon{reference}}
+}

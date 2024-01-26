@@ -1,0 +1,102 @@
+\title{Order of explanation}
+
+\p{
+
+The world as we understand it is full of biconditionals:
+
+- #{\phi \land \psi$ is true iff #{\phi} is true and $\psi} is true.[^1]
+- He is a bachelor iff he is an unmarried man.
+- It's a morally good action iff I ought to do it.
+- The child should be held responsible for what he said iff he understood what he was saying.
+
+Suppose we divide our judgments into the descriptive ones about the world vs those which are about our own judgments: even if we agreed on all the ground-level descriptive truths, there is remaining work to be done. We want to understand at least some statements as *definitional*, meaning picking an ordering. This is picking an *order of explanation*. This is not settled by the descriptive facts. Many arguments seem to be about descriptive facts when they might be more effectively thought of as disputes in the order of explanation, as it's easy to confuse explanatory priority for causal or ontological priority.[^rd]
+
+Two [[Ludwig Wittgenstein|Wittgenstein]] quotes echo this idea: 
+
+- "We feel that even if all possible scientific questions be answered, the problems of life have still not been touched at all." 
+- "Philosophy is not descriptive but elucidatory." 
+
+This attitude towards philosophy resolves tension between ordinary people who 
+perceive philosophy as useless nonsense vs its being incredibly meaningful: if 
+one is restricting attention to claims about the world, then philosophy is not 
+going to add to that knowledge. If one allows that our understanding of the 
+world isn't purely dictated by the descriptive facts,[^bet] then philosophy will 
+seem useful.
+
+[^1]: [Tarski's biconditional](https://en.wikipedia.org/wiki/T-schema) is usually taken to be a definition of meaning in terms of truth, but the alternative order of explanation of defining truth in terms of meaning might be more elucidating for people who grasp what they mean but feel 'truth' is a spooky/metaphysical concept.
+
+[^bet]: Or, better yet, denies that a distinction between 'descriptive' and non-descriptive facts can be made.
+
+[^rd]: An example where these two kinds of priority come apart is [[Sense dependence vs reference|response-dependent properties]], such as being beautiful or funny.
+
+# Historical examples
+
+As described [[01 - The Concept of Representation|in this lecture]], two strands of pre-Kantian philosophy can be illuminated by thinking of them as battles over the order of explanation:  
+
+| | [[Empiricism|Empiricists]] | Rationalists |
+|--|--|--|
+| **Examples** | [[John Locke|Locke]], [[George Berkeley|Berkeley]], [[David Hume|Hume]] | [[Baruch Spinoza|Spinoza]], [[Gottfried Wilhelm Leibniz|Leibniz]] |
+| **Order of explanation between two kinds of mental objects** | Understand sentence-like thoughts as complex+abstracted combinations of picture-like impressions | Understand picture-like impressions as peculiar kinds of sentence-like thoughts |
+| **Order of explanation between two features of concepts** | Understand how judgments follow from each other by understanding the constituent concepts and what they represent in the world | Explain representational content in terms of the more primitive reason relations concepts stand in. |
+
+- The debate between [deontology vs consequentialism](https://plato.stanford.edu/entries/ethics-deontological/#DeoFoiCon) in ethics can be seen as a fight over the explanatory priority of concepts of the Right (actions) vs the Good (states of affairs).
+
+- The early [[Gottlob Frege|Frege]] sought to explain truth in terms of inference (sentences are 
+primitive because they are the smallest unit which has pragmatic force), 
+vice-versa for the late Frege.
+
+- We have statements which are good in virtue of their logical form (logical 
+  inferences, e.g. "#{A$ and $B$, therefore $A}") as well as statements which are just 
+  good (materially-good inferences, e.g. "If #{X$ is to the $East$ of $Y$, then $Y} is to the 
+  #{West$ of $X}.") - [[Wilfrid Sellars|Sellars]] advocates that we understand material inference as more 
+  fundamental to logical inference.
+
+- Debates in philosophy of language can be recasted as arguing over the 
+  preferred order of explanation between syntax, semantics, and pragmatics. 
+  E.g. how do we think of the [[Semantics and pragmatics|relationships]] between declarative sentences, 
+  propositions, and speech acts?
+
+# An addendum to *Intentionality and Language*
+
+*Note this section won't make sense without the context of **Intentionality and Language***
+
+In Brandom's essay [Intentionality and Language](/docs/blog/posts/mana/index.qmd), he tackles the issue of the relation between language and the world, making some important distinctions between practical vs discursive intentionality as well as propositional vs representational intentionality. He proposes that the following order of explanation gives us a satisfying understanding of the situation:
+
+| | **Practical** | | **Discursive** |
+|:--:|:--:|:--:|:--:|
+| **Propositional** | #{\bullet} | #{\rightarrow} |  #{\bullet} |
+| |#{\uparrow} | | #{\downarrow} |
+| **Representational**|  #{\bullet}  | #{\leftarrow} |  #{\bullet} |
+
+Some very brief summaries of the essay's arguments for these orders:
+
+- Propositional #{\rightarrow}: Kant, Hegel, Wittgenstein, Sellars, [[Donald Davidson|Davidson]], and [[Richard Rorty|Rorty]] effectively argue that conceptual content as *normative* - that we should think of grasping the *meaning* of a concept as the practical mastery of using that concept in a network of inferential relations. This leads to a pragmatist order of explanation in contrast to the platonist order (which would be a #{\leftarrow} in the top row).
+  - **Platonism** - understand practical intentionality in terms of discursive intentionality. Every implicit skill or propriety of practice is underwritten by a rule/principle - something that could be made discursively explicit.
+  - **Pragmatism** - understand discursive intentionality in terms of practical intentionality. Knowing-that (things are thus-and-so) is a kind of knowing-how (to do something). What is explicit in the form of a conceptually articulated principle is intelligible only against a background of implicit practices.
+- Practical #{\uparrow}: A paradigm case here is to consider the mapping relation that skillful dealings produce and promote between items in the environment and states of the organism. The usefulness of map representations depends on the goodness of inferences from map-facts (there is a blue wavy line between two dots here) to terrain-facts (there is a river between these two cities). The propositional content of the map facts is built up out of representational relations that are sub-propositional (correlating blue lines and rivers, dots and cities).[^map]
+- Discursive #{\downarrow}: the representational dimension of our talk is paradigmatically *de re* clauses, as distinguished from *de dicto*. The functional role of having this distinction allows us to keep track of what premises are available for the reasoning of others and what premises are available for our own reasoning.
+
+[^map]: By making the distinction of practical vs discursive intentionality, Brandom can respond to the philosophers who sneer at anti-representationalists like Rorty who "show up to the anti-representationalist conference with a map of the campus and a timetable in their pocket."
+
+Actually, the #{\leftarrow} isn't discussed; I added it myself since it helps me 
+make sense of a few things which I hope to elaborate on soon:
+
+- A core tension between [[Pragmatism and platonism|platonists and pragmatists]]. One can interpret 
+the platonist not as being simply mistaken in the directionality of the top arrow, but,
+rather, as having 'composed' the three other arrows.
+- The *cyclic* nature of explaining causes vs reasons - we can always take 
+  scientific claims and analyze them as ultimately grounded in linguistic social 
+  practices, yet we can also always take social practices and view them as 
+  occurring in the realm of natural science.[^fn]
+- It could be illuminating to think of taking the composite of three arrows vs 
+  the single arrow as making a kind of *level shift*, e.g. from description 
+  in the narrow sense vs description in the wide sense[^s] or first nature vs 
+  second nature.[^m] 
+    - This could resolve philosophical confusion that comes from level shifts 
+      which are not made explicit, such as taking a 
+      [relational database](https://blog.algebraicjulia.org/post/2020/09/cset-graphs-1/) instance full of facts (e.g. #{src(Edge_1)=tgt(Edge_1)}) and asking if it's a fact in the database that every edge has exactly one source and one target (no, not in some narrow sense, yes in some wider sense, though).
+
+[^s]: in Sellars' terminology
+[^m]: in [[John MacDowell|MacDowell]]'s terminology
+[^fn]: Understanding someone saying #{\phi} in terms of the laws of physics which dictate the motion of the atoms of their voice box vibrating to produce sounds waves . . . (etc.). This is connected to Huw Price's subject naturalism.
+}

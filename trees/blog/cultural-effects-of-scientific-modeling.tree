@@ -1,0 +1,51 @@
+\title{Cultural effects of scientific modeling}
+
+\p{
+
+The introduction of new technology to a society has material consequences for how the society functions, and so the ethical development of technology requires considering these consequences.[^m] In this post we consider a *positive* effect on scientific culture fostered by the scientific modeling paradigm pursued by the [AlgebraicJulia project](https://topos.institute/model-based-computing).[^q] In Owen's [companion post](https://www.localcharts.org/t/positive-impact-of-algebraicjulia/6643) and the comments underneath, many examples describe how this happens at the concrete, conscious level of a researcher. This post, on the other hand, considers the cultural attitudes implicit in the practices of individuals who themselves might not be explicitly thinking about these topics (e.g. individualism of American culture, machismo in a culture).
+
+[^m]: Modeling technology is no exception: as a toy example, consider economics models which expose various features as tunable parameters, such as interest rates, tariff rates, or total population. Hypothetical policy-makers handed this technology might become most excited by the results arising from tuning the last of those parameters, and the modeler ends up partially responsible for a horrifying population control policy. See [this paper](https://arxiv.org/abs/2308.04871) for many examples. 
+
+[^q]: > The slogan "the code *is* the model"... severely impacts both the productivity of scientists and the reliability of their science. Models-as-code are laborious and error prone to create, modify, or extend. They are also difficult to communicate due to the lower level of abstraction demanded by programming... We are developing the theory and software that will enable scientific and statistical models to be treated as first-class entities, which may be created, transformed, compared, and executed with the same ease as conventional data structures... Morphisms of theories and of their models then formalize the relationships that comprise the web of scientific models.
+
+## Consensus and cooperation
+The healthy society we aim for has some level of trust and **cooperation** at many levels of granularity, e.g. people (between individual biology researchers), groups (between psychology research groups), and communities (between laypeople and the scientific community; between different political parties). One way of achieving trust and cooperation is through **consensus**, but consensus is a much stronger requirement than cooperation. In a complex and global society, maintaining consensus is infeasible or undesirable (e.g. requiring consensus in religious matters is at odds with [liberal democratic](https://en.wikipedia.org/wiki/Liberal_democracy) values). 
+
+Mathematicians and scientists realize that truth is more important than consensus - we all could be in agreement *yet* wrong about something. If society instead pursued truth, the above concerns about consensus and cooperation seem addressed.[^cc] When two competing visions collide, the true one ought win out. Math and science are taken to be paradigmatic truth-seeking activities, so certain scientific models are taken as **foundational** or final (an authority that isn't responsible to the authority of anything else). When such an attitude is adopted, often unconsciously,[^owen] one is unable to update one's model of the world. Things aren't much better if one's model of the world is "responsive to the facts" yet one's model *space* is uncritically held fixed. By taking some model (possibly a model of possible models) as foundationally true, social conflict and disagreement becomes bitter and is raised to high stakes, as this conception of truth is something that demands consensus, not mere cooperation. 
+
+[^owen]: For example, certain modeling assumptions are codified in software which is not feasible to update, thereby becoming foundational truth for all practical purposes.
+
+[^cc]: Truth is seen as a convergence point, so consensus is a consequence of collective truth seeking. Truth wins in the long run, so infeasibility is not a concern. As for the desirability of enforcing consensus, people are less willing to agree-to-disagree when there's a 'fact of the matter'.
+
+Dual to this close-mindedness: one eventually sees that every past scientific model was shown to be wrong by a later one, and a [pessimistic meta-induction](https://en.wikipedia.org/wiki/Pessimistic_induction) leads one to doubt the possibility of foundational truth. Combined with the belief that pursuing truth is the only *rational* basis for societal cooperation, this promotes uncooperative behavior; this is the *bad* way to interpret "All models are wrong, some are useful." In summary, scientists are at risk of oscillating between foundationalism and skepticism, a pathology [[Richard Rorty]] diagnoses in [Philosophy and the Mirror of Nature](https://plato.stanford.edu/entries/rorty/#EpisBeha) as stemming from this particular conception of truth. 
+
+
+## Insight from psychology
+
+One helpful vocabulary for discussing the problem comes from a particular framework of [psychological development](https://en.wikipedia.org/wiki/Constructive_developmental_framework), as summarized by the following [table](https://vividness.live/developing-ethical-social-and-cognitive-competence).
+
+| Stage	| 3: Communal	| 4: Systematic	 | 5: Fluid | 
+|---|---|---|---|
+|Objects	|Egocentric desires| 	Relationships	| Systems
+|Subject|	Relationships	| System of principles and projects	| Meaning-making
+|Relationships|	Symmetrical, unstructured	|Asymmetrical, formal roles	| Meta-systematic
+|Ethics |	Compassion, consensus	| Procedural justice, responsibility, principles	| Nebulous yet patterned; collaborative improvisation
+|Epistemology|	Can put oneself in other’s shoes	| Can take perspective of structured social system	|Can relate systems to each other
+
+Importantly, these are not just classifications of people but also a *progression*, i.e. skipping steps is not taken to be possible. Prerequisite to achieving **5** is the movement from **3** to **4**: becoming monolingual *some* formal system. Think of this as the edgy extremism (e.g. uncompromising utilitarianism solving ethics, uncompromising libertarianism or Marxism solving politics) we associate with adolescents. This provides a satisfying [explanation](https://metarationality.com/stem-fluidity-bridge) of how, in the social sciences, postmodernism can feel both progressive yet regressive at times: it teaches us to progress from **4** to **5**, yet, if its ideas are introduced too early, it will prevent  progress from **3** to **4** because "it's all relative, man."
+
+In scientific fields, the remarkable consensus of scientific practice makes it easy to progress to **4** yet difficult to progress to **5**. We can now see Rorty's postmodern criticisms above as successfully ushering many in the humanities from **4** to **5**;[^cis]  yet his rhetoric often fails to win over the scientific-minded. A science-friendly analogue is needed.
+
+[^cis]: In Chapter 4 of Rorty's [Contingency, Irony, and Solidarity](https://en.wikipedia.org/wiki/Contingency,_Irony,_and_Solidarity), his "common-sensical person", "metaphysician", and "ironist" correspond respectively to **3**, **4**, and **5**.
+
+## Postmodern scientific modeling
+
+What is required to have cooperation in the absence of consensus? We need to ground our reasoning in formal models yet fluidly move between different modeling frameworks, to never be trapped within a particular one. Category theory provides a toolset for this kind of thinking in a mathematical setting. For example, consider [categorical systems theory](https://topos.site/blog/2021/11/categorical-systems-theory/): there existed many disjoint, monolithic theories of what it means to be a system. Rather than add a new monolith, category theory is used to contextualize and systematize these formulations of "systems theory" in a way that elucidates their relationships to each other. 
+
+AlgebraicJulia makes this perspective tangible in various ways: disparate models can be joined together via colimits ("we talked in different ways but certain subsets of our talk were about the same thing") and via limits ("we were both looking at different aspects of the same thing").[^soph] Two modeling paradigms can be related to each other by data migration functors; by opening the scientist's eyes to the possibility of data migration, what was formally their space of possible models becomes a point in a space of model spaces. By creating the technology to enable the engineer and scientist to ergonomically shift their perspective in this way, we believe AlgebraicJulia will materially affect the engineering and scientific communities in their flexibility of thinking and capacity for coordination.
+
+[^soph]: For examples of this in the context of epidemiology models, see this [paper](https://arxiv.org/abs/2203.16345).
+
+The ontological humility category theory brings to pure mathematics (e.g. the debates over [what actually *is* a natural number$](https://en.wikipedia.org/wiki/Natural_number#Set-theoretic_definition) *vs* the [natural numbers object](https://en.wikipedia.org/wiki/Natural_numbers_object) of a category) can be extended to the mathematical models scientists use to ground their understanding of the world. This promotes a healthier scientific community by allowing us to make explicit the relationships between that which we take to be foundational, thereby allowing us to change foundations when appropriate and to cooperate with those of other perspectives.
+
+}

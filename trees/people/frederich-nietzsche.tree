@@ -1,0 +1,11 @@
+\title{Frederich Nietzsche}
+\taxon{person}
+\tag{philosopher}
+\meta{external}{https://plato.stanford.edu/entries/nietzsche/}
+\import{macros}
+\p{
+
+A German philosopher (1844-1900).
+}
+
+\image{headshots/neitzsche.jpeg}

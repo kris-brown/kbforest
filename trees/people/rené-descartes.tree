@@ -1,0 +1,9 @@
+\title{René Descartes}
+\taxon{person}
+\tag{philosopher}
+\meta{external}{https://plato.stanford.edu/entries/descartes/}
+\import{macros}
+\p{
+René Descartes was a French mathematician, scientist, and philosopher: 1596–1650.
+}
+\image{headshots/descartes.jpeg}

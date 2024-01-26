@@ -1,0 +1,13 @@
+\title{Law of the excluded middle}
+
+\p{
+
+In [[classical logic]], the law of the excluded middle is formulated as an inference rule that allows one to deduce #{A \lor \neg A} for any proposition, #{A}. I.e., we can assume, for any proposition #{A}, that either #{A} or its negation can be asserted. 
+
+This gets applied in the form of inferring #{A} after proving #{\neg \neg A} (i.e. we assume not-#{A}, then derive a contradiction, and conclude that #{A} is assertable).
+
+# External links
+- [nLab](https://ncatlab.org/nlab/show/excluded+middle)
+- [SEP](https://plato.stanford.edu/entries/contradiction/#LEMLNC)
+- [Wikipedia](https://en.wikipedia.org/wiki/Law_of_excluded_middle)
+}

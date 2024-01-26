@@ -1,0 +1,30 @@
+\title{Romanticism and textualism}
+
+\p{
+
+According to Rorty:
+
+```mermaid
+graph TD;
+
+Romanticism --> Idealism
+
+Romanticism --> Pragmatism
+
+  
+
+subgraph Textualism
+
+Weak
+
+Strong
+
+end
+
+  
+
+Idealism --> Weak
+
+Pragmatism --> Strong
+```
+}

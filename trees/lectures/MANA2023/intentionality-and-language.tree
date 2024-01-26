@@ -1,0 +1,156 @@
+\title{Intentionality and Language}
+
+\p{
+
+Source: [Video](https://www.youtube.com/watch?v=yz7PWdUSA8c) [Text](https://sites.pitt.edu/~rbrandom/Texts/Intentionality_and_Language_A_Normative\%20(2).pdf)
+
+# Intentionality
+
+**Intentionality** is the contentfulness distinctive of some of our psychological states and linguistic utterances.
+
+Intentionality *partially* overlaps with **consciousness**: 
+- pain is a nonintentional but psychologically conscious phenomenon. (a pain is not *about* anything - there is no content that could be expressed by a sentential 'that' clause). 
+- We make use of unconscious intentional states when making sense of other's behavior.
+
+This distinction of consciousness and intentionality is related to the distinction between **sentience** and **sapience**:
+
+- Sentience: being awake - anything that can feel pain is sentient.
+- Sapience: having intentionally contentful states (beliefs/desires/intentions).
+
+Our desire to mix these up is traced back to Descartes, who radically assimilated *sensations* (e.g. pain) and thoughts both as mental events. He saw them both as *transparent* and *incorrigible* to their subject.
+
+# Representational and Propositional Dimensions of Practical and Discursive Intentionality
+
+**Practical** vs **discursive** intentionality.
+
+- Practical: directedness at an object that animals exhibit when they deal skillfully with their world. However, this is difficult to separate from the kind of directedness that inanimate objects demonstrate.
+- Discursive: exhibited by concept-users when making judgments/claims *about* objects semantically.
+
+**Propositional** vs **representational** intentionality of an intentional state #{S}.
+
+- Representational: Specification of an object represented by a state (what is #{S} of?)
+- Propositional: Specification of what is believed/thought (what is it an #{S} that?)
+
+ | **Examples**|  Propositional | Representational |
+ |--|--|--|
+ |Practical | The dog believes *of* his master / The thermostat believes *of* the room | ... that he will serve dinner / that it is too cold | 
+ |Discursive| Alice believes *of* ships... | ...that they should float |
+
+(Note: The dog doesn't have the concepts of "master" or "serve", since it doesn't grasp most of the contrasts/implications essential to those concepts. Hence this must be practical rather than discursive intentionality.)
+
+Two orders of explanation about the relationship between practical and discursive intentionality: 
+
+- **Platonism** - understand practical intentionality in terms of discursive intentionality. Every implicit skill or propriety of practice is underwritten by a rule/principle - something that could be made discursively explicit.
+- **Pragmatism** - understand discursive intentionality in terms of practical intentionality. Knowing-that (things are thus-and-so) is a kind of knowing-how (to do something). What is explicit in the form of a conceptually articulated principle is intelligible only against a background of implicit practices.
+
+What of the explanatory priority of the representational and propositional dimensions? Brandom says for practical intentionality, the propositional should be understood in terms of representational.[^ex] But for discursive intentionality, the representational should be understood in terms of the propositional.
+
+[^ex]: Consider the mapping relation that skillful dealings produce and promote between items in the environment and states of the  organism. The usefulness of map representations depends on the goodness of inferences from map-facts (there is a blue wavy line between two dots here) to terrain-facts (there is a river between these two cities). The propositional content of the map facts is built up out of representational relations that are sub-propositional (correlating blue lines and rivers, dots and cities). Such relations underwrite the representation-to-proposition order of explanation at the level of practical intentionality.
+
+# The normativity of discursive intentionality
+
+Kant's idea: judgments/intentional doings are distinguished from nondiscursive creatures' behavior in that they are things the subject is *responsible for*. They express *commitments* or *endorsements*, they are exercises of the *authority* of the subject. Concepts are normative. Discursive creatures are ones who live in a *normative* space.
+
+Example: in judging the coin is copper, one is committed (whether one knows it or not) to the coin conducting electricity / melting at 1085 degrees. One is precluded from claiming the coin is less dense than water. 
+
+Kant explains the content of concepts in terms of judgments / responsibility (i.e. representational content explained in terms of propositional content). This is an opposite explanatory order from the tradition before him: people would start with contents of concepts (particular ones, like "Socrates", which represent objects and general ones, like "man" or "mortal", which represent properties). These concepts can be combined to form propositions (e.g. "Socrates is a man") and a theory of syllogisms ("Socrates is a man, all men are mortal, *so* Socrates is mortal") which classifies the inferences as good or bad depending on the contents of the propositions. This is explaining propositional content in terms of representational.
+
+Given the Kantian order of explanation, what it means to treat something as a represent*ing* (of something represent*ed*) is to acknowledge the authority of what is represented over assessments of the correctness of that representing. 
+
+Two broad ways of understanding normativity (as it appears in discursive intentionality). Both are *functionalist* (they look at the role discursive intentional states play in some larger system)
+
+- **Teleosemantic**: what we ought to follow / how representing ought be derives from selectionary/adaptive/evolutionary explanations.
+- **Social-practical**: the norms of concepts are instituted socially by normative attitudes (in particular, "reciprocal recognition"). This line of thought was invented by Hegel and continued through American pragmatists and Wittgenstein. Social norms is instituted when practitioners take performances *as* appropriate or inappropriate / treat others *as* committed or entitled etc.[^1] 
+
+[^1]: E.g. what it *means* for the the court to really *be* adjourned is precisely when #{J$ *takes* it to be adjourned, and that the community *takes* $J} to be the judge, who has the authority to adjourn the court.
+
+# An inferential approach to discursive propositional intentional content
+
+What kind of knowing *how* (to do something) amounts to knowing *that* (things are thus-and-so)? What is the difference between the parrot squawking "that's red" in the presence of red things and the human who responds to the same stimuli by claiming *that* something is red? What does the sapient, discursively-intentional observer do that the merely sentient, practically-intentional parrot does not?
+
+The difference is *understanding* - what practical abilities does that understanding consist in? There is a *normative* difference (the parrot does not express an endorsement) but also crucial is that the understood content is *conceptual* content (*propositional* contents are a paradigmatic kind of conceptual content). What makes content *conceptual* is that it stands in relations of material *consequence* and *incompatibility*. The observer can make inferences from their commitment and knows how to distinguish evidence for and against the commitment - the commitment is taking a stance in a network of related possible commitments. 
+
+Material inferential relations (in contrast to formal-logical ones) articulate the contents of non-logical (in contrast to logical) ones. E.g. "#{A$ is to the West of $B$, so $B$ is to the East of $A}." and "If it's copper, it'll conduct electricity". Part of what one must *do* in order to understand the concept of "West" is to endorse inferences like above. This is different from saying there is some meaning-constitutive set of inferences one must endorse - it's merely claiming that if one makes *no* endorsements like that then one cannot count as a user of that concept.
+
+If one makes no such distinctions, one has merely *labeled* (classified) something rather than *described* it. The parrot can reliably classify things as red by squawking "Red!" in the presence of red things the way iron can classify environments as oxygen-rich by rusting. 
+
+Seeing that boxes in an attic were labeled with red, yellow, green stickers tells us that boxes with the same label share *some* property. What the colors *mean* depends on the further inferences bound up in the colors (e.g. red boxes are to be discarded). Description is classification *plus* inferential consequences. 
+
+Semantic inferentialism: what distinguishes *discursive* commitments is that their contents are articulated by the roles they play in material inferential / incompatibility relations. Grasping / understanding such contents is a kind of practical know-how which distinguishes sapients from mere sentients.
+
+# The relation of language and thought in discursive intentionality
+
+Clearly there can be practical intentionality without language.
+
+Can there by discursive intentionality without language? Early modern philosophers took it to be obvious we could have thoughts apart from their linguistic expression. Grice and Fodor have continued this tradition. However, there is an alternative order of explanation which understands discursive intentionality in terms of language (often associated with Wittgenstein). Dummett expresses this with the [[Judgment as interiorization of assertion|quote]]:
+
+> We have opposed throughout the view of assertion as the expression of an interior act; judgment, rather, is the interiorization of the external act of assertion.
+
+This view is more extreme than Davidson's view which holds that there is no overall explanatory priority in either direction:
+
+> Neither language nor thinking can be fully explained in terms of the other, and neither has conceptual priority. The two are, indeed, linked in the sense that each requires the other in order to be understood, but the linkage is not so complete that either suffices, even when reasonably reinforced, to explicate the other.
+
+This view says concept use is not intelligible in a context that does not include language use, while allowing for intentional states (e.g. beliefs) to be essential in understanding linguistic practices. The capacity to *think* (i.e. have propositionally contentful thoughts, that things are thus-and-so) and the capacity to *talk* arise and develop together. 
+
+# Putting together a social normative pragmatics and an inferential semantics for discursive intentionality
+
+Iron triangle of discursiveness:
+
+- Syntax: declarative sentences
+- Semantics: propositions
+- Pragmatics: assertions
+
+A pragmatist considers explaining/understanding the first two categories in terms of the last. 
+
+- What *is* a declarative sentence is characterized in terms of the practice of asserting things are thus-and-so.
+- What *is* a propositional content is characterize as that which can serve as (and stand in need of) reasons, i.e. play the role of premise and conclusion in inferences.
+
+## Deontic scorekeeping 
+
+Normative statuses are social statuses. The paradigm deontic status is *commitment*.
+
+To understand an assertional speech act is to know how to *keep score* on the commitments the speaker has undertaken by performing that speech act.
+
+- Asserting #{p} *obliges* one
+	- to acknowledge commits that follow from #{p}
+	- to offer a justification (give reasons) if one is suitably challenged
+- Asserting #{p$ authorizes others to attribute commitment to $p} to oneself
+
+Exercising such inferentially-articulated authority and fulfilling such responsibility is what one must *do* in order to count as committed to #{p}.
+
+A second deontic status is *entitlement*, which is also something that must be tracked by scorekeepers. We can then distinguish three flavors of (modally-robust) inferential relations:
+
+1. *Permissive* inferential (probably evidential): scorekeepers who take anyone entitled to #{p$ to be (prima facie) entitled to $q}. (This is a generalization of inductive inference)
+2. *Committive* inferential (dispositive evidential): scorekeepers who take anyone committed to #{p$ to be committed to $q}. (This is a generalization of deductive inference)
+3. Material incompatibility: scorekeepers treat anyone who is committed to #{p$ to *not* be entitled to $q} (and vice-versa) 
+
+This story (developed in [[Making it Explicit]]) is a sketch of how discursive intentionality is intelligible as emerging from exercises of practical intentionality that have the right normative and social structure.
+
+# Logic: the organ of semantic self-consciousness
+
+Being practically taken/treated *as* standing in relations of material inference/incompatibility is how expressions come to have propositional discursive semantic content, and so are able to make something explicit (sayable, claimable, thinkable). We can go further and make explicit those normative material inferential relations, which are (initially) implicit in the practical attitudes discursive scorekeepers adopt to one another.
+
+This makes intelligible the possibility of creatures that are *rational* (engaging in practices of giving and asking for reasons) but not yet *logical*. They have the practical skills needed to use logical vocabulary, if we were to introduce that vocabulary to them.
+
+# Pragmatic social normative perspectives and the representational dimension of discursive semantic content
+
+Bob attributes to Alice the claim "Benjamin Franklin was a printer" and the claim "Benjamin Franklin is the inventor of the lightening rod." Then Bob should also attribute Alice the claim "The inventor of the lightening rod was a printer."
+
+Suppose Bob (not necessarily Alice) is committed to "Benjamin Franklin is the inventor of bifocals." Should Bob attribute to Alice "The inventor of bifocals was a printer."? This is a consequence of the facts (as Bob takes them) whether or not Alice realizes that. In an important sense, Alice has (without knowing it) committed herself to the inventor of bifocals having been a printer. But this is a *different* sense from how she has committed herself to the inventor of the lightening rod having been a printer.
+
+Syntactically, we make this explicit with *de dicto* vs *de re* clauses. 
+
+- De dicto: "Alice claims *that* the inventor of the lightening rod was a printer." 
+- De re: "Alice claims *of* the inventor of bifocals that he was a printer."
+
+These play different scorekeeping roles: the former *attributes* to Alice the responsibility of the overall claim, whereas in the latter Bob must *undertake* responsibility of the claim (that Ben Franklin was the inventor of bifocals) in order to *attribute* responsibility of the overall claim to Alice. Thus the "of-ness" (which we think of as representation) makes explicit these dynamics of undertaking commitments vs attributing them.
+
+Bob cares about *de dicto* consequential commitments  because he wants to know what else Alice would endorse / do based on the commitments she acknowledges. He cares about the *de re* consequential commitments because he wants to extract information from the claims of others—i.e., premises that he can use in his own inferences.
+
+Another example: Bob attributes to Alice the intention to shoot a deer and the belief that the creature in front of her is a deer. *De dicto*: “Alice believes *that* the creature in front of her is a deer, the shooting of which would fulfill her intention” is helpful for Bob to predict that Alice will shoot. Bob may believe that the creature is a cow, so *de re*: "Alice believes *of* the cow in front of her that it is a deer, the shooting of which would fulfill her intention." From this Bob can deduce that Alice will shoot a cow. Using his collateral beliefs, Bob can extract information from Alice's commitments that is 
+unavailable to her.
+
+Keeping track of what premises are available for the reasoning of others and what premises are available for our own reasoning is what we are doing when we talk or think about what we are talking or thinking *about*: the representational dimension of discursive intentionality.
+
+
+}

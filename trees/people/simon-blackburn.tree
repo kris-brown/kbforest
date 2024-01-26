@@ -1,0 +1,87 @@
+\title{Simon Blackburn}
+\taxon{person}
+\tag{philosopher}
+
+
+\p{
+
+
+# [Truth, Objectivity, and Rorty](https://www.youtube.com/watch?v=DSWWzeTN5JI) (2005)
+# Relative vs absolute truth 
+An anecdote about subjectivists and absolutists about Truth talking past each other, based on Jeremy Waldron's experience at a panel featuring representatives from the world's great religions. 
+
+- The Hindu got up and talked about karma and reincarnation, etc., after which everyone politely applauded: "Amazing, wow, whatever works for you!". 
+- Then the Buddhist got up and talked about desire leading to suffering and nirvana, etc., and likewise people clapped: "Nice, whatever works for you!". 
+- The Christian got up and talked about the Garden of Eden and Jesus, and people clapped: "Wow, terrific. Whatever works for you!" 
+- At this point, the Christian speaker thumped the table, saying, "No, this isn't a matter of 'works for me'. It's the word of a living God, and you're damned to hell if you don't believe it." To which people replied, "Wow, terrific, whatever works for you!".
+
+# Minimalism about truth
+Going "minimilist" / "deflationist" about truth can help resolve the debate between the relativists and absolutists about truth. The both absolutist and relativist say that to answer "what is the truth of #{p$?" requires understanding Truth (the absolutist looks to Reality, the relativist looks to society), but the minimalist needs not theorize about Truth at all; he says the truth of $p$ amounts to looking at $p}; anything else is a distraction.
+
+Someone asks "What is truth?" People look to the philosopher for a high falutin answer. But the minimalist says the right answer is to ask a question right back: "What are you interested in?" Do this until the person gives an example, e.g. "Well I'm interested in whether penguins fly". Then you can answer: "Well, in that case, the truth depends on penguins flying".  (In this *particular* case, the subject matter is a straightforward empirical question - you can go to Antarctica and collect some data to make progress).
+
+That's very disappointing, but the point is that disappointment is all you're going to get. When we're talking in terms of truth, we're not elevating our discussion at all, taking a God's eye view of the world (There is no difference between "I really want to know whether it's true if penguins fly" and "I want to know if penguins fly").
+
+The minimalist denies there is a general "problem of truth". There's nothing interesting to say about it.
+
+# Objection: removal of value / ambitions
+A response to minimalism is that it removes the value of truth, our ambition for it. That it makes it not possible to *care* about truth. Think of the problem Winston is worried about in *1984*. How can truth remain an ideal if it has no abstract robust property?
+
+"How can one care about the truth?" The minimalist again replies "What are you interested in?" The reply "I'm interested in whether penguins fly." The answer: "Then caring about the truth of whether penguins fly is carying about whether penguins fly, and other things like only saying that penguins fly if they actually fly, etc." A minimalist notion of caring about the truth (unqualified) could be phrased as caring about satisfying the above schema as many propositions #{p} as possible.
+
+# Defeating the moral relativist
+Suppose I argue with a friend over whether fox hunting should be made illegal. The moral relativist #{R} drops into the conversation to say "You two are always yammering as if there's a truth to the matter. You ought realize it's true for you that it should be banned and true for the other that it shouldn't, and then shut up." 
+
+Minimalism rightly shuts #{R$ down. It allows us to see how $R$ is just a distraction to the conversation; $R$ was not responsive to any of my raesons for fox hunting being bad nor my friend's reasons for it being good, yet $R} seems to be proposing that my friend and I agree to disagree (which is just taking the side of whomever doesn't want it banned). [^ex]
+
+[^ex]: There *are* times when a relativist isn't merely a distraction, e.g. pointing out there is not a real issue / the issue isn't framed properly. E.g. stopping two people from arguing about whether Vermeer is a 'better' artist than Rembrandt.
+
+# Postmodernism 
+
+A refutation of the following ideal (e.g. laypeople, naive realism, positivism):
+
+- We have determinate experiences
+- We have a determinate way for taking experience and making theory 
+- Our vocabulary has determinate meaning 
+	- you can take results of theorizing and expect them to transmit without distortion
+
+Postmodernism dissolves this picture. Our sayings and perceptions of the world will inevitably be highly influenced by a process of acculturation of which we know very little. It is not limited to continental philosophy.
+
+- Sellars' attacking determinacy of experiences
+	- [[myth of the given]] - "observations" do not unproblematically/directly plug you into the fact observed.
+- Quine undermining determinacy of meaning 
+	- [[Two Dogmas of Empiricism]] denying the *a priori* and words bore meaning which you can rely on when communicating
+- Wittgenstein stressing the role of human nature / culture in determining what "going on in the same way" means.
+- Kuhn arguing science itself is not a pure matter of rationality. Paradigms can shift (how they shift depends on social/political forces among other things).
+
+# [Rorty](richard-rorty) 
+
+Spokesman for a postmodernist climate. He says things like "Proper discourse / success in discourse / truth is a matter of *coping*, not *copying*". He wants to replace concept of "representation" (by language of Reality) and "Truth" with a more Darwinian concept of being adapted (don't ask "true" or not, ask if a belief is useful or not).  He denies we can make sense of Winston's problems in *1984*.
+
+Blackburn concedes the blows Sellars/Quine/Wittgenstein/Kuhn made to an older notion of truth, but he wants to rehibilitate the word with minimalism, rather than siding with Rorty in jettisoning that kind of vocabularly wholesale. He identifies Rorty with the relativist of the absolutist vs relativist paradigm he takes minimalism to dissolve. 
+
+Rorty seeks to replace vertical relations "representation" with horizontal relations of "solidarity". "Justification becomes a social phenomenon rather than a transaction between a 'knowing subject' and 'Reality'."  He has two devices for softening you up. 
+
+1. If you're still bothered by truth and objectivity, you're attempting to stand on your own shoulders, standing outside of your own perspective (a mythical point of view). [^ber]
+2. You'd only be a Realist if you had a fantastical idea that nature has its own preferred vocabulary. [^sci]
+
+[^ber]: Blackburn thinks this is a fine argument, used by idealists since [[George Berkeley|Berkeley]].
+
+[^sci]: Scientism takes this idea seriously (the language of external reality is science / mathematics). But Rorty's main critics don't, since they believe nonscientific discourses have their own propriety.
+
+Blackburn's minimalism isn't susceptible to these points. 
+
+# Space of causes vs space of reasons
+Another argument Rorty leverages is the Kantian/Sellarsian distinction of spaces of [[reasons vs causes]]. Our interaction with the external world is purely *causal*, e.g. energies/photons. The old kind of epistemology would require photons to come bearing messages / *semantic* contents. This is also related to Davidson's claim that "only a belief justifies another belief."[^d] 
+
+[^d]: Davidson trying to give a general answer to "what justifies a belief" is as bad as trying to give a general answer to "What is truth?"
+
+Blackburn claims the slogan is not true. The belief that there's butter in the fridge is justified by "I looked recently".  Beliefs encompass things in the causal flux. "The presence of butter causes my belief in there being butter in the fridge." Responsiveness to the world allows for some rehabilitated notion of representation. 
+
+Blackburn accuses Sellars/Rorty/Brandom of getting into a position similar to [[George Berkeley|Berkeley]] got into, seeing as the only alternative to Locke's trancendental claim that ideas must resemble reality was to lock oneself in the realm of ideas altogether. Consider the representational properties of a map (with cliffs marked to avoid). Rorty claims the map is helping you cope. But what is the contrast between coping and copying? Human common sense allows you to relate the map to the land.
+
+Blackburn ties representation generally to explanation. Related: [[success semantics]] which tries to see concepts/reasoning as integrated with the external world, whereas postmodernists fail to see us as essentially embodied creatures embedded in a physical space around us. What justifies our beliefs will have to appeal to our embodiment in the world.
+
+# Conclusion
+
+Blackburn is not a polyanna - we do have to worry about the concerns of Sellars/Quine/Wittgenstein. He is optimistic about a philosophy which can remove the scare quotes Rorty puts on Truth and Reality. }

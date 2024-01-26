@@ -1,0 +1,11 @@
+\title{Baruch Spinoza}
+\taxon{person}
+\tag{philosopher}
+\meta{external}{https://plato.stanford.edu/entries/spinoza/}
+\import{macros}
+
+\p{
+Baruch Spinoza was a Dutch philosopher (1632-1677).
+}
+\image{headshots/spinoza.jpeg}
+
