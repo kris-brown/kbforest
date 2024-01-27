@@ -6,47 +6,47 @@ Source: [Video](https://www.youtube.com/watch?v=LfhrfVJ4_sk) [Text](https://site
 
 # Representation and Inferentialism
 
-The traditional divide between early modern pre-Kantian philosophers is empiricism vs rationalism,[^both] but another contrast that can be drawn is between understanding cognitive contentfulness in terms of *representation* vs *inference*. Although Rationalists Spinoza and Leibniz accepted representation as important, they sought to explain it in terms of the inferential significance of representing. Unlike Descartes, they sought to explain what it is for something to be understood, taken, treated, or employed *as* a representing *by* the subject: what it is for it to be a representing *to* or *for* that subject. Empiricists tended to prefer the opposite explanatory priority: inferential correctness comes from the contents of representings (this is why Hume can take for granted the content of his individual representings but worry how they could possibly underwrite the correctness of inductive inferences).
+The traditional divide between early modern pre-Kantian philosophers is empiricism vs rationalism,[^both] but another contrast that can be drawn is between understanding cognitive contentfulness in terms of \em{representation} vs \em{inference}. Although Rationalists Spinoza and Leibniz accepted representation as important, they sought to explain it in terms of the inferential significance of representing. Unlike Descartes, they sought to explain what it is for something to be understood, taken, treated, or employed \em{as} a representing \em{by} the subject: what it is for it to be a representing \em{to} or \em{for} that subject. Empiricists tended to prefer the opposite explanatory priority: inferential correctness comes from the contents of representings (this is why Hume can take for granted the content of his individual representings but worry how they could possibly underwrite the correctness of inductive inferences).
 
-[^both]: Both sides of ran together *casual* and *conceptual* issues (due to failing to appreciate the *normative* character of concepts).
+[^both]: Both sides of ran together \em{casual} and \em{conceptual} issues (due to failing to appreciate the \em{normative} character of concepts).
 
 # Inferential and noninferential reports
 
 We learn from Sellars' [[Empiricism and the Philosophy of Mind]] that noninferential reports (e.g. "This ball is red") must be inferentially articulated. 
 
-This is needed to distinguish noninferential reporters from automatic machinery (a parrot trained to say "that's red" in the presence of red things, a piece of iron which classifies its environment as having oxygen or not by rusting). The difference is one of (conceptual) understanding, but what does this consist in? The parrot and the iron don't *understand* their responses (their responses mean nothing to them, even though they mean something to us). Sellars' central thought: for a response to have *conceptual content* is just for it to play a role in the *inferential* game of making claims / giving and asking for reasons. (The parrot doesn't treat "That's red" as incompatible with "That's green" nor as following from "That's scarlet" and entailing "That's colored").
+This is needed to distinguish noninferential reporters from automatic machinery (a parrot trained to say "that's red" in the presence of red things, a piece of iron which classifies its environment as having oxygen or not by rusting). The difference is one of (conceptual) understanding, but what does this consist in? The parrot and the iron don't \em{understand} their responses (their responses mean nothing to them, even though they mean something to us). Sellars' central thought: for a response to have \em{conceptual content} is just for it to play a role in the \em{inferential} game of making claims / giving and asking for reasons. (The parrot doesn't treat "That's red" as incompatible with "That's green" nor as following from "That's scarlet" and entailing "That's colored").
 
-From this it follows that to master *any* concepts one must master *many* concepts.[^clap] It follows there is no autonomous language game consisting *entirely* of noninferential reports.
+From this it follows that to master \em{any} concepts one must master \em{many} concepts.[^clap] It follows there is no autonomous language game consisting \em{entirely} of noninferential reports.
 
 [^clap]: Slogan: cognitively, grasp of just one concept is the sound of one hand clapping.
 
 # Frege on conceptual content
 
-A historical antecedent to Sellars' inferentialism is the young[^y] Frege. In his seminal first work, the *Begriffsschrift* of 1879, he held that two claims have the same conceptual content iff they have the same inferential role: a good inference is never turned into a bad one by substituting one for the other. Carnap also picks this idea up by defining the content of a sentence as the class of non-valid sentences which are its consequences (i.e. can be inferred from it).
+A historical antecedent to Sellars' inferentialism is the young[^y] Frege. In his seminal first work, the \em{Begriffsschrift} of 1879, he held that two claims have the same conceptual content iff they have the same inferential role: a good inference is never turned into a bad one by substituting one for the other. Carnap also picks this idea up by defining the content of a sentence as the class of non-valid sentences which are its consequences (i.e. can be inferred from it).
 
 [^y]: Dummett argues that the later Frege made a wrong move in switching to seeing truth, rather than inference, as primary in the order of explanation. However, this does not necessitate that the later Frege understood truth in terms of prior primitive reference relations. (E.g. Davidson's notion of truth without reference.)
 
 # Material inference
 
-Sellars used *material inference* to refer to inferences whose correctness determines the conceptual contents of their premises/conclusions.
+Sellars used \em{material inference} to refer to inferences whose correctness determines the conceptual contents of their premises/conclusions.
 
-Example: the inference from "Pittsburgh is to the *west* of Princeton" to "Princeton is to the *east* of Pittsburgh" and "Lightning is seen now" to "Thunder will be heard soon". The concepts of east, west, lightning, thunder make these appropriate. Endorsing the inferences is part of grasping/mastering the concepts (quite apart from any *logical* competence).
+Example: the inference from "Pittsburgh is to the \em{west} of Princeton" to "Princeton is to the \em{east} of Pittsburgh" and "Lightning is seen now" to "Thunder will be heard soon". The concepts of east, west, lightning, thunder make these appropriate. Endorsing the inferences is part of grasping/mastering the concepts (quite apart from any \em{logical} competence).
 
-However, it is common to misidentify *inferential* articulation with *logical* articulation, to think of rationality as a purely logical capacity. Call this view *formalism*, which sees "inference" only as "formally valid inference" and thus makes inferences good or bad solely in virtue of their form, with the contents of claims mattering only for the truth of the premises. For the formalist, there is no such thing as a material inference: "it is raining, therefore the streets will be wet" is viewed as missing a suppressed premise "if it is raining, then the streets will be wet". 
+However, it is common to misidentify \em{inferential} articulation with \em{logical} articulation, to think of rationality as a purely logical capacity. Call this view \em{formalism}, which sees "inference" only as "formally valid inference" and thus makes inferences good or bad solely in virtue of their form, with the contents of claims mattering only for the truth of the premises. For the formalist, there is no such thing as a material inference: "it is raining, therefore the streets will be wet" is viewed as missing a suppressed premise "if it is raining, then the streets will be wet". 
 
 This introduces the problem of [[What the Tortoise said to Achilles]] - which formalists address by attributing people an implicit logical ability whereas inferentialists attribute people the capacity to assess proprieties of material inference. The issue at stake is the order of explanation between propositional form and propositional content. 
 
 One advantage for inferentialism is that a notion of formally valid inferences can be derived from a notion of materially correct inferences, but not vice-versa. We identify a subset of vocabulary (say, logical vocabulary) and observe for which sentences can we substitute non-logical vocabulary for non-logical vocabulary while still preserving material correctness.[^f] 
 
-[^f]: Note how this naturally generalizes to a notion of #{X$-form for any subset of vocabulary $X}, allowing us to have a notion of theological / culinary / etc form.
+[^f]: Note how this naturally generalizes to a notion of #{X}-form for any subset of vocabulary #{X}, allowing us to have a notion of theological / culinary / etc form.
 
 # Elucidative rationality
 
-Sellars views statements like "#{A$ causally necessitates $B$" as the expression of a rule governing our use of the terms $A$ and $B}, i.e. as inference licenses which make explicit that which was previously only implicit in the inferential practices. To say something makes explicit that which was implicit is to say it has an *expressive* role. These expressions brings practices into the game of giving and asking for reasons - which opens them up to rational criticism.
+Sellars views statements like "#{A} causally necessitates #{B}" as the expression of a rule governing our use of the terms #{A} and #{B}, i.e. as inference licenses which make explicit that which was previously only implicit in the inferential practices. To say something makes explicit that which was implicit is to say it has an \em{expressive} role. These expressions brings practices into the game of giving and asking for reasons - which opens them up to rational criticism.
 
 # Frege on the expressive role of logic
 
-Frege can be read as agreeing with the above point in the _Begriffsschrift_: his formal language allows for the explicit codification of conceptual contents / material inference. Frege contrasts this approach with that of Boole, who conceived of his formal language only in terms of *formal* inference (i.e. express no material contents):
+Frege can be read as agreeing with the above point in the _Begriffsschrift_: his formal language allows for the explicit codification of conceptual contents / material inference. Frege contrasts this approach with that of Boole, who conceived of his formal language only in terms of \em{formal} inference (i.e. express no material contents):
 
 > The reason for this inability to form concepts in a scientific manner lies in the lack of one of the two components of which every highly developed language must consist. That is, we may distinguish the formal part...from the material part proper. The signs of arithmetic correspond to the latter. What we still lack is the logical cement that will bind these building stones firmly together...In contrast, Boole's symbolic logic only represents the formal part of the language.
 
@@ -60,10 +60,10 @@ The conditional is the paradigm of a locution that permits one to make inferenti
 
 Any linguistic expression/concept has two aspects:
 
-- the *circumstances* under which it's correctly applied/uttered/used
-- the *consequences* of its application/utterance/use
+- the \em{circumstances} under which it's correctly applied/uttered/used
+- the \em{consequences} of its application/utterance/use
 
-Connection to inferentialism: the *content* to which one is committed by using the concept may be represented by the inference one implicitly endorses from its circumstances to its consequences.
+Connection to inferentialism: the \em{content} to which one is committed by using the concept may be represented by the inference one implicitly endorses from its circumstances to its consequences.
 
 Gentzen specified the inferential roles of logical connectives this way.
 
@@ -71,13 +71,13 @@ Gentzen specified the inferential roles of logical connectives this way.
 
 Analogy from logical operators to sentences:
 
-An "introduction rule" corresponds to the *sufficient conditions* for asserting it. An "elimination rule" corresponds to the *necessary* consequences of asserting it (i.e. what follows from doing so). The link between pragmatic significance and inferential content is: asserting a sentence is implicitly undertaking a commitment to the correctness of the material inference from its circumstances to its consequences of application.
+An "introduction rule" corresponds to the \em{sufficient conditions} for asserting it. An "elimination rule" corresponds to the \em{necessary} consequences of asserting it (i.e. what follows from doing so). The link between pragmatic significance and inferential content is: asserting a sentence is implicitly undertaking a commitment to the correctness of the material inference from its circumstances to its consequences of application.
 
 This makes understanding / grasping a proposition is not a kind of turning on a Cartesian light, but rather a practical mastery of a kind of inferentially articulated doing: responding differentially according to circumstances of proper application of a concept + distinguishing the proper inferential consequences of each application.
 
 This isn't all or nothing: the metallurgist understands tellurium better than I do. Thinking clearly is a matter of knowing what one is committing oneself to by a certain claim (and what would entitle one to that commitment). Failure to grasp either of these components is failure to grasp the inferential commitment use of the concept involves, i.e. failure to grasp its conceptual content.
 
-Verifications / assertibilists / reliabilists make the mistake of treating the *first* aspect of content as all that matters content-wise. For them, mastering the concept consists entirely in mastering the circumstances of when one becomes entitled / committed to endorse a claim. But this cannot be right because there are multiple claims which have the same circumstances of application but different consequences:
+Verifications / assertibilists / reliabilists make the mistake of treating the \em{first} aspect of content as all that matters content-wise. For them, mastering the concept consists entirely in mastering the circumstances of when one becomes entitled / committed to endorse a claim. But this cannot be right because there are multiple claims which have the same circumstances of application but different consequences:
 
 - "I forsee that I will write a book about Hegel" vs "I will write a book about Hegel"
 	- The possibility of being unexpectedly hit by a bus makes consequences different for the two scenarios.
@@ -88,7 +88,7 @@ Dummett gives an example:
 
 > A good example would be the word 'valid' as applied to various forms of argument. We might reckon the syntactic characterization of validity as giving the criterion for applying the predicate 'valid' to an argument, and the semantic characterization of validity of giving the consequences of such an application. ...if he is taught in a very unimaginative way, he may see the classification of arguments into valid and invalid ones as resembling the classification of poems into sonnets and non-sonnets, and so fail to grasp that the fact that an argument is valid provides any grounds for accepting the conclusion if one accepts the premises. We should naturally say that he had missed the point of the distinction.
 
-The classical American pragmatists had the opposite problem of focusing entirely on the *consequences* of a statement as its content. 
+The classical American pragmatists had the opposite problem of focusing entirely on the \em{consequences} of a statement as its content. 
 
 - But one can know what follows from, e.g., an action being immoral without understanding the general circumstances of when to take something as immoral. 
 - One can understand that AWOL has the consequence of being liable to being arrested, but the circumstances under which one acquires that liability are equally essential to the concept.
@@ -100,12 +100,12 @@ Dummett:
 > ...most philosophical observations about meaning embody a claim to perceive... a simple pattern: the meaning of a sentence consists in the conditions for its truth and falsity, or in the method of its verification, or in the practical consequences of accepting it. Such dicta cannot be taken to be so naive as to involve overlooking the fact that there are many other features of the use of a sentence than the one singled out as being that in which its meaning consists: rather, the hope is that we shall be able to give an account of the connection that exists between the different aspects of meaning. One particular aspect will be taken as central, as constitutive of the meaning of any given sentence...; all other features of the use of the sentence will then be explained by a uniform account of their derivation from that feature taken as central.
 
 Two caveats
-- just because a theory of meaning must explain use does not mean that meaning must be *identified* with an aspect of use. We need not be semantic instrumentalists: the idea that meanings are theoretical entities we postulate to explain the antics of use.
+- just because a theory of meaning must explain use does not mean that meaning must be \em{identified} with an aspect of use. We need not be semantic instrumentalists: the idea that meanings are theoretical entities we postulate to explain the antics of use.
 - One can also deny that there are meanings in this sense: Dummett thinks the later Wittgenstein had this view, that there is no way to derive all the features of the use of an expression in some uniform way. One can deny that there are such things as meanings (to be the objects of a theory) without denying that expressions are meaningful. 
 
 Conservativeness is a condition we can impose on the relation between introduction and elimination rules for a logical connective: that it doesn't make any new inferences possible in the old vocabulary. "Tonk" is an example of a non-conservative logical operator that lets one conclude anything.
 
-The expressive account of logic gives us a *reason* to constrain logical connectives to be conservative - since their purpose is to only help us make explicit that which was already implicit in the old vocabulary, its introduction ought not be able to create new inferences in the old vocabulary. 
+The expressive account of logic gives us a \em{reason} to constrain logical connectives to be conservative - since their purpose is to only help us make explicit that which was already implicit in the old vocabulary, its introduction ought not be able to create new inferences in the old vocabulary. 
 
 # Boche and the elucidation of inferential commitments
 
@@ -117,7 +117,7 @@ However slurs (which often have "descriptive" circumstances and "evaluative" con
 
 There are good concepts that are non-conservative. Temperature was introduced with certain circumstances of application and consequences. As new ways of measuring temperature were introduced (and new theoretical/practical consequences adopted), the complex inferential commitments evolved.
 
-It's not essential for a newly-introduced inference (in virtue of using a non-conservative concept) is one we've already endorsed, but what matters is if it's one we *ought* to endorse. Slurs introduce inferences we (independently) believe should not be endorsed - they are commitments we cannot become entitled to. 
+It's not essential for a newly-introduced inference (in virtue of using a non-conservative concept) is one we've already endorsed, but what matters is if it's one we \em{ought} to endorse. Slurs introduce inferences we (independently) believe should not be endorsed - they are commitments we cannot become entitled to. 
 
 # Harmony and material inference
 
@@ -125,32 +125,32 @@ Let harmony be the kind of relation we want to obtain between the circumstances 
 
 There is an ideal where all our concepts are conservative extensions of the others - this would be the situation where Socratic reflection would never motivate us to alter our contents/commitments. Call this a "transparent" conceptual scheme.
 
-Dummett asks us to consider the concept of personal identity. We have reasonably sharp criteria for applying the concept, and there are also consequences (legal/moral) that follow from it. But we can imagine another group of people who use different criteria from ours. Precisely what make it different criteria *for personal identity* are that the consequences would be the same. Now let's consider the relationship between the circumstances and consequences of "personal identity": if there were a clear true method to derive the consequences from the circumstances, then the difference between us and them would be a matter of factual disagreement - if there were no such method at all then it would simply be a matter of preference with no right or wrong in the matter at all. But, in reality, we think of personal identity as something in between.[^td]
+Dummett asks us to consider the concept of personal identity. We have reasonably sharp criteria for applying the concept, and there are also consequences (legal/moral) that follow from it. But we can imagine another group of people who use different criteria from ours. Precisely what make it different criteria \em{for personal identity} are that the consequences would be the same. Now let's consider the relationship between the circumstances and consequences of "personal identity": if there were a clear true method to derive the consequences from the circumstances, then the difference between us and them would be a matter of factual disagreement - if there were no such method at all then it would simply be a matter of preference with no right or wrong in the matter at all. But, in reality, we think of personal identity as something in between.[^td]
 
 [^td]: [[Two Dogmas of Empiricism]] would also be evidence against the dichotomy of matters of fact and logical relations of ideas.
 
 The idea that the relationship between consequences and circumstances of application must be a logical/matter-of-factual one (where we just unpack the concepts in the circumstances in order to derive the consequences) requires a conceptual scheme which is transparent as described above. That conception insists that the jointly sufficient conditions entail the individually necessary ones, making it attractive to talk about content as truth conditions rather than focusing on material inferential commitments that relate the sufficient to the distinct necessary conditions. 
 
-The contrasting picture we recommend, where conceptual contents are conferred by their being caught up in a structure of inferentially articulated commitments/entitlements, harmony is a matter of asking which material inferences we *ought* to endorse. We oughtn't expect nor welcome a general or wholesale answer.
+The contrasting picture we recommend, where conceptual contents are conferred by their being caught up in a structure of inferentially articulated commitments/entitlements, harmony is a matter of asking which material inferences we \em{ought} to endorse. We oughtn't expect nor welcome a general or wholesale answer.
 
 Dummett thinks a theory of meaning ought be an account of the nature of harmony that ought obtain between our concepts. Brandom discourages us from formulating this theory of meaning in terms of necessary/sufficient conditions for the circumstances/consequences of application of "harmony". That would be incompatible with the very Socratic method (i.e. practice of harmonizing our discordant beliefs) which it is meant to codify.
 
-Sellars regarded modal claims as expressing inference licenses (perhaps #{\square (A \rightarrow B)$ expresses the license to express $B$ if one is entitled to $A}, even in the future). This can be likened to common law: intended both to codify prior practice (precedent) expressing explicitly as a rule what was implicit therein, and to have regulative authority for subsequent practice. 
+Sellars regarded modal claims as expressing inference licenses (perhaps #{\square (A \rightarrow B)} expresses the license to express #{B} if one is entitled to #{A}, even in the future). This can be likened to common law: intended both to codify prior practice (precedent) expressing explicitly as a rule what was implicit therein, and to have regulative authority for subsequent practice. 
 
 Any theory of inferential harmony (that we aim at via Socratic reflection) must derive its credentials from its expressive adequacy to that practice.
 
 # From semantics to pragmatics
 
 The first part of the essay introduced three related ideas:
-- the *inferential* understanding of conceptual content
-- the idea of *materially* good inferences
-- the idea of *expressive* rationality
+- the \em{inferential} understanding of conceptual content
+- the idea of \em{materially} good inferences
+- the idea of \em{expressive} rationality
 
 These contrast with:
-- an understanding of content exclusively under the model of *representation* of states of affairs.
-- an understanding of goodness of inference exclusively on the model of *formal* validity.
-- an understanding of rationality on the model of *instrumental* or means-end reasoning.
+- an understanding of content exclusively under the model of \em{representation} of states of affairs.
+- an understanding of goodness of inference exclusively on the model of \em{formal} validity.
+- an understanding of rationality on the model of \em{instrumental} or means-end reasoning.
 
-The second part of the essay considered these ideas with Dummett's representation of inferential roles in terms of circumstances and consequences of application (for expressions and concepts). An expressive view of the role of logic was presented and its relation to the practices constitutive of rationality. This project recovers the study of *logic* as having direct significance for projects at the core of philosophy since its Socratic inception.
+The second part of the essay considered these ideas with Dummett's representation of inferential roles in terms of circumstances and consequences of application (for expressions and concepts). An expressive view of the role of logic was presented and its relation to the practices constitutive of rationality. This project recovers the study of \em{logic} as having direct significance for projects at the core of philosophy since its Socratic inception.
 
 }

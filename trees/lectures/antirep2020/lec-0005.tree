@@ -29,7 +29,7 @@ Romanticism has idealist and pragmatist tendencies. Idealism corresponds to [[St
 
 Rorty gives a [[Pragmatism and Nietzsche|redescription of Nietzsche]], an example of the kind of strong textualism which takes a text and beats it into a shape to suit the reader's purpose, imposing his own vocabulary on it.
 
-Rorty [[Hegel literary genre|reconstructs]] a progression from *idealism* to *romanticism* to *pragmatism*.
+Rorty [[Hegel literary genre|reconstructs]] a progression from \em{idealism} to \em{romanticism} to \em{pragmatism}.
 
 Rorty makes a number of claims:
 
@@ -79,7 +79,7 @@ This is not just [[representationalism]], it is nominalistic representationalism
 
 Brandom calls it "the worst combination" to be declarativist, representationalist, and nominalist.
 
-Tarskian model theory (and following it, possible worlds semantics) is *not* nominalistic: it starts with semantic relations understood nominalistically, but then it builds up representational readings of sentences as sets of models / possibles worlds (those are treated differently from the names).
+Tarskian model theory (and following it, possible worlds semantics) is \em{not} nominalistic: it starts with semantic relations understood nominalistically, but then it builds up representational readings of sentences as sets of models / possibles worlds (those are treated differently from the names).
 
 There is a connection between this topic and the vocabularity-relativity / objectivity. One question we can ask: to what extent is the categorical-structure of the world a vocabulary-dependent phenomenon? 
 - Ask how we are to address debate two ways of thinking of the objective world we are talking about: is it (as wittgenstein puts it) a world of facts or a world of things?
@@ -87,13 +87,13 @@ Rorty thinks, if you say it's a world of facts, you've conceded his antirepresen
 
 [^f]: Frege says: a fact is a thought (i.e. thinkable) that is true.
 
-You might try to avoid this by thinking of a world of objects, but objects are equally vocabulary-dependent. (you need *[[sortals]]* to distinguish objects).
+You might try to avoid this by thinking of a world of objects, but objects are equally vocabulary-dependent. (you need \em{[[sortals]]} to distinguish objects).
 
 # Two senses of vocabulary-dependence
 
-The way in which the law-like / categorial structure of the world *depends* on us is dependence in the order of understanding, not the order of being.
+The way in which the law-like / categorial structure of the world \em{depends} on us is dependence in the order of understanding, not the order of being.
 
-"There is nothing outside the text" goes wrong because it seems like a claim of the order of *being*, not just explanation. It violates the lesson of [[Lincoln's horse]] example. This [[-ing vs -ed distinction|confuses]] thinkings for thinkables.
+"There is nothing outside the text" goes wrong because it seems like a claim of the order of \em{being}, not just explanation. It violates the lesson of [[Lincoln's horse]] example. This [[-ing vs -ed distinction|confuses]] thinkings for thinkables.
 
 [[Sense dependence vs reference]] is relevent: One is frightened of claims of vocabulary dependence because one is thinking of reference- dependence claims. What is arguable is sense-dependence.
 
@@ -103,13 +103,13 @@ The way in which the law-like / categorial structure of the world *depends* on u
 
 There is a sense dependence[^ff] between concepts we use to articulate the categorial structure of the world and concepts we use to describe various features of vocabularies in use (grammatical categories).
 
-To assert that sense dependence is *not* to assert a reference dependence.
+To assert that sense dependence is \em{not} to assert a reference dependence.
 
 [^ff]: ==This is functorial==
 
 When someone makes a vocabulary-dependence claim
 (e.g. the lawfulness of a relation between two properties is a feature of our cognitive faculties) it makes a big difference whether this is a sense or reference dependence claim.
-- Without understanding what it is for you to follow a rule / to infer #{B$ from $A}, you can't *understand* the lawfulness that you're taking the world to have.
+- Without understanding what it is for you to follow a rule / to infer #{B} from #{A}, you can't \em{understand} the lawfulness that you're taking the world to have.
 - This does not entail a reference dependence.
 
 We need to be careful when reading Rorty (who doesn't explicitly make this distinction) that we are not accepting his claims (as plausible because they are sense-dependence) and then letting him draw consequences from them (as if they were reference-dependence).
@@ -120,22 +120,22 @@ Brandom suggests that to understand the notion of a fact, one needs to understan
 
 ![[Grenzbegriff]]
 
-We can only tell progress (that one vocabulary is an improvement) *retrospectively*, from within our current vocabulary. There's nothing outside the dialogue.
+We can only tell progress (that one vocabulary is an improvement) \em{retrospectively}, from within our current vocabulary. There's nothing outside the dialogue.
 
 But we can imagine institutions of science being taken over by religious fanatics. They'll be able to make a retrospective story too. Rorty has to say "We hope that this won't happen, but history is written by the victors."
 
-Brandom challenges this and offers a pragmatist-sanitized notion of *pro*spective, technological progress.
+Brandom challenges this and offers a pragmatist-sanitized notion of \em{pro}spective, technological progress.
 - The new technology has to be able to do what we're already doing (better than we can).
-- This is evaluated in *our* current vocabulary.
+- This is evaluated in \em{our} current vocabulary.
 - This sorts future retrospective stories into good or bad from our perspective.
 
-This is what persuaded the conquering Arabs to keep Greek learning - they *knew* Greek medicine could save people from battlefield wounds that were otherwise surely fatal. When the Greek doctors said that to understand how, you needed to think about how the microcosm and the macrocosm were related, the Arabs had little choice but to think that all that Greek literature and philosophy must be valuable and should be preserved. Aristotle would not be able to appreciate how accurately we can measure the mass of the electron. But he would be impressed by our medicine, by our ability to blow large holes in the ground, move things rapidly over great distances, build large, stable structures...and so on.  
+This is what persuaded the conquering Arabs to keep Greek learning - they \em{knew} Greek medicine could save people from battlefield wounds that were otherwise surely fatal. When the Greek doctors said that to understand how, you needed to think about how the microcosm and the macrocosm were related, the Arabs had little choice but to think that all that Greek literature and philosophy must be valuable and should be preserved. Aristotle would not be able to appreciate how accurately we can measure the mass of the electron. But he would be impressed by our medicine, by our ability to blow large holes in the ground, move things rapidly over great distances, build large, stable structures...and so on.  
 
 The demand for technological conservation and progress, understood by prospective normative standards set by earlier practical attitudes and assessments puts a genuine constraint on what counts as theoretical progress, understood by retrospective normative standards set by later practical attitudes and assessments.
 
-We could *define* technological progress as that which can be measured prospectively.[^tp] Then we can make it a criterion of adequacy for a good "retrospective story" that it must be technologically progressive (in domains of the empirical world). We might not care, e.g. for poetic traditions, that we preserve prospective progress. 
+We could \em{define} technological progress as that which can be measured prospectively.[^tp] Then we can make it a criterion of adequacy for a good "retrospective story" that it must be technologically progressive (in domains of the empirical world). We might not care, e.g. for poetic traditions, that we preserve prospective progress. 
 
-[^tp]: This would be what we call "technological progress" in our *current* vocabulary
+[^tp]: This would be what we call "technological progress" in our \em{current} vocabulary
 
 Brandom ties this to Pierce's theory of progress. What is prospectively assessible is a constraint on what is retrospectively assessible. This is a way to not be mere carnappian progress but see real friction between vocabularies in use (without thinking in representationalist terms).
 
@@ -148,7 +148,7 @@ Example of counting apples: each community which can do this has a different ord
 
 It's through understanding relationships between the vocabularies that we can achieve something vocabulary independent (e.g. the isomorphism between "1,2,3..." and "#{\alpha,\beta,\gamma}...").
 
-You say "it weighs 1" and I say "no it ways 2.2" - what has to be true about our practice for someone outside us to say "they are both measuring *the (objective) weight* (with units lb and kg)". This requires ground-level pragmatism engineering to find out such-and-such properties need to preserved in the language mapping . 
+You say "it weighs 1" and I say "no it ways 2.2" - what has to be true about our practice for someone outside us to say "they are both measuring \em{the (objective) weight} (with units lb and kg)". This requires ground-level pragmatism engineering to find out such-and-such properties need to preserved in the language mapping . 
 
 
 ==This is saying that a pragmatist strategy for making an objective/subjective distinction is via mappings between languages (characterizable via universal properties?)==

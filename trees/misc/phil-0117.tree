@@ -1,11 +1,11 @@
 \title{Representation}
-
+\import{base-macros}
 \p{
 
 Representation is a theory of the relation between appearance and reality. 
 
 # A [[successor concept]] to theories of resemblance
-Premodern theories understood relation between appearance and reality in terms of **resemblance** (sharing properties).
+Premodern theories understood relation between appearance and reality in terms of \strong{resemblance} (sharing properties).
   
 - The paradigm example is that of a picture and what is pictured 
   - The appearance of the portrait is veridical to the extent that shape of the 
@@ -20,39 +20,68 @@ Premodern theories understood relation between appearance and reality in terms o
 [^l]: It's hard for us to appreciate how radical this is given that the idea of 
       representation is so commonplace now. There is really nothing in terms of 
       directly-shared properties that would tie line lengths and time durations
-      together. We think of Galileo as giving a mathematical *model* of what was 
+      together. We think of Galileo as giving a mathematical \em{model} of what was 
       going on, but he thought of himself as using the language of geometry to 
-      describe the underlying *reality* of the motion that we have appearances 
+      describe the underlying \em{reality} of the motion that we have appearances 
       of because he had no notion of representation. 
 
 # Pioneered by Descartes 
 
-[[René Descartes|Descartes]] came up with the more abstract meta-concept (which Kant would dub representation, or *Vorstellung*) as a new way of thinking of the relation between appearance and reality.
+[[René Descartes|Descartes]] came up with the more abstract meta-concept (which Kant would dub representation, or \em{Vorstellung}) as a new way of thinking of the relation between appearance and reality.
 
 [[Baruch Spinoza|Spinoza]] saw Descartes' philosophy as being understood in terms of his innovations of relating algebra to geometry. How could strings of algebraic symbols be useful / veridical appearances of 
 geometrical reality? 
 
 - "[[Order and connection of ideas|The order and connection of things is the same as the order and connection of ideas]]" 
-    - A *global* homomorphism from the whole system of algebraic symbols and 
+    - A \em{global} homomorphism from the whole system of algebraic symbols and 
       the whole system of geometric figures.
     - The properties of what is representing or represented are irrelevant. 
       What's relevant is that there is the overall structure, the mapping 
       between the relations in each world.
  
-# Empiricists and Rationalists
+# Empiricists and Rationalists}
 
-|       | [[Empiricism]]  | [[Rationalism]] |
-| ----------------------------------- | -------------------------- |------------------------|
-| Favored kind of representing[^dd]   | picture-like sensations    | sentence-like thoughts |
-| The other kind of representation    | Fancy, abstract sensations | confused, indistinct thoughts | 
-| Kant's terminology for the above    | impressions                | concepts     |
-| Kind of representation[^prog]       | atomism                    | wholism[^whole]  |
-| First, in order of explanation      | representational content   | inferential relations |
-| Ontology problems[^sc]              | nothing-but-ism[^nb]       | ontological extravagance[^oe] |
-
+\table{
+  \tr{
+    \th{}
+    \th{[[Empiricism]]  }
+    \th{[[Rationalism]]}
+  }
+  \tr{
+    \td{Favored kind of representing[^dd]   }
+    \td{picture-like sensations    }
+    \td{sentence-like thoughts}
+  }
+  \tr{
+    \td{The other kind of representation    }
+    \td{Fancy, abstract sensations }
+    \td{confused, indistinct thoughts}
+  }
+  \tr{
+    \td{Kant's terminology for the above    }
+    \td{impressions                }
+    \td{concepts}
+  }
+  \tr{
+    \td{Kind of representation[^prog]       }
+    \td{atomism                    }
+    \td{wholism[^whole]}
+  }
+  \tr{
+    \td{First, in order of explanation      }
+    \td{representational content   }
+    \td{inferential relations}
+  }
+  \tr{
+    \td{Ontology problems[^sc]              }
+    \td{nothing-but-ism[^nb]       }
+    \td{ontological extravagance[^oe]}
+  }
+}
+\p{
 [^dd]: Descartes did not make this distinction - his ontology simply had representings and representeds without finer structure. Empiricists tried to reduce thoughts to impressions and rationalists vice-versa.
 
-[^whole]: Rationalist [[Gottfried Wilhelm Leibniz|Leibniz]] would have us understand the content of the map (*as* a representation) to be the inferences that someone who treats it as a map could make about terrain facts (e.g. a river) from map-facts (wavy-blue line).
+[^whole]: Rationalist [[Gottfried Wilhelm Leibniz|Leibniz]] would have us understand the content of the map (\em{as} a representation) to be the inferences that someone who treats it as a map could make about terrain facts (e.g. a river) from map-facts (wavy-blue line).
 
 [^nb]: Empiricists start with narrow postulate about what representing is and exclude a lot of genuinely contentful thought due to not meeting this standard (e.g. ethics, modality)
 

@@ -14,7 +14,7 @@
       think that we can ascribe beliefs to groups
 - The group beliefs are uniquely determined by the individuals' beliefs, but it 
   may not be identical to any of the individuals.
-    - Example: condo asssociation where 50% believe #{A$ and 50% not $A}. Maybe 
+    - Example: condo asssociation where 50% believe #{A} and 50% not #{A}. Maybe 
       it's reasonable to ascribe an indeterminate belief towards #{A}, but none 
       of the individuals is indeterminate.
 
@@ -26,7 +26,7 @@ to a group testimony.
 What if we say the 'group believes' what the majority of the group believes?
 - Problem: majorities are not consistent over multiple beliefs IF the beliefs 
   are logically connected.
-    - 51% of people believe #{P$, 51% believe $Q$, 1% believe $P\land Q}.
+    - 51% of people believe #{P}, 51% believe #{Q}, 1% believe $P\land Q}.
     - Under this proposal, the majority has inconsistent beliefs (and therefore 
       believes everything)
 - Real example:

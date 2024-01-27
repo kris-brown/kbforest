@@ -1,0 +1,30 @@
+\title{Constructive mathematics}
+\import{macros}
+
+\p{
+Many things in math can be proven without relying on the [[law of the excluded middle]], which says, for any claim #{P}, you can assert that #{P} or not-#{P} is true. Using this additional axiom can make things easier; however, proofs using it will not be \em{constructive}. For example: 
+}
+
+\ul{
+  \li{a constructive  [proof](https://en.wikipedia.org/wiki/Square_root_of_2#Constructive_proof) that #{\sqrt{2}} is irrational is a mechanism which, 
+  for any rational number #{q \in \mathbb{Q}} it is fed, constructs the nonzero difference #{q - \sqrt{2}}. }
+
+  \li{A non-constructive proof (e.g. assuming  #{\sqrt{2}} is rational,
+  then proving a contradiction, then concluding #{\sqrt{2}} is irrational) 
+  says that #{\sqrt{2}} is irrational but cannot be used to automatically derive a contradiction from someone asserting that, say, #{\frac{99}{70}} is equal to #{\sqrt{2}}.}
+}
+
+\image{blog/hand-tied/construct.png}
+
+\ul{
+
+\li{A constructive proof of the infinitude of prime numbers will take a purported 
+  set of all prime numbers (call it #{P}) and produce a number #{p\prime} outside 
+  that set
+  that is prime #{{(p\prime = 1+\underset{p \in P}{\prod} p)}}. }
+  \li{A non-constructive proof would 
+  tell you that #{P} is infinite without giving you any concrete witness of 
+  this fact.}
+}
+
+\p{One might argue that a constructive proof is a stronger form of evidence than a non-constructive proof. Not just definitionally, by using fewer axioms, but in a practical sense: constructive proofs have computational content that witnesses the proof in a concrete way and can be excecuted by a computer.}

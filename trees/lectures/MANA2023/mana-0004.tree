@@ -1,18 +1,54 @@
 \title{Notes on MANA lectures}
-
+\import{base-macros}
 \p{
 
-[[Robert Brandom]] released five videos 
-which provide an introduction and summary of his general philosophical outlook.
+[Brandom](robert-brandom) released five videos 
+which provide an introduction and summary of his general philosophical outlook.}
 
+\table{
+  \tr{
+    \th{Lecture}
+    \th{Youtube Link}
+    \th{Transcript}
+    \th{Notes}
+    \th{Summary}
+  }
+  \tr{
+    \td{What is philosophy? | }
+    \td{[55 min](https://www.youtube.com/watch?v=dF0nusMYOag) | }
+    \td{[7,300 words](https://sites.pitt.edu/~rbrandom/Texts/What\%20is\%20Philosophy.docx) | }
+    \td{[[1. What is philosophy|2,000 words]] | }
+    \td{[[1. What is philosophy (summary)|1,100 words]]}
+  }
+  \tr{
+    \td{ Intentionality and Language | }
+    \td{[57 min](https://www.youtube.com/watch?v=yz7PWdUSA8c) | }
+    \td{[7,400 words](https://sites.pitt.edu/~rbrandom/Texts/Intentionality_and_Language_A_Normative\%20(2).pdf) | }
+    \td{[[2. Intentionality and Language|2,400 words]] | }
+    \td{[[2. Intentionality and Language (summary)|1,100 words]]}
+  }
+  \tr{
+    \td{Semantic Inferentialism and Logical Expressivism | }
+    \td{[62 min](https://www.youtube.com/watch?v=LfhrfVJ4_sk) | }
+    \td{[10,000 words](https://sites.pitt.edu/~rbrandom/Texts/Semantic\%20Inferentialism\%20and\%20Logical\%20Expressivism.doc) | }
+    \td{[[3. Semantic Inferentialism and Logical Expressivism|3,200 words]] | }
+    \td{[[3. Semantic Inferentialism and Logical Expressivism (summary)|700 words]]}
+  }
+  \tr{
+    \td{On the Way to a Pragmatist Theory of the Categories | }
+    \td{[80 min](https://www.youtube.com/watch?v=I3oolHemr7M) | }
+    \td{[9,200 words](https://sites.pitt.edu/~rbrandom/Texts/On_the_Way_to_a_Pragmatist_Theory_of_the.doc) | }
+    \td{[[4. On the Way to a Pragmatist Theory of the Categories|1,500 words]] | }
+    \td{ n/a}
+  }
+  \tr{
+    \td{Modal Expressivism and Modal Realism: Together Again | }
+    \td{[61 min](https://www.youtube.com/watch?v=GnDG0-F_IJQ) | }
+    \td{[16,700 words](https://sites.pitt.edu/~rbrandom/Texts/Modal\%20Expressivism\%20and\%20Modal\%20Realism\%20HUP.docx) | }
+    \td{[[5. Modal Expressivism and Modal Realism Together Again|3,300 words]] | }
+    \td{n/a}
+  }
+}
 
-Lecture | Youtube Link | Transcript | Notes | Summary |
-|-------|--------------|------------|----------|------------------|
-| What is philosophy? | [55 min](https://www.youtube.com/watch?v=dF0nusMYOag) | [7,300 words](https://sites.pitt.edu/~rbrandom/Texts/What\%20is\%20Philosophy.docx) | [[1. What is philosophy|2,000 words]] | [[1. What is philosophy (summary)|1,100 words]] |
-| Intentionality and Language | [57 min](https://www.youtube.com/watch?v=yz7PWdUSA8c) | [7,400 words](https://sites.pitt.edu/~rbrandom/Texts/Intentionality_and_Language_A_Normative\%20(2).pdf) | [[2. Intentionality and Language|2,400 words]] | [[2. Intentionality and Language (summary)|1,100 words]] |
-| Semantic Inferentialism and Logical Expressivism | [62 min](https://www.youtube.com/watch?v=LfhrfVJ4_sk) | [10,000 words](https://sites.pitt.edu/~rbrandom/Texts/Semantic\%20Inferentialism\%20and\%20Logical\%20Expressivism.doc) | [[3. Semantic Inferentialism and Logical Expressivism|3,200 words]] | [[3. Semantic Inferentialism and Logical Expressivism (summary)|700 words]] |
-| On the Way to a Pragmatist Theory of the Categories | [80 min](https://www.youtube.com/watch?v=I3oolHemr7M) | [9,200 words](https://sites.pitt.edu/~rbrandom/Texts/On_the_Way_to_a_Pragmatist_Theory_of_the.doc) | [[4. On the Way to a Pragmatist Theory of the Categories|1,500 words]] | n/a |
-| Modal Expressivism and Modal Realism: Together Again | [61 min](https://www.youtube.com/watch?v=GnDG0-F_IJQ) | [16,700 words](https://sites.pitt.edu/~rbrandom/Texts/Modal\%20Expressivism\%20and\%20Modal\%20Realism\%20HUP.docx) | [[5. Modal Expressivism and Modal Realism Together Again|3,300 words]] | n/a |
-
-I'll be updating the table as I gradually digest and summarize these over the summer!
+\p{I'll be updating the table as I gradually digest and summarize these over the summer!
 }

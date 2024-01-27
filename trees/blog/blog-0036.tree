@@ -1,0 +1,69 @@
+\title{How to go back in the other direction}
+\import{macros}
+\texpackage{quiver}
+
+\p{
+There is nothing magic about category theory,[^1] but there seems at first like 
+some magic is needed to take ideas from the mile-high view, where we seemed to 
+have had thrown away so much information, and concretize them on the ground level. The resolution to this riddle is that there wasn't actually
+information loss when we moved to the mile-high view.[^2]}
+
+\p{
+[^1]: In many ways, it's more like plumbing than magic, as [David Spivak](http://www.dspivak.net/) puts it.
+}
+
+\p{
+[^2]: This is true "up to isomorphism". The moment we turn our set of objects 
+      into a category by \em{picking} what it means to be a morphism, we are choosing what information we are going to lose when going to the mile-high view: objects which are indistinguishable by their morphisms, i.e. how they relate to other objects, will appear identical from the mile-high view.
+}
+
+\p{
+Let's consider a concrete example from graphs. Let's say we wanted to locate 
+the following graph, #{T}, from the mile-high view.
+}
+
+\image{blog/mile-high/term.png}
+
+\p{
+It turns out that this graph has a very special quirk. We want to know "How 
+many graph homomorphisms are there from some arbitrary graph #{G} into #{T}?" It turns out, no matter how many vertices and edges #{G} has, and no matter how those edges are connected, there is exactly \strong{one} graph homomorphism #{G \rightarrow T}, because all of the vertices are mapped onto the single vertex and all of the edges are mapped onto the single edge. This means we can actually pick out which dot is actually #{T} from the mile-high view, a subset of which is visualized below. Can you find it?
+}
+
+\texfig{
+  % https://q.uiver.app/#q=WzAsOSxbMCwxLCJcXGJ1bGxldCJdLFswLDIsIlxcYnVsbGV0Il0sWzAsMywiXFxidWxsZXQiXSxbMSwxLCJcXGJ1bGxldCJdLFsxLDIsIlxcYnVsbGV0Il0sWzIsMywiXFxidWxsZXQiXSxbMiwwLCJcXGJ1bGxldCJdLFszLDEsIlxcYnVsbGV0Il0sWzMsMiwiXFxidWxsZXQiXSxbNiwwXSxbNiwzXSxbMCw1LCIiLDAseyJjdXJ2ZSI6MX1dLFsyLDVdLFsxLDUsIiIsMix7ImN1cnZlIjoxfV0sWzQsNV0sWzMsNV0sWzYsNV0sWzMsMF0sWzQsM10sWzEsNF0sWzEsMF0sWzEsMiwiIiwxLHsiY3VydmUiOi0xfV0sWzIsMSwiIiwxLHsiY3VydmUiOi0xfV0sWzgsNV0sWzcsNV0sWzcsNl0sWzgsNywiIiwxLHsiY3VydmUiOjF9XSxbNyw2LCIiLDEseyJjdXJ2ZSI6MX1dLFs3LDYsIiIsMSx7ImN1cnZlIjotMX1dLFs3LDhdLFs2LDQsIiIsMSx7ImN1cnZlIjotMX1dXQ==
+\begin{tikzcd}
+	&& \bullet \\
+	\bullet & \bullet && \bullet \\
+	\bullet & \bullet && \bullet \\
+	\bullet && \bullet
+	\arrow[from=1-3, to=2-1]
+	\arrow[from=1-3, to=2-2]
+	\arrow[curve={height=6pt}, from=2-1, to=4-3]
+	\arrow[from=4-1, to=4-3]
+	\arrow[curve={height=6pt}, from=3-1, to=4-3]
+	\arrow[from=3-2, to=4-3]
+	\arrow[from=2-2, to=4-3]
+	\arrow[from=1-3, to=4-3]
+	\arrow[from=2-2, to=2-1]
+	\arrow[from=3-2, to=2-2]
+	\arrow[from=3-1, to=3-2]
+	\arrow[from=3-1, to=2-1]
+	\arrow[curve={height=-6pt}, from=3-1, to=4-1]
+	\arrow[curve={height=-6pt}, from=4-1, to=3-1]
+	\arrow[from=3-4, to=4-3]
+	\arrow[from=2-4, to=4-3]
+	\arrow[from=2-4, to=1-3]
+	\arrow[curve={height=6pt}, from=3-4, to=2-4]
+	\arrow[curve={height=6pt}, from=2-4, to=1-3]
+	\arrow[curve={height=-6pt}, from=2-4, to=1-3]
+	\arrow[from=2-4, to=3-4]
+	\arrow[curve={height=-6pt}, from=1-3, to=3-2]
+\end{tikzcd}
+}
+
+\p{
+In category theory lingo, this is called a \em{universal property}. Likewise, the 
+\em{coproduct} pattern described by the diagram in the previous section was also a 
+universal property. Category theory tries to talk about things (e.g. being #{T}, being the "sum" of two other things) purely based on these properties, which is why it 
+can do powerful reasoning in a subject-matter-agnostic way.
+}

@@ -1,0 +1,45 @@
+\title{Scenario}
+\import{base-macros}
+
+\p{A company makes a mini magnet toy for kids. Each package it sells has hundreds
+of tiny ball magnets.
+  
+
+> Alice: It is morally condemnable for the company to report
+injuries in terms of injuries \em{per magnet} (1 in 22 million) instead of
+1 injury per 100,000 sets.
+>
+> Bob: I don't see anything wrong with it. The same information is provided, no matter the unit.
+
+
+One strategy Alice can use in this disagreement is an \em{extreme example}. One way
+of making sense of how an extreme example functions:
+}
+
+\table{
+  \tr{
+    \th{General case}
+    \th{This particular case}
+  }
+  \tr{
+    \td{Bob claims an explicit position #{\phi}. Some casual / loose reasoning is all that's needed to be entitled to this, under normal circumstances.}
+    \td{#{\phi}="It's not morally wrong to report in terms of injuries per atom"}
+  }
+  \tr{
+    \td{Alice suspects he derives #{\phi} from some bad principle #{P}, which is the most natural way of making Bob's loose justification more precise.}
+    \td{#{P}="As long as it has the same literal informational content, it's equal from a moral standpoint."}
+  }
+  \tr{
+    \td{#{P} is bad because it would also license one to make an absurd claim, #{\bot}.}
+    \td{#{\bot}="It's ok to report in terms of injuries per atom."}
+  }
+  \tr{
+    \td{Bob is not entitled to use #{P} (and needs a more explicit reason to be entitled to #{\phi}).}
+    \td{Bob needs to clarify why what the company did isn't morally wrong.}
+  }
+}
+
+\p{
+I see this kind of move very frequently when reading comment sections of all
+sorts (a guilty pleasure). Often it's executed poorly.
+}

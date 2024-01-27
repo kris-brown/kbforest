@@ -12,7 +12,7 @@ Brandom believes Sellars to be the most important American philosopher of the
   analytic philosophers (who largely preferred to write 'gem-like' articles). 
   - This makes it also hard to read Sellars - it's hard to get a hold of one piece 
     of it without getting the whole. 
-- Sellars had an almost unique knowledge of and appreciation for the significance of the *history* of philosophy 
+- Sellars had an almost unique knowledge of and appreciation for the significance of the \em{history} of philosophy 
   - (not just a subdiscipline, but rather as the language in which philosophy is pursued).[^world]
 - Sellars' overall aim was to move analytic philosophy from its Humean phase to its Kantian phase.
   - Epitomizes his views towards empiricism/naturalism (which had characterized analytic philosophy). 
@@ -24,23 +24,23 @@ Brandom believes Sellars to be the most important American philosopher of the
 ## Kant's influence on Sellars
 Kant's big idea:
 
-What is sapience? (what distinguishes *knowers* and mere responders to an environment?)
+What is sapience? (what distinguishes \em{knowers} and mere responders to an environment?)
 
 - It's not some presence of "mind-stuff" (i.e. Cartesian dualism)
 - It's that judgments and intentional doings are things that knowers and agents 
-    are in a distinctive sense *responsible for*.
+    are in a distinctive sense \em{responsible for}.
 - Judgments express commitments of those subjects / their exercises of authority 
-- The difference between mind minded things and unminded and things isn't an ontological one, but a *de*ontological one.
+- The difference between mind minded things and unminded and things isn't an ontological one, but a \em{de}ontological one.
 
-*Judgment* is important for Kant 
+\em{Judgment} is important for Kant 
 
 - it is the minimal thing that we can 
 be held accountable for (the smallest unit of consciousness)
 - The form of the judgment has two parts:
   - Subjective: the "I think ..." that can accompany any judgment 
-    - *Who* is responsible
+    - \em{Who} is responsible
   - Objective: "object = x" 
-    - what you make yourself responsible *to* by taking the judgment
+    - what you make yourself responsible \em{to} by taking the judgment
     - what you need to consult in order to determine the correctness
 
 Cartesian questions are about our grip on concepts. Thinking about concepts as 
@@ -50,7 +50,7 @@ rules for making judgments, Kantian questions are about the concepts' grip on us
 commit yourself, whether you know it or not, to it's being an electrical
 conductor, melting at a particular temperature, etc.).
 
-- Rather than a Cartesian mind-body problem, it's a norm-fact problem. The relationship between prescription and description - that's what is special about *us*.
+- Rather than a Cartesian mind-body problem, it's a norm-fact problem. The relationship between prescription and description - that's what is special about \em{us}.
 
 Hegel took this Kantian question and observed that normative status are 
 socially instituted statuses - we have to look at social practices to understand 
@@ -68,7 +68,7 @@ sense of that term, hang together, in the largest sense of that term."
 
 
 # Core programs of analytical philosophy
-Analytic philosophy held together as being a *semantic* project. 
+Analytic philosophy held together as being a \em{semantic} project. 
 
 - Understand the meanings of potentially-problematic target vocabularies in 
   terms of the meanings of putatively-unproblematic base vocabularies. 
@@ -81,7 +81,7 @@ Analytic philosophy held together as being a *semantic* project.
     - reducibility
     - supervenience
 - Examples:
-  - *On denoting*: problematic vocabulary is definite descriptions, translated 
+  - \em{On denoting}: problematic vocabulary is definite descriptions, translated 
     into the unproblematic vocabulary of FOL with identity.
   - Frege's problematic vocabulary was arithmatic statements, which were made 
     sense of in quantificational logic with identity.
@@ -96,11 +96,11 @@ Analytic philosophy held together as being a *semantic* project.
     - The Vienna Circle was divided into two wings. Schlict (empiricist) and [[Otto Neurath]] 
       (naturalist), and Carnap in between. Prime source of tension between them was 
       modality / lawlikeness. 
-  - *Functionalism*: Unproblematic vocabulary is talking about how something 
+  - \em{Functionalism}: Unproblematic vocabulary is talking about how something 
     plays a role in a larger system. (paradigmatically shows up in the 
     philosophy of mind.)
       - Sellars was the first functionalist. broader than the sense that it 
-        comes up in the philosophy of mind: Sellars is a *semantic* functionalist.
+        comes up in the philosophy of mind: Sellars is a \em{semantic} functionalist.
 
 Another reason why Sellars is important is his distinctive views about 
 empiricism, naturalism, and functionalism.
@@ -156,14 +156,14 @@ descriptions of how things actually are - that framework has essential features
 which can also be put into words - but those words will not be playing the role 
 of describing things how they are. For example: alethic modal vocabulary.
 
-To *describe* things you have to commit yourself to inferential relations that are 
+To \em{describe} things you have to commit yourself to inferential relations that are 
 counterfactually robust (otherwise you're merely labeling).
 
 Hume thought he could understand what means for the cat to be on the mat but not 
 that it is impossible for the cat to be weightless or as big as the sun. Sellars 
-says that, unless you make *some* distinction about what is possible/necessary for cats 
-and what is not (note you don't have to get it *right*), you can't count as 
-applying the  concept *cat* to describe something. So you can't be in the 
+says that, unless you make \em{some} distinction about what is possible/necessary for cats 
+and what is not (note you don't have to get it \em{right}), you can't count as 
+applying the  concept \em{cat} to describe something. So you can't be in the 
 predicament Hume thought he was in. The argument is seen in 
 [[Counterfactuals, Dispositions, and the Causal Modalities]].
 
@@ -196,8 +196,8 @@ Pragmatic dependencies make explicit conceptual dependencies.
 
 ## Cautionary tale about saying things aren't descriptive
 First-wave metaethical expressivists said that the role ethical vocabulary played was not 
-to *describe* but rather to express attitudes (e.g. approval, disapproval). But 
-Geach showed that there exist *some* descriptive content due to the intelligibility 
+to \em{describe} but rather to express attitudes (e.g. approval, disapproval). But 
+Geach showed that there exist \em{some} descriptive content due to the intelligibility 
 of "If he ought to do X, then he has reason to do X" (one is not expressing 
 approval of doing X).
 

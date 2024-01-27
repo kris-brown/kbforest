@@ -1,0 +1,74 @@
+\title{Material inference vs logical inference}
+\import{base-macros}
+
+\p{
+
+Let an \em{inference} be a statement with a [[material conditional]], i.e. of the 
+form "If #{P}, then #{Q}"[^1] in a language with ordinary statements as well as 
+logical connectives (e.g.  \em{and}, \em{or}). We want a rigorous way to distinguish that following kinds of inferences:
+
+<style>
+table th:first-of-type {
+    width: 10%;
+}
+table th:nth-of-type(2) {
+    width: 40%;
+}
+table th:nth-of-type(3) {
+    width: 40%;
+}
+</style>
+}
+\table{
+  \tr{
+    \th{ }
+    \th{Material inference }
+    \th{Logically-valid inference}
+  }
+  \tr{
+    \td{\strong{E.g.}}
+    \td{\em{If} it's a cat, \em{then} it's a mammal <br> \em{If} pigs can fly, \em{then} #{X}.[^2] <br> \em{If} it's red, \em{then} it's colored}
+    \td{\em{If} it's blue \em{and} red, \em{then} it's red \em{and} blue <br> \em{If} I'm angry, \em{then} I'm angry.<br>\em{If} #{A} \em{and} it's hot, \em{then} it's hot \em{or} #{B}.}
+  }
+\tr{
+    \td{\strong{Def}}
+    \td{Can be changed from a good inference into a bad one by substituting some nonlogical vocabulary for different nonlogical vocabulary}
+    \td{True no matter what you plug in for the variables or substitute for the non-logical vocabulary.}
+  }
+\tr{
+    \td{\strong{Demo} }
+    \td{The first example would become bad if we replaced 'cat' with 'turtle'}
+    \td{No matter what we replace 'blue' with in the first example, it will still be true.}
+  }
+\tr{
+    \td{\strong{Slogan}}
+    \td{Descriptive terms appear \em{essentially}}
+    \td{Descriptive terms appear \em{vacuously}}
+  }
+\tr{
+    \td{\strong{Form}}
+    \td{True, but not because of its logical form}
+    \td{True in virtue of its logical form}
+  }
+}
+\p{
+
+[^1]: Letters (e.g. #{P}, #{Q}, #{X}) represent logical variables. These have the 
+      meaning of being replaceable with anything, loosely speaking. 
+
+[^2]: This demonstrates that this distinction is different from the [[Analytic and synthetic facts|analytic/synthetic distinction]]. 
+There, a cat being a mammal would feel like an \em{analytic} statement, while 
+pigs not being able to fly feels more \em{synthetic}.
+
+### Generalization
+
+This move was to take a notion of "what is a logical connective?" and pick out 
+which sentences are "logically-valid" sentences. This could be generalized to 
+give us a notion of other types of vocabularies. E.g. we identify \em{theological} 
+vocabulary (e.g. \em{God}, \em{pious}) and observe which good inferences (e.g. 
+"\em{If God loves} fishing, \em{then} fishing \em{is pious}") cannot 
+be made into bad inferences by substituting non-theological vocabulary, i.e. 
+sentences which are true purely due to their theological form.
+
+
+}

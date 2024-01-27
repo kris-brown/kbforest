@@ -1,20 +1,47 @@
 \title{Ought to be vs ought to do}
+\import{base-macros}
+
+\table{
+  \tr{
+    \th{Ought to do's                  }
+    \th{Ought to be's}
+  }
+  \tr{
+    \td{Rule of action                 }
+    \td{Rule of reflection}
+  }
+  \tr{
+    \td{If you're in circumstances #{C}, do #{A}                       }
+    \td{Pattern based judgment}
+  }
+  \tr{
+    \td{Conceptually articulated       }
+    \td{Not necessarily conceptually articulated}
+  }
+  \tr{
+    \td{Rules of deliberation          }
+    \td{Rule of assessment/criticism}
+  }
+  \tr{
+    \td{First personal                 }
+    \td{Third personal judgment of some behavior}
+  }
+  \tr{
+    \td{What's appropriate for me to do?                             }
+    \td{Given what you did, was it appropriate? }
+  }
+  \tr{
+    \td{The person subject to the rule is the one following the rule }
+    \td{There may be no particular agent at all}
+  }
+  \tr{
+    \td{Examples? TODO!                }
+    \td{"One ought to feel sympathy for the bereaved'' "All clocks should strike midnight at the same time.'' "Plants ought to get enough water to flower.''}
+  }
+}
+
 
 \p{
-
-[//]: # (Use this: https://quarto.org/docs/authoring/tables.html#grid-tables)
-
-| Ought to do's                                                | Ought to be's                                                                                                                                              |
-| ------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Rule of action                                               | Rule of reflection                                                                                                                                         |
-| If you're in circumstances #{C$, do $A}                       | Pattern based judgment                                                                                                                                     |
-| Conceptually articulated                                     | Not necessarily conceptually articulated                                                                                                                   |
-| Rules of deliberation                                        | Rule of assessment/criticism                                                                                                                               |
-| First personal                                               | Third personal judgment of some behavior                                                                                                                   |
-| What's appropriate for me to do?                             | Given what you did, was it appropriate?                                                                                                                    |
-| The person subject to the rule is the one following the rule | There may be no particular agent at all                                                                                                                    |
-| Examples? TODO!                                              | "One ought to feel sympathy for the bereaved''<br>"All clocks should strike midnight at the same time.''<br>"Plants ought to get enough water to flower.'' |
-
 - A distinction fundamental for both 'must' in the [[Alethic modality|alethic]] and  [[doxastic modality|doxastic]] modal senses.
 
 - [[Wilfrid Sellars|Sellars]]: You can't understand either of these kinds of oughts without 
@@ -25,7 +52,7 @@
       agent whose conceptualizing is not linguistic.
     - We'd be precluded from explaining what it means to have concepts in terms 
       of the rules of the language. Ought to do's have the form of "in 
-      circumstances #{C$, do $A$'' - what language are $C$ and $A} stated in? 
+      circumstances #{C}, do #{A}'' - what language are #{C} and #{A} stated in? 
       Regress of rules without ought-to-be's.
 
 - This is important because natural way to think of rules is exlusively in terms 

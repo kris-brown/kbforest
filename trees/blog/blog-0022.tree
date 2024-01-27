@@ -1,0 +1,45 @@
+\title{Pros and cons of new concepts}
+\import{base-macros}
+
+\p{Many arguments are about how we ought to use language.[^ex] This is more substantive 
+than the wordplay it might seem like at first: what language we use has a huge impact on our thoughts
+and dispositions.}
+
+\table{
+  \tr{
+    \th{Change in our vocabulary    }
+    \th{Potential positive effect}
+    \th{Potential negative effect}
+  }
+  \tr{
+    \td{A new general programming language    }
+    \td{Despite the fact that any program can theoretically be written in any language, a new language can make some style of programming much more easy and natural.}
+    \td{Certain ways of shooting yourself in the foot are also potentially enabled via a new language.}
+  }
+  \tr{
+    \td{Having the \em{word} "externality" in your vocabulary  }
+    \td{This can be a powerful tool towards genuinely having less naively individualistic political/social beliefs.  }
+    \td{This concept could also be used in the service of eroding any personal freedom (even inalienable ones) by considering its indirect effects.}
+  }
+  \tr{
+    \td{Having the expression "sunk-cost fallacy"  }
+    \td{You become more enabled to drop something, despite having invested some time/effort into it.  }
+    \td{You more easily can justify being flakey, noncommittal, a quitter, etc.}
+  }
+  \tr{
+    \td{Having a concept of I.Q.  }
+    \td{One might be able make some new, predictive correlations in the social sciences.  }
+    \td{One is also tempted by the name to use it as a standard of 'intelligence' (as the word is used in ordinary contexts).}
+  }
+  \tr{
+    \td{Gaining knowledge of formal logic, which has symbolic expressions like "#{\forall x, \exists y, P(x,y)}" (for all #{x{\rm's}} there exists a {y} such that #{x} and {y} are related in some way, #{P})  }
+    \td{One very precisely pick out certain arrangements of sets (called \em{models}). For example, we might say #{P} represents "parent" and that #{x} and #{y} are quantified over people, such that the expression rigorously says "Everyone has a parent".  }
+    \td{Just like with intelligence, the naming of the symbols evokes some sort of connection to everyday language (e.g."for all", "exists"), and it's easy to be tempted into thinking our everyday talk must be translatable into logic or else it is meaningless.}
+  }
+}
+
+\p{[^ex]: Is "reverse racism" a coherent concept? What is the boundary between an 
+       "insurrection" and a "protest"? Many topics 
+       adjacent to sex and gender. The notion of fetal personhood.
+       [Positive and negative](https://plato.stanford.edu/entries/liberty-positive-negative/) senses of 'freedom'.
+}

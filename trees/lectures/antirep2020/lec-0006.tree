@@ -1,5 +1,5 @@
 \title{06 - Rorty's Political Turn}
-
+\import{base-macros}
 \p{
 
 [[Robert Brandom|Author]] [[05 - Rorty's Literary Turn|Prev]] [[07 - Assessing Rorty's Pragmatism as Anti-Representationalism|Next]]
@@ -23,10 +23,10 @@ What more careful antirepresentationalist uses can RR make of the ‘vocabulary�
 
 # A Closer look at the Various Antirepresentationalist Arguments:
 
-In [[Incorrigibility as the mark of the mental]] Rorty had first *new* response to Mind-Body problem in a generation: eliminative materialism.
-- It's *not* like there were some feature of the world (Cartesian mental events) which, before we had practices of giving certain reports incorrigibility, that we weren't acknowledging.  And it's not like if we stopped those practices that we'd just stop noticing that part of the world. Rather, to say there are Cartesian minds *is the same* as saying we have these practices.
+In [[Incorrigibility as the mark of the mental]] Rorty had first \em{new} response to Mind-Body problem in a generation: eliminative materialism.
+- It's \em{not} like there were some feature of the world (Cartesian mental events) which, before we had practices of giving certain reports incorrigibility, that we weren't acknowledging.  And it's not like if we stopped those practices that we'd just stop noticing that part of the world. Rather, to say there are Cartesian minds \em{is the same} as saying we have these practices.
 
-This is the precursor for his key pragmatist idea, that the ontological distinctions of subjective / social / objective are *socially determined* (what matters is how we talk *about* the thing):
+This is the precursor for his key pragmatist idea, that the ontological distinctions of subjective / social / objective are \em{socially determined} (what matters is how we talk \em{about} the thing):
 - subjective - the speaker has authority over it
 - social - the community has authortiy over it (e.g. the proper greeting gesture of a tribe)
 - objective - neither individuals nor communities are authoritive.[^br]
@@ -35,22 +35,22 @@ Rorty combines this view with "social pragmatism about norms" (all matters of au
 
 [^br]: Brandom thinks this could be refined to be "the facts / things we talk about being authoritative" using his pragmatist-friendly version of representation.
 
-Rorty clearly aspired to use the pragmatist considerations about language use not distinguishing between what we do to *institute* discursive norms (fix the language by conferring meanings) and what we are doing when we *apply* those discursive norms (fix the theory, settle on beliefs). We just defend claims (commitments) by giving reasons for them and challenge claims by giving reasons against them, and what counts as such reasons is a matter of our practice, since we can’t step out of it and “see the world naked.”
+Rorty clearly aspired to use the pragmatist considerations about language use not distinguishing between what we do to \em{institute} discursive norms (fix the language by conferring meanings) and what we are doing when we \em{apply} those discursive norms (fix the theory, settle on beliefs). We just defend claims (commitments) by giving reasons for them and challenge claims by giving reasons against them, and what counts as such reasons is a matter of our practice, since we can’t step out of it and “see the world naked.”
 
-RR wanted to use the pragmatist considerations that speak in favor of the vocabulary-in- use vocabulary to undercut the Kantian problematic of assigning *responsibility* for different features of our discursive practice to what is represented by it and to aspects of our practices of representing it.
+RR wanted to use the pragmatist considerations that speak in favor of the vocabulary-in- use vocabulary to undercut the Kantian problematic of assigning \em{responsibility} for different features of our discursive practice to what is represented by it and to aspects of our practices of representing it.
 
-The argument has **two** phases: 
+The argument has \strong{two} phases: 
 - First we need to establish what the real (holistic) content of expressions / thoughts / commitments. 
 - Then we apply the vocabulary vocabulary: "you can't think about the world in the representationalist way if you appreciate the holistic feature of the contents of our thoughts".
 
 ## Vehicleless content
 Rorty argues that we cannot pick out “sentence-like bits of the world” (individual facts) to make our sentences true one by one. The whole constellation of our commitments faces the world (as a tribunal) as a whole. This last is a near paraphrase of Quine from TDE, and is a Davidsonian thought.
 
-This is an argument against Fodor’s “LoT”: language of thought hypothesis, that there is something (in our brains) that stands to thinking that things are thus and so, as some noises or marks stand to *saying* that things are thus and so and *writing* that things are thus and so. The question is whether intentional states have “sign designs” associated with them.
+This is an argument against Fodor’s “LoT”: language of thought hypothesis, that there is something (in our brains) that stands to thinking that things are thus and so, as some noises or marks stand to \em{saying} that things are thus and so and \em{writing} that things are thus and so. The question is whether intentional states have “sign designs” associated with them.
 
 Pragmatists argue that intentional states are necessarily content without "vehicles", while realists argue they necessarily have "vehicles".
 
-Why they seem to have vehicles: if your semantics says things must be explained in terms of configurations of physical matter, then it would be "magical" if I could *mean* "snow is white" under physical circumstances #{C$ but I could also mean "the building is 500 ft tall" under the same physical circumsntances $C}. We may not know what the correspondance (from brain states to thoughts) but there must exist *some* correspondence.
+Why they seem to have vehicles: if your semantics says things must be explained in terms of configurations of physical matter, then it would be "magical" if I could \em{mean} "snow is white" under physical circumstances #{C} but I could also mean "the building is 500 ft tall" under the same physical circumsntances #{C}. We may not know what the correspondance (from brain states to thoughts) but there must exist \em{some} correspondence.
 
 MacDowell (following Davidson and Lynne Rudder Baker) argues that they must be vehicleless.
 1. There's nothing smaller than the whole person who is the vehicle of the belief (this follows from Davidson's [[Interpretivism]] - we attribute your beliefs to you as a whole person).
@@ -77,35 +77,49 @@ In the latter case,
 This doesn't strictly rule out representationalist pictures  of meaning, but it rules out atomistic / truthmaker ones.
 
 ## Related issue
-If a property is just an aspect that two things can share, then there are an infinite number of ways two objects can be similar or dissimilar. But we want to privilege some of those respects as "natural properties" which they do really share. That notion of privilege is normative - the *world* does not distinguish those properties; it's a matter of our social practices.
+If a property is just an aspect that two things can share, then there are an infinite number of ways two objects can be similar or dissimilar. But we want to privilege some of those respects as "natural properties" which they do really share. That notion of privilege is normative - the \em{world} does not distinguish those properties; it's a matter of our social practices.
 
 Nelson Goodman asks this same question in in [[Fact, Fiction, and Forecast]]: "which properties should we project in our inductive inferences?". Wittgenstein asks this same question in considering all the possible ways we can follow a rule. Both conclude pragmatically that it is up to our social practices to pick from all the possibilities.
 
 ## Justification vs truth
 
-Thinking of discursive practice in terms of **truth** (instead of justification, i.e. in terms of the actual practices of giving and asking for reasons which can sometimes lead to consensus) is due to the desire to have an external, objective standard (set by the world we're talking about) that serves as an *ultimate* standard of assessment for how we're giving and asking for reasons. This is what Rorty objects to.[^irr]
+Thinking of discursive practice in terms of \strong{truth} (instead of justification, i.e. in terms of the actual practices of giving and asking for reasons which can sometimes lead to consensus) is due to the desire to have an external, objective standard (set by the world we're talking about) that serves as an \em{ultimate} standard of assessment for how we're giving and asking for reasons. This is what Rorty objects to.[^irr]
 
 
 [^irr]: It's exactly wrong to think of Rorty as an irrationalist; it's all about giving and asking for reasons, for him. He doesn't want rationality to answer to something outside of that practice.
 
-For Rorty, the Enlightenment was only half-true to its insights. It was successful emancipating us on the *practical* side (freeing us in our reasoning about what to do: we are not answerable to a non-human authority[^wie]), but not the *theoretical* side.
+For Rorty, the Enlightenment was only half-true to its insights. It was successful emancipating us on the \em{practical} side (freeing us in our reasoning about what to do: we are not answerable to a non-human authority[^wie]), but not the \em{theoretical} side.
 
 [^wie]: See Kant's [[What is Enlightenment]] where he describes the Enlightenment as the emancipation of human beings from their adolesence when we looked outside ourselves for guidance in our conduct.
-| Authority figure | Domain | Control over our norms of ...|
-|---|---|---|
-| God | Practical philosophy | What to do |
-| Objective reality that it's our job to represent | Theoretical philosophy | What we believe | 
+}
 
-
+\table{
+  \tr{
+    \th{Authority figure}
+    \th{Domain}
+    \th{Control over our norms of ...}
+  }
+  \tr{
+    \td{God}
+    \td{Practical philosophy}
+    \td{What to do}
+  }
+  \tr{
+    \td{Objective reality that it's our job to represent}
+    \td{Theoretical philosophy}
+    \td{What we believe}
+  }
+}
+\p{
 Dewey's story of spiritual progress: we eventually found satisfaction, where we once had to go to an immortal being for, in relationships with our fellow mortal men.
 
 # Antiauthoritarian argument
 Three considerations at play:
-- It's not *intelligible* to acknowledge the authority of anything non-human over our practices. 
+- It's not \em{intelligible} to acknowledge the authority of anything non-human over our practices. 
 	- The notion of authority is the notion of a normative status, and those are always conferred by social practices.
-- Even if it's intelligible, but it's *beneath our dignity* to acknowledge the authority of anything nonhuman.  
+- Even if it's intelligible, but it's \em{beneath our dignity} to acknowledge the authority of anything nonhuman.  
 	- seems to presuppose that in fact the authority lies with us both for improving our practices and for saying what improving them comes to or requires. This would be the “social character of ontology” downstream from social pragmatism about norms.
-- Rational authority cannot be dogmatic - it must be subject to criticism (and able to defend itself) according to our practices of giving and *asking* for reasons. 
+- Rational authority cannot be dogmatic - it must be subject to criticism (and able to defend itself) according to our practices of giving and \em{asking} for reasons. 
 	- Therefore we ought not grant authority over our reasons to anything that can’t talk—to anything that cannot have its reasons challenged and be required to defend them. Thinking of what we are doing as ultimately “answering” to something of which we cannot demand that it “answer back,” by defending its claims, showing that they are justified.
 	- The question is just whether it is not irrational to cede ultimate authority over our practices of defending claims by giving reasons for them and challenging claims by giving reasons against them, to something that cannot in principle take part in those reasoning practices, something whose only involvement with those practices is to set an objective standard for normative assessment of how well we are doing.
 	- The argument would be that don’t need such an external standard, and shouldn’t want one, for the same reasons (on the theoretical side) that (on the practical side) we don’t need Old Nobodaddy to set ultimate objective moral standards for our practical undertakings, and shouldn’t want him too. (The Nietzschean thought that “If God existed, we would have to kill Him.”)
@@ -134,7 +148,7 @@ E.H. Gombrich in Art and Illusion, cited on this point by the pragmatist Nelson 
 
 Gombrich means this as a deflationary, cautionary tale about discerning genres and using classifications in cultural history. (His particular concern is ranking paintings as “realistic” or not.). Such terms, Gombrich thinks, are as meaningless as ‘ping’ and ‘pong’, and all the training on paradigmatic examples does is “engender an illusion of understanding” (to use the phrase Quine applied disparagingly to modal logic).
 
-Brandom thinks the pragmatist does not draw this deflationary conclusion: this is *all there is to understanding*, rather than an illusion of understanding. Ping/pong is a paradigm case for how concepts work.
+Brandom thinks the pragmatist does not draw this deflationary conclusion: this is \em{all there is to understanding}, rather than an illusion of understanding. Ping/pong is a paradigm case for how concepts work.
 
 Rorty teaches us "beautiful"/"sublime" in a particular way. That is teaching us to notice something, under this redescription, that we could not or would not have noticed otherwise. His deploying of this distinction is filling in the content of his notion of pragmatism.
 }

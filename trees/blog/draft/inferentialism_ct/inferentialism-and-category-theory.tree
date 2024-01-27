@@ -18,8 +18,8 @@ Quote Brandom's lecture 1 on inferentialism / Kant's normative turn.
       stage of a formal language/glue to a sample so soft girl ideas.
 
 - My radical tolerance does have a hard time explaining cases of how people 
- could be wrong, if ever. This is because calling something a *thought* or a 
- *thinking* is placing it in the space of reasons (not giving a matter-of-fact 
+ could be wrong, if ever. This is because calling something a \em{thought} or a 
+ \em{thinking} is placing it in the space of reasons (not giving a matter-of-fact 
  description of it), which means that it has justification. In order to say 
  something is a contradiction/wrong, one cannot say that the utterance was a 
  thought. It's possible for people, for example, to realize they have uttered 
@@ -54,7 +54,7 @@ This is a case study in the pragmatist order of explanation. We look at the
 mysteries of 'mind talk' and note that Descartes made a fundamentally epistemological
 distinction of the mind from the world: the mind is what is best known. Rorty 
 notes the relational structure here: describing something as a thought or 
-sensation *vs* describing something as a claim one can make without any 
+sensation \em{vs} describing something as a claim one can make without any 
 possibility of being challenged (an authority structure governing the use of the 
 expression) are two sides of the same coin. These are coextensive, but we still 
 may want to have explanatory priority of one picture over the other. The tradition 
@@ -63,7 +63,7 @@ different consequences from taking the opposite order.
 
 This parallel of prioritizing (in the order of explanation) the definition of 
 a group object in a category vs a group, or the idea of arithmetic as the 
-decategorification of **Set**.
+decategorification of \strong{Set}.
 
 
 # Relation of syntax and semantics
@@ -78,7 +78,7 @@ John Baez on [First order logic](https://diagonalargument.com/2019/06/02/first-o
 
 > Lawvere clarified all this stuff immensely in his 1963 thesis Functorial Semantics of Algebraic Theories ... the idea is to treat both syntax and semantics as things of the same kind—that is, objects of the same category.
 
-The old way of doing this was to consider the relation syntax and semantics to consist in sets of *ontologically* different elements. The new way treats syntax-semantics in terms of what one *does* with them.
+The old way of doing this was to consider the relation syntax and semantics to consist in sets of \em{ontologically} different elements. The new way treats syntax-semantics in terms of what one \em{does} with them.
 
 Pragmatism prefers pragmatic metavocabularies over semantic ones in terms of the order of explanation. In the order of causation they are simply coordinate.
 

@@ -1,0 +1,45 @@
+\title{Sense dependence vs reference}
+\import{base-macros}
+\p{
+
+Two meanings of "#{X} depends on #{Y}" that are easily conflated.
+}
+
+\table{
+  \tr{
+    \th{Kind of reference      }
+    \th{Sense}
+    \th{Reference}
+  }
+  \tr{
+    \td{Meaning of "#{X} depends on #{Y}"     }
+    \td{you can't \em{understand} #{X} unless you \em{understand} #{Y}      }
+    \td{you can't have #{X} existing without #{Y} existing}
+  }
+  \tr{
+    \td{Flavor of dependence  }
+    \td{Epistemological       }
+    \td{Ontological}
+  }
+}
+\p{
+
+[Brandom](robert-brandom) points out that we can have sense dependence without having reference dependence.
+
+Response-dependent properties, e.g. a toy concept of beauty: "#{X} is beautiful if looking at it elicits pleasure in people."
+
+ - This is asserting a \em{sense} dependence of beauty on people, but not a 
+   \em{reference} dependence.
+ - It is intelligible that there could exist beautiful sunsets before there ever 
+   were people in the world, or if people never existed.
+
+# Examples
+"Parent" and "child" are both reciprocally sense- and reference- dependent.
+
+# Historical relevance
+
+This is the difference between Berkeley's idealism and Kant's transcendental idealism. When someone claims the lawfulness of a relation between two properties is a feature of our cognitive faculties, it makes a big difference whether this is a sense or reference dependence claim.
+
+- Without understanding what it is for you to follow a rule / to infer #{B} from #{A}, you can't \em{understand} the lawfulness that you're taking the world to have.
+- This does not entail a reference dependence.
+}

@@ -1,0 +1,36 @@
+\title{Conclusion}
+
+\p{I started writing this without knowing what the common theme would be, but now I 
+think of it as a cautionary tale about adopting a "God's-eye view" (even 
+hypothetically!) because it is such a seductive idea that we inadvertently buy 
+into it to some extent.}
+
+\ol{
+  \li{A God's-eye view can see whether a statement is true or false. 
+    \ul{
+      \li{there is no further need for a mechanism that (in a finite amount of time) demonstrates \em{why}.}
+      \li{The favoring of constructive over non-constructive proofs mirrors the pragmatist tendency to have more interest in \em{justification} over truth.}
+    }
+  }
+  \li{A God's-eye view is does not have to observe things by observation but can simply know objects \em{directly}. 
+    \ul{
+      \li{There is no worry that one has picked an arbitrary encoding that might not cohere with other design choices and need to be changed.}
+      \li{Our implementation details may be imperfect, while God's are perfect and immutable (so us mortals alone need to worry about dependencies on implementation details which may change).}
+    }
+  }
+  \li{A God's-eye view in semantics ignores the inherent subjectivity of our concepts. It forces one to engage in ontology and metaphysics. 
+    \ul{\li{Category theory likewise can be thought of as filtering out ontology.}}
+  }
+  \li{A God's-eye view of politics would allow one to use one's omnipotence to 
+    alter anything as one sees fit to achieve greater good. 
+    \ul{ \li{There is no worry about this good actually being mistaken or an illusion, thus, without any humility, the ends will always justify the means.}
+    \li{ [[Pragmatism and platonism|Rorty interprets]] Platonists (which he uses to characterize the god's-eye-view) as seeking to end the conversation, while pragmatism seeks to continue the  conversation. The former is more useful in practice for authoritarians.}
+  }}
+}
+
+\p{Although it can feel like one is reasoning with one hand tied behind one's back 
+when one refuses to invoke a God's-eye view, the short-term advantages of invoking it are outweighed by longer-term friction from the fact that we are not actually omniscient and omnipotent. Phrased another way, I believe there are practical and moral benefits to showing this kind of restraint.[^mot] [^jaynes]}
+
+\p{[^mot]: This is also a theme of [[Minimize ontology talk]].}
+
+\p{[^jaynes]: [Another possible analogue to add to the list](https://www.localcharts.org/t/conditional-probability/4443): "Jaynes is very careful to always work with conditional probability. Rather than positing some big measure space #{\Omega} and assuming there is a single distribution on it that all conditional distributions are a result of, he works with conditional distributions natively, which gives everything a more local feel."}

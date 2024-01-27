@@ -15,7 +15,7 @@ intentional concepts into purely behavior characterizations / dispositions to
 publicly observable behavior (specified in a non-intentional vocabulary).
 
 Introduced in [[Empiricism and the Philosophy of Mind]] (9 years earlier), distinct 
-from what he here calls logical behaviorism. *Logical behaviorism* refers to a 
+from what he here calls logical behaviorism. \em{Logical behaviorism} refers to a 
 view he attributes to Ryle. JB Watson and BF Skinner promoted this in psychology. 
 Sellars never endorsed this because he saw this as being an application of 
 [[instrumentalism]] in the philosophy of science.
@@ -30,7 +30,7 @@ E.g. [[sour acid]] and
 [[referring to witches]] examples.
 
 _The Plasticity of Mind_ is about bad theories incorporating observational 
-practices, i.e. "What do you mean there are no K's. I can *see* K's, there's one 
+practices, i.e. "What do you mean there are no K's. I can \em{see} K's, there's one 
 right there!"
 
 So again, this is a response to someone saying we can distinguish theoretical 
@@ -92,10 +92,10 @@ The question of whether meaning is a normative concept was brought to
 philosophical attention by [[Wittgenstein on Rules and Private Language|Kripkenstein]]. In present literature, Hattiangadi and Katherin Glüer have pushed back upon the idea that it is a normative concept, advanced by Brandom and MacDowell. Brandom feels it is because they haven't learned lessons from Sellars, in particular thinking of norms purely in terms of explicit presecriptions and not making the distinction 
 between ought-to-be's and ought-to-do's.
 
-> You can define *possibility* in terms of *not* and *necessity*. You can define 
-*necessity* in terms of *not* and *possibility*. I think it's the beginning of 
-wisdom to think of defining *not* in terms of the relationship between 
-*possibility* and *necessity*, but I'm the only human being who thinks that.
+> You can define \em{possibility} in terms of \em{not} and \em{necessity}. You can define 
+\em{necessity} in terms of \em{not} and \em{possibility}. I think it's the beginning of 
+wisdom to think of defining \em{not} in terms of the relationship between 
+\em{possibility} and \em{necessity}, but I'm the only human being who thinks that.
 
 [[Paul Grice|Grice]] on non-natural meaning: reduces what 
 a linguistic expression #{P} means in 
@@ -130,8 +130,8 @@ be in state #{\phi} whenever #{\psi}.
     blue and not to the side that's painted red.
   - That's a regularity that ought to be not because we can read it off of the 
     fundamental teleology of rats
-  - The conformity of the rats in question to this rule does *not* require that 
-    they have a *concept* #{C}, e.g. of colors blue and red. We just require them 
+  - The conformity of the rats in question to this rule does \em{not} require that 
+    they have a \em{concept} #{C}, e.g. of colors blue and red. We just require them 
     to respond properly certain to differences emanating from #{C}. This doesn't 
     require even consciousness (photocells can respond differentially to colors).
 
@@ -173,11 +173,11 @@ See distinction [[Sense dependence vs reference]]
 
 # Romantic views of language
 People with romantic views of language: [[Jaques Derrida|Derrida]] and [[Frederich Nietzsche|Nietzsche]]. These are compatible 
-with Wittgenstein [[Ludwig Wittgenstein|believing language has no downtown]].
+with Wittgenstein [believing language has no downtown](ludwig-wittgenstein).
 
 Sellars disagrees: the language-language inferential transitions are of the 
 first importance among those because what makes the entries and exits 
-*language* entries and exits is the way they connect to the inferential moves. 
+\em{language} entries and exits is the way they connect to the inferential moves. 
 And so he would say to Derrida, "yes, we do all of these other wonderful things 
 with the language, but that's all parasitic on the meanings that things are 
 given because of the role they play in the space of reasons... now, once you've 
@@ -194,10 +194,10 @@ gorilla can be trained into a language (in the form of conforming to
 ought-to-be's). At some point the human makes a jump - they have the concept and 
 can be a trainer of others. What's the nature of that jump?
 
-For Sellars, this is a change in *normative status*, not a lightbulb that went 
+For Sellars, this is a change in \em{normative status}, not a lightbulb that went 
 off in one's head. Like the change on your 21st birthday, when suddenly doing 
 the very same thing, making the same pen scratches that you could have made the 
-day before, would *not* be obliging yourself to pay the bank a certain amount of 
+day before, would \em{not} be obliging yourself to pay the bank a certain amount of 
 money every every month for the next 30 years. But after your 21st birthday, 
 when you scratch your pen in exactly the same (physically descriptively, 
 matter-of-factually) way, all of a sudden it has a hugely different normative
@@ -238,7 +238,7 @@ as talking if you can (note this is a [[Novel sentences|very high bar]].)
 The period prior to the child's mastery and social status as a language speaker 
 has some peculiarities. His verbal behavior would express his thoughts but, to 
 put it paradoxically, the child could not express them. The child isn't in a 
-position to *intentionally* say that things are thus-and-so, even though it is 
+position to \em{intentionally} say that things are thus-and-so, even though it is 
 in a position to say that things are thus-and-so. So there's a question: which 
 comes first, speaker's meaning or semantic meaning?
 
@@ -264,10 +264,10 @@ it's a performance, he can reliably produce appropriately, but not yet
 intentionally produce. An adult could be in this situation: 
 [[Auction]] example. That's the sort of position that the kid (who's just crossed the line into being able to say something) is: she can produce a vocalization that will hold her responsible 
 for, and which, accordingly, we take to express a thought. But she doesn't yet 
-have the *concept*. So, she can have the concept of its being red or the house 
-being on fire. But not yet, the concept of *endorsing something*, or of making 
-a claim that he's saying can be a later development. And you need *that* concept 
-in order to *intend* to be making a claim.
+have the \em{concept}. So, she can have the concept of its being red or the house 
+being on fire. But not yet, the concept of \em{endorsing something}, or of making 
+a claim that he's saying can be a later development. And you need \em{that} concept 
+in order to \em{intend} to be making a claim.
 
 Important to make distinctions between different types of saying:
 
@@ -276,12 +276,12 @@ Important to make distinctions between different types of saying:
     - having mastered the entries/exits/language-language moves, but no 
       metalinguistic concepts
     - Could be called "merely thinking out loud"
-    - Can perform speech *acts*.
+    - Can perform speech \em{acts}.
     - Can express that something is read or even a desire for something 
       ("I'm taking that")
-- intentionally saying (*telling* someone) that things are thus-and-so
+- intentionally saying (\em{telling} someone) that things are thus-and-so
     - need concepts of asserting/believing as well as concepts of thus-and-so
-    - Can perform speech *actions*.
+    - Can perform speech \em{actions}.
     - Self consciousness.
 
 We need to think of the child as being able to give evidence without the 

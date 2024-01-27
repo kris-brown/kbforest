@@ -1,0 +1,31 @@
+\title{Common law in practice}
+
+\p{How do judges systematically deal with these kinds of ambiguity, such that every 
+case doesn't need to be resolved with some kind of "[I know it when I see it](https://en.wikipedia.org/wiki/I_know_it_when_I_see_it)"? We first need a distinction between \em{statute law} and \em{common law} (AKA case law). Statute law is a written body of rules created by elected officials, while common law is a set of unwritten principles based on judicial decisions and precedent.[^stare] }
+
+\p{[^stare]: The principle of [stare decisis](https://www.americanbar.org/groups/public_education/publications/preview_home/understand-stare-decisis/) expresses this common law principle of honoring precedent. }
+
+\p{\strong{Regress of interpretations}: Ultimately, addressing semantic skepticism of 
+statute law reduces to addressing it for the case of common law. For it is only 
+through a background of implicit practical norms of a community (for how to 
+interpret the rule) that an explicit rule can have meaning at all. (Explicating the interpretation of an explicit rule via another rule just leads to a [[Regress of rules|regress]]
+if it does not culminate in implicit practical norms.)}
+
+\p{To unpack a legal concept, such as "unreasonable contract" or "strict liability",
+a common law judge must make a \em{rational reconstruction} of the tradition of 
+prior judges' interpretations of the concept. This involves picking which past interpretations of the concept were progressive, good, and precedential, in contrast to past interpretations which were regressive, bad, and should not be precedential. The judge expresses the concept as a \em{rule}, which the progressive applications can be seen as satisfying or at least working towards.}
+
+\p{> [!info]- Example: rational reconstruction of the concept "reasonable contract"
+> The judge for Bob's case writes in the rationale of the ruling that, historically, judges ruled that contracts were unreasonable if they were "too long" (the cutoff for this has stabilized around 100 pages in the more recent rulings). There have been occasional exceptions, but these each have an explanation for why they are exceptional, including a case where the contract was mostly figures (unlike Bob's, which was all text) and a case with a judge who has since been disbarred for taking bribes.}
+
+\p{[[Ronald Dworkin]] likens the task of a common law judge to being an author of a 
+chain novel in \em{media res}.}
+
+\blockquote{ Your assignment is to make of the text the best it can be, and you will 
+> therefore choose the interpretation you believe makes the work more 
+> significant and otherwise better.  — [[Law's Empire]]}
+
+\p{This is how things work in practice. We need to make sense of this practice in 
+a way that does not grant the semantic skeptic that the \em{content} of 
+concepts like "unreasonable contract" is nonexistent or indeterminate.
+}

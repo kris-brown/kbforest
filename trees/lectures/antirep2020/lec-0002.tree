@@ -1,5 +1,5 @@
 \title{02 - Rorty’s Critique of Enlightenment Representationalism and Analytic Philosophy}
-
+\import{base-macros}
 \p{
 
 [[Robert Brandom|Author]] [[01 - The Concept of Representation|Prev]] [[03 - Rorty Finds His Pragmatist Voice|Next]]
@@ -10,9 +10,9 @@ A discussion of [[Philosophy and the Mirror of Nature]]. Brandom views the core 
 ## Neokantianism vs a socialized/historicized/naturalized alternative
 
 - Rorty redescribes the history of philosophy as a struggle over the [[Relation of philosophy to other disciplines]]. Fought by two camps in the 19th century and then re-enacted in the 20th century.
-  - **[[Neokantianism]]** Philosophy has sovereign authority over the high culture.
+  - \strong{[[Neokantianism]]} Philosophy has sovereign authority over the high culture.
     - Idea originates with [[Plato]], but Descartes / Kant /  representationalism are modern versions.
-  - **Neohegelianism**/pragmatism ([[Georg Wilhelm Friedrich Hegel|Hegel]] socialized philosophy, [[Karl Marx|Marx]] naturalized it). Philosophy brought 'down to Earth'. The American pragmatists continued in this path.
+  - \strong{Neohegelianism}/pragmatism ([[Georg Wilhelm Friedrich Hegel|Hegel]] socialized philosophy, [[Karl Marx|Marx]] naturalized it). Philosophy brought 'down to Earth'. The American pragmatists continued in this path.
 - [[Bertrand Russell]] and [[Edmund Husserl|Husserl]] found things for philosophy to be apodictic about. Basis of Rorty's 'astonishing' claim that [[analytic philosophy]] is just a phase of neokantianism
   - Russell and those downstream don't think of themselves this way.
   - But they share the idea that philosophy of language is "first philosophy" and that linguistically-inflected philosophy of mind could advance our notions of epistemology and general theory of representation.
@@ -26,22 +26,53 @@ A discussion of [[Philosophy and the Mirror of Nature]]. Brandom views the core 
 
 Similarities of Sellars and Quine:  
 
-- gave *holist* arguments, rejecting a kind of *atomism*. 
+- gave \em{holist} arguments, rejecting a kind of \em{atomism}. 
 - mentored by [[C. I. Lewis]] and hugely influenced by Carnap.
 - they did not take to heart each other's holist arguments 
+}
 
-| | Sellars | Quine |
-|--|--|---|
-| Myth | [[Myth of the Given]] |  [[Myth of the Museum]]| 
-| Relevant work | [[Empiricism and the Philosophy of Mind]] | [[Two Dogmas of Empiricism]] | 
-| Concept challenged | Sense-givenness | Meaning-givenness |
-| Against atomism in | [[Epistemology]] | [[Semantics]] | 
-| Kantian representation | Sense impression | Meaning-relation | 
-| Regress stopped | premises[^rp] | inferences[^ri] | 
+\table{
+  \tr{
+    \th{ }
+    \th{Sellars}
+    \th{Quine}
+  }
+  \tr{
+    \td{Myth}
+    \td{[[Myth of the Given]] }
+    \td{[[Myth of the Museum]]}
+  }
+  \tr{
+    \td{Relevant work}
+    \td{[[Empiricism and the Philosophy of Mind]]}
+    \td{[[Two Dogmas of Empiricism]]}
+  }
+  \tr{
+    \td{Concept challenged}
+    \td{Sense-givenness}
+    \td{Meaning-givenness}
+  }
+  \tr{
+    \td{Against atomism in}
+    \td{[[Epistemology]]}
+    \td{[[Semantics]]}
+  }
+  \tr{
+    \td{Kantian representation}
+    \td{Sense impression}
+    \td{Meaning-relation}
+  }
+  \tr{
+    \td{Regress stopped}
+    \td{premises[^rp]}
+    \td{inferences[^ri]}
+  }
+}
+\p{
 
 Rorty was the first to see a common functional role to the above kinds of Kantian representation (and a common structure to Sellars' and Quine's critiques).
 
-- They are *privileged* representations
+- They are \em{privileged} representations
 - They serve as infinite regress stoppers, for premises and inferences.
   
 [^rp]: [[Agrippan trilemma]]: we need to stop the infinite regress of premises (unjustified justifiers). Pretty much everyone's candidate for these is the sensuous given.
@@ -65,10 +96,10 @@ Quine's argument:
 
 Sellars' argument:
 
-- For a sensory experience to play an *evidential* role (to serve as the justification of some other claim), it has to be conceptually articulated.
+- For a sensory experience to play an \em{evidential} role (to serve as the justification of some other claim), it has to be conceptually articulated.
 - You can't just have this concept in isolation, because having the concept is understanding the concept's inferential relations. [^witt]
 
-Holism at the level of semantics (the *meaning* of one of these privileged representations cannot be independent of other representations). And holism at the level of [[semantics and epistemology]] (the *meaning* of one of these privileged representations cannot be independent of which ones we are committed to).
+Holism at the level of semantics (the \em{meaning} of one of these privileged representations cannot be independent of other representations). And holism at the level of [[semantics and epistemology]] (the \em{meaning} of one of these privileged representations cannot be independent of which ones we are committed to).
 
 Both Sellars and Quine (pragmatically) ask "What do you have to be able to do?" in semantics and epistemology in order to argue for their holism.
 

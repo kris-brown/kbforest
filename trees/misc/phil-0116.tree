@@ -2,7 +2,7 @@
 
 \p{
 
-If any things are known [[Representation|representationally]], then some things must be known nonrepresentationally (immediately, by being *had* or *grasped*).
+If any things are known [[Representation|representationally]], then some things must be known nonrepresentationally (immediately, by being \em{had} or \em{grasped}).
 
 - Otherwise we can't know about something via a representation #{R}, because we'd 
   need another representation to know #{R}.
@@ -11,18 +11,18 @@ If any things are known [[Representation|representationally]], then some things 
 
 ## Royce's argument from error
 Brandom compares Descartes move to avoid this regress to Josiah Royce's 
-argument which argues if even *mis*representation is to be possible, there 
+argument which argues if even \em{mis}representation is to be possible, there 
 must be some things we know immediately. See 
 [SEP](https://plato.stanford.edu/entries/royce/#MetaEpisIdeaInte).
 
 ## Relation to semantic skepticism
 
-What is the basis of our *knowledge* of the relation between representeds and 
+What is the basis of our \em{knowledge} of the relation between representeds and 
 representings? This is a question beyond knowing particular representeds.
 
 We must have a representing #{R} (our concept of representation) 
 of the relation of representings to representeds. 
-But then we also need a representation #{R^\prime$ of $R}, and so 
+But then we also need a representation #{R^\prime#{ of }R}, and so 
 on.
 
 This is something that the representational model itself couldn't address, and 

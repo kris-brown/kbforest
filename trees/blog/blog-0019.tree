@@ -1,0 +1,51 @@
+\title{Insight from psychology}
+\import{base-macros}
+
+\p{One helpful vocabulary for discussing the problem comes from a particular framework of [psychological development](https://en.wikipedia.org/wiki/Constructive_developmental_framework), as summarized by the following [table](https://vividness.live/developing-ethical-social-and-cognitive-competence).
+}
+
+\table{
+  \tr{
+    \th{Stage}
+    \th{3: Communal}
+    \th{4: Systematic	}
+    \th{5: Fluid}
+  }
+  \tr{
+    \td{Objects}
+    \td{Egocentric desires}
+    \td{Relationships}
+    \td{Systems}
+  }
+  \tr{
+    \td{Subject}
+    \td{Relationships}
+    \td{System of principles and projects}
+    \td{Meaning-making}
+  }
+  \tr{
+    \td{Relationships}
+    \td{Symmetrical, unstructured}
+    \td{Asymmetrical, formal roles}
+    \td{Meta-systematic}
+  }
+  \tr{
+    \td{Ethics}
+    \td{Compassion, consensus}
+    \td{Procedural justice, responsibility, principles}
+    \td{Nebulous yet patterned; collaborative improvisation}
+  }
+  \tr{
+    \td{Epistemology}
+    \td{Can put oneself in other’s shoes}
+    \td{Can take perspective of structured social system}
+    \td{Can relate systems to each other}
+  }
+}
+
+\p{
+Importantly, these are not just classifications of people but also a \em{progression}, i.e. skipping steps is not taken to be possible. Prerequisite to achieving \strong{5} is the movement from \strong{3} to \strong{4}: becoming monolingual \em{some} formal system. Think of this as the edgy extremism (e.g. uncompromising utilitarianism solving ethics, uncompromising libertarianism or Marxism solving politics) we associate with adolescents. This provides a satisfying [explanation](https://metarationality.com/stem-fluidity-bridge) of how, in the social sciences, postmodernism can feel both progressive yet regressive at times: it teaches us to progress from \strong{4} to \strong{5}, yet, if its ideas are introduced too early, it will prevent  progress from \strong{3} to \strong{4} because "it's all relative, man."}
+
+\p{In scientific fields, the remarkable consensus of scientific practice makes it easy to progress to \strong{4} yet difficult to progress to \strong{5}. We can now see Rorty's postmodern criticisms above as successfully ushering many in the humanities from \strong{4} to \strong{5};[^cis]  yet his rhetoric often fails to win over the scientific-minded. A science-friendly analogue is needed.}
+
+\p{[^cis]: In Chapter 4 of Rorty's [Contingency, Irony, and Solidarity](https://en.wikipedia.org/wiki/Contingency,_Irony,_and_Solidarity), his "common-sensical person", "metaphysician", and "ironist" correspond respectively to \strong{3}, \strong{4}, and \strong{5}.}

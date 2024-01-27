@@ -19,7 +19,7 @@
 
 ## Sellars has two good ideas associated with material inference:
 
-1. There *are* some inferences that are good, not in virtue of their logical form.
+1. There \em{are} some inferences that are good, not in virtue of their logical form.
 2. Turn the above thought on its head and say: we can understand the content of 
    these descriptive terms in terms of the materially good inferences they
    appear in (as premises or conclusions).
@@ -44,10 +44,10 @@ in virtue of its theological form.
 Philosophy of logic (See Quine's and Putnam's books both titled _The Philosophy
 of Logic_) has two classic questions:
 
-1. a *demarcation* question: what makes something logical vocabulary?
+1. a \em{demarcation} question: what makes something logical vocabulary?
     - Quine disallows second order quantifiers and the epilson of set
           theory, whereas Putnam allows them.
-2. a *correctness* question: which logical consequence relation to use:
+2. a \em{correctness} question: which logical consequence relation to use:
     - Classical? Intuitionistic? etc.
 
 Sellars challenges this tradition (logical empiricism) by pointing out there is
@@ -55,7 +55,7 @@ a concern conceptually prior in the order of explanation to philosophy of
 logic: materially good inferences.
 
 # Inference and Meaning
-- A main argument of *Inference and Meaning* is that any language that makes 
+- A main argument of \em{Inference and Meaning} is that any language that makes 
   essential use of non-logical, descriptive vocabulary must be understood as 
   having that vocabulary standing in materially good (rather than just logically 
   good) inferences.
@@ -66,8 +66,8 @@ logic: materially good inferences.
 - Sellars claims logical vocabulary has the expressive job of making explicit the 
   material proprieties of inference that articulate the content of non-logical 
   concepts.
-- More specifically than 'logical', he means *alethic modal* vocabulary: i.e. 
-  what's *necessary* and what's *possible*.
+- More specifically than 'logical', he means \em{alethic modal} vocabulary: i.e. 
+  what's \em{necessary} and what's \em{possible}.
 - Historical note: Frege is more explicit about this point than Sellars: that 
   you can use this to distinguish logical vocabulary.
 - The [[Montaigne's dog|Montaigne example]] highlights 
@@ -75,7 +75,7 @@ logic: materially good inferences.
   inference explicit:
     - Dan Dennett argues that we have to take animals as grasping modus ponens 
       because they treat some inferences as good and others as bad
-    - Sellars objects, saying that you *could* make explicit the practical 
+    - Sellars objects, saying that you \em{could} make explicit the practical 
       capacity the animal has via a statement of disjunctive syllogism
     - But what is the surplus value of invoking that explicit expression? (Over 
       simply describing what is the dog can do).
@@ -89,7 +89,7 @@ logic: materially good inferences.
         - We could have the auxillary position #{\forall x, \psi(x)\vdash \phi(x)} 
           which would license us to move from a position #{\psi(a)} to a position 
           #{\phi(a)}, but we could also encode this with position for each possible
-          move (#{\psi(a)\vdash \phi(a)$, $\psi(b)\vdash\phi(b)}, ...).
+          move (#{\psi(a)\vdash \phi(a)}, #{\psi(b)\vdash\phi(b)}, ...).
         - He ways that we could imagine replacing positions with moves, but it's 
           not possible to imagine all moves being replaced with positions ('a 
           game without moves is Hamlet without the Prince of Denmark').
@@ -103,7 +103,7 @@ logic: materially good inferences.
   that #{p}, but what the logic does is give you meta-linguistic control to talk 
   about what is a good inference and say that #{p \vdash q} is a good 
   inference.[^inf]
-- Example: #{A\vdash B$ where $A} is "she asked me to hand her the dish towel" 
+- Example: #{A\vdash B} where #{A} is "she asked me to hand her the dish towel" 
   and #{B} is "I shall hand her the dish towel". Traditional analytic philosophy 
   will call this an infamy, since it does not explicitly state how her request 
   engages my motivational structure. Sellars would want to say that this 
@@ -117,7 +117,7 @@ logic: materially good inferences.
 - Sellars complains about Carnap treating logical consequence as a syntactically 
   definable relation between sentences. Just writing down the rules under a 
   heading 'rules' instead of 'axioms' isn't making explicit the normative force 
-  they have (it leaves out the rulishness - that a rule is a rule for *doing* 
+  they have (it leaves out the rulishness - that a rule is a rule for \em{doing} 
   something). This is a subtle point that doesn't matter for many purposes, but 
   Sellars believes it's important if you want to understand what's going on with 
   reasoning. Again, strong connection between this point and *Achilles and the 
@@ -129,8 +129,8 @@ logic: materially good inferences.
   ground level. For the latter, he wants to argue that these predicates too are 
   meaningful insofar as their role in reasoning, but it's less obvious.
 - "Red is a quality". This conveys the same information as the syntactical 
-  sentence "*Red* is a one place predicate." See 
-  [[Transposed language of norms|quote]]. What you're *doing* in asserting 
+  sentence "\em{Red} is a one place predicate." See 
+  [[Transposed language of norms|quote]]. What you're \em{doing} in asserting 
   that premise from which to reason (couched in modal vocabulary) is endorsing a 
   principle in accordance with which to reason (couched in normative vocabulary).
 
@@ -138,14 +138,14 @@ logic: materially good inferences.
   Their relation is characterized by the say/convey distinction.
 
 
-[^inf]: However, Sellars doesn't extrapolate from this that logic is an *optional* 
+[^inf]: However, Sellars doesn't extrapolate from this that logic is an \em{optional} 
 superstructure in our lives - we need to be able to think and talk about the 
 goodness of inferences.
 
 ## Say/convey distinction
 When I say "copper melts at 1084 degrees" one makes a claim that is true even if 
-there were no reasoners (so it can't be a claim directly *about* inferences 
-being good). What it *conveys* is about inferences, not what it *says*. 
+there were no reasoners (so it can't be a claim directly \em{about} inferences 
+being good). What it \em{conveys} is about inferences, not what it \em{says}. 
 Likewise, I say "The sun is shining" while I convey "I believe the sun is 
 shining."
 
@@ -275,7 +275,7 @@ Related quesiton addressed here: [[Behaviorism|classical behaviorism]].
 How is it that I can apply a concept according to norms, to invoke a 
 pre-linguistic awareness of universals, that's going to be a given. And the key 
 thing is, because that pre-linguistic awareness is conceived of as providing 
-*reasons* for me to do this. It's not just that I've been *trained* to respond 
+\em{reasons} for me to do this. It's not just that I've been \em{trained} to respond 
 to some physiological thing by doing it (that would be okay. That could be part 
 of the the real explanation, the pattern governed explanation). It's that that 
 pre-linguistic awareness provides reasons. And the claim is reasons are always 

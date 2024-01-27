@@ -1,15 +1,34 @@
 \title{Pragmatism and platonism}
+\import{base-macros}
 
 \p{
 
 Rorty takes for granted a distinction of [[John Dewey|Dewey]]:
+}
+\table{
+  \tr{
+    \th{platonism[^lo]}
+    \th{ pragmatism}
+  }
+  \tr{
+    \td{Principles}
+    \td{Practices}
+  }
+  \tr{
+    \td{Theoria}
+    \td{Phronesis}
+  }
+  \tr{
+    \td{Knowing that}
+    \td{Knowing how}
+  }
+  \tr{
+    \td{Ending the conversation}
+    \td{Continuing the conversation}
+  }
+}
 
-| platonism[^lo]      | pragmatism |
-| ----------- | ----------- |
-| Principles      | Practices       |
-| Theoria   | Phronesis        |
-| Knowing that | Knowing how |
-| Ending the conversation | Continuing the conversation |
+\p{
 
 - Platonists look for a principle or rule, something explicit or that could be 
   made explicit, behind every implicit propriety of practice.
@@ -17,7 +36,7 @@ Rorty takes for granted a distinction of [[John Dewey|Dewey]]:
 - [[Pragmatism|Pragmatists]] argue that explicit principles or theories float on a vast sea of 
   implicit practical skills.
 
-What's at stake: the order of explanation / conceptual priority between *principles* and *practices*.
+What's at stake: the order of explanation / conceptual priority between \em{principles} and \em{practices}.
 
 For example, a cobbler can make good shoes. The platonist looks for what form is 
 behind his mastery, what principle / mental representation makes it possible 

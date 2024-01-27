@@ -1,4 +1,5 @@
 \title{02 - Overview of pragmatist, semantic reading of the Phenomenology}
+\import{base-macros}
 
 \p{
 
@@ -6,53 +7,104 @@
 
 # Conceptual realism and objective idealism
 
-Problem with [[René Descartes|Cartesian representationalism]]: it wants to *separately* understand minds (representings) and things (representeds). This creates a dualism when it becomes hard to understand their relationships (knowledge *of* the facts *by* the knowings, action *on* the facts *by* the will). [[Immanuel Kant|Kant]] founded German *idealism* by removing this dualism, viewing the world as in conceptual shape. This is crazy if you think concepts are mental representations: Hegel's non-psychological conception of the conceptual holds something as conceptually contentful if it stands in relations of [[Material inference vs logical inference|material]] incompatibility and consequence[^trm] to other such contentful items.  
+Problem with [[René Descartes|Cartesian representationalism]]: it wants to \em{separately} understand minds (representings) and things (representeds). This creates a dualism when it becomes hard to understand their relationships (knowledge \em{of} the facts \em{by} the knowings, action \em{on} the facts \em{by} the will). [[Immanuel Kant|Kant]] founded German \em{idealism} by removing this dualism, viewing the world as in conceptual shape. This is crazy if you think concepts are mental representations: Hegel's non-psychological conception of the conceptual holds something as conceptually contentful if it stands in relations of [[Material inference vs logical inference|material]] incompatibility and consequence[^trm] to other such contentful items.  
+}
 
-| Conceptual content | Subjective form | Objective form |
-| :--: | :--: | :--: |
-| Relation to consciousness | What it is *for* consciousness | What it is *in itself* |
-| Kind of being | Phenomena | Noumena |
-| Empirical content | Appearance | Reality|
-| Kind of necessity | Deontic normative constraints | Alethic modal constraints |
-| Example of necessity | One ought not have incompatible empirical+practical commitments, one *ought* acknowledge the consequences of what one acknowledges | An object *cannot* have incompatibly properties and *necessarily* has properties that follow from its other properties 
 
-Genuine knowledge is when the same content shows up in *both* different forms. A fact is a thought that is true. They are not different kinds of things, as in the Cartesian or even Kantian picture. Kant only acknowledged the conceptual articulation of the subjective - Hegel pushes this further by understanding conceptual content such that the objective is likewise conceptually articulated.
+\table{
+  \tr{
+    \th{Conceptual content }
+    \th{Subjective form }
+    \th{Objective form}
+  }
+  \tr{
+    \td{Relation to consciousness }
+    \td{What it is \em{for} consciousness }
+    \td{What it is \em{in itself} }
+  }
+  \tr{
+    \td{Kind of being }
+    \td{Phenomena  }
+    \td{Noumena}
+  }
+  \tr{
+    \td{Empirical content }
+    \td{Appearance }
+    \td{Reality}
+  }
+  \tr{
+    \td{Kind of necessity }
+    \td{Deontic normative constraints }
+    \td{Alethic modal constraints}
+  }
+  \tr{
+    \td{ Example of necessity }
+    \td{One ought not have incompatible empirical+practical commitments, one \em{ought} acknowledge the consequences of what one acknowledges }
+    \td{An object \em{cannot} have incompatibly properties and \em{necessarily} has properties that follow from its other properties}
+  }
+}
 
-Idealists are typically dismissed by acknowledging there *was* an objective world before there were any knowing subjects and there *would have been* such a world if there *never had been* any knowing subjects. This concern is addressed by distinguishing [[Sense dependence vs reference]]: there is a reference dependence between facts/objects/properties and the discursive practice of knowing subjects which is acyclic, but there is a *mutual* sense dependence between them: one cannot *understand* what one is *saying* when one says *that* there are objects/properties without *understanding* what one is *doing* in certain social practices (e.g. referring, predicating).
+\p{
+
+Genuine knowledge is when the same content shows up in \em{both} different forms. A fact is a thought that is true. They are not different kinds of things, as in the Cartesian or even Kantian picture. Kant only acknowledged the conceptual articulation of the subjective - Hegel pushes this further by understanding conceptual content such that the objective is likewise conceptually articulated.
+
+Idealists are typically dismissed by acknowledging there \em{was} an objective world before there were any knowing subjects and there \em{would have been} such a world if there \em{never had been} any knowing subjects. This concern is addressed by distinguishing [[Sense dependence vs reference]]: there is a reference dependence between facts/objects/properties and the discursive practice of knowing subjects which is acyclic, but there is a \em{mutual} sense dependence between them: one cannot \em{understand} what one is \em{saying} when one says \em{that} there are objects/properties without \em{understanding} what one is \em{doing} in certain social practices (e.g. referring, predicating).
 
 [^trm]: "determinate negation" and "mediation"
 # Normativity: status and attitude
 
 Tree of distinctions with translation manual for Hegel's vocabulary:
 
-- Normative statuses ("What Consciousness is *in itself*")
+- Normative statuses ("What Consciousness is \em{in itself}")
 	- Authority ("Independence")
 	- Responsibility ("Dependence")
-- Normative attitudes ("What Consciousness is *for Consciousness*")
-	- Attributing  ("What Consciousness is *for another* Consciousness")
-	- Acknowledging  ("What Consciousness is *for itself*")
+- Normative attitudes ("What Consciousness is \em{for Consciousness}")
+	- Attributing  ("What Consciousness is \em{for another} Consciousness")
+	- Acknowledging  ("What Consciousness is \em{for itself}")
+}
 
-| | Pre-modernity | Modernity |
-|:--:|:---:|:---:|
-| Sense dependence |normative statuses #{\rightarrow$ normative attitudes | normative attitudes $\rightarrow} normative statuses |
-| Source of authority | God-given, part of nature | Constructed from our practices of treating each other *as* authoritative/responsible | 
-|Problem| [[Fetishism]]: it refied / projected / objectified social norms | *Alienation*: our norms no longer seem *rationally* binding. |
-| Norms | We *find* norms | We *make* norms |
+\table{
+  \tr{
+    \th{ }
+    \th{Pre-modernity | }
+    \th{Modernity}
+  }
+  \tr{
+    \td{Sense dependence | }
+    \td{normative statuses #{\rightarrow} normative attitudes | }
+    \td{normative attitudes #{\rightarrow} normative statuses}
+  }
+  \tr{
+    \td{Source of authority | }
+    \td{God-given, part of nature | }
+    \td{Constructed from our practices of treating each other \em{as} authoritative/responsible}
+  }
+  \tr{
+    \td{Problem| }
+    \td{[[Fetishism]]: it refied / projected / objectified social norms | }
+    \td{\em{Alienation}: our norms no longer seem \em{rationally} binding.}
+  }
+  \tr{
+    \td{Norms | }
+    \td{We \em{find} norms | }
+    \td{We \em{make} norms }
+  }
+}
 
-Brandom reads [[Georg Wilhelm Friedrich Hegel|Hegel]] as trying to synthesize the pre-modern and modern insights to avoid fetishization and alienation.
+\p{Brandom reads [[Georg Wilhelm Friedrich Hegel|Hegel]] as trying to synthesize the pre-modern and modern insights to avoid fetishization and alienation.
 
-Autonomy is a social status: an authority to *make* oneself responsible (i.e. to *institute* a further normative status). It is a kind of independence to make oneself dependent by acknowledging a commitment. Kant thinks normative have a *duty* to acknowledge the autonomy of normative subjects. He thinks by our nature we just *come* with this duty and this authority. 
+Autonomy is a social status: an authority to \em{make} oneself responsible (i.e. to \em{institute} a further normative status). It is a kind of independence to make oneself dependent by acknowledging a commitment. Kant thinks normative have a \em{duty} to acknowledge the autonomy of normative subjects. He thinks by our nature we just \em{come} with this duty and this authority. 
 
-Hegel derives these social statuses from reciprocal recognition. To genuinely make one self responsible, one must not only acknowledge that commitment but also acknowledge others as holding one responsible (furthermore, they must actually attribute that responsibility, *taking* one to be responsible). Hegel diagnoses some defective social situations as due to normative attitudes with asymmetric recognitive relations (e.g. superiority/subordination). Thus the attitudes of others (what one is *for others*) is as essential to what one acknowledges, i.e. what one is *for oneself*.
+Hegel derives these social statuses from reciprocal recognition. To genuinely make one self responsible, one must not only acknowledge that commitment but also acknowledge others as holding one responsible (furthermore, they must actually attribute that responsibility, \em{taking} one to be responsible). Hegel diagnoses some defective social situations as due to normative attitudes with asymmetric recognitive relations (e.g. superiority/subordination). Thus the attitudes of others (what one is \em{for others}) is as essential to what one acknowledges, i.e. what one is \em{for oneself}.
 
 Meaning and belief are normative concepts. Meanings are norms for the formation of beliefs (i.e. adoption of propositional attitudes). Hegel thinks in terms of "the Concept" - a holistic constellation of ever-evolving meanings and beliefs each sensitive to changes in the other. The mutual dependence of meaning and correctness (in contrast to Carnap's language-theory distinction) was rediscovered by Wittgenstein and Quine's Two Dogmas. 
 
-Kant understands sense impressions as inexhaustible by some finite set of judgments (there's no bit that cannot be conceptualized, but conceptualizing *all* is an infinite task). Hegel interprets the same phenomenon as the **instability** of any set of determinate empirical concepts. If we unpack the norms for endorsing any finite set of judgments, we will be led to incompatible doxastic commitments.
+Kant understands sense impressions as inexhaustible by some finite set of judgments (there's no bit that cannot be conceptualized, but conceptualizing \em{all} is an infinite task). Hegel interprets the same phenomenon as the \strong{instability} of any set of determinate empirical concepts. If we unpack the norms for endorsing any finite set of judgments, we will be led to incompatible doxastic commitments.
 # Semantics: recollection and representation
 
-How to synthesize the premodern notion of us *finding* norms vs the modern notion of us *making* them? Common law judges provide a model for how this works.
+How to synthesize the premodern notion of us \em{finding} norms vs the modern notion of us \em{making} them? Common law judges provide a model for how this works.
 
-Retrospectively, a judge gives a rational reconstruction of what some legal concept means by looking at precedent and *finding out* what the norms were. This seems suspicious as a judge can tell whatever story they want - the previous use of a concept doesn't objectively determine its rightful future use. But this is one-sided: the judge's *responsibility* to the past is administered by *future* judges, as they will consider the ruling in context and decide whether it was itself precedential / progressive / responsive to the actual norms or not (e.g. if the reconstruction depended on 'what the judge had for breakfast'). So law is both *made* (viewed prospectively, via making rational reconstructions) and *found* (viewed retrospectively, as part of a future rational reconstruction) by judges.
+Retrospectively, a judge gives a rational reconstruction of what some legal concept means by looking at precedent and \em{finding out} what the norms were. This seems suspicious as a judge can tell whatever story they want - the previous use of a concept doesn't objectively determine its rightful future use. But this is one-sided: the judge's \em{responsibility} to the past is administered by \em{future} judges, as they will consider the ruling in context and decide whether it was itself precedential / progressive / responsive to the actual norms or not (e.g. if the reconstruction depended on 'what the judge had for breakfast'). So law is both \em{made} (viewed prospectively, via making rational reconstructions) and \em{found} (viewed retrospectively, as part of a future rational reconstruction) by judges.
 
 Hegel's term for 'rational reconstruction' is recollection: a distinctive kind of making that is finding. This is a pragmatic account of institution of norms by attitudes (yet compatible with attitudes governed by statuses).
 
@@ -64,13 +116,13 @@ Synthesis of conceptual realism and objective idealism - an account of the relat
 	- Hegelian senses (what things are for consciousness) are responsible to Hegelian referents (what things are in themselves) via representational responsibility.
 - Pragmatics (normative force / self-consciousness) 
 	- Normative attitudes instantiate normative statuses. 
-	- They also are responsible *to* normative statuses via representational responsibility. 
+	- They also are responsible \em{to} normative statuses via representational responsibility. 
 - Attitudes are responsible to content.
 # Postmodernity: reconciling traditional and modern insights
 
-Conceptual *content* arises from normative *force*. Recollecting *takes* objective conceptual norms to be acknowledged by discursive practitioners and thereby *makes* those attitudes intelligible as adopting normative statuses.
+Conceptual \em{content} arises from normative \em{force}. Recollecting \em{takes} objective conceptual norms to be acknowledged by discursive practitioners and thereby \em{makes} those attitudes intelligible as adopting normative statuses.
 
-Understanding the conditions of having determinate thoughts/intentions commits us to adopting to one another practical *recognitive* attitudes (e.g. forgiveness, confession, trust).[^k] Reciprocal recognition (over space or, as in the case of common law judges, time) requires a community built on trust. The social determinateness of meaning requires me, by writing something down and meaning something by it, to trust my being interpreted / redescribed by others.
+Understanding the conditions of having determinate thoughts/intentions commits us to adopting to one another practical \em{recognitive} attitudes (e.g. forgiveness, confession, trust).[^k] Reciprocal recognition (over space or, as in the case of common law judges, time) requires a community built on trust. The social determinateness of meaning requires me, by writing something down and meaning something by it, to trust my being interpreted / redescribed by others.
 
 [^k]: This is akin to Kant deriving morality from a proper understanding of intentional agency (making explicit commitments already present in any discursive activity).
 }

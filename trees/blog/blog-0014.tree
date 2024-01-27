@@ -1,0 +1,53 @@
+\title{Universal properties}
+\import{macros}
+
+\p{Here, we take aim at a particular attitude towards mathematics:}
+
+\blockquote{to understand an object is to understand its constituent parts, i.e. how it is constructed.}
+
+\p{An alternative viewpoint is motivated by category theory:}
+ 
+\blockquote{to understand an object is to understand how it relates to everything else}
+
+\p{The latter approach makes it more work to understand something, for example:}
+
+\ul{
+\li{Suppose we have two sets of things, #{A} and #{B}. The cartesian product of sets, 
+  #{A \times B} can be \em{defined} as the set of pairs #{(a,b)} for all #{a} in #{A} and for all #{b} in #{B}. 
+  This is very straightforward. In constrast, the category-theoretic 
+  [characterization of a product](https://en.wikipedia.org/wiki/Product_(category_theory))  describes how #{A \times B} relates to everything else rather than describing what #{A \times B} is \em{in itself}, the details of which are 
+  left to a footnote.[^1] 
+
+[^1]: You can pick whatever representation you want for #{A \times B}, but for it to act as a 
+  product, it must be able to take \em{any} pair of functions like in the figure 
+  below and derive a \em{unique} function which first maps into it and then applies
+  the projection maps (e.g. \em{get rank} or \em{get suit}) to recover the original 
+  pair of functions. In the case of the #{(a,b)} encoding, this unique map sends 
+  "low" to #{(1, \spadesuit)} and "high" to #{(A, \clubsuit)}.}
+}
+\image{blog/hand-tied/ct.png}
+
+\ul{
+\li{The set of natural numbers #{\mathbb{N}} can be \em{defined} as the set 
+  #{\{0, 1, 2, ...\}}. This is very straightforward. In contrast, the category-
+  theoretic [characterization of the natural numbers](https://en.wikipedia.org/wiki/Natural_numbers_object)  is very involved because we aren't allowed to say "what is \em{in} the set", only how the "natural numbers" (whatever that may be) must relate to other things in a given context if it is worthy of being called the "natural numbers" of that context.}
+}
+
+\p{What are the upshots of the categorical approach, which forbids us from talking 
+about the constituent parts of the thing we're trying to describe? Here are two:}
+
+\ul{
+\li{\strong{Generality}: we define \em{product} once and then realize that tons of things 
+  that appear in many different contexts are actually the exact categorical 
+  definition of product, but specialized to different categories (e.g. multiplying 
+  numbers, intersections of sets, the greatest common divisor, logical \strong{AND}, etc.). }
+\li{\strong{Essence}: the definition of #{\mathbb{N}} given set-theoretic foundations 
+  might mean that it literally is the set #{\{\varnothing, \{\varnothing\},\ \{\{\varnothing\}\},\ ...\}}. Though one could also encode the natural numbers as #{\{\varnothing,\ \{\varnothing\},\ \{\varnothing,\{\varnothing\}\},\ ...\}} 
+  or a very different way, e.g. the number #{3} defined as the set of all sets with three elements. These can have very different properties that we morally ought to ignore, such as whether or not #{a \subseteq b} (in their encoding) iff #{a \leq b} as naturals,
+  because these are "implementation details". The category-theoretic 
+  characterization forbids us from looking at implementation details, which is 
+  an advantage in the long run even if it makes things more complicated at the 
+  start.[^2] 
+  
+[^2]: When programming, we can also take advantage of implementation details to do some things easier - it is likewise not a good idea to do this, in the long run.}
+}

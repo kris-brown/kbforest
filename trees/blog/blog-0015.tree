@@ -1,0 +1,44 @@
+
+\title{Pragmatist semantics}
+\import{macros}
+
+\p{It's often important that we clarify the meaning of our statements, such as
+"The robot is not conscious" or "There do not exist any ghosts." A 
+theory of semantics is helpful to make explicit how to do this clarification.}
+
+\p{We could adopt the "view from nowhere": 
+we imagine there is a "true model" of the world as it is in itself. Perhaps this lists out all the primitive objects and primitive relationships between them. If one could analyze this "true model", one could say the \em{meaning} of "conscious" is a predicate 
+which holds over objects in the model.[^5] [^5]: Think of a 'predicate' as a function which takes in the identity of the object and evaluates it to tell you whether the property holds or not.}
+
+\p{This is called \em{representatationalism} - an ideology that says the meaning of thought and talk should be understood principally in terms of the representational relations that thinkings and sayings stand in to what they (purport to) represent. It gives us an easy template 
+for saying, for any #{\phi}, what #{\phi} means: namely, that #{\phi} is only true if the objective world is configured in such-and-such way. It's so pervasive that it might 
+feel ridiculous to consider any alternative. However, there are issues: }
+
+\ul{
+\li{How are we supposed to achieve the "view from nowhere" in practice? What good is this semantic account if that is in principle impossible?}
+\li{We must imagine the "objective model of the world" to be specified in \em{some} vocabulary, but it's not any of our vocabularies (even our scientific ones), so how could our predicates actually hook up to the objects of the objective world?}
+\li{Many meaningful concepts (such as mathematics, possibility/necessity, ethics)evade a satisfying descriptive account. This sometimes leads people to conclude those concepts are not what we originally thought (e.g. "evil" turns out to be just a way we talk about things we \em{really} dislike, or "necessity" turns out to be just how we feel about stuff that happens \em{really} regularly) rather than questioning the semantic model of descriptivism.}
+\li{Descriptivism would make it seem like every statement we make crucially hinges on whether or not things 'actually exist'. Yet many everyday examples (e.g. [[Referring to witches|witches]], [[Pluto]], [[Sense dependence vs reference|beauty]], and [[sour acid]]) show that ordinary statements are not like this.}}
+
+\p{The philosophical school of pragmatism offers an alternative target vocabulary 
+for explaining semantics, one that does not have to resort to the 
+"view from nowhere." Rather, one explains meanings in terms of social practices 
+(sometimes thought of as "language games"), rather than some sort of direct 
+relationship between the expression and the world.}
+
+\p{Think of the difference between: "\em{Rojo} in Spanish and \em{rot} in German mean the same thing because they pick out the same objects in the world" \em{versus} "...because \em{rojo} plays the same role in Spanish that \em{rot} plays in German."}
+
+\p{One pragmatist analysis of 'sentience' might conclude that sentience is 
+not a property of agents (nor the presence of "mind stuff"). Rather, a sentient
+agent is (to first approximation) one whose verbal noises can be given the 
+social significance of being \em{judgments}.}
+
+\ul{
+\li{Making a judgment both makes us \em{responsible} for something as well as \em{entitles} us to making other inferences.}
+\li{Think of the difference of a parrot squawking "The building is on fire" and an adult saying the same. Our difference in how we }initially react (and how we treat the speaker if it turns out to be false) reflects the different social status of the parrot and human (the difference between mere words and a judgment).
+\li{Sentience can be explained in terms of this social status by pragmatists, without referring to some "true model" of the world (beyond the ordinary and accessible world of speakers and talking).
+}}
+
+\image{blog/hand-tied/view_nowhere.png}
+
+

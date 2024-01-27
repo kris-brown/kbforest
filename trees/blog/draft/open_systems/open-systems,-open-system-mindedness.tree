@@ -23,7 +23,7 @@ one can “glue” two open systems together along a part of their boundary.
 
 
 There is exactly one scenario where there is no payoff to thinking in terms of 
-open systems: you have a *complete* 
+open systems: you have a \em{complete} 
 model, without ever considering extending or modifying it. 
 
 This is analogous to a certain view of truth, call it closed truth or Truth. It takes 
@@ -50,9 +50,7 @@ There is an infinitely-mutual recursion between open systems and closed system
 thinking, the same way there is an open and closed system way of talking about 
 truth. 
 
-| Closed systems | Open Systems |
-|----------------|--------------|
-| ... | ....| 
+(table contrasting  Closed systems vs Open Systems)
 
 1.  For any open system, the closed-system-minded person might say 
   "well there must be some closed system that subsystem is in!". 
@@ -69,7 +67,7 @@ truth.
  - Likewise, any notion of Truth will be articulated in some conceptual machinery, 
    which has its semantics inextricably rooted in social practice.
 
-Neither side is *technically wrong*. One side is a germane to practicioners with 
+Neither side is \em{technically wrong}. One side is a germane to practicioners with 
 finite and falliable reasoning. Drawing credibility from a closed model that 
 unexplicitly assumes it is total is one way of gaining argumentative power without 
 having to do the real work.
