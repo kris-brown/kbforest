@@ -17,11 +17,10 @@ vice-versa for the late Frege.
 - We have statements which are good in virtue of their logical form (logical 
   inferences, e.g. "#{A} and #{B}, therefore #{A}") as well as statements which are just 
   good (materially-good inferences, e.g. "If #{X} is to the #{East} of #{Y}, then #{Y} is to the 
-  #{West} of #{X}.") - [[Wilfrid Sellars|Sellars]] advocates that we understand material inference as more 
+  #{West} of #{X}.") - [Sellars](wilfrid-sellars) advocates that we understand material inference as more 
   fundamental to logical inference.
 
 - Debates in philosophy of language can be recasted as arguing over the 
   preferred order of explanation between syntax, semantics, and pragmatics. 
-  E.g. how do we think of the [[Semantics and pragmatics|relationships]] between declarative sentences, 
-  propositions, and speech acts?
+  E.g. how do we think of the [relationships](int-0016) between declarative sentences, propositions, and speech acts?
 }

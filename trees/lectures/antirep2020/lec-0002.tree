@@ -4,7 +4,7 @@
 
 [[Robert Brandom|Author]] [[01 - The Concept of Representation|Prev]] [[03 - Rorty Finds His Pragmatist Voice|Next]]
 
-A discussion of [[Philosophy and the Mirror of Nature]]. Brandom views the core argument to be chapter 4, which this lecture focuses on.
+A discussion of [Philosophy and the Mirror of Nature](ref-0049). Brandom views the core argument to be chapter 4, which this lecture focuses on.
 
 # Rorty's basic idea
 ## Neokantianism vs a socialized/historicized/naturalized alternative
@@ -54,8 +54,8 @@ Similarities of Sellars and Quine:
   }
   \tr{
     \td{Against atomism in}
-    \td{[[Epistemology]]}
-    \td{[[Semantics]]}
+    \td{[epistemology](phil-0041)}
+    \td{[semantics](phil-0124)}
   }
   \tr{
     \td{Kantian representation}
@@ -75,7 +75,7 @@ Rorty was the first to see a common functional role to the above kinds of Kantia
 - They are \em{privileged} representations
 - They serve as infinite regress stoppers, for premises and inferences.
   
-[^rp]: [[Agrippan trilemma]]: we need to stop the infinite regress of premises (unjustified justifiers). Pretty much everyone's candidate for these is the sensuous given.
+[^rp]: [Agrippan trilemma](phil-0004): we need to stop the infinite regress of premises (unjustified justifiers). Pretty much everyone's candidate for these is the sensuous given.
 [^ri]:  We need inferential transitions that have authority. These are not the same as premises, c.f. [[What the Tortoise said to Achilles]].
 
 What properties must these representations have to be "privileged"? 
@@ -120,7 +120,7 @@ Both Sellars and Quine (pragmatically) ask "What do you have to be able to do?" 
   - [[Duhem-Quine thesis]] 
     - What inferences we are allowed to make depends on the whole of collateral beliefs we have.
 - The unit of meaning must be the web-of-belief rather than the concept or the sentence.
-- [[Jerry Fodor|Fodor]] argues against this, considers mixing epistemology and semantics to be a big philosophical mistake initiated by Quine.
+- [Fodor](jerry-fodor) argues against this, considers mixing epistemology and semantics to be a big philosophical mistake initiated by Quine.
 
 
 
@@ -128,12 +128,12 @@ Both Sellars and Quine (pragmatically) ask "What do you have to be able to do?" 
 
 Is Rorty attacking a strawman? Rorty sees representationalism in semantics as bound up with [[foundationalism|foundationalism in epistemology]], but the two aren't actually tied together.[^knt] Empiricism / epistemological foundationalism are not popular now:
 
-- "Default and challenge" structure a way of avoiding [[Agrippan trilemma]] without challenging the language-theory distinction.
+- "Default and challenge" structure a way of avoiding [Agrippan trilemma](phil-0004) without challenging the language-theory distinction.
 - Bayesianism sees all justification as comparative (never have to justify one's prior commitments).
   - though the problem of semantics is still open, if it is to not be representationalist
 - Naturalism + representationalism remains unchallenged.
   - picking an ontologically privileged base vocabulary
-- So Rorty and [[Huw Price|Price]] need to do one or both of:
+- So Rorty and [Price](huw-price) need to do one or both of:
   1. Argue independently for [[pragmatism]], then use that to attack representationalism without passing through foundationalism
   2. Argue independently against representationalism and propose pragmatism as the best alternative approach
 

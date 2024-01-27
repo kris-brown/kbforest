@@ -56,7 +56,7 @@ table th:nth-of-type(3) {
 [^1]: Letters (e.g. #{P}, #{Q}, #{X}) represent logical variables. These have the 
       meaning of being replaceable with anything, loosely speaking. 
 
-[^2]: This demonstrates that this distinction is different from the [[Analytic and synthetic facts|analytic/synthetic distinction]]. 
+[^2]: This demonstrates that this distinction is different from the [analytic/synthetic distinction](int-0001). 
 There, a cat being a mammal would feel like an \em{analytic} statement, while 
 pigs not being able to fly feels more \em{synthetic}.
 
