@@ -2,8 +2,6 @@
 
 \p{
 
-[[Robert Brandom|Author]] [[02 - Inference and Meaning and Language Games (2009)|Next]]
-
 # Introduction
 Brandom believes Sellars to be the most important American philosopher of the 
 20th century. Some ways in which Sellars was remarkable:
@@ -16,7 +14,7 @@ Brandom believes Sellars to be the most important American philosopher of the
   - (not just a subdiscipline, but rather as the language in which philosophy is pursued).[^world]
 - Sellars' overall aim was to move analytic philosophy from its Humean phase to its Kantian phase.
   - Epitomizes his views towards empiricism/naturalism (which had characterized analytic philosophy). 
-  - That Kant was worth respecting a radical view at the time - he had been written out of the canon due to his connection to [[Georg Wilhelm Friedrich Hegel|Hegel]].
+  - That Kant was worth respecting a radical view at the time - he had been written out of the canon due to his connection to [Hegel](gwf-hegel).
   - Rawls on the theoretical side and Strawson/Bennett on the practical side brought Kant back into respectability in Anglophone circles, but Sellars was way out in front of this (and appreciated the significance of Kant deeper). 
   - This is also why Sellars wasn't so influential - people didn't understand 
     the Kant needed to appreciate him.
@@ -55,7 +53,7 @@ conductor, melting at a particular temperature, etc.).
 Hegel took this Kantian question and observed that normative status are 
 socially instituted statuses - we have to look at social practices to understand 
 what responsibility / authority are. (this idea was reintroduced indepenently 
-by the later Wittgenstein - for example his [[A children's game|children's game]] investigates the 
+by the later Wittgenstein - for example his [children's game](phil-0002) investigates the 
 normative significance of beliefs/desires/intentions).
 
 
@@ -93,7 +91,7 @@ Analytic philosophy held together as being a \em{semantic} project.
       data, language of how things seem or appear)
     - Naturalism: language of natural science (possibly just fundamental 
       physics or broader)
-    - The Vienna Circle was divided into two wings. Schlict (empiricist) and [[Otto Neurath]] 
+    - The Vienna Circle was divided into two wings. Schlict (empiricist) and [Otto Neurath](otto-neurath) 
       (naturalist), and Carnap in between. Prime source of tension between them was 
       modality / lawlikeness. 
   - \em{Functionalism}: Unproblematic vocabulary is talking about how something 
@@ -121,7 +119,7 @@ important philosopher for Sellars was Carnap. (despite Carnap's empiricism.)
 It is debated whether or not Sellars was an reductive naturalist, but Brandom does not 
 think so.
 
-![[Space of reasons]]
+![Space of reasons](q-0137)
 
 - This is a powerful weapon against empiricist reductionisms of all sorts, 
   according to Brandom.
@@ -165,7 +163,7 @@ says that, unless you make \em{some} distinction about what is possible/necessar
 and what is not (note you don't have to get it \em{right}), you can't count as 
 applying the  concept \em{cat} to describe something. So you can't be in the 
 predicament Hume thought he was in. The argument is seen in 
-[[Counterfactuals, Dispositions, and the Causal Modalities]].
+[Counterfactuals, Dispositions, and the Causal Modalities](ref-0012).
 
 A 'master idea' that Sellars never explicitly says at this level of generality:
 
@@ -192,7 +190,7 @@ grammar.
 
 Pragmatic dependencies make explicit conceptual dependencies. 
 
-- E.g. "Looks #{\phi}" talk depends on "Is #{\phi}" talk. ([[Empiricism and the Philosophy of Mind|EPM]])
+- E.g. "Looks #{\phi}" talk depends on "Is #{\phi}" talk. ([EPM](ref-0016))
 
 ## Cautionary tale about saying things aren't descriptive
 First-wave metaethical expressivists said that the role ethical vocabulary played was not 
@@ -206,7 +204,7 @@ Kant is a empirical realist, transcendental idealist. Sellars is an empirical
 naturalist, but a trancendental non-naturalist. This gives Sellars his unique 
 perspective on the problems of philosophy.
 
-- the empricial naturalism is epitomized by [[Scienta mensura]] quote
+- the empricial naturalism is epitomized by [Scienta mensura](q-0133) quote
 - the transcendental non-naturalism comes from the ineliminble expressive role 
   that is played by metalinguistic expressions 
   - There is no prospect of getting rid of that in our discourse

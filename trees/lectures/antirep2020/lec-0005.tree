@@ -2,8 +2,6 @@
 
 \p{
 
-[[Robert Brandom|Author]] [[04 -  Cheryl Misak's Critique of Rorty's Pragmatism|Prev]] [[06 - Rorty's Political Turn|Next]]
-
 
 
 Rorty's literary kehre lasted 10 years. But he realized he's an analytic philosopher and that literary theorists didn't know how to make distinctions and were not good to talk to. He then had a political kehre (had extended interactions with Habermas).
@@ -19,45 +17,45 @@ Here are five claims or moves Rorty might be seen to be making:
 4.  Rejecting as ultimately unintelligible the idea that our thought is normatively constrained (as opposed to causally constrained) by an objective world via the representational semantic dependence of representings on representeds that consists in representeds providing normative standards of assessment of the correctness of representings (in a distinctive sense of “correctness.”). This is a kind of authority of representeds over representings.
 5.  Social pragmatism about normativity: all normative statuses (responsibility, authority, being a standard of correctness) are social statuses.
 
-[^tde]: The appeal here is to Quine’s pragmatist arguments in [[Two Dogmas of Empiricism]].
+[^tde]: The appeal here is to Quine’s pragmatist arguments in [Two Dogmas of Empiricism](ref-0068).
 
 
 # RR on Romanticism
 Mediating between idealism and pragmatism.
 
-Romanticism has idealist and pragmatist tendencies. Idealism corresponds to [[Strong and weak textualists|weak textualism]], while pragmatism to strong. The weak ones haven't freed themselves from Philosophy.
+Romanticism has idealist and pragmatist tendencies. Idealism corresponds to [weak textualism](q-0139), while pragmatism to strong. The weak ones haven't freed themselves from Philosophy.
 
-Rorty gives a [[Pragmatism and Nietzsche|redescription of Nietzsche]], an example of the kind of strong textualism which takes a text and beats it into a shape to suit the reader's purpose, imposing his own vocabulary on it.
+Rorty gives a [redescription of Nietzsche](q-0101), an example of the kind of strong textualism which takes a text and beats it into a shape to suit the reader's purpose, imposing his own vocabulary on it.
 
-Rorty [[Hegel literary genre|reconstructs]] a progression from \em{idealism} to \em{romanticism} to \em{pragmatism}.
+Rorty [reconstructs](q-0053) a progression from \em{idealism} to \em{romanticism} to \em{pragmatism}.
 
 Rorty makes a number of claims:
 
-1. [[Textualists and language relativity|all problems, topics, and distinctions are language-relative]]
-2. [[Strong and weak textualists|criticizing any philosophical view that presupposes an objectively privileged vocabulary (simply in virtue of its relation to its subject matter)]]
-3. [[Romanticism as vocabulary over truth|the vocabulary of science is merely one among others]]
+1. [all problems, topics, and distinctions are language-relative](q-0146)
+2. [criticizing any philosophical view that presupposes an objectively privileged vocabulary (simply in virtue of its relation to its subject matter)](q-0139)
+3. [the vocabulary of science is merely one among others](q-0124)
 	- The privilege that science (controlling nature) has is not inherently privileged over other possible advantages other vocabularies have
 4. Romanticism defined as "the one thing needful was to discover not which propositions are true but rather what vocabulary we should use."
 
 What's important about being human is our ability to self-transform, redescribe.  Romanticism was important because of its focus on that capacity as the center of human aspiration, rather than getting things right representationally.
 
-Rorty has a notion of a "presiding cultural discipline" - since the [[Enlightenment]] it has been science, but in the future it could be literature. Science was emancipatory at the start of the Enlightenment, but by the end of the 19th century it became constraining.
+Rorty has a notion of a "presiding cultural discipline" - since the [Enlightenment](phil-0137) it has been science, but in the future it could be literature. Science was emancipatory at the start of the Enlightenment, but by the end of the 19th century it became constraining.
 
-## Danger: backsliding into Carnappian pragmatism
+## Danger: backsliding into Carnapian pragmatism
 
 Rorty says that what the romantics discovered that we are free to pick our vocabulary.
 
-Treating vocabularies as if they are languages that we are free to chose from is dangersouly close to Carnappian pragmatism. This is a misuse of the vocabulary vocabulary because it violates Quine's anti-Carnap lesson.
+Treating vocabularies as if they are languages that we are free to chose from is dangerously close to Carnapian pragmatism. This is a misuse of the vocabulary vocabulary because it violates Quine's anti-Carnap lesson.
 
 
 # Criticism of "There is nothing outside of the text"[^mcd]
 
-Rorty classifies this claim of [[Jaques Derrida|Derrida]] as "weak textualism" and sees it as backsliding into representationalist philosophy.
+Rorty classifies this claim of [Derrida](jaques-derrida) as "weak textualism" and sees it as backsliding into representationalist philosophy.
 
-![[Textualism as misleading]]
+\transclude{q-0144}
 
 
-[^mcd]: Note that McDowell centrally claims "The conceptual has no outer boundary" in [[Mind and World]]
+[^mcd]: Note that McDowell centrally claims "The conceptual has no outer boundary" in [Mind and World](ref-0033)
 
 Some background for Derrida's claim:
 
@@ -71,7 +69,7 @@ Brandom says this model is semantically inadequate as a model and not even a rad
 
 Pierce said similar things about interpretants and interpreters. His principal admirer Charles Morris used this notion of the name-bearer relation to found semiotics, which is not a successful field.
 
-This is not just [[representationalism]], it is nominalistic representationalism (Taking the name-bearer relationship as the semantic paradigm). It is all pre-kantian, pre-Fregegian, pre-Wittgensteinien.
+This is not just [representationalism](phil-0118), it is nominalistic representationalism (Taking the name-bearer relationship as the semantic paradigm). It is all pre-kantian, pre-Fregegian, pre-Wittgensteinien.
 - Kant: the judgment is the smallest unit of awareness/consciousness (and commitment, the smallest thing we can be held responsible for). We can only understand names in terms of the roles they play in reasoning. 
 - Frege: What's expressed by sentences is special/prior in order explanation to the semantic content of proper names. Because a declarative sentence is the smallest unit to which pragmatic force can attach.
 - Early Wittgenstein: prioritized propositional signs (saw the world as facts, not things). 
@@ -87,15 +85,15 @@ Rorty thinks, if you say it's a world of facts, you've conceded his antirepresen
 
 [^f]: Frege says: a fact is a thought (i.e. thinkable) that is true.
 
-You might try to avoid this by thinking of a world of objects, but objects are equally vocabulary-dependent. (you need \em{[[sortals]]} to distinguish objects).
+You might try to avoid this by thinking of a world of objects, but objects are equally vocabulary-dependent. (you need \em{[sortals](phil-0130)} to distinguish objects).
 
 # Two senses of vocabulary-dependence
 
 The way in which the law-like / categorial structure of the world \em{depends} on us is dependence in the order of understanding, not the order of being.
 
-"There is nothing outside the text" goes wrong because it seems like a claim of the order of \em{being}, not just explanation. It violates the lesson of [[Lincoln's horse]] example. This [[-ing vs -ed distinction|confuses]] thinkings for thinkables.
+"There is nothing outside the text" goes wrong because it seems like a claim of the order of \em{being}, not just explanation. It violates the lesson of [Lincoln's horse](phil-0066) example. This [confuses](phil-0001) thinkings for thinkables.
 
-[Sense dependence vs reference](int-0017) is relevent: One is frightened of claims of vocabulary dependence because one is thinking of reference- dependence claims. What is arguable is sense-dependence.
+[Sense dependence vs reference](int-0017) is relevant: One is frightened of claims of vocabulary dependence because one is thinking of reference- dependence claims. What is arguable is sense-dependence.
 
 - You can't understand the notion of a fact without understanding the notion of a declarative sentence
 - You can't understand the notion of an object without understanding a singular term + sortal in a language
@@ -118,7 +116,7 @@ Brandom suggests that to understand the notion of a fact, one needs to understan
 
 # Pragmatist conceptual progress
 
-![[Grenzbegriff]]
+\transclude{q-0051}
 
 We can only tell progress (that one vocabulary is an improvement) \em{retrospectively}, from within our current vocabulary. There's nothing outside the dialogue.
 

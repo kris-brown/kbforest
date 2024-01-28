@@ -3,11 +3,9 @@
 
 \p{
 
-[[01 - A Semantic Recollection of Hegel's Phenomenology of Spirit|Previous]]
-
 # Conceptual realism and objective idealism
 
-Problem with [[René Descartes|Cartesian representationalism]]: it wants to \em{separately} understand minds (representings) and things (representeds). This creates a dualism when it becomes hard to understand their relationships (knowledge \em{of} the facts \em{by} the knowings, action \em{on} the facts \em{by} the will). [[Immanuel Kant|Kant]] founded German \em{idealism} by removing this dualism, viewing the world as in conceptual shape. This is crazy if you think concepts are mental representations: Hegel's non-psychological conception of the conceptual holds something as conceptually contentful if it stands in relations of [[Material inference vs logical inference|material]] incompatibility and consequence[^trm] to other such contentful items.  
+Problem with [Cartesian representationalism](rene-descartes): it wants to \em{separately} understand minds (representings) and things (representeds). This creates a dualism when it becomes hard to understand their relationships (knowledge \em{of} the facts \em{by} the knowings, action \em{on} the facts \em{by} the will). [Kant](immanuel-kant) founded German \em{idealism} by removing this dualism, viewing the world as in conceptual shape. This is crazy if you think concepts are mental representations: Hegel's non-psychological conception of the conceptual holds something as conceptually contentful if it stands in relations of [material](int-0007) incompatibility and consequence[^trm] to other such contentful items.  
 }
 
 
@@ -81,7 +79,7 @@ Tree of distinctions with translation manual for Hegel's vocabulary:
   }
   \tr{
     \td{Problem| }
-    \td{[[Fetishism]]: it refied / projected / objectified social norms | }
+    \td{[Fetishism](phil-0047): it refied / projected / objectified social norms | }
     \td{\em{Alienation}: our norms no longer seem \em{rationally} binding.}
   }
   \tr{
@@ -91,7 +89,7 @@ Tree of distinctions with translation manual for Hegel's vocabulary:
   }
 }
 
-\p{Brandom reads [[Georg Wilhelm Friedrich Hegel|Hegel]] as trying to synthesize the pre-modern and modern insights to avoid fetishization and alienation.
+\p{Brandom reads [Hegel](gwf-hegel) as trying to synthesize the pre-modern and modern insights to avoid fetishization and alienation.
 
 Autonomy is a social status: an authority to \em{make} oneself responsible (i.e. to \em{institute} a further normative status). It is a kind of independence to make oneself dependent by acknowledging a commitment. Kant thinks normative have a \em{duty} to acknowledge the autonomy of normative subjects. He thinks by our nature we just \em{come} with this duty and this authority. 
 

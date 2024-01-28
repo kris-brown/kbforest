@@ -2,13 +2,11 @@
 
 \p{
 
-[[Robert Brandom|Author]] [[07 - Assessing Rorty's Pragmatism as Anti-Representationalism|Prev]] [[09 - Huw Price on Representationalism, Rorty, and Expressivism|Next]]
-
-To understand [[Object naturalism and subject naturalism|subject naturalism]], we first need to understand object-naturalism (normally just called "[[naturalism]]").
+To understand [subject naturalism](phil-0089), we first need to understand object-naturalism (normally just called "[naturalism](phil-0082)").
 
 # Placement problems
 
-Frank Jackson's "location problem". The first two chapters of Oxford Locke lectures ("From Metaphysics to Ethics") are an authorative statement of this. Brandom says these lectures capture what happened to logical positivism / empiricism: a version of that for the late 20th century. Related to the [[Canberra plan]].
+Frank Jackson's "location problem". The first two chapters of Oxford Locke lectures ("From Metaphysics to Ethics") are an authorative statement of this. Brandom says these lectures capture what happened to logical positivism / empiricism: a version of that for the late 20th century. Related to the [Canberra plan](phil-0019).
 
 What does the best natural science of our time tells us about the world. In some sense, it tells us everything. If we have a problematic vocabulary, we need to understand how it relates to what our best science tells us is out there (what does it refer to in the natural world?). 3 M's for potentially problematic vocabularies: morals, modals, mathematics. What kinds of things are "necessity"/"norms"/"numbers"? Also problematic could be intensional vocabulary (beliefs/desires), semantic vocabulary (e.g. relation of reference).
 
@@ -95,7 +93,7 @@ Therefore asking object naturalist question (instead of the subject naturalist q
 
 The object naturalist has to say something about the reference relation between our vocabulary for talking about the world and the world itself. But the object naturalist has to locate the reference relation itself: i.e. solve the location problem for semantic vocabulary.[^lad]
 
-[^lad]: Otherwise you're in the embarrassing position Wittgenstein is at the end of the [[Tractatus Logico-Philosophicus|Tractatus]].
+[^lad]: Otherwise you're in the embarrassing position Wittgenstein is at the end of the [Tractatus](ref-0066).
 
 ## Quinean challenge 
 
@@ -138,7 +136,7 @@ So it's a distraction to be worrying about whether someone is using dispositiona
 
 Huw looks at two uses of naturalistic vocabulary: one on the side of objects represented, and another on the side of the practices that can be understood as representing/describing them (but at the cost of metaphysical puzzlement about the extravagant ranges of facts and kinds of objects one must envisage)
 
-That can be understood in more pragmatic terms, not shoe-horned in Procrustean ways into the representational model. (This is what HP means by “expressivism”—or at any rate, how he wants to adopt and co-opt the vocabulary of metaethical expressivism, as generalized by [[Simon Blackburn]] to the “3 ‘M’s”.).
+That can be understood in more pragmatic terms, not shoe-horned in Procrustean ways into the representational model. (This is what HP means by “expressivism”—or at any rate, how he wants to adopt and co-opt the vocabulary of metaethical expressivism, as generalized by [Blackburn](simon-blackburn) to the “3 ‘M’s”.).
 
 > "Characterizing discursive practice in resolutely non-normative terms is hopeless: what is lost is the meaning."
 
@@ -157,7 +155,7 @@ We used to think of philosophers as translating statements from the problematic 
 # Semantic deflationism
 Huw calls it  "Semantic minimalism".[^now]  Semantic deflationism gave Huw a grip on placement problems.
 
-Historical background: [[Frank Ramsey]] and [Quine](wo-quine) call it disquotationalism. This becomes [[Peter Strawson]]'s "[[Redundancy theory of facts]]". Horwich called it minimalism, which is where Huw got the name.
+Historical background: [Ramsey](frank-ramsey) and [Quine](wo-quine) call it disquotationalism. This becomes [Strawson](peter-strawson)'s "[Redundancy theory of facts](phil-0111)". Horwich called it minimalism, which is where Huw got the name.
 
 [^now]: However, that is \em{now} used for the view that denies truth conditions (Travis' radical contextualism) or assigning minimal, invariant truth conditions and relegating everything else to “pragmatics”.
 
@@ -165,7 +163,7 @@ Q: Why is semantic vocabulary of special significance in assessing the relations
 
 A: The rarest and most precious thing in philosophy is when you can find a way to do some detailed, close to the ground work on a topic, where there are independent criteria of adequacy on an account, and leverage your results into an argument concerning some large and important philosophical topic.
 
-Examples of the above: Kantians like Korsgaard and [[Jürgen Habermas|Habermas]] using detailed arguments from the philosophy of action and the philosophy of language (respectively) to draw significant conclusions in moral and political theory.
+Examples of the above: Kantians like Korsgaard and [Habermas](jurgen-habermas) using detailed arguments from the philosophy of action and the philosophy of language (respectively) to draw significant conclusions in moral and political theory.
 
 ## Prosentential theory of truth
 Pronouns have a lazy use: "Leibniz was smart and \em{he} was cool"
@@ -180,7 +178,7 @@ Some people argued for \em{object} naturalism by appealing to semantic deflation
 1. It is itself an exercise in subject naturalism. Instead of saying what the truthmaking relation of truth claim is in natural terms, it explains  how we use this expression. (if you use nonsemantic vocabulary, you can extend that to add notions like 'truth' and 'reference')
 2. It blocks a move that says "these claims you're making in the problematic discourse, they're truth evaluable, so it makes sense to ask what the truthmakers are". Quine talks about semantic ascent ("snow is white" => "'snow is white' is true") and how it adds nothing semantically to what was there already. One can also say semantic descent works the same way.
 
-[^yt]: e.g. [[Simon Blackburn]] using it to argue against Rorty https://www.youtube.com/watch?v=KekgLOAejwM
+[^yt]: e.g. [Blackburn](simon-blackburn) using it to argue against Rorty https://www.youtube.com/watch?v=KekgLOAejwM
 
 Brandom thinks the argument is good against saying that S.D. => O.N., but not that S.D. => S.N. Price and Brandom agree that semantic deflationism does not make the representationalist move cheap, easy, or trivial.
 

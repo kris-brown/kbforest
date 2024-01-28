@@ -3,7 +3,7 @@
 \p{To overcome the main problem, where we were torn between legal formalism and 
 realism due to competing intuitions, we need to amend our notion of "conceptual determinateness", which I'll call \em{mechanical determinateness}.[^kant] That framework says that concepts must be semantically settled \em{prior} to their application; objects either fall under a concept or they don't, and what inferences are good or not are settled by the content of the concept.}
 
-\p{[^kant]: Brandom traces this idea to [[Immanuel Kant|Kant]] and [[Gottlob Frege|Frege]], calling it "Fregean determinateness" or [[Georg Wilhelm Friedrich Hegel|Hegel]]'s word, \em{Verstand}. He refers to the dynamic, historical alternative as \em{Vernunft}, following Hegel.
+\p{[^kant]: Brandom traces this idea to [Kant](immanuel-kant) and [Frege](gottlob-frege), calling it "Fregean determinateness" or [Hegel](gwf-hegel)'s word, \em{Verstand}. He refers to the dynamic, historical alternative as \em{Vernunft}, following Hegel.
 }
 
 \p{>[!info]- Example: Mechanical determinateness for "reasonable contract"
@@ -16,16 +16,7 @@ no hidden terms/conditions." We can understand this independently of anyone \em{
 (they realize page size is arbitrary and switch to a word count, then a later generation realizes words in the title should be included in the word count, etc.) – we must either admit our grasp of the concept was wrong or we must think 
 that we got it right while the future concept-users are making a regressive move and failing to grasp the concept. 
 }
-\p{This notion of conceptual content, which is unproblematic in the context of 
-artificial languages, e.g. in ordinary math or physics, leads us to severe problems in
-natural languages. The regress of interpretations point mentioned above means 
-that we cannot keep unpacking definitions of terms in our definitions forever;
-we are forced to derive the \em{content} of at least some of our terms from their 
-\em{usage} somehow. The process of looking at the historical usage of a concept and 
-\em{mechanically} deducing its conceptual content is doomed to fail due to 
-[[Disjunctivitis|gerrymandering]] problems / [[Rules|rule]]-following paradoxes.}
+\p{This notion of conceptual content, which is unproblematic in the context of artificial languages, e.g. in ordinary math or physics, leads us to severe problems in natural languages. The regress of interpretations point mentioned above means that we cannot keep unpacking definitions of terms in our definitions forever; we are forced to derive the \em{content} of at least some of our terms from their \em{usage} somehow. The process of looking at the historical usage of a concept and \em{mechanically} deducing its conceptual content is doomed to fail due to [gerrymandering](phil-0031) problems / [rule](phil-0120)-following paradoxes.}
 
-\p{The many strategies one can take to try to make sense of conceptual content as 
-mechanically determinate lead to dead ends. The challenging task undertaken by 
-Brandom is to argue that an alternative notion of determinateness (which circumvents the dead ends) deserves to be called determinateness at all, which is needed to be an answer to the semantic skeptic.
+\p{The many strategies one can take to try to make sense of conceptual content as mechanically determinate lead to dead ends. The challenging task undertaken by Brandom is to argue that an alternative notion of determinateness (which circumvents the dead ends) deserves to be called determinateness at all, which is needed to be an answer to the semantic skeptic.
 }

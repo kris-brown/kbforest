@@ -47,7 +47,7 @@ In Brandom's essay [Intentionality and Language](/docs/blog/posts/mana/index.qmd
 Actually, the #{\leftarrow} isn't discussed; I added it myself since it helps me 
 make sense of a few things which I hope to elaborate on soon:
 
-- A core tension between [[Pragmatism and platonism|platonists and pragmatists]]. One can interpret 
+- A core tension between [platonists and pragmatists](int-0011). One can interpret 
 the platonist not as being simply mistaken in the directionality of the top arrow, but,
 rather, as having 'composed' the three other arrows.
 - The \em{cyclic} nature of explaining causes vs reasons - we can always take 
@@ -63,6 +63,6 @@ rather, as having 'composed' the three other arrows.
       [relational database](https://blog.algebraicjulia.org/post/2020/09/cset-graphs-1/) instance full of facts (e.g. #{src(Edge_1)=tgt(Edge_1)}) and asking if it's a fact in the database that every edge has exactly one source and one target (no, not in some narrow sense, yes in some wider sense, though).
 
 [^s]: in Sellars' terminology
-[^m]: in [[John MacDowell|MacDowell]]'s terminology
+[^m]: in [MacDowell](john-macdowell)'s terminology
 [^fn]: Understanding someone saying #{\phi} in terms of the laws of physics which dictate the motion of the atoms of their voice box vibrating to produce sounds waves . . . (etc.). This is connected to Huw Price's subject naturalism.
 }

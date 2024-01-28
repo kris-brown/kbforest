@@ -1,5 +1,5 @@
 \title{Pragmatism}
-
+\meta{external}{[SEP](https://plato.stanford.edu/entries/pragmatism/)}
 \p{
 
 # Overview 
@@ -8,17 +8,17 @@ TODO
 # History
 
 American pragmatism
-- [[Charles Sanders Pierce|Pierce]]
-- [[William James|James]]
-- [[John Dewey|Dewey]]
+- [Pierce](charles-sanders-pierce)
+- [James](william-james)
+- [Dewey](john-dewey)
 
 "Cambridge" pragmatism
-- [[Frank Ramsey]]
+- [Ramsey](frank-ramsey)
 - The later [Wittgenstein](ludwig-wittgenstein)
 
 Neo-pragmatism
 - [Rorty](richard-rorty)
-- [[Robert Brandom|Brandom]]
+- [Brandom](robert-brandom)
 - [Price](huw-price)
 
 ## Graphical representation of influences
@@ -80,12 +80,10 @@ Dotted lines are influence, solid lines are advisors, diamonds are neo-kantians.
 What does it \em{mean} that "All #{A}'s are necessarily #{B}'s"? A pragmatist answer is that it is a license to infer statements like "#{x} is a #{B}" from statements like "#{x} is an #{A}".
 
 ## Truth 
-- Pierce: [[Truth as the limit of inquiry]]
+- Pierce: [Truth as the limit of inquiry](phil-0141)
 - James: Truth as what is good for belief[^bb]
 
-[^bb]: [[Simon Blackburn|Blackburn]]: false beliefs can be useful, e.g. it may be useful to believe you are the most popular person in class but that does not make it true. Conversely, many things we think of as true are useless.
+[^bb]: [Blackburn](simon-blackburn): false beliefs can be useful, e.g. it may be useful to believe you are the most popular person in class but that does not make it true. Conversely, many things we think of as true are useless.
 
 
-# External resources
-- [SEP](https://plato.stanford.edu/entries/pragmatism/)
 }

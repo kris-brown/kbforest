@@ -2,7 +2,7 @@
 \import{macros}
 
 \p{
-Many things in math can be proven without relying on the [[law of the excluded middle]], which says, for any claim #{P}, you can assert that #{P} or not-#{P} is true. Using this additional axiom can make things easier; however, proofs using it will not be \em{constructive}. For example: 
+Many things in math can be proven without relying on the [law of the excluded middle](phil-0064), which says, for any claim #{P}, you can assert that #{P} or not-#{P} is true. Using this additional axiom can make things easier; however, proofs using it will not be \em{constructive}. For example: 
 }
 
 \ul{

@@ -4,7 +4,6 @@
 \tag{dissertation}
 \import{macros}
 \author{jon-sterling}
-\meta{venue}{Doctoral dissertation, [[cmu]]}
 \meta{external}{https://www.jonmsterling.com/papers/sterling-2021-thesis.pdf}
 \meta{bibtex}{\startverb%
 @phdthesis{sterling-2021-thesis,

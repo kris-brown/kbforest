@@ -1,20 +1,19 @@
 \title{Nondescriptive concepts}
+\author{Wilfrid Sellars}
+\import{macros}
 
-\p{
+\blockquote{Once the tautology 'the world is described by descriptive concepts' is freed
+from the idea that the business of all non-logical[^1] concepts is to describe, the way is clear to an ungrudging recognition that many expressions which empiricists have relegated to second-class citizenship in discourse are not inferior, they're just different. 
 
-[[Wilfrid Sellars|Author]]
+ —  [Counterfactuals, Dispositions, and the Causal Modalities](ref-0012)  §79
+}
+\p{[^1]: Sellars assumes everyone has already accepted the [Tractarian](q-0071) lesson that logical expressions do not describe.
+}
 
-> Once the tautology 'the world is described by descriptive concepts' is freed
-from the idea that the business of all non-logical[^1] concepts is to describe, the
-way is clear to an ungrudging recognition that many expressions which
-empiricists have relegated to second-class citizenship in discourse are not
-inferior, they're just different. 
+\notes{
 
- —  [[Counterfactuals, Dispositions, and the Causal Modalities]]  §79
-
-- \em{Descriptive} concepts are not the only kinds of concepts. There is a temptation of [[Empiricism|empiricists]]  in assimilating all expressions to descriptive expressions (such that anything not intelligible as
+- \em{Descriptive} concepts are not the only kinds of concepts. There is a temptation of [empiricists](phil-0039) in assimilating all expressions to descriptive expressions (such that anything not intelligible as
   descriptive is defective).
 - The negation of this is called  \em{[descriptivism](phil-0029)}.
 
-[^1]: Sellars assumes everyone has already accepted the [[Logic not representational|Tractarian]] lesson that logical expressions do not describe.
 }

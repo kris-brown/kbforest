@@ -4,7 +4,7 @@
 
 # Overview 
 
-We normally think that the content of judgments are dictated by the content of the [[concepts]] used inside of them. This feels especially right for artificial languages:
+We normally think that the content of judgments are dictated by the content of the [concepts](phil-0021) used inside of them. This feels especially right for artificial languages:
 
 - Take "If it's a #{P}, then it's a #{Q}."
     - Or, logically: #{\forall x, P(x)\implies Q(x)}
@@ -13,7 +13,7 @@ We normally think that the content of judgments are dictated by the content of t
   it's a good a judgment, whereas #{Q \mapsto {\rm rectangular\ thing}} would no 
   longer be a good judgment.
 
-However, [[Immanuel Kant|Kant]] turned this around. In this view, judgments are prior (in the order of understanding) to concepts.
+However, [Kant](immanuel-kant) turned this around. In this view, judgments are prior (in the order of understanding) to concepts.
 
 # The prior tradition 
 
@@ -38,13 +38,13 @@ We normally think of logically-valid inferences
 (e.g. #{A \land B \implies B \lor C}) as something 
 we understand \em{prior} to particular inferences (e.g. "If it's red and 
 triangular, then it's triangular or heavy"). Sellars calls these particular 
-inferences [[Material inference vs logical inference|material_inferences]] and 
+inferences [material_inferences](int-0007) and 
 argues that it is only through understanding \em{them} that we could understand 
 logically-valid inferences.
 
 One argument for our initial intuition is that the logically-valid inferences 
 are \em{a priori}, whereas the particular inferences are \em{a posteriori}.[^1] 
-However, [[What the Tortoise said to Achilles]]  articulates that, although the logically-valid inferences exist \em{a priori} as abstract mathematical/syntactical objects, without having any 
+However, [What the Tortoise said to Achilles](ref-0072)  articulates that, although the logically-valid inferences exist \em{a priori} as abstract mathematical/syntactical objects, without having any 
 practical experience of actually making inferential moves we don't have access 
 to them \em{qua} inferences.
 

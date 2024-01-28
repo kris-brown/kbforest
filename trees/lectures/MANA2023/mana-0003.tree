@@ -42,7 +42,7 @@ Inferences such as "#{X} is to the West of #{Y}, so #{Y} is to the East of #{X}"
 
 ## Issues with 'metalinguistic'
 
-What kind of modality is Sellars' talking about? It is explicitly not \em{logical} necessity. Nor is it Kripke's \em{metaphysical necessity} from [[Naming and Necessity]]. Sellars calls them "causal" or "physical" modalities, which coincides with alethic necessity that characterizes laws of nature. He thinks this is what we mean in ordinary informal explanations (why the beans burned, why the car wouldn't start). This is the same kind of necessity Kant and Hume fought over and arguably was what Frege had in mind concerning the modal force of his generality locutions.
+What kind of modality is Sellars' talking about? It is explicitly not \em{logical} necessity. Nor is it Kripke's \em{metaphysical necessity} from [Naming and Necessity](ref-0036). Sellars calls them "causal" or "physical" modalities, which coincides with alethic necessity that characterizes laws of nature. He thinks this is what we mean in ordinary informal explanations (why the beans burned, why the car wouldn't start). This is the same kind of necessity Kant and Hume fought over and arguably was what Frege had in mind concerning the modal force of his generality locutions.
 
 But Sellars also considers it a \em{conceptual} necessity. This seems like an \em{a priori} matter, concerning what words \em{mean}, unlike the necessity of laws of nature which requires some empirical establishment. This line of thought leads to an inconsistent triad:[^pro]
 
@@ -52,7 +52,7 @@ But Sellars also considers it a \em{conceptual} necessity. This seems like an \e
 
 [^pro]: In each sentence, "necessity" can be substituted with "probability".
 
-Sellars' addresses this in [[Empiricism and the Philosophy of Mind]] by rejecting the third element. He takes it we cannot discover the contents of our concepts / meanings of our words just by introspecting. Like Kant, he understands concepts as rules (norms) we bind ourselves by, without knowing everything we commit ourselves to by applying those concepts. Finding correct definitions and finding out what inferences connect those concepts are two sides of one coin. 
+Sellars' addresses this in [Empiricism and the Philosophy of Mind](ref-0016) by rejecting the third element. He takes it we cannot discover the contents of our concepts / meanings of our words just by introspecting. Like Kant, he understands concepts as rules (norms) we bind ourselves by, without knowing everything we commit ourselves to by applying those concepts. Finding correct definitions and finding out what inferences connect those concepts are two sides of one coin. 
 
 This is a denial of the two-phase Carnapian story[^form] where, by some non-empirical procedure, we can fix meanings (concepts, the language) and then, subsequently by an empirical procedure, determine the facts (what to believe, one's theory) as expressed in those meanings. To find out the content of our concepts we have to find out what the empirical laws of nature are.
 
@@ -104,7 +104,7 @@ Examples of true modal claims:
 
 The necessity involved above is not \em{logical} necessity (since they depend essentially on the \em{non}-logical concepts of 'copper', 'water', etc.). It is not metaphysical necessity (which abstracts from actual laws of nature).
 
-Kripke introduced necessary \em{a posteriori} and contingent \em{a priori} in [[Naming and Necessity]]. This gave birth to contemporary analytic metaphysics. The necessity from earlier is more closely related to the intensional semantics of Lewis/Stalnaker/Montague/Kaplan, which used modal notions to explicate the contents of nonlogical concepts.
+Kripke introduced necessary \em{a posteriori} and contingent \em{a priori} in [Naming and Necessity](ref-0036). This gave birth to contemporary analytic metaphysics. The necessity from earlier is more closely related to the intensional semantics of Lewis/Stalnaker/Montague/Kaplan, which used modal notions to explicate the contents of nonlogical concepts.
 
 ## Modal realism from OED realism
 
@@ -167,7 +167,7 @@ Empiricism (both traditional and 20th century logical) offers a three-stage pict
 3. Explanatory: identify, on the basis of regularities of truths in (2), laws governing facts at that stage.
 	- This has a problematic transition from observed regularity to conjectured law.
 
-Quine views the separation of (1) and (2) makes sense for artificial languages but not for natural languages - there is just one thing discursive practicioners do: use vocabularies to make claims, which at once fixes meanings and beliefs, language and theory. Quine (and Hume) don't think the third stage can be rationally warranted (though this has tension with his naturalism). ME is motivated by the same considerations of Quine's in [[Two Dogmas of Empiricism]].
+Quine views the separation of (1) and (2) makes sense for artificial languages but not for natural languages - there is just one thing discursive practicioners do: use vocabularies to make claims, which at once fixes meanings and beliefs, language and theory. Quine (and Hume) don't think the third stage can be rationally warranted (though this has tension with his naturalism). ME is motivated by the same considerations of Quine's in [Two Dogmas of Empiricism](ref-0068).
 
 By showing how modal and OED claims are bound up with another, ME eliminates the other problematic transition by encouraging us to blur the boundary between (2) and (3) - modal claims exhibit 'correspondence' no less than OED ones. 
 

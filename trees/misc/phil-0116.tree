@@ -2,11 +2,11 @@
 
 \p{
 
-If any things are known [[Representation|representationally]], then some things must be known nonrepresentationally (immediately, by being \em{had} or \em{grasped}).
+If any things are known [representationally](phil-0117), then some things must be known nonrepresentationally (immediately, by being \em{had} or \em{grasped}).
 
 - Otherwise we can't know about something via a representation #{R}, because we'd 
   need another representation to know #{R}.
-- Representationalism gives rise to [[Agrippan trilemma|choice]] between [[epistemological skepticism]] vs  foundationalism.
+- Representationalism gives rise to [choice](phil-0004) between [Epistemological skepticism](phil-0040) vs  foundationalism.
 
 
 ## Royce's argument from error
@@ -27,6 +27,6 @@ on.
 
 This is something that the representational model itself couldn't address, and 
 Descartes had to invoke God to address this. Kant clarified this as 
-[[semantic skepticism]]: skepticism about the intelligibility of the very notion of knowledge, the intelligibility of the notion of a representational relation between what's known and the 
+[semantic skepticism](phil-0123): skepticism about the intelligibility of the very notion of knowledge, the intelligibility of the notion of a representational relation between what's known and the 
 knowing of it.
 }

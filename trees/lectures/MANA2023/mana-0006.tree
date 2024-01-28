@@ -2,8 +2,6 @@
 \import{base-macros}
 \p{
 
-[[3. Semantic Inferentialism and Logical Expressivism|Full Summary]]
-
 We can understand an utterance as expressing \em{conceptual content} via it playing a role in a particular \em{inferential} game of making claims / giving and asking for reasons. For example, that "It's red" and "It's green" are incompatible is a move in this game. Other moves include "It's red" both entailing "It's colored" and following from "It's scarlet". We want to understand the structure of this inferential game.
 
 \em{Formalism} is the view that understands "inference" only as "formally-valid inference". Given \em{some} formalization, the example inferences above are conceivable as being formally-valid, but this computer-like approach does not cohere with how humans use learn concepts in practice nor how concepts evolve over time. We are in a much better starting position by being \em{inferentialists} who understand inference as "material inference" - i.e. inferences which are "simply good" rather than good due to their logical form. Another reason to prefer this is that we can easily understand the logical inferences in terms of material ones, but not vice-versa: the logical inference #{A \land B \implies C \lor A} is one where we cannot turn it into a \em{materially} bad inference via substituting other content for the variables.

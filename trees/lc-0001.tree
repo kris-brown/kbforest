@@ -32,3 +32,8 @@
 }
 
 \transclude{elu-0029}
+
+\scope{
+  \put\transclude/title{Lecture Series}
+  \query{\query/tag{lecture}}
+}

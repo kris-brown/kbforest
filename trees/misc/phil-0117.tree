@@ -4,7 +4,7 @@
 
 Representation is a theory of the relation between appearance and reality. 
 
-# A [[successor concept]] to theories of resemblance
+# A [successor concept](ref-0134) to theories of resemblance
 Premodern theories understood relation between appearance and reality in terms of \strong{resemblance} (sharing properties).
   
 - The paradigm example is that of a picture and what is pictured 
@@ -27,12 +27,12 @@ Premodern theories understood relation between appearance and reality in terms o
 
 # Pioneered by Descartes 
 
-[[René Descartes|Descartes]] came up with the more abstract meta-concept (which Kant would dub representation, or \em{Vorstellung}) as a new way of thinking of the relation between appearance and reality.
+[Descartes](rene-descartes) came up with the more abstract meta-concept (which Kant would dub representation, or \em{Vorstellung}) as a new way of thinking of the relation between appearance and reality.
 
-[[Baruch Spinoza|Spinoza]] saw Descartes' philosophy as being understood in terms of his innovations of relating algebra to geometry. How could strings of algebraic symbols be useful / veridical appearances of 
+[Spinoza](baruch-spinoza) saw Descartes' philosophy as being understood in terms of his innovations of relating algebra to geometry. How could strings of algebraic symbols be useful / veridical appearances of 
 geometrical reality? 
 
-- "[[Order and connection of ideas|The order and connection of things is the same as the order and connection of ideas]]" 
+- "[The order and connection of things is the same as the order and connection of ideas](q-0092)" 
     - A \em{global} homomorphism from the whole system of algebraic symbols and 
       the whole system of geometric figures.
     - The properties of what is representing or represented are irrelevant. 
@@ -45,7 +45,7 @@ geometrical reality?
   \tr{
     \th{}
     \th{[empiricism](phil-0039)  }
-    \th{[[Rationalism]]}
+    \th{[rationalism](phil-0108)}
   }
   \tr{
     \td{Favored kind of representing[^dd]   }
@@ -81,11 +81,11 @@ geometrical reality?
 \p{
 [^dd]: Descartes did not make this distinction - his ontology simply had representings and representeds without finer structure. Empiricists tried to reduce thoughts to impressions and rationalists vice-versa.
 
-[^whole]: Rationalist [[Gottfried Wilhelm Leibniz|Leibniz]] would have us understand the content of the map (\em{as} a representation) to be the inferences that someone who treats it as a map could make about terrain facts (e.g. a river) from map-facts (wavy-blue line).
+[^whole]: Rationalist [Leibniz](gottfried-wilhelm-leibniz) would have us understand the content of the map (\em{as} a representation) to be the inferences that someone who treats it as a map could make about terrain facts (e.g. a river) from map-facts (wavy-blue line).
 
 [^nb]: Empiricists start with narrow postulate about what representing is and exclude a lot of genuinely contentful thought due to not meeting this standard (e.g. ethics, modality)
 
-[^sc]: Sellars identifies both camps as [[descriptivism|descriptivists]] (to be conceptually contentful is just to describe / represent how things are).
+[^sc]: Sellars identifies both camps as [descriptivists](phil-0029) (to be conceptually contentful is just to describe / represent how things are).
 
 [^oe]: Rationalists take all our cognitively contentful expressions as describing the actual world, resulting in ontological extravagance (postulating objective values / universals / propositions / laws).
 

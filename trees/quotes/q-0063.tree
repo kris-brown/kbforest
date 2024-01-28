@@ -1,16 +1,13 @@
 \title{Judgment in the order of explanation}
+\author{Wilfrid Sellars}
+\import{macros}
 
-\p{
+\blockquote{
 
-[[Wilfrid Sellars|Author]]
+[Kant](immanuel-kant) was on the right track when he insisted that, just as concepts are essentially (not accidentally) items which can occur in judgments, so judgments (and therefore indirectly concepts) are items that occur essentially (not accidentally) that occur in reasonings or arguments.
 
-> [[Immanuel Kant|Kant]] was on the right track when he insisted that, just as concepts are
-essentially (not accidentally) items which can occur in judgments, so judgments
-(and therefore indirectly concepts) are items that occur essentially (not
-accidentally) that occur in reasonings or arguments.
-
-— [[Inference and Meaning]]
-
-
-- Turns a [[Concepts and judgment|tradition]] (order of explanation: concepts -> judgments -> inferences) on its head.
+— [Inference and Meaning](ref-0024)
+}
+\notes{
+Turns a [tradition](int-0003) (order of explanation: concepts -> judgments -> inferences) on its head.
 }

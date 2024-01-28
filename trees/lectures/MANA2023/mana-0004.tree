@@ -1,4 +1,5 @@
-\title{Notes on MANA lectures}
+\title{Brandom's MANA lectures}
+\tag{lecture}
 \import{base-macros}
 \p{
 
@@ -14,41 +15,39 @@ which provide an introduction and summary of his general philosophical outlook.}
     \th{Summary}
   }
   \tr{
-    \td{What is philosophy? | }
-    \td{[55 min](https://www.youtube.com/watch?v=dF0nusMYOag) | }
-    \td{[7,300 words](https://sites.pitt.edu/~rbrandom/Texts/What\%20is\%20Philosophy.docx) | }
-    \td{[[1. What is philosophy|2,000 words]] | }
-    \td{[[1. What is philosophy (summary)|1,100 words]]}
+    \td{What is philosophy? }
+    \td{[55 min](https://www.youtube.com/watch?v=dF0nusMYOag) }
+    \td{[7,300 words](https://sites.pitt.edu/~rbrandom/Texts/What\%20is\%20Philosophy.docx) }
+    \td{[2,000 words](mana-0009) }
+    \td{[1,100 words](mana-0008)}
   }
   \tr{
-    \td{ Intentionality and Language | }
-    \td{[57 min](https://www.youtube.com/watch?v=yz7PWdUSA8c) | }
-    \td{[7,400 words](https://sites.pitt.edu/~rbrandom/Texts/Intentionality_and_Language_A_Normative\%20(2).pdf) | }
-    \td{[[2. Intentionality and Language|2,400 words]] | }
-    \td{[[2. Intentionality and Language (summary)|1,100 words]]}
+    \td{ Intentionality and Language }
+    \td{[57 min](https://www.youtube.com/watch?v=yz7PWdUSA8c) }
+    \td{[7,400 words](https://sites.pitt.edu/~rbrandom/Texts/Intentionality_and_Language_A_Normative\%20(2).pdf) }
+    \td{[2,400 words](mana-0002) }
+    \td{[1,100 words](mana-0001)}
   }
   \tr{
-    \td{Semantic Inferentialism and Logical Expressivism | }
-    \td{[62 min](https://www.youtube.com/watch?v=LfhrfVJ4_sk) | }
-    \td{[10,000 words](https://sites.pitt.edu/~rbrandom/Texts/Semantic\%20Inferentialism\%20and\%20Logical\%20Expressivism.doc) | }
-    \td{[[3. Semantic Inferentialism and Logical Expressivism|3,200 words]] | }
-    \td{[[3. Semantic Inferentialism and Logical Expressivism (summary)|700 words]]}
+    \td{Semantic Inferentialism and Logical Expressivism }
+    \td{[62 min](https://www.youtube.com/watch?v=LfhrfVJ4_sk) }
+    \td{[10,000 words](https://sites.pitt.edu/~rbrandom/Texts/Semantic\%20Inferentialism\%20and\%20Logical\%20Expressivism.doc) }
+    \td{[3,200 words](mana-0007)}
+    \td{[700 words](mana-0006)}
   }
   \tr{
-    \td{On the Way to a Pragmatist Theory of the Categories | }
-    \td{[80 min](https://www.youtube.com/watch?v=I3oolHemr7M) | }
-    \td{[9,200 words](https://sites.pitt.edu/~rbrandom/Texts/On_the_Way_to_a_Pragmatist_Theory_of_the.doc) | }
-    \td{[[4. On the Way to a Pragmatist Theory of the Categories|1,500 words]] | }
-    \td{ n/a}
+    \td{On the Way to a Pragmatist Theory of the Categories }
+    \td{[80 min](https://www.youtube.com/watch?v=I3oolHemr7M) }
+    \td{[9,200 words](https://sites.pitt.edu/~rbrandom/Texts/On_the_Way_to_a_Pragmatist_Theory_of_the.doc) }
+    \td{[1,500 words](mana-0005) }
+    \td{ To do}
   }
   \tr{
-    \td{Modal Expressivism and Modal Realism: Together Again | }
-    \td{[61 min](https://www.youtube.com/watch?v=GnDG0-F_IJQ) | }
-    \td{[16,700 words](https://sites.pitt.edu/~rbrandom/Texts/Modal\%20Expressivism\%20and\%20Modal\%20Realism\%20HUP.docx) | }
-    \td{[[5. Modal Expressivism and Modal Realism Together Again|3,300 words]] | }
-    \td{n/a}
+    \td{Modal Expressivism and Modal Realism: Together Again }
+    \td{[61 min](https://www.youtube.com/watch?v=GnDG0-F_IJQ) }
+    \td{[16,700 words](https://sites.pitt.edu/~rbrandom/Texts/Modal\%20Expressivism\%20and\%20Modal\%20Realism\%20HUP.docx) }
+    \td{[3,300 words](mana-0003) }
+    \td{To do}
   }
 }
 
-\p{I'll be updating the table as I gradually digest and summarize these over the summer!
-}

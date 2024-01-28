@@ -6,7 +6,7 @@
 
 \p{Immanuel Kant was a German philosopher (1724-1804). }
 
-\p{The philosopher of \em{[[representation]]} and of \em{[[rules]]}. The big question is how his thoughts on each of those topics fit together. Brandom claims he has a rulish perspective on what it is for something to be a representation: for #{X} to be represented by #{Y} is: 
+\p{The philosopher of \em{[representation](phil-0117)} and of \em{[rules](phil-0120)}. The big question is how his thoughts on each of those topics fit together. Brandom claims he has a rulish perspective on what it is for something to be a representation: for #{X} to be represented by #{Y} is: 
 - #{Y} to be subject to #{X}'s standards of correctness; 
 - #{X} has authority over #{Y}; 
 - #{Y} is responsible (for its correctness as a representation) to #{X}.}
@@ -14,33 +14,25 @@
 \image{headshots/kant.jpeg}
 
 
-\p{# On [[John Locke|Locke]]
-The "celebrated Mr. Locke" (i.e. empiricism) offered "a mere physiology of the 
-understanding." [^1] [^1]: A 85-7 / B 117-9 (from the [[Critique of Pure Reason]])
+\p{# On [Locke](john-locke)
+The "celebrated Mr. Locke" (i.e. empiricism) offered "a mere physiology of the understanding." [^1] [^1]: A 85-7 / B 117-9 (from the [Critique of Pure Reason](ref-0014))
 }
 
 \p{Kant read Hume's problem of getting from 'is' to 'ought' and his problem of getting from 'is' to 'must be' as two sides of one coin: the challenge is to understand necessity (both practical necessity  (morals) and theoretical necessity (alethic modal necessity)).}
 
 \p{Kantian problematic:
 
-Brandom writes that Kant transformed the Cartesian problematic from an \em{epistemic} one to a 
-\em{semantic} one.
+Brandom writes that Kant transformed the Cartesian problematic from an \em{epistemic} one to a \em{semantic} one.
 }
+
 \ul{
-\li{He shifts the center of attention from \em{truth} and \em{justification} to the 
-  nature of representation itself.}
-\li{He replaces concern with \em{justifying claims} by concern with understanding 
-  representational purport.}
-\li{His problem is not "show that reality is often as it appears", but rather 
-  "understand what it is for things so much as to appear to be one way rather 
-  than another."}
-\li{The epistemological equation has semantic presuppositions, which he challenges.}
+  \li{He shifts the center of attention from \em{truth} and \em{justification} to the nature of representation itself.}
+  \li{He replaces concern with \em{justifying claims} by concern with understanding representational purport.}
+  \li{His problem is not "show that reality is often as it appears", but rather "understand what it is for things so much as to appear to be one way rather than another."}
+  \li{The epistemological equation has semantic presuppositions, which he challenges.}
 }
-\p{Kant thinks that answering the semantic skeptic will also address the epistemic 
-skeptic: Specifying conditions under which there could be representations at all requires
-  that there is a substantial degree of representational \em{success}. If we are not
-  to a large extent \em{right} about representations, we can't make sense of being
-  \em{wrong}. This idea is echoed by Davidson and Putnam's responses to skeptics.
+
+\p{Kant thinks that answering the semantic skeptic will also address the epistemic skeptic: Specifying conditions under which there could be representations at all requires that there is a substantial degree of representational \em{success}. If we are not to a large extent \em{right} about representations, we can't make sense of being \em{wrong}. This idea is echoed by Davidson and Putnam's responses to skeptics.
 }
 
 \p{# Innovation: The tradition Kant inherited thought of judgment as \em{predicating}}
@@ -48,8 +40,6 @@ skeptic: Specifying conditions under which there could be representations at all
     \li{i.e. classifying objects as being particular kinds}
     \li{Kant considers many other forms of judgment: modal, conditional, disjunctive, negative}
 }
-\p{What distinguishes knowers from non-sapient creatures is not that they involve special
-  mental processes, but rather that their judgments are in a distinctive way something
-  they are \em{responsible} for. Minded creatures are not distinguished by an ontological distinction but rather
-       a \em{de}ontological one.
+
+\p{What distinguishes knowers from non-sapient creatures is not that they involve special mental processes, but rather that their judgments are in a distinctive way something they are \em{responsible} for. Minded creatures are not distinguished by an ontological distinction but rather a \em{de}ontological one.
 }

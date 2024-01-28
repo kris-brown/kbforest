@@ -3,7 +3,7 @@
 
 \p{
 
-Let an \em{inference} be a statement with a [[material conditional]], i.e. of the 
+Let an \em{inference} be a statement with a [material conditional](phil-0072), i.e. of the 
 form "If #{P}, then #{Q}"[^1] in a language with ordinary statements as well as 
 logical connectives (e.g.  \em{and}, \em{or}). We want a rigorous way to distinguish that following kinds of inferences:
 

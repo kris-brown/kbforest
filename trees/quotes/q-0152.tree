@@ -1,24 +1,17 @@
 \title{Transposed language of norms}
-
-\p{
-
-[[Wilfrid Sellars|Author]]
-
->	The language of modalities is … a “transposed” language of norms. ...
-   Modal terms, normative terms and psychological terms are mutually irreducible.
-   ... The “means” of semantical statements...is no more a psychological word
-   than is the “ought” of ethical statements or the “must” of modal
-   statements 
+\author{Wilfrid Sellars}
+\import{macros}
+\blockquote{
+The language of modalities is … a “transposed” language of norms. ... Modal terms, normative terms and psychological terms are mutually irreducible.... The “means” of semantical statements...is no more a psychological word than is the “ought” of ethical statements or the “must” of modal statements 
    
-— [[Inference and Meaning]] Section 5
-
-- Related to [[Describing without modality|this quote]].
-- What is the connection between the ([[Alethic modality|alethic]]) modal sense of \em{must} and the normative sense of \em{must}?
-- [[Rudolf Carnap|Carnap]] uses 'transposed' to talk about an unquoted word used in a sentence as a
-  transposed mode of speech (about use of a quoted-word).
-  - Examples:
-    - "Red is a quality." vs  "'Red' is a one-place predicate."
-    - "All #{A}'s are necessarily #{B}'s". vs the license to infer #{B} statements 
-      from #{A} statements.
-
+— [Inference and Meaning](ref-0024) Section 5
 }
+
+\notes{\ul{
+  \li{Related to [this quote](q-0032).}
+  \li{What is the connection between the ([alethic](phil-0005)) modal sense of \em{must} and the normative sense of \em{must}?}
+  \li{[Carnap](rudolf-carnap) uses 'transposed' to talk about an unquoted word used in a sentence as a transposed mode of speech (about use of a quoted-word). E.g.: \ul{
+      \li{"Red is a quality." vs  "'Red' is a one-place predicate."}
+      \li{"All #{A}'s are necessarily #{B}'s". vs the license to infer #{B} statements from #{A} statements.}
+  }}
+}}

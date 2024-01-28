@@ -1,8 +1,7 @@
 \title{Semantic Inferentialism and Logical Expressivism}
-
+\meta{external}{[Video](https://www.youtube.com/watch?v=LfhrfVJ4_sk)}
+\meta{external}{[Text](https://sites.pitt.edu/~rbrandom/Texts/Semantic\%20Inferentialism\%20and\%20Logical\%20Expressivism.doc)}
 \p{
-
-Source: [Video](https://www.youtube.com/watch?v=LfhrfVJ4_sk) [Text](https://sites.pitt.edu/~rbrandom/Texts/Semantic\%20Inferentialism\%20and\%20Logical\%20Expressivism.doc)
 
 # Representation and Inferentialism
 
@@ -12,7 +11,7 @@ The traditional divide between early modern pre-Kantian philosophers is empirici
 
 # Inferential and noninferential reports
 
-We learn from Sellars' [[Empiricism and the Philosophy of Mind]] that noninferential reports (e.g. "This ball is red") must be inferentially articulated. 
+We learn from Sellars' [Empiricism and the Philosophy of Mind](ref-0016) that noninferential reports (e.g. "This ball is red") must be inferentially articulated. 
 
 This is needed to distinguish noninferential reporters from automatic machinery (a parrot trained to say "that's red" in the presence of red things, a piece of iron which classifies its environment as having oxygen or not by rusting). The difference is one of (conceptual) understanding, but what does this consist in? The parrot and the iron don't \em{understand} their responses (their responses mean nothing to them, even though they mean something to us). Sellars' central thought: for a response to have \em{conceptual content} is just for it to play a role in the \em{inferential} game of making claims / giving and asking for reasons. (The parrot doesn't treat "That's red" as incompatible with "That's green" nor as following from "That's scarlet" and entailing "That's colored").
 
@@ -34,7 +33,7 @@ Example: the inference from "Pittsburgh is to the \em{west} of Princeton" to "Pr
 
 However, it is common to misidentify \em{inferential} articulation with \em{logical} articulation, to think of rationality as a purely logical capacity. Call this view \em{formalism}, which sees "inference" only as "formally valid inference" and thus makes inferences good or bad solely in virtue of their form, with the contents of claims mattering only for the truth of the premises. For the formalist, there is no such thing as a material inference: "it is raining, therefore the streets will be wet" is viewed as missing a suppressed premise "if it is raining, then the streets will be wet". 
 
-This introduces the problem of [[What the Tortoise said to Achilles]] - which formalists address by attributing people an implicit logical ability whereas inferentialists attribute people the capacity to assess proprieties of material inference. The issue at stake is the order of explanation between propositional form and propositional content. 
+This introduces the problem of [What the Tortoise said to Achilles](ref-0072) - which formalists address by attributing people an implicit logical ability whereas inferentialists attribute people the capacity to assess proprieties of material inference. The issue at stake is the order of explanation between propositional form and propositional content. 
 
 One advantage for inferentialism is that a notion of formally valid inferences can be derived from a notion of materially correct inferences, but not vice-versa. We identify a subset of vocabulary (say, logical vocabulary) and observe for which sentences can we substitute non-logical vocabulary for non-logical vocabulary while still preserving material correctness.[^f] 
 
@@ -127,7 +126,7 @@ There is an ideal where all our concepts are conservative extensions of the othe
 
 Dummett asks us to consider the concept of personal identity. We have reasonably sharp criteria for applying the concept, and there are also consequences (legal/moral) that follow from it. But we can imagine another group of people who use different criteria from ours. Precisely what make it different criteria \em{for personal identity} are that the consequences would be the same. Now let's consider the relationship between the circumstances and consequences of "personal identity": if there were a clear true method to derive the consequences from the circumstances, then the difference between us and them would be a matter of factual disagreement - if there were no such method at all then it would simply be a matter of preference with no right or wrong in the matter at all. But, in reality, we think of personal identity as something in between.[^td]
 
-[^td]: [[Two Dogmas of Empiricism]] would also be evidence against the dichotomy of matters of fact and logical relations of ideas.
+[^td]: [Two Dogmas of Empiricism](ref-0068) would also be evidence against the dichotomy of matters of fact and logical relations of ideas.
 
 The idea that the relationship between consequences and circumstances of application must be a logical/matter-of-factual one (where we just unpack the concepts in the circumstances in order to derive the consequences) requires a conceptual scheme which is transparent as described above. That conception insists that the jointly sufficient conditions entail the individually necessary ones, making it attractive to talk about content as truth conditions rather than focusing on material inferential commitments that relate the sufficient to the distinct necessary conditions. 
 

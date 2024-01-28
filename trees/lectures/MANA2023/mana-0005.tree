@@ -1,14 +1,14 @@
 \title{On the Way to a Pragmatist Theory of the Categories}
+\meta{external}{[Video](https://www.youtube.com/watch?v=I3oolHemr7M)}
+\meta{external}{[Text](https://sites.pitt.edu/~rbrandom/Texts/On_the_Way_to_a_Pragmatist_Theory_of_the.doc)}
 
 \p{
 
-Source: [Video](https://www.youtube.com/watch?v=I3oolHemr7M) [Text](https://sites.pitt.edu/~rbrandom/Texts/On_the_Way_to_a_Pragmatist_Theory_of_the.doc)
-
 # Introduction
 
-Rorty distinguished [[Left and right wing Sellarsians]] - this essay will endorse what the left wing Sellarsians rallied behind (normative nonnaturalism, epitomized by [[Space of reasons]]) and reject what the right wing Sellarsians rallied behind (scientific naturalism, epitomized by [[Scienta mensura]]). 
+Rorty distinguished [Left and right wing Sellarsians](phil-0065) - this essay will endorse what the left wing Sellarsians rallied behind (normative nonnaturalism, epitomized by [Space of reasons](q-0137)) and reject what the right wing Sellarsians rallied behind (scientific naturalism, epitomized by [Scienta mensura](q-0133)). 
 
-Sellars developed two ideas of Kant's: the good idea was about categories (or pure concepts of the understanding), whereas his bad idea was the distinction between phenomena and noumena. Sellars modeled his own "metalinguistic" treatment of Kantian ideas based on Carnap. Carnap and C.S. Lewis gave Kantian ideas an empiricist twist, but Sellars challenges this understanding of the relationship between sense experience and empirical knowledge in [[Empiricism and the Philosophy of Mind]].
+Sellars developed two ideas of Kant's: the good idea was about categories (or pure concepts of the understanding), whereas his bad idea was the distinction between phenomena and noumena. Sellars modeled his own "metalinguistic" treatment of Kantian ideas based on Carnap. Carnap and C.S. Lewis gave Kantian ideas an empiricist twist, but Sellars challenges this understanding of the relationship between sense experience and empirical knowledge in [Empiricism and the Philosophy of Mind](ref-0016).
 
 Quine was likewise a student of Lewis and Carnap, but his interpretations of them drop the Kantian element completely. He is part of an analytic tradition which aims to reject Hegelianism (and Kantianism by  extension). This is the common understanding of analytic philosophy, but it's important to note another undercurrent below the empiricist surface.
 
@@ -28,7 +28,7 @@ Dogmatic metaphysical mistake: thinking all vocabulary has the job of describing
 
 Corresponding skeptical mistake: denying that the non-descriptive vocabulary is illegitimate / can be true.
 
-Both these mistakes stem from the common root: descriptivism. Wittgenstein can also be read as an anti-descriptivist (see [[Nondescriptive concepts|quote]]). He warned us to not assume the job of all declarative sentences is to state facts ("I am in pain", "It is a fact that...") that the job of all singular terms is to pick out objects ("\em{I} think...", "I have \em{a pain} in my foot"). Sellars' characterization of language as descriptive or metalinguistic is sharper than Wittgenstein's characterization of language as a motley of disparate ways of life.
+Both these mistakes stem from the common root: descriptivism. Wittgenstein can also be read as an anti-descriptivist (see [quote](q-0082)). He warned us to not assume the job of all declarative sentences is to state facts ("I am in pain", "It is a fact that...") that the job of all singular terms is to pick out objects ("\em{I} think...", "I have \em{a pain} in my foot"). Sellars' characterization of language as descriptive or metalinguistic is sharper than Wittgenstein's characterization of language as a motley of disparate ways of life.
 
 Brandom sees a line running through Kant's pure categories of the understanding and Sellars' "metalinguistic" discourses, insofar as they they make explicit the use of ground-level empirical concepts. Kant was motivated by trying to address Hume's skepticism regarding modality. Kant saw that Newton's force and mass are not intelligible apart from the laws that relate them (if we give up #{F=m\cdot a} then we do not \em{mean} force and mass) - this led Kant to 1. thinking of statements of laws formulated using necessity as making explicit rules for reasoning with ordinary empirical concepts and 2. thinking of the contents of such concepts as articulated by the rules for reasoning with them. For Hume's epistemological arguments have a semantic presupposition: that our ordinary empirical concepts are intelligible antecedently to their rule-governed inferential relations. Kant believed Hume made a mistake of semantic atomism.
 
@@ -42,7 +42,7 @@ Sellars inherits Carnap's idea that ontologically classifying terms (e.g. "objec
 
 Sellars inherits Kant's rejection of semantic atomism (characteristic of Locke and Hume, but also Carnap). Inferential connections among the contents of ordinary empirical descriptive concepts are essential to those contents, as they are appealed to in \em{explanations} of why some descriptions apply when they do. 
 
-Consider the linked Sellars [[Describing and explaining|quote]]: it distinguishes a weak notion, \em{labeling}, from a stronger one, \em{describing}. Labeling is a matter of responding differentially - the \em{whole} use of a label is determined by its \em{circumstances} of application. We could distinguish three kinds of labels depending on what kind of circumstances we are considering:
+Consider the linked Sellars [quote](q-0031): it distinguishes a weak notion, \em{labeling}, from a stronger one, \em{describing}. Labeling is a matter of responding differentially - the \em{whole} use of a label is determined by its \em{circumstances} of application. We could distinguish three kinds of labels depending on what kind of circumstances we are considering:
 
 - Matter of fact: what stimuli have elicited the application of the label.
 	- This imposes no constraints on future applications of the label (as familiar gerrymandering arguments about "going on in the same way" remind us).
@@ -54,7 +54,7 @@ Sellars distinguishes labeling (even in the richest sense above) from describing
 
 Sellars thinks the inferences above must be subjunctively robust, since ‘explanation’ is understanding the applicability of some descriptions as explained by the applicability of others according to just this kind of inference. (Hume’s empiricist atomistic semantics for descriptive concepts, construing them as labels, could not underwrite this subjunctive robustness.) Because of this, \em{modal} concepts can be seen as making explicit necessary features of the framework of description.
 
-In \em{The Logical Syntax of Language}, Carnap allows for a non-descriptive (yet non-defective, the way moral vocabulary or astrology vocabulary is seen as defective in virtue of not being descriptive of the world) vocabulary of "quasi-syntactic" vocabulary (covertly metalinguistic). The 'rulishness' of modal vocabulary is subjunctive robustness. Corresponding to Carnap's L-rules and P-rules are Sellars' notions of logical inference and material inference. The laws / inferences determine the content of concepts ("Concepts as Involving Laws, and Inconceivable without Them") which is a response to Quine's [[Two Dogmas of Empiricism]]: inquiry does not just determine the facts but also improves our conceptions (what follows from what). Sellars writes:
+In \em{The Logical Syntax of Language}, Carnap allows for a non-descriptive (yet non-defective, the way moral vocabulary or astrology vocabulary is seen as defective in virtue of not being descriptive of the world) vocabulary of "quasi-syntactic" vocabulary (covertly metalinguistic). The 'rulishness' of modal vocabulary is subjunctive robustness. Corresponding to Carnap's L-rules and P-rules are Sellars' notions of logical inference and material inference. The laws / inferences determine the content of concepts ("Concepts as Involving Laws, and Inconceivable without Them") which is a response to Quine's [Two Dogmas of Empiricism](ref-0068): inquiry does not just determine the facts but also improves our conceptions (what follows from what). Sellars writes:
 
 > I shall be interpreting our judgments to the effect that #{A} causally necessitates #{B} as the expression of a rule governing the use of the terms #{A} and #{B}.
 

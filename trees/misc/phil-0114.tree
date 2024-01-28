@@ -2,7 +2,7 @@
 
 \p{
 
-To follow a [[rules|rule]] (e.g. 'under circumstances #{C}, do #{A}', or 'Whenever you see a cat, raise your arm'), we have to understand the concepts that are involved within (i.e. #{C} or \em{cat}, or \em{raising one's arm}).
+To follow a [rule](phil-0120) (e.g. 'under circumstances #{C}, do #{A}', or 'Whenever you see a cat, raise your arm'), we have to understand the concepts that are involved within (i.e. #{C} or \em{cat}, or \em{raising one's arm}).
   
 - However, to grasp a concept (such that the original rule can be followed) requires a further rule.
 - Put another way, because rules have many interpretations, for any rule #{R} we need another rule which tells us whether or not we correctly applied #{R}.

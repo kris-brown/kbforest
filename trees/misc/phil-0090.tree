@@ -1,9 +1,8 @@
 \title{Objective and subjective facts}
 
+\transclude{q-0103}
+
 \p{
-
-![[Pragmatism as denying some distinctions]]
-
 These are all just statements in vocabularies. Without privileging a "\em{nature}'s own vocabulary."
 
 In neither case do you need to worry about what makes such-and-such statement in the vocabulary true. What you should worry about is the reason relations within each vocabulary:
@@ -15,9 +14,9 @@ In neither case do you need to worry about what makes such-and-such statement in
 
 # Antibifurcationism
 Anti-bifurcationism was coined by [Price](huw-price) to reject the following view.
-
-Richard Kraut [[Varieties of pragmatism|writes]]:
-
+}
+\p{Richard Kraut [writes](ref-0070):}
+\blockquote{
 > The bifurcationist often undertakes the task of determining which of our
   well-formed declarative sentences have truth conditions and which ones, though
   meaningful, are simply the manifestations of attitudes or the expressions of
