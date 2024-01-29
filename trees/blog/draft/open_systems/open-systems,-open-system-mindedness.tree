@@ -5,11 +5,11 @@
 There are many instances of "closed system" modeling that can be generalized 
 to "open system" modeling":
 
-- open chemical reaction networks
-- open electrical circuits 
+ open chemical reaction networks
+ open electrical circuits 
 
-- port hamiltonian systems
-- open Markov processes
+ port hamiltonian systems
+ open Markov processes
 
 This, in general, is strictly more difficult. However, there is a longer term payoff: you 
 can model subsystems and compose them into larger ones. From 

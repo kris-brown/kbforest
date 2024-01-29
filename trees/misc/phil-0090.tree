@@ -1,4 +1,5 @@
 \title{Objective and subjective facts}
+\import{base-macros}
 
 \transclude{q-0103}
 
@@ -10,7 +11,7 @@ In neither case do you need to worry about what makes such-and-such statement in
 - There will be sociological differences between physics and literary theory, in how reason relations come about.
 - But the representationalist mistake one can make is thinking that these sociological differences are metaphysical differences in the underlying content.
 
-==This is a very category-theoretic insight: that it is sufficient to look at the interactions to recover what before was taken as an ontological difference==
+\mark{This is a very category-theoretic insight: that it is sufficient to look at the interactions to recover what before was taken as an ontological difference}
 
 # Antibifurcationism
 Anti-bifurcationism was coined by [Price](huw-price) to reject the following view.

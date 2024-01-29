@@ -1,26 +1,36 @@
 \title{Historical examples}
+\import{base-macros}
 
 \p{Two strands of pre-Kantian philosophy can be illuminated by thinking of them as battles over the order of explanation:}  
 
-\p{| | [Empiricists](phil-0039) | Rationalists |
-|--|--|--|
-| \strong{Examples} | [Locke](john-locke), [Berkeley](george-berkeley), [Hume](david-hume) | [Spinoza](baruch-spinoza), [Leibniz](gottfried-wilhelm-leibniz) |
-| \strong{Order of explanation between two kinds of mental objects} | Understand sentence-like thoughts as complex+abstracted combinations of picture-like impressions | Understand picture-like impressions as peculiar kinds of sentence-like thoughts |
-| \strong{Order of explanation between two features of concepts} | Understand how judgments follow from each other by understanding the constituent concepts and what they represent in the world | Explain representational content in terms of the more primitive reason relations concepts stand in. |
+\table{
+  \tr{
+    \th{}
+    \th{[Empiricists](phil-0039) }
+    \th{Rationalists}
+  }
+  \tr{
+    \td{\strong{Examples} }
+    \td{[Locke](john-locke), [Berkeley](george-berkeley), [Hume](david-hume) }
+    \td{[Spinoza](baruch-spinoza), [Leibniz](gottfried-wilhelm-leibniz)}
+  }
+  \tr{
+    \td{\strong{Order of explanation between two kinds of mental objects} }
+    \td{Understand sentence-like thoughts as complex+abstracted combinations of picture-like impressions }
+    \td{Understand picture-like impressions as peculiar kinds of sentence-like thoughts}
+  }
+  \tr{
+    \td{\strong{Order of explanation between two features of concepts} }
+    \td{Understand how judgments follow from each other by understanding the constituent concepts and what they represent in the world }
+    \td{Explain representational content in terms of the more primitive reason relations concepts stand in.}
+  }
+}
 
-- The debate between [deontology vs consequentialism](https://plato.stanford.edu/entries/ethics-deontological/#DeoFoiCon) in ethics can be seen as a fight over the explanatory priority of concepts of the Right (actions) vs the Good (states of affairs).
+\p{The debate between [deontology vs consequentialism](https://plato.stanford.edu/entries/ethics-deontological/#DeoFoiCon) in ethics can be seen as a fight over the explanatory priority of concepts of the Right (actions) vs the Good (states of affairs).}
 
-- The early [Frege](gottlob-frege) sought to explain truth in terms of inference (sentences are 
-primitive because they are the smallest unit which has pragmatic force), 
-vice-versa for the late Frege.
+\p{The early [Frege](gottlob-frege) sought to explain truth in terms of inference (sentences are primitive because they are the smallest unit which has pragmatic force), vice-versa for the late Frege.}
 
-- We have statements which are good in virtue of their logical form (logical 
-  inferences, e.g. "#{A} and #{B}, therefore #{A}") as well as statements which are just 
-  good (materially-good inferences, e.g. "If #{X} is to the #{East} of #{Y}, then #{Y} is to the 
-  #{West} of #{X}.") - [Sellars](wilfrid-sellars) advocates that we understand material inference as more 
-  fundamental to logical inference.
+\p{We have statements which are good in virtue of their logical form (logical inferences, e.g. "#{A} and #{B}, therefore #{A}") as well as statements which are just good (materially-good inferences, e.g. "If #{X} is to the #{East} of #{Y}, then #{Y} is to the #{West} of #{X}.") - [Sellars](wilfrid-sellars) advocates that we understand material inference as more fundamental to logical inference.}
 
-- Debates in philosophy of language can be recasted as arguing over the 
-  preferred order of explanation between syntax, semantics, and pragmatics. 
-  E.g. how do we think of the [relationships](int-0016) between declarative sentences, propositions, and speech acts?
+\p{Debates in philosophy of language can be recasted as arguing over the preferred order of explanation between syntax, semantics, and pragmatics. E.g. how do we think of the [relationships](int-0016) between declarative sentences, propositions, and speech acts?
 }

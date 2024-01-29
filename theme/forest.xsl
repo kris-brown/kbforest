@@ -168,10 +168,10 @@
         <script type="text/javascript">
           <xsl:text>
           window.DiscourseEmbed = {
-            discourseUrl: 'https://www.localcharts.org/',
-            discourseEmbedUrl: 'https://forest.localcharts.org/</xsl:text><xsl:value-of select="/tree/frontmatter/addr" /><xsl:text>.xml'
+            discourseUrl: 'https://www.krisb.org/',
+            discourseEmbedUrl: 'https://krisb.org/forest/</xsl:text><xsl:value-of select="/tree/frontmatter/addr" /><xsl:text>.xml'
           };
-          const isLive = /^https:\/\/forest.localcharts.org/.test(window.location);
+          const isLive = /^https:\/\/krisb.org/forest/.test(window.location);
           const isEnabled = </xsl:text><xsl:choose>
             <xsl:when test="/tree/frontmatter/meta[@name = 'comments']/.='true'">
               <xsl:text>true</xsl:text>

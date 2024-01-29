@@ -5,20 +5,8 @@
 
 Let an \em{inference} be a statement with a [material conditional](phil-0072), i.e. of the 
 form "If #{P}, then #{Q}"[^1] in a language with ordinary statements as well as 
-logical connectives (e.g.  \em{and}, \em{or}). We want a rigorous way to distinguish that following kinds of inferences:
+logical connectives (e.g.  \em{and}, \em{or}). We want a rigorous way to distinguish that following kinds of inferences:}
 
-<style>
-table th:first-of-type {
-    width: 10%;
-}
-table th:nth-of-type(2) {
-    width: 40%;
-}
-table th:nth-of-type(3) {
-    width: 40%;
-}
-</style>
-}
 \table{
   \tr{
     \th{ }
@@ -51,18 +39,14 @@ table th:nth-of-type(3) {
     \td{True in virtue of its logical form}
   }
 }
-\p{
+\p{[^1]: Letters (e.g. #{P}, #{Q}, #{X}) represent logical variables. These have the 
+      meaning of being replaceable with anything, loosely speaking. }
 
-[^1]: Letters (e.g. #{P}, #{Q}, #{X}) represent logical variables. These have the 
-      meaning of being replaceable with anything, loosely speaking. 
+\p{[^2]: This demonstrates that this distinction is different from the [analytic/synthetic distinction](int-0001). There, a cat being a mammal would feel like an \em{analytic} statement, while pigs not being able to fly feels more \em{synthetic}.
+}
+\strong{Generalization}
 
-[^2]: This demonstrates that this distinction is different from the [analytic/synthetic distinction](int-0001). 
-There, a cat being a mammal would feel like an \em{analytic} statement, while 
-pigs not being able to fly feels more \em{synthetic}.
-
-### Generalization
-
-This move was to take a notion of "what is a logical connective?" and pick out 
+\p{This move was to take a notion of "what is a logical connective?" and pick out 
 which sentences are "logically-valid" sentences. This could be generalized to 
 give us a notion of other types of vocabularies. E.g. we identify \em{theological} 
 vocabulary (e.g. \em{God}, \em{pious}) and observe which good inferences (e.g. 

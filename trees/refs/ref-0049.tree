@@ -1,7 +1,15 @@
 \title{Philosophy and the Mirror of Nature}
 \taxon{reference}
 \import{macros}
-\author{Richard Rorty}
+\author{richard-rorty}
+\meta{bibtex}{\startverb%
+@book{rorty2009philosophy,
+  title={Philosophy and the Mirror of Nature},
+  author={Rorty, Richard},
+  volume={81},
+  year={2009},
+  publisher={Princeton university press}
+}\stopverb}
 
 \notes{
 }

@@ -1,9 +1,10 @@
 \title{An addendum to \em{Intentionality and Language}}
 \import{base-macros}
 
-\p{\em{Note this section won't make sense without the context of \strong{Intentionality and Language}}
+\p{\em{Note this section won't make sense without the context of \strong{Intentionality and Language}}}
 
-In Brandom's essay [Intentionality and Language](/docs/blog/posts/mana/index.qmd), he tackles the issue of the relation between language and the world, making some important distinctions between practical vs discursive intentionality as well as propositional vs representational intentionality. He proposes that the following order of explanation gives us a satisfying understanding of the situation:}
+\p{In Brandom's essay [Intentionality and Language](/docs/blog/posts/mana/index.qmd), he tackles the issue of the relation between language and the world, making some important distinctions between practical vs discursive intentionality as well as propositional vs representational intentionality. He proposes that the following order of explanation gives us a satisfying understanding of the situation:
+}
 
 \table{
   \tr{
@@ -34,35 +35,39 @@ In Brandom's essay [Intentionality and Language](/docs/blog/posts/mana/index.qmd
 
 \p{TODO this should be a Quiver figure...}
 
-\p{Some very brief summaries of the essay's arguments for these orders:
+\p{Some very brief summaries of the essay's arguments for these orders:}
 
-- Propositional #{\rightarrow}: Kant, Hegel, Wittgenstein, Sellars, [Davidson](donald-davidson), and [Rorty](richard-rorty) effectively argue that conceptual content as \em{normative} - that we should think of grasping the \em{meaning} of a concept as the practical mastery of using that concept in a network of inferential relations. This leads to a pragmatist order of explanation in contrast to the platonist order (which would be a #{\leftarrow} in the top row).
-  - \strong{Platonism} - understand practical intentionality in terms of discursive intentionality. Every implicit skill or propriety of practice is underwritten by a rule/principle - something that could be made discursively explicit.
-  - \strong{Pragmatism} - understand discursive intentionality in terms of practical intentionality. Knowing-that (things are thus-and-so) is a kind of knowing-how (to do something). What is explicit in the form of a conceptually articulated principle is intelligible only against a background of implicit practices.
-- Practical #{\uparrow}: A paradigm case here is to consider the mapping relation that skillful dealings produce and promote between items in the environment and states of the organism. The usefulness of map representations depends on the goodness of inferences from map-facts (there is a blue wavy line between two dots here) to terrain-facts (there is a river between these two cities). The propositional content of the map facts is built up out of representational relations that are sub-propositional (correlating blue lines and rivers, dots and cities).[^map]
-- Discursive #{\downarrow}: the representational dimension of our talk is paradigmatically \em{de re} clauses, as distinguished from \em{de dicto}. The functional role of having this distinction allows us to keep track of what premises are available for the reasoning of others and what premises are available for our own reasoning.
+\ul{
 
-[^map]: By making the distinction of practical vs discursive intentionality, Brandom can respond to the philosophers who sneer at anti-representationalists like Rorty who "show up to the anti-representationalist conference with a map of the campus and a timetable in their pocket."
+  \li{Propositional #{\rightarrow}: Kant, Hegel, Wittgenstein, Sellars, [Davidson](donald-davidson), and [Rorty](richard-rorty) effectively argue that conceptual content as \em{normative} - that we should think of grasping the \em{meaning} of a concept as the practical mastery of using that concept in a network of inferential relations. This leads to a pragmatist order of explanation in contrast to the platonist order (which would be a #{\leftarrow} in the top row).}
 
-Actually, the #{\leftarrow} isn't discussed; I added it myself since it helps me 
-make sense of a few things which I hope to elaborate on soon:
+    \ul{
+      \li{\strong{Platonism} - understand practical intentionality in terms of discursive intentionality. Every implicit skill or propriety of practice is underwritten by a rule/principle - something that could be made discursively explicit.}
 
-- A core tension between [platonists and pragmatists](int-0011). One can interpret 
-the platonist not as being simply mistaken in the directionality of the top arrow, but,
-rather, as having 'composed' the three other arrows.
-- The \em{cyclic} nature of explaining causes vs reasons - we can always take 
-  scientific claims and analyze them as ultimately grounded in linguistic social 
-  practices, yet we can also always take social practices and view them as 
-  occurring in the realm of natural science.[^fn]
-- It could be illuminating to think of taking the composite of three arrows vs 
-  the single arrow as making a kind of \em{level shift}, e.g. from description 
-  in the narrow sense vs description in the wide sense[^s] or first nature vs 
-  second nature.[^m] 
-    - This could resolve philosophical confusion that comes from level shifts 
-      which are not made explicit, such as taking a 
-      [relational database](https://blog.algebraicjulia.org/post/2020/09/cset-graphs-1/) instance full of facts (e.g. #{src(Edge_1)=tgt(Edge_1)}) and asking if it's a fact in the database that every edge has exactly one source and one target (no, not in some narrow sense, yes in some wider sense, though).
+      \li{\strong{Pragmatism} - understand discursive intentionality in terms of practical intentionality. Knowing-that (things are thus-and-so) is a kind of knowing-how (to do something). What is explicit in the form of a conceptually articulated principle is intelligible only against a background of implicit practices.}
+    }
 
-[^s]: in Sellars' terminology
-[^m]: in [MacDowell](john-macdowell)'s terminology
-[^fn]: Understanding someone saying #{\phi} in terms of the laws of physics which dictate the motion of the atoms of their voice box vibrating to produce sounds waves . . . (etc.). This is connected to Huw Price's subject naturalism.
+  \li{Practical #{\uparrow}: A paradigm case here is to consider the mapping relation that skillful dealings produce and promote between items in the environment and states of the organism. The usefulness of map representations depends on the goodness of inferences from map-facts (there is a blue wavy line between two dots here) to terrain-facts (there is a river between these two cities). The propositional content of the map facts is built up out of representational relations that are sub-propositional (correlating blue lines and rivers, dots and cities).[^map]}
+
+  \li{Discursive #{\downarrow}: the representational dimension of our talk is paradigmatically \em{de re} clauses, as distinguished from \em{de dicto}. The functional role of having this distinction allows us to keep track of what premises are available for the reasoning of others and what premises are available for our own reasoning.}
 }
+
+\p{[^map]: By making the distinction of practical vs discursive intentionality, Brandom can respond to the philosophers who sneer at anti-representationalists like Rorty who "show up to the anti-representationalist conference with a map of the campus and a timetable in their pocket."}
+
+\p{Actually, the #{\leftarrow} isn't discussed; I added it myself since it helps me 
+make sense of a few things which I hope to elaborate on soon:}
+
+\ul{
+  \li{A core tension between [platonists and pragmatists](int-0011). One can interpret 
+  the platonist not as being simply mistaken in the directionality of the top arrow, but,
+  rather, as having 'composed' the three other arrows.}
+
+  \li{The \em{cyclic} nature of explaining causes vs reasons - we can always take scientific claims and analyze them as ultimately grounded in linguistic social practices, yet we can also always take social practices and view them as occurring in the realm of natural science.[^fn]}
+
+  \li{It could be illuminating to think of taking the composite of three arrows vs the single arrow as making a kind of \em{level shift}, e.g. from description in the narrow sense vs description in the wide sense[^s] or first nature vs second nature.[^m] This could resolve philosophical confusion that comes from level shifts which are not made explicit, such as taking a [relational database](https://blog.algebraicjulia.org/post/2020/09/cset-graphs-1/) instance full of facts (e.g. #{src(Edge_1)=tgt(Edge_1)}) and asking if it's a fact in the database that every edge has exactly one source and one target (no, not in some narrow sense, yes in some wider sense, though).}
+}
+\p{[^s]: in Sellars' terminology}
+\p{[^m]: in [MacDowell](john-macdowell)'s terminology}
+\p{[^fn]: Understanding someone saying #{\phi} in terms of the laws of physics which dictate the motion of the atoms of their voice box vibrating to produce sounds waves . . . (etc.). This is connected to Huw Price's subject naturalism.
+}
+

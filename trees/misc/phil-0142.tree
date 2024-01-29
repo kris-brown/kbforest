@@ -1,5 +1,5 @@
 \title{Truth}
-
+\import{base-macros}
 \p{
 
 Two broad conceptions
@@ -40,7 +40,7 @@ These have the same assertability conditions, but it's clear they don't mean the
 
 Pragmatically one is merely endorsing #{\phi} regardless of whether one says #{\phi} or "#{\phi} is true." But they \em{mean} different things.[^kb] 
 
-[^kb]: ==This seems important in blocking some argument that semantics can be cleanly/functorially read off of the pragmatics==.
+[^kb]: \mark{This seems important in blocking some argument that semantics can be cleanly/functorially read off of the pragmatics.}
 
 Deflationary theories of truth need to address the [Frege-Geach argument](phil-0050) in explaining embedded uses of truth.
 

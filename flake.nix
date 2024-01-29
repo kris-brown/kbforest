@@ -46,7 +46,7 @@
           ${forest-server.packages.${system}.default}/bin/forest watch $@ -- "build --dev --root ${default-tree}-0001 trees/"
         '';
         default = pkgs.stdenv.mkDerivation {
-          name = "localcharts-forest";
+          name = "kb-forest";
           src = ./.;
           buildInputs = [tlDist];
           buildPhase = ''
@@ -63,7 +63,7 @@
           text = ''
             forester build --root ${default-tree}-0001 trees/
             cp _redirects output/
-            wrangler pages deploy --branch "$BUILDKITE_BRANCH" --project-name localcharts-forest output/ | tee wrangler-log
+            wrangler pages deploy --branch "$BUILDKITE_BRANCH" --project-name kb-forest output/ | tee wrangler-log
             DEPLOY_URL=$(sed -n 's/.*Take a peek over at \(.*\)/\1/p' < wrangler-log)
             curl -L \
               -X POST \

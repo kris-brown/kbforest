@@ -1,5 +1,5 @@
 \title{08 - Anti-Representationalism, Pragmatism, and Expressivism}
-
+\import{base-macros}
 \p{
 
 To understand [subject naturalism](phil-0089), we first need to understand object-naturalism (normally just called "[naturalism](phil-0082)").
@@ -71,7 +71,7 @@ Philosophical payoff: we no longer have the ontological problem of abstract obje
 
 We can introduce numbers not just by counting but by the equivalence relation of bijection.
 
-==Brandom writes: To get further in mathematics, need more kinds of abstraction. Not just are the other kinds of numbers not introduced just by abstraction by equinumerosity, but broader notions of abstraction have to be considered: more ways of introducing new singular terms, predicates, functions, and so on, on the basis of old ones.  But math should be thought of as doing this: mereology does, set theory does, and the sense in which category theory is foundational might well be that it is conceptually foundational in generalizing the introduction of new terms, sortals, functions (..., but it is a way of filling in the ellipsis) on the basis of old ones.  I would dearly love to be able to explain category theory up to the Yoneda Lemma in these terms of generalizing abstraction, with abstraction thought of in terms of regimenting general ways of introducing new expressions on the basis of old ones.==
+\mark{Brandom writes: To get further in mathematics, need more kinds of abstraction. Not just are the other kinds of numbers not introduced just by abstraction by equinumerosity, but broader notions of abstraction have to be considered: more ways of introducing new singular terms, predicates, functions, and so on, on the basis of old ones.  But math should be thought of as doing this: mereology does, set theory does, and the sense in which category theory is foundational might well be that it is conceptually foundational in generalizing the introduction of new terms, sortals, functions (..., but it is a way of filling in the ellipsis) on the basis of old ones.  I would dearly love to be able to explain category theory up to the Yoneda Lemma in these terms of generalizing abstraction, with abstraction thought of in terms of regimenting general ways of introducing new expressions on the basis of old ones.}
 
 Ways we may be misled by grammar:
 

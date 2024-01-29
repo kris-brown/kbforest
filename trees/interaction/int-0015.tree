@@ -11,14 +11,18 @@ The relationship between [semantics](phil-0124) and [epistemology](phil-0041) is
 \p{This is tantamount to whether one's theory of meaning is independent of one's theory of understanding. For example, [Davidson](donald-davidson) argues that we can only understand meaning in terms of the process of interpreting (attributing meanings). For [Dummett](michael-dummett), meaning is what can be understood.
 }
 
-\p{# Order of explanation
-What is the proper order of explanation? [^1]
-- Should reason-relations (material implication and exclusion) be determined by representational content?
-- Should we understand content [functionally](phil-0051), in terms of reason relations?
+\p{# Order of explanation}
 
-[^1]: There is a related order-of-explanation dilemma between [Semantics and pragmatics](int-0016).
+\p{What is the proper order of explanation? [^1]
+}
+\ul{
+\li{Should reason-relations (material implication and exclusion) be determined by representational content?}
+\li{Should we understand content [functionally](phil-0051), in terms of reason relations?
+}
+}
+\p{[^1]: There is a related order-of-explanation dilemma between [Semantics and pragmatics](int-0016).
+}
 
 
-
-Related topics: [Breaking the analytic-synthetic distinction](int-0001)
+\p{Related topics: [Breaking the analytic-synthetic distinction](int-0001)
 }

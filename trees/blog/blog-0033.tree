@@ -1,12 +1,12 @@
 \title{Appropriate usage}
 
-\p{We need a modification to the second scenario above in order avoid that pitfall:
+\p{We need a modification to the second scenario above in order avoid that pitfall:}
+\ul{
+  \li{Ask "Would it be morally condemnable for the company to report injuries per
+  atom sold?" and let Bob draw the distinction himself. However, even this could
+  be perceived as accusing him of believing #{\bot}, if Alice and Bob don't know
+  or trust each other.}
 
-- Ask "Would it be morally condemnable for the company to report injuries per
-atom sold?" and let Bob draw the distinction himself. However, even this could
-be perceived as accusing him of believing #{\bot}, if Alice and Bob don't know
-or trust each other.
-
-- More diplomatic is presuming Bob doesn't believe #{\bot} by asking "Why is it
-the case that you'd draw the line between injury per magnet and injury per atom?"
+  \li{More diplomatic is presuming Bob doesn't believe #{\bot} by asking "Why is it
+  the case that you'd draw the line between injury per magnet and injury per atom?"}
 }

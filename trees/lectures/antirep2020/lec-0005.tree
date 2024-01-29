@@ -1,5 +1,5 @@
 \title{05 - Rorty's Literary Turn}
-
+\import{base-macros}
 \p{
 
 
@@ -103,7 +103,7 @@ There is a sense dependence[^ff] between concepts we use to articulate the categ
 
 To assert that sense dependence is \em{not} to assert a reference dependence.
 
-[^ff]: ==This is functorial==
+[^ff]:\mark{This is functorial}
 
 When someone makes a vocabulary-dependence claim
 (e.g. the lawfulness of a relation between two properties is a feature of our cognitive faculties) it makes a big difference whether this is a sense or reference dependence claim.
@@ -149,6 +149,6 @@ It's through understanding relationships between the vocabularies that we can ac
 You say "it weighs 1" and I say "no it ways 2.2" - what has to be true about our practice for someone outside us to say "they are both measuring \em{the (objective) weight} (with units lb and kg)". This requires ground-level pragmatism engineering to find out such-and-such properties need to preserved in the language mapping . 
 
 
-==This is saying that a pragmatist strategy for making an objective/subjective distinction is via mappings between languages (characterizable via universal properties?)==
+\mark{This is saying that a pragmatist strategy for making an objective/subjective distinction is via mappings between languages (characterizable via universal properties?)}
 
 }

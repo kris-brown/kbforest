@@ -1,11 +1,12 @@
 \title{Interactions over ontology}
-\author{Richard Rorty}
+\author{richard-rorty}
+\import{macros}
+\blockquote{
 
-\p{
-
-> Can we treat the study of "the nature of human knowledge" just as the study of certain ways in which human beings interact, or does it require an ontological foundation (involving some specifically philosophical way of describing human beings)?
+Can we treat the study of "the nature of human knowledge" just as the study of certain ways in which human beings interact, or does it require an ontological foundation (involving some specifically philosophical way of describing human beings)?
 
  — [Philosophy and the Mirror of Nature](ref-0049), Chapter 4
 
-- ==This seems very category-theoretic.==
+\notes{This seems very category-theoretic}
+
 }

@@ -4,20 +4,21 @@
 
 Ordinarily we think of the [ontological](phil-0091) and the [deontological](phil-0027) as being very 
 different, easily distinguishable kinds of things. However, Sellars' 
-quote:
+quote:}
 
 \transclude{q-0152}
-
+\p{
 expresses the idea that these are not so different and we can view ontological 
 ideas as deontological (which has the added benefit of not excavating a gap 
 between mind and world - it's no mystery how we can come to know how things 
 actually are if it is a matter of understanding things like 
-responsibility/social status).
+responsibility/social status).}
 
-Examples of this: 
-
-- [representation as a normative relation](phil-0126)
-- [intentionality as a normative relation](phil-0002)
-- more to come ...
-
+\p{Examples of this: 
 }
+\ul{
+\li{[representation as a normative relation](phil-0126)}
+\li{[intentionality as a normative relation](phil-0002)}
+\li{more to come ...}
+}
+

@@ -1,14 +1,16 @@
 \title{Fun links}
 
-\p{
 
-## AI 
-
-- [Wittgenstein App](https://wittgenstein.app/) - GPT is trained on the _Tractatus_ and then asked for an eighth proposition.
-
-- [PuzzleEmoji](https://puzzlemoji.com/) - A wordle clone where you help ChatGPT guess the movie using 3 emojis. 
-
-## Cringe
-
-- [Ukraine](https://twitter.com/DefenceU/status/1661037540076290048)
+\p{## AI 
 }
+
+\ul{
+  \li{[Wittgenstein App](https://wittgenstein.app/) - GPT is trained on the _Tractatus_ and then asked for an eighth proposition.}
+
+  \li{[PuzzleEmoji](https://puzzlemoji.com/) - A wordle clone where you help ChatGPT guess the movie using 3 emojis. }
+}
+
+\p{## Cringe
+}
+\ul{\li{[Ukraine](https://twitter.com/DefenceU/status/1661037540076290048)
+}}

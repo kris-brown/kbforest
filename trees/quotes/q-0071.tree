@@ -1,12 +1,13 @@
 \title{Logic not representational}
+\author{ludwig-wittgenstein}
+\import{macros}
 
-\p{
-
-[Author](ludwig-wittgenstein)
-
-> My fundamental idea is that the ‘logical constants’ are not representatives; that there can be no representatives of the _logic_ of facts
+\blockquote{
+My fundamental idea is that the ‘logical constants’ are not representatives; that there can be no representatives of the _logic_ of facts
 
 — [Tractatus](ref-0066) 4.0312
+}
 
+\notes{
 Prior to this development (e.g. in [Russell](bertrand-russell) and earlier [Wittgenstein](ludwig-wittgenstein)) logical atomists looked for negative/conditional/negative existential facts in the world.
 }

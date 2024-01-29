@@ -8,13 +8,14 @@ Thesis: AI discourse stands to benefit from making a distinction between
 \em{sentience} and \em{sapience}, both of which are flavors of "intelligence". 
 
 Key points, if you accept that distinction as legitimate / enlightening:
-
-- People \em{think} they are having empirical disputes (e.g. are current/future AIs 
+\ul{
+\li{People \em{think} they are having empirical disputes (e.g. are current/future AIs 
   'intelligent'?), but these are actually hollow / merely confusion which follows 
-  from conflating sentience and sapience (AI is sentient but not sapient).
-- If our social practices were to sufficiently change, AI \em{could become} sapient 
+  from conflating sentience and sapience (AI is sentient but not sapient).}
+\li{If our social practices were to sufficiently change, AI \em{could become} sapient 
   and mankind \em{could become} merely sentient. This would be bad. Mankind 
-  appreciating the distinction would help prevent this from happening.
+  appreciating the distinction would help prevent this from happening.}
+}
 
 ::: {.callout-note appearance="simple" collapse="true"}
 
@@ -24,10 +25,10 @@ Although sometimes in the 21st century we have very materialist impulses, I want
 to claim it is possible for some truths to not be in the domain of natural 
 science. This doesn't have to invoke religion or anything mystical: 
 
-- what is the simplest way to continue the sequence 0, 2, 4, 6, 8, 10, ...?
-- is torturing helpless strangers morally wrong?
-- who has right-of-way in this intersection?
-- what influence did Elliot's _The Wasteland_ have on the poetic landscape?
+\li{what is the simplest way to continue the sequence 0, 2, 4, 6, 8, 10, ...?}
+\li{is torturing helpless strangers morally wrong?}
+\li{who has right-of-way in this intersection?}
+\li{what influence did Elliot's _The Wasteland_ have on the poetic landscape?}
 
 A materialist's impulses might recoil at this thought, forced to declare 
 the answers to these questions aren't really facts \em{because} science does not 
@@ -49,11 +50,6 @@ in an environment.
 sapient creatures, we attribute the use of \em{concepts}, the ability to make 
 claims, be committed to claims, be entitled to claims, and be held responsible 
 for claims.
-
-
-=====
-
-  
 
 
 }
