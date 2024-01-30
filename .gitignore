@@ -8,3 +8,6 @@ latex
 output
 
 *.json
+*.log
+*.bak0
+*.bak1
