@@ -1,22 +1,24 @@
 \title{Lincoln's horse}
+\tag{joke}
 
 \p{
 
-Lincoln: How many legs does a horse have?
+Lincoln: How many legs does a horse have?}
 
-Witness: Four.
+\p{Witness: Four.
+}
+\p{Lincoln: If we call a tail a leg, then how many legs does a horse have?
+}
+\p{Witness: Well, I suppose the horse would have five legs.
+}
+\p{Lincoln: Absolutely not, that's wrong. Calling a tail a leg doesn't make it a leg!
+}
 
-Lincoln: If we call a tail a leg, then how many legs does a horse have?
+\p{\strong{# Lessons}}
+\ul{
+\li{When you specify counterfactuals, you still have to do this in your actual language.[^2d] }
+\li{This correctly asserts that changing one's way of talking does not affect the order of \em{being} (this is one way of characterizing the order of being), though it can affect the order of \em{explanation}.
+}}
 
-Witness: Well, I suppose the horse would have five legs.
-
-Lincoln: Absolutely not, that's wrong. Calling a tail a leg doesn't make it a leg!
-
-
-# Lessons
-- When you specify counterfactuals, you still have to do this in your actual language.[^2d] 
-- This correctly asserts that changing one's way of talking does not affect the order of \em{being} (this is one way of characterizing the order of being), though it can affect the order of \em{explanation}.
-
-
-[^2d]: Two-dimensional modal logic is supposed to be a technical tool to allow us to specify counterfactuals in other languages.
+\p{[^2d]: Two-dimensional modal logic is supposed to be a technical tool to allow us to specify counterfactuals in other languages.
 }

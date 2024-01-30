@@ -2,9 +2,8 @@
 
 \p{
 
-Skepticism comes in many flavors.
+Skepticism comes in many flavors.}
 
-```query
-tag:skepticism
-```
+\scope{
+  \query{\query/tag{skepticism}}
 }

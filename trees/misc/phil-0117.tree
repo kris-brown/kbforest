@@ -1,45 +1,47 @@
 \title{Representation}
+\meta{external}{[SEP](https://plato.stanford.edu/entries/mental-representation/)}
 \import{base-macros}
 \p{
 
-Representation is a theory of the relation between appearance and reality. 
+Representation is a theory of the relation between appearance and reality. }
 
-# A [successor concept](ref-0134) to theories of resemblance
-Premodern theories understood relation between appearance and reality in terms of \strong{resemblance} (sharing properties).
-  
-- The paradigm example is that of a picture and what is pictured 
-  - The appearance of the portrait is veridical to the extent that shape of the 
-    ears, the color of the eyes, etc., match the person the portrait is of.
-- The rise of science made this untenable:
-    - Copernicus: reality behind stationary Earth and revolving Sun is a 
-      revolving Earth and stationary Sun.
-    - Galileo: effective strategies of understanding time as line lengths[^l] and 
+\p{\strong{# A [successor concept](ref-0134) to theories of resemblance}}
+\p{Premodern theories understood relation between appearance and reality in terms of \strong{resemblance} (sharing properties).
+}  
+\ul{
+\li{The paradigm example is that of a picture and what is pictured: The appearance of the portrait is veridical to the extent that shape of the ears, the color of the eyes, etc., match the person the portrait is of.}
+\li{The rise of science made this untenable:}
+\ul{
+    \li{Copernicus: reality behind stationary Earth and revolving Sun is a 
+      revolving Earth and stationary Sun.}
+    \li{Galileo: effective strategies of understanding time as line lengths[^l] and 
       acceleration as triangles ... not easily understood in terms of shared 
-      properties.
-
-[^l]: It's hard for us to appreciate how radical this is given that the idea of 
+      properties.}}
+}
+\p{[^l]: It's hard for us to appreciate how radical this is given that the idea of 
       representation is so commonplace now. There is really nothing in terms of 
       directly-shared properties that would tie line lengths and time durations
       together. We think of Galileo as giving a mathematical \em{model} of what was 
       going on, but he thought of himself as using the language of geometry to 
       describe the underlying \em{reality} of the motion that we have appearances 
       of because he had no notion of representation. 
-
-# Pioneered by Descartes 
-
-[Descartes](rene-descartes) came up with the more abstract meta-concept (which Kant would dub representation, or \em{Vorstellung}) as a new way of thinking of the relation between appearance and reality.
-
-[Spinoza](baruch-spinoza) saw Descartes' philosophy as being understood in terms of his innovations of relating algebra to geometry. How could strings of algebraic symbols be useful / veridical appearances of 
+}
+\p{\strong{# Pioneered by Descartes }
+}
+\p{[Descartes](rene-descartes) came up with the more abstract meta-concept (which Kant would dub representation, or \em{Vorstellung}) as a new way of thinking of the relation between appearance and reality.
+}
+\p{[Spinoza](baruch-spinoza) saw Descartes' philosophy as being understood in terms of his innovations of relating algebra to geometry. How could strings of algebraic symbols be useful / veridical appearances of 
 geometrical reality? 
-
-- "[The order and connection of things is the same as the order and connection of ideas](q-0092)" 
-    - A \em{global} homomorphism from the whole system of algebraic symbols and 
-      the whole system of geometric figures.
-    - The properties of what is representing or represented are irrelevant. 
-      What's relevant is that there is the overall structure, the mapping 
-      between the relations in each world.
- 
-# Empiricists and Rationalists}
+}
+\p{"[The order and connection of things is the same as the order and connection of ideas](q-0092)" }
+\ul{
+\li{A \em{global} homomorphism from the whole system of algebraic symbols and 
+  the whole system of geometric figures.}
+\li{The properties of what is representing or represented are irrelevant. 
+  What's relevant is that there is the overall structure, the mapping 
+  between the relations in each world.}
+} 
+\p{\strong{# Empiricists and Rationalists}}
 
 \table{
   \tr{
@@ -79,20 +81,17 @@ geometrical reality?
   }
 }
 \p{
-[^dd]: Descartes did not make this distinction - his ontology simply had representings and representeds without finer structure. Empiricists tried to reduce thoughts to impressions and rationalists vice-versa.
-
+[^dd]: Descartes did not make this distinction - his ontology simply had representings and representeds without finer structure. Empiricists tried to reduce thoughts to impressions and rationalists vice-versa.}
+\p{
 [^whole]: Rationalist [Leibniz](gottfried-wilhelm-leibniz) would have us understand the content of the map (\em{as} a representation) to be the inferences that someone who treats it as a map could make about terrain facts (e.g. a river) from map-facts (wavy-blue line).
-
-[^nb]: Empiricists start with narrow postulate about what representing is and exclude a lot of genuinely contentful thought due to not meeting this standard (e.g. ethics, modality)
-
-[^sc]: Sellars identifies both camps as [descriptivists](phil-0029) (to be conceptually contentful is just to describe / represent how things are).
-
-[^oe]: Rationalists take all our cognitively contentful expressions as describing the actual world, resulting in ontological extravagance (postulating objective values / universals / propositions / laws).
-
-[^prog]: Empiricists did not take the wholist lesson of representation to heart, so they were reactionary / holding onto the atomistic aspect of the antiquated resemblence model.
-
-Kant saw Descartes as having made an advance by assimilating impressions and  concepts as species under the genus of representation. But these categorically-different species play different roles in our capacity to know things (rather than being the same species but having a spectrum).
-
-# External resources
-- [SEP](https://plato.stanford.edu/entries/mental-representation/)
+}
+\p{[^nb]: Empiricists start with narrow postulate about what representing is and exclude a lot of genuinely contentful thought due to not meeting this standard (e.g. ethics, modality)
+}
+\p{[^sc]: Sellars identifies both camps as [descriptivists](phil-0029) (to be conceptually contentful is just to describe / represent how things are).
+}
+\p{[^oe]: Rationalists take all our cognitively contentful expressions as describing the actual world, resulting in ontological extravagance (postulating objective values / universals / propositions / laws).
+}
+\p{[^prog]: Empiricists did not take the wholist lesson of representation to heart, so they were reactionary / holding onto the atomistic aspect of the antiquated resemblence model.
+}
+\p{Kant saw Descartes as having made an advance by assimilating impressions and  concepts as species under the genus of representation. But these categorically-different species play different roles in our capacity to know things (rather than being the same species but having a spectrum).
 }

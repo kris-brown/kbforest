@@ -8,13 +8,13 @@
 
 \table{
   \tr{
-    \th{Wing      }
+    \th{Wing}
     \th{Left }
     \th{Right}
   }
   \tr{
-    \td{Key passage      }
-    \td{[Scienta mensura](q-0133)        }
+    \td{Key passage}
+    \td{[Scienta mensura](q-0133)  }
     \td{[Space of reasons](q-0137)}
   }
   \tr{
@@ -26,6 +26,4 @@
 
 \p{Sellars saw both aspects of his philosophy as essential.}
 
-\p{Rorty joked that he hoped that they would settle their differences more peacefully than the right and left wing Hegelians, who did so during a long conference called the "Battle of Stalingrad".
-
-}
+\transclude{phil-0094}

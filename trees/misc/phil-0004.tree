@@ -2,23 +2,25 @@
 
 \p{Also called Münchhausen trilemma}
 
-\p{A problem for [epistemology](phil-0041), which, if unanswered, opens one to [Epistemological skepticism](phil-0040). It seems like there are only three ways of completing a proof:
+\p{A problem for [epistemology](phil-0041), which, if unanswered, opens one to [Epistemological skepticism](phil-0040). It seems like there are only three ways of completing a proof:}
 
-- The \em{circular} argument, in which the proof of some proposition presupposes the truth of that very proposition
-- The \em{regressive} argument, in which each proof requires a further proof, ad infinitum
-- The \em{dogmatic} / \em{foundationalist} argument, which rests on accepted precepts which are merely asserted rather than defended.
+\ul{
 
-These all tend to rub us the wrong way.
+\li{The \em{circular} argument, in which the proof of some proposition presupposes the truth of that very proposition}
+\li{The \em{regressive} argument, in which each proof requires a further proof, ad infinitum}
+\li{The \em{dogmatic} / \em{foundationalist} argument, which rests on accepted precepts which are merely asserted rather than defended.}}
 
-# Addressing the trilemma
-
-## Changing the logic
-This is a problem for [classical logic](phil-0020) in particular.
-
-It could be addressed by introducing [nonmonotonic logic](phil-0085):  e.g. default and challenge approach to justification where some claims (e.g. first person observations) come with a default justification (which is not based on the justification of other claims). Yet they must be defended when challenged.
-
-## Challenging the meaning-theory distinction
-
-The pervasive ideology of [analyticity](int-0001) leads us to think that the \em{meanings} of our commitments are determined prior to deciding which claims are justified. Rejecting this is to say we cannot be clear about the contents of our expressions prior to determining their inferential relations. So we cannot be in the original predicament we thought we were in.
-
+\p{These all tend to rub us the wrong way.
 }
+\p{\strong{# Addressing the trilemma}
+}
+\p{\strong{## Changing the logic}}
+\p{This is a problem for [classical logic](phil-0020) in particular.
+}
+\p{It could be addressed by introducing [nonmonotonic logic](phil-0085):  e.g. default and challenge approach to justification where some claims (e.g. first person observations) come with a default justification (which is not based on the justification of other claims). Yet they must be defended when challenged.
+}
+\p{\strong{## Challenging the meaning-theory distinction}
+}
+\p{The pervasive ideology of [analyticity](int-0001) leads us to think that the \em{meanings} of our commitments are determined prior to deciding which claims are justified. Rejecting this is to say we cannot be clear about the contents of our expressions prior to determining their inferential relations. So we cannot be in the original predicament we thought we were in.
+}
+

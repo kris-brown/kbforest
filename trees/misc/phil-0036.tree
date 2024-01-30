@@ -1,7 +1,7 @@
 \title{E-Representation and I-Representation}
 
 \p{
-A distinction made by [Price](huw-price).
+A distinction made by [Price](huw-price).}
 
 \blockquote{\p{e-Representation: On the one hand, we have the environment-tracking paradigm of representation, dependent on such notions as covariation and 'indication relations' (Field 1994) – think of examples such as the position of the needle in the fuel gauge and the level of fuel in the tank, the barometer reading and air pressure and so on. In these cases, the crucial idea is that some feature of the representing system either does, or is (in some sense) 'intended to', vary in parallel with some feature of the represented system. (Usually, but perhaps not always, the covariation in question has a causal basis.) In biological cases, for example, this notion gives priority to the idea that the function of a representation is to covary with some (typically) external environmental condition: it puts the system–world link on the front foot.}
  
@@ -19,7 +19,8 @@ A distinction made by [Price](huw-price).
 
 — [Expressivism for Two Voices](ref-0076), 16}
 
-# Relation to bifurcation thesis
+\p{\strong{# Relation to bifurcation thesis}
+}
 
 \blockquote{The two notions have their origins in two distinct notions of representation. The former belongs in a particular (normative, inferentialist) version of the systemic-functional notion, which characterises representations in terms of their roles in networks of various kinds. The latter belongs with notions of representation as environmental covariance. My new [bifurcation thesis](phil-0017) claims that these are not two competing accounts of a single species of representation but two quite different beasts; and that it is this fact, not the old bifurcation thesis, that is the key distinction that expressivists need to make their project run smoothly.
 
@@ -27,5 +28,5 @@ A distinction made by [Price](huw-price).
 
 \blockquote{So long as we restrict ourselves to the vocabulary associated with the i-representational level, in other words, we should not expect to be able to formulate any remnant of the old bifurcation thesis.
 
-— [Two Expressivist Programmes, Two Bifurcations](ref-0077), 39}
+— [Two Expressivist Programmes, Two Bifurcations](ref-0077), 39
 }

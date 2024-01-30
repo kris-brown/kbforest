@@ -1,11 +1,10 @@
 \title{Possible worlds semantics}
-
+\meta{external}{[SEP](https://plato.stanford.edu/entries/possible-worlds/)}
 \p{
 
-Possible worlds semantics is a semantics for [Modal logic](phil-0076).
+Possible worlds semantics is a semantics for [Modal logic](phil-0076).}
 
-John Etchemendy warns us to not confuse possible models in [Tarski](alfred-tarski) model theory with possible worlds in his _The Concept of Logical Consequence_. At the root of it is where the [Sortals](phil-0130) come from (which individuate individuals in the possible worlds).
+\p{John Etchemendy warns us to not confuse possible models in [Tarski](alfred-tarski) model theory with possible worlds in his _The Concept of Logical Consequence_. At the root of it is where the [Sortals](phil-0130) come from (which individuate individuals in the possible worlds).
 
-# External resources
-- [SEP](https://plato.stanford.edu/entries/possible-worlds/)
+ 
 }

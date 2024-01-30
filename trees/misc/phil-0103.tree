@@ -2,88 +2,36 @@
 \meta{external}{[SEP](https://plato.stanford.edu/entries/pragmatism/)}
 \p{
 
-# Overview 
-TODO 
+\strong{# Overview }}
+\p{TODO} 
+\p{\strong{# History}}
 
-# History
+\p{American pragmatism
+}
+\ul{
+\li{[Pierce](charles-sanders-pierce)}
+\li{[James](william-james)}
+\li{[Dewey](john-dewey)}
+}
+\p{"Cambridge" pragmatism}
+\ul{
+\li{[Ramsey](frank-ramsey)}
+\li{The later [Wittgenstein](ludwig-wittgenstein)}
+}
+\p{Neo-pragmatism}
+\ul{
+\li{[Rorty](richard-rorty)}
+\li{[Brandom](robert-brandom)}
+\li{[Price](huw-price)}
+}
 
-American pragmatism
-- [Pierce](charles-sanders-pierce)
-- [James](william-james)
-- [Dewey](john-dewey)
-
-"Cambridge" pragmatism
-- [Ramsey](frank-ramsey)
-- The later [Wittgenstein](ludwig-wittgenstein)
-
-Neo-pragmatism
-- [Rorty](richard-rorty)
-- [Brandom](robert-brandom)
-- [Price](huw-price)
-
-## Graphical representation of influences
-
-```mermaid
-graph TD
-
-H[G. W. F. Hegel] -.-> B[F. H. Bradley]
-
-H -.-> P[C. S. Pierce]
-
-H -.-> R[Josiah Royce]
-
-H -.-> D[John Dewey]
-
-  
-
-B -.-> R
-
-  
-
-R -.-> D
-
-R --> L{C. I. Lewis}
-
-  
-
-P -.-> J[William James]
-
-P -.-> L
-
-  
-
-J --> L
-
-  
-
-L --> G[Nelson Goodman]
-
-L --> Q[W. V. O. Quine]
-
-L --> S{Wilfrid Sellars}
-
-  
-
-C{Rudolph Carnap} --> G
-
-C --> Q
-
-C -.-> S
-
-  
-
-Q --> DD[Donald Davidson]
-```
-Dotted lines are influence, solid lines are advisors, diamonds are neo-kantians.
-
-# Semantics
-What does it \em{mean} that "All #{A}'s are necessarily #{B}'s"? A pragmatist answer is that it is a license to infer statements like "#{x} is a #{B}" from statements like "#{x} is an #{A}".
-
-## Truth 
-- Pierce: [Truth as the limit of inquiry](phil-0141)
-- James: Truth as what is good for belief[^bb]
-
-[^bb]: [Blackburn](simon-blackburn): false beliefs can be useful, e.g. it may be useful to believe you are the most popular person in class but that does not make it true. Conversely, many things we think of as true are useless.
-
-
+\p{\strong{# Semantics}}
+\p{What does it \em{mean} that "All #{A}'s are necessarily #{B}'s"? A pragmatist answer is that it is a license to infer statements like "#{x} is a #{B}" from statements like "#{x} is an #{A}".
+}
+\p{\strong{## Truth }}
+\ul{
+\li{Pierce: [Truth as the limit of inquiry](phil-0141)}
+\li{James: Truth as what is good for belief[^bb]}
+}
+\p{[^bb]: [Blackburn](simon-blackburn): false beliefs can be useful, e.g. it may be useful to believe you are the most popular person in class but that does not make it true. Conversely, many things we think of as true are useless.
 }

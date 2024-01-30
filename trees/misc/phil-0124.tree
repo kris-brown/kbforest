@@ -1,30 +1,29 @@
 \title{Semantics}
 
-\p{
-
-## [empiricism](phil-0039)
-An empiricist approach to semantics wants to give semantics of an expression 
+\p{\strong{## [Empiricism](phil-0039)}}
+\p{An empiricist approach to semantics wants to give semantics of an expression 
 in terms of its [sense dependence rather than its reference dependence](int-0017).
+}
+\p{\strong{## [Functionalism](phil-0051)}}
+\p{The meaning of a word is the role it plays in inferential reason relations.
+}
+\p{\strong{## [descriptivism](phil-0029)}
+}\p{...}
 
-## [Functionalism](phil-0051)
-The meaning of a word is the role it plays in inferential reason relations.
+\p{\strong{## Crude causal theory}
+}
+\p{See [Jerry Fodor](jerry-fodor).}
 
-## [descriptivism](phil-0029)
-...
+\p{\strong{## [teleosemantics](phil-0136)}}
+\p{...
+}
+\p{\strong{## [semantic nominalism](phil-0122)}
+}\p{...}
 
-## Crude causal theory
-See [Jerry Fodor](jerry-fodor).
-
-## [teleosemantics](phil-0136)
-...
-
-## [semantic nominalism](phil-0122)
-...
-
-## Semantic nihilism
-
-[Wittgenstein](ludwig-wittgenstein) is interpreted by [Dummett](michael-dummett) to be a semantic nihilist: i.e. he doesn't think there are actually meanings. The plasticity of language makes this impossible, as it is fundamentally at odds with codifying the properties of use (at best it could just give you a snapshot).
-
-## Nominalistic representationalism
-This is how Brandom characterizes de Saussure, Derrida, semiotics, textualists: they take the name-bearer relationship as the paradigm model of semantics. This is described as not taking into account the advances of Kant/Frege/Wittgenstein that show the primacy of sentences/judgments in the order of explanation, prior to names.
+\p{\strong{## Semantic nihilism}
+}
+\p{[Wittgenstein](ludwig-wittgenstein) is interpreted by [Dummett](michael-dummett) to be a semantic nihilist: i.e. he doesn't think there are actually meanings. The plasticity of language makes this impossible, as it is fundamentally at odds with codifying the properties of use (at best it could just give you a snapshot).
+}
+\p{\strong{## Nominalistic representationalism}}
+\p{This is how Brandom characterizes de Saussure, Derrida, semiotics, textualists: they take the name-bearer relationship as the paradigm model of semantics. This is described as not taking into account the advances of Kant/Frege/Wittgenstein that show the primacy of sentences/judgments in the order of explanation, prior to names.
 }

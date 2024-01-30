@@ -1,35 +1,32 @@
 \title{Philosophy}
 
-\p{
+\p{\strong{# Historical eras}}
 
-# Historical eras
+\p{\strong{## Premodern}}
+\p{[Ancient philosophy](phil-0008)
+}
+\p{[Medieval philosophy](phil-0074)
+}
+\p{\strong{## Early modern}}
+\p{[Enlightenment](phil-0137) philosophy
+}
+\p{[Post-kantian philosophy](phil-0101)
+}
+\p{[Pragmatism](phil-0103)
+}
+\p{\strong{## Modern}
+}
+\p{[Analytic philosophy](phil-0007)
+}
+\p{[Continental philosophy](phil-0022)
+}
 
-## Premodern
-[Ancient philosophy](phil-0008)
-
-[Medieval philosophy](phil-0074)
-
-## Early modern
-[Enlightenment](phil-0137) philosophy
-
-[Post-kantian philosophy](phil-0101)
-
-[pragmatism](phil-0103)
-
-## Modern
-
-[Analytic philosophy](phil-0007)
-
-[Continental philosophy](phil-0022)
-
-
-# Goal 
-- Sellars' view: [Goal of philosophy](q-0050)
-	- He describes the major problem of his time as reconciling the "clash" between "the 'manifest' image of man-in-the-world" and "the scientific image".
-
-# Relation to other disciplines
-
-Philosophy "with a capital P" is the "queen of the sciences". All scientific knowledge is representational or concerned with knowledge, so if philosophy has a special insight into representation or knowledge, then the other disciplines must answer to it. 
-
-This style and status of philosophy is challenged by [Rorty](richard-rorty).
+\p{\strong{# Goal }}
+\p{Sellars' view: [Goal of philosophy](q-0050):  He describes the major problem of his time as reconciling the "clash" between "the 'manifest' image of man-in-the-world" and "the scientific image".
+}
+\p{\strong{# Relation to other disciplines}
+}
+\p{Philosophy "with a capital P" is the "queen of the sciences". All scientific knowledge is representational or concerned with knowledge, so if philosophy has a special insight into representation or knowledge, then the other disciplines must answer to it. 
+}
+\p{This style and status of philosophy is challenged by [Rorty](richard-rorty).
 }

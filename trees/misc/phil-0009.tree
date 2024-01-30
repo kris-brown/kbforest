@@ -1,30 +1,31 @@
 \title{Anti-descriptivism}
 
-\p{
+\p{Opposition to [descriptivism](phil-0029).}
 
-Opposition to [descriptivism](phil-0029).
+\p{Relevant figures:
+}
+\ul{
+\li{[Saul Kripke](saul-kripke)}
+\li{[Hilary Putnam](hilary-putnam)}
+\li{[David Kaplan](david-kaplan)}
+\li{[Sellars](wilfrid-sellars)}}
 
-Relevant figures:
-
-- [Saul Kripke](saul-kripke)
-- [Hilary Putnam](hilary-putnam)
-- [David Kaplan](david-kaplan)
-- [Sellars](wilfrid-sellars)
-
-Topics:
-- semantic externalism
-- epistemological externalism
-- functionalism
-- direct reference
-- the relation between conceivability and possibility
-
-Consequences:
-
-- Names, indexicals, and naturalkind terms are not synonymous with definite descriptions, and definite descriptions do not determine the referents of these linguistic expressions. 
-- Understanding a name, an indexical, or a natural-kind term is not simply a matter of mentally grasping its meaning and associating this meaning with it. 
-- One can understand two synonymous expressions without knowing that they are synonymous; hence, meaning is not transparent. 
-- The meanings of many linguistic expressions and the contents of many mental states are determined in part by the physical or social environment in which they are used or occur.
-- Epistemic modality and metaphysical [modality](phil-0077) diverge in certain cases
-
-Source: [Wilfrid Sellars' Anti-Descriptivism](ref-0073)
+\p{Topics:
+}\ul{
+\li{semantic externalism}
+\li{epistemological externalism}
+\li{functionalism}
+\li{direct reference}
+\li{the relation between conceivability and possibility}
+}
+\p{Consequences:
+}
+\ul{
+\li{Names, indexicals, and naturalkind terms are not synonymous with definite descriptions, and definite descriptions do not determine the referents of these linguistic expressions. }
+\li{Understanding a name, an indexical, or a natural-kind term is not simply a matter of mentally grasping its meaning and associating this meaning with it. }
+\li{One can understand two synonymous expressions without knowing that they are synonymous; hence, meaning is not transparent. }
+\li{The meanings of many linguistic expressions and the contents of many mental states are determined in part by the physical or social environment in which they are used or occur.}
+\li{Epistemic modality and metaphysical [modality](phil-0077) diverge in certain cases}
+}
+\p{Source: [Wilfrid Sellars' Anti-Descriptivism](ref-0073)
 }

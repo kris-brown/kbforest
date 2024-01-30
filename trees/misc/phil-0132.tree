@@ -1,16 +1,15 @@
 \title{Subjunctive vs counterfactual conditionals}
-
-\p{
-
-- Subjunctive conditional: if #{X} were #{\psi}'d, it would #{\phi}.
-- Counterfactual conditional: if #{X} \em{had been} #{\psi}'d, it would have #{\phi}'d.
-  
-These are both counterfactuals but very different:
-
-- If Oswalt didn't shoot Kennedy, then some one else did.
-- If Oswalt didn't shoot Kennedy, then someone else would have.
+\meta{external}{[SEP](https://plato.stanford.edu/entries/counterfactuals/)}
 
 
-# External resources
-- [SEP](https://plato.stanford.edu/entries/counterfactuals/)
+\ul{
+\li{Subjunctive conditional: if #{X} were #{\psi}'d, it would #{\phi}.}
+\li{Counterfactual conditional: if #{X} \em{had been} #{\psi}'d, it would have #{\phi}'d.}
+}  
+\p{These are both counterfactuals but very different:
 }
+\ul{
+\li{If Oswalt didn't shoot Kennedy, then some one else did.}
+\li{If Oswalt didn't shoot Kennedy, then someone else would have.}
+}
+

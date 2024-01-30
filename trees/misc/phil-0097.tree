@@ -1,17 +1,14 @@
 \title{Pia's Maple Tree}
 
-\p{
+\p{Example from Charles Travis:}
 
-Example from Charles Travis:
+\ul{
+\li{Maple trees have red leaves naturally, but Pia paints them green.}
+\li{One day, a decorator asks her if she has any green leaves for her display, and Pia answers \em{yes}.}
+\li{Another day, a chemist asks her if she has any green leaves for her experiment on green leaf chemistry, and Pia answers \em{no}.}
+\li{In both cases, Pia answered truthfully.}
+}
 
-- Maple trees have red leaves naturally, but Pia paints them green.
-- One day, a decorator asks her if she has any green leaves for her display, and 
-  Pia answers \em{yes}.
-- Another day, a chemist asks her if she has any green leaves for her experiment 
-  on green leaf chemistry, and Pia answers \em{no}.
-- In both cases, Pia answered truthfully.
-
-
-The moral: any true sentence in some context has a context which would make its 
+\p{The moral: any true sentence in some context has a context which would make its 
 negation true.
 }

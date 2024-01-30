@@ -2,18 +2,18 @@
 
 \p{
 
-Expressivism is a broad family of views claiming some areas of discourse are 'in the business' of giving expression to sentiments / commitments / non-cognitive or non-representational mental states or attitudes.
+Expressivism is a broad family of views claiming some areas of discourse are 'in the business' of giving expression to sentiments / commitments / non-cognitive or non-representational mental states or attitudes.}
   
-German tradition began with Herder (1744-1803, a student of [Kant](immanuel-kant)) who advocated global [anti-representationalism](phil-0010): all language is (primarily) expressive, rather than representational. 
-
-Another tradition is 20th century meta-ethical expressivism. \em{Some} vocabularies (e.g. moral) for which the representational model is not appropriate. \em{First-wave} expressivists were A. J. Ayer. Geach's [argument](phil-0050) created a new criterion of adequacy for expressivists, and the ones who responded to this (e.g. [Blackburn](simon-blackburn) and Gibbard) are \em{second-wave} expressivists.
-
-## About truth 
-Expressivism about truth is to say one is not describing a statement when one says it is true - one is doing something else (endorsing it). Combining this with universal [declarativism](phil-0025) about truth leads to global [anti-representationalism](phil-0010) / [anti-bifurcationism](phil-0090)
-
-Expressivists who want to equate the semantics "#{\phi}" and "It is true that #{\phi}" are only considering free-standing uses of #{\phi}.  The [Frege-Geach argument](phil-0050) demands emotivists to also consider embedded uses of #{\phi},[^ex] thus disquotationalism / prosentential theories are required to show how embedded uses of #{\phi} derive their meaning from free-standing uses of it.[^md]
-
-[^ex]: "Well if that's true, then you should publish it!"
-
-[^md]: For more details see Brandom's \em{Explanatory vs. Expressive Deflationationism about Truth}.
+\p{German tradition began with Herder (1744-1803, a student of [Kant](immanuel-kant)) who advocated global [anti-representationalism](phil-0010): all language is (primarily) expressive, rather than representational. 
+}
+\p{Another tradition is 20th century meta-ethical expressivism. \em{Some} vocabularies (e.g. moral) for which the representational model is not appropriate. \em{First-wave} expressivists were A. J. Ayer. Geach's [argument](phil-0050) created a new criterion of adequacy for expressivists, and the ones who responded to this (e.g. [Blackburn](simon-blackburn) and Gibbard) are \em{second-wave} expressivists.
+}
+\p{\strong{## About truth }}
+\p{Expressivism about truth is to say one is not describing a statement when one says it is true - one is doing something else (endorsing it). Combining this with universal [declarativism](phil-0025) about truth leads to global [anti-representationalism](phil-0010) / [anti-bifurcationism](phil-0090)
+}
+\p{Expressivists who want to equate the semantics "#{\phi}" and "It is true that #{\phi}" are only considering free-standing uses of #{\phi}.  The [Frege-Geach argument](phil-0050) demands emotivists to also consider embedded uses of #{\phi},[^ex] thus disquotationalism / prosentential theories are required to show how embedded uses of #{\phi} derive their meaning from free-standing uses of it.[^md]
+}
+\p{[^ex]: "Well if that's true, then you should publish it!"
+}
+\p{[^md]: For more details see Brandom's \em{Explanatory vs. Expressive Deflationationism about Truth}.
 }

@@ -4,17 +4,19 @@
 \transclude{q-0103}
 
 \p{
-These are all just statements in vocabularies. Without privileging a "\em{nature}'s own vocabulary."
+These are all just statements in vocabularies. Without privileging a "\em{nature}'s own vocabulary."}
 
-In neither case do you need to worry about what makes such-and-such statement in the vocabulary true. What you should worry about is the reason relations within each vocabulary:
+\p{In neither case do you need to worry about what makes such-and-such statement in the vocabulary true. What you should worry about is the reason relations within each vocabulary:}
 
-- There will be sociological differences between physics and literary theory, in how reason relations come about.
-- But the representationalist mistake one can make is thinking that these sociological differences are metaphysical differences in the underlying content.
-
-\mark{This is a very category-theoretic insight: that it is sufficient to look at the interactions to recover what before was taken as an ontological difference}
-
-# Antibifurcationism
-Anti-bifurcationism was coined by [Price](huw-price) to reject the following view.
+\ul{
+\li{There will be sociological differences between physics and literary theory, in how reason relations come about.}
+\li{But the representationalist mistake one can make is thinking that these sociological differences are metaphysical differences in the underlying content.}
+}
+\p{\mark{This is a very category-theoretic insight: that it is sufficient to look at the interactions to recover what before was taken as an ontological difference}
+}
+\p{\strong{# Antibifurcationism}
+}
+\p{Anti-bifurcationism was coined by [Price](huw-price) to reject the following view.
 }
 \p{Richard Kraut [writes](ref-0070):}
 \blockquote{
@@ -37,7 +39,8 @@ Anti-bifurcationism was coined by [Price](huw-price) to reject the following vie
  \li{express matters of fact}
 
 }
- whereas other declarative sentences (call them the E sentences)
+\p{ whereas other declarative sentences (call them the E sentences)
+}
 \ul{
 
     \li{express commitments or attitudes}
