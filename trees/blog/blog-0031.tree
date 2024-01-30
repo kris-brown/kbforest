@@ -1,19 +1,17 @@
 \title{Scenario}
 \import{base-macros}
 
-\p{A company makes a mini magnet toy for kids. Each package it sells has hundreds
-of tiny ball magnets.
+\p{A company makes a mini magnet toy for kids. Each package it sells has hundreds of tiny ball magnets.}
   
 
-> Alice: It is morally condemnable for the company to report
-injuries in terms of injuries \em{per magnet} (1 in 22 million) instead of
-1 injury per 100,000 sets.
->
-> Bob: I don't see anything wrong with it. The same information is provided, no matter the unit.
+\blockquote{
+\p{Alice: It is morally condemnable for the company to report injuries in terms of injuries \em{per magnet} (1 in 22 million) instead of 1 injury per 100,000 sets.
+}
+\p{Bob: I don't see anything wrong with it. The same information is provided, no matter the unit.
+}}
 
+\p{One strategy Alice can use in this disagreement is an \em{extreme example}. One way of making sense of how an extreme example functions:
 
-One strategy Alice can use in this disagreement is an \em{extreme example}. One way
-of making sense of how an extreme example functions:
 }
 
 \table{
@@ -40,6 +38,5 @@ of making sense of how an extreme example functions:
 }
 
 \p{
-I see this kind of move very frequently when reading comment sections of all
-sorts (a guilty pleasure). Often it's executed poorly.
+I see this kind of move very frequently when reading comment sections of all sorts (a guilty pleasure). Often it's executed poorly.
 }

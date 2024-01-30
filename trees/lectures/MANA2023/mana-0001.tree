@@ -1,80 +1,163 @@
 \title{Intentionality and Language (summary)}
+\import{base-macros}
+\p{Recall from the [previous](mana-0008) summary: }
 
-\p{
+\ul{
+\li{The \em{normativity} of concepts}
+\li{The distinction of \em{sapience} vs \em{sentience}}
+}
+\p{This is an account of how language is \em{about} the world. \strong{Intentionality} is the contentfulness distinctive of some of our psychological states and linguistic utterances. Confusion stems from a deep distinction:
+}
+
+\table{
+  \tr{
+    \th{}
+    \th{Causes}
+    \th{Reasons}
+  }
+  \tr{
+    \td{[Sense dependence vs reference](int-0017)  }
+    \td{In the \strong{order of causation}, #{A\rightarrow B} is "#{A} causes #{B}" or "You can't have #{A} existing without having #{B} existing." }
+    \td{In the \strong{order of explanation}, #{A \rightarrow B} is "#{A} is an explanation for #{B}" or "You can't count as grasping #{B} without grasping #{A}."}
+  }
+  \tr{
+    \td{Sentience vs sapience  }
+    \td{\strong{Sentience}: being awake (anything that can feel pain is sentient).  }
+    \td{\strong{Sapience}: having intentionally contentful states, e.g. beliefs / desires / intentions.}
+  }
+  \tr{
+    \td{Intentionality #{\ne} consciousness  }
+    \td{Pain is nonintentional yet psychologically conscious.[^eg]  }
+    \td{We often accept there are unconscious intentional states.}
+  }
+  \tr{
+    \td{Intentionality example  }
+    \td{A parrot which squawks "That is red" whenever in the presence of red things; a piece of iron which classifies its environment as oxygen-rich (or not) by rusting (or not).  }
+    \td{A human being which states \em{that} something is red.}
+  }
+  \tr{
+    \td{Intentionality and consciousness are not the same  }
+    \td{E.g. pain is nonintentional but psychologically conscious[^eg]  }
+    \td{Unconscious intentional states are perfectly intelligible nowadays.}
+  }
+  \tr{
+    \td{Practical vs discursive intentionality  }
+    \td{\strong{Practical}: directedness at an object that animals exhibit when they deal skillfully with their world. [^dif]  }
+    \td{\strong{Discursive}: exhibited by concept-users when making judgments/claims \em{about} objects, semantically.}
+  }
+  \tr{
+    \td{Understanding the relation between practical and discursive intentionality  }
+    \td{\strong{Platonism} (discursive #{\rightarrow} practical): every implicit, practical skill is understood as underwritten by a general rule/principle (something that could be made discursively explicit).  }
+    \td{\strong{Pragmatism} (practical #{\rightarrow} discursive): knowing-that (things are thus-and-so) is a kind of knowing-how (to do something). What is explicit in the form of a conceptually-articulated principle is intelligible only against a background of implicit practices.}
+  }
+	\tr{
+    \td{Example of logic  }
+    \td{A platonist explains good reasoning by showing how it has the form of valid inferences in some logical calculus.  }
+    \td{A pragmatist explains logical validity as the codification of certain patterns in our practical ability to distinguish good inferences and bad ones.}
+  }
+}
+
+\p{[^eg]: A pain is not \em{about} anything - there is no content that could be expressed by a sentential 'that' clause. 
+}
+\p{[^dif]: However, this is difficult to separate from the kind of directedness that inanimate objects demonstrate. E.g. any mechanical system with a feedback loop has \em{this} kind of intentionality.
+}
+\p{A further, orthogonal distinction for any intentional state #{S}:
+}
+\ul{
+\li{\strong{Representational}: Specification of an object represented by a state }
+\ul{
+	\li{What is #{S} of?}
+	\li{E.g. Mary believes \em{of} ships (that they ought float).}
+}\li{\strong{Propositional}: Specification of what is believed/thought }
+\ul{
+	\li{What is it an #{S} that?}
+	\li{E.g. Mary believes (of ships) \em{that} they ought float.}
+}}
+
+\p{Brandom proposes the following orders of explanation to make sense of intentionality:
+}
 
 
-Recall from the [previous](mana-0008) summary: 
+\table{
+  \tr{
+    \th{}
+    \th{\strong{Practical}}
+    \th{}
+    \th{\strong{Discursive}}
+  }
+  \tr{
+    \td{\strong{Propositional} }
+    \td{#{\bullet} }
+    \td{#{\rightarrow}  }
+    \td{#{\bullet}}
+  }
+  \tr{
+    \td{}
+    \td{#{\uparrow}}
+    \td{}
+    \td{#{\downarrow}}
+  }
+  \tr{
+    \td{\strong{Representational} }
+    \td{#{\bullet}  }
+    \td{  }
+    \td{#{\bullet}}
+  }
+}
 
- - The \em{normativity} of concepts
- - The distinction of \em{sapience} vs \em{sentience}
+\p{\strong{### #{\uparrow} (Practical intentionality)
+}}
+\p{Consider the mapping relation that skillful dealings produce and promote between items in the environment and states of the organism. The usefulness of map representations depends on the goodness of inferences from map-facts (there is a blue wavy line between two dots here) to terrain-facts (there is a river between these two cities). The propositional content of the map facts is built up out of representational relations that are sub-propositional (correlating blue lines and rivers, dots and cities). Such relations underwrite the representation-to-proposition order of explanation at the level of practical intentionality.
+}
+\p{When this gets applied to discursive intentionality, we get (ultimately unsustainable) ideas like "truth as correspondence to reality" /  "mind as the mirror of nature", but it's perfectly reasonable to have a \em{casual} theory of the brain (qua physical object) being impinged upon by photons and representing physical objects outside the brain as account for the content of its beliefs / intentions.[^bi]
+}
+\p{[^bi]: "Belief"/"intention" of the \em{practical} kind can be cached out in some scientific or ordinary-empirical vocabulary. But it's important that, like in the "Intentionality Example" row in the table above, this practical intentionality is in a box with "The cat believes his owner is home" or "The ozone molecules wants to break apart" or "The plankton wants to find oxygen".
+}
+\p{\strong{###  #{\rightarrow} (Propositional intentionality)}
+}
+\p{An account is sketched of how discursive propositional intentionality (knowing that) is understood as the application of certain practical abilities (knowing how). In the tradition of Kant's understanding of concepts as normative, discursive propositional content is understood as functional roles in a network of inferential relations. To count as grasping the conceptual content is to navigate this network - a toy model of how we do this ("deontic scorekeeping") is given.
+}
+\p{\strong{### #{\downarrow} (Discursive intentionality)}
+}
+\p{Syntactically, we make the difference between propositional and representational intentionality explicit with \em{de dicto} vs \em{de re} clauses. 
+}
+\ul{
+\li{Alice claims "Ben Franklin was a printer" and "Ben Franklin was the inventor of the lightening rod."}
+\li{Bob hears this, and Bob has the collateral belief "Ben Franklin was the inventor of bifocals."}
+}
 
-This is an account of how language is \em{about} the world. \strong{Intentionality} is the contentfulness distinctive of some of our psychological states and linguistic utterances. Confusion stems from a deep distinction:
+\table{
+  \tr{
+    \th{}
+    \th{De dicto}
+    \th{De re}
+  }
+  \tr{
+    \td{What Bob says: }
+    \td{"Alice claims \em{that} the inventor of the lightening rod was a printer." }
+		\td{"Alice claims \em{of} the inventor of bifocals that he was a printer."}
+  }
+  \tr{
+    \td{Role in deontic scorekeeping }
+    \td{Bob \em{attributes} responsibility to Alice for the overall claim }
+		\td{Bob \em{undertakes} responsibility of the subclaim (bifocals) in order to \em{attribute} responsibility of the overall claim to Alice.}
+  }
+  \tr{
+    \td{Why such statements are practically useful }
+    \td{One wants to know what else Alice would endorse. }
+		\td{One wants to extract information from Alice's claim. I.e. premises that one can use in one's own inferences.}
+  }
+}
 
-| | Causes | Reasons|
-|--|--|--|
-| [Sense dependence vs reference](int-0017) | In the \strong{order of causation}, #{A\rightarrow B} is "#{A} causes #{B}" or "You can't have #{A} existing without having #{B} existing."| In the \strong{order of explanation}, #{A \rightarrow B} is "#{A} is an explanation for #{B}" or "You can't count as grasping #{B} without grasping #{A}."| 
-| Sentience vs sapience | \strong{Sentience}: being awake (anything that can feel pain is sentient). | \strong{Sapience}: having intentionally contentful states, e.g. beliefs / desires / intentions. | 
-| Intentionality #{\ne} consciousness | Pain is nonintentional yet psychologically conscious.[^eg] | We often accept there are unconscious intentional states. |
-| Intentionality example | A parrot which squawks "That is red" whenever in the presence of red things; a piece of iron which classifies its environment as oxygen-rich (or not) by rusting (or not). | A human being which states \em{that} something is red. | | Intentionality and consciousness are not the same | E.g. pain is nonintentional but psychologically conscious[^eg] | Unconscious intentional states are perfectly intelligible nowadays. |
-| Practical vs discursive intentionality | \strong{Practical}: directedness at an object that animals exhibit when they deal skillfully with their world. [^dif] | \strong{Discursive}: exhibited by concept-users when making judgments/claims \em{about} objects, semantically. | 
-| Understanding the relation between practical and discursive intentionality | \strong{Platonism} (discursive #{\rightarrow} practical): every implicit, practical skill is understood as underwritten by a general rule/principle (something that could be made discursively explicit). | \strong{Pragmatism} (practical #{\rightarrow} discursive): knowing-that (things are thus-and-so) is a kind of knowing-how (to do something). What is explicit in the form of a conceptually-articulated principle is intelligible only against a background of implicit practices.  | 
-| Example of logic | A platonist explains good reasoning by showing how it has the form of valid inferences in some logical calculus. | A pragmatist explains logical validity as the codification of certain patterns in our practical ability to distinguish good inferences and bad ones. |
+\p{Takeaway: keeping track of what premises are available for the reasoning of others and what premises are available for our own reasoning is what we are \em{doing} when we talk \em{of} things (i.e. discursive representation).
+}
+\p{\strong{## Aside on language}}
 
-[^eg]: A pain is not \em{about} anything - there is no content that could be expressed by a sentential 'that' clause. 
+\p{The issue of the order of explanation between language and intentionality is also brought up.[^d]  Early modern philosophers took it to be obvious we could have thoughts apart from their linguistic expression. The opposite extreme is associated with Wittgenstein, expressed by this Dummett [quote](q-0062): 
+}
+\p{[^d]: This concerns \em{discursive} intentionality; clearly practical intentionality doesn't depend on language in any sense.}
 
-[^dif]: However, this is difficult to separate from the kind of directedness that inanimate objects demonstrate. E.g. any mechanical system with a feedback loop has \em{this} kind of intentionality.
+\blockquote{We have opposed throughout the view of assertion as the expression of an interior act; judgment, rather, is the interiorization of the external act of assertion.}
 
-A further, orthogonal distinction for any intentional state #{S}:
-
-- \strong{Representational}: Specification of an object represented by a state 
-	- What is #{S} of?
-	- E.g. Mary believes \em{of} ships (that they ought float).
-- \strong{Propositional}: Specification of what is believed/thought 
-	- What is it an #{S} that?
-	- E.g. Mary believes (of ships) \em{that} they ought float.
-
-Brandom proposes the following orders of explanation to make sense of intentionality:
-
-| | \strong{Practical} | | \strong{Discursive} |
-|:--:|:--:|:--:|:--:|
-| \strong{Propositional} | #{\bullet} | #{\rightarrow} |  #{\bullet} |
-| |#{\uparrow} | | #{\downarrow} |
-| \strong{Representational}|  #{\bullet}  |  |  #{\bullet} |
-
-### #{\uparrow} (Practical intentionality)
-
-Consider the mapping relation that skillful dealings produce and promote between items in the environment and states of the organism. The usefulness of map representations depends on the goodness of inferences from map-facts (there is a blue wavy line between two dots here) to terrain-facts (there is a river between these two cities). The propositional content of the map facts is built up out of representational relations that are sub-propositional (correlating blue lines and rivers, dots and cities). Such relations underwrite the representation-to-proposition order of explanation at the level of practical intentionality.
-
-When this gets applied to discursive intentionality, we get (ultimately unsustainable) ideas like "truth as correspondence to reality" /  "mind as the mirror of nature", but it's perfectly reasonable to have a \em{casual} theory of the brain (qua physical object) being impinged upon by photons and representing physical objects outside the brain as account for the content of its beliefs / intentions.[^bi]
-
-[^bi]: "Belief"/"intention" of the \em{practical} kind can be cached out in some scientific or ordinary-empirical vocabulary. But it's important that, like in the "Intentionality Example" row in the table above, this practical intentionality is in a box with "The cat believes his owner is home" or "The ozone molecules wants to break apart" or "The plankton wants to find oxygen".
-
-###  #{\rightarrow} (Propositional intentionality)
-
-An account is sketched of how discursive propositional intentionality (knowing that) is understood as the application of certain practical abilities (knowing how). In the tradition of Kant's understanding of concepts as normative, discursive propositional content is understood as functional roles in a network of inferential relations. To count as grasping the conceptual content is to navigate this network - a toy model of how we do this ("deontic scorekeeping") is given.
-
-### #{\downarrow} (Discursive intentionality)
-
-Syntactically, we make the difference between propositional and representational intentionality explicit with \em{de dicto} vs \em{de re} clauses. 
-
-- Alice claims "Ben Franklin was a printer" and "Ben Franklin was the inventor of the lightening rod."
-- Bob hears this, and Bob has the collateral belief "Ben Franklin was the inventor of bifocals."
-
-| | De dicto | De re|
-|--|--|--|
-| What Bob says: | "Alice claims \em{that} the inventor of the lightening rod was a printer." |"Alice claims \em{of} the inventor of bifocals that he was a printer."|
-| Role in deontic scorekeeping | Bob \em{attributes} responsibility to Alice for the overall claim | Bob \em{undertakes} responsibility of the subclaim (bifocals) in order to \em{attribute} responsibility of the overall claim to Alice. | 
-| Why such statements are practically useful | One wants to know what else Alice would endorse. | One wants to extract information from Alice's claim. I.e. premises that one can use in one's own inferences.| 
-
-Takeaway: keeping track of what premises are available for the reasoning of others and what premises are available for our own reasoning is what we are \em{doing} when we talk \em{of} things (i.e. discursive representation).
-
-## Aside on language
-
-The issue of the order of explanation between language and intentionality is also brought up.[^d]  Early modern philosophers took it to be obvious we could have thoughts apart from their linguistic expression. The opposite extreme is associated with Wittgenstein, expressed by this Dummett [quote](q-0062): 
-
-[^d]: This concerns \em{discursive} intentionality; clearly practical intentionality doesn't depend on language in any sense.
-
-> We have opposed throughout the view of assertion as the expression of an interior act; judgment, rather, is the interiorization of the external act of assertion.
-
-Davidson takes them to be mutually dependent: concept use is not intelligible in a context that does not include language use, while allowing for intentional states (e.g. beliefs) to be essential in understanding linguistic practices. The capacity to \em{think} (i.e. have propositionally contentful thoughts, that things are thus-and-so) and the capacity to \em{talk} arise and develop together.
+\p{Davidson takes them to be mutually dependent: concept use is not intelligible in a context that does not include language use, while allowing for intentional states (e.g. beliefs) to be essential in understanding linguistic practices. The capacity to \em{think} (i.e. have propositionally contentful thoughts, that things are thus-and-so) and the capacity to \em{talk} arise and develop together.
 }

@@ -135,6 +135,11 @@
   \block{\strong{Notes.}}{\body}
 }
 
+\def\response[body]{
+  \block{\strong{Response.}}{\body}
+}
+
+
 \def\texfig[body]{
   \iftex{\tex{\body}}{
     \xml{center}{\tex{\body}}

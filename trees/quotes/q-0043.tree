@@ -1,19 +1,21 @@
 \title{Expressions as explanations}
 \author{wilfrid-sellars}
+\import{macros}
+\blockquote{
 
-\p{
 
-
-
-> To make firsthand use of modal expressions / subjunctive conditionals, is to
+To make firsthand use of modal expressions / subjunctive conditionals, is to
 be about the business of explaining a state of affairs or justifying an
 assertion. 
 
 —  [Counterfactuals, Dispositions, and the Causal Modalities](ref-0012) §80
+}
 
+\notes{
+\p{Keep in mind the "argument types" of explanation and justification.
+}\ul{
+  \li{We \em{explain} an (actual) state of affairs. }
+  \li{We \em{justify} an assertion (non-actual, in the space of reasons).}
 
-Keep in mind the "argument types" of explanation and justification.
-- We \em{explain} an (actual) state of affairs. 
-- We \em{justify} an assertion (non-actual, in the space of reasons).
-
+}
 }

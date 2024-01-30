@@ -72,13 +72,13 @@ decategorification of \strong{Set}.
 
 John Baez on [First order logic](https://diagonalargument.com/2019/06/02/first-order-categorical-logic-1/)
 
-> Recall the traditional approach. A first-order theory is a set of axioms, sentences that can be written down using logical symbols and a chosen bunch of n-ary predicate symbols. ... All this lives in the world of syntax: essentially, scribbles on paper.
+\blockquote{Recall the traditional approach. A first-order theory is a set of axioms, sentences that can be written down using logical symbols and a chosen bunch of n-ary predicate symbols. ... All this lives in the world of syntax: essentially, scribbles on paper.}
 
-> On the other hand, a model is a choice of a set V ..., a subset of #{V^n} for each n-ary predicate symbol. All this lives in the world of semantics: we are working in some world of sets. Which world of sets? This may be left vague, or we can try to specify it. If we try to specify it, we usually do this using a first-order theory, like ZF! So then we’re back in the world of syntax.
+\blockquote{On the other hand, a model is a choice of a set V ..., a subset of #{V^n} for each n-ary predicate symbol. All this lives in the world of semantics: we are working in some world of sets. Which world of sets? This may be left vague, or we can try to specify it. If we try to specify it, we usually do this using a first-order theory, like ZF! So then we're back in the world of syntax.}
 
-> This is a bit confusing, at least for nonexperts. For example, we have a theory called PA that’s talking about arithmetic, and we can prove things from the PA axioms. All this is syntax. If we want to understand what all this syntax really means, we can look at a model in the world of sets. If we get nervous about which world of sets we’re using, we can specify it using another theory, like ZF. But now we’re back in the world of syntax. If we want to know what all this syntax really means, we can again look at a model of ZF in the world of sets—and not necessarily the same world of sets we were just talking about. To specify this world of sets we can use another theory… or maybe even the same one again. It’s a bit weird: not exactly circular, but certainly a bit disorienting at first.
+\blockquote{This is a bit confusing, at least for nonexperts. For example, we have a theory called PA that's talking about arithmetic, and we can prove things from the PA axioms. All this is syntax. If we want to understand what all this syntax really means, we can look at a model in the world of sets. If we get nervous about which world of sets we're using, we can specify it using another theory, like ZF. But now we're back in the world of syntax. If we want to know what all this syntax really means, we can again look at a model of ZF in the world of sets—and not necessarily the same world of sets we were just talking about. To specify this world of sets we can use another theory… or maybe even the same one again. It's a bit weird: not exactly circular, but certainly a bit disorienting at first.}
 
-> Lawvere clarified all this stuff immensely in his 1963 thesis Functorial Semantics of Algebraic Theories ... the idea is to treat both syntax and semantics as things of the same kind—that is, objects of the same category.
+\blockquote{Lawvere clarified all this stuff immensely in his 1963 thesis Functorial Semantics of Algebraic Theories ... the idea is to treat both syntax and semantics as things of the same kind—that is, objects of the same category.}
 
 The old way of doing this was to consider the relation syntax and semantics to consist in sets of \em{ontologically} different elements. The new way treats syntax-semantics in terms of what one \em{does} with them.
 
@@ -86,41 +86,42 @@ Pragmatism prefers pragmatic metavocabularies over semantic ones in terms of the
 
 # Pan-relationism, or anti-essentialism
 
-> I see pan-relationalism as a way of putting a stop to the attempt to divide 
-> culture up in this way [(dividing elements in human knowledge into those 
-> contributed by the mind and those contributed by the world)], by abandoning 
-> the picture of subject and object striving for control. To be a 
-> pan-relationalist means never using the terms “objective” or “subjective” 
-> except in the context of some well-defined expert culture in which we can 
-> distinguish between adherence to the procedures which lead the experts to 
-> agree and refusal so to adhere. It also means never asking whether a 
-> description is better suited to an object than another description without 
-> being able to answer the question “what purpose is this description supposed
->  to serve?” That question is never to be answered “to get the object right” 
-> or “to represent the object accurately.” Pan-relationalists are pragmatists 
-> because they do not take such purposes seriously. They cannot do so, because 
-> explicating what is meant by getting right or representing accurately requires 
-> making some of the objects properties essential and some accidental. If you 
-> are a pan-relationalist you are automatically a pragmatist.
-> 
-> So much for a large, vague sketch of what I mean by pan-relationalism. Now I 
-> want to offer a suggestion about how to see things from the pan- relationalist 
-> point of view. This is that you think of everything as if it were a number. 
-> The nice thing about numbers, for my present purpose, is just that it is very 
-> difficult to think of them as having intrinsic natures. It is hard to think of 
-> a number as having an essential core surrounded by a penumbra of accidental 
-> relationships. Numbers are an admirable example of something difficult to 
-> describe in essentialist, substantialist, language.
-> 
-> To see my point, ask yourself what the essence of the number 17 is— what it is in itself, apart from its relationships to other numbers. What is wanted is a description of 17 which is different in kind from the following descriptions: less than 22, more than 8, the sum of 6 and 11, the square root of 289, the square of 4.123105, the difference between 1,678,922 and 1,678,905. The tiresome thing about all these descriptions is that none of them seem to get closer to the number 17 than do any of the others. Equally tiresomely, there are obviously an infinite number of other descriptions which you could offer of 17, all of which would be equally “accidental” and “extrinsic.” None of these descriptions seems to give you a clue to the intrinsic seventeenness of seventeen—the unique feature which makes it the very number that it is. For which of these descriptions you apply is obviously a matter of what purpose you have in mind—the particular situation which caused you to think of the number 17 in the first place.
-> 
-> If we want to be essentialist about the number 17, we have to say, in philosophical jargon, that all its infinitely many different relations to infinitely many other numbers are internal relations—that is, that none of these relations could be different without the number 17 being different. So there seems to be no way to define the essence of seventeenhood short of finding some mechanism for generating all the true descriptions of seventeen, specifying all its relations to all the other numbers. Mathematicians can in fact produce such a mechanism by axiomatizing arithmetic, or by reducing numbers to sets and axiomatizing set theory. But if the mathematician then points to his neat little batch of axioms and says, “Behold the essence of seventeen!” we feel cheated. There is nothing very seventeenish about those axioms, for they are equally the essence of 1, of 2, of 289, and of 1,678,922.
-> 
-> At this point, I hope, you will conclude that, whatever sorts of things may have intrinsic natures, numbers do not—that it simply does not pay to be an essentialist about numbers. Pan-relationalism holds that it also does not pay to be essentialist about tables, stars, electrons, human beings, academic disciplines, social institutions, or anything else. We suggest that you think of all such objects as resembling numbers in the following respect: there is nothing to be known about them except an infinitely large, and forever expansible, web of relations to other objects.
-> 
-> There is no point in asking for terms of relations which are not themselves relations, for everything that can serve as the term of a relation can be dissolved into another set of relations, and so on forever. There are, so to speak, relations all the way down and all the way out in every direction; you never reach something which is not just one more nexus of relations. The system of natural numbers is a good model of the universe because in that system it is obvious, and obviously harmless, that there are no terms of relations which are not simply clusters of further relations.
-> 
-> To say that relations go all the way down is a corollary of what Sellars called “psychological nominalism,” that is, of the doctrine that there is nothing to be known about anything save what is stated in sentences describing it. For every sentence about an object is an explicit or implicit description of its relation to one or more other objects
+\blockquote{I see pan-relationalism as a way of putting a stop to the attempt to divide 
+culture up in this way [(dividing elements in human knowledge into those 
+contributed by the mind and those contributed by the world)], by abandoning 
+the picture of subject and object striving for control. To be a 
+pan-relationalist means never using the terms “objective” or “subjective” 
+except in the context of some well-defined expert culture in which we can 
+distinguish between adherence to the procedures which lead the experts to 
+agree and refusal so to adhere. It also means never asking whether a 
+description is better suited to an object than another description without 
+being able to answer the question “what purpose is this description supposed
+ to serve?” That question is never to be answered “to get the object right” 
+or “to represent the object accurately.” Pan-relationalists are pragmatists 
+because they do not take such purposes seriously. They cannot do so, because 
+explicating what is meant by getting right or representing accurately requires 
+making some of the objects properties essential and some accidental. If you 
+are a pan-relationalist you are automatically a pragmatist.}
+
+\blockquote{So much for a large, vague sketch of what I mean by pan-relationalism. Now I 
+want to offer a suggestion about how to see things from the pan- relationalist 
+point of view. This is that you think of everything as if it were a number. 
+The nice thing about numbers, for my present purpose, is just that it is very 
+difficult to think of them as having intrinsic natures. It is hard to think of 
+a number as having an essential core surrounded by a penumbra of accidental 
+relationships. Numbers are an admirable example of something difficult to 
+describe in essentialist, substantialist, language.}
+
+\blockquote{To see my point, ask yourself what the essence of the number 17 is— what it is in itself, apart from its relationships to other numbers. What is wanted is a description of 17 which is different in kind from the following descriptions: less than 22, more than 8, the sum of 6 and 11, the square root of 289, the square of 4.123105, the difference between 1,678,922 and 1,678,905. The tiresome thing about all these descriptions is that none of them seem to get closer to the number 17 than do any of the others. Equally tiresomely, there are obviously an infinite number of other descriptions which you could offer of 17, all of which would be equally “accidental” and “extrinsic.” None of these descriptions seems to give you a clue to the intrinsic seventeenness of seventeen—the unique feature which makes it the very number that it is. For which of these descriptions you apply is obviously a matter of what purpose you have in mind—the particular situation which caused you to think of the number 17 in the first place.}
+ 
+\blockquote{ If we want to be essentialist about the number 17, we have to say, in philosophical jargon, that all its infinitely many different relations to infinitely many other numbers are internal relations—that is, that none of these relations could be different without the number 17 being different. So there seems to be no way to define the essence of seventeenhood short of finding some mechanism for generating all the true descriptions of seventeen, specifying all its relations to all the other numbers. Mathematicians can in fact produce such a mechanism by axiomatizing arithmetic, or by reducing numbers to sets and axiomatizing set theory. But if the mathematician then points to his neat little batch of axioms and says, “Behold the essence of seventeen!” we feel cheated. There is nothing very seventeenish about those axioms, for they are equally the essence of 1, of 2, of 289, and of 1,678,922.
+}
+\blockquote{ At this point, I hope, you will conclude that, whatever sorts of things may have intrinsic natures, numbers do not—that it simply does not pay to be an essentialist about numbers. Pan-relationalism holds that it also does not pay to be essentialist about tables, stars, electrons, human beings, academic disciplines, social institutions, or anything else. We suggest that you think of all such objects as resembling numbers in the following respect: there is nothing to be known about them except an infinitely large, and forever expansible, web of relations to other objects.}
+ 
+\blockquote{There is no point in asking for terms of relations which are not themselves relations, for everything that can serve as the term of a relation can be dissolved into another set of relations, and so on forever. There are, so to speak, relations all the way down and all the way out in every direction; you never reach something which is not just one more nexus of relations. The system of natural numbers is a good model of the universe because in that system it is obvious, and obviously harmless, that there are no terms of relations which are not simply clusters of further relations.}
+ 
+\blockquote{To say that relations go all the way down is a corollary of what Sellars called “psychological nominalism,” that is, of the doctrine that there is nothing to be known about anything save what is stated in sentences describing it. For every sentence about an object is an explicit or implicit description of its relation to one or more other objects
 
   - Chapter 5 [Pragmatism as Anti-authoritarianism](ref-0053)
+}
 }

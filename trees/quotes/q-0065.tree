@@ -1,16 +1,14 @@
 \title{Labels vs describing}
 \author{wilfrid-sellars}
-
-\p{
-
-
-
-> It's only because the expressions in terms of which we describe 
+\import{macros}
+\blockquote{
+It's only because the expressions in terms of which we describe 
 objects, locate those objects in a space of implications that they describe it 
 all rather than merely label. 
 
 —  [Counterfactuals, Dispositions, and the Causal Modalities](ref-0012) §108
-
-- Describing is what science is the measure of all things about.
-- Sellars says "concepts as classifiers" is [not enough](int-0003) to get to descriptions. 
+}
+\notes{
+\p{  Describing is what science is the measure of all things about.
+}\p{Sellars says "concepts as classifiers" is [not enough](int-0003) to get to descriptions. }
 }

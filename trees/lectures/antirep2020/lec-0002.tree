@@ -1,32 +1,47 @@
-\title{02 - Rorty’s Critique of Enlightenment Representationalism and Analytic Philosophy}
+\title{02 - Rorty's Critique of Enlightenment Representationalism and Analytic Philosophy}
 \import{base-macros}
 \p{
-
 A discussion of [Philosophy and the Mirror of Nature](ref-0049). Brandom views the core argument to be chapter 4, which this lecture focuses on.
+}
 
-# Rorty's basic idea
-## Neokantianism vs a socialized/historicized/naturalized alternative
+\p{\strong{# Rorty's basic idea}
+}
+\p{\strong{## Neokantianism vs a socialized/historicized/naturalized alternative}
+}
 
-- Rorty redescribes the history of philosophy as a struggle over the [Relation of philosophy to other disciplines](int-0013). Fought by two camps in the 19th century and then re-enacted in the 20th century.
-  - \strong{[neokantianism](phil-0083)} Philosophy has sovereign authority over the high culture.
-    - Idea originates with [Plato](plato), but Descartes / Kant /  representationalism are modern versions.
-  - \strong{Neohegelianism}/pragmatism ([Hegel](gwf-hegel) socialized philosophy, [Marx](karl-marx) naturalized it). Philosophy brought 'down to Earth'. The American pragmatists continued in this path.
-- [Bertrand Russell](bertrand-russell) and [Husserl](edmund-husserl) found things for philosophy to be apodictic about. Basis of Rorty's 'astonishing' claim that [Analytic philosophy](phil-0007) is just a phase of neokantianism
-  - Russell and those downstream don't think of themselves this way.
-  - But they share the idea that philosophy of language is "first philosophy" and that linguistically-inflected philosophy of mind could advance our notions of epistemology and general theory of representation.
-  - Shared emphasis on understanding language semantically, distinct from understanding knowledge epistemologically.
-  - Husserl subject to Sellars' critique of the  [Myth of the Given](phil-0079),  [Russell](bertrand-russell) subject to Quine's critique of the [Myth of the Museum](phil-0080). ([Carnap](rudolf-carnap) is subject to both myths).
-- Rorty regards the pragmatist/holist Quine+Sellars rebuttals as bringing us back to [Dewey](john-dewey)'s socialized / historicized / naturalized philosophy.[^de]
+\p{Rorty redescribes the history of philosophy as a struggle over the [Relation of philosophy to other disciplines](int-0013). Fought by two camps in the 19th century and then re-enacted in the 20th century.
+} 
+\ul{
+  \li{\strong{[Neokantianism](phil-0083)} Philosophy has sovereign authority over the high culture.
+    \ul{
+      \li{Idea originates with [Plato](plato), but Descartes / Kant /  representationalism are modern versions.
+    }}}
+  \li{\strong{Neohegelianism}/pragmatism ([Hegel](gwf-hegel) socialized philosophy, [Marx](karl-marx) naturalized it). Philosophy brought 'down to Earth'. The American pragmatists continued in this path.}
+}
+\p{[Bertrand Russell](bertrand-russell) and [Husserl](edmund-husserl) found things for philosophy to be apodictic about. Basis of Rorty's 'astonishing' claim that [Analytic philosophy](phil-0007) is just a phase of neokantianism
+} 
+\ul{
+  \li{Russell and those downstream don't think of themselves this way.}
+  \li{But they share the idea that philosophy of language is "first philosophy" and that linguistically-inflected philosophy of mind could advance our notions of epistemology and general theory of representation.}
+  \li{Shared emphasis on understanding language semantically, distinct from understanding knowledge epistemologically.}
+  \li{Husserl subject to Sellars' critique of the  [Myth of the Given](phil-0079),  [Russell](bertrand-russell) subject to Quine's critique of the [Myth of the Museum](phil-0080). ([Carnap](rudolf-carnap) is subject to both myths).}
+}
 
+\p{
+Rorty regards the pragmatist/holist Quine+Sellars rebuttals as bringing us back to [Dewey](john-dewey)'s socialized / historicized / naturalized philosophy.[^de]
+}
+
+\p{
 [^de]: the 20th century was a big pointless detour, recapitulating the same dielectic, just now with fancier technical / logical machinery.
+}
 
-## Assimilation of two kinds of representations
+\p{\strong{## Assimilation of two kinds of representations}}
 
-Similarities of Sellars and Quine:  
-
-- gave \em{holist} arguments, rejecting a kind of \em{atomism}. 
-- mentored by [C. I. Lewis](ci-lewis) and hugely influenced by Carnap.
-- they did not take to heart each other's holist arguments 
+\p{Similarities of Sellars and Quine:}
+\ul{
+\li{gave \em{holist} arguments, rejecting a kind of \em{atomism}. }
+\li{mentored by [C. I. Lewis](ci-lewis) and hugely influenced by Carnap.}
+\li{they did not take to heart each other's holist arguments }
 }
 
 \table{
@@ -68,72 +83,96 @@ Similarities of Sellars and Quine:
 }
 \p{
 
-Rorty was the first to see a common functional role to the above kinds of Kantian representation (and a common structure to Sellars' and Quine's critiques).
+Rorty was the first to see a common functional role to the above kinds of Kantian representation (and a common structure to Sellars' and Quine's critiques).}
 
-- They are \em{privileged} representations
-- They serve as infinite regress stoppers, for premises and inferences.
-  
-[^rp]: [Agrippan trilemma](phil-0004): we need to stop the infinite regress of premises (unjustified justifiers). Pretty much everyone's candidate for these is the sensuous given.
-[^ri]:  We need inferential transitions that have authority. These are not the same as premises, c.f. [What the Tortoise said to Achilles](ref-0072).
+\ul{
+\li{They are \em{privileged} representations}
+\li{They serve as infinite regress stoppers, for premises and inferences.}
 
-What properties must these representations have to be "privileged"? 
+}  
 
-- They must be authoritative and immediate
-	- Authority not dependent on any collateral commitments
-	- a kind of atomism is a consequence of their existence: the semantics of these privileged representations must be independent of their epistemology. 
-		- for Quine, this means that language must be independent of theory, meaning must be independent of collateral beliefs
-		- for Sellars, bits of the sensous given must be independent of other bits you have access to. Most importantly they have to be independent of your other beliefs.
-  - Quine's and Sellars' critiques render such semantic privilege as practically unintelligible. 
-  - The next section will describe how they cannot simultaneously be atomic while playing the role of regress stoppers.
+\p{[^rp]: [Agrippan trilemma](phil-0004): we need to stop the infinite regress of premises (unjustified justifiers). Pretty much everyone's candidate for these is the sensuous given.
+}
+\p{
+  [^ri]:  We need inferential transitions that have authority. These are not the same as premises, c.f. [What the Tortoise said to Achilles](ref-0072).
+}
+\p{What properties must these representations have to be "privileged"? They must be authoritative and immediate
+}
+\ul{
 
-Quine's argument:
+\li{Authority not dependent on any collateral commitments}
+\li{a kind of atomism is a consequence of their existence: the semantics of these privileged representations must be independent of their epistemology. 
+  \ul{
+  \li{for Quine, this means that language must be independent of theory, meaning must be independent of collateral beliefs}
+  \li{for Sellars, bits of the sensous given must be independent of other bits you have access to. Most importantly they have to be independent of your other beliefs.}}
+  }
+\li{Quine's and Sellars' critiques render such semantic privilege as practically unintelligible. }
+\li{The next section will describe how they cannot simultaneously be atomic while playing the role of regress stoppers.}
+}
 
- - the meaning has to at least define the inferential role. (they are being used as regress stoppers for inferential moves - they have to settle which of those are good or not)
- - However, the [Duhem-Quine thesis](phil-0035) shows that inferential role cannot be atomistic.
- - So you can't fix your language in advance of saying which statements are true.
+\p{Quine's argument:
+}
+\ul{
+ \li{the meaning has to at least define the inferential role. (they are being used as regress stoppers for inferential moves - they have to settle which of those are good or not)}
+ \li{However, the [Duhem-Quine thesis](phil-0035) shows that inferential role cannot be atomistic.}
+ \li{So you can't fix your language in advance of saying which statements are true.}
 
-Sellars' argument:
+}
+\p{Sellars' argument:
+}
+\ul{
+\li{For a sensory experience to play an \em{evidential} role (to serve as the justification of some other claim), it has to be conceptually articulated.}
+\li{You can't just have this concept in isolation, because having the concept is understanding the concept's inferential relations. [^witt]}
 
-- For a sensory experience to play an \em{evidential} role (to serve as the justification of some other claim), it has to be conceptually articulated.
-- You can't just have this concept in isolation, because having the concept is understanding the concept's inferential relations. [^witt]
+}
+\p{Holism at the level of semantics (the \em{meaning} of one of these privileged representations cannot be independent of other representations). And holism at the level of [semantics and epistemology](int-0015) (the \em{meaning} of one of these privileged representations cannot be independent of which ones we are committed to).
+}
+\p{Both Sellars and Quine (pragmatically) ask "What do you have to be able to do?" in semantics and epistemology in order to argue for their holism.
+}
+\p{[^witt]: [Agreement on meanings requires agreement of judgments](q-0005)
+}
+\p{\strong{## Holism of Sellars and Quine}}
 
-Holism at the level of semantics (the \em{meaning} of one of these privileged representations cannot be independent of other representations). And holism at the level of [semantics and epistemology](int-0015) (the \em{meaning} of one of these privileged representations cannot be independent of which ones we are committed to).
+\p{Sellars in [EPM](ref-0016)}
+\ul{
+  \li{[Locke](john-locke) got confused by conflating the causation of a belief from its justification. See [Reasons vs causes](int-0012) distinction.}
+  \li{Sense data may be causally prerequisite to knowledge, but it cannot justify belief (it's not conceptually contentful, in the sense of standing in reason relations of implication/justification).}
+    \ul{
+    \li{To stand in reason relations requires lots of other infrastructure, such that atomic sense data cannot do this on its own (this is a semantic holist argument)}
+    \li{How do we acquire knowledge in the semantic holist POV?: it's to ask how to get into the game of giving and asking for reasons? "The light dawns slowly over the whole" We need to get good enough at making the 'right' moves (as judged by 'competent speakers' before counting as a 'competent speaker'.)}
+}
+}\p{Quine in [Two Dogmas of Empiricism](ref-0068)}
+\ul{
+  \li{Target: analytic truths, e.g. "cats are mammals" supposedly not depending on  any other commitments but rather immediately from the meanings of the words.}
+  \li{What is the practical difference between these truths and very general facts, such as "there have been black dogs."}
+  \li{[Duhem-Quine thesis](phil-0035) }
+    \ul{\li{What inferences we are allowed to make depends on the whole of collateral beliefs we have.}}
+  \li{The unit of meaning must be the web-of-belief rather than the concept or the sentence.}
+  \li{[Fodor](jerry-fodor) argues against this, considers mixing epistemology and semantics to be a big philosophical mistake initiated by Quine.}
 
-Both Sellars and Quine (pragmatically) ask "What do you have to be able to do?" in semantics and epistemology in order to argue for their holism.
-
-[^witt]: [Agreement on meanings requires agreement of judgments](q-0005)
-
-
-## Holism of Sellars and Quine
-
-- Sellars in [EPM](ref-0016)
-  - [Locke](john-locke) got confused by conflating the causation of a belief from its justification. See [Reasons vs causes](int-0012) distinction.
-  - Sense data may be causally prerequisite to knowledge, but it cannot justify belief (it's not conceptually contentful, in the sense of standing in reason relations of implication/justification).
-    - To stand in reason relations requires lots of other infrastructure, such that atomic sense data cannot do this on its own (this is a semantic holist argument)
-    - How do we acquire knowledge in the semantic holist POV?
-      - How to get into the game of giving and asking for reasons? "The light dawns slowly over the whole" We need to get good enough at making the 'right' moves (as judged by 'competent speakers' before counting as a 'competent speaker'.)
-- Quine in [Two Dogmas of Empiricism](ref-0068)
-  - Target: analytic truths, e.g. "cats are mammals" supposedly not depending on  any other commitments but rather immediately from the meanings of the words.
-  - What is the practical difference between these truths and very general facts, such as "there have been black dogs."
-  - [Duhem-Quine thesis](phil-0035) 
-    - What inferences we are allowed to make depends on the whole of collateral beliefs we have.
-- The unit of meaning must be the web-of-belief rather than the concept or the sentence.
-- [Fodor](jerry-fodor) argues against this, considers mixing epistemology and semantics to be a big philosophical mistake initiated by Quine.
+}
 
 
+\p{\strong{## Who is Rorty opposing?}
+}
+\p{Is Rorty attacking a strawman? Rorty sees representationalism in semantics as bound up with [foundationalism in epistemology](phil-0049), but the two aren't actually tied together.[^knt] Empiricism / epistemological foundationalism are not popular now:
+}
+\ul{
+\li{"Default and challenge" structure a way of avoiding [Agrippan trilemma](phil-0004) without challenging the language-theory distinction.}
+\li{Bayesianism sees all justification as comparative (never have to justify one's prior commitments).}
+\ul{
+  \li{though the problem of semantics is still open, if it is to not be representationalist}
 
-## Who is Rorty opposing?
+}\li{Naturalism + representationalism remains unchallenged.}
+\ul{
+  \li{picking an ontologically privileged base vocabulary}
 
-Is Rorty attacking a strawman? Rorty sees representationalism in semantics as bound up with [foundationalism in epistemology](phil-0049), but the two aren't actually tied together.[^knt] Empiricism / epistemological foundationalism are not popular now:
+}\li{So Rorty and [Price](huw-price) need to do one or both of:}
+\ul{
+  \li{Argue independently for [pragmatism](phil-0103), then use that to attack representationalism without passing through foundationalism}
+  \li{Argue independently against representationalism and propose pragmatism as the best alternative approach}
 
-- "Default and challenge" structure a way of avoiding [Agrippan trilemma](phil-0004) without challenging the language-theory distinction.
-- Bayesianism sees all justification as comparative (never have to justify one's prior commitments).
-  - though the problem of semantics is still open, if it is to not be representationalist
-- Naturalism + representationalism remains unchallenged.
-  - picking an ontologically privileged base vocabulary
-- So Rorty and [Price](huw-price) need to do one or both of:
-  1. Argue independently for [pragmatism](phil-0103), then use that to attack representationalism without passing through foundationalism
-  2. Argue independently against representationalism and propose pragmatism as the best alternative approach
-
-[^knt]: Kant did not feel the need to address the Cartesian problematic / Agrippan trilemma. He felt that, once he resolved semantic skepticism and got clear of how it is possible for our thought to be object directed at all, that it was a trivial consequence that we need not worry about being radically out of touch with reality, as Descartes worried about. (His [Refutation of Idealism](https://plato.stanford.edu/entries/kant-transcendental/#RefIde) is quite short).
+}
+}
+\p{[^knt]: Kant did not feel the need to address the Cartesian problematic / Agrippan trilemma. He felt that, once he resolved semantic skepticism and got clear of how it is possible for our thought to be object directed at all, that it was a trivial consequence that we need not worry about being radically out of touch with reality, as Descartes worried about. (His [Refutation of Idealism](https://plato.stanford.edu/entries/kant-transcendental/#RefIde) is quite short).
 }

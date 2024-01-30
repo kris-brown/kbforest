@@ -1,58 +1,53 @@
 \title{11. Philosophical pictures}
 \tag{elucidations}
 
-\p{
+\p{\strong{# Augustinian picture of how we learn language}}
+\p{Wittgenstein opens PI Augustine's picture:
+} 
+\ul{
+ \li{Common sense description: words name objects, sentences are combinations of 
+    such names}
+  \li{Every word has a correlated meaning which is the object for which the word 
+    stands (Problem: what object does the word 'and' stand for?)}
+}
 
-# Augustinian picture of how we learn language
-- Wittgenstein opens PI Augustine's picture:
-  - Common sense description: words name objects, sentences are combinations of 
-    such names
-  - Every word has a correlated meaning which is the object for which the word 
-    stands.
-    - Problem: what object does the word 'and' stand for?
+\p{\strong{# Is _Philosophical Investigations_ criticizing this picture?}}
 
+\p{Standard thought is this picture is the main object of criticism of PI}
+\ul{
+  \li{Gustafsson thinks this is making too much philosophy out of the Augustinian  
+    picture.}
+    \li{(in fact, Augstine himself doesn't subscribe to the philosophical 
+      implications commonly attributed to the passage)}
+}
+\p{This simple picture is attractive and can be applied in good ways or bad ways.}
+\ul{
+  \li{Pictures for Wittgenstein operate on a primative level, can't say they're right or wrong.}
+    \ul{
+    \li{Wittgenstein in \em{Foundations of Mathematics}: "We don't judge the picture but we judge by means of the picture."}
+    }
+  \li{They are prototheories / paradigms that are bad if cut from their useful applications.}
+\ul{
+    \li{e.g. Start looking for the correlate of the word red, postulate Platonic forms and get philosophical confusion}
+}  \li{Cannot be argued against because counterexamples can be absorbed by a picture, which can be elaborated upon}
+\ul{
+    \li{The closer the picture is to a fully fleshed out theory, the harder (more artificial-seeming) this becomes.}
+}
+}
+\p{\strong{# Is Wittgenstein criticizing Plato?}}
+\p{If Wittgenstein is not strictly criticizing Augustine, is he at least criticizing [Plato](plato)?
+}  
+\p{Wittgenstein quotes Theatetus picture of language: Socrates is presenting something he has heard and he concludes we don't really understand it.}
+\p{Wittgenstein considers himself in a common struggle with Plato and Augustine. He is attracted by these pictures but is trying to overcome them, just like Plato and Augustine.}
+\p{If Wittgenstein is documenting his personal struggles, then what philosophical value is there? Is it just of autobiographical interest?}
+\ul{
+      \li{There are many levels of PI - he provides arguments and uncovers paradoxes.}
+      \li{Is he merely providing more details to the pictures in order to try to avoid the counterexamples/paradoxes? Is he trying to get rid of pictures altogether? Experts are divided. Some say 'meaning as use' is a picture, one he thinks is less harmful than augustinian view}
+      \li{He doesn't really want to construct theories, but rather wants philosophical peace / quietism.}
 
-# Is _Philosophical Investigations_ criticizing this picture?
-- Standard thought is this picture is the main object of criticism of PI
-  - Gustafsson thinks this is making too much philosophy out of the Augustinian  
-    picture.
-    - (in fact, Augstine himself doesn't subscribe to the philosophical 
-      implications commonly attributed to the passage)
-- This simple picture is attractive and can be applied in good ways or bad ways.
-  - Pictures for Wittgenstein operate on a primative level, can't say they're 
-    right or wrong.
-    - Wittgenstein in \em{Foundations of Mathematics}: "We don't judge the picture 
-      but we judge by means of the picture."
-  - They are prototheories / paradigms that are bad if cut from their useful 
-    applications.
-    - e.g. Start looking for the correlate of the word red, postulate Platonic 
-      forms and get philosophical confusion
-  - Cannot be argued against because counterexamples can be absorbed by a 
-    picture, which can be elaborated upon
-    - The closer the picture is to a fully fleshed out theory, the harder (more 
-      artificial-seeming) this becomes.
-# Is Wittgenstein criticizing Plato?
-- If Wittgenstein is not strictly criticizing Augustine, is he at least 
-  criticizing [Plato](plato)?
-  - Wittgenstein quotes Theatetus picture of language: Socrates is presenting 
-    something he has heard and he concludes we don't really understand it.
-  - Wittgenstein considers himself in a common struggle with Plato and 
-    Augustine. He is attracted by these pictures but is trying to overcome them, 
-    just like Plato and Augustine.
-    - If Wittgenstein is documenting his personal struggles, then what 
-      philosophical value is there? Is it just of autobiographical interest?
-      - There are many levels of PI - he provides arguments and uncovers 
-        paradoxes.
-      - Is he merely providing more details to the pictures in order to try to 
-        avoid the counterexamples/paradoxes? Is he trying to get rid of pictures 
-        altogether? Experts are divided.
-        - Some say 'meaning as use' is a picture, one he thinks is less harmful 
-          than augustinian view
-      - He doesn't really want to construct theories, but rather wants 
-        philosophical peace / quietism.
-        
-# More potentially harmful pictures
-  - thinking as something that goes on inside your head
-  - regarding infinity as merely something very large
-
+}        
+\p{\strong{# More potentially harmful pictures}}
+\ul{
+  \li{thinking as something that goes on inside your head}
+  \li{regarding infinity as merely something very large}
 }

@@ -124,7 +124,7 @@ What does this Hegelian positive account have to say about the Kripkensteinian w
 
 Hegel's account addresses the problem because it is not only \em{social} but \em{historical}. A recognitive community that institutes conceptual norms takes the distinctive form of a \em{tradition}. This provides fine structure gestured at by Ronald Dworkin's "chain novel metaphor", that the task of a common law judge is akin to the author of a chain novel in \em{media res}:
 
-> Your assignment is to make of the text the best it can be, and you will therefore choose the interpretation you believe makes the work more significant and otherwise better.
+\blockquote{Your assignment is to make of the text the best it can be, and you will therefore choose the interpretation you believe makes the work more significant and otherwise better.}
 
 Judges are both responsible \em{for} the law and responsible \em{to} the law. They are symmetrically recognized and recognizing the authority of past and present judges.
 }
@@ -132,17 +132,17 @@ Judges are both responsible \em{for} the law and responsible \em{to} the law. Th
 \table{
   \tr{
     \th{}
-    \th{Current judges <br> hold responsible | }
-    \th{Current judges <br>are held responsible}
+    \th{Current judges hold responsible }
+    \th{Current judges are held responsible}
   }
   \tr{
-    \td{Past judges | }
-    \td{One picks which past rulings were precedential | }
+    \td{Past judges }
+    \td{One picks which past rulings were precedential }
     \td{\em{Stare decesis} - one's current justification can appeal only to the authority of prior decisions (i.e. to the conceptual content those decisions have conferred upon the legal term in question).}
   }
   \tr{
-    \td{Future judges | }
-    \td{One's ruling is what they must appeal to. | }
+    \td{Future judges }
+    \td{One's ruling is what they must appeal to. }
     \td{Because future judges could treat you as irrelevant, non-precedential, or incorrect, your ruling must seem authoritative to them.}
   }
 }

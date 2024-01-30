@@ -15,8 +15,8 @@ logical connectives (e.g.  \em{and}, \em{or}). We want a rigorous way to disting
   }
   \tr{
     \td{\strong{E.g.}}
-    \td{\em{If} it's a cat, \em{then} it's a mammal <br> \em{If} pigs can fly, \em{then} #{X}.[^2] <br> \em{If} it's red, \em{then} it's colored}
-    \td{\em{If} it's blue \em{and} red, \em{then} it's red \em{and} blue <br> \em{If} I'm angry, \em{then} I'm angry.<br>\em{If} #{A} \em{and} it's hot, \em{then} it's hot \em{or} #{B}.}
+    \td{\em{If} it's a cat, \em{then} it's a mammal |  \em{If} pigs can fly, \em{then} #{X}.[^2] |  \em{If} it's red, \em{then} it's colored}
+    \td{\em{If} it's blue \em{and} red, \em{then} it's red \em{and} blue |  \em{If} I'm angry, \em{then} I'm angry.| \em{If} #{A} \em{and} it's hot, \em{then} it's hot \em{or} #{B}.}
   }
 \tr{
     \td{\strong{Def}}

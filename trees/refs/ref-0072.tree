@@ -5,36 +5,50 @@
 
 \notes{
 
-Written by Lewis Caroll in 1895. 
+\p{Written by Lewis Caroll in 1895. }
 
-## Summary
+\p{The Tortoise assumes a proposition #{p} and a [material conditional](phil-0072) #{p \implies q}.}
+  \ul{
+  \li{The exact #{p} and #{q} aren't important to the moral of the story, though it's something like "If #{A=B} and #{B=C} (#{p}), then #{A=C} (#{q})"}
+  \li{The Tortoise is playing a game: I'll do anything you tell me to do, \em{so long as you make explicit} the rule you're asking me to follow.}
+  }
+\p{Achilles tries to convince the Tortoise to accept #{q}} 
+  \ul{
+  \li{He says that logic \em{obliges} you to acknowledge #{q} in this case.}
+  }
+\p{The Tortoise is willing to go along with this but demands that this rule be made explicit:}
+  \ul{
+  \li{Achilles adds an extra axiom: #{p \land (p \implies q) \implies q}.}
+  }
+\p{Achilles says that, now, you \em{really} have to accept #{q}  given that you're committed to:}
+ \ul{
+  \li{#{p}}
+  \li{#{p \implies q}}
+  \li{#{p \land (p \implies q) \implies q}.}
+ }
 
-- The Tortoise assumes a proposition #{p} and a [material conditional](phil-0072) #{p \implies q}.
-  - The exact #{p} and #{q} aren't important to the moral of the story, though it's something like "If #{A=B} and #{B=C} (#{p}), then #{A=C} (#{q})"
-  - The Tortoise is playing a game: I'll do anything you tell me to do, \em{so long as you make explicit} the rule you're asking me to follow.
-- Achilles tries to convince the Tortoise to accept #{q} 
-  - He says that logic \em{obliges} you to acknowledge #{q} in this case.
-- The Tortoise is willing to go along with this but demands that this rule be made explicit:
-  - Achilles adds an extra axiom: #{p \land (p \implies q) \implies q}.
-- Achilles says that, now, you \em{really} have to accept #{q}  given that you're committed to:
-  - #{p}
-  - #{p \implies q}
-  - #{p \land (p \implies q) \implies q}.
+\p{But the Tortoise notes that, if taking those three propositions and concluding #{q} is really something logic obliges one to do, then it bears writing down:}
+  \ul{
+  \li{#{p \land (p \implies q) \land (p \land (p \implies q)) \implies q}}
+  }
 
-- But the Tortoise notes that, if taking those three propositions and concluding #{q} is really something logic obliges one to do, then it bears writing down:
-  - #{p \land (p \implies q) \land (p \land (p \implies q)) \implies q}
+\p{This can go ad infinitum; the Tortoise wins.}
 
-- This can go ad infinitum; the Tortoise wins.
+\p{\strong{## Brandom commentary}}
 
-## Brandom commentary
+\p{The most influential pragmatist work in the philosophy of logic.
+}
+\p{The lesson:
+}   \ul{
+    \li{in any \em{particular} case, you can substitute a rule (that tells you you can go from this to that) with an axiom.}
+    \li{But there have got to be some moves you can make without having to explicitly license them by a principle.}
+    \li{I.e. you've got to distinguish between}
+            \ul{
+            \li{premises from which to reason}
+            \li{principles in accordance with which to reason.}
+            }
+}
 
-- The most influential pragmatist work in the philosophy of logic.
-- The lesson:
-    - in any \em{particular} case, you can substitute a rule (that tells you you can go from this to that) with an axiom.
-    - But there have got to be some moves you can make without having to explicitly license them by a principle.
-    - I.e. you've got to distinguish between
-            1. premises from which to reason
-            2. principles in accordance with which to reason.
-
-- This teaches an un-get-over-able lesson about the necessity for an *implicit practical background* of making some moves that are just okay. Things that would be put in a logical system, not in the forms of axioms, but in the form of rules.
+\p{This teaches an un-get-over-able lesson about the necessity for an *implicit practical background* of making some moves that are just okay. Things that would be put in a logical system, not in the forms of axioms, but in the form of rules.
+}
 }

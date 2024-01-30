@@ -1,14 +1,12 @@
 \title{Semantic Inferentialism and Logical Expressivism (summary)}
 \import{base-macros}
-\p{
+\p{We can understand an utterance as expressing \em{conceptual content} via it playing a role in a particular \em{inferential} game of making claims / giving and asking for reasons. For example, that "It's red" and "It's green" are incompatible is a move in this game. Other moves include "It's red" both entailing "It's colored" and following from "It's scarlet". We want to understand the structure of this inferential game.}
 
-We can understand an utterance as expressing \em{conceptual content} via it playing a role in a particular \em{inferential} game of making claims / giving and asking for reasons. For example, that "It's red" and "It's green" are incompatible is a move in this game. Other moves include "It's red" both entailing "It's colored" and following from "It's scarlet". We want to understand the structure of this inferential game.
-
-\em{Formalism} is the view that understands "inference" only as "formally-valid inference". Given \em{some} formalization, the example inferences above are conceivable as being formally-valid, but this computer-like approach does not cohere with how humans use learn concepts in practice nor how concepts evolve over time. We are in a much better starting position by being \em{inferentialists} who understand inference as "material inference" - i.e. inferences which are "simply good" rather than good due to their logical form. Another reason to prefer this is that we can easily understand the logical inferences in terms of material ones, but not vice-versa: the logical inference #{A \land B \implies C \lor A} is one where we cannot turn it into a \em{materially} bad inference via substituting other content for the variables.
-
-A material inference depends on the conceptual contents of the terms which appear in it, yet at the same time, the conceptual contents of something like \em{copper} are determined by which (good) material inferences it appears in. By understanding semantics (conceptual content) from pragmatics (practical abilities to master the use of an expression), we do not need spooky metaphysics to understand "grasp of a concept" (e.g. as the turning on of a Cartesian lightbulb). 
-
-One way to break this conceptual content down into finer structure is to talk about the \em{introduction} and \em{elimination} rules for the concept, corresponding to:
+\p{\em{Formalism} is the view that understands "inference" only as "formally-valid inference". Given \em{some} formalization, the example inferences above are conceivable as being formally-valid, but this computer-like approach does not cohere with how humans use learn concepts in practice nor how concepts evolve over time. We are in a much better starting position by being \em{inferentialists} who understand inference as "material inference" - i.e. inferences which are "simply good" rather than good due to their logical form. Another reason to prefer this is that we can easily understand the logical inferences in terms of material ones, but not vice-versa: the logical inference #{A \land B \implies C \lor A} is one where we cannot turn it into a \em{materially} bad inference via substituting other content for the variables.
+}
+\p{A material inference depends on the conceptual contents of the terms which appear in it, yet at the same time, the conceptual contents of something like \em{copper} are determined by which (good) material inferences it appears in. By understanding semantics (conceptual content) from pragmatics (practical abilities to master the use of an expression), we do not need spooky metaphysics to understand "grasp of a concept" (e.g. as the turning on of a Cartesian lightbulb). 
+}
+\p{One way to break this conceptual content down into finer structure is to talk about the \em{introduction} and \em{elimination} rules for the concept, corresponding to:
 }
 
 \table{
@@ -40,9 +38,9 @@ One way to break this conceptual content down into finer structure is to talk ab
 }
 
 \p{
-\em{Conservativeness} is a technical term which means by introducing a new concept #{\phi} you do not alter the meanings of any statements that don't involve #{\phi}. Unlike for logical vocabulary, nonlogical concepts are not conservative. The demand that they all be conservative is the demand that we have formal definitions for them all in some logical language, that our inferences are monotonic, that Socratic reflection would never influence us to change our definitions. 
+\em{Conservativeness} is a technical term which means by introducing a new concept #{\phi} you do not alter the meanings of any statements that don't involve #{\phi}. Unlike for logical vocabulary, nonlogical concepts are not conservative. The demand that they all be conservative is the demand that we have formal definitions for them all in some logical language, that our inferences are monotonic, that Socratic reflection would never influence us to change our definitions. }
 
-Logical vocabulary being conservative explains why it is uniquely suited for helping us talk \em{about} material inference. #{A \implies B} can make explicit the inference from #{A} to #{B} without modifying their contents. Sellars regarded modal claims as expressing inference licenses (perhaps #{\square(A\implies B)} expresses the license to express #{B} if one is entitled to #{A}, even in the future). This can be likened to common law: intended both to codify prior practice (precedent) expressing explicitly as a rule what was implicit therein, and to have regulative authority for subsequent practice.
-
-Logical vocabulary is very important, but not in the way formalists thought it to be. It allows us to talk explicitly about our inferences (and therefore conceptual contents) in a way that exposes them to critique, so that we can reform or abandon bad concepts.
+\p{Logical vocabulary being conservative explains why it is uniquely suited for helping us talk \em{about} material inference. #{A \implies B} can make explicit the inference from #{A} to #{B} without modifying their contents. Sellars regarded modal claims as expressing inference licenses (perhaps #{\square(A\implies B)} expresses the license to express #{B} if one is entitled to #{A}, even in the future). This can be likened to common law: intended both to codify prior practice (precedent) expressing explicitly as a rule what was implicit therein, and to have regulative authority for subsequent practice.
+}
+\p{Logical vocabulary is very important, but not in the way formalists thought it to be. It allows us to talk explicitly about our inferences (and therefore conceptual contents) in a way that exposes them to critique, so that we can reform or abandon bad concepts.
 }

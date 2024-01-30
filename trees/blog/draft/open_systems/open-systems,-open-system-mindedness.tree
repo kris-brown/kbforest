@@ -15,11 +15,11 @@ This, in general, is strictly more difficult. However, there is a longer term pa
 can model subsystems and compose them into larger ones. From 
 [Owen Lynch](https://owenlynch.org/)'s thesis:
 
-> When we explicitly model the environment to create a closed
+\blockquote{When we explicitly model the environment to create a closed
 system, we lose the ability to compose the model that we have made with other
 models of the environment. This is the key feature of open systems: open
 systems are most naturally discussed in a compositional framework where
-one can “glue” two open systems together along a part of their boundary.
+one can “glue” two open systems together along a part of their boundary.}
 
 
 There is exactly one scenario where there is no payoff to thinking in terms of 

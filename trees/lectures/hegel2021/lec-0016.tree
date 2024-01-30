@@ -1,63 +1,71 @@
 \title{01 - A Semantic Recollection of Hegel's Phenomenology of Spirit}
 
-\p{
+\p{\strong{# Why Read Hegel Now?}}
 
-# Why Read Hegel Now?
+\p{\strong{## Major themes of Kant}}
 
-## Major themes of Kant
+\p{Normativity of intentionality:[^w]}
+\ul{
+	\li{Knowers (resp. agents) distinguished from natural creatures \strong{not} because of special mind-stuff but because judgments (resp. intentional doings) are things they are \em{responsible} for. They are \em{commitments} of ours (resp. exercises of our authority).}
+	\li{Rational commitments / responsibilities are those where it is appropriate to \em{ask} for the reasons justifying them.[^1] }
+}
 
-Normativity of intentionality:[^w]
+\p{Normativity of representation:}
 
-- Knowers (resp. agents) distinguished from natural creatures \strong{not} because of special mind-stuff but because judgments (resp. intentional doings) are things they are \em{responsible} for. They are \em{commitments} of ours (resp. exercises of our authority).
-- Rational commitments / responsibilities are those where it is appropriate to \em{ask} for the reasons justifying them.[^1] 
-- Normativity of representation:
-	- We understand "#{X} represents #{Y}" as saying that #{X} makes itself responsible \em{to} #{Y}, which sets a standard for the correctness of #{X}'s judgment. [^sl]
-- The basic Kantian normative status is the authority to \strong{make} oneself responsible (commit oneself) by \strong{taking} oneself to be responsible (acknowledging a responsibility). This makes oneself a \em{person}, giving oneself dignity which others have a duty to respect.
-- This is an example of \em{institution of norms} by \em{normative attitudes}, a theme of the [Enlightenment](phil-0137).
+\ul{\li{We understand "#{X} represents #{Y}" as saying that #{X} makes itself responsible \em{to} #{Y}, which sets a standard for the correctness of #{X}'s judgment. [^sl]}}
 
-Distinction between empirical concepts and categorial concepts
+\p{The basic Kantian normative status is the authority to \strong{make} oneself responsible (commit oneself) by \strong{taking} oneself to be responsible (acknowledging a responsibility). This makes oneself a \em{person}, giving oneself dignity which others have a duty to respect.
+}
+\p{This is an example of \em{institution of norms} by \em{normative attitudes}, a theme of the [Enlightenment](phil-0137).}
 
-- Concepts which make it possible to describe/explain empirical happenings
-- E.g. without modal concepts, "cat" and "red" would merely label, rather than \em{describe}. (Essential to description is being able to \em{explain}, which requires subjunctive robustness).
-- These pure categorial concepts are \em{a priori} because no particular empirical concept is needed to know how to use them; insofar as one uses \em{any} empirical concept one already knows everyone one needs to do to know how to apply the pure categorial concepts.
+\p{Distinction between empirical concepts and categorial concepts
+}
+\ul{
+\li{Concepts which make it possible to describe/explain empirical happenings}
+\li{E.g. without modal concepts, "cat" and "red" would merely label, rather than \em{describe}. (Essential to description is being able to \em{explain}, which requires subjunctive robustness).}
+\li{These pure categorial concepts are \em{a priori} because no particular empirical concept is needed to know how to use them; insofar as one uses \em{any} empirical concept one already knows everyone one needs to do to know how to apply the pure categorial concepts.}
+}
+\p{[^sl]: [Shopping list](phil-0126)
+}
+\p{[^w]: Rediscovered in 20th century by Wittgenstein: see [A children's game](phil-0002) 
+}
+\p{[^1]: (we may not always have good answers to such demands)
+}
+\p{Distinction between \em{quid facti} and \em{quid juris} ([Reasons vs causes](int-0012))}
+\ul{
+\li{[Kant](immanuel-kant) "[depsychologized](q-0030)" epistemology by seeing it as a \em{normative} discipline, orthogonal to the causal picture of interest to empiricists like [Locke](john-locke) and [Hume](david-hume).}
+\li{But this distinction led to a \em{[dualism](int-0008)} between facts and norms now. }
+\li{Hegel can be seen as showing us how to accept the normativity of the conceptual without creating a dualism.}
 
-[^sl]: [Shopping list](phil-0126)
+}
+\p{\strong{## Major themes of [Hegel](gwf-hegel)}}
 
-[^w]: Rediscovered in 20th century by Wittgenstein: see [A children's game](phil-0002) 
+\p{Social account of normativity:}
 
-[^1]: (we may not always have good answers to such demands)
+\ul{
+\li{Norms are social statuses (part of the world) but instituted by attitudes via a process of reciprocal recognition.}
+\li{To genuinely \em{be} a normative self is to be recognized by those one recognizes as such. (A social status, \strong{not} Kant's version of "self binding" nor [Descartes](rene-descartes)' mind-stuff between one's ears)
+}}
+\p{Historicism:
+}
+\ul{
+\li{Normative creatures don't have \strong{natures}, they have [histories](int-0005).}
+\li{Self-conscious creatures: what they are \em{for} themselves (attitudes) are essential to what they are \em{in} themselves (statuses). Practical self-consciousness changes our statuses, awareness of that change (theoretical self-consciousness) changes our attitudes....which affects our statuses.[^cart]}
+\li{To know what they are, you have to know how they got to be that way.}
+\li{Normativity itself has a history. Our understanding of it radically changed with the advent of modernity (scientific / political / artistic / philosophical movements all seen as part of \em{one} occurrence).}
+}
+\p{[^cart]: The attitudes and statuses never perfectly coincide (the gap between them drives the process of development). The limit of them aligning is the transparent Cartesian kind of self-consciousness and concepts which are immutable/determinate in the definitional sense.
+}
 
-Distinction between \em{quid facti} and \em{quid juris} ([Reasons vs causes](int-0012))
-- [Kant](immanuel-kant) "[depsychologized](q-0030)" epistemology by seeing it as a \em{normative} discipline, orthogonal to the causal picture of interest to empiricists like [Locke](john-locke) and [Hume](david-hume).
-- But this distinction led to a \em{[dualism](int-0008)} between facts and norms now. 
-- Hegel can be seen as showing us how to accept the normativity of the conceptual without creating a dualism.
+\p{\strong{# How Should We Read Hegel Now?}}
 
-
-## Major themes of [Hegel](gwf-hegel)
-
-Social account of normativity:
-
-- Norms are social statuses (part of the world) but instituted by attitudes via a process of reciprocal recognition.
-- To genuinely \em{be} a normative self is to be recognized by those one recognizes as such. (A social status, \strong{not} Kant's version of "self binding" nor [Descartes](rene-descartes)' mind-stuff between one's ears)
-
-Historicism:
-
-- Normative creatures don't have \strong{natures}, they have [histories](int-0005).
-- Self-conscious creatures: what they are \em{for} themselves (attitudes) are essential to what they are \em{in} themselves (statuses). Practical self-consciousness changes our statuses, awareness of that change (theoretical self-consciousness) changes our attitudes....which affects our statuses.[^cart]
-- To know what they are, you have to know how they got to be that way.
-- Normativity itself has a history. Our understanding of it radically changed with the advent of modernity (scientific / political / artistic / philosophical movements all seen as part of \em{one} occurrence).
-
-[^cart]: The attitudes and statuses never perfectly coincide (the gap between them drives the process of development). The limit of them aligning is the transparent Cartesian kind of self-consciousness and concepts which are immutable/determinate in the definitional sense.
-# How Should We Read Hegel Now?
-
-[Brandom](robert-brandom)'s reading of Hegel is deeply informed by his inferentialist understanding of linguistic meaning. Some commentators discredit this as a "misreading" which takes too much license and strives from the meaning of the text. But Brandom defends it as a \em{Hegelian} reading of Hegel.
-
-(Natural language) meanings shouldn't be modeled on self-contained, determinate, defined objects + their properties. There is not a single dimension of "resemblance" which we can measure the distance of interpretation of a text to the (literal / original) meaning of text.
-
-Applying [Duhem-Quine thesis](phil-0035) to hermeneutics says that our context is essential to how we interpret a text. Not all contexts are equally interesting, but all provide perspectives. 
-
-\em{De re} readings of a text allow one to make combine the speaker's knowledge and commitments with the dead author - Russell can ask whether Plato's use of "part" and "whole" referred to \em{subset} or \em{element of}. We can look back at the past (given our present commitments and knowledge) and say what people then were not in a position to realize they were really talking about.
-
-This philosophy of hermeneutics is precisely in accord with Hegelian recollection, hence Brandom finds it especially appropriate for applying to Hegel's own texts. 
-
+\p{[Brandom](robert-brandom)'s reading of Hegel is deeply informed by his inferentialist understanding of linguistic meaning. Some commentators discredit this as a "misreading" which takes too much license and strives from the meaning of the text. But Brandom defends it as a \em{Hegelian} reading of Hegel.
+}
+\p{(Natural language) meanings shouldn't be modeled on self-contained, determinate, defined objects + their properties. There is not a single dimension of "resemblance" which we can measure the distance of interpretation of a text to the (literal / original) meaning of text.
+}
+\p{Applying [Duhem-Quine thesis](phil-0035) to hermeneutics says that our context is essential to how we interpret a text. Not all contexts are equally interesting, but all provide perspectives. 
+}
+\p{\em{De re} readings of a text allow one to make combine the speaker's knowledge and commitments with the dead author - Russell can ask whether Plato's use of "part" and "whole" referred to \em{subset} or \em{element of}. We can look back at the past (given our present commitments and knowledge) and say what people then were not in a position to realize they were really talking about.
+}
+\p{This philosophy of hermeneutics is precisely in accord with Hegelian recollection, hence Brandom finds it especially appropriate for applying to Hegel's own texts. 
 }
