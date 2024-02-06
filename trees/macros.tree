@@ -128,21 +128,19 @@
 % Blocks
 
 \def\abstract[body]{
-  \block{\strong{Abstract.}}{\body}
+  \subtree{\title{Abstract.} \body}
 }
 
 \def\notes[body]{
-  \block{\strong{Notes.}}{\body}
+  \subtree{\title{Notes.} \body}
 }
 
 \def\response[body]{
-  \block{\strong{Response.}}{\body}
+  \subtree{\title{Response.} \body}
 }
 
 \def\quiver[body]{
-  \iftex{\tex{\usepackage{quiver}}{\body}}{
-    \xml{center}{\tex{\usepackage{quiver}}{\body}}
-  }
+  \tex{\usepackage{quiver}}{\body}
 }
 
 \def\image[source]{

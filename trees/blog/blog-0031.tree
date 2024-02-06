@@ -10,8 +10,7 @@
 \p{Bob: I don't see anything wrong with it. The same information is provided, no matter the unit.
 }}
 
-\p{One strategy Alice can use in this disagreement is an \em{extreme example}. One way of making sense of how an extreme example functions:
-
+\p{One strategy Alice can use in this disagreement is an \em{extreme example}. Here's how I make sense of how an extreme example functions:
 }
 
 \table{
@@ -28,7 +27,7 @@
     \td{#{P}="As long as it has the same literal informational content, it's equal from a moral standpoint."}
   }
   \tr{
-    \td{#{P} is bad because it would also license one to make an absurd claim, #{\bot}.}
+    \td{#{P} is bad because it would \em{also} license one to make an absurd claim, #{\bot}.}
     \td{#{\bot}="It's ok to report in terms of injuries per atom."}
   }
   \tr{

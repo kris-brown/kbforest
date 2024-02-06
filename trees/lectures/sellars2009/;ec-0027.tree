@@ -1,6 +1,8 @@
 \title{Wilfrid Sellars seminar 2009}
 \tag{lecture}
 
+\put\transclude/expanded{false}
+
 \transclude{lec-0019}
 \transclude{lec-0020}
 \transclude{lec-0021}

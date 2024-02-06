@@ -4,40 +4,41 @@
 
 \p{Most interesting philosophical concepts come with a "-ing"/ "-ed" distinction that's crucial to understand the nature of.}
 
-\p{## Description
+\subtree{\title{Description}
 
-Do you mean the describing or the describable when you say "description"?
+\p{Do you mean the describing or the describable when you say "description"?
+}
+\p{We need to distinguish the fact and the content.
+}
+}
+\subtree{\title{Justification }
 
-We need to distinguish the fact and the content.
+\p{The [Agrippan trilemma](phil-0004) can be thought of as caused by conflating act of justifying vs the state of being justified.
+}  
+}
+\subtree{\title{Experience}
 
+\p{Is an experience an act of act of experiencing vs what's experienced. Sellars thinks [Berkeley](george-berkeley) was confused by this.
+}}
 
-## Justification 
+\subtree{\title{Representation}
 
-The [Agrippan trilemma](phil-0004) can be thought of as caused by conflating act of justifying vs the state of being justified.
-  
-## Experience
+\p{'Representation' is the relation between two relata: the representings and the representeds. Making this distinction helps avoid the [Cartesian](phil-0075) trap of thinking of the fact of #{X} as being a representing (e.g. a thought about something)being an \em{[ontological](phil-0091)} fact (i.e. a statement about the true nature of #{X}) rather than a fact of how #{X} relates to other things (it could be represented in one context and a representing in another). 
+}
+}
+\subtree{\title{Perception}}
 
-Is an experience an act of act of experiencing vs what's experienced. Sellars thinks [Berkeley](george-berkeley) was confused by this.
+\subtree{\title{Judgement}}
 
-## Representation
+\subtree{\title{Belief }}
 
-'Representation' is the relation between two relata: the representings and the representeds. Making this distinction helps avoid the [Cartesian](phil-0075) trap of thinking of the fact of #{X} as being a representing (e.g. a thought about something)being an \em{[ontological](phil-0091)} fact (i.e. a statement about the true nature of #{X}) rather than a fact of how #{X} relates to other things (it could be represented in one context and a representing in another). 
+\subtree{\title{Desire}}
 
-# Perception
+\subtree{\title{Intention}}
 
-# Judgement
+\subtree{\title{Action}}
 
-# Belief 
-
-# Desire
-
-# Intention
-
-# Action
-
-# Thinking
-Facts are true thinkables. There were facts before there were any thinkables. (confusing this leads to "there is nothing outside the text")
-
-
-## ???: You can't be inside the rules and outside talking about them at the same time.
+\subtree{\title{Thinking}
+\p{Facts are true thinkables. There were facts before there were any thinkables. (confusing this leads to "there is nothing outside the text")
+}
 }

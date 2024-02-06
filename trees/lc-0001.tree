@@ -23,17 +23,23 @@
 
 \scope{
   \put\transclude/title{People}
+  \put\transclude/expanded{false}
   \query{\query/taxon{person}}
 }
 
 \scope{
   \put\transclude/title{Works}
+  \put\transclude/expanded{false}
   \query{\query/taxon{reference}}
 }
 
-\transclude{elu-0029}
-
 \scope{
-  \put\transclude/title{Lecture Series}
+  \put\transclude/title{Notes on podcasts}
+  \put\transclude/expanded{false}
+  \transclude{elu-0029}
+}
+\scope{
+  \put\transclude/title{Notes on lecture series}
+  \put\transclude/expanded{false}
   \query{\query/tag{lecture}}
 }

@@ -2,6 +2,7 @@
 \tag{lecture}
 \meta{external}{https://sites.pitt.edu/~rbrandom/Courses/Antirepresentationalism\%20(2020)/AR\%202020\%20a.html}
 
+\put\transclude/expanded{false}
 \transclude{lec-0001}
 \transclude{lec-0002}
 \transclude{lec-0003}

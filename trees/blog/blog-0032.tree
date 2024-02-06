@@ -1,19 +1,19 @@
 
 \title{Inappropriate usage: two pitfalls}
+\import{base-macros}
 
-\p{ \strong{Edginess}: Alice uses an emotionally-triggering #{\bot}, despite there being
-plenty of other absurd consequences of #{P} that would suffice.}
-
-\blockquote{Alice: So you'd be fine if they said "The chance of a child's injury is less
-than 1/1000 of the chance of dying in a school shooting"?}
-
-\p{ \strong{Patronizing}: Alice doesn't acknowledge that #{P} is something she is
-\em{hypothesizing} Bob endorses. Now it seems like she thinks Bob \em{actually believes}
-#{\bot}, rather than merely that he's not entitled to #{\phi}.
-}
-
-\blockquote{
-\p{  Alice: If you think that, then you wouldn't mind if they reported it in terms of injuries per atom sold!
-}
-\p{Bob: \em{Feels completely misunderstood / insulted, becomes hostile}}
+\table{
+  \tr{\th{Edginess} \th{Patronizing}}
+  \tr{
+    \td{Alice uses an emotionally-triggering #{\bot}, despite there being
+    plenty of other absurd consequences of #{P} that would suffice.} 
+    \td{Alice doesn't acknowledge that #{P} is something she is \em{hypothesizing} Bob endorses. Now it seems like she thinks Bob \em{actually believes} #{\bot}, rather than merely that he's not entitled to #{\phi}.}}
+  \tr{
+    \td{\blockquote{Alice: So you'd be fine if they said "The chance of a child's injury is less
+    than 1/1000 of the chance of dying in a school shooting"?}} 
+    \td{\blockquote{
+      \p{  Alice: If you think that, then you wouldn't mind if they reported it in terms of injuries per atom sold!
+      }
+      \p{Bob: [Feels completely misunderstood / insulted, becomes hostile]}
+      }}}
 }

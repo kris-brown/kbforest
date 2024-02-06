@@ -1,7 +1,7 @@
 \title{basic macros}
 
-\def\nowrap[body]{\iftex{\body}{\xml{span}[style]{white-space: nowrap}{\body}}}
-\def\mark[body]{\iftex{\body}{\xml{mark}{\body}}}
+\def\nowrap[body]{\xml{span}[style]{white-space: nowrap}{\body}}
+\def\mark[body]{\xml{mark}{\body}}
 
 \def\table[body]{
   \xml{table}{\body}
@@ -16,23 +16,29 @@
   \xml{th}{\body}
 }
 \def\hr{
-  \iftex{}{\xml{hr}{}}
+  \xml{hr}{}
 }
+
+\alloc\base/tex-preamble
 
 \def\proof[body]{
-  \iftex{
-    \block{Proof}{\body}
-  }{
-    \block{\strong{Proof}.}{\body}
-  }
+ \scope{
+   \put\transclude/toc{false}
+   \subtree{
+     \taxon{proof}
+     \body
+   }
+ }
 }
 
-\def\labeled-proof[lbl][body]{
-  \iftex{
-    \block{Proof (\lbl)}{\body}
-  }{
-    \block{\strong{Proof} (\lbl).}{\body}
-  }
+\def\solution[body]{
+ \scope{
+   \put\transclude/toc{false}
+   \subtree{
+     \taxon{solution}
+     \body
+   }
+ }
 }
 
 \def\Con[arg1]{#{\mathsf{\arg1}}}
@@ -40,6 +46,7 @@
 \def\prn[x]{#{{\mathopen{}\left(\x\right)\mathclose{}}}}
 \def\brc[x]{#{{\mathopen{}\left\{\x\right\}\mathclose{}}}}
 \def\brk[x]{#{{\mathopen{}\left [\x\right ]\mathclose{}}}}
+\def\bbrk[x]{#{{\mathopen{}\llbracket\x\rrbracket\mathclose{}}}}
 \def\vrt[x]{#{{\mathopen{}\left\lvert\x\right\rvert\mathclose{}}}}
 \def\vvrt[x]{#{{\mathopen{}\left\lVert\x\right\rVert\mathclose{}}}}
 \def\gl[x]{#{{\mathopen{}\left\langle\x\right\rangle\mathclose{}}}}
