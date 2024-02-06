@@ -1,10 +1,9 @@
 \title{What is philosophy (summary)}
 
-\p{Philosophy is all about \em{concepts}. Here are some (opinionated) claims about concepts:}
+\subtree{\title{some (opinionated) claims about concepts}}
+\p{Philosophy is all about \em{concepts}, e.g.: "copper", "(morally) good", "necessary", "cat".}
 
-\p{Examples of concepts: "copper", "(morally) good", "necessary", "cat"}
-
-\p{\strong{Making a judgment} or \strong{taking an action} necessarily involves the application of concepts.}
+\p{\em{Making a judgment} or \em{taking an action} necessarily involves the application of concepts.}
 \ul{\li{E.g. Making the move from "This is copper" to "This would melt if brought to 1085#{^\circ}C". Or making the move from "The dog is hungry" to the act of feeding the dog.}}
 
 \p{Grasp of a concept is just mastery of the use of a word (or words). Above, we showed partial mastery of \em{copper} and \em{hungry}.}
@@ -33,8 +32,8 @@
 \p{[^g]: Not to focus on verbal language: likewise, a community regulates whether one has made an appropriate or inappropriate hand gesture when greeting a stranger.
 }
 
-\p{\strong{## What is philosophy useful for?}
-}
+\subtree{\title{What is philosophy useful for?}
+
 
 \p{Philosophy helps us get rid of "defective" concepts. For example, take the old slur "Boche":  
 }
@@ -47,7 +46,7 @@
 \li{People did not need philosophy to learn to practically use Boche; what philosophy gives us is tools for \em{making explicit} what inference is curled up in Boche so that we \em{can} criticize it (e.g. by witnessing examples of non-barbarous Germans).}
 \li{This is an extreme example (an obviously defective concept), but the lesson is broadly applicable (e.g. what assumptions are curled up in the "I" of personal identity?).}
 }
-\p{\strong{## What distinguishes philosophy from other disciplines? }}
+}\subtree{\title{What distinguishes philosophy from other disciplines? }
 \p{It is distinguished by its focus on conceptual normativity.
 }
 \ul{
@@ -56,8 +55,9 @@
 }
 \p{Rather than "queen of the sciences", it is more of a "handmaiden". It doesn't supply norms, it only makes norms that were already in place explicit. It doesn't pass judgment, but it can help make it possible for judgment to be passed. It is the business of philosophers to figure out ways to increase semantic self-consciousness, but what one does with that self-consciousness is not our business _qua_ philosophers.
 }
-\p{\strong{## What is the alternative?}
 }
+\subtree{\title{What is the alternative?}
+
 \p{The success of science leads to think that there is a physical world and everything else is just derived from it, as combinations of its parts (which we can pick out with concepts) and definitions formulated in logic. In this picture, everything is a matter of description/representation. Talk that is not descriptive becomes a second-class citizen: either wrong or nonsense. In particular, talk of normativity becomes either nonsense ("Boo!"/"Hurrah!" in the guise of description) or metaphysically spooky (there exist 'moral facts').[^r2] This attitude blurs the distinction between the kind of conceptual activity that human beings do (call this \em{sapience}) from the kind of behavior we share with lower animals (call this \em{sentience}). This denies that making a judgment or taking an action are things that only sapient creatures do.[^r1]
 }
 \p{[^r2]: The response is that some of our concepts don't describe but rather make explicit features of the framework which make description possible. These aren't 'descriptive of the world' in any ordinary sense, but they are still meaningful. Most concepts that fall under the heading of 'philosophical' do so precisely because they fall into this category.
@@ -70,4 +70,5 @@
 \ul{
 	\li{if you you go full descriptivism, you get a reductive (devoid of meaning) and/or metaphysically-spooky picture of the world.}
 	\li{if you go full normativity, you end up with the absurd post-structuralist "there is nothing outside the text".}
+}
 }

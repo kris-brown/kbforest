@@ -1,6 +1,5 @@
 \title{How to go back in the other direction}
 \import{macros}
-\texpackage{quiver}
 
 \p{
 There is nothing magic about category theory,[^1] but there seems at first like 
@@ -29,7 +28,7 @@ It turns out that this graph has a very special quirk. We want to know "How
 many graph homomorphisms are there from some arbitrary graph #{G} into #{T}?" It turns out, no matter how many vertices and edges #{G} has, and no matter how those edges are connected, there is exactly \strong{one} graph homomorphism #{G \rightarrow T}, because all of the vertices are mapped onto the single vertex and all of the edges are mapped onto the single edge. This means we can actually pick out which dot is actually #{T} from the mile-high view, a subset of which is visualized below. Can you find it?
 }
 
-\texfig{
+\quiver{
   % https://q.uiver.app/#q=WzAsOSxbMCwxLCJcXGJ1bGxldCJdLFswLDIsIlxcYnVsbGV0Il0sWzAsMywiXFxidWxsZXQiXSxbMSwxLCJcXGJ1bGxldCJdLFsxLDIsIlxcYnVsbGV0Il0sWzIsMywiXFxidWxsZXQiXSxbMiwwLCJcXGJ1bGxldCJdLFszLDEsIlxcYnVsbGV0Il0sWzMsMiwiXFxidWxsZXQiXSxbNiwwXSxbNiwzXSxbMCw1LCIiLDAseyJjdXJ2ZSI6MX1dLFsyLDVdLFsxLDUsIiIsMix7ImN1cnZlIjoxfV0sWzQsNV0sWzMsNV0sWzYsNV0sWzMsMF0sWzQsM10sWzEsNF0sWzEsMF0sWzEsMiwiIiwxLHsiY3VydmUiOi0xfV0sWzIsMSwiIiwxLHsiY3VydmUiOi0xfV0sWzgsNV0sWzcsNV0sWzcsNl0sWzgsNywiIiwxLHsiY3VydmUiOjF9XSxbNyw2LCIiLDEseyJjdXJ2ZSI6MX1dLFs3LDYsIiIsMSx7ImN1cnZlIjotMX1dLFs3LDhdLFs2LDQsIiIsMSx7ImN1cnZlIjotMX1dXQ==
 \begin{tikzcd}
 	&& \bullet \\

@@ -4,14 +4,15 @@
 \p{There has been historical precedent to place legal restrictions on human 
 behavior due to disgust reaction}
 
-\p{\strong{# Disgust}}
+\subtree{\title{Disgust}
 \p{Rejection of something that is seen as a contaminant (useful in the context of 
   feces, etc.). These are called the primary objects of disgust
 }  
 \p{In all societies, it gets extended in practice to groups of people seen as 
   'low'/'dirty'. Extending the attributes of primary objects of disgust to these people (e.g. separate drinking fountains for blacks)
 }
-\p{\strong{# Historical theoretical justification}}
+}
+\subtree{\title{Historical theoretical justification}
 \p{Lord Devlin: a society needs to be able to defend itself against intrusion/defilement.}
 \ul{
     \li{Justifies making things illegal even if they cause no harm to others}
@@ -19,7 +20,8 @@ behavior due to disgust reaction}
 }\p{More contemporarily, Leon Cass: disgust is a legitimate emotion which can 
   sometimes guide us legitimately warn us of atrocity. E.g. "torture" elicits disgust that rightly directs us away from it}
 
-\p{\strong{# An unreliable guide}}
+}
+\subtree{\title{An unreliable guide}
 \p{When disgust is potent, we cannot rely on reasoning to give us respect.
 }\p{Gays/Lesbians depicted as weirdos/animals}
 \p{'Torture' also elicits indignation, which is a more constructive feeling 
@@ -36,7 +38,8 @@ behavior due to disgust reaction}
   harsher, even though this doesn't always track how bad the homicide was / 
   whether it was premeditated}
 
-\p{\strong{# Empathy}}
+}
+\subtree{\title{Empathy}
 \p{Need to imagine the other as fully human like ourselves
 }
 \p{Is this sufficient? Couldn't a homophobe fairly imagine this but still 
@@ -45,7 +48,8 @@ behavior due to disgust reaction}
     \li{Nussbaum: Certainly. Empathy is not sufficient for compassion.}
     \li{perhaps not even necessary, e.g. compassion towards actual animals we cannot empathize with.}
 }
-\p{\strong{# Application to marriage}}
+}
+\subtree{\title{Application to marriage}
 \p{Should government be involved in marriage? Marriage has three aspects:
 }
 \ol{
@@ -59,7 +63,8 @@ behavior due to disgust reaction}
 }\p{ Civil unions analogous to transracial marriage:}
 \ul{\li{People had to fight to not give this a different term since they truly believe it is equal}}
 
-\p{\strong{# Application to privacy}}
+}
+\subtree{\title{Application to privacy}
 \p{Three dimensions that get conflated:}
 \ul{
     \li{Informational: the private is secret}
@@ -75,3 +80,4 @@ behavior due to disgust reaction}
     \li{Could recover our intuitions (the pornography has an impact on other people, acts in sex clubs that you have to voluntarily enter).}}
 \p{We should avoid the word 'privacy' because it's such a nest of confusions.}
 
+}

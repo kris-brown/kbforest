@@ -2,7 +2,7 @@
 \meta{external}{[Video](https://www.youtube.com/watch?v=I3oolHemr7M)}
 \meta{external}{[Text](https://sites.pitt.edu/~rbrandom/Texts/On_the_Way_to_a_Pragmatist_Theory_of_the.doc)}
 
-\p{\strong{# Introduction}}
+\subtree{\title{Introduction}
 
 \p{Rorty distinguished [Left and right wing Sellarsians](phil-0065) - this essay will endorse what the left wing Sellarsians rallied behind (normative nonnaturalism, epitomized by [Space of reasons](q-0137)) and reject what the right wing Sellarsians rallied behind (scientific naturalism, epitomized by [Scienta mensura](q-0133)). 
 }
@@ -10,7 +10,8 @@
 }
 \p{Quine was likewise a student of Lewis and Carnap, but his interpretations of them drop the Kantian element completely. He is part of an analytic tradition which aims to reject Hegelianism (and Kantianism by  extension). This is the common understanding of analytic philosophy, but it's important to note another undercurrent below the empiricist surface.
 }
-\p{\strong{# Categories in Kant}}
+}
+\subtree{\title{Categories in Kant}
 
 \p{Besides concepts whose characteristic expressive job it is to describe and explain empirical goings-on, there are concepts whose characteristic expressive job it is to make explicit necessary structural features of the discursive framework within which alone description and explanation are possible.
 }
@@ -37,8 +38,9 @@
 \li{Categorial: they make explicit aspects of the \em{form} of content as such. They express structural features of empirical descriptive judgments. E.g. alethic modal concepts articulate the subjunctively robust consequential relations among descriptive concepts. Those relations make possible explanations of why one description applies because another does (e.g. that force \em{necessarily} equals mass times acceleration allows one to \em{explain} a particular acceleration of a mass)}
 \li{Pure: they are available to concept-users, since what they express is implicit in every use of concepts (there is no \em{particular} concepts one must use in order to deploy the pure concepts of understanding). \em{A priori} here does not mean \em{immediate} (in the Cartesian sense - i.e. nonrepresentational).}
 
-\p{\strong{# Categories in Sellars}
 }
+\subtree{\title{Categories in Sellars}
+
 \p{Sellars inherits Carnap's idea that ontologically classifying terms (e.g. "object"/"property"/"proposition") are \em{quasi-syntactical}, i.e. correspond to overtly syntactical expressions in a proper metalanguage (e.g. "singular term"/"predicate"/"declarative sentence").
 }
 \p{Sellars inherits Kant's rejection of semantic atomism (characteristic of Locke and Hume, but also Carnap). Inferential connections among the contents of ordinary empirical descriptive concepts are essential to those contents, as they are appealed to in \em{explanations} of why some descriptions apply when they do. 
@@ -63,9 +65,9 @@
 \p{The rule licenses subjunctively robust inferences.
 }
 \p{Consider the following (unobjectionable) hierarchy: "Fido is a daschund / is a dog / is a brute / is an animal / is a corporeal substance / is a substance". This can't go any further, so \em{substance} is an ontological \em{summum genus}. Now consider "X is a red / is a color / is a perceptual quality / is a quality". Quality here is a conceptual \em{summum genus}.  Sellars understands Kant's categories generally as conceptual (rather than of objects in the world) \em{summa genera}.}
- 
-\p{\strong{# Categories today}
 }
+\subtree{\title{Categories today}
+
 \p{An attempt to distill the concept of "category" / "pure concepts of understanding" even further: 
 }
 \ol{
@@ -79,4 +81,5 @@
 \p{Concrete example of pragmatically-mediated semantic relation: vocabulary of conditionals #{V'} in relation to ordinary empirical descriptive vocabulary #{V}. Using OED vocabulary requires distinguishing between materially good inferences (involving descriptive predicates) and those which are not good.  But this practical ability can be elaborated upon to learn how to deploy conditionals: one must be told that one must acknowledge commitment to #{p \rightarrow q} iff one takes the inference from #{p} to #{q} to be a materially good one (if = circumstances of application, only if = consequences of application).
 }
 \p{The class of concepts that fall under Brandom's successor notion to Sellar's successor notion of "pure concept of the understanding" overlaps with Kant's (most importantly: alethic modal concepts). However Brandom includes logical vocabulary, indexical/demonstrative vocabulary, normative vocabulary, semantic/intentional vocabulary.
+}
 }

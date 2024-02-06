@@ -1,6 +1,6 @@
 \title{11 - Price on Sellars and McDowell, Blackburn on Brandom and McDowell}
 
-\p{\strong{# Two species of language}}
+\subtree{\title{Two species of language}
 
 \p{When Rorty writes about [the ironist](https://en.wikipedia.org/wiki/Ironism) and about [redescription](phil-0110) he doesn't explicitly differentiate two species of language:
 }
@@ -32,22 +32,25 @@
 }
 \p{[Making It Explicit](ref-0075) argues that \em{assertions} are the core of an ADP. They are essentially things that can serve as (and stand in need of) reasons, playing the role of a premise and conclusion of an inference. 
 }
-\p{\strong{## Was the vocabulary vocabulary pointless?}
-}
+\subtree{\title{Was the vocabulary vocabulary pointless?}
+
 \p{The vocabulary vocabulary was to remove the language-theory distinction, but the ADP / idiom distinction may seem like it reveals no progress has been made. Brandom notes that there are some similarities in Language:ADP::Theory:Idiom. This is where Brandom says Rorty's rhetoric about description sometimes sounds as if he's slipping back into Carnappian pragmatism.
 }
 \p{Brandom says it's a pragmatist version of that distinction. It's not the same. For Carnap, you choose the language and the world settles the proper theory. In the new version, there's only one (up to intertranslatability) 'language', and the theory is up to you. So the Carnappian picture is turned on its head. 
 }
-\p{\strong{# Price and Cambridge Pragmatism}
 }
+}
+\subtree{\title{Price and Cambridge Pragmatism}
+
 \p{Price extends the notion of I and E representation to different notions of fact and world. E-world, natural world (object of study of science). I-world is all of the facts.
 }
 \p{This distinction resolves the tension between [Scienta mensura](q-0133) and Tractarian "the world is everything that is the case".
 }
 \p{What's in common between representation as homomorphism (a relational matter) and one-way-counterfactual dependencies? Think about map facts (facts in the map vocabulary) and inferences in the terrain vocabulary. That inferential use is what it means to \em{use} the map as a representation.
 }
-\p{\strong{# About Time's Arrow}
-\p{}Huw's book on the philosophy of time.
+}
+\subtree{\title{About Time's Arrow}
+\p{Huw's book on the philosophy of time.
 }
 \p{Fundamental physics \em{doesn't} have an arrow of time. It is completely reversible. But macroscopy time has a direction. 
 }
@@ -71,4 +74,5 @@
 \p{Classical pragmatism is sometimes thought of as a kind of subjectivism. Rortyan pragmatism is explicitly not subjectivist because it denies the Kantian problematic with the vocabulary vocabulary. If we're not thinking of vocabularies in object naturalist terms, the Kantian problematic doesn't make sense.
 }
 \p{Even the language of physics is not fully object-naturalistic - Huw begins interrogating physics from (what he will later call) a subject naturalist point of view. What would we have to be able to \em{do} to express the view from nowhen? He found representational semantic models were not helpful for him in investigating that question.
+}
 }

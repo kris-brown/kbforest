@@ -6,23 +6,25 @@
 
 \p{Immanuel Kant was a German philosopher (1724-1804). }
 
-\p{The philosopher of \em{[representation](phil-0117)} and of \em{[rules](phil-0120)}. The big question is how his thoughts on each of those topics fit together. Brandom claims he has a rulish perspective on what it is for something to be a representation: for #{X} to be represented by #{Y} is: 
-- #{Y} to be subject to #{X}'s standards of correctness; 
-- #{X} has authority over #{Y}; 
-- #{Y} is responsible (for its correctness as a representation) to #{X}.}
-
+\p{The philosopher of \em{[representation](phil-0117)} and of \em{[rules](phil-0120)}. The big question is how his thoughts on each of those topics fit together. Brandom claims he has a rulish perspective on what it is for something to be a representation: for #{X} to be represented by #{Y} is:}
+\ul{
+\li{#{Y} to be subject to #{X}'s standards of correctness; }
+\li{#{X} has authority over #{Y}; }
+\li{#{Y} is responsible (for its correctness as a representation) to #{X}.}
+}
 \image{headshots/kant.jpeg}
 
 
-\p{# On [Locke](john-locke)
-The "celebrated Mr. Locke" (i.e. empiricism) offered "a mere physiology of the understanding." [^1] [^1]: A 85-7 / B 117-9 (from the [Critique of Pure Reason](ref-0014))
+\subtree{\title{On Locke}
+\p{The "celebrated Mr. Locke" (i.e. empiricism) offered "a mere physiology of the understanding." [^1] [^1]: A 85-7 / B 117-9 (from the [Critique of Pure Reason](ref-0014))
+}
 }
 
 \p{Kant read Hume's problem of getting from 'is' to 'ought' and his problem of getting from 'is' to 'must be' as two sides of one coin: the challenge is to understand necessity (both practical necessity  (morals) and theoretical necessity (alethic modal necessity)).}
 
-\p{Kantian problematic:
+\p{Kantian problematic:}
 
-Brandom writes that Kant transformed the Cartesian problematic from an \em{epistemic} one to a \em{semantic} one.
+\p{Brandom writes that Kant transformed the Cartesian problematic from an \em{epistemic} one to a \em{semantic} one.
 }
 
 \ul{

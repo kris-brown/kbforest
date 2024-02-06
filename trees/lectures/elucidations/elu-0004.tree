@@ -9,8 +9,8 @@
   \li{The truth is obviously contexually dependent on the speaker of the utterance.}
 }
 
-\p{\strong{# Examples}}
-\p{\strong{## Intermediate example - Mary}}
+\subtree{\title{Examples}
+\subtree{\title{Intermediate example - Mary}
 \p{Mary wins 1 million dollars in lottery}
 \ul{
   \li{Deedee says that Mary is rich now}
@@ -23,7 +23,8 @@
     \li{Contextualist says: because the conversational standards for deploying "rich" vary among Deedee's community and Naomi's community, the truth conditions of their utterances should also vary.}
 }
 
-\p{\strong{## Riskier example - the bank}}
+}
+\subtree{\title{Riskier example - the bank}
 \p{The bank case:}
 \ul{
     \li{On Friday, a man and his wife go to the bank and see a long line. The man says "Oh well we can go tomorrow" and asked how he knows, he says "I was here last Saturday and they were open."}
@@ -37,10 +38,13 @@
 \li{Contextualists could be said to be using some motivated reasoning to insulate ordinary belief from what goes on in the philosophy seminar room.}
 }
 
-\p{\strong{## Radical Example - Pea}}
+}
+\subtree{\title{Radical Example - Pea}
 \p{A more radical example is [Pia's Maple Tree](phil-0097).
 }
-\p{\strong{# More on spectrum}}
+}
+}
+\subtree{\title{More on spectrum}
 \p{The spectrum could be said to correspond to a belief in a 'core/unchanging' content of a word/sentence (meaning that is purely based on the definitions of the words) and people arguing how big that core should be.}
 \ul{
 \li{"The cat is on the mat" - which cat may change on context, etc. but there is 
@@ -48,7 +52,8 @@ something unchanging; we cannot mean "The dog is in the air." Those who disagree
 \li{Some radical contextualists don't say that for all X Y, X can mean Y. But just that forall utterances X, there is an indefinite number of meanings that are  consistent with that utterance (there are also an indefinite number of meanings that are inconsistent.)}
 }
 
-\p{\strong{# Context principle}}
+}
+\subtree{\title{Context principle}
 \p{The principle: that there is a kind of content of an utterance which is tied to the point of the utterance (which is tied to motivations/expectations of conversational participants).}
 
 \p{This is an underlying assumption of many contextualist arguments.}
@@ -62,4 +67,5 @@ something unchanging; we cannot mean "The dog is in the air." Those who disagree
 \li{Contextualists acknowledge that interests/focus of attention vary among people but do not pay special attention to what those interests are - harsh charge but evidence by the fact that most contextualists are not methadological contextualists}
   \ul{\li{([Wittgenstein](ludwig-wittgenstein) was a methodological contextualist). }}
 \li{The 'freighted terms' which philosophers are most often interested in seem to more likely be the cases like 'wealth' where we do not want to let people's biases dictate the correctness of their word usage.}
+}
 }

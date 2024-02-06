@@ -19,12 +19,6 @@
   \iftex{}{\xml{hr}{}}
 }
 
-\def\texfig[body]{
-  \iftex{\tex{\body}}{
-    \xml{center}{\tex{\body}}
-  }
-}
-
 \def\proof[body]{
   \iftex{
     \block{Proof}{\body}

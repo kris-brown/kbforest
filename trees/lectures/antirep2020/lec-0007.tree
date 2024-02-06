@@ -23,8 +23,8 @@
 
 }}
 
-\p{\strong{## Criticism}
-}
+\subtree{\title{Criticism}
+
 \p{Rorty encourages us to extend the lesson of the [Enlightenment](phil-0137) from the practical realm to the theoretical realm.
 }
 \p{We shouldn't let a non-human / non-rational authority dictate our practical reasoning (what we ought do). To be free, we must understand right/wrong as coming from ourselves. (for Kant: the commitments that are implicit in our practices of justifying our conduct to one another - he derived moral principles from commitments that are implicit in acting intentionally).
@@ -41,14 +41,15 @@
 }
 \p{The Enlightenment rejected non-rational authority: authority which does not give reasons / cannot be challenged. No rationally-binding authority is "just there". (\em{Power} can be like that, but not authority, which must have the possibility of critique).
 }
-\p{\strong{# A Social Route from Reasoning to Representing}
 }
+\subtree{\title{A Social Route from Reasoning to Representing}
+
 \p{Brandom thinks, for the normative status of "being a self", Rorty's argument is right. This is the status Hegel says is instituted by attitudes of reciprocal recognition. However, there are derivative normative status (conferred by social practices, parasitic on the primary normative status of being a normative self). E.g. omens/oracles: a community gives a bunch of black birds the normative significance of being a bad omen. Even though the birds cannot talk.
 }
 \p{We are led by these considerations to a problem in social engineering.  We must ask whether there is a structure or configuration of practices that deserves to count as granting to things specifically representational authority over our thought and talk. Can we describe practices in which communities confer authority over the correctness of their claimings on what they thereby count as talking about (representing, describing)? Can we make sense of such authority being \em{objective}, in the sense of attitude-transcendent?
 }
-\p{\strong{## Ordinary language}
-}
+\subtree{\title{Ordinary language}
+
 \p{In ordinary language we distinguish between:
 }
 \ul{
@@ -57,8 +58,9 @@
 }
 \p{Assessment of what people are talking and thinking about, rather than what they are saying about it, is a feature of the essentially social context of communication.
 }
-\p{\strong{### Social perspectival account of knowledge}
 }
+\subtree{\title{Social perspectival account of knowledge}
+
 \p{For it to be knowledge that a scorekeeper takes another to have, that scorekeeper must adopt three sorts of practical attitude:
 }
 \ul{
@@ -112,7 +114,7 @@
 }
 \p{De Re: The defense attorney claims \strong{of} a pathological liar that he is a trustworthy witness.
 }
-\p{\strong{The expressive function of de re ascriptions of propositional attitude is to make explicit which aspects of what is said express commitments that are being attributed and which express commitments that are undertaken.}
+\p{The expressive function of de re ascriptions of propositional attitude is to make explicit which aspects of what is said express commitments that are being attributed and which express commitments that are undertaken.
 }
 \p{What is made explicit by \em{de re} specifications of the contents of the beliefs of others is an essential element of communication.
 }
@@ -138,9 +140,9 @@
 }
 \p{Price will make a distinction between I-representations (internal to a practice) and E-representations (those external to it, stand above it). He says what Brandom is talking about here is called "I-representation". Price is a global anti-representationlist about E-representation. 
 }
+}}
+\subtree{\title{Hegel's version of social pragmatism about the normative}
 
-\p{\strong{# Hegel's version of social pragmatism about the normative}
-}
 \p{Things that can talk, concepts, stories, etc. have histories. 
 }
 \p{What we are in ourselves (the Kantian thing-in-itself talk) is one thing, but what we are \em{for} ourselves is more important (think of this as a black-box notion). We are essentially self-conscious creatures: what we are in ourselves depends on what we are for ourselves. Such creatures are subject to a distinct type of self-creative change. (this doesn't mean they become what they think they are, but you can't understand what the human being \em{is} without understanding what they are for themselves - their self story is an essential part of who they are).
@@ -168,4 +170,5 @@
 \p{Alienation is losing our grip on the intelligibility of norms as genuinely binding on us, as a result of overcoming fetishism and understanding them as instituted by our attitudes. Alienation in this sense is what Rorty's pragmatism both endorses in theory and adopts in practice. Rorty deliberately chooses the Romantic and Hegelian term “irony” for the sort of private detachment from the commitments that govern our public life that he recommends and esteems. To have authority or be responsible just _is_ to be practically taken or treated _as_ authoritative or held responsible by the community.[^tw]  There is not and cannot intelligibly be anything _else_ that is authoritative over our practices and practical attitudes.  That is what Rorty means by anti-authoritarianism.
 }
 \p{[^tw]:  The serious thought “The truth is whatever your community will let you get away with.”
+}
 }

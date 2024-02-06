@@ -1,6 +1,5 @@
 \title{What abstraction looks like}
 \import{macros}
-\texpackage{quiver}
 
 \p{
 Category theory allows one to talk about things in a sort of "universal" 
@@ -26,7 +25,7 @@ justice and government without making reference to what a human is?}
   makes us feel like we've lost information.}}
 
 
-\texfig{
+\quiver{
 \begin{tikzcd}
 	\bullet & \bullet \\
 	\bullet & \bullet
@@ -52,7 +51,7 @@ justice and government without making reference to what a human is?}
   \li{ Now the category theory perspective of the above might look like this:}
 }
 
-\texfig{\begin{tikzcd}
+\quiver{\begin{tikzcd}
   \bullet & \bullet & \bullet
   \arrow["{m_1}", from=1-1, to=1-2]
   \arrow["{m_2}", from=1-2, to=1-3]

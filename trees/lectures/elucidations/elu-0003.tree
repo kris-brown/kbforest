@@ -1,7 +1,7 @@
 \title{11. Philosophical pictures}
 \tag{elucidations}
 
-\p{\strong{# Augustinian picture of how we learn language}}
+\subtree{\title{Augustinian picture of how we learn language}
 \p{Wittgenstein opens PI Augustine's picture:
 } 
 \ul{
@@ -11,7 +11,8 @@
     stands (Problem: what object does the word 'and' stand for?)}
 }
 
-\p{\strong{# Is _Philosophical Investigations_ criticizing this picture?}}
+}
+\subtree{\title{Is Philosophical Investigations criticizing this picture?}
 
 \p{Standard thought is this picture is the main object of criticism of PI}
 \ul{
@@ -34,7 +35,8 @@
     \li{The closer the picture is to a fully fleshed out theory, the harder (more artificial-seeming) this becomes.}
 }
 }
-\p{\strong{# Is Wittgenstein criticizing Plato?}}
+}
+\subtree{\title{Is Wittgenstein criticizing Plato?}
 \p{If Wittgenstein is not strictly criticizing Augustine, is he at least criticizing [Plato](plato)?
 }  
 \p{Wittgenstein quotes Theatetus picture of language: Socrates is presenting something he has heard and he concludes we don't really understand it.}
@@ -46,8 +48,10 @@
       \li{He doesn't really want to construct theories, but rather wants philosophical peace / quietism.}
 
 }        
-\p{\strong{# More potentially harmful pictures}}
+}
+\subtree{\title{More potentially harmful pictures}
 \ul{
   \li{thinking as something that goes on inside your head}
   \li{regarding infinity as merely something very large}
+}
 }

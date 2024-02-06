@@ -14,8 +14,8 @@ These are all just statements in vocabularies. Without privileging a "\em{nature
 }
 \p{\mark{This is a very category-theoretic insight: that it is sufficient to look at the interactions to recover what before was taken as an ontological difference}
 }
-\p{\strong{# Antibifurcationism}
-}
+\subtree{\title{Antibifurcationism}
+
 \p{Anti-bifurcationism was coined by [Price](huw-price) to reject the following view.
 }
 \p{Richard Kraut [writes](ref-0070):}
@@ -52,5 +52,6 @@ These are all just statements in vocabularies. Without privileging a "\em{nature
     \li{are true (or false) by convention}
     \li{do not express 'facts of the matter'.}
 
+}
 }
 }

@@ -97,6 +97,12 @@
     </xsl:copy>
   </xsl:template>
 
+  <xsl:template match="embedded-tex">
+   <center>
+    <img src="resources/{@hash}.svg"/>
+   </center>
+  </xsl:template>
+
   <xsl:template match="headline">
     <summary>
       <xsl:apply-templates />
@@ -161,6 +167,7 @@
         </script>
 
         <script type="module" src="forester.js"></script>
+        <script src="reload.js"></script>
         <title>
           <xsl:value-of select="/tree/frontmatter/title" />
         </title>
@@ -168,10 +175,10 @@
         <script type="text/javascript">
           <xsl:text>
           window.DiscourseEmbed = {
-            discourseUrl: 'https://www.krisb.org/',
-            discourseEmbedUrl: 'https://krisb.org/forest/</xsl:text><xsl:value-of select="/tree/frontmatter/addr" /><xsl:text>.xml'
+            discourseUrl: 'https://www.localcharts.org/',
+            discourseEmbedUrl: 'https://forest.localcharts.org/</xsl:text><xsl:value-of select="/tree/frontmatter/addr" /><xsl:text>.xml'
           };
-          const isLive = /^https:\/\/krisb.org/forest/.test(window.location);
+          const isLive = /^https:\/\/forest.localcharts.org/.test(window.location);
           const isEnabled = </xsl:text><xsl:choose>
             <xsl:when test="/tree/frontmatter/meta[@name = 'comments']/.='true'">
               <xsl:text>true</xsl:text>
@@ -191,6 +198,7 @@
         </script>
       </head>
       <body>
+        <div class="container">
         <ninja-keys placeholder="Start typing a note title or ID"></ninja-keys>
         <xsl:if test="not(/tree[@root = 'true'])">
           <header class="header">
@@ -207,21 +215,25 @@
           <article>
             <xsl:apply-templates select="tree" />
           </article>
-          <xsl:if test="tree/mainmatter/tree[@toc='true'] and not(/tree/frontmatter/meta[@name = 'toc']/.='false')">
-            <nav id="toc">
+          <nav id="toc">
+            <xsl:if test="tree/mainmatter/tree[@toc='true'] and not(/tree/frontmatter/meta[@name = 'toc']/.='false')">
               <div class="block">
                 <h1>Table of Contents</h1>
                 <xsl:apply-templates select="tree/mainmatter" mode="toc" />
               </div>
-            </nav>
-          </xsl:if>
+            </xsl:if>
+          </nav>
           <div id="discourse-comments"></div>
         </div>
         <footer class="footer">
-          <xsl:text>
-            Tip: use Ctrl-K to open a search window.
-          </xsl:text>
+          <p>
+            <xsl:text>
+              Tip: use Ctrl-K to open a search window.
+            </xsl:text>
+          </p>
+          <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><span property="dct:title"><xsl:text>LocalCharts Forest</xsl:text></span><xsl:text> is licensed under </xsl:text><a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;"><xsl:text>CC BY 4.0</xsl:text><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" /><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" /></a></p> 
         </footer>
+      </div>
       </body>
     </html>
   </xsl:template>

@@ -14,11 +14,12 @@ Lincoln: How many legs does a horse have?}
 \p{Lincoln: Absolutely not, that's wrong. Calling a tail a leg doesn't make it a leg!
 }
 
-\p{\strong{# Lessons}}
+\subtree{\title{Lessons}
 \ul{
 \li{When you specify counterfactuals, you still have to do this in your actual language.[^2d] }
 \li{This correctly asserts that changing one's way of talking does not affect the order of \em{being} (this is one way of characterizing the order of being), though it can affect the order of \em{explanation}.
 }}
 
 \p{[^2d]: Two-dimensional modal logic is supposed to be a technical tool to allow us to specify counterfactuals in other languages.
+}
 }

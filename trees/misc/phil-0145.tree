@@ -5,20 +5,22 @@
 
 It seems there is no problem thinking about what triangles and white things are, but what of triangularity and whiteness?}
 
-\p{\strong{### Realism}
-}
+\subtree{\title{Realism}
+
 \p{Realism asserts that universals are real things, that \em{triangularity} does refer to something in the world, although perhaps some metaphysical realm.
 }
 \p{[Plato](plato) is an example.}
 
-\p{\strong{### Nominalism}}
+}
+\subtree{\title{ Nominalism}
 
 \p{[Berkeley](george-berkeley) rejected Locke's view of abstract ideas on [empiricist](phil-0039) grounds. For him \em{triangularity} is just a name that refers to all triangles, rather than referring to something in particular.
 }
 \p{There are no abstract ideas, just particulars.
 }
-\p{\strong{### Conceptual nominalism}
 }
+\subtree{\title{Conceptual nominalism}
+
 \p{One can accept that universals refer to things in the world but be clear that they are mental things (concepts). [Locke](john-locke) is an example.
 }
-
+}

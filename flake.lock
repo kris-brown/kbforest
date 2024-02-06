@@ -21,11 +21,11 @@
         "systems": "systems"
       },
       "locked": {
-        "lastModified": 1701680307,
-        "narHash": "sha256-kAuep2h5ajznlPMD9rnQyffWG8EM/C73lejGofXvdM8=",
+        "lastModified": 1705309234,
+        "narHash": "sha256-uNRRNRKmJyCRC/8y1RqBkqWBLM034y4qN7EprSdmgyA=",
         "owner": "numtide",
         "repo": "flake-utils",
-        "rev": "4022d587cbbfd70fe950c1e2083a02621806a725",
+        "rev": "1ef2e671c3b0c19053962c07dbda38332dcebf26",
         "type": "github"
       },
       "original": {
@@ -109,11 +109,11 @@
         "rust-overlay": "rust-overlay"
       },
       "locked": {
-        "lastModified": 1702852235,
-        "narHash": "sha256-ZcQkBGY5xeUX06k9ulT8pskkWJBhTl67YL1J3rTkf68=",
+        "lastModified": 1707123559,
+        "narHash": "sha256-WL533ZK+OR2561YlcMqsFNyMjgh0kYLw8RJmPibITaY=",
         "owner": "kentookura",
         "repo": "forest-server",
-        "rev": "52b06897956cfaafcf97b349359fe297574e36e2",
+        "rev": "6c4f5a2957264b33118931ce3d62f3fe05abd617",
         "type": "github"
       },
       "original": {
@@ -134,11 +134,11 @@
         "opam-repository": "opam-repository_2"
       },
       "locked": {
-        "lastModified": 1705846822,
-        "narHash": "sha256-Cf1ylkVxpePOpq6YLao3ub/96oKLCuwgSUKY9H4w51o=",
+        "lastModified": 1707148267,
+        "narHash": "sha256-vg5IHby1vpZ9RqoOwoLVUv5OAcHWXPUvZP8NyYKw4Pw=",
         "owner": "~jonsterling",
         "repo": "ocaml-forester",
-        "rev": "29da4cd644514646541e359efda09bdfc10709df",
+        "rev": "425d8cb672273f0f0bc285341f1ce73da2c58542",
         "type": "sourcehut"
       },
       "original": {

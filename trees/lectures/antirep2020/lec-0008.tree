@@ -2,8 +2,8 @@
 \import{base-macros}
 \p{To understand [subject naturalism](phil-0089), we first need to understand object-naturalism (normally just called "[naturalism](phil-0082)").}
 
-\p{\strong{# Placement problems}
-}
+\subtree{\title{Placement problems}
+
 \p{Frank Jackson's "location problem". The first two chapters of Oxford Locke lectures ("From Metaphysics to Ethics") are an authorative statement of this. Brandom says these lectures capture what happened to logical positivism / empiricism: a version of that for the late 20th century. Related to the [Canberra plan](phil-0019).
 }
 \p{What does the best natural science of our time tells us about the world. In some sense, it tells us everything. If we have a problematic vocabulary, we need to understand how it relates to what our best science tells us is out there (what does it refer to in the natural world?). 3 M's for potentially problematic vocabularies: morals, modals, mathematics. What kinds of things are "necessity"/"norms"/"numbers"? Also problematic could be intensional vocabulary (beliefs/desires), semantic vocabulary (e.g. relation of reference).
@@ -12,24 +12,26 @@
 }
 \p{E.g. for ethics, being a noncognitivist/expressivist could be a way dimissing it, but one might make it respectable by saying that, in the world, we all feel a feeling of revulsion to torturing helpless strangers which is what makes it true that it's wrong.
 }
-\p{\strong{# Subject naturalism}
 }
+\subtree{\title{Subject naturalism}
+
 \p{A meta-philosophical idea about the relationship between philosophy and science. Let's be naturalist about the subjects doing the talking, not necessarily the things they are about.
 }
 \p{Huw identifies this with Hume, who he says gave a subject naturalist account of modality and morality (describing what we're \em{doing} when we say things "must be"). Brandom identifies this with the later Wittgenstein. Brandom also identifies this with the Heidegger of \em{Being and Time} (but that the later Heidegger rejected subject naturalism, calling the earlier work "merely anthropological").
 }
 \p{Modality not hard for \em{naturalists} to make sense of (natural laws are modal).
 }
-\p{\strong{## Natural numbers - a paradigm of subject naturalism}
-}
+\subtree{\title{Natural numbers - a paradigm of subject naturalism}
+
 \p{Object naturalists are puzzled by what numbers actually \em{are} / locating them in the world of natural science.
 }
 \p{Wittgenstein asks us what do we have to \em{do} to be using the natural numbers. His thought was subject naturalism: if we can get clear about counting, subject naturalism says we should not worry about the metaphysics or ontology of numbers. 
 }
 \p{Philosophically we should worry about singular term usage of a distinctive kind, rather than ontology or metaphysics. If you think there's a metaphysical problem to be solved about numbers, then you might just have a bad semantic model (name-bearer relationship for singular terms).
 }
-\p{\strong{## Philosophy of math }
 }
+\subtree{\title{Philosophy of math }
+
 \p{Paul Benacerraf summary of 20th century phil of mathematics:
 }
 \ul{
@@ -41,8 +43,9 @@
 }
 \p{This can be resolved with recognizing abstraction as a way of coming to know something, rather than an ontological property of an object.
 }
-\p{\strong{## Abstract objects}
 }
+\subtree{\title{Abstract objects}
+
 \p{"Things" like numbers, triangularity, propositions.
 }
 \p{Nominalists have an ontology that says abstracta don't exist. 
@@ -50,21 +53,25 @@
 
 \p{Philosophers use the terms 'concrete' and (especially) 'abstract' without thinking very much about what they mean. Frege tells us exactly what they mean.  Strictly, abstraction is a way of introducing new sortal terms (and so singular terms), based on the use of old ones, via equivalence relations.  
 }
-\p{\strong{Characterizing predicates}:
+\table{
+  \tr{
+    \th{Characterizing predicates}
+    \th{Sortal predictates}
+  }
+  \tr{\td{\ul{
+    \li{come with criteria of application and consequences }
+    \li{example: red}
+    
+    }
+    }\td{\ul{
+      \li{additionally with criteria of application and identity/individuation}
+      \li{The question “Is this the same K as that?” makes sense for sortals (kind terms) K.}
+      \li{example: dog}
+      
+      }
+      }}
 }
-\ul{
-\li{come with criteria of application and consequences }
-\li{example: red}
 
-}
-\p{\strong{Sortal predictates}:
-}
-\ul{
-\li{additionally with criteria of application and identity/individuation}
-\li{The question “Is this the same K as that?” makes sense for sortals (kind terms) K.}
-\li{example: dog}
-
-}
 \p{Frege has the first non-psychological account of what you're doing when you abstract. This is a subject-naturalist account of our use of abstract singular terms. The alternative at the time was a kind of "anti-atttention".
 }
 \p{Abstraction is a process that introduces new sortals based on old ones, which inherit their criteria of application and individuation as transforms of the criteria of application and individuation from the old vocabulary.
@@ -92,20 +99,23 @@
 }
 \p{Making sense of semantic vocabulary: Early Wittgenstein said the picturing relation itself is a paradigm case for something that cannot be pictured, cannot in principle be said. This was distressing to the Vienna Circle. (Ramsey: "if you can't say it you can't whistle it either" invoking \em{showing} is not a help there). It wasn't until Tarski published theory of truth was Carnap relieved that semantic vocabulary could, in fact, be respectable.
 }
-\p{\strong{## Priority thesis}
 }
+\subtree{\title{Priority thesis}
+
 \p{The questions of the subject naturalist are conceptually prior to those of the object naturalist. The object naturalist allows as a possible answer "this discourse doesn't refer" to location problems (e.g. astrological discourse "The moon is in a bad house for you today"). From their perspective, that means there is something defective about the discourse. But the fact that they accept as a possibility that we do things with language other than describe means that they do must accept that, prior to finding the truthmakers, we must ask how does this way of talking work?
 }
 \p{Therefore asking object naturalist question (instead of the subject naturalist question) must be justified in every specific case.
 }
-\p{\strong{### Another argument for the priority thesis:}
-}
+\subtree{\title{Another argument for the priority thesis:}
+
 \p{The object naturalist has to say something about the reference relation between our vocabulary for talking about the world and the world itself. But the object naturalist has to locate the reference relation itself: i.e. solve the location problem for semantic vocabulary.[^lad]
 }
 \p{[^lad]: Otherwise you're in the embarrassing position Wittgenstein is at the end of the [Tractatus](ref-0066).
 }
-\p{\strong{## Quinean challenge }
 }
+}
+\subtree{\title{Quinean challenge }
+
 \p{The "vocabulary" vocabulary motivated for rorty by Quine's argument that you can't make a language-theory distinction.  
 }
 \p{This is not the conclusion quine drew: Quine established the holistic character of total theories (what Rorty called vocabularies) and took that to show that you couldn't scientifically study these things: meaning is not a fit topic for scientific study; we should only study reference (which is atomic, not holistic) / we should only use \em{extensional} notions in our semantics (i.e. in terms that only depend on reference). This is about truth, not understanding.
@@ -141,15 +151,17 @@
 }
 
 
-\p{\strong{### Commentary on dispositions}
-}
+\subtree{\title{Commentary on dispositions}
+
 \p{Naturalist philosophers (who would shy away from talking about the properties of use of expressions or norm-talk) sometimes think once they start talking about "dispoitions" that they are speaking in a naturalistically-acceptable vocabulary. But what vocabulary are you allowed to specify the dispositions in? "He's disposed in circumstances #{C} to respond with #{R}". Everything turns on what vocabulary you can specify #{C} and #{R} in. One could talk of "the disposition to use '#{\neg}' to mean negation" or "the disposition to respond correctly to red things by saying 'red'". This won't be naturalistically acceptable to a naturalist, even though it's in dispositional terms. 
 }
 \p{So it's a distraction to be worrying about whether someone is using dispositional terms or not; what matters is whether one is being a naturalist in their pragmatic metavocabulary.
 }
-
-\p{\strong{# Dividing through by the naturalism}
 }
+}
+}
+\subtree{\title{Dividing through by the naturalism}
+
 \p{Huw looks at two uses of naturalistic vocabulary: one on the side of objects represented, and another on the side of the practices that can be understood as representing/describing them (but at the cost of metaphysical puzzlement about the extravagant ranges of facts and kinds of objects one must envisage)
 }
 \p{That can be understood in more pragmatic terms, not shoe-horned in Procrustean ways into the representational model. (This is what HP means by “expressivism”—or at any rate, how he wants to adopt and co-opt the vocabulary of metaethical expressivism, as generalized by [Blackburn](simon-blackburn) to the “3 'M's”.).
@@ -171,8 +183,9 @@
 }
 \p{We used to think of philosophers as translating statements from the problematic vocabulary to the preferred vocabulary. But an important distinction to make is whether it's enough to describe what the speakers are \em{doing} in the preferred vocabulary vs describe what they're talking \em{about} in the preferred vocabulary. This preferred vocabulary for \em{doings} need not be the same as the preferred vocabulary for \em{contents}.
 }
-\p{\strong{# Semantic deflationism}
 }
+\subtree{\title{Semantic deflationism}
+
 \p{Huw calls it  "Semantic minimalism".[^now]  Semantic deflationism gave Huw a grip on placement problems.
 }
 \p{Historical background: [Ramsey](frank-ramsey) and [Quine](wo-quine) call it disquotationalism. This becomes [Strawson](peter-strawson)'s "[Redundancy theory of facts](phil-0111)". Horwich called it minimalism, which is where Huw got the name.
@@ -185,7 +198,7 @@
 }
 \p{Examples of the above: Kantians like Korsgaard and [Habermas](jurgen-habermas) using detailed arguments from the philosophy of action and the philosophy of language (respectively) to draw significant conclusions in moral and political theory.
 }
-\p{\strong{## Prosentential theory of truth}}
+\subtree{\title{Prosentential theory of truth}
 
 \p{Pronouns have a lazy use: "Leibniz was smart and \em{he} was cool"
 But they also have quantificational uses: "Anyone who votes for X deserves what \em{he} gets."
@@ -217,6 +230,10 @@ But they also have quantificational uses: "Anyone who votes for X deserves what 
 }
 \p{This is a complex, self-referential claim. But Price sees (correctly) that it is absolutely essential to object-naturalism, that is, to applying the descriptive- representational semantic model \em{universally}. And his claim is \em{not} that this idea is unintelligible. Rather, he follows Putnam (in his stuff on “internal” and “external” realism) in claiming not that there is no such relation, but that there are, at least in principle, too \em{many}. The demand for a relation that stands to 'refers' as Fido stands to 'Fido' is not only 1. too weak to pick out a unique relation of reference-representation, but 2. too weak sufficiently to constrain relations so as to pick out only relations that are plausibly or colorably \em{reference or representation} relations. Recall that there are infinite number of respects of similarity between the relations between names and what they are names of and relations between 'refers' and \em{absolutely anything}. Here Putnam imagines someone holding up an uninterpreted sign labeled 'refers', to mediate between words and things, and when asked to interpret it, holds up another sign labeled 'causes' (“in the right way”).
 }
+}
+}
 
+\subtree{\title{Finale}
 \p{Goal of the course: synthesize Rorty's pragmatism with Price's global expressivism by seeing the key insight into Wittgensteinian pragmatism as subject naturalism without a scientistic restriction on the dissolving metavocabulary in which one specifies (and demystifies) discursive practice.
+}
 }

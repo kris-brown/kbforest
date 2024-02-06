@@ -1,7 +1,7 @@
 \title{3. Nietzsche and Morality}
 \tag{elucidations}
 
-\p{\strong{# What does Nietzsche mean by morality?}}
+\subtree{\title{What does Nietzsche mean by morality?}
 
 \p{Nietzsche means something different from ethics when using the term morality
 }
@@ -21,7 +21,8 @@
       \li{E.g. Nietzsche is a critic of utilitarianism, which might have some
         but not all of these features}}
 }}
-\p{\strong{# Naturalism about morality}}
+}
+\subtree{\title{Naturalism about morality}
 \p{Leitner calls Nietzsche a naturalist thinker about morality: Thinking of him in line with Hume and Freud, rather than the popular view of thinking of him as a precursor to postmodernism}
 \p{"Naturalist" is a fraught term. Need to distinguish:}
 \ul{
@@ -44,7 +45,8 @@
     \li{E.g. in geneology of morals: how did the acetic ideal come to dominate the human mind / major religions.}
 }}
 
-\p{\strong{# What is the argument?}}
+}
+\subtree{\title{What is the argument?}
 \p{How would Nietzsche try to convince someone who believes in morality (in the pejorative sense)?}
 \p{Leitner believes Nietzsche's goal is not to get everyone to give up on morality.}
 \ul{
@@ -60,7 +62,8 @@
 \p{But you can't argue someone out of their morality, so rhetoric is important.}
 
 
-\p{\strong{# Is different types of good for different people self-contradictory?}}
+}
+\subtree{\title{Is different types of good for different people self-contradictory?}
 \p{Nietzsche wants different moralities for different types of people, but maybe he's implicitly arguing for a universal principle "what is good for people is good for their individual fluorishing as the type of person they are"
 }
 \p{Distinguish two kinds of goodness}
@@ -73,7 +76,8 @@
   \li{Nietzsche thinks it's a matter of taste whether flourishing of higher beings is more important than well-being of the herd.}
 }}\p{So he is not aiming for a universal principle that is in the best interest of everyone.}
 
-\p{\strong{# Relevance to contemporary analytic moral philosophy}} 
+}
+\subtree{\title{Relevance to contemporary analytic moral philosophy}
 \p{Leiter: I don't think "analytic philosophy" exists, beyond some general stylistic concerns like attempting to be clear.}
 \p{There is a current strand of moral philosophy intersecting with psychology that he would fit in with.}
 \p{Nietzsche was a speculative naturalist, it's possible that his beliefs that had empircal content are not psychological facts, but Leitner thinks after a century of psychological research that Nietzsche was right often.}
@@ -81,3 +85,4 @@
   \li{E.g. he centred the role of the subconscious}
   \li{Among the three dominant paradigms of moral psychology, [Aristotle](aristotle) / Kant / Nietzsche, Nietzsche has the most plausible underlying assumptions given what we now know about psychology.}
 }    
+}

@@ -1,8 +1,8 @@
 \title{01 - A Semantic Recollection of Hegel's Phenomenology of Spirit}
 
-\p{\strong{# Why Read Hegel Now?}}
+\subtree{\title{Why Read Hegel Now?}
 
-\p{\strong{## Major themes of Kant}}
+\subtree{\title{Major themes of Kant}
 
 \p{Normativity of intentionality:[^w]}
 \ul{
@@ -38,7 +38,8 @@
 \li{Hegel can be seen as showing us how to accept the normativity of the conceptual without creating a dualism.}
 
 }
-\p{\strong{## Major themes of [Hegel](gwf-hegel)}}
+}
+\subtree{\title{Major themes of Hegel}
 
 \p{Social account of normativity:}
 
@@ -56,8 +57,8 @@
 }
 \p{[^cart]: The attitudes and statuses never perfectly coincide (the gap between them drives the process of development). The limit of them aligning is the transparent Cartesian kind of self-consciousness and concepts which are immutable/determinate in the definitional sense.
 }
-
-\p{\strong{# How Should We Read Hegel Now?}}
+}}
+\subtree{\title{How Should We Read Hegel Now?}
 
 \p{[Brandom](robert-brandom)'s reading of Hegel is deeply informed by his inferentialist understanding of linguistic meaning. Some commentators discredit this as a "misreading" which takes too much license and strives from the meaning of the text. But Brandom defends it as a \em{Hegelian} reading of Hegel.
 }
@@ -68,4 +69,5 @@
 \p{\em{De re} readings of a text allow one to make combine the speaker's knowledge and commitments with the dead author - Russell can ask whether Plato's use of "part" and "whole" referred to \em{subset} or \em{element of}. We can look back at the past (given our present commitments and knowledge) and say what people then were not in a position to realize they were really talking about.
 }
 \p{This philosophy of hermeneutics is precisely in accord with Hegelian recollection, hence Brandom finds it especially appropriate for applying to Hegel's own texts. 
+}
 }

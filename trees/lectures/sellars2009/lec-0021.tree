@@ -1,6 +1,6 @@
 \title{03 - Language as thought and different species of ought (2009)}
 
-\p{\strong{# Language as thought and communication}}
+\subtree{\title{Language as thought and communication}
 
 \p{Sellars wants to give us a naturalistic account of intentionality.
 }
@@ -42,7 +42,7 @@ intentional concepts in terms of behavior. (This doesn't mean that the intention
 states are less real, just that we aren't in a position to observe anything but 
 the behavior)
 }
-\p{\strong{##  Digressions}}
+\subtree{\title{Digressions}
 \p{[Semantics](phil-0124) is a field with instrumentalist vs theoretical realist views. [Michael Dummett](michael-dummett) is an instrumentalist by observing the fact that meaning something is only understood through verbal behavior and concluding that any theory of meaning must be definable in terms of behavior.
 }
 \p{(A theoretical realist might postulate meanings as theoretical entities to explain verbal behavior and say our access to meanings is inferential and, if they are good theories, then verbal behavior gives us inferential access to something (meanings) that exist.)
@@ -118,13 +118,15 @@ possible for the language enterprise get off the ground (i.e. without trainers).
 
 \transclude{int-0017}
 
-\p{\strong{# Romantic views of language}
-}
+}}
+\subtree{\title{Romantic views of language}
+
 \p{People with romantic views of language: [Derrida](jaques-derrida) and [Nietzsche](frederich-nietzsche). These are compatible with Wittgenstein [believing language has no downtown](ludwig-wittgenstein).}
 
 \p{Sellars disagrees: the language-language inferential transitions are of the first importance among those because what makes the entries and exits \em{language} entries and exits is the way they connect to the inferential moves. And so he would say to Derrida, "yes, we do all of these other wonderful things with the language, but that's all parasitic on the meanings that things are given because of the role they play in the space of reasons... now, once you've got that up and running, once you've got those meanings to work with, now you can start to do other playful things with it, e.g. use them metaphorically. All sorts of things become possible. But that's in principle a superstructure on this structure."
 }
-\p{\strong{# Transition}}
+}
+\subtree{\title{Transition}
 \p{Sellars story of how 'the light dawns slowly over the whole'.
 }
 \p{Both the infant and [Koko](https://en.wikipedia.org/wiki/Koko_(gorilla)) the gorilla can be trained into a language (in the form of conforming to ought-to-be's). At some point the human makes a jump - they have the concept and can be a trainer of others. What's the nature of that jump?
@@ -168,4 +170,5 @@ for, and which, accordingly, we take to express a thought. But she doesn't yet h
     \li{Self consciousness.}}
 }
 \p{We need to think of the child as being able to give evidence without the concept of evidence. This is important in the story of how the language game gets off the ground with the early hominids. But we have real experience with this: when teaching logic, it's helpful to teach students to have the practical mastery of writing proofs (prior to them having the concept of a proof). They first get familiar with the symbol pushing game. (proof is a strong form of evidence). This is very common in mathematics education.
+}
 }

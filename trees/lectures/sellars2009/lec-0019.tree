@@ -1,6 +1,6 @@
 \title{01 - Historical context and quotes (2009)}
 
-\p{\strong{# Introduction}}
+\subtree{\title{Introduction}
 \p{Brandom believes Sellars to be the most important American philosopher of the 
 20th century. Some ways in which Sellars was remarkable:
 }
@@ -19,7 +19,7 @@
   \li{Rawls on the theoretical side and Strawson/Bennett on the practical side brought Kant back into respectability in Anglophone circles, but Sellars was way out in front of this (and appreciated the significance of Kant deeper).} 
   \li{This is also why Sellars wasn't so influential - people didn't understand the Kant needed to appreciate him.}
 }}
-\p{\strong{## Kant's influence on Sellars}}
+\subtree{\title{Kant's influence on Sellars}
 \p{Kant's big idea:
 }
 \p{What is sapience? (what distinguishes \em{knowers} and mere responders to an environment?)
@@ -65,9 +65,9 @@ sense of that term, hang together, in the largest sense of that term."
 \p{[^world]: This is one dimension along which the world spirit has caught up with 
           Sellars.
 }
+}}
+\subtree{\title{Core programs of analytical philosophy}
 
-\p{\strong{# Core programs of analytical philosophy}
-}
 \p{Analytic philosophy held together as being a \em{semantic} project. }
 
 \ul{
@@ -99,18 +99,13 @@ sense of that term, hang together, in the largest sense of that term."
 \p{Another reason why Sellars is important is his distinctive views about 
 empiricism, naturalism, and functionalism.
 }
-\p{\strong{## Role of logic }
+\subtree{\title{Role of logic}
+
+\p{Logic as developed in the early 20th century is a powerful tool for giving us inferential control. Logical empiricists found this tool indispensible. They viewed the early empiricists (e.g. Locke, Hume) as having the right building blocks, but "association" was too weak of a mortar to hold them together and build the edifice of knowledge of the objective world.
+Although Sellars isn't a logical empiricist, he also found logic to be a useful tool and can be thought of as a logical Kantian. After Kant, the nextmost important philosopher for Sellars was Carnap. (despite Carnap's empiricism.)
 }
-\p{Logic as developed in the early 20th century is a powerful tool for giving us 
-inferential control. Logical empiricists found this tool indispensible. 
-They viewed the early empiricists (e.g. Locke, Hume) as 
-having the right building blocks, but "association" was too weak of a mortar to 
-hold them together and build the edifice of knowledge of the objective world.
-Although Sellars isn't a logical empiricist, he also found logic to be a useful
-tool and can be thought of as a logical Kantian. After Kant, the nextmost 
-important philosopher for Sellars was Carnap. (despite Carnap's empiricism.)
-}
-\p{\strong{# Summary of views}}
+}}
+\subtree{\title{Summary of views}
 
 \p{It is debated whether or not Sellars was an reductive naturalist, but Brandom does not 
 think so.
@@ -148,8 +143,8 @@ Complaint about Cartesian dualism:
 \p{A reductive naturalist doesn't have to face this threat of a dualism. But one 
 loses the meaning.
 }
-\p{\strong{## A Kantian idea that Sellars never lost sight of: the transcendental move}
-}
+\subtree{\title{A Kantian idea that Sellars never lost sight of: the transcendental move}
+
 \p{The conceptual framework that makes it possible to give matter-of-factual 
 descriptions of how things actually are - that framework has essential features 
 which can also be put into words - but those words will not be playing the role 
@@ -190,15 +185,16 @@ grammar.
 }
 \p{Pragmatic dependencies make explicit conceptual dependencies. E.g. "Looks #{\phi}" talk depends on "Is #{\phi}" talk. ([EPM](ref-0016))}
 
-\p{\strong{## Cautionary tale about saying things aren't descriptive}
-}
+}\subtree{\title{Cautionary tale about saying things aren't descriptive}
+
 \p{First-wave metaethical expressivists said that the role ethical vocabulary played was not 
 to \em{describe} but rather to express attitudes (e.g. approval, disapproval). But 
 Geach showed that there exist \em{some} descriptive content due to the intelligibility 
 of "If he ought to do X, then he has reason to do X" (one is not expressing 
 approval of doing X).}
 
-\p{\strong{# Conclusion}}
+}}
+\subtree{\title{Conclusion}
 \p{Kant is a empirical realist, transcendental idealist. Sellars is an empirical 
 naturalist, but a trancendental non-naturalist. This gives Sellars his unique 
 perspective on the problems of philosophy.
@@ -224,7 +220,8 @@ a Hegelian. }
   \li{Brandom says you don't get to count as a Hegelian unless you're concerned 
     with that whole thing, rather than just the scientific revolution.}}
 }
-\p{\strong{# Personal note}}
+}
+\subtree{\title{Personal note}
 \p{When Brandom joined the department in '76, Sellars was a bitter, grumpy old man, aged 65.
 This surprised Brandom in his youthful innocence (how could you be unhappy when
 you've been so philosophically accomplished? just think about your accomplishments!).}
@@ -242,4 +239,4 @@ you've been so philosophically accomplished? just think about your accomplishmen
   \li{He had the view, admirable but disasterous, to only deliver unfinished work at seminars (let's work out these ideas together, I don't want to tell you something that I have no chance of changing my mind about: that's what written publishing is for).}
   \li{At age 45 he was finally getting the respect he deserved and 9 years later it was all over.}
 }
-}
+}}

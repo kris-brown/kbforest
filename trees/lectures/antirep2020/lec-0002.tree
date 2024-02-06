@@ -4,10 +4,8 @@
 A discussion of [Philosophy and the Mirror of Nature](ref-0049). Brandom views the core argument to be chapter 4, which this lecture focuses on.
 }
 
-\p{\strong{# Rorty's basic idea}
-}
-\p{\strong{## Neokantianism vs a socialized/historicized/naturalized alternative}
-}
+\subtree{\title{Neokantianism vs a socialized/historicized/naturalized alternative}
+
 
 \p{Rorty redescribes the history of philosophy as a struggle over the [Relation of philosophy to other disciplines](int-0013). Fought by two camps in the 19th century and then re-enacted in the 20th century.
 } 
@@ -34,9 +32,8 @@ Rorty regards the pragmatist/holist Quine+Sellars rebuttals as bringing us back 
 \p{
 [^de]: the 20th century was a big pointless detour, recapitulating the same dielectic, just now with fancier technical / logical machinery.
 }
-
-\p{\strong{## Assimilation of two kinds of representations}}
-
+}
+\subtree{\title{Assimilation of two kinds of representations}
 \p{Similarities of Sellars and Quine:}
 \ul{
 \li{gave \em{holist} arguments, rejecting a kind of \em{atomism}. }
@@ -51,32 +48,32 @@ Rorty regards the pragmatist/holist Quine+Sellars rebuttals as bringing us back 
     \th{Quine}
   }
   \tr{
-    \td{Myth}
+    \th{Myth}
     \td{[Myth of the Given](phil-0079) }
     \td{[Myth of the Museum](phil-0080)}
   }
   \tr{
-    \td{Relevant work}
+    \th{Relevant work}
     \td{[Empiricism and the Philosophy of Mind](ref-0016)}
     \td{[Two Dogmas of Empiricism](ref-0068)}
   }
   \tr{
-    \td{Concept challenged}
+    \th{Concept challenged}
     \td{Sense-givenness}
     \td{Meaning-givenness}
   }
   \tr{
-    \td{Against atomism in}
+    \th{Against atomism in}
     \td{[epistemology](phil-0041)}
     \td{[semantics](phil-0124)}
   }
   \tr{
-    \td{Kantian representation}
+    \th{Kantian representation}
     \td{Sense impression}
     \td{Meaning-relation}
   }
   \tr{
-    \td{Regress stopped}
+    \th{Regress stopped}
     \td{premises[^rp]}
     \td{inferences[^ri]}
   }
@@ -131,7 +128,8 @@ Rorty was the first to see a common functional role to the above kinds of Kantia
 }
 \p{[^witt]: [Agreement on meanings requires agreement of judgments](q-0005)
 }
-\p{\strong{## Holism of Sellars and Quine}}
+}
+\subtree{\title{Holism of Sellars and Quine}
 
 \p{Sellars in [EPM](ref-0016)}
 \ul{
@@ -152,9 +150,8 @@ Rorty was the first to see a common functional role to the above kinds of Kantia
 
 }
 
-
-\p{\strong{## Who is Rorty opposing?}
 }
+\subtree{\title{Who is Rorty opposing?}
 \p{Is Rorty attacking a strawman? Rorty sees representationalism in semantics as bound up with [foundationalism in epistemology](phil-0049), but the two aren't actually tied together.[^knt] Empiricism / epistemological foundationalism are not popular now:
 }
 \ul{
@@ -175,4 +172,5 @@ Rorty was the first to see a common functional role to the above kinds of Kantia
 }
 }
 \p{[^knt]: Kant did not feel the need to address the Cartesian problematic / Agrippan trilemma. He felt that, once he resolved semantic skepticism and got clear of how it is possible for our thought to be object directed at all, that it was a trivial consequence that we need not worry about being radically out of touch with reality, as Descartes worried about. (His [Refutation of Idealism](https://plato.stanford.edu/entries/kant-transcendental/#RefIde) is quite short).
+}
 }

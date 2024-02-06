@@ -3,7 +3,7 @@
 \meta{external}{[Text](https://sites.pitt.edu/~rbrandom/Texts/What\%20is\%20Philosophy.docx)}
 \import{base-macros}
 
-\p{\strong{# Prelude: Natures and histories}}
+\subtree{\title{Prelude: Natures and histories}
 
 \p{A natural distinction we would casually make:
 }
@@ -30,7 +30,8 @@
 \p{Hegelian insight on the relationship between natures and histories: the nature #{X} of something is a particular kind of history: we have to be able to look back how previous generations have used #{X} and tell a \em{progressive} story of how each generation gradually uncovered the 'truth' of #{X}. This works similar to case law: present judges make judgments on the nature of justice (what it \em{really} is, atemporally) but they must do so by appealing to decisions earlier judges made. In this case, the 'judges' are other philosophers; Brandom is telling a progressive story of philosophy in order to show us its true nature.
 }
 
-\p{\strong{# What is Philosophy, in a nutshell}}
+}
+\subtree{\title{What is Philosophy, in a nutshell}
 
 \p{Philosophy is a broadly cognitive enterprise. Philosophers aim at a kind of \em{understanding}, not a kind of \em{knowledge}. Novelists and scientific theorists also seek a kind of understanding in various topics, but for philosophy the very topic itself is understanding. \em{We} are the topic, us \em{as} understanding creatures, discursive beings, makers/takers of reasons, seekers/speakers of truth.
 }
@@ -45,7 +46,8 @@
 }
 \p{Rational enterprise requires us to not only criticize beliefs but also concepts. Defective concepts restrict our thoughts, prevent us from coping with the world. They constrain us in a hidden/pernicious way. Philosophy gives us tools to make these constraints explicit, bring them out of the dark and into the light of conscious day.
 }
-\p{\strong{# What are concepts?}}
+}
+\subtree{\title{What are concepts?}
 \p{A Kantian idea: "Concept" is a \em{normative} concept, i.e. bound up with notions of commitment, entitlement, and responsibility. Applying concepts encompasses both judgment and action[^tp] . What distinguishes judgments and actions from mere behavior (e.g. of mice, bugs, thermometers) is that these are things we are (in a distinct sense) \em{responsible for}. They express \em{commitments} of ours. Concepts are norms/rules that determine what we've committed ourselves to or responsible for. E.g. a responsibility we take when judging/acting is to be able to give reasons for why.
 }
 \p{[^tp]: Respectively, our theoretical activity and our practical activity.
@@ -79,7 +81,8 @@
 }
 \p{Thus, if philosophy is to understand us qua creatures who distinctively judge and act, it must understand this normative dimension of human activity.
 }
-\p{\strong{# Inferentialism}}
+}
+\subtree{\title{Inferentialism}
 
 \p{One cannot fulfill the responsibility one undertakes by applying a concept without understanding the role the relevant concepts play in reasoning: what concept applications does this justify and which count as a justification for it? Concept-using creatures know their way around the \em{space of reasons}. 
 }
@@ -89,8 +92,9 @@
 }
 \p{The above gives priority to concepts' role in the game of giving and asking for reasons, though there are many things that we can do with them (make jokes, art, etc.). Romantic opponents of "logocentrism" want to foreground these uses of language equally, but the game of giving and asking for reasons is what makes a behavior qualify as \em{language} at all, hence the priority.
 }
-\p{\strong{# Example: how philosophy helps us get rid of bad concepts}
 }
+\subtree{\title{Example: how philosophy helps us get rid of bad concepts}
+
 \p{Inspired by Dummett's analysis of logical operators in terms of their introduction and elimination rules, we can think of concepts as having circumstances of application and consequences of application. These may be inferential or non-inferential.
 }
 \ul{
@@ -107,23 +111,27 @@
 }
 \p{Those who think logical inference is primary think of concepts in terms of truth conditions: this equates the conceptual content with its circumstances of application (which are the same as its consequences of application). This makes sense for \em{formal} concepts, but is a bad model of how substantively contentful concepts work. We want logical concepts to be \em{conservative} (introducing them does not change any inferences in the old vocabulary), but this is a very undesirable property for contentful concepts.  If we were brought up in a culture that uses Boche \em{and} thinks of concepts as defined by truth conditions, then it becomes challenging to criticize the concept - the most one can say is that one does not know how to specify truth conditions for the concept. Criticism of concepts is always criticism of the inferential connections
 }
-\p{\strong{# Example: philosophy helps us get rid of bad beliefs}
 }
+\subtree{\title{Example: philosophy helps us get rid of bad beliefs}
+
 \p{Above we showed beliefs being used to criticize concepts. Concepts can also be used to criticize beliefs. It is the material inferences incorporated in our concepts that we use to elaborate the antecedents and consequences of various candidates for belief—to tell what we would be committing ourselves to, what would entitle us to those commitments, what would be incompatible with them, and so on. Once it is accepted that the inferential norms implicit in our concepts are in principle as revisable in the light of evidence as particular beliefs, conceptual and empirical authority appear as two sides of one coin. 
 }
 \p{Rationally justifying our concepts depends on finding out about how things are;the structure of the space of reasons is \em{not} given in advance of our finding out how things are with what we are talking about. For what is \em{really} a reason for what depends on how things \em{actually} are.
 }
-\p{\strong{# Conclusion: what is philosophy?}
 }
+\subtree{\title{Conclusion: what is philosophy?}
+
 \p{Ostensive definition: the sort of thing that Kant and Hegel did (adding Plato, Aristotle, Frege, Wittgenstein starts turning the gesture into a story). 
 }
 \p{Philosophy is a discipline whose distinctive concern is \em{self-consciousness}: awareness of ourselves as \em{discursive} / concept-mongering creatures. Concept users make explicit what we are doing. Among the things we can make explicit are those very concept-using capacities that make it possible to make things explicit; that is philosophizing. 
 }
-\p{\strong{## Distinguishing this takeaway from neighboring views}
-}
+\subtree{\title{Distinguishing this takeaway from neighboring views}
+
 \p{Kant proclaimed metaphysics to be "queen of the sciences". Brandom agrees phiosophy's view does encompass all discursive activity, but philosophy is at most \em{a} queen of the sciences. Psychology, sociology, history, literary criticism, journalism ... these all also have broad applicability. Philosophy does not play a \em{foundational} role w/r/t other disciplines. Its claims do not come prior to (or after) those in some order of justification. It has no methodological privilege or insight that collides with other disciplines. 
 }
 \p{Rather than "queen", it is more of a "handmaiden". It doesn't supply norms, it only makes norms that were already in place explicit. It doesn't pass judgment, but makes it possible for judgment to be passed. It is the business of philosophers to figure out ways to increase semantic and discursive self-consciousness. What one does with that self-consciousness is not our business \em{qua} philosophers (\em{qua} intellectuals generally, it may well be).
 }
 \p{It is interest in our \em{normative} character that distinguishes philosophy (this is what underlies Cavell's [quote](q-0030)) from the sciences. The interest in \em{conceptual} normative distinguishes philosophy from humanistic disciplines (e.g. the literary). Conceptual commitments are distinguished by their inferential articulation.
 }
+
+}}

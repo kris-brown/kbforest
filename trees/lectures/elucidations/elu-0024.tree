@@ -5,7 +5,7 @@
 biologists/neuroscientists)?}
     \p{Perception has necessary role within analysis of certain concepts}
 
-\p{\strong{# Philophers need not come up with a theory of perception}}
+\subtree{\title{Philophers need not come up with a theory of perception}
 \p{
 Empirical facts about perception may be useful, and the physical theories of perception need not be challenged}
 \p{E.g. gestalt psychology could be important to phenomonology
@@ -20,7 +20,8 @@ Empirical facts about perception may be useful, and the physical theories of per
   sensations - how far are we (always) breaking down sense data into 
   objects? What physical mechanism does this?}
 
-\p{\strong{# What should philosophers do}}
+}
+\subtree{\title{What should philosophers do}
 \p{Philosophy should disentangle confusions that arise out of the natural usage of the term.}
 \p{An enduring example confusion: Tendency to approach problems in perception from a theory of knowledge.}
 \ul{
@@ -33,7 +34,7 @@ Empirical facts about perception may be useful, and the physical theories of per
 \p{It makes us wrongly think of the essence of perception as being in contact / direct relation with the world, as a means of getting knowledge.}
 \p{This is a category error: epistemologists are not actually dealing with perception, rather something derived from perception
 }
-\p{\strong{# Local error}}
+}\subtree{\title{Local error}
 
 \p{Seeing something far away might be misleading
 }
@@ -43,7 +44,7 @@ Empirical facts about perception may be useful, and the physical theories of per
   general, questioning whether we ever could be in contact with the real world.
 }
 
-\p{\strong{# Contact with the outside world}}
+}\subtree{\title{Contact with the outside world}
 \p{Raw data (waves/beams) impinge upon us, our minds make sense of this
 }\p{Optics / biology outside domain of philosophy.}
 \p{Then philosophy asks the trancendental question "how is it possible for us 
@@ -62,7 +63,8 @@ Empirical facts about perception may be useful, and the physical theories of per
     \li{It's legitimate inquiry into the role of perception among other aspects of reasoning, but it is not about perception itself.}
 }}
 
-\p{\strong{# Making sense of disagreement}}
+}
+\subtree{\title{Making sense of disagreement}
  \p{How does belief in raw contact with the world explain different observers 
   observing the same thing differently? E.g. "jaundiced eye" seeing the world with yellow tint.}
 \p{Benoist: perception is clearly dependent on where you are}
@@ -80,4 +82,4 @@ Empirical facts about perception may be useful, and the physical theories of per
     \li{Our subjectivity is just us being ourselves as we are in relation to the reality.}
     \li{Subjectivity just captures the factors of perception which are dependent on the perceiver's location/faculties}
     \li{Subjectivity is just one aspect of the reality of perception (direct contact with the world).}}
-
+}

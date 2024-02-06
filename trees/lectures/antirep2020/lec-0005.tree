@@ -7,8 +7,8 @@
 Rorty's literary kehre lasted 10 years. But he realized he's an analytic philosopher and that literary theorists didn't know how to make distinctions and were not good to talk to. He then had a political kehre (had extended interactions with Habermas).}
 
 
-\p{\strong{# Rorty's argument}
-}
+\subtree{\title{Rorty's argument}
+
 \p{Here are five claims or moves Rorty might be seen to be making:
 }
 \ol{
@@ -21,9 +21,9 @@ Rorty's literary kehre lasted 10 years. But he realized he's an analytic philoso
 }
 \p{[^tde]: The appeal here is to Quine's pragmatist arguments in [Two Dogmas of Empiricism](ref-0068).
 }
-
-\p{\strong{# RR on Romanticism}
 }
+\subtree{\title{RR on Romanticism}
+
 
 \p{Mediating between idealism and pragmatism.
 }
@@ -50,15 +50,15 @@ Rorty's literary kehre lasted 10 years. But he realized he's an analytic philoso
 }
 \p{Rorty has a notion of a "presiding cultural discipline" - since the [Enlightenment](phil-0137) it has been science, but in the future it could be literature. Science was emancipatory at the start of the Enlightenment, but by the end of the 19th century it became constraining.
 }
-\p{\strong{## Danger: backsliding into Carnapian pragmatism}
-}
+\subtree{\title{Danger: backsliding into Carnapian pragmatism}
+
 \p{Rorty says that what the romantics discovered that we are free to pick our vocabulary.
 }
 \p{Treating vocabularies as if they are languages that we are free to chose from is dangerously close to Carnapian pragmatism. This is a misuse of the vocabulary vocabulary because it violates Quine's anti-Carnap lesson.
 }
+}}
+\subtree{\title{Criticism of "There is nothing outside of the text"}
 
-\p{\strong{# Criticism of "There is nothing outside of the text"[^mcd]}
-}
 \p{Rorty classifies this claim of [Derrida](jaques-derrida) as "weak textualism" and sees it as backsliding into representationalist philosophy.
 }
 \transclude{q-0144}
@@ -98,8 +98,9 @@ Rorty thinks, if you say it's a world of facts, you've conceded his antirepresen
 }
 \p{You might try to avoid this by thinking of a world of objects, but objects are equally vocabulary-dependent. (you need \em{[sortals](phil-0130)} to distinguish objects).
 }
-\p{\strong{# Two senses of vocabulary-dependence}
 }
+\subtree{\title{Two senses of vocabulary-dependence}
+
 \p{The way in which the law-like / categorial structure of the world \em{depends} on us is dependence in the order of understanding, not the order of being.
 }
 \p{"There is nothing outside the text" goes wrong because it seems like a claim of the order of \em{being}, not just explanation. It violates the lesson of [Lincoln's horse](phil-0066) example. This [confuses](phil-0001) thinkings for thinkables.
@@ -128,8 +129,9 @@ Rorty thinks, if you say it's a world of facts, you've conceded his antirepresen
 }
 \p{Brandom suggests that to understand the notion of a fact, one needs to understand the notion of a judgment (and vice-versa). Likewise, to understand the notion of an object and to understand the notion of a singular term in a language also must be understood together (two sides of one coin).
 }
-\p{\strong{# Pragmatist conceptual progress}
 }
+\subtree{\title{Pragmatist conceptual progress}
+
 \transclude{q-0051}
 
 \p{We can only tell progress (that one vocabulary is an improvement) \em{retrospectively}, from within our current vocabulary. There's nothing outside the dialogue.
@@ -154,9 +156,9 @@ Rorty thinks, if you say it's a world of facts, you've conceded his antirepresen
 }
 \p{Brandom ties this to Pierce's theory of progress. What is prospectively assessible is a constraint on what is retrospectively assessible. This is a way to not be mere carnappian progress but see real friction between vocabularies in use (without thinking in representationalist terms).
 }
-
-\p{\strong{# Pragmatist version of Kantian problematic}
 }
+\subtree{\title{Pragmatist version of Kantian problematic}
+
 \p{Brandom suggests that we can accept the vocabulary vocabulary without drawing Rorty's conclusion that we need to move beyond the Kantian problematic.
 }
 \p{Example of counting apples: each community which can do this has a different ordered set of expressions ("1,2,3...", "#{\alpha,\beta,\gamma}...", etc). But each community says there is the same count of apples. It seems like it is up to us how to count the apples but the actual count is vocabulary independent.
@@ -167,4 +169,5 @@ Rorty thinks, if you say it's a world of facts, you've conceded his antirepresen
 }
 
 \p{\mark{This is saying that a pragmatist strategy for making an objective/subjective distinction is via mappings between languages (characterizable via universal properties?)}
+}
 }

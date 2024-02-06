@@ -1,8 +1,13 @@
 \title{Humean expressivism}
 
-\p{
 
-\strong{The Negative Thesis}. This tells us what the vocabulary in question is not doing: e.g., that it is not descriptive, not belief expressing, not fact stating, not truth evaluable, or not cognitive. }
+\subtree{\title{The Negative Thesis}
 
-\p{\strong{The Positive Thesis}. This tells us what the vocabulary in question is doing: e.g., that it expresses an evaluative attitude.
+\p{This tells us what the vocabulary in question is not doing: e.g., that it is not descriptive, not belief expressing, not fact stating, not truth evaluable, or not cognitive. }
+}
+
+\subtree{\title{The Positive Thesis} 
+
+\p{This tells us what the vocabulary in question is doing: e.g., that it expresses an evaluative attitude.
+}
 }

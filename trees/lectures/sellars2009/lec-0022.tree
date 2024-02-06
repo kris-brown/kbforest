@@ -3,15 +3,16 @@
 \import{base-macros}
 
 \p{Topic: Sellars' [Counterfactuals, Dispositions, and the Causal Modalities](ref-0012)}
-\p{\strong{# Counterfactuals and dispositions}
-}
+\subtree{\title{Counterfactuals and dispositions}
+
 \p{[Goodman](nelson-goodman) has let the formalism of classical extensional logic mislead him in thinking about counterfactuals. He thought we could build up to counterfactuals from extensional logical vocabulary. The kind that can be built up by extensional logical vocabulary Sellars calls subjunctive identicals.
 }
 \p{Goodman is impressed in [Fact, Fiction, and Forecast](ref-0020), with the difference between the claim 'All copper melts at 1084 °C' and 'all the coins in my pocket are copper'. The first supports counterfactual reasoning ("if this coin in my pocket \em{were} copper, it'd melt at 1084 °C") whereas if this nickel coin were in my pocket, it wouldn't be made of copper. However we can do some limited form of counterfactual reasoning: "if I pulled a coin out of my pocket, it would be copper". We can always rephrase such counterfactuals (accidental generalizations) as a statement about something identical to an actual object. (The distinction is less sharp between genuine counterfactuals and subjunctive identicals is less sharp than he thinks, according to Brandom).
 }
 \p{Sellars makes the distinction of [subjunctive vs counterfactual conditionals](phil-0132).
 }
-\p{\strong{# Dispositions}}
+}
+\subtree{\title{Dispositions}
 \p{Sellars' formalization of a disposition:
 }
 \ol{
@@ -28,7 +29,8 @@
 }
 \p{Distinct from a capacity claim: "Sugar has the capacity to dissolve" is a claim that there exists a condition and intervention such that the result obtain.
 }
-\p{\strong{# Casual modalities}}
+}
+\subtree{\title{Casual modalities}
 \p{Sellars first big idea: what was needed was a functional theory of concepts (especially alethic/normative modalities), which would make their role in reasoning, rather than their supposed origin and experience their primary feature. Sellars takes modal expressions to be inference licenses.
 }
 
@@ -42,7 +44,8 @@
 }
 \p{[^5]: in the narrow sense
 }
-\p{\strong{# From labels to descriptions}}
+}
+\subtree{\title{From labels to descriptions}
 \p{[Semantic nominalism](phil-0122) was universally held until Kant. (philosophy today hasn't yet graduated from its Humean to its Kantian phase)
 }
 \p{If you could argue that standing in counterfactually, robust inferential 
@@ -129,8 +132,9 @@ that you need at least \em{some} to have the concept.}
 }
 \p{[Kant](immanuel-kant) says concepts are rules for judgment we bind ourselves by. That doesn't settle the question of how much of the law we need to know in order to bind ourselves by it. I don't have to know much about molybdenum to refer to molybdenum.
 }
-\p{\strong{# Semantic nominalism}
-}\p{Semantic paradigm is the "name-bearer" relationship. E.g. the 'Fido'-Fido relation, between the name 'Fido' and the dog, Fido. Predicates/properties are just names that stick to the set.}
+}
+\subtree{\title{Semantic nominalism}
+\p{Semantic paradigm is the "name-bearer" relationship. E.g. the 'Fido'-Fido relation, between the name 'Fido' and the dog, Fido. Predicates/properties are just names that stick to the set.}
 
 \p{If we stick together labels, we get descriptions (not a primitive name bearer relation, but one we can understand in terms of name-bearer relations). That's what language lets us do. Describe/classify things (as falling under languages).
 }
@@ -146,8 +150,9 @@ addresses it by saying it's all signs.}
 
 \transclude{phil-0060}
 
-\p{\strong{# Modal revolution in the 20th century}
 }
+\subtree{\title{Modal revolution in the 20th century}
+
 \p{Revolution in Anglophone philosophy, taking three phases:}
 
 \ol{
@@ -169,7 +174,8 @@ addressed by Kripke's semantics nor the fact that it's useful in semantics to be
 \p{But hardly anyone knows about that argument. If they did, it would color our current focuses and interests. For the Kant-Sellars thesis pertains to causal/physical modalities. But nowadays, the center of philosophical thought worries about logical modalities and metaphysical modalities - causal modality is boring to them. "We're distracted by the shiny, new playground that Kripke offered us and lost sight of the modality that's philosophically most significant."
 }
 
-\p{\strong{# Debate between Mr C and Mr E}}
+}
+\subtree{\title{Debate between Mr C and Mr E}
 
 \table{
   \tr{
@@ -224,7 +230,8 @@ Mr E.'s theory to make it work.}
 
 \p{What Sellars' conclusion ought to be: what one is \em{doing} in making a modal assertion is endorsing a pattern of material inference. No need to take a stand on semantics. This is an expressivist view of modal vocabulary. Analogous to expressivism in ethics: what you are \em{doing} in saying someone ought to do #{X} is endorsing doing #{X}. We can try to understand the semantic/descriptive content (We cannot deny there is any descriptive content due to the [Frege-Geach argument](phil-0050) in terms of what one is \em{doing} when we use the expressions.)
 }
-\p{\strong{# What makes modal claims true?}}
+}
+\subtree{\title{What makes modal claims true?}
 \p{Sellars wants to say it is the correctness of inferences connecting descriptive terms that make modal claims. Simultaneously, modal claims do not \em{say} anything about inferences.
 }
 \p{It's important that notion of \em{saying} is wider than \em{describing}. This is the denial of semantic descriptivism.
@@ -245,7 +252,8 @@ Mr E.'s theory to make it work.}
 }
 \p{In Brandom's view, [material inferences](int-0007) are [not monotonic](phil-0085). The job of some scientific languages is to find concepts where we can state monotonic consequence relations. We can do that in fundamental physics, but hardly ever in the special sciences.
 }
-\p{\strong{# Relation to Hegel}}
+}
+\subtree{\title{Relation to Hegel}
 \p{[Hegel](gwf-hegel) says, "By conceptual, I mean, what's articulated by relations of determinant negation [^1] and mediation [^2]".[^3] He says, the objective world, as it is, independently of our activities, is conceptually articulated. It has a conceptual structure because he's a modal realist about it.
 }
 \p{He thinks there are laws of nature. He thinks some things really follow from other things. For instance, that if a body with finite mass is accelerated, then a force was applied to it. he thinks that's a consequence, and the remaining relatively at rest, and having a force supplied you those are incompatible. Those are incompatible properties.
@@ -257,8 +265,7 @@ Mr E.'s theory to make it work.}
 \p{[^2]: i.e. material consequence}
 \p{[^3]: Brandom says this is expressed, beginning in the section on perception of [Phenomenology of Spirit](ref-0047).
 }
-\p{\strong{# Utility of possible worlds semantics
-}}
+}\subtree{\title{Utility of possible worlds semantics}
 \p{Let 'possible world' \em{mean} a physically possible world [^4]. This conceptual apparatus can be thought of  simply as a way of expressing what it is for two properties to be incompatible or to stand in a material consequential relation.
 }
 \p{So we can express (in the language of possible worlds) the fact that it follows from (as a consequence) something's being copper that it melts at 1084 °C, for example.
@@ -270,3 +277,4 @@ Mr E.'s theory to make it work.}
 \p{[^4]: not just metaphysically possible world, whatever that is
 }
 
+}

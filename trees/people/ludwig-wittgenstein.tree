@@ -11,11 +11,12 @@ An Austrian philosopher (1889-1951).
 \image{headshots/wittgenstein.jpeg}
 
 
-\p{Language has no downtown:
-A view attributed to Wittgenstein by Brandom: "Language has no downtown." / 
+\subtree{\title{Language has no downtown:}
+\p{A view attributed to Wittgenstein by Brandom: "Language has no downtown." / 
 "Language is a motley"
-
-- It's all suburbs. There's no part of it such that everything else is
-arrayed around it as a suburb of it.
-- Sellars disagrees: thinks the downtown is giving and asking for reasons.
 }
+\ul{
+\li{It's all suburbs. There's no part of it such that everything else is arrayed around it as a suburb of it.}
+\li{Sellars disagrees: thinks the downtown is giving and asking for reasons.}
+
+}}

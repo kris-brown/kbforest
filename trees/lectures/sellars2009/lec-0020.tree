@@ -1,6 +1,6 @@
 \title{02 - Inference and Meaning and Language Games (2009)}
 
-\p{\strong{# Note on Sellars' style}}
+\subtree{\title{Note on Sellars' style}
 \p{He preferered the 'Mystery story' style:}
 \ul{
     \li{There's a problem, and many competing potential explanations}
@@ -14,13 +14,13 @@
     \li{Tell them}
     \li{Tell them what you told them}
 }
-\p{\strong{# Material inferences}
-}
+}\subtree{\title{Material inferences}
+
 
 \transclude{int-0007}
 
-\p{\strong{## Sellars has two good ideas associated with material inference:}
-}
+\subtree{\title{Sellars has two good ideas associated with material inference:}
+
 \ol{
 \li{There \em{are} some inferences that are good, not in virtue of their logical form.}
 \li{Turn the above thought on its head and say: we can understand the content of these descriptive terms in terms of the materially good inferences they appear in (as premises or conclusions).}
@@ -28,8 +28,8 @@
 
 \p{By this account, material proprieties of inference are more fundamental than / conceptually prior to logical validity. You have to start with the notion of a good inference in order to understand what a logically good inference is.
 }
-
-\p{\strong{# Aside on the philosophy of logic}}
+}}
+\subtree{\title{Aside on the philosophy of logic}
 \p{Aside: It took a while in the 20th century to realize that logic was not about logical truth but rather about validity of inference. In classical logic can you treat these interchangeably, but not all (rough logics vs smooth logics - whether the consequence relation can be determined by the set of all theorems). [Dummett](michael-dummett) has written about this issue.
 }
 \p{What if we picked some other vocabulary (other than logical) to hold fixed? E.g. substituting non-theological vocabulary for non-theological vocabulary. "If justice is loved by the gods then justice is pious". If no matter what we substitute for justice the inference is good, we might say the sentence is true in virtue of its theological form.
@@ -45,8 +45,8 @@
 
 \p{Sellars challenges this tradition (logical empiricism) by pointing out there is a concern conceptually prior in the order of explanation to philosophy of logic: materially good inferences.
 }
-
-\p{\strong{# Inference and Meaning}}
+}
+\subtree{\title{Inference and Meaning}
 
 \p{A main argument of \em{Inference and Meaning} is that any language that makes essential use of non-logical, descriptive vocabulary must be understood as having that vocabulary standing in materially good (rather than just logically good) inferences.
 }
@@ -97,7 +97,7 @@
 
 \p{[^inf]: However, Sellars doesn't extrapolate from this that logic is an \em{optional} superstructure in our lives - we need to be able to think and talk about the goodness of inferences.
 }
-\p{\strong{## Say/convey distinction}}
+\subtree{\title{Say/convey distinction}
 \p{When I say "copper melts at 1084 degrees" one makes a claim that is true even if there were no reasoners (so it can't be a claim directly \em{about} inferences being good). What it \em{conveys} is about inferences, not what it \em{says}. Likewise, I say "The sun is shining" while I convey "I believe the sun is shining."
 }
 \p{It might help to make progress toward understanding the say/convey distinction (which Sellars admits he's not clear about) by distinguishing two flavors of inference:
@@ -110,15 +110,18 @@
     \li{Geech embedding distinction between the two: we look at whether we'd endorse "My book is terrible, then John is mad at me". Because we wouldn't, we know the inference is pragmatic.}
 }}
 
-\p{\strong{## Do subjunctive conditionals describe possible worlds?}
-}\p{Potential counterargument against Sellars: subjunctive conditionals are not making explicit proprieties of inference, but in fact are descriptions about possible worlds. To address this, we note there are separate issues.}
+}
+\subtree{\title{Do subjunctive conditionals describe possible worlds?}
+
+\p{Potential counterargument against Sellars: subjunctive conditionals are not making explicit proprieties of inference, but in fact are descriptions about possible worlds. To address this, we note there are separate issues.}
 
 \p{Firstly, there's the question about whether it's intelligible to have descriptive vocabulary in play in a context where there's no counterfactual reasoning. E.g. Hume believes he understands empirical facts perfectly well (the cat is on the mat) but not statements about what's possible and necessary. But Kant saw that this isn't intelligible - you need to make a distinction about what's possible with the cat and what's not (it's possible for the cat to not be on the mat, but not possible for it to be larger than the sun) or else there's nothing you could say about the content of the concept of 'cat' that I've got (it would be just a label).
 }
 \p{The second issue is the codifiability of proprieties of material inference by logical vocabulary: whether a possible worlds analysis is incompatible with seeing subjunctive conditionals as making properties of inference explicit. Sellars would like to see a possible worlds analysis that matches up.
 }
-\p{\strong{# Some Reflections on Language Games}
-}
+}}
+\subtree{\title{Some Reflections on Language Games}
+
 \p{Regulism (conceptual norms as a matter of explicit rules) vs regularism (norms in terms of actual regularities). These are identified with empiricist and rationalist approaches. 
 }
 \p{One purpose: "I shall have a chief my present purpose if I've made plausible the idea that an organism might come to play a language game, that is to move from position to position, the system of moves and positions, and to do it because of the system without having to obey rules, and hence without having to be playing a meta language game.'' (Section 18)
@@ -180,4 +183,5 @@ plays a crucial part even if it is not in my head. It is in the teachers' heads 
 \p{Sellars needs the notion of language to be something that evolves over time 
 (rather than an instantaneous collection of rules) because we want the decision to make a material move to occur within a language (one is not doing 
 redescription in another language).
+}
 }

@@ -1,7 +1,7 @@
 \title{13. Judgment aggregation}
 \tag{elucidations}
 
-\p{\strong{# What is it?}}
+\subtree{\title{What is it?}
 \p{A formal theory characterizing various ways to combine individual beliefs into collective beliefs
 }\p{What could it mean for a group to have beliefs over and above the beliefs of the individuals?
 }\p{We ascribe beliefs in order to interpret actions/decisions based on reasons
@@ -13,10 +13,12 @@
     \li{Example: condo asssociation where 50\% believe #{A} and 50\% not #{A}. Maybe it's reasonable to ascribe an indeterminate belief towards #{A}, but none of the individuals is indeterminate.}
     }
 
-\p{\strong{# Importance}}
+}
+\subtree{\title{Importance}
 \p{This is important because we want to know how we should revise our beliefs due to a group testimony.
 }
-\p{\strong{# Proposal - rule by majority}}
+}
+\subtree{\title{Proposal - rule by majority}
 \p{What if we say the 'group believes' what the majority of the group believes?
 }
 \p{Problem: majorities are not consistent over multiple beliefs IF the beliefs are logically connected.}
@@ -31,7 +33,8 @@
       \li{Should the capital be where parliament is?}
 }
 
-\p{\strong{# Alternatives}}
+}
+\subtree{\title{Alternatives}
 
 \p{Supermajority: If you construct threshold carefully enough, you can guarantee consistency. E.g. With #{P\land Q} example, you need 2/3.}
 \p{Determine ahead of time, determine what are most important (logically 
@@ -40,7 +43,8 @@
 \p{Research in the field isn't really about finding specific alternatives. Actual goal: formalize the desiderata and find out which sets of constraints are compatible with each other.}
 
 
-\p{\strong{# Independence constraint}}
+}
+\subtree{\title{Independence constraint}
 
 \p{Mathematically provable that we can't satisfy a bunch of desiderata simultaneously.}
 \p{However, one particular constraint both causes a lot of problems and really isn't that justified: the independence constraint}
@@ -55,10 +59,12 @@
 }  \li{Independence is usually involved in the unsatisfiable subsets of constraints.}
 
 }
-\p{\strong{# Conclusion}}
+}
+\subtree{\title{Conclusion}
 \p{In practice, we recognize different judgment aggregation strategies are 
   appropriate in different scenarios}
 \p{But this isn't a satisfying resolution in itself; we need to better 
     understand what makes certain desiderata appropriate for a given situation.
 }    
 
+}

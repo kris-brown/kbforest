@@ -1,6 +1,6 @@
 \title{06 - Rorty's Political Turn}
 \import{base-macros}
-\p{\strong{# Periodizing Rorty's Antirepresentationalism}}
+\subtree{\title{Periodizing Rorty's Antirepresentationalism}
 
 \p{Rorty's overall goal was how to see the world without representationalism.
 }
@@ -18,9 +18,9 @@
 }
 \p{Antiauthoritarianism. This has some variants, at least one of which (combining social pragmatism about normativity with a normative analysis of representation) yields his best argument
 }
-
-\p{\strong{# A Closer look at the Various Antirepresentationalist Arguments:}
 }
+\subtree{\title{A Closer look at the Various Antirepresentationalist Arguments:}
+
 \p{In [Incorrigibility as the Mark of the Mental](ref-0023) Rorty had first \em{new} response to Mind-Body problem in a generation: eliminative materialism.
 }
 
@@ -50,8 +50,8 @@
 \li{Then we apply the vocabulary vocabulary: "you can't think about the world in the representationalist way if you appreciate the holistic feature of the contents of our thoughts".}
 }
 
-\p{\strong{## Vehicle-less content}
-}
+\subtree{\title{Vehicle-less content}
+
 \p{Rorty argues that we cannot pick out “sentence-like bits of the world” (individual facts) to make our sentences true one by one. The whole constellation of our commitments faces the world (as a tribunal) as a whole. This last is a near paraphrase of Quine from TDE, and is a Davidsonian thought.
 }
 \p{This is an argument against Fodor's “LoT”: language of thought hypothesis, that there is something (in our brains) that stands to thinking that things are thus and so, as some noises or marks stand to \em{saying} that things are thus and so and \em{writing} that things are thus and so. The question is whether intentional states have “sign designs” associated with them.
@@ -96,14 +96,16 @@ but to the idea of things that make those states true (or false): truthmakers (A
 }
 \p{This doesn't strictly rule out representationalist pictures  of meaning, but it rules out atomistic / truthmaker ones.
 }
-\p{\strong{## Related issue}
 }
+\subtree{\title{Related issue}
+
 \p{If a property is just an aspect that two things can share, then there are an infinite number of ways two objects can be similar or dissimilar. But we want to privilege some of those respects as "natural properties" which they do really share. That notion of privilege is normative - the \em{world} does not distinguish those properties; it's a matter of our social practices.
 }
 \p{Nelson Goodman asks this same question in in [Fact, Fiction, and Forecast](ref-0020): "which properties should we project in our inductive inferences?". Wittgenstein asks this same question in considering all the possible ways we can follow a rule. Both conclude pragmatically that it is up to our social practices to pick from all the possibilities.
 }
-\p{\strong{## Justification vs truth}
 }
+\subtree{\title{Justification vs truth}
+
 \p{Thinking of discursive practice in terms of \strong{truth} (instead of justification, i.e. in terms of the actual practices of giving and asking for reasons which can sometimes lead to consensus) is due to the desire to have an external, objective standard (set by the world we're talking about) that serves as an \em{ultimate} standard of assessment for how we're giving and asking for reasons. This is what Rorty objects to.[^irr]
 }
 
@@ -133,9 +135,9 @@ but to the idea of things that make those states true (or false): truthmakers (A
 }
 \p{
 Dewey's story of spiritual progress: we eventually found satisfaction, where we once had to go to an immortal being for, in relationships with our fellow mortal men.}
+}}
+\subtree{\title{Antiauthoritarian argument}
 
-\p{\strong{# Antiauthoritarian argument}
-}
 \p{Three considerations at play:
 }
 \ul{
@@ -161,16 +163,18 @@ Dewey's story of spiritual progress: we eventually found satisfaction, where we 
 }
 \p{An Enlightenment idea is that norms are determined by the community, rather than externally fixed. Prior, the rule of kings and lords was thought of as the great chain of Being with some people naturally ruling over others - social contract theory was developed to show how political authority must derive from the attitudes of the governed.
 }
-
-\p{\strong{# Getting an account of truth from justificatory practices}
 }
-\p{\strong{## Whyte's [Success semantics](phil-0133)}
+\subtree{\title{Getting an account of truth from justificatory practices}
+
+\subtree{\title{Whyte's Success semantics}
+\p{[Success semantics](phil-0133)
 }
 
 \p{Crispin Wright's [Superassertibility](phil-0135)
 }
-\p{\strong{# Beautiful and sublime}
-}
+}}
+\subtree{\title{Beautiful and sublime}
+
 \p{A distinction from Kant, which is further articulated by Edmund Burke.
 }
 \p{One striking illustration of the difference is that before 1700, passengers in carriages going through the Alps kept the windowshades tightly rolled down, to avoid looking at the horrifying vistas. Over the course of the eighteenth century, landscape painters taught people to see those vistas as “picturesque”: literally, the sort of thing one painted pictures of. By the end of that century, people would get in carriages to go into the Alps specifically to look at what they had previously shunned. The terrible sublime had become domesticated as the beautiful.  Rorty uses this distinction to enrich by redescription the opposition between Platonists and pragmatists that we have seen him make before.
@@ -182,4 +186,5 @@ Dewey's story of spiritual progress: we eventually found satisfaction, where we 
 \p{Brandom thinks the pragmatist does not draw this deflationary conclusion: this is \em{all there is to understanding}, rather than an illusion of understanding. Ping/pong is a paradigm case for how concepts work.
 }
 \p{Rorty teaches us "beautiful"/"sublime" in a particular way. That is teaching us to notice something, under this redescription, that we could not or would not have noticed otherwise. His deploying of this distinction is filling in the content of his notion of pragmatism.
+}
 }

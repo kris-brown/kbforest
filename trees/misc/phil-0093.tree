@@ -54,10 +54,11 @@ A distinction fundamental for both 'must' in the [Alethic modality|alethic](phil
 \p{There is also an analogous distinction involving permission, rather than 
   obligation.
 }
-\p{\strong{## Upshots}}
+\subtree{\title{ Upshots}
 \p{This lets us avoid the [rule obeying regress](phil-0114).
 }
 \p{This distinction also can be used to avoid paradoxes of "ought" for things we don't have control over, e.g. I ought to believe such-and-such but I do not have control over my beliefs. Only ought-to-do's presuppose that one has agency to conform, while ought-to-be's do not.[^c]
 }
 \p{[^c]: [Ought to believe](ref-0042)
+}
 }

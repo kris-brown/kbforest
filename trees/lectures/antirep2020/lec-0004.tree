@@ -1,6 +1,6 @@
 \title{04 - Cheryl Misak's Critique of Rorty's Pragmatism}
 
-\p{\strong{# [Cheryl Misak](cheryl-misak)'s reconstruction of the pragmatist tradition}}
+\subtree{\title{Cheryl Misak's reconstruction of the pragmatist tradition}
 
 \p{Kuklick's “Who Owns Pragmatism?” discusses three contesting subdisciplines:
 }
@@ -28,8 +28,8 @@ Kuklick describes Misak as the jewel in the crown of the scholars of American ph
 
 \p{She also is unrelentingly critical of Rorty.
 }
-\p{\strong{## Recasting the history of American Pragmatism}
-}
+\subtree{\title{Recasting the history of American Pragmatism}
+
 
 \p{Prior to Misak, the [Eclipse view of pragmatism](q-0038) was dominant. She thinks most of that story is wrong.
 }
@@ -48,9 +48,11 @@ Kuklick describes Misak as the jewel in the crown of the scholars of American ph
 }
 \p{None of Misak's analytic philosopher pragmatists were willing to call themselves pragmatists, which Brandom argues is a point in favor of the Eclipse narrative. 
 }
-\p{\strong{# Classical American Pragmatism, Natural Science, and a Second Enlightenment}
 }
-\p{\strong{## A second Enlightenment}}
+}
+\subtree{\title{Classical American Pragmatism, Natural Science, and a Second Enlightenment}
+
+\subtree{\title{A second Enlightenment}
 \p{A negative view of classical American pragmatism:
 }
 \ul{
@@ -69,8 +71,9 @@ Kuklick describes Misak as the jewel in the crown of the scholars of American ph
 \li{By contrast, Darwinian/statistical explanations can show why what actually happened was \em{probable}.}
 
 }
-\p{\strong{## Two models of Nature and Science}
 }
+\subtree{\title{Two models of Nature and Science}
+
 \p{Pierce saw a structure common to evolution and learning. Even the laws of physics emerged as "habits" from selection processes emerging from chaos. 
 }
 \p{Pierce doesn't worry about epistemic fallibilism (maybe we have the laws wrong) - after all the laws may change themselves (ontological fallibilism / mutabilism). Nature is fluid, stochastic, and its regularities were themselves contingent.
@@ -83,8 +86,9 @@ Kuklick describes Misak as the jewel in the crown of the scholars of American ph
 }
 \p{For the first time, the rational practices embodying the paradigmatic sort of reason exercised by scientists understanding natural processes become visible as continuous with, and intelligible in just the same terms as, the physical processes paradigmatic of what is understood. 
 }
-\p{\strong{## Pragmatism and romanticism}
 }
+\subtree{\title{Pragmatism and romanticism}
+
 \p{The above ideas echo themes of romantic criticisms of the first enlightenment: rejection of passive / spectator theories of knowledge, abstract principle hollow unless rooted in concrete practice, universality rejected as a hallmark of understanding.
 }
 \p{However, pragmatism did not recoil from reason like Romanticism did; it's just that their version of reason is flexible and adaptable rather than the mastery of universal principles. Romanticism had almost no direct influence, rather pragmatists thought they were making friendly amendments to existing ideas.
@@ -92,8 +96,9 @@ Kuklick describes Misak as the jewel in the crown of the scholars of American ph
 
 \p{[^tote]: Perception, action, and then further perception of the results of the action.
 }
-\p{\strong{# Rortyan critique of objectivity}
 }
+\subtree{\title{Rortyan critique of objectivity}
+
 \p{Crucial is Kant's [Reasons vs causes](int-0012) distinction. Rorty does not deny we are causally in touch with the world. [Vocabularies](phil-0147) are part of the normative order. A certain conception of objectivity requires us to say that the world determines what is the best vocabulary for us. Rorty's opponents are committed to ontologically/metaphysically privileged vocabularies (e.g. Nature's own vocabulary).
 }
 \p{Representationalist say that some vocabularies are better due to the relations they stand in to the world that they're about. Rorty would claim we cannot understand this privileging without vocabularies of social practice (the space of reasons, the normative order).
@@ -118,4 +123,6 @@ Kuklick describes Misak as the jewel in the crown of the scholars of American ph
 \p{Responsibility is a \strong{normative} notion. Social pragmatism about normativity is going to think that these facts the neokantian interrogates about apportioning responsibility to us or to what we are talking about, cannot be objective. They must be social. Perhaps not a matter of utility for us, but dependent on \em{something} about our activity.
 }
 \p{Likewise representation itself is a normative matter, thus adjudications of the responsibility of representations are going to be vocabulary-relative (thus we \em{can} speak of a Kantian bifurcation of responsibility, but the boundary is itself socially determined. The boundary between objective and subjective is itself subjective. This is different from denying anything is objective!).
+}
+}
 }

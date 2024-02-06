@@ -1,6 +1,5 @@
 \title{One way applied category theory is useful}
 \import{macros}
-\texpackage{quiver}
 
 \p{One of the value propositions of applied category theory is that it's possible for you to take your concrete domain of expertise (be it Rubik's cube solving, delivery routes, psychology, etc.) and massage it into the language of a category. Once you do this, you are viewing it from the mile-high view, where everything is just dots and arrows.}
 
@@ -11,7 +10,7 @@ The general story of the usefulness of abstracting your subject matter into thes
 For example, the following configuration highlighted in red is called a \em{coproduct}. The diagram is saying that, for any dot (call it #{X}), if you have arrows #{A\xrightarrow{f} X} and #{B \xrightarrow{g} X} then there exists a unique arrow #{A+B \xrightarrow{!} X} (for which the path #{A \xrightarrow{\iota_1,\ !} X} is the same as #{f} and likewise for #{g}). 
 }
 
-\texfig{\begin{tikzcd}
+\quiver{\begin{tikzcd}
 	& \textcolor{rgb,255:red,214;green,92;blue,92}{A+B} \\
 	\textcolor{rgb,255:red,214;green,92;blue,92}{A} && \textcolor{rgb,255:red,214;green,92;blue,92}{B} \\
 	& X

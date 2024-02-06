@@ -2,15 +2,14 @@
 
 \p{Rejection of [representationalism](phil-0118)}
 
-\p{\strong{# Flavors
-}}
+\subtree{\title{Flavors}
 \p{Can be \em{local} or \em{global} depending on whether one wishes merely to reject the representational thesis that \em{all} legitimate discourse is to be thought of representationally (i.e. claim that \em{some} discourse is primarily non-representational) vs claiming that \em{no} discourse should be thought of representationally.
 }
-\p{\strong{# Casual vs explanatory / justificatory usage
-}}
+}\subtree{\title{Casual vs explanatory / justificatory usage}
 \p{Even global-antirepresentationalists like Rorty are ok[^x] with representational vocabulary being used by cognitive scientists in our \em{causal} stories about sub-personal cognitive mechanisms. The problem is when representation is invoked in explaining concepts, justification, entitlement, authority.
 }
 \p{This is the Kantian distinction of \em{quid factus} and \em{quid juris}, or the Sellarsian scientific image and manifest image.
 }
 \p{[^x]: Exception: Hubert Dreyfus
+}
 }

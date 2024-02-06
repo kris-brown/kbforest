@@ -3,9 +3,9 @@
 \meta{external}{[Video](https://www.youtube.com/watch?v=yz7PWdUSA8c)}
 \meta{external}{[Text](https://sites.pitt.edu/~rbrandom/Texts/Intentionality_and_Language_A_Normative\%20(2).pdf)}
 
-\p{\strong{# Intentionality}}
+\subtree{\title{Intentionality}
 
-\p{\strong{Intentionality} is the contentfulness distinctive of some of our psychological states and linguistic utterances.
+\p{\em{Intentionality} is the contentfulness distinctive of some of our psychological states and linguistic utterances.
 }
 
 \p{Intentionality \em{partially} overlaps with \strong{consciousness}: 
@@ -22,20 +22,18 @@
 }
 \p{Our desire to mix these up is traced back to Descartes, who radically assimilated \em{sensations} (e.g. pain) and thoughts both as mental events. He saw them both as \em{transparent} and \em{incorrigible} to their subject.
 }
-\p{\strong{# Representational and Propositional Dimensions of Practical and Discursive Intentionality}
 }
-\p{\strong{Practical} vs \strong{discursive} intentionality.
+\subtree{\title{Representational and Propositional Dimensions of Practical and Discursive Intentionality}
+
+
+\ul{
+\li{\em{Practical intentionality}: directedness at an object that animals exhibit when they deal skillfully with their world. However, this is difficult to separate from the kind of directedness that inanimate objects demonstrate.}
+\li{\em{Discursive intentionality}: exhibited by concept-users when making judgments/claims \em{about} objects semantically.}
 }
 
 \ul{
-\li{Practical: directedness at an object that animals exhibit when they deal skillfully with their world. However, this is difficult to separate from the kind of directedness that inanimate objects demonstrate.}
-\li{Discursive: exhibited by concept-users when making judgments/claims \em{about} objects semantically.}
-}
-\p{\strong{Propositional} vs \strong{representational} intentionality of an intentional state #{S}.
-}
-\ul{
-\li{Representational: Specification of an object represented by a state (what is #{S} of?)}
-\li{Propositional: Specification of what is believed/thought (what is it an #{S} that?)}
+\li{\em{Representational intentionality of an intentional state #{S}}: Specification of an object represented by a state (what is #{S} of?)}
+\li{\em{Propositional intentionality of an intentional state #{S}}: Specification of what is believed/thought (what is it an #{S} that?)}
 }
 
 \table{
@@ -70,8 +68,9 @@
 }
 \p{[^ex]: Consider the mapping relation that skillful dealings produce and promote between items in the environment and states of the  organism. The usefulness of map representations depends on the goodness of inferences from map-facts (there is a blue wavy line between two dots here) to terrain-facts (there is a river between these two cities). The propositional content of the map facts is built up out of representational relations that are sub-propositional (correlating blue lines and rivers, dots and cities). Such relations underwrite the representation-to-proposition order of explanation at the level of practical intentionality.
 }
-\p{\strong{# The normativity of discursive intentionality}
 }
+\subtree{\title{The normativity of discursive intentionality}
+
 \p{Kant's idea: judgments/intentional doings are distinguished from nondiscursive creatures' behavior in that they are things the subject is \em{responsible for}. They express \em{commitments} or \em{endorsements}, they are exercises of the \em{authority} of the subject. Concepts are normative. Discursive creatures are ones who live in a \em{normative} space.
 }
 \p{Example: in judging the coin is copper, one is committed (whether one knows it or not) to the coin conducting electricity / melting at 1085 degrees. One is precluded from claiming the coin is less dense than water. 
@@ -88,8 +87,9 @@
 }
 \p{[^1]: E.g. what it \em{means} for the the court to really \em{be} adjourned is precisely when #{J} \em{takes} it to be adjourned, and that the community \em{takes} #{J} to be the judge, who has the authority to adjourn the court.
 }
-\p{\strong{# An inferential approach to discursive propositional intentional content}
 }
+\subtree{\title{An inferential approach to discursive propositional intentional content}
+
 \p{What kind of knowing \em{how} (to do something) amounts to knowing \em{that} (things are thus-and-so)? What is the difference between the parrot squawking "that's red" in the presence of red things and the human who responds to the same stimuli by claiming \em{that} something is red? What does the sapient, discursively-intentional observer do that the merely sentient, practically-intentional parrot does not?
 }
 \p{The difference is \em{understanding} - what practical abilities does that understanding consist in? There is a \em{normative} difference (the parrot does not express an endorsement) but also crucial is that the understood content is \em{conceptual} content (\em{propositional} contents are a paradigmatic kind of conceptual content). What makes content \em{conceptual} is that it stands in relations of material \em{consequence} and \em{incompatibility}. The observer can make inferences from their commitment and knows how to distinguish evidence for and against the commitment - the commitment is taking a stance in a network of related possible commitments. 
@@ -102,8 +102,9 @@
 }
 \p{Semantic inferentialism: what distinguishes \em{discursive} commitments is that their contents are articulated by the roles they play in material inferential / incompatibility relations. Grasping / understanding such contents is a kind of practical know-how which distinguishes sapients from mere sentients.
 }
-\p{\strong{# The relation of language and thought in discursive intentionality}
 }
+\subtree{\title{The relation of language and thought in discursive intentionality}
+
 \p{Clearly there can be practical intentionality without language.
 }
 \p{Can there by discursive intentionality without language? Early modern philosophers took it to be obvious we could have thoughts apart from their linguistic expression. Grice and Fodor have continued this tradition. However, there is an alternative order of explanation which understands discursive intentionality in terms of language (often associated with Wittgenstein). Dummett expresses this with the [quote](q-0062):
@@ -116,8 +117,9 @@
 
 \p{This view says concept use is not intelligible in a context that does not include language use, while allowing for intentional states (e.g. beliefs) to be essential in understanding linguistic practices. The capacity to \em{think} (i.e. have propositionally contentful thoughts, that things are thus-and-so) and the capacity to \em{talk} arise and develop together. 
 }
-\p{\strong{# Putting together a social normative pragmatics and an inferential semantics for discursive intentionality}
 }
+\subtree{\title{Putting together a social normative pragmatics and an inferential semantics for discursive intentionality}
+
 \p{Iron triangle of discursiveness:}
 \ul{
 
@@ -131,8 +133,7 @@
 \li{What \em{is} a declarative sentence is characterized in terms of the practice of asserting things are thus-and-so.}
 \li{What \em{is} a propositional content is characterize as that which can serve as (and stand in need of) reasons, i.e. play the role of premise and conclusion in inferences.}
 }
-\p{\strong{## Deontic scorekeeping 
-}}
+\subtree{\title{Deontic scorekeeping}
 \p{Normative statuses are social statuses. The paradigm deontic status is \em{commitment}.
 }
 \p{To understand an assertional speech act is to know how to \em{keep score} on the commitments the speaker has undertaken by performing that speech act.
@@ -155,14 +156,14 @@
 }
 \p{This story (developed in [Making It Explicit](ref-0075)) is a sketch of how discursive intentionality is intelligible as emerging from exercises of practical intentionality that have the right normative and social structure.
 }
-\p{\strong{# Logic: the organ of semantic self-consciousness}
-}
+}}
+\subtree{\title{Logic: the organ of semantic self-consciousness}
+
 \p{Being practically taken/treated \em{as} standing in relations of material inference/incompatibility is how expressions come to have propositional discursive semantic content, and so are able to make something explicit (sayable, claimable, thinkable). We can go further and make explicit those normative material inferential relations, which are (initially) implicit in the practical attitudes discursive scorekeepers adopt to one another.
 }
 \p{This makes intelligible the possibility of creatures that are \em{rational} (engaging in practices of giving and asking for reasons) but not yet \em{logical}. They have the practical skills needed to use logical vocabulary, if we were to introduce that vocabulary to them.
 }
-\p{\strong{# Pragmatic social normative perspectives and the representational dimension of discursive semantic content}
-}
+}\subtree{\title{Pragmatic social normative perspectives and the representational dimension of discursive semantic content}
 \p{Bob attributes to Alice the claim "Benjamin Franklin was a printer" and the claim "Benjamin Franklin is the inventor of the lightening rod." Then Bob should also attribute Alice the claim "The inventor of the lightening rod was a printer."
 }
 \p{Suppose Bob (not necessarily Alice) is committed to "Benjamin Franklin is the inventor of bifocals." Should Bob attribute to Alice "The inventor of bifocals was a printer."? This is a consequence of the facts (as Bob takes them) whether or not Alice realizes that. In an important sense, Alice has (without knowing it) committed herself to the inventor of bifocals having been a printer. But this is a \em{different} sense from how she has committed herself to the inventor of the lightening rod having been a printer.
@@ -183,3 +184,4 @@
 \p{Keeping track of what premises are available for the reasoning of others and what premises are available for our own reasoning is what we are doing when we talk or think about what we are talking or thinking \em{about}: the representational dimension of discursive intentionality.
 }
 
+}

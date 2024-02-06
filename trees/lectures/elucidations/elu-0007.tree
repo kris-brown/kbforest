@@ -1,7 +1,7 @@
 \title{15. Religious toleration}
 \tag{elucidations}
 
-\p{\strong{# Why tolerate religion?}}
+\subtree{\title{Why tolerate religion?}
 \p{Why protect religious conscience, over and above other forms of moral 
   conscience? Historically, lots of religious intolerance have led to atrocities.
 }
@@ -36,7 +36,8 @@
   Utilitarian and Rawlsian arguments justify protecting liberty of conscience 
     but would not single out religion.}
 
-\p{\strong{# More than mere toleration}}
+}
+\subtree{\title{More than mere toleration}
 \p{Nussbaum - doesn't religion deserve more than toleration, e.g. respect:}
 \ul{
   \li{Mere toleration: you disapprove but you have to put up with them.}
@@ -56,7 +57,8 @@
       \ul{
       \li{This still doesn't justify appraisal respect.}}}
 }
-\p{\strong{# Practical import of the argument}}
+}
+\subtree{\title{Practical import of the argument}
 \p{Extend the practice of appealing for an exemption from a law to all matters of 
   conscience.
 }
@@ -65,6 +67,6 @@
       if a religion demands a certain behavior rather than to figure out if a 
       person is being genuine.
 } 
- \p{     Maybe pragmatic reasons for status quo, but not moral reasons.
-
+ \p{Maybe pragmatic reasons for status quo, but not moral reasons.
+}
 }

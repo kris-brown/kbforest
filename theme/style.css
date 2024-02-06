@@ -130,11 +130,21 @@ html {
 body {
   min-height: 100vh;
   box-sizing: border-box;
+  padding: 0 !important;
   display: flex;
   flex-direction: column;
   font-family: "Inria Sans";
   font-size: 12pt;
   line-height: 1.5em;
+}
+
+.container {
+  box-sizing: border-box;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .logo {
@@ -179,24 +189,35 @@ footer h2 {
   display: inline;
 }
 
-@media only screen and (max-width: 1000px) {
-  body {
+@media only screen and (max-width: 1125px) {
+  .container {
     padding-top: 1em;
-    padding-left: .5em;
-    padding-right: .5em;
+    padding-left: 1em;
+    padding-right: 1em;
     transition: ease all .2s;
+  }
+
+  #grid-wrapper {
+    display: flex;
+    flex-direction: column;
   }
 
   #grid-wrapper>nav {
-    display: none;
-    transition: ease all .2s;
+    grid-column: 1;
+    order: 1;
+  }
+  
+  #grid-wrapper>article {
+    order: 2;
   }
 }
 
-@media only screen and (min-width: 1000px) {
-  body {
+
+@media only screen and (min-width: 1125px) {
+  .container {
     padding-top: 2em;
     padding-left: 2em;
+    padding-right: 2em;
     transition: ease all .2s;
   }
 
@@ -204,9 +225,14 @@ footer h2 {
     display: grid;
     grid-template-columns: 90ex;
   }
+
+  #grid-wrapper>nav {
+    width: 45ex;
+    grid-column: 2;
+  }
 }
 
-body>header {
+.container>header {
   margin-bottom: 2em;
 }
 
@@ -214,10 +240,6 @@ body>header {
   max-width: 90ex;
   margin-right: auto;
   grid-column: 1;
-}
-
-#grid-wrapper>nav {
-  grid-column: 2;
 }
 
 details>summary>header {
@@ -625,4 +647,8 @@ ol li ol li ol {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
   font-size: 0.8em;
+}
+
+span.nlab > a {
+  color: #226622;
 }

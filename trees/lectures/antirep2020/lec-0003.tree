@@ -1,7 +1,7 @@
 \title{03 - Rorty Finds His Pragmatist Voice}
 \import{base-macros}
 
-\p{\strong{# Major lessons}}
+\subtree{\title{Major lessons}
 
 \p{From the discussion of [truth](phil-0142) as “what is best in the way of belief” as opposed to correspondence with reality:
 }  \ul{
@@ -24,9 +24,10 @@
   \li{Representationalists are committed to atomistic objective usually causal relations (specifiable in an alethic modal vocabulary) determine reason relations.}
 
 }
-\p{\strong{# Introduction to pragmatism}}
-\p{\strong{## Platonist / Pragmatist distinction}
 }
+\subtree{\title{Introduction to pragmatism}
+\subtree{\title{Platonist / Pragmatist distinction}
+
 
 \p{Rorty takes for granted a [distinction](int-0011) of [Dewey](john-dewey):
 }
@@ -65,8 +66,9 @@
 }
 \p{[Kant](immanuel-kant) is the avatar of this form of representationalism: representations and rules are two sides of the same coin. He puts principle over practice (opposed by Dewey, who was followed by early [Heidegger](martin-heidegger) and late [Wittgenstein](ludwig-wittgenstein) in this respect).
 }
-\p{\strong{## The [vocabulary](phil-0147) vocabulary}
 }
+\subtree{\title{The vocabulary vocabulary}
+
 
 \p{This is Rorty's way of talking about  [language game](phil-0063)s / paradigms.[^kuhn] Vocabularies are what we deploy in discursive practice.
 }
@@ -99,15 +101,15 @@
 }
 \p{\em{Sometimes} we want to prevent the vocabulary from changing, [but not always](q-0026).
 }
-\p{\strong{## [Redescription](phil-0110)}
 }
+\subtree{\title{Redescription}
 \p{The generation of new vocabularies.
 }
 \p{This is the essence of discursive practice, is to be committed to a view of conversation as something to be continued.
 }\p{But one can do other things with vocabularies than use them to describe. So   “redescription,” though evocative, might be replaced by “recharacterization,”  or “reconceptualization.”}
-
-\p{\strong{## Conversation}
 }
+\subtree{\title{Conversation}
+
 
 \blockquote{Platonists follow [Plato](plato) in striving for an escape from conversation to something atemporal which lies in the background of all possible conversations}
 
@@ -137,9 +139,10 @@
         \li{We carefully design mature natural science and math to not have this  happen, but this should not be a model for how our language works.}
 }   \li{This is why Wittgenstein is a [semantic nihilist](phil-0124), he doesn't think there are actually meanings. The plasticity of language makes this impossible.}
 
-}}
-\p{\strong{## [Coping](phil-0023)}
 }
+}
+}
+\subtree{\title{Coping}
 \p{Rorty has another term that is part of the constellation that starts with “vocabulary” and includes “redescription” and “conversation.” It is “coping.” 
 }
 \p{It is his generic term for what we do with vocabularies, generally. It is in terms of success at coping that we are able sometimes to assess and compare vocabularies as better and worse. In that regard, it plays a role analogous to the notion of accuracy of representation, that Rorty wants to persuade us to discard as specifying the dimension along which arbitrary vocabularies can be assessed as better or worse.}
@@ -147,8 +150,10 @@
 \p{It is crucial to this notion of coping that standards for it are rigorously internal to the vocabularies being assessed.
 }
 
-\p{\strong{# Radical antibifurcationism}
 }
+}
+\subtree{\title{Radical antibifurcationism}
+
 \p{Rorty rejects the [distinction](phil-0090) of objective and subjective facts.
 }
 
@@ -179,8 +184,8 @@
 }
 \p{[^c]: We should admire Rorty's philosophical courage. Where other people have switched from \em{modus ponens} to \em{modus tollens}, he's still extracting consequences.
 }
-\p{\strong{# [Truth](phil-0142)}
 }
+\subtree{\title{Truth}
 \p{Two broad conceptions
 }
 \ol{
@@ -206,8 +211,8 @@
 
 \p{Expressivism about [truth](phil-0142) is to say one is not describing a statement when one says it is true - one is doing something else (endorsing  / taking a normative stance towards it). Combining this with universal [declarativism](phil-0025) about truth leads to global [anti-representationalism](phil-0010) / [anti-bifurcationism](phil-0090)
 }
-\p{\strong{## Truth vs assertability}
-}
+\subtree{\title{Truth vs assertability}
+
 \p{Rather than truth being a property of statements, it is better to think of the pragmatics of calling something truth as \em{you} taking a normative stance towards it - you are \em{doing} something (endorsing) that is not describing. This is [Expressivism](phil-0046) about truth. This is giving an expressivst reading to "best" in the second conception of truth.
 }
 \p{However, we have an intuition that one \em{means} something different by saying that "#{\phi} is true" and "I endorse #{\phi}". One is justified in asserting the first statement iff one is justified in asserting the second. Rorty encourages us to [get over this intuition](q-0010), but Brandom believes it can be salvaged while still adhering to pragmatist scruples.
@@ -230,18 +235,20 @@
 }
 \p{So in the \em{interpersonal} case it is more clear that there is a difference in #{\phi} being assertable and #{\phi} being true.
 }
-\p{\strong{## A further objection}
 }
+\subtree{\title{A further objection}
+
 \p{Expressivists who want to equate the semantics "#{\phi}" and "It is true that #{\phi}" are only considering free-standing uses of #{\phi}.  The [Frege-Geach argument](phil-0050) demands emotivists to also consider embedded uses of #{\phi},[^ex] thus disquotationalism / prosentential theories are required to show how embedded uses of #{\phi} derive their meaning from free-standing uses of it.[^md]
 }
 \p{[^ex]: "Well if that's true, then you should publish it!"
 }\p{[^md]: For more details see Brandom's \em{Explanatory vs. Expressive Deflationationism about Truth}.}
-
-\p{\strong{# Representation}
 }
+}
+\subtree{\title{Representation}
 \p{Rorty is careful about the metaphor of [Language as tool](phil-0062). He avoids letting representationalism sneak into his coping talk.
 }
 \p{Davidson's switcharoo of [meaning and truth](phil-0073).
 }
 \p{For Rorty, coping, conversation, and [redescription](phil-0110) are three ways of talking about the same thing. Coping is deploying reason-relations in a practice of giving and assessing reasons.
+}
 }

@@ -1,12 +1,13 @@
 \title{26. Evolutionary ethics}
 \tag{elucidations}
 
-\p{\strong{# What is altruism?}}
+\subtree{\title{What is altruism?}
 \ul{
   \li{"pure altruism" Help to someone else at some cost to self}
   \li{(distinct from reciprocal altruism: done with expectation of return)}
 }
-\p{\strong{# Was the tendency to behave altrusitically evolved?}}
+}
+\subtree{\title{Was the tendency to behave altrusitically evolved?}
 
 \p{Other animals act in benefit for kin}
   \li{E.g. bird lures predator away from nest to protect her offspring}
@@ -76,4 +77,5 @@
   \li{Treating kin well and more distant things worse is a constant from who we are.}
   \li{We severely mistreat others when we treat the other tribal group as "the other"/"not us"/inhuman.}
   \li{We become better behaved when we use our cultural knowledge / rational faculties to see that the other tribe isn't so different from us after all.}
+}
 }

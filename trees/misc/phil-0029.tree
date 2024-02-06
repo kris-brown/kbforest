@@ -22,7 +22,7 @@
 \li{The aim of philosophy is conceptual analysis
 }
 }
-\p{\strong{Wittgenstein}}
+\subtree{\title{Wittgenstein}
 \p{The [Tractatus](ref-0066) was supremely descriptivist.
 }
 \p{Yet it made a key advance by noting that logical expressions play a different kind of role 
@@ -33,3 +33,5 @@
 }
 \p{Sellars extends this even further. Also the later Wittgenstein recoiled from descriptivism and saw language as playing an unsurveyable variety of roles.
 }  
+
+}

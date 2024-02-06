@@ -1,10 +1,10 @@
 \title{Pragmatism}
 \meta{external}{[SEP](https://plato.stanford.edu/entries/pragmatism/)}
-\p{
 
-\strong{# Overview }}
+\subtree{\title{Overview }
 \p{TODO} 
-\p{\strong{# History}}
+}
+\subtree{\title{History}
 
 \p{American pragmatism
 }
@@ -25,13 +25,16 @@
 \li{[Price](huw-price)}
 }
 
-\p{\strong{# Semantics}}
+}
+\subtree{\title{Semantics}
 \p{What does it \em{mean} that "All #{A}'s are necessarily #{B}'s"? A pragmatist answer is that it is a license to infer statements like "#{x} is a #{B}" from statements like "#{x} is an #{A}".
 }
-\p{\strong{## Truth }}
+}
+\subtree{\title{Truth }
 \ul{
 \li{Pierce: [Truth as the limit of inquiry](phil-0141)}
 \li{James: Truth as what is good for belief[^bb]}
 }
 \p{[^bb]: [Blackburn](simon-blackburn): false beliefs can be useful, e.g. it may be useful to believe you are the most popular person in class but that does not make it true. Conversely, many things we think of as true are useless.
+}
 }

@@ -4,385 +4,42 @@
 \import{base-macros}
 \author{richard-rorty}
 
-\notes{
 
-# Preface
-
-This book's main thesis: reject attempt to \em{unify} public and private life.}
-
-\table{
-  \tr{
-    \th{Human nature |}
-    \th{Solidarity  | }
-    \th{Individualism}
-  }
-  \tr{
-    \td{\strong{Examples} | }
-    \td{Plato trying to answer "Why is it in one's interest to be just?" or Christianity's claim that perfect self-realization is attained by service to others | }
-    \td{Nietzsche thinking human nature is selfish (e.g. will to power)}
-  }
+\scope{
+  \put\transclude/numbered{false}
+  \transclude{ref-0081}
 }
+\transclude{ref-0082}
 
-\p{
-Historicist thinkers deny there is a 'human nature', something outside of our contingent socialization / historical circumstance which defines us. Yet they can still focus on the individual or the community:}
+\subtree{\title{The contingency of self
+}}
 
-\table{
-  \tr{
-    \th{Focus | }
-    \th{Individualism | }
-    \th{Solidarity}
-  }
-  \tr{
-    \td{\strong{Example thinkers} | }
-    \td{Heidegger, Foucault | }
-    \td{Dewey, Habermas}
-  }
-  \tr{
-    \td{\strong{Hero} | }
-    \td{The self-created exemplar (Kierkegaard, Nietzsche, Proust, Nabokov) | }
-    \td{The fellow citizen (Marx, Mill, Rawls)}
-  }
-  \tr{
-    \td{\strong{Interested in} | }
-    \td{Self-creation, private autonomy | }
-    \td{A more just and free human community}
-  }
-  \tr{
-    \td{\strong{Problem with other column's interest} | }
-    \td{Antithetical to something deep inside of us | }
-    \td{"Irrationalism" or "aestheticism"}
-  }
-  \tr{
-    \td{As a tool, these thinkers help us... | }
-    \td{...realize social virtues aren't the only virtues and some have succeeded in re-creating themselves, articulate our felt need to become a new person | }
-    \td{...see the failure of institutions to live up to the convictions we are publicly committed to}
-  }
+\subtree{\title{The contingency of community
+}}
+
+\transclude{ref-0084}
+
+\subtree{\title{Proust, Nietzsche, Heidegger: self creation and affiliation
 }
+\p{Proust was more successful of an ironist than Nietzsche and Heidegger.
+}}
+\subtree{\title{Derrida from ironist theory to private allusions}
 
-\p{We need not see these as opposed to each other. Unlike the vocabulary of justice, the vocabulary of self-creation is necessarily private and unsuited to argument. The writings of these two kinds of thinkers are like different tools - both are right. The book paints a favorable picture of the liberal ironist: someone who has adopted the book's thesis, rejecting the demand to unify the public and private, treating both as valid yet incommensurable.
+\p{Derrida shows how to be an ironist philosopher by stopping the making of "theories" and instead making more personal / idiosyncratic expressions, such as in his work _The Post Card_ and _Margins_.
+}}
+\subtree{\title{Nabokov on cruelty}
 
-# 1: The contingency of language
-
-## Truth is found vs Truth is made
+\p{Rorty denies the distinction between moral literature and aesthetic literature. 
 }
-
-\table{
-  \tr{
-    \th{Slogan }
-    \th{Truth is found }
-    \th{Truth is made}
-  }
-  \tr{
-    \td{In Ethics }
-    \td{What is good comes from nature or God - we must find it out and align society with it. }
-    \td{Moral law comes \em{from us}; society can radically change.}
-  }
-  \tr{
-    \td{In Art }
-    \td{Art is imitation; we don't learn anything new from it. }
-    \td{Art is self-creation; poetry, novels, etc., can play the role that religion/philosophy once played.}
-  }
-  \tr{
-    \td{Ideology in modern philosophy }
-    \td{Sees "truth is found" as anti-science, merely metaphorical, misleading. }
-    \td{Sees the world as described by physical sciences as teaching no moral lesson, offering no spiritual comfort.}
-  }
-  \tr{
-    \td{Hero of this philosophy }
-    \td{The scientist }
-    \td{The political utopian, the innovative artist}
-  }
-  \tr{
-    \td{Role of science }
-    \td{It finds hard scientific facts (in contrast with mere metaphor). }
-    \td{Science is one more kind of human activity.}
-  }
-  \tr{
-    \td{Good science }
-    \td{Represents the way the world is \em{in itself}. }
-    \td{Helps us predict and control the world. But the idea of representation is pointless.}
-  }
-  \tr{
-    \td{[German idealism as compromise](q-0048) }
-    \td{Facts about the mind / spirit are aspects of mankind's intrinsic nature. }
-    \td{Science gives truth about the (made) \em{phenomenal} world.}
-  }
+\p{Nabokov sees himself as an aesthetic writer, uninterested in moralizing, but Rorty redescribes him as someone worried about a kind of unintentional cruelty coming from intellectuals (like himself) being oblivious to their peers. Humbert in _Lolita_ and Kinbote in _Pale Fire_ both vividly demonstrate this kind of flaw.
 }
-
-\p{If we learn to reject "truth is found" while holding onto the idea that language represents the world or the idea of 'intrinsic essence', we are led to subjectivist/relativist bad ideas. }
-
-\table{
-  \tr{
-    \th{}
-    \th{Good idea }
-    \th{Bad idea }
-    \th{Another bad idea}
-  }
-  \tr{
-    \td{The idea }
-    \td{The world is \em{out there}. }
-    \td{The truth is \em{out there}. }
-    \td{Nothing is \em{out there}.}
-  }
-  \tr{
-    \td{Explanation }
-    \td{The world is not our creation; most things in space and time do not have human mental states as causes.  Without sentences there is no truth, human languages are human creations. \em{Descriptions} of the world are not out there,[^sen] and only those can be true or false.}
-    \td{There are objectively better or worse ways to describe the world. There is a best way (e.g. perhaps fundamental physics); the world splits itself up into sentence-shaped chunks called 'facts'. Sentences are true or false by relating to those facts. }
-    \td{The world \em{is} our creation; it is constructed out of our thoughts or social practices.}
-  }
-  \tr{
-    \td{Truth and representationalism }
-    \td{Truth is made; languages are made, and truth is a property of linguistic entities. }
-    \td{Truth is found; truth represents the world, and the world is not made by us. }
-    \td{Truth is found; truth represents the world, and the world is made by us.}
-  }
-  \tr{
-    \td{Linguistic focus }
-    \td{Entire vocabularies[^eg] (it doesn't seem like the world picks a vocabulary)  }
-    \td{Single sentences (it seems the world makes individual sentences true or false within a fixed vocabulary) }
-    \td{Entire vocabularies (poetic traditions) or sentences (e.g. powerful metaphors expressing deep truths).}
-  }
-  \tr{
-    \td{Understanding vocabulary changes, e.g., Europe growing to accept the idiom of Romantic poetry, of socialist politics, of Galilean mechanics. }
-    \td{These are not \em{decisions} made w/r/t criteria. The notion of criteria and choice aren't suited for talking about transitions \em{between} vocabularies. }
-    \td{These are decisions based on objective criteria (e.g. better 'cutting the world at the joints') }
-    \td{These are decisions based on subjective criteria (arbitrary choices).}
-  }
-  \tr{
-    \td{Belief in \em{essences} - of things possessing an intrinsic nature which gives us criteria for choosing better vocabularies }
-    \td{We shouldn't look for essence of the world (which is indifferent to our descriptions of it) nor the human self (which is created by the use of a vocabulary - not something expressed \em{in} a vocabulary). }
-    \td{The world has an essence which makes it possible for vocabularies can "fit the world". We should find those vocabularies. }
-    \td{Human beings have an essence, which makes it possible for vocabularies to "express the real nature of the self". (Alternatively, that the intrinsic nature of the world is that it is extrinsic.)}
-  }
 }
-
-\p{[^eg]: \blockquote{As Kuhn argues in _The Copernican Revolution_ we did not decide on the basis of some telescopic observations ... that the earth was not the center of the universe, that macroscopic behavior could be explained in terms of microscopic motion, etc. Rather, after hundred years of inconclusive muddle, the Europeans found themselves speaking in a way which took these interlocked theses for granted. Cultural change of this magnitude does not result from applying criteria.}}
-
-\p{Revolutionaries of modernity glimpsed that anything could be made to look good or bad, useful or useless, important or unimportant, by being redescribed. Humans who realized they were not responsible to nonhuman powers would thereby become a new kind of human being.}
-
-\table{
-  \tr{
-    \th{Revolutionary of modernity }
-    \th{Idea }
-    \th{Better idea they were getting at}
-  }
-  \tr{
-    \td{Hegel }
-    \td{Spirit is becoming self conscious of its intrinsic nature. }
-    \td{European linguistic practices are changing at a faster and faster rate; they are offering more radical redescriptions than ever before.}
-  }
-  \tr{
-    \td{Romantic poets  }
-    \td{Imagination, rather than reason, is the central human faculty. }
-    \td{A talent for speaking differently, rather than arguing well, is the chief instrument of cultural change.}
-  }
-  \tr{
-    \td{Political utopians }
-    \td{"Unnatural" social institutions suppress enduring human nature. }
-    \td{changing languages and social practices may produce human beings of a sort that had never existed.}
-  }
+\subtree{\title{Orwell on cruelty}
+\p{Rorty analyzes Orwell's \em{1984}. He admits there is a "Realist reading" of it, especially fueled by the following passage:
 }
+\blockquote{The Party told you to reject the evidence of your eyes and ears. It was their final, most essential, command. His heart sank as he thought of the enormous power arrayed against him, the ease with which any Party intellectual would overthrow him in debate . . . And yet he was in the right! . . . The obvious, the silly, and the true had got to be defended. Truisms are true, hold on to that! The solid world exists, its laws do not change. Stones are hard, water is wet, objects unsupported fall toward the earth's center. With the feeling that he was ... setting forth an important axiom, he wrote: \em{Freedom is the freedom to say that two plus two make four. If that is granted, all else follows.}}
 
-
-\p{## Rorty's metaphilosophy
-
-To avoid hypocrisy, Rorty cannot say his philosophy is "getting at the truth of the world / human nature" or "getting things right". To call something truth is to pay an empty compliment (one that usually hints that the vocabulary used is useful; expressing why that is would be the substantial compliment). The 'nature of truth' is as unprofitable a topic to dwell on as the 'nature of man' or the 'nature of God' - Rorty describes good philosophy as just moving us on to better conversation topics.
-
-Rorty isn't making \em{arguments} because he's encouraging us to change vocabulary rather than show the old vocabulary was inconsistent / vague / metaphorical (after all, the paradigmatically meaningful speech (i.e. ordinary speech) is all of these things). Rather, like utopian politics or revolutionary science, Rorty tempts us with a new vocabulary which causes them to adopt it and change their nonlinguistic behavior, e.g. adopting new scientific equipment or new social institutions. His method has a lot of "Try thinking of it this way..." or "Doesn't the problem you were worried about before seem futile and uninteresting now?" He does not rely on there being criteria shared by the old and new language game to adjudicate.
-
-## How Davidson's philosophy of language helps us drop the idea of 'intrinsic nature'
-
-We ought change our tendency to tell a story of the evolution of language as the story of linguistic practice incrementally getting better at some fixed task. We ought drop the idea that there is some task by which "language" is to be judged. This task is usually framed as being a medium between a 'self' and 'the external world', which each have different intrinsic natures in need of being connected. 
-
-One motivation for telling the story the traditional way was that it gave us something to say when asked "why did language turn out this way?". Language seemed less contingent if we could point to something necessary / eternal that could answer that question. 
-
-But the language-as-medium idea entails asking "does the medium distort?", which leads to skepticism, idealism, or reductionism. Furthermore, it's problematic that we need language to formulate the task which supposedly is the job of language to fulfill. (A new language might address a task which may only be specifiable in the new language itself) It's also problematic to think of "language" as standing between "us" and the world (as what \em{we} are in depends on our language).
-
-Rather than there being a fixed task for language to address, Davidson and Wittgenstein view alternative vocabularies like alternative tools[^cav]  - this avoids questions like "What is the place of consciousness (or values) in a world of molecules (or facts)?" and "Are colors more mind-dependent than weights?" Eddington's table example (that there is the hard, brown table made of wood of ordinary experience and the mostly empty, colorless table made of electrons of physics) stirs up fake conflicts between vocabularies which are capable of peaceful existence.
-
-[^cav]: However, the tool analogy can be taken too far: we design the tool with a goal in mind specifiable antecedently to the tool; language does not work this way. Language does not have a fixed task to perform.
-
-Rather than talk about "our language" as a whole; [^den] rather, Davidson encourages us to talk of "passing theories": to say we speak the same language as someone else is to say we make sense of the noises they make in a way that permit us to predict their behavior (and vice-versa). This kind of understanding is equally applicable to coping with mangoes or boa constrictors - passing theories help us not be taken by surprise.
-
-This eliminates the boundary between knowing a language and knowing our way around the world, generally. Questions about representation are replaced with \em{causal} questions, but this is not a \em{reductive} behaviorism because no attempt at giving Behaviorese equivalents for talk about belief or reference is given. To say that someone is a language user is to say that pairing of the noises they make to those we make will prove a useful tactic in predicting / controlling their future behavior.
-
-[^den]: This parallels Ryle and Dennett's doubts about whether we ought talk about something called "the mind" or "consciousness".
-
-### Non-teleological account of intellectual and moral progress
-
-It was a hard-fought battle to come to peace with thinking of ourselves, biologically at least, as contingent: species evolve to adapt to their contingent environment; it doesn't make sense to ask whether an ancient bacterium is a simply \em{better} species than a prehistoric dinosaur or a present day ant (better \em{at what}?). With some help, we can learn to think of language the same, non-teleological way. \strong{New languages kill off old ones, not to accomplish a higher purpose, but blindly.}
-
-Nietzsche talks of "truth" as a "mobile army of metaphors". Our language is built out of dead metaphors of previous generations. To have a (literal) meaning is to play a move in a language game. A metaphor is more like:}
-
-\ul{
-\li{suddenly breaking conversation to make a face}
-\li{pulling a photograph out of your pocket }
-\li{slapping your interlocutor's face}
-\li{kissing him}
-\li{using italics or odd punctuation}
+\p{Nevertheless, Rorty interprets Orwell as being sympathetic to his anti-epistemological and political projects. What Orwell really shows that "if freedom is granted, truth will take care of itself."
 }
-\table{
-  \tr{
-    \th{}
-    \th{Platonist / positivist  }
-    \th{Romantic  }
-    \th{Davidson}
-  }
-  \tr{
-    \td{Language ought represent...  }
-    \td{...the hidden reality of the world outside of us  }
-    \td{...the hidden reality of self inside of us.  }
-    \td{No, the (main) task of language isn't to represent.}
-  }
-  \tr{
-    \td{Literal vs metaphor  }
-    \td{Metaphor seems irrelevant, either useless or paraphrasable into something literal.  }
-    \td{The literal seems irrelevant. Metaphors are the work of the "imagination", the deep core of the heart.  }
-    \td{It doesn't make sense to ask "what a metaphor means" (in the current language game where it is a metaphor). In time, if it catches on, it will have a habitual use, a familiar place in the new language game.}
-  }
-  \tr{
-    \td{Trajectory of language: gradually...  }
-    \td{...shaping itself around the contours of the world  }
-    \td{...bringing Spirit to self-conciousness.  }
-    \td{...changes due to evolution with no higher purpose.}
-  }
-  \tr{
-    \td{Example of progress  }
-    \td{Galileo made a discovery, found words which fit the world properly.  }
-    \td{Yeats expressed something that no one previously had been able to express.  }
-    \td{People felt Galilean vocabulary was a good tool, and soon no one[^thom] was interested in doing things that used to be done with the Aristotelian vocabulary. One we had Yeats' poems, we were less interested in reading Rossetti's. }
-  }
 }
-
-\p{[^thom]: Notably, the Thomists were exceptions.
-
-To show the world does not provide us a criterion for picking between alternative metaphors (i.e. we can only compare languages with each other, not by reference to something beyond language called "fact") one must show the sterility of attempts to give sense to phrases like "the way the world is" or "fitting the facts".[^also]
-
-It seems like hubris or blasphemous to not see the scientist (or philosopher or poet...somebody) as playing the priestly role of putting us in touch with a realm which transcends the human. This comes from thinking that "the world"  names something that we both ought respect \em{and} cope with. Rorty encourages us to de-divinize the world. Just because we have intuitions otherwise doesn't mean we can't change those intuitions - there is no need to worship the corpses of our ancestors' metaphors. To learn to treat \em{everything} (language, conscience, community) as the product of time and chance is to "treat chance as worthy of determining our fate."[^fr]
-
-[^also]: This is done in the work of Goodman, Putnam, Davidson, Kuhn, Hesse.
-
-[^fr]: Freud.
-# 2: The contingency of self
-
-TBD
-# 3: The contingency of community
-
-TBD 
-
-# 4: Private Irony and Liberal Hope
-
-\strong{Final vocabulary}: the set of words we which use to justify our actions / beliefs / lives. The words we use to tell the story of our lives. There is no non-circular way of justifying how we use these.[^fvex]
-
-[^fvex]: A small part is made up of flexible terms like "true", "good", "right", and the bulk is made of more rigid terms like "Christ", "England", "progressive", "kindness".
-
-The common-sensical person:
--  Un-self-consciously describes everything important in terms of their final vocabulary. Takes for granted that their final vocabulary allows them to describe and judge the lives of those who have alternate final vocabularies.
-}
-
-\table{
-  \tr{
-    \th{}
-    \th{Metaphysician}
-    \th{Ironist}
-  }
-  \tr{
-    \td{Description  }
-    \td{<ul>  <li>Can be critical about their (present, tentative) final vocabulary, but with the goal of finding the 'right' final vocabulary.<li> Takes the question "What is the intrinsic nature of (e.g. justice, science, Being, morality)?" at face value. <li> Assumes the presence of a term in the (real) final vocabulary means it refers to something which has a real essence.</ul>}
-    \td{<ul>  <li>Has radical continuing doubts about her final vocabulary.<li>Realizes argument (in her final vocabulary) can neither underwrite nor dissolve these doubts.  <li> Does not think her vocabulary is 'closer to reality' than any others. Choice between vocabularies is not made in a neutral/universal metavocabulary; rather, it is made simply by playing off the new against the old.</ul>}
-  }
-}
-
-
-\p{Metaphysician likes socratic inquiry, whereas the ironist thinks this does not take one outside of the language games of one's time. The metaphysician calls this "relativistic". In the vocabulary they've inherited, human beings by nature desire to know, which is a relation between human beings and "reality". "Reality" will determine what our final vocabulary should be, and it's our duty to find this. 
-
-By contrast, ironists do not see the point of discursive thought to be \em{knowing} (in any sense related to "an objective POV" or "correspondence of language and reality"). They do not see the "final vocabulary" as "the one which putts all doubts to rest". 
-
-Metaphysicians see books as divided by subjects, based on their different objects of knowledge. Ironists see them divided by traditions. Ironists see poetic geniuses (people who redescribe) in all subjects (Pythagoras, Plato, Milton, Goethe, Kant, Freud...) whereas metaphysicians want to sort these people into poets, scientists, mathematicians, philosophers, etc., so that we know which of them is providing knowledge vs something else.
-
-Metaphysicians define "philosophy" as an attempt to know (general, important) things. Ironists see it as the attempt to develop a particular final vocabulary (one which revolves around the appearance-reality distinction). The difference: contingency of language. Does the common-sense our language shares with Plato/Kant hint at the way the world really is or is it just characteristic of our adjacent chunks of space-time?
-
-Metaphysician: there are no problems we can raise which we cannot solve. Although we might not have all the right answers, we have the criteria for the right[^r] answers. Conversely, ironists do not see final vocabularies as destined to converge. Our vocabularies are merely "Greek" or "Western" or "bourgeois". 
-
-[^r]: Here "right" is not "suitable for what we do" but something heavier, like "grasping real essence".
-
-For the ironist, "Truth is independent of the human mind" and "Man by nature desires to know" are platitudes which are used to inculcate the local final vocabulary / common sense of the West. The ironist wants to use a different final vocabulary that focuses on making rather than finding, of diversity of vocabularies rather than convergence to the antecedent one. 
-
-Metaphysicians think we already possess a mostly right final vocabulary and just need to iron out some details. They think refining/clarifying terms is a matter of weaving the existing platitudes (they'd call them: intuitions). This makes them focus on flexible terms like "true", "good", "person", "object" (the more thin the term, the more platitudes fit it). They also take logical/deductive argument to be the paradigm of philosophical inquiry.}
-
-
-\table{
-  \tr{
-    \th{}
-    \th{Metaphysician | }
-    \th{Ironist}
-  }
-  \tr{
-    \td{What we've done once we make a helpful distinction / remove a contradiction / reject statements like "The number of species is fixed" or "Blacks deserve no rights" | }
-    \td{We have discovered a fact. | }
-    \td{We've substituted a new vocabulary for some part of our old one.}
-  }
-  \tr{
-    \td{Success of Europeans | }
-    \td{They are particularly good at discovering how things really are. | }
-    \td{They are particularly rapid in changing their self-image, in re-creating themselves.}
-  }
-  \tr{
-    \td{Preferred style of confrontation | }
-    \td{Logical argument (starting from relatively uncontroversial premises). | }
-    \td{Dialectic[^dia]. Success means people no longer ask questions phrased in the old words.}
-  }
-  \tr{
-    \td{Logic vs dialectic | }
-    \td{Dialectic is a species of rhetoric, which is a shoddy substitute for logic | }
-    \td{Logic is ancillary to dialectic.}
-  }
-  \tr{
-    \td{How _ philosophers define their success | }
-    \td{By their relation to truth | }
-    \td{By their relation to earlier philosophers.}
-  }
-  \tr{
-    \td{How to treat great thinkers | }
-    \td{As channels for truth | }
-    \td{As abbreviations for certain final vocabularies.}
-  }
-}
-
-
-\p{[^dia]:  The attempt to play vocabularies off of each other, rather than merely infer propositions from one another. The unit of persuasion is the whole vocabulary rather than the proposition.
-
-### Literary criticism 
-Hegel's dialectic method was not an argumentative procedure but rather a literary skill of producing surprising gestalt switches, making smooth+rapid transitions from one terminology to another. In practice (but not in theory) he dropped the idea of finding truth and adopted making it. Hegel unintentionally de-metaphysized philosophy by making it into a literary genre. The modern term for dialectic is "literary criticism", which plays with the possibilities of adopting vocabularies from famous texts to redescribe ourselves. Literary critics don't tell us the real meaning of books, rather they contextualize books in terms of other books (this revises our opinion of both the new and the old). 
-
-Literary criticism does for ironists what the search for universal moral principles is supposed to do for metaphysicians. The term "literary criticism" has been stretched beyond just literature - it might better be called "culture criticism" now.
-
-### Private irony
-
-While ironism is popular among intellectuals, the public is born into common sense metaphysics. Thus ironists are accused of being anti-democratic, as liberal democracy seems tied up with certain metaphysical assumptions. (IN PROGRESS ... up to pg 83)
-
-
-# 5: Proust, Nietzsche, Heidegger: self creation and affiliation
-
-Proust was more successful of an ironist than Nietzsche and Heidegger.
-# 6: Derrida from ironist theory to private allusions
-
-Derrida shows how to be an ironist philosopher by stopping the making of "theories" and instead making more personal / idiosyncratic expressions, such as in his work _The Post Card_ and _Margins_.
-
-# 7: Nabokov on cruelty
-
-Rorty denies the distinction between moral literature and aesthetic literature. 
-
-Nabokov sees himself as an aesthetic writer, uninterested in moralizing, but Rorty redescribes him as someone worried about a kind of unintentional cruelty coming from intellectuals (like himself) being oblivious to their peers. Humbert in _Lolita_ and Kinbote in _Pale Fire_ both vividly demonstrate this kind of flaw.
-
-# 8: Orwell on cruelty 
-
-Rorty analyzes Orwell's \em{1984}. He admits there is a "Realist reading" of it, especially fueled by the following passage:
-
-> The Party told you to reject the evidence of your eyes and ears. It was their final, most essential, command. His heart sank as he thought of the enormous power arrayed against him, the ease with which any Party intellectual would overthrow him in debate . . . And yet he was in the right! . . . The obvious, the silly, and the true had got to be defended. Truisms are true, hold on to that! The solid world exists, its laws do not change. Stones are hard, water is wet, objects unsupported fall toward the earth's center. With the feeling that he was ... setting forth an important axiom, he wrote: \em{Freedom is the freedom to say that two plus two make four. If that is granted, all else follows.}
-
-Nevertheless, Rorty interprets Orwell as being sympathetic to his anti-epistemological and political projects. What Orwell really shows that "if freedom is granted, truth will take care of itself."
-
-# 9: Solidarity
-
-TBD}
+\subtree{\title{Solidarity}}

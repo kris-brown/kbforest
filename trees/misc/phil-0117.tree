@@ -5,7 +5,8 @@
 
 Representation is a theory of the relation between appearance and reality. }
 
-\p{\strong{# A [successor concept](ref-0134) to theories of resemblance}}
+\subtree{\title{A [successor concept](ref-0134) to theories of resemblance}
+
 \p{Premodern theories understood relation between appearance and reality in terms of \strong{resemblance} (sharing properties).
 }  
 \ul{
@@ -26,8 +27,9 @@ Representation is a theory of the relation between appearance and reality. }
       describe the underlying \em{reality} of the motion that we have appearances 
       of because he had no notion of representation. 
 }
-\p{\strong{# Pioneered by Descartes }
 }
+\subtree{\title{Pioneered by Descartes }
+
 \p{[Descartes](rene-descartes) came up with the more abstract meta-concept (which Kant would dub representation, or \em{Vorstellung}) as a new way of thinking of the relation between appearance and reality.
 }
 \p{[Spinoza](baruch-spinoza) saw Descartes' philosophy as being understood in terms of his innovations of relating algebra to geometry. How could strings of algebraic symbols be useful / veridical appearances of 
@@ -41,7 +43,8 @@ geometrical reality?
   What's relevant is that there is the overall structure, the mapping 
   between the relations in each world.}
 } 
-\p{\strong{# Empiricists and Rationalists}}
+}
+\subtree{\title{Empiricists and Rationalists}
 
 \table{
   \tr{
@@ -94,4 +97,5 @@ geometrical reality?
 \p{[^prog]: Empiricists did not take the wholist lesson of representation to heart, so they were reactionary / holding onto the atomistic aspect of the antiquated resemblence model.
 }
 \p{Kant saw Descartes as having made an advance by assimilating impressions and  concepts as species under the genus of representation. But these categorically-different species play different roles in our capacity to know things (rather than being the same species but having a spectrum).
+}
 }

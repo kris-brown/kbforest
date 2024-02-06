@@ -19,7 +19,7 @@ Two broad conceptions}
 }
 \p{[^dec]: I.e. there are not different [kinds of truth](q-0106)
 }
-\p{\strong{# Truth vs assertability}}
+\subtree{\title{Truth vs assertability}
 
 \p{Rather than truth being a property of statements, it is better to think of the pragmatics of calling something truth as \em{you} taking a normative stance towards it - you are \em{doing} something (endorsing) that is not describing. This is [Expressivism](phil-0046) about truth. This is giving an expressivst reading to "best" in the second conception of truth.
 }
@@ -51,4 +51,5 @@ Two broad conceptions}
 \p{[^kb]: \mark{This strikes me as important in blocking some argument that semantics can be cleanly/functorially read off of the pragmatics.}
 }
 \p{Deflationary theories of truth need to address the [Frege-Geach argument](phil-0050) in explaining embedded uses of truth.
+}
 }

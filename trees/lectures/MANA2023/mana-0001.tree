@@ -105,20 +105,21 @@
   }
 }
 
-\p{\strong{### #{\uparrow} (Practical intentionality)
-}}
+\subtree{\title{#{\uparrow} (Practical intentionality)}
 \p{Consider the mapping relation that skillful dealings produce and promote between items in the environment and states of the organism. The usefulness of map representations depends on the goodness of inferences from map-facts (there is a blue wavy line between two dots here) to terrain-facts (there is a river between these two cities). The propositional content of the map facts is built up out of representational relations that are sub-propositional (correlating blue lines and rivers, dots and cities). Such relations underwrite the representation-to-proposition order of explanation at the level of practical intentionality.
 }
 \p{When this gets applied to discursive intentionality, we get (ultimately unsustainable) ideas like "truth as correspondence to reality" /  "mind as the mirror of nature", but it's perfectly reasonable to have a \em{casual} theory of the brain (qua physical object) being impinged upon by photons and representing physical objects outside the brain as account for the content of its beliefs / intentions.[^bi]
 }
 \p{[^bi]: "Belief"/"intention" of the \em{practical} kind can be cached out in some scientific or ordinary-empirical vocabulary. But it's important that, like in the "Intentionality Example" row in the table above, this practical intentionality is in a box with "The cat believes his owner is home" or "The ozone molecules wants to break apart" or "The plankton wants to find oxygen".
 }
-\p{\strong{###  #{\rightarrow} (Propositional intentionality)}
 }
+\subtree{\title{#{\rightarrow} (Propositional intentionality)}
+
 \p{An account is sketched of how discursive propositional intentionality (knowing that) is understood as the application of certain practical abilities (knowing how). In the tradition of Kant's understanding of concepts as normative, discursive propositional content is understood as functional roles in a network of inferential relations. To count as grasping the conceptual content is to navigate this network - a toy model of how we do this ("deontic scorekeeping") is given.
 }
-\p{\strong{### #{\downarrow} (Discursive intentionality)}
 }
+\subtree{\title{#{\downarrow} (Discursive intentionality)}
+
 \p{Syntactically, we make the difference between propositional and representational intentionality explicit with \em{de dicto} vs \em{de re} clauses. 
 }
 \ul{
@@ -151,7 +152,8 @@
 
 \p{Takeaway: keeping track of what premises are available for the reasoning of others and what premises are available for our own reasoning is what we are \em{doing} when we talk \em{of} things (i.e. discursive representation).
 }
-\p{\strong{## Aside on language}}
+}
+\subtree{\title{Aside on language}
 
 \p{The issue of the order of explanation between language and intentionality is also brought up.[^d]  Early modern philosophers took it to be obvious we could have thoughts apart from their linguistic expression. The opposite extreme is associated with Wittgenstein, expressed by this Dummett [quote](q-0062): 
 }
@@ -160,4 +162,5 @@
 \blockquote{We have opposed throughout the view of assertion as the expression of an interior act; judgment, rather, is the interiorization of the external act of assertion.}
 
 \p{Davidson takes them to be mutually dependent: concept use is not intelligible in a context that does not include language use, while allowing for intentional states (e.g. beliefs) to be essential in understanding linguistic practices. The capacity to \em{think} (i.e. have propositionally contentful thoughts, that things are thus-and-so) and the capacity to \em{talk} arise and develop together.
+}
 }

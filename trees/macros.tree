@@ -139,10 +139,9 @@
   \block{\strong{Response.}}{\body}
 }
 
-
-\def\texfig[body]{
-  \iftex{\tex{\body}}{
-    \xml{center}{\tex{\body}}
+\def\quiver[body]{
+  \iftex{\tex{\usepackage{quiver}}{\body}}{
+    \xml{center}{\tex{\usepackage{quiver}}{\body}}
   }
 }
 

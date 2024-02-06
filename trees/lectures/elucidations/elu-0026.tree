@@ -1,7 +1,7 @@
 \title{7. Nature and ethics}
 \tag{elucidations}
 
-\p{\strong{# Naive way of incorporating the two}}
+\subtree{\title{Naive way of incorporating the two}
 \p{Something is not acceptable because it is 'not natural'.
 }
 \ul{
@@ -9,13 +9,14 @@
 \li{More sophisticated version: something that comes out of evolution is good}
 \li{Good for survival is not the same as good in the ethical sense, even if the origins of our ethical norms came out of some competitive advantage it gave early humans.}
 }
-\p{\strong{# Alternative way}}
+}
+\subtree{\title{Alternative way}
 \p{What is good is indexed to the kind of thing one naturally is}
 \ul{
   \li{We should always ask the question "is X good for Y" (rather than simply "Is X good?")}
   \li{"What is good for a plant is not good for what is good for a human"}
 }
-\p{\strong{## Problems}}
+\subtree{\title{Problems}
 \p{It is still desirable to appeal to "Good simpliciter". which is not of the form "Good for X".
 }\ul{
   \li{"What's good for the Russian mafia is not good (simpliciter)"}
@@ -27,3 +28,4 @@
 \p{Evolutionary theory says natures change over time. So what is one appealing to?}
  \ul{
   \li{You can take a 'snapshot' of a couple generations}}
+}}

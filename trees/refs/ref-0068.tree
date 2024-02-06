@@ -3,14 +3,14 @@
 \import{macros}
 \author{wo-quine}
 
-\notes{
 
-Dogma 1: Analyticity
-
-- Consider the claims "Cats are mammals" and "There have been black dogs". When you look at the sorts of evidence we would need to see in order to reject those claims (i.e. conclude they lead us to bad inferences) you don't see anything radically different in kind.
-- All there is is the practice of using language which gives both the meanings and the truth together; if you substantially altered meanings, we would alter what we took to be true and vice versa.
-- Targets Carnap's two-phase language-theory distinction.
-
-Dogma 2: Reductionism
-- Each meaningful statement is equivalent to some construct upon terms which refer to immediate experience
+\p{Dogma 1: Analyticity
 }
+\ul{
+\li{Consider the claims "Cats are mammals" and "There have been black dogs". When you look at the sorts of evidence we would need to see in order to reject those claims (i.e. conclude they lead us to bad inferences) you don't see anything radically different in kind.}
+\li{All there is is the practice of using language which gives both the meanings and the truth together; if you substantially altered meanings, we would alter what we took to be true and vice versa.}
+\li{Targets Carnap's two-phase language-theory distinction.}}
+
+\p{Dogma 2: Reductionism
+}
+\p{Each meaningful statement is equivalent to some construct upon terms which refer to immediate experience}

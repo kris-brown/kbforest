@@ -1,14 +1,13 @@
 \title{01 - The Concept of Representation}
 
-\p{\strong{History of representation}
-}
+\subtree{
+\title{The history of representation}
 \p{Does '[representation](phil-0117)' have a [nature or a history](int-0005)? I.e. Does it belong with "electrons" and "sulfur" or with "freedom" and "the right to vote"?}
 
 \p{Brandom, being a Hegelian, thinks philosophy belongs in the latter category and proceeds to give a historical overview of 'representation'.
 }
 
-\p{\strong{Premodern}
-}
+\subtree{\title{Premodern}
 \p{Representation[^ing] is a \em{modern} concept.
 }
 \p{Premodern theories understood relation between appearance and reality in terms of \strong{resemblance} (sharing properties).
@@ -25,9 +24,9 @@
 
 }
 }
-\p{[^ing]: Caveat: this suffers from the [ing-ed ambiguity](phil-0001).
+\p{[^ing]: Caveat: this suffers from the [ing-ed ambiguity](phil-0001).}
 }
-\p{\strong{The invention of representation[^fou]}}
+\subtree{\title{The invention of representation}
 
 \p{[Descartes](rene-descartes) invents representation with relationships between algebra (representation) and geometry (represented/reality). Everything in Western philosophy is downstream of this move, which brought philosophy into its modern age.
 }
@@ -55,9 +54,9 @@
 }
 \p{[^fou]: Chapter 2 and 3 of Foucault's \em{The Order of Things} detail this transition from resemblance to representation.
 }
-
-\p{\strong{Rationalists vs empiricists}
 }
+\subtree{\title{Rationalists vs empiricists}
+
 \p{Kant says Descartes was right to think in terms of representation but that he 
   didn't distinguish two different kinds of representings: picture-like images/sensations vs sentence-like thoughts. He saw both as different ends of a spectrum, while empiricists tried to reduce thoughts to pictures and rationalists vice-versa.
 }
@@ -76,8 +75,9 @@
 }
 \p{[^dr]:: Note that representation is a slightly wider concept than description, but anti-descriptivism is a can still be viewed as a form of anti-representationalism.
 }
-\p{\strong{Lessons}
 }
+\subtree{\title{Lessons}
+
 \p{Representation is a holistic conception, so rationalists were just right about that. 
 }	  \ul{
 \li{Kant's trancendental unity of apperception is a holistic one}
@@ -92,13 +92,12 @@
 \ul{
     \li{To treat representation as concerning what inferences we can make is a normative order.}
     \li{Kant saw that the [order and connection of ideas](q-0092) is a normative order. Relations between ideas are those of obligation, permission, and entitlement.}
-
 }
-\p{\strong{[Representationalism](phil-0118)}
 }
-
-\p{[Declarativism](phil-0025): a relatively-defensible representationalist position
 }
+\subtree{\title{Representationalism}
+  
+\p{[Declarativism](phil-0025): a relatively-defensible representationalist position}
 
 \p{It is dual to "descriptivism" which too narrowly construes representation as description (which is too constricted a notion of representation).This too broadly understands what all declarative sentences do in terms of fact-stating / truth-aptness ('representation' becomes too expansive). Expressivism is one way of negating this (by declaring "X is good", one is commending rather than fact stating).}
 \ul{
@@ -110,10 +109,12 @@
 
 }
 }
-
-\p{\strong{Antirepresentationalism}
 }
-\p{\strong{[pragmatism](phil-0103)}}
+\subtree{
+\title{Antirepresentationalism}
+
+
+\subtree{\title{Pragmatism}
 \p{Rorty characterizes pragmatism as fundamentally anti-representationalist  ([Cheryl Misak](cheryl-misak) strongly disagrees and considers Rorty to be a false heir of the tradition).
 }  
 \ul{
@@ -144,17 +145,17 @@
     \li{Pragmatism about norms}
     \li{Anti-authoritarianism argument (completing the emancipatory project of the Enlightenment)}
 }
-
-\p{\strong{[Expressivism](phil-0046)}
 }
+\subtree{\title{Expressivism}
+
 \p{[Blackburn](simon-blackburn) applies \em{local} expressivism in order to get a distinctive flavor of anti-representationalism.}
   \ul{
   \li{"Fact-stating discourse" can be regarded as crucially important without dismissing all other kinds of discourse as defective/reducible.}
   \li{Expressivism is a broad family of views claiming some areas of discourse are 'in the business' of giving expression to sentiments / commitments / non-cognitive or non-representational mental states or attitudes.}
   }
-
-\p{\strong{Modern [anti-representationalism](phil-0010)}
 }
+\subtree{\title{Modern anti-representationalism}
+
 \p{[Price](huw-price) synthesizes these two strands of anti-representationalism.
 }  
 \ul{
@@ -168,3 +169,5 @@
 }
 
 \p{Brandom argues this global anti-representationalism goes too far -  prioritizing use over meaning (i.e. semantics answers to pragmatics) does not rule out representational / descriptivist accounts of vocabularies in general. He disagrees with Price's argument that local expressivism is not possible.}
+}
+}

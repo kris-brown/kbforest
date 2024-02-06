@@ -1,7 +1,7 @@
 \title{45. Probability}
 \tag{elucidations}
 
-\p{\strong{# Conflict between epistemic and objective notions of probability}}
+\subtree{\title{Conflict between epistemic and objective notions of probability}
 \p{In the former, to express a claim about a coin toss having a 50% chance of 
   being heads is to make a claim about a rational being's own knowledge, 
   among other things.
@@ -18,14 +18,16 @@
 \p{Therefore, the desire to not step on determinism's toes historically has led 
   to a dominance of epistemic notions of probability.}
 
-\p{\strong{# Why not just submit to epistemic notion?}}
+}
+\subtree{\title{Why not just submit to epistemic notion?}
 \ul{
   \li{it would be remarkable if the ordinary claim that a coin toss is fair were covertly a commentary on one's own ignorance.}
   \li{analogy: whether or not we are justified in believing something depends on our epistemic relation to the world. However, this doesn't mean that the content of all our beliefs makes reference to our epistemic state.}
   \li{But still, we then have to explain how to reconcile objective probability with determinism.}
 }
-\p{\strong{# Conflict between determinism and objective probability }
 }
+\subtree{\title{Conflict between determinism and objective probability }
+
 \p{It is an illusion due to a misconception about the content of judgments of probability. The misconception:}
 \ul{
   \li{Judgments of deduction viewed as just an extreme judgment of probability (where deduced judgments have probability 1).}
@@ -34,7 +36,8 @@
     \li{Example: "all balls in the urn are black, draw a ball, that ball will be black" is just a special case with p=1 in "fraction p of the balls in the urn are black, draw a ball, it has probability p of being black"}
     \li{The 10-coin toss example below will show why the former is not special case of the latter, as the latter has a certain ambiguity.}}
 }
-\p{\strong{# Unambiguous statement }}
+}
+\subtree{\title{Unambiguous statement }
 \p{"10 coins are drawn, 5 of which are heads"}
   \p{If asked to compute the probability of it, we can do a calculation, but 
     we're implicitly assuming some extra structure because the question is 
@@ -52,7 +55,8 @@
     rather propositions embedded in some procedural context.}
   \p{They are not the types of things we can arrive at by deduction.}
 
-\p{\strong{# Conclusion }}
+}
+\subtree{\title{Conclusion }
 \p{Probabilitic reasoning and deduction are distinct modes of inference.}
 \ul{
 \li{Observing the coin is heads after the fact is no argument against the  purportedly probabilistic nature of the coin toss.}
@@ -60,7 +64,8 @@
   \ul{
   \li{Like playing poker against an opponent with x-ray vision should not make us believe objective probability does not exist.}}
 }
-\p{\strong{# Upshots}}
+}
+\subtree{\title{Upshots}
 \p{Theoretical study of objective probabilities is back on the table.}
 \p{relationship between inductive and deductive logic}
 \ul{
@@ -71,3 +76,4 @@
     \li{What sentences to pick as elementary or basic is more important in an inductive language.}
 }}
 
+}

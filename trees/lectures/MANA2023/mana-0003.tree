@@ -1,9 +1,9 @@
 \title{Modal Expressivism and Modal Realism Together Again}
 
-\p{\strong{# A modal expressivism}}
+\subtree{\title{A modal expressivism}
 
-\p{\strong{## Kant's pure concepts}
-}
+\subtree{\title{Kant's pure concepts}
+
 \p{Kant: in addition to ODE (ordinary descriptive / empirical) concepts whose principle use is to describe how things are, there are concepts that make explicit features of the \em{framework} that makes ODE possible (e.g. alethic modal concepts). These are \em{a priori} which boils down to: 
 }
 \ol{
@@ -13,13 +13,15 @@
 }
 \p{Lawlike claims assert modal relations between ODE. These must be discovered and justified empirically, and Kant's challenge is to show how they can be necessary and empirical at the same time.
 }
-\p{\strong{## Frege's inferentialism}
 }
+\subtree{\title{Frege's inferentialism}
+
 \p{The logical tradition has focused on extensional quantificational interpretations of concepts - this encounters problems distinguishing contingent regularities from lawlike ones. But Frege's notation takes relations between concepts to \em{already} have modal force. This is evidenced by Frege saying that his Begriffschrift could be extended to produce a theory of motion, mechanics, and physics (without adding modal operators - the logical vocabulary already has the resources to express the necessity of empirical relations).
 }
 \p{Frege understands content as articulated by \em{inferential} relations between concepts.
 }
-\p{\strong{## Sellars' modal expressivism}}
+}
+\subtree{\title{Sellars' modal expressivism}
 
 \ol{
 \li{It is only because expressions locate objects in a space of implications that they describe at all, rather than merely label.}
@@ -41,8 +43,8 @@
 }
 \p{[^ry]: Ryle's terminology in "'If', 'So', and 'Because"'. Ryle distinguishes committive vs permissive inferences, which Sellars does not.
 }
-\p{\strong{## Issues with 'metalinguistic'}
-}
+}\subtree{\title{Issues with 'metalinguistic'}
+
 \p{What kind of modality is Sellars' talking about? It is explicitly not \em{logical} necessity. Nor is it Kripke's \em{metaphysical necessity} from [Naming and Necessity](ref-0036). Sellars calls them "causal" or "physical" modalities, which coincides with alethic necessity that characterizes laws of nature. He thinks this is what we mean in ordinary informal explanations (why the beans burned, why the car wouldn't start). This is the same kind of necessity Kant and Hume fought over and arguably was what Frege had in mind concerning the modal force of his generality locutions.
 }
 \p{But Sellars also considers it a \em{conceptual} necessity. This seems like an \em{a priori} matter, concerning what words \em{mean}, unlike the necessity of laws of nature which requires some empirical establishment. This line of thought leads to an inconsistent triad:[^pro]
@@ -64,8 +66,9 @@
 }
 \p{[^form]: Appropriate for formal languages, not natural languages.
 }
-\p{\strong{## Pragmatic metavocabularies}
 }
+\subtree{\title{Pragmatic metavocabularies}
+
 \p{'Metalinguistic' was too crude of a tool to describe how modal vocabulary is related to OED vocabulary. One way to make this point finer is to say that modal vocabulary is a "pragmatic metavocabulary"[^omv] which allows you to talk about what you are \em{doing} in \em{using} an expression (e.g. speech act one is performing, the pragmatic force one is exercising, the commitments one is undertaking, the norms that govern linguistic performances). E.g. \em{using} alethic modal vocabulary is \em{doing} something that can be specified explicitly in the right pragmatic metavocabulary (i.e. endorsing a class of inferences). This analysis does not commit oneself to the \em{content} of modal talk (specifically it's not asserting that it's equivalent to talk of inferences). Thus it avoids the problem above of modal claims not making sense in counterfactual scenarios where there are no speakers.
 }
 \p{[^omv]: Contrast with \em{syntactic} metavocabularies, which enable one to talk about linguistic expressions themselves (which Sellars calls "sign designs") and \em{semantic} metavocabularies (which let you talk about what expressions refer to or \em{say}).
@@ -84,9 +87,10 @@
 }
 \p{This is necessary for explanation, which requires us to have a \em{pattern} of good inferences.  But subjunctive robustness doesn't have to be underwritten by \em{laws} (\em{globally} monotonic, no matter what collateral premises thrown in) even though \em{some} degree of subjunctive robustness is needed in order for something to be an explanation, rather than just a description. Descriptive vocabulary requires commitment to inferences with subjunctive robustness, thus fleshing out the story behind Sellars' quote "the descriptive and explanatory resources of language advance hand in hand".
 }
-\p{\strong{# Modal Realism}
-}
-\p{\strong{## Argument from science}}
+}}
+\subtree{\title{Modal Realism}
+
+\subtree{\title{Argument from science}
 \p{The above Kant-Sellars modal expressivism stands seemingly in opposition to modal realism, i.e.
 }
 \ol{
@@ -105,13 +109,15 @@
 \li{If the sample were pure copper, it would be denser than water.}
 \li{Being pure copper is incompatible with being an electrical insulator.}
 }
-\p{\strong{## Relation to analytic philosophy}
 }
+\subtree{\title{Relation to analytic philosophy}
+
 \p{The necessity involved above is not \em{logical} necessity (since they depend essentially on the \em{non}-logical concepts of 'copper', 'water', etc.). It is not metaphysical necessity (which abstracts from actual laws of nature).
 }
 \p{Kripke introduced necessary \em{a posteriori} and contingent \em{a priori} in [Naming and Necessity](ref-0036). This gave birth to contemporary analytic metaphysics. The necessity from earlier is more closely related to the intensional semantics of Lewis/Stalnaker/Montague/Kaplan, which used modal notions to explicate the contents of nonlogical concepts.
 }
-\p{\strong{## Modal realism from OED realism}}
+}
+\subtree{\title{ Modal realism from OED realism}
 
 \p{There is some way the world objectively is. To say things, objectively, are \em{determinate} is to contrast with an idea of indeterminateness.[^shan] A "Hegelian" model of determinateness understands it as an "exclusive" difference  (e.g. square vs circle), not mere "mere"/indifferent difference  (e.g. square vs green).
 }
@@ -123,24 +129,27 @@
 }
 \p{The modality we've been talking about is involved in claims like "No monochromatic patch can be both red and green" and "A mammal in a sealed jar would die of oxygen deprivation." These aren't logical modalities nor the metaphysical modalities of Kripke.
 }
-\p{\strong{# Together}
-}
-\p{\strong{## Reconciling MR and ME}
-}
+}}
+\subtree{\title{Together}
+
+\subtree{\title{Reconciling MR and ME}
+
 \p{The two sides are compatible. MR is what one is \em{saying} by making modal claims, ME is what one is \em{doing} in using modal concepts. An important way to think about what one is saying is by what one is doing. 
 }
 \p{ME says one is \em{doing} something different when making OED claims (no commitment to subjunctives) vs modals. MR says that what one is \em{saying} is describing the objective world. Reconciling these needs a sense of "describing"/"empirical fact-stating" that is broader than the OED sense but still restricts to the normal OED sense as a special case.
 }
 \p{Declarativism is the view that identifies facts with whatever is stated by declarative sentences. This is a fair way to use 'fact' but it is selling modal realism too cheaply, as it puts modal realism on par with "One ought not be cruel" and "Raspberries are preferable to strawberries". This is unsatisfactory - it is too broad (like Frege's "a fact is a true thinkable", it is fine as a necessary condition for facts, but not a sufficient one). 
 }
-\p{\strong{## ME as essential for understanding MR}
 }
+\subtree{\title{ME as essential for understanding MR}
+
 \p{Laws of nature are an important species of modal fact. MR makes essential use of the concepts of "fact" and "law" but does not \em{explain} those concepts. ME does.
 }
 \p{For any vocabulary, there are facts which cannot be stated in that vocabulary. But the claim "There are facts which cannot be stated in any vocabulary" is false. "Fact" and "law" are \em{[sense dependent](int-0017)} on practices of asserting and inferring, since facts are \em{essentially} (not accidentally) things that can be asserted and laws are \em{essentially} (not accidentally) things that support subjunctively robust inferences. E.g. if one doesn't understand Newton's 2nd law implies that if a force \em{were} applied to this moving body, it would accelerate, one does not grasp #{F = m\cdot a} as having the force of a law.
 }
-\p{\strong{## Semantic government}
 }
+\subtree{\title{Semantic government}
+
 \p{An attempt to carve out a notion of "fact-stating" and "description" for modals that is not as promiscuous as declarativism.
 }
 \p{"Semantic government": descriptive claims are subject to a distinctive kind of ought-to-be. It ought to be the case that the content of a description stands in a special relation (call it "correspondence") to a modal fact, which it purports to state (facts succeed in this stating). Descriptions are then answerable for their correctness to facts.[^ans] 
@@ -161,7 +170,8 @@
 }
 \p{Semantic government of claimings by facts is a \em{normative} matter, epistemic tracking of facts by claimings is an alethic modal one. Tracking is when "If the fact were different, the claiming would be different" is true.  Deontic normativity and alethic modality are two sides of one coin.
 }
-\p{\strong{## Why not just epistemic tracking?}}
+}
+\subtree{\title{Why not just epistemic tracking?}
 
 \p{Fodor and Dretske try to do all the work with epistemic tracking, which misses the connection between the normative level of claimings and the modal level of objects and facts, and thus the complementary character of MR and ME. Notions of correspondence, semantic government, and epistemic tracking do not invoke \em{causal} connection, only subjunctively robust reliable covariation. Thus they define a notion of description/fact-stating that applies equally well to mathematical vocabulary. 
 }
@@ -184,9 +194,11 @@
 }
 \p{By showing how modal and OED claims are bound up with another, ME eliminates the other problematic transition by encouraging us to blur the boundary between (2) and (3) - modal claims exhibit 'correspondence' no less than OED ones. 
 }
-\p{\strong{# Again }}
+}}
+\subtree{\title{Again }
 
 \p{The tendency to see ME and MR as incompatible stems from failure to distinguish semantic and pragmatic metavocabularies. Something can be 'metalinguistic' and also fact stating / descriptive of the world.
 }
 \p{Kant can be thought of as brining together modal expressivism (trancendental idealism) with his empirical realism. This can all be seen as a continuation of his ideas.
+}
 }

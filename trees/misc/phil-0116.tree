@@ -9,15 +9,17 @@ If any things are known [representationally](phil-0117), then some things must b
 \li{Representationalism gives rise to [choice](phil-0004) between [Epistemological skepticism](phil-0040) vs  foundationalism.}
 }
 
-\p{\strong{## Royce's argument from error}}
+\subtree{\title{Royce's argument from error}
 
 \p{Brandom compares Descartes move to avoid this regress to Josiah Royce's argument which argues if even \em{mis}representation is to be possible, there must be some things we know immediately. See [SEP](https://plato.stanford.edu/entries/royce/#MetaEpisIdeaInte).
 }
-\p{\strong{## Relation to semantic skepticism}
 }
+\subtree{\title{Relation to semantic skepticism}
+
 \p{What is the basis of our \em{knowledge} of the relation between representeds and representings? This is a question beyond knowing particular representeds.
 }
 \p{We must have a representing #{R} (our concept of representation) of the relation of representings to representeds. But then we also need a representation #{R^\prime#{ of }R}, and so on.
 }
 \p{This is something that the representational model itself couldn't address, and Descartes had to invoke God to address this. Kant clarified this as [semantic skepticism](phil-0123): skepticism about the intelligibility of the very notion of knowledge, the intelligibility of the notion of a representational relation between what's known and the knowing of it.
+}
 }

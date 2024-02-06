@@ -2,14 +2,15 @@
 \meta{external}{[Video](https://www.youtube.com/watch?v=LfhrfVJ4_sk)}
 \meta{external}{[Text](https://sites.pitt.edu/~rbrandom/Texts/Semantic\%20Inferentialism\%20and\%20Logical\%20Expressivism.doc)}
 
-\p{\strong{# Representation and Inferentialism}}
+\subtree{\title{Representation and Inferentialism}
 
 \p{The traditional divide between early modern pre-Kantian philosophers is empiricism vs rationalism,[^both] but another contrast that can be drawn is between understanding cognitive contentfulness in terms of \em{representation} vs \em{inference}. Although Rationalists Spinoza and Leibniz accepted representation as important, they sought to explain it in terms of the inferential significance of representing. Unlike Descartes, they sought to explain what it is for something to be understood, taken, treated, or employed \em{as} a representing \em{by} the subject: what it is for it to be a representing \em{to} or \em{for} that subject. Empiricists tended to prefer the opposite explanatory priority: inferential correctness comes from the contents of representings (this is why Hume can take for granted the content of his individual representings but worry how they could possibly underwrite the correctness of inductive inferences).
 }
 \p{[^both]: Both sides of ran together \em{casual} and \em{conceptual} issues (due to failing to appreciate the \em{normative} character of concepts).
 }
-\p{\strong{# Inferential and noninferential reports}
 }
+\subtree{\title{Inferential and noninferential reports}
+
 \p{We learn from Sellars' [Empiricism and the Philosophy of Mind](ref-0016) that noninferential reports (e.g. "This ball is red") must be inferentially articulated. 
 }
 \p{This is needed to distinguish noninferential reporters from automatic machinery (a parrot trained to say "that's red" in the presence of red things, a piece of iron which classifies its environment as having oxygen or not by rusting). The difference is one of (conceptual) understanding, but what does this consist in? The parrot and the iron don't \em{understand} their responses (their responses mean nothing to them, even though they mean something to us). Sellars' central thought: for a response to have \em{conceptual content} is just for it to play a role in the \em{inferential} game of making claims / giving and asking for reasons. (The parrot doesn't treat "That's red" as incompatible with "That's green" nor as following from "That's scarlet" and entailing "That's colored").
@@ -18,13 +19,15 @@
 }
 \p{[^clap]: Slogan: cognitively, grasp of just one concept is the sound of one hand clapping.
 }
-\p{\strong{# Frege on conceptual content}
 }
+\subtree{\title{Frege on conceptual content}
+
 \p{A historical antecedent to Sellars' inferentialism is the young[^y] Frege. In his seminal first work, the \em{Begriffsschrift} of 1879, he held that two claims have the same conceptual content iff they have the same inferential role: a good inference is never turned into a bad one by substituting one for the other. Carnap also picks this idea up by defining the content of a sentence as the class of non-valid sentences which are its consequences (i.e. can be inferred from it).
 }
 \p{[^y]: Dummett argues that the later Frege made a wrong move in switching to seeing truth, rather than inference, as primary in the order of explanation. However, this does not necessitate that the later Frege understood truth in terms of prior primitive reference relations. (E.g. Davidson's notion of truth without reference.)
 }
-\p{\strong{# Material inference}}
+}
+\subtree{\title{Material inference}
 
 \p{Sellars used \em{material inference} to refer to inferences whose correctness determines the conceptual contents of their premises/conclusions.
 }
@@ -38,12 +41,14 @@
 }
 \p{[^f]: Note how this naturally generalizes to a notion of #{X}-form for any subset of vocabulary #{X}, allowing us to have a notion of theological / culinary / etc form.
 }
-\p{\strong{# Elucidative rationality}}
+}
+\subtree{\title{Elucidative rationality}
 
 \p{Sellars views statements like "#{A} causally necessitates #{B}" as the expression of a rule governing our use of the terms #{A} and #{B}, i.e. as inference licenses which make explicit that which was previously only implicit in the inferential practices. To say something makes explicit that which was implicit is to say it has an \em{expressive} role. These expressions brings practices into the game of giving and asking for reasons - which opens them up to rational criticism.
 }
-\p{\strong{# Frege on the expressive role of logic}
 }
+\subtree{\title{Frege on the expressive role of logic}
+
 \p{Frege can be read as agreeing with the above point in the _Begriffsschrift_: his formal language allows for the explicit codification of conceptual contents / material inference. Frege contrasts this approach with that of Boole, who conceived of his formal language only in terms of \em{formal} inference (i.e. express no material contents):
 }
 \blockquote{The reason for this inability to form concepts in a scientific manner lies in the lack of one of the two components of which every highly developed language must consist. That is, we may distinguish the formal part...from the material part proper. The signs of arithmetic correspond to the latter. What we still lack is the logical cement that will bind these building stones firmly together...In contrast, Boole's symbolic logic only represents the formal part of the language.
@@ -57,7 +62,8 @@
 
 \p{The conditional is the paradigm of a locution that permits one to make inferential commitments explicit as the contents of judgments: one is able to make explicit material inferential relations between an antecedent or premise and a consequent or conclusion. Since according to the inferentialist view of conceptual contents, it is these implicitly recognized material inferential relations that conceptual contents consist in, the conditional permits such contents to be explicitly expressed. Expressivism about logic means that Frege treats logical vocabulary as having a distinctive expressive role--making explicit the inferences that are implicit in the conceptual contents of nonlogical concepts.
 }
-\p{\strong{# Dummett's model, and Gentzen}}
+}
+\subtree{\title{Dummett's model, and Gentzen}
 
 \p{Any linguistic expression/concept has two aspects:
 }
@@ -69,8 +75,9 @@
 }
 \p{Gentzen specified the inferential roles of logical connectives this way.
 }
-\p{\strong{# Circumstances and consequences for sentences}
 }
+\subtree{\title{Circumstances and consequences for sentences}
+
 \p{Analogy from logical operators to sentences:
 }
 \p{An "introduction rule" corresponds to the \em{sufficient conditions} for asserting it. An "elimination rule" corresponds to the \em{necessary} consequences of asserting it (i.e. what follows from doing so). The link between pragmatic significance and inferential content is: asserting a sentence is implicitly undertaking a commitment to the correctness of the material inference from its circumstances to its consequences of application.
@@ -95,7 +102,8 @@
 \li{But one can know what follows from, e.g., an action being immoral without understanding the general circumstances of when to take something as immoral. }
 \li{One can understand that AWOL has the consequence of being liable to being arrested, but the circumstances under which one acquires that liability are equally essential to the concept.}
 }
-\p{\strong{# Derivation, Prior, Belnap, Conversativeness}}
+}
+\subtree{\title{Derivation, Prior, Belnap, Conversativeness}
 
 \p{Dummett: 
 }
@@ -113,7 +121,8 @@
 }
 \p{The expressive account of logic gives us a \em{reason} to constrain logical connectives to be conservative - since their purpose is to only help us make explicit that which was already implicit in the old vocabulary, its introduction ought not be able to create new inferences in the old vocabulary. 
 }
-\p{\strong{# Boche and the elucidation of inferential commitments}}
+}
+\subtree{\title{Boche and the elucidation of inferential commitments}
 
 \p{Non-logical concepts ought be non-conservative if they are to be substantive. Sometimes these additional inferences (such as the case for 'boche') are bad and we reject them because we have reason to reject the newly introduced inferences (e.g. that Bach was barbarous and cruel).  In such cases, we have no choice but to reject the concept.[^oscar]
 }
@@ -125,7 +134,8 @@
 }
 \p{It's not essential for a newly-introduced inference (in virtue of using a non-conservative concept) is one we've already endorsed, but what matters is if it's one we \em{ought} to endorse. Slurs introduce inferences we (independently) believe should not be endorsed - they are commitments we cannot become entitled to. 
 }
-\p{\strong{# Harmony and material inference}}
+}
+\subtree{\title{Harmony and material inference}
 
 \p{Let harmony be the kind of relation we want to obtain between the circumstances and consequences of our concepts. Above we've claimed that harmony is not the same as inferential conservativeness. Conservativeness isn't even a property of a concept (on its own). Rather, conservativeness is relative to a context of other concepts, not a property of a concept (or connective) by itself. There could be two logical connectives which independently are fine to introduce but not both.
 }
@@ -145,8 +155,8 @@
 }
 \p{Any theory of inferential harmony (that we aim at via Socratic reflection) must derive its credentials from its expressive adequacy to that practice.
 }
-\p{\strong{# From semantics to pragmatics}
-}
+}\subtree{\title{From semantics to pragmatics}
+
 \p{The first part of the essay introduced three related ideas:
 }
 \ul{
@@ -162,4 +172,5 @@
 \li{an understanding of rationality on the model of \em{instrumental} or means-end reasoning.}}
 
 \p{The second part of the essay considered these ideas with Dummett's representation of inferential roles in terms of circumstances and consequences of application (for expressions and concepts). An expressive view of the role of logic was presented and its relation to the practices constitutive of rationality. This project recovers the study of \em{logic} as having direct significance for projects at the core of philosophy since its Socratic inception.
+}
 }

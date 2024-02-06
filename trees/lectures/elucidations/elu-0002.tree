@@ -1,7 +1,7 @@
 \title{10. Goodness}
 \tag{elucidations}
 
-\p{\strong{# Two notions of good}}
+\subtree{\title{Two notions of good}
 
 \p{Distinction: good (absolutely) vs good for something vs good <noun>}
   \ul{
@@ -29,7 +29,8 @@
 
 }
 }
-\p{\strong{# Moral consequences}}
+}
+\subtree{\title{Moral consequences}
 \p{Does this point of view lead to egoism, e.g. good/bad being instrumental to 
   what we want?}
 \ul{
@@ -38,20 +39,24 @@
   \li{There are differences and similarities for what is good for different people/species. Cannot apply same formula to each case.}
 
 }
-\p{\strong{# Issues}}
+}
+\subtree{\title{Issues}
 \p{What problems does thinking about morality in terms of absolute good have?
 }
 \p{It's not necessarily bad. But it could be used to justify something that is 
     bad for everybody.
 }
-\p{\strong{# Practical applications}}
-\p{\strong{## Euthenasia}}
+}
+\subtree{\title{Practical applications}
+\subtree{\title{Euthenasia}
 \p{Argument against euthansisa: life itself is good (would not be sufficient if 
   Kraut's thesis is accepted)
 }
-\p{\strong{## Conflicting interests}}
+}
+\subtree{\title{Conflicting interests}
 
 \p{E.g. good for A to be loud, good for B to be in quiet environment
 }
 \p{We should organize political institutions to avoid needless conflict. The concept of justice is needed to resolve these cases. "Absolute Good" not needed
 }
+}}

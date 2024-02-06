@@ -1,15 +1,16 @@
 \title{Predicates}
 
-\p{\strong{Characterizing predicates}:}
+\subtree{\title{Characterizing predicates}
 
 \ul{
 \li{come with criteria of application and consequences }
 \li{Example: red}
 }
-\p{\strong{Sortal predictates}:}
+}
+\subtree{\title{Sortal predictates}
 
 \ul{
 \li{additionally with criteria of application and identity/individuation}
 \li{The question “Is this the same K as that?” makes sense for sortals (kind terms) K.}
 \li{Example: dog}
-}
+}}

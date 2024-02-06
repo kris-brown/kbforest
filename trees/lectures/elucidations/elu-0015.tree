@@ -1,7 +1,7 @@
 \title{22. Collective action}
 \tag{elucidations}
 
-\p{Can a group of people do an action?}
+\subtree{\title{Can a group of people do an action?}
 \ul{
   \li{We regularly conjoin plural subjects with action verbs.}
   \li{We have a desire to analyze the collective action purely into terms of the individual actions. This is a mistake - removes what is interesting about collective action.}
@@ -44,7 +44,9 @@
       \li{Proof: Laurence can articulate the difference between actions with plural subjects and plural agents}
 }}  \li{Why is the gunman holding the gun on the security guard? To immobilize him? Why? Because the robbers are robbing the bank.}
   \li{What it means for the two actors to be acting together is that the "purposive explanations" of their actions unify at some point.}
-}}\p{\strong{# Ethical/political consequences}}
+}}
+}
+\subtree{\title{Ethical/political consequences}
 \p{Individualistic picture of acting together can cause problems}
 \ul{
   \li{E.g. understanding democratic reasoning in terms of a lone agent tries to satisfy his preferences will cause distortions}
@@ -55,4 +57,5 @@
   \li{"Jump through this hoop or else I'll set your pants on fire"}
   \li{Force used against free riders (e.g. taxation)}
   \li{Without collective reasons, we end up with strong libertarian arguments that taxation is theft.}
+}
 }

@@ -1,13 +1,13 @@
 \title{16. Justice}
 \tag{elucidations}
 
-\p{\strong{# Rawls' political philosophy}} 
+\subtree{\title{Rawls' political philosophy}
 
 \p{"Completing" the contract theory
 of justice started by Hobbes, developed by Locke / Rousseau / Kant. He can be
 argued to be the most influential modern political philosopher. }
-
-\p{\strong{# Non-contractural theory}}
+}
+\subtree{\title{Non-contractural theory}
 \p{Most theories are contractural but not Sen's. They don't think pursuit of justice involves looking for the perfectly just world.
 }   \ul{
 \li{Issues of injustice:}
@@ -36,8 +36,8 @@ argued to be the most influential modern political philosopher. }
       a principled goal, all there is arbitrary gut reaction (the point: gut 
       reaction is important)}}}}
 
-
-\p{\strong{# Many kinds of Justice}}
+}
+\subtree{\title{Many kinds of Justice}
 \p{There are many kinds of justice, not a single scale:
 }
 \ul{
@@ -45,3 +45,4 @@ argued to be the most influential modern political philosopher. }
 \li{For Rawls, these all matter but he strictly orders them in importance like 
   above. This is a more natural to trade off, like a small concession in liberty could be worth 
     a huge reduction in poverty}}
+}

@@ -1,7 +1,7 @@
 \title{8. Evolutionary psychology}
 \tag{elucidations}
 
-\p{\strong{# What do they study}}
+\subtree{\title{What do they study}
 \p{Study of traits shaped by natural selection}
 \p{No formal distinction from evolutionary biology}
 \p{Example psychological traits/behaviors: jealousy, homicide, male promiscuity}
@@ -16,7 +16,8 @@
       \li{The existance of jealous mental states caused people to leave more offspring}
       \li{Those offspring inherited the tendency to have jealous mental states}
 }}
-\p{\strong{# Criticism}}
+}
+\subtree{\title{Criticism}
 \p{Couldn't you just make up a narrative for any trait?}
 \p{It is fair to accuse EP of making 'just so' plausible stories.}
 \p{Though unfair to say there is anything wrong with that, even if it can be used to justify any conclusion.}
@@ -27,13 +28,15 @@
 \p{Admits that EP are more likely to succumb to this seduction over other fields}
 \p{The narrative ought just the beginning of a research programme to verify it.}
 
-\p{\strong{# Difficulties of research}}
+}
+\subtree{\title{Difficulties of research}
 \ul{
 \li{Can't do tests on humans (ethical reasons, lifespan too long to measure reproductive success)}
 \li{Mental states do not leave fossils}
 \li{Need to make claims about proto-humans.}
 }
-\p{\strong{# Relevance to philosophy}}
+}
+\subtree{\title{Relevance to philosophy}
 \p{There is tendancy of (moral/political/mind) philosphers to bring in evolution as a skyhook for their theories}
 \p{It's not usually a core argument, but it's used as support}
 \p{They usually not good support because EP is almost never empirical}
@@ -42,4 +45,4 @@
     \li{E.g. female preferring mate to have a particular spot pattern/chirp just  due to 'how they're wired' / randomness}
     \li{So evolutionary fitness of a moral trait is not a good supporting argument by itself}
 }
-
+}

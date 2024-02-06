@@ -3,16 +3,14 @@
 \import{macros}
 \author{wilfrid-sellars}
 
-\notes{
-
 
 \p{(Much of this content is copied or paraphrased from Brandom's study guide for EPM)
 }
 
-\p{\strong{# Summary}}
+\subtree{\title{Summary}
 
-\p{\strong{## Why is EPM interesting?}
-}
+\subtree{\title{Why is EPM interesting?}
+
 \p{The essay challenges a core aspect of how many people make sense of the world. The proposed alternative is a good idea which, in some sense, improves our ability to comprehend and cope with the world, especially in an era of AI and people making analogies between human minds and AI.
 }
 \p{The belief being challenged is a prevalent kind of empiricism. Colloquially, 'empiricism' is a word with positive connotations; we like it when our claims are backed by empirical evidence, we like avoiding superstitions and religious manipulation. Although we don't yet have a fully worked out scientific theory for the human mind, we accept that we are biochemical beings, part of the natural world. Regardless of whether we like the idea of a "spirit" or "soul", the Cartesian distinction of a "mind" and a "body" seems like a good one. The mind is sitting in a Cartesian theater: somehow it's being presented sense impressions from the real world and it is also exercising its will by issuing commands to the body. 
@@ -21,7 +19,8 @@
 }
 \p{Viewing the mind this way, it seems like there's nothing categorically different from humans and dogs and flies and neural networks: they differ in their capabilities and sophistication. As AI gains more capabilities, it becomes harder to distinguish ourselves from it. 
 }
-\p{\strong{# Introduction }}
+}}
+\subtree{\title{Introduction }
 
 \p{This paper is an attack on "The Myth of the Given", i.e. "the whole framework of givenness", including empricism as a foundation for epistemology and sense-datum theories.
 }
@@ -49,7 +48,7 @@
 
 \p{[^sap]: We do not (or ought not) attribute knowledge to mere sentient beings, only sapient ones
 }
-\p{\strong{## Cartesian Minds}}
+\subtree{\title{Cartesian Minds}
 
 \p{One of Descartes' innovations was defining the mind in epistemic terms:
 }
@@ -66,15 +65,15 @@
 		\li{Believing that I have a red triangular perception, entails I actually have one.}
 }
 }
-\p{The mind is the realm of what is known \em{immediately}.}
-	- This is stronger than non-inferentially: the mind's goings-on are \em{given} to us in a way that banishes the possibility of both ignorance and error.[^med]
+\p{The mind is the realm of what is known \em{immediately}. This is stronger than non-inferentially: the mind's goings-on are \em{given} to us in a way that banishes the possibility of both ignorance and error.[^med]}
 
 \p{[^med]: Descartes' thought: if anything is known to us \em{mediately}, i.e. via representations, then some things must be known to us \em{immediately}, to avoid an infinite regress.
 }
 \p{Sellars will show that the Cartesian way of talking about the mind is a confusion between epistemic and non-epistemic items and the roles they can play in various sorts of explanation.
 }
-\p{\strong{## The Myth of the Given }
 }
+\subtree{\title{The Myth of the Given }
+
 \p{The Myth, at a high level: Some kind of non-epistemic facts about knowers could \em{entail} epistemic facts about them. 
 }
 \p{[^ep]: Facts about what someone \em{knows} (or believes).
@@ -102,8 +101,9 @@
 }
 \p{Conceptual contentfulness: playing a role in the "game of giving and asking for reasons" / [Space of reasons](q-0137). To treat something as even a candidate for knowledge is to talk about its potential role in \em{inference}, as a premise and conclusion. The contents of knowledge are \em{normative} (they concern what other claims someone is \em{committed to} and what they are \em{entitled to}).
 }
-\p{\strong{# Foundationalism}
-}
+}}
+\subtree{\title{Foundationalism}
+
 \p{Ing-ed distinction: an episode of sensing vs what is sensed (i.e. sense content). When one hallucinates a pink elephant, the sense content is an of-a-pink-elephant hallucincation. 
 }
 \p{Foundationalism for knowledge: our beliefs constitute knowledge insofar as they are not only true but \em{justified}. A belief/claim #{p} can justify another belief #{q} if they are inferentially related, but where does this regress end (or is it circular -  [Agrippan trilemma](phil-0004))?  Some conclude there must be some way of \em{being} justified without having to \em{be} justified. There must be another way of acquiring positive justificatory status besides the offering of an inferential justification, thus there must be some noninferential acquisition mechanism for this epistemic status.
@@ -143,8 +143,9 @@
 
 \blockquote{"Empirical knowledge is rational, not because it has a foundation but because it is a self-correcting enterprise which can put any claim in jeopardy, though not all at once."}
 
-\p{\strong{# 'Looks talk' vs 'is talk'}
 }
+\subtree{\title{'Looks talk' vs 'is talk'}
+
 \p{Main question: does 'looks-red' come before 'is-red' conceptually (and so in the order of explanation)? Cartesian tradition claims looks-talk forms a class of statements which are incorrigible and a foundation for knowledge, thus they must be prior to is-talk. 
 }
 \p{Consider the inner episodes to which each subject has privileged access, common to sensations and thoughts:
@@ -155,8 +156,8 @@
 }
 \p{Sellars disagrees with the first point; rejecting the Myth of the Given is a lower friction thing to reject than the idea of inner episodes. He also believes the second point is not sufficient to avoid the myth. 
 }
-\p{\strong{## Incorrigibility }
-}
+\subtree{\title{Incorrigibility }
+
 \p{Descartes was struck that the appearance/reality distinction doesn't apply to appearances: appearing to be X is not being X (this gap \em{is} the appearance reality distinction), but appearing to appear to be X is just appearing to be X. Looks/seems/appears operators are idempotent. Thus we know appearances immediately by \em{having} them, rather than representing them. This requires that looks-#{F} to be intelligible in principle in advance of grasping the concept is-#{F}.
 }
 \p{Sellars' linguistic pragmatism: grasp of a concept is just mastery of the use of a word (or words).[^gra] He argues Descartes got the order backwards. He agrees with the Cartesian/common sense that "#{x} is red" is definitionally equivalent to "#{x} would look red under standard conditions". But this rather is a definition of standard conditions rather than of "is red". Standard conditions are those in which one's RDRDs can be trusted and ought be endorsed.
@@ -167,11 +168,12 @@
 }
 \p{What is the difference between the parrot trained to say "that's red" in the presence of red things and genuine noninfernetial reporter of red things? Having RDRD is not enough to have the concept. Sentient things have RDRDs. The additional thing is that the response must take a position in the space of reasons - being a move in the game of giving and asking for reasons. The parrot has not mastered the inferential role of "that's red".  
 }
-\p{\strong{## Sellars' key constructive move, according to Brandom: }
 }
+\subtree{\title{Sellars' key constructive move, according to Brandom: }
+
 \p{The ability to use "#{x} looks red" correctly appeals to the same RDRD acquired in learning to use "#{x} is red" correctly. Saying it looks red is to express the same disposition to call it head but also to \em{withhold} one's endorsement of that claim. 
 }
-\p{\strong{### Things explained}}
+\subtree{\title{Things explained}
 
 \p{This explains the incorrigibility of looks-talk: no claim has been made. 
 }
@@ -188,16 +190,18 @@
 }
 \p{Something can \em{look} like it is polygonal without looking to have any number of determinate number of sides. Something cannot \em{be} polygonal without being a determinate number of sides. This is explained as a withholding of certain reports, but the sense datum theorist who wants to say "looks #{F} to me" means something (an appearing) \em{in} me \em{is} #{F} would have to endorse certain things are polygonal without having a determinate # of sides.
 }
-\p{\strong{# Regress?}
-}
+}}}
+\subtree{\title{Regress?}
+
 \p{Using a concept requires a lot of other concepts. So how can we ground knowledge? This is addressed in Sellars' notions of ought-to-be and ought-to-do, but the basic idea is that, 1. sentient creatures can be trained to be have in accordance with rules (this is stronger than just merely conforming with rules, such as "+" vs "quus", as the teacher who has the concept already), and 2. a community of speakers can dignify certain trained behaviors as claiming things are thus-and-so.}
 
 \p{Consider the difference between a parrot, and 1-year-old, and a six-year-old saying "the house is on fire". Because the six-year-old has already been moved into the space of giving and asking for reasons (w/r/t simple concepts like "house" and "fire") his clams can be treated as authoritative (one who hears this has a feeling of alarm) and responsible (e.g. for answering follow up questions like "what? did you smell smoke?"). 
 }
 \p{The status of being able to undertake contractual obligations consists in a community's recognition of it (the "fact" does not lie in describing features of people below 21 and those above 21).
 }
-\p{\strong{# Attack on instrumentalism}
 }
+\subtree{\title{Attack on instrumentalism}
+
 \p{Positivists claim there is an "observation language" in which data are formulated and the results of experiments expressed. All we directly know about are the objects of observation. A theoretical language is introduced in order to systematize our observations, and facilitate prediction and control. But the objects the theory postulates are virtual, mere calculational devices or instruments for the expression and systematization of observations. Theories are instruments, and their assertions should not be taken as entailing the existence of the objects they postulate.
 }
 \p{This becomes less appealing without the Myth of the Given. But how do we make sense of the relation between theoretical and observable vocabularies? Sellars claims this is \em{methodological}, not \em{ontological}.  Theoretical objects are ones of which we can only have inferential knowledge, while observable objects can also be known noninferentially. This is not ontological because it can change: see [Pluto](phil-0098), as we invent stronger telescopes.
@@ -218,16 +222,17 @@
 
 \p{Distinct because by denying the physical/theoretical distinction, mental concepts \em{might} coincide with physical ones.
 }
-
-\p{\strong{# Brandom's conclusion}
 }
+\subtree{\title{Brandom's conclusion}
+
 \p{We now have recipes telling us how to diagnose and treat the Myth of the Given in all its multifarious manifestations, whether what is given shows up in the guise of particulars whose occurrence entails knowing or believing something (e.g. sense datum theories), or in the form of noninferentially acquired propositionally contentful beliefs (e.g. what is expressed by 'looks' talk). Epistemologically foundationalist appeals to the given of the Cartesian sort have been shown to fail because noninferential uses of concepts (no matter whether their subject matter is construed as 'inner' or 'outer') turn out to presuppose inferential uses of concepts. Empiricist appeals to the preconceptual given to explain concept acquisition (whether by abstraction or otherwise) fail because 
 }
 \blockquote{“We now recognize that instead of coming to have a concept of something because we have noticed that sort of thing, to have the ability to notice a sort of thing is already to have the concept of that sort of thing, and cannot account for it.” }
 
 \p{Nonetheless, Sellars has shown us how we can make sense of the idea that we have direct awareness of mental episodes (the applications of inferentially articulated concepts of thoughts and sense impressions elicited noninferentially by thoughts and sense impressions), including the limited but very real privileged access each of us has to such inner episodes, without committing ourselves to the Myth of the Given.
 }
-\p{\strong{# MacDowell's conclusion}
 }
+\subtree{\title{MacDowell's conclusion}
+
 \p{Sellar's concern is with a requirement for claims to be expressive of observational knowledge, with the distinctive \em{authority} that implies. Understanding \em{what it is} that one is claiming is not what is in question. Sellars's thesis is that observational authority depends on the subject's own reliability in the order of justification/space of reasons, and this dependence requires that the subject be aware of her own reliability. Observational knowledge \em{always} rests in the order of justification - on other sorts of knowledge. That is why it is not foundational in the sense envisaged by traditional empiricism.}
 }

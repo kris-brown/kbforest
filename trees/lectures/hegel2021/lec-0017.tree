@@ -1,7 +1,7 @@
 \title{02 - Overview of pragmatist, semantic reading of the Phenomenology}
 \import{base-macros}
 
-\p{\strong{# Conceptual realism and objective idealism}}
+\subtree{\title{Conceptual realism and objective idealism}
 
 \p{Problem with [Cartesian representationalism](rene-descartes): it wants to \em{separately} understand minds (representings) and things (representeds). This creates a dualism when it becomes hard to understand their relationships (knowledge \em{of} the facts \em{by} the knowings, action \em{on} the facts \em{by} the will). [Kant](immanuel-kant) founded German \em{idealism} by removing this dualism, viewing the world as in conceptual shape. This is crazy if you think concepts are mental representations: Hegel's non-psychological conception of the conceptual holds something as conceptually contentful if it stands in relations of [material](int-0007) incompatibility and consequence[^trm] to other such contentful items.  
 }
@@ -47,7 +47,8 @@
 \p{[^trm]: "determinate negation" and "mediation"
 }
 
-\p{\strong{# Normativity: status and attitude}}
+}
+\subtree{\title{Normativity: status and attitude}
 
 \p{Tree of distinctions with translation manual for Hegel's vocabulary:
 }\ul{
@@ -100,7 +101,8 @@
 }
 \p{Kant understands sense impressions as inexhaustible by some finite set of judgments (there's no bit that cannot be conceptualized, but conceptualizing \em{all} is an infinite task). Hegel interprets the same phenomenon as the \strong{instability} of any set of determinate empirical concepts. If we unpack the norms for endorsing any finite set of judgments, we will be led to incompatible doxastic commitments.
 }
-\p{\strong{# Semantics: recollection and representation}}
+}
+\subtree{\title{Semantics: recollection and representation}
 
 \p{How to synthesize the premodern notion of us \em{finding} norms vs the modern notion of us \em{making} them? Common law judges provide a model for how this works.
 }
@@ -108,7 +110,7 @@
 }
 \p{Hegel's term for 'rational reconstruction' is recollection: a distinctive kind of making that is finding. This is a pragmatic account of institution of norms by attitudes (yet compatible with attitudes governed by statuses).
 }
-\p{\strong{## Conceptual idealism}}
+\subtree{\title{Conceptual idealism}
 
 \p{Synthesis of conceptual realism and objective idealism - an account of the relations between objective reality and representational appearances in terms of the process of rectifying and (further) determining the conceptual contents of the representings.
 }
@@ -121,12 +123,13 @@
 	\li{Normative attitudes instantiate normative statuses. }
 	\li{They also are responsible \em{to} normative statuses via representational responsibility. }
 }\li{Attitudes are responsible to content.}}
-
-\p{\strong{# Postmodernity: reconciling traditional and modern insights}}
+}}
+\subtree{\title{Postmodernity: reconciling traditional and modern insights}
 
 \p{Conceptual \em{content} arises from normative \em{force}. Recollecting \em{takes} objective conceptual norms to be acknowledged by discursive practitioners and thereby \em{makes} those attitudes intelligible as adopting normative statuses.
 }
 \p{Understanding the conditions of having determinate thoughts/intentions commits us to adopting to one another practical \em{recognitive} attitudes (e.g. forgiveness, confession, trust).[^k] Reciprocal recognition (over space or, as in the case of common law judges, time) requires a community built on trust. The social determinateness of meaning requires me, by writing something down and meaning something by it, to trust my being interpreted / redescribed by others.
 }
 \p{[^k]: This is akin to Kant deriving morality from a proper understanding of intentional agency (making explicit commitments already present in any discursive activity).
+}
 }

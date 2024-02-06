@@ -13,8 +13,8 @@
 \ul{
     \li{every time you go back to it you find something new}
 }}
-\p{\strong{# Quotes on describing, justifying, explaining}
-}
+\subtree{\title{Quotes on describing, justifying, explaining}
+
 \p{Sellars is taking the notions of "describing", "justifying", "explaining" as they are in practice rather than inventing an artificial formal meaning / invoking technical jargon.
 }
 \ul{
@@ -41,12 +41,13 @@
 \li{[On community](q-0085)}
 \li{[Exemplification](q-0042)}}
 
-\p{\strong{# Overview}}
+}
+\subtree{\title{Overview}
 \p{Sellars' goal: to usher philosophy from its Humean phase to its Kantian phase. He thought Kant had not been understood; it was not until the end of his life that Kant was brought back into mainstream respectability in the Anglophone tradition. This changed in the late 60's (due to Strawson/Rawls). 
 }
 \p{Four of his ideas mattered a lot to Kant.
 }
-\p{\strong{## 1. Kant's normative turn}}
+\subtree{\title{Kant's normative turn}
 \p{Normative understanding of understanding / discursive practice. Discursive for Kant \em{means} pertaining to concept usage (i.e. distinct from mere utterances / noises).
 }
 \p{Kant saw that what distinguishes judgment (cognitive side) and intentionality (on practical side) from habitual/learned responses from ordinary creatures:}
@@ -61,15 +62,17 @@
 \p{The minimum unit of awareness/experiences is the \em{judgment} (the minimum unit 
 you can take responsibility for),[not the concept](int-0003). 
 }
-\p{\strong{## 2. Rousseau's criterion of freedom into a definition of the normative}
 }
+\subtree{\title{Rousseau's criterion of freedom into a definition of the normative}
+
 \ul{
 \li{[Rousseau](jean-jacques-rousseau) said"Obedience to a law that one has laid oneself is freedom."}
 \li{Kant turned this around to distinguish \em{constraint by norms} from \em{constraint by power}}
 \li{Discussed in [Some Reflections on Language Games](ref-0060).}
 }
-\p{\strong{## 3. Non-descriptive concepts}
 }
+\subtree{\title{Non-descriptive concepts}
+
 \p{In addition to concepts whose principle expressive job is to describe/explain 
 empirical goings-on, there are concepts whose principle expressive job it is 
 to make explicit the framework that makes description possible.
@@ -89,9 +92,10 @@ phase' is putting categories front and center.}
 \li{Sellars saw Kant as putting this other option on the table.}
 }
 \transclude{int-0009}
-
-\p{\strong{## Some historical context}
 }
+}
+\subtree{\title{Some historical context}
+
 \p{Freiburg / Marburg schools of neo-Kantianism.
 }
 
@@ -113,12 +117,14 @@ repudiated this work as a "merely anthropological work".)
 \p{Moral of this historical aside: insidious neo-Kantianism - you can't be sure 
 whether you've been infected or not.
 }
-\p{\strong{## Development of Sellars thought}
 }
+\subtree{\title{Development of Sellars thought}
+
 \p{Roywood Sellars was Sellars' father, a successful philosopher.
 }
 \p{Undergrad philosophy in Michigan working with his father. MA working on Hussurl's phenomenology (you can see his father's critical realism showing 
 strongly in that thesis). He was a wrestler and a fencer. Failed to write a Kant dissertation at Oxford, came to Harvard to work with Quine.
 }
 \p{Sellars had spent 10 years in academia without publishing anything. 
+}
 }

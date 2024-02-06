@@ -1,7 +1,7 @@
 \title{23. Transcendental arguments}
 \tag{elucidations}
 
-\p{\strong{# "How possible" questions}}
+\subtree{\title{"How possible" questions}
 
 \p{General form: X makes Y seem impossible, yet nevertheless Y is possible.}
   \ul{
@@ -26,7 +26,8 @@
   \ul{
   \li{X = "given that I didn't do anything to reveal my origin"}}
 
-\p{\strong{[Kant](immanuel-kant) 'grandfather of how possible questions' and inventor of trancendental arguments}}
+}
+\subtree{\title{Kant: 'grandfather of how possible questions' and inventor of trancendental arguments}
 \p{How is mathematical knowledge possible? How is pure science possible?}
 \ul{
   \li{For the former, Kant answers by drawing attention to how diagramatic reasoning is crucial.}
@@ -45,4 +46,4 @@
   \li{This doesn't answer the 'how possible' question. It shows that Y is true but does not dissolve the obstacle X. So again we have something that seems necessarily true that asserts something that's possible is impossible. The skeptic has the upper hand since their arguments aren't as abstract / untrustworthy.}
   \li{But it's not like Kant thinks his trancendental arguments were designed to answer his 'how possible' questions (some commentators make the mistake of assuming this).}
 }
-}
+}}

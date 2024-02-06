@@ -7,8 +7,8 @@ and a desire, was that desire satisfied?
 \p{Notably, we are \em{not} asking whether a person with that desire was happy or 
 not afterwards.
 }
-\p{\strong{# Conventional wisdom}
-}
+\subtree{\title{Conventional wisdom}
+
 \p{Conventionally, desire corresponds to a desired state of the world, and 
 satisfaction is whether or not that state is obtained.
 }
@@ -50,13 +50,11 @@ destination. Was his desire satisfied?
 }
 \p{[^1]: This can be done ad infinitum: his true desire is not the cure but rather good health, or happiness, and so on, until you reach a terminal desire("the Good").
 }
-\p{\strong{# Challenging the conventional wisdom: Desire = Object + Aim
-}}  
-\p{When you want anything, you want more than one thing, so it's complicated to 
-  answer "did you get what you want".
 }
-\p{The man wanted to catch the train \em{and} wanted to get to NYC; those are both 
-    aspects of his \em{single} desire.
+\subtree{\title{Challenging the conventional wisdom: Desire = Object + Aim} 
+\p{When you want anything, you want more than one thing, so it's complicated to answer "did you get what you want".
+}
+\p{The man wanted to catch the train \em{and} wanted to get to NYC; those are both aspects of his \em{single} desire.
 }
 \p{  There is a specific side and a general side to a desire
 }   \ul{
@@ -64,43 +62,33 @@ destination. Was his desire satisfied?
     \li{Aim: what makes the object appealing.}
 
 }
-\p{\strong{# Relation between desire and belief}
-}  
-\p{Conventional wisdom holds they are both representable merely as states of 
-the world, although they have an complementary relationship:
+}
+\subtree{\title{Relation between desire and belief}
+
+\p{Conventional wisdom holds they are both representable merely as states of the world, although they have an complementary relationship:
 }
 \ul{
 \li{We want to update our belief state to match the world, }
 \li{we want to update the world to match our belief state.}
 
 }
-\p{This picture is incomplete. Example: feel hungry, desire food.
-}
+\p{This picture is incomplete. Example: feel hungry, desire food.}
 \ul{
-\li{It can't be an accident that a bunch of seemingly related desires pop up 
-  (want a sandwich downstairs, want pasta from next door, ...)}
-\li{It doesn't make sense that we desire things in a way that is not 
-  possible (want sandwich from Paris, from the moon)}
+\li{It can't be an accident that a bunch of seemingly related desires pop up (want a sandwich downstairs, want pasta from next door, ...)}
+\li{It doesn't make sense that we desire things in a way that is not possible (want sandwich from Paris, from the moon)}
 \li{Things make more sense when we break down the structure of a desire:}
 \ul{
   \li{Object: sandwich from deli downstairs, sandwich}
   \li{Aim: satisfy the hunger}
-
 }
 }
-\p{\strong{# Summary slogan: "Satisfaction as a compromise"}}
-
-\p{These thoughts might inspire positive change in fields like economics, where 
-people's desires are taken to be "given in advance". 
-Their framework involves setting up a system that optimizes utility, given 
-  desires (as the fixed input data), but rather the desires are adaptive to the world / how things are achieved.}
-
-\p{Parents try don't satisfy children's desires because they don't have the 
-right desires. The desires are formed on the reflection of prior experience 
-(knowing what to want, how to achieve it).
 }
-\p{The story of the formation of the desire is required towards understanding 
-    what it means to satisfy it.
+\subtree{\title{Summary slogan: "Satisfaction as a compromise"}
 
+\p{These thoughts might inspire positive change in fields like economics, where people's desires are taken to be "given in advance". Their framework involves setting up a system that optimizes utility, given desires (as the fixed input data), but rather the desires are adaptive to the world / how things are achieved.}
 
+\p{Parents try don't satisfy children's desires because they don't have the right desires. The desires are formed on the reflection of prior experience (knowing what to want, how to achieve it).
+}
+\p{The story of the formation of the desire is required towards understanding what it means to satisfy it.
+}
 }

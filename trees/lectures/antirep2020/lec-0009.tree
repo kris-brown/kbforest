@@ -1,6 +1,6 @@
 \title{09 - Huw Price on Representationalism, Rorty, and Expressivism}
 
-\p{\strong{## Generalizing [subject naturalism](phil-0089)}}
+\subtree{\title{Generalizing subject naturalism}
 
 \p{The pragmatic metavocabulary one uses for this purpose need not be naturalistic. One might looks to use a \em{normative} metavocabulary, which specifies (not necessarily “describes”) how it is proper or correct to use expressions. Brandom disagrees with Price, who uses a naturalistic metavocabulary, because he believes having a normative metavocabulary is essential to understanding how meaning is conferred. Naturalistic metavocabulary is committed to working with dispositions (alethic modal vocabulary) and forgoes invoking correctness/proprieties of use.
 }
@@ -17,8 +17,9 @@
 \p{We can also divide through by the representationalism (if you have a semantic metavocabulary that is based on inferential roles rather than representation, you can still ask what is a good pragmatic metavocabulary and what is the relation between the two). Rorty  wanted to throw out semantics wholesale, seeing it as incontrovertably tied to representationalism. 
 }
 
-\p{\strong{# One Cheer for Representationalism}
 }
+\subtree{\title{One Cheer for Representationalism}
+
 
 
 \p{Huw opposes the combination of declarativism and descriptivism. His "one cheer" is for the kind of deflationary declarativism that comes from "all declarative sentences are truth evaluable" (because they can embed in the antecedent of a conditional, see [Frege-Geach argument](phil-0050)).
@@ -38,8 +39,9 @@
 }
 \p{Semantic pragmatism goes from the pragmatic significance to the semantic content.  The idea is that the concept of declarative sentence is to be understood as what can be used both free-standing, to make assertions, and embedded, to contribute systematically to the content and assertional significance of assertible compound sentences in which it is embedded.
 }
-\p{\strong{# Expressivism for two voices}
 }
+\subtree{\title{Expressivism for two voices}
+
 \p{Huw's redescription of Humean expressivism. (How Blackburn characterizes his own view, which he also calls quasi-realism). It is realism b/c he says there is a kind of propositional content to the 3 M's. He thinks this is Humean because what tied together Hume's theoretical and practical philosophy was his expressivism (similar answers about how we get from \em{is} to \em{ought} and how we get from \em{is} to \em{must be}).
 }
 \p{Principal affinity: the essence of their local expressivism was to say "don't think about what you're \em{saying} when you offer moral appraisal (don't think of the content), think at first what you're \em{doing}." Price saw them as offering subject naturalist accounts of the 3 M vocabularies.
@@ -58,4 +60,5 @@
 \p{For Huw these are not two competing accounts of a single species of representation, but rather two different beasts.
 }
 \p{It's a good question to how E-representation differs from capital-R representation.
+}
 }

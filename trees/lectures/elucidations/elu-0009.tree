@@ -1,11 +1,12 @@
 \title{17. Mechanism and causation}
 \tag{elucidations}
 
-\p{\strong{# Action at a distance}}
+\subtree{\title{Action at a distance}
   \p{E.g. Gravity/EM, something in one place can affect something far away 
     without anything passing in between}
 
-\p{\strong{## Example}}
+
+\subtree{\title{Example}
 \p{Trying to explain how a magic trick (making a match levitate) works.}
 \ol{
     \li{The magician has the power to make things levitate with their mind}
@@ -24,7 +25,8 @@
 \p{Action at a distance would be like having no such explanation (though there 
     is regularity/predictability).}
 
-\p{\strong{# Consequence of action at a distance}}
+}}
+\subtree{\title{Consequence of action at a distance}
 \p{Fear: if we allow action at a distance, then anything is permitted anywhere}
   \ul{
   \li{Billiard ball motion could be determined by huge (far away) bodies of motion 
@@ -39,7 +41,8 @@
   \li{Faraday/Maxwell are able to reform E&M that doesn't require action at a distance, have nothing to say about gravity.}
   \li{Einstein then gets rid of it for gravity}
 }  
-\p{\strong{# Quantum mechanics reintroduced action at a distance}}
+}
+\subtree{\title{Quantum mechanics reintroduced action at a distance}
 \p{Einstein has methodological complaint. Science is impossible if objects aren't independent of each other.
 }\p{Leibniz Principle of Sufficient Reason: for everything that happens, there is a reason why it (in particular) happened.}
 \p{Paramenides: nothing comes from nothing (apple comes from the tree, apple's 
@@ -48,10 +51,12 @@
     \li{Change is impossible follows from this}
     \li{In some sense, something coming from nothing would violate the principle of sufficient reason.}}
 
-\p{\strong{# Prior}}
+}
+\subtree{\title{Prior}
 \ul{
 \li{Many arguments for and against.}
 \li{Philosophically, one must have a framework to do science.}
 \li{P.S.R. is really hard to do without.}
 \li{There were never historically people who lamented loss of action at a distance when an equally predictive theory becomes available.}
+}
 }

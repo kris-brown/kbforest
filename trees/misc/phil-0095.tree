@@ -2,10 +2,10 @@
 
 \p{A subdiscipline of [philosophy](phil-0096).}
 
-\p{\strong{# Two traditions}
-}
+\subtree{\title{Two traditions}
 
-\p{\strong{## Logistical tradition}}
+
+\subtree{\title{Logistical tradition}
 
 \p{Runs from [Frege](gottlob-frege)/[Russell](bertrand-russell), through the [Tractatus](ref-0066), [Carnap](rudolf-carnap), [Tarski](alfred-tarski), [Quine](wo-quine), [David Lewis](david-lewis)}
 
@@ -15,8 +15,11 @@
 	\li{more powerful successor: possible worlds semantics}
 }
 
-\p{\strong{## Anthropological tradition}}\ul{
+}
+\subtree{\title{Anthropological tradition}
+\ul{
 \li{Focuses on natural languages over artificial ones}
 \li{Thinks of languages as a social practice characteristic of biological creatures like us}
 \li{[Dewey](john-dewey), early [Heidegger](martin-heidegger), late Wittgenstein, [Rorty](richard-rorty).}
 }
+}}
