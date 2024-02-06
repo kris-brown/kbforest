@@ -35,14 +35,12 @@ Two meanings of "#{X} depends on #{Y}" that are easily conflated.
 
 }
 
-\p{# Examples
-}
+\subtree{\title{Examples}
 
 \p{"Parent" and "child" are both reciprocally sense- and reference- dependent.
 }
-
-\p{# Historical relevance
 }
+\subtree{\title{Historical relevance}
 
 \p{This is the difference between Berkeley's idealism and Kant's transcendental idealism. When someone claims the lawfulness of a relation between two properties is a feature of our cognitive faculties, it makes a big difference whether this is a sense or reference dependence claim.
 }
@@ -50,5 +48,6 @@ Two meanings of "#{X} depends on #{Y}" that are easily conflated.
 \ul{
   \li{Without understanding what it is for you to follow a rule / to infer #{B} from #{A}, you can't \em{understand} the lawfulness that you're taking the world to have.}
   \li{This does not entail a reference dependence.
+}
 }
 }

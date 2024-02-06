@@ -1,6 +1,6 @@
 \title{Semantics and pragmatics}
 
-\p{# Order of explanation }
+\subtree{\title{Order of explanation }
 
 \ul{
 \li{Should reason relations be explained in terms of social practices[^rr]}
@@ -11,4 +11,4 @@
 }
 
 \p{[^rr]: Rorty: "[truth](phil-0142) is what your contemporaries let you get away with saying"
-}
+}}

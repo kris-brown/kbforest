@@ -1,6 +1,6 @@
 \title{Concepts and judgment}
 
-\p{# Overview}
+\subtree{\title{Overview}
 
 \p{We normally think that the content of judgments are dictated by the content of the [concepts](phil-0021) used inside of them. This feels especially right for artificial languages:
 }
@@ -15,9 +15,8 @@
 
 \p{However, [Kant](immanuel-kant) turned this around. In this view, judgments are prior (in the order of understanding) to concepts.
 }
-
-\p{# The prior tradition 
 }
+\subtree{\title{The prior tradition }
 
 \p{Traditional logic up until Kant thought of 
 everything in terms of classification. There were three levels:}
@@ -35,8 +34,8 @@ everything in terms of classification. There were three levels:}
 }
 
 \p{Kant flipped the order #{1\rightarrow 2} to #{2 \rightarrow 1} (think of concepts as functions of judgment). Sellars then extended this to flip #{2\rightarrow 3} to #{3\rightarrow 2} (think of judgments as functions of the inferences we make).}
-
-\p{# Sellars
+}
+\subtree{\title{Sellars
 }
 \p{We normally think of logically-valid inferences 
 (e.g. #{A \land B \implies B \lor C}) as something 
@@ -55,4 +54,5 @@ to them \em{qua} inferences.}
 
 \p{[^1]: The words \em{priori} and \em{posteriori} literally make the order clear.
 
+}
 }
