@@ -2,7 +2,7 @@
 \taxon{reference}
 \import{macros}
 \import{base-macros}
-\author{robert-brandom}
+\author{brandom}
 \meta{external}{https://sites.pitt.edu/~rbrandom/Texts/A_Hegelian_Model_of_Legal_Concept_Determ.pdf}
 \import{base-macros}
 
@@ -10,235 +10,235 @@
 
 \subtree{\title{Indeterminateness and Rational Authority}
 
-\p{Two types of skepticism: } 
+  \p{Two types of skepticism: }
 
-\table{
-  \tr{
-    \th{Skepticism }
-    \th{Epistemological }
-    \th{Semantic}
+  \table{
+    \tr{
+      \th{Skepticism }
+      \th{Epistemological }
+      \th{Semantic}
+    }
+    \tr{
+      \td{Who confronted it? }
+      \td{Descartes }
+      \td{Kant}
+    }
+    \tr{
+      \td{What is it worried about? }
+      \td{How do we know which of our statements are true or false? (Presupposes we have a solid grasp of any given statement which purports to represent some way the world is.) }
+      \td{What is needed to make intelligible the idea that our concepts 'represent' what is 'out there' at all?}
+    }
+    \tr{
+      \td{Example in legal reasoning }
+      \td{We might find the difference between murder and manslaughter easily grasped though we wonder how to we might be able to know someone's intent or certain facts of the matter }
+      \td{We might worry that we don't actually have a grasp on what 'reasonable contract' means even though it's a concept which matters in certain laws.}
+    }
   }
-  \tr{
-    \td{Who confronted it? }
-    \td{Descartes }
-    \td{Kant}
-  }
-  \tr{
-    \td{What is it worried about? }
-    \td{How do we know which of our statements are true or false? (Presupposes we have a solid grasp of any given statement which purports to represent some way the world is.) }
-    \td{What is needed to make intelligible the idea that our concepts 'represent' what is 'out there' at all?}
-  }
-  \tr{
-    \td{Example in legal reasoning }
-    \td{We might find the difference between murder and manslaughter easily grasped though we wonder how to we might be able to know someone's intent or certain facts of the matter }
-    \td{We might worry that we don't actually have a grasp on what 'reasonable contract' means even though it's a concept which matters in certain laws.}
-  }
-}
 
-\p{
-Semantic skepticism is more worrisome, since we want to be ruled by \em{rational} authority, i.e. to distinguish rule of law from rule by force. The difference is
-that legal judgments must appeal to laws as \em{reasons} for the judgment.
-If we don't actually have a grasp on important legal concepts, then they can't
-serve as reasons, leading to legal nihilism and threats to the legitimacy of
-notions like rights and obligations.}
+  \p{
+    Semantic skepticism is more worrisome, since we want to be ruled by \em{rational} authority, i.e. to distinguish rule of law from rule by force. The difference is
+    that legal judgments must appeal to laws as \em{reasons} for the judgment.
+    If we don't actually have a grasp on important legal concepts, then they can't
+    serve as reasons, leading to legal nihilism and threats to the legitimacy of
+    notions like rights and obligations.}
 
-\subtree{\title{Aside on material inferences}
+  \subtree{\title{Aside on material inferences}
 
-\p{Almost anywhere outside of formal math and fundamental physics, the kind of inference that is used is \em{material inference}.
-}
-\table{
-  \tr{
-    \th{}
-    \th{Material inference }
-    \th{Formal logical inference}
+    \p{Almost anywhere outside of formal math and fundamental physics, the kind of inference that is used is \em{material inference}.
+    }
+    \table{
+      \tr{
+        \th{}
+        \th{Material inference }
+        \th{Formal logical inference}
+      }
+      \tr{
+        \td{What makes one good? }
+        \td{Goodness of reasoning depends on the contents of non-logical concepts }
+        \td{Goodness independent of non-logical concepts}
+      }
+      \tr{
+        \td{Kind of reasoning }
+        \td{\strong{Defeasible / non-monotonic}: adding facts may make us retract earlier conclusions. }
+        \td{\strong{Indefeasble / monotonic}: adding more facts can never infirm an earlier inference.}
+      }
+      \tr{
+        \td{Example }
+        \td{If a patient has a high fever, it's good to infer that they bacterial infection. However, if it's also the case thatthe patient recently took a certain fever-inducing drug then it's no longer a good inference that they have a bacterial infection. }
+        \td{A straight line is the shortest distance between two points, and if those points happen to be vertices of a triangle, it's still the case that straight line is the shortest distance between two points.}
+      }
+      \tr{
+        \td{Example nonlogical concepts   }
+        \td{fever, bacterial, etc }
+        \td{straight, point, triangle, etc.}
+      }
+    }
+
+
+    \p{The skepticism we are worried about is whether our grasp of legal concepts is determinate enough to tell which material inferences are good ones or bad ones.}
+
   }
-  \tr{
-    \td{What makes one good? }
-    \td{Goodness of reasoning depends on the contents of non-logical concepts }
-    \td{Goodness independent of non-logical concepts}
-  }
-  \tr{
-    \td{Kind of reasoning }
-    \td{\strong{Defeasible / non-monotonic}: adding facts may make us retract earlier conclusions. }
-    \td{\strong{Indefeasble / monotonic}: adding more facts can never infirm an earlier inference.}
-  }
-  \tr{
-    \td{Example }
-    \td{If a patient has a high fever, it's good to infer that they bacterial infection. However, if it's also the case thatthe patient recently took a certain fever-inducing drug then it's no longer a good inference that they have a bacterial infection. }
-    \td{A straight line is the shortest distance between two points, and if those points happen to be vertices of a triangle, it's still the case that straight line is the shortest distance between two points.}
-  }
-  \tr{
-    \td{Example nonlogical concepts   }
-    \td{fever, bacterial, etc }
-    \td{straight, point, triangle, etc.}
-  }
-}
+  \subtree{\title{Relevance of case law  }
 
-
-\p{The skepticism we are worried about is whether our grasp of legal concepts is determinate enough to tell which material inferences are good ones or bad ones.}
-
-}
-\subtree{\title{Relevance of case law  }
-
-\p{ \strong{Regress of interpretations}: Wittgenstein convincingly argued that a rule (marks on a piece of paper) cannot objectively tell you how to apply it - it is only through a background of implicit practical norms of a community (for how to interpret the rule) that an explicit rule can have meaning at all.
-}
-\p{Thus, statute law can only be semantically determinate with the help of a context of case law.[^1]
-}
-\p{[^1]: This is validated by the attitudes of actual legal professionals: none of them would think that you can understand what a legal concept means \em{purely} from looking at statutes.
-}
-}}
+    \p{ \strong{Regress of interpretations}: Wittgenstein convincingly argued that a rule (marks on a piece of paper) cannot objectively tell you how to apply it - it is only through a background of implicit practical norms of a community (for how to interpret the rule) that an explicit rule can have meaning at all.
+    }
+    \p{Thus, statute law can only be semantically determinate with the help of a context of case law.[^1]
+    }
+    \p{[^1]: This is validated by the attitudes of actual legal professionals: none of them would think that you can understand what a legal concept means \em{purely} from looking at statutes.
+    }
+  }}
 \subtree{\title{Institution and Application of Conceptual Norms}
 
-\p{Explicit legal norms depend on norms implicit in practices. Here are two strategies for thinking of this relationship:
-}
-\ol{
-\li{\strong{Two-phase model}: Associated with Carnap and early modern philosophers. One first defines a \em{language} by associating meanings to expressions, then one looks to the world to formulate a \em{theory} (which expressions are true?). This model is more appropriate to artificial languages.}
-\li{\strong{Two-aspect model}: All there is to do with language is \em{apply} meaningful expressions to the non-linguistic world (via reasoning and making claims) and \em{institutes} meanings, two \em{aspects} of discursive practice rather than \em{phases}. These two aspects are reciprocally dependent.}
-}
-\p{Quine convincingly argued against the two-phase model. "Regularism" is one way we might understand the determinateness of concepts with the two-aspect model: matter-of-factual regularities/dispositions in the applications of a concept institute its meaning, i.e. conceptual content. But the following argument says that matter-of-factual regularities cannot institute genuinely binding norms:
-}
-\ol{
-\li{\strong{Normativity of conceptual content}: for any concept, its instituted \em{content} must provide norms for rational assessment of the correctness of its application. We must be able to make sense of a thinker as i. applying a particular concept (rather than another, closely related one) and ii. applying a concept \em{incorrectly}, i.e. the concept is applied in a situation where its content does not provide adequate \em{reason} for applying it. Thus determinateness of conceptual content requires determinateness of the norms for assessment of its correct usage.}
-\li{\strong{Naturalistic fallacy}: if we solely consider application of concepts as determining the content of concepts, we do not have a means of determining correct from incorrect behavior (we cannot transition from 'is' to 'ought').}
-\li{\strong{Gerrymandering point}: we cannot derive conceptual content from past applications of a concept because there are an infinite number of ways to continue the sequence - what is needed is a \em{privileging} of some of the ways past applications were similar.}
-\li{Can we circumvent the gerrymandering point by explicitly \em{saying} which similarities are going to be projected? A judge could accompany their decision with a \em{rationale} which attempts to do just this. For our concern about semantic skepticism, however, the determinate normative constraint of concepts in these rationales is precisely the phenomenon we were trying to understand at the very beginning.}
-\li{If past application is too weak and explicit rules is too strong, \em{dispositions} are something of intermediate strength which might seem like an appealing strategy for evading the gerrymandering point. However, this only addresses point (1.i) above; we still cannot derive a notion of a \em{mistaken} rule application from dispositions. So, we cannot naively understand the instituted meaning in terms of the past application, and we cannot understand application in terms of the explicitly-stated meanings (which fails because of the regress of interpretations point).}
+  \p{Explicit legal norms depend on norms implicit in practices. Here are two strategies for thinking of this relationship:
+  }
+  \ol{
+    \li{\strong{Two-phase model}: Associated with Carnap and early modern philosophers. One first defines a \em{language} by associating meanings to expressions, then one looks to the world to formulate a \em{theory} (which expressions are true?). This model is more appropriate to artificial languages.}
+    \li{\strong{Two-aspect model}: All there is to do with language is \em{apply} meaningful expressions to the non-linguistic world (via reasoning and making claims) and \em{institutes} meanings, two \em{aspects} of discursive practice rather than \em{phases}. These two aspects are reciprocally dependent.}
+  }
+  \p{Quine convincingly argued against the two-phase model. "Regularism" is one way we might understand the determinateness of concepts with the two-aspect model: matter-of-factual regularities/dispositions in the applications of a concept institute its meaning, i.e. conceptual content. But the following argument says that matter-of-factual regularities cannot institute genuinely binding norms:
+  }
+  \ol{
+    \li{\strong{Normativity of conceptual content}: for any concept, its instituted \em{content} must provide norms for rational assessment of the correctness of its application. We must be able to make sense of a thinker as i. applying a particular concept (rather than another, closely related one) and ii. applying a concept \em{incorrectly}, i.e. the concept is applied in a situation where its content does not provide adequate \em{reason} for applying it. Thus determinateness of conceptual content requires determinateness of the norms for assessment of its correct usage.}
+    \li{\strong{Naturalistic fallacy}: if we solely consider application of concepts as determining the content of concepts, we do not have a means of determining correct from incorrect behavior (we cannot transition from 'is' to 'ought').}
+    \li{\strong{Gerrymandering point}: we cannot derive conceptual content from past applications of a concept because there are an infinite number of ways to continue the sequence - what is needed is a \em{privileging} of some of the ways past applications were similar.}
+    \li{Can we circumvent the gerrymandering point by explicitly \em{saying} which similarities are going to be projected? A judge could accompany their decision with a \em{rationale} which attempts to do just this. For our concern about semantic skepticism, however, the determinate normative constraint of concepts in these rationales is precisely the phenomenon we were trying to understand at the very beginning.}
+    \li{If past application is too weak and explicit rules is too strong, \em{dispositions} are something of intermediate strength which might seem like an appealing strategy for evading the gerrymandering point. However, this only addresses point (1.i) above; we still cannot derive a notion of a \em{mistaken} rule application from dispositions. So, we cannot naively understand the instituted meaning in terms of the past application, and we cannot understand application in terms of the explicitly-stated meanings (which fails because of the regress of interpretations point).}
 
-}
+  }
 }
 \subtree{\title{Reciprocal recognition model of the social institution of norms}
 
-\p{Gil Harman argues that we can distinguish \em{normative} concepts from \em{empirical} concepts by thinking about the best explanation of the use of those concepts - if we need to postulate that "mass" really exists in order to explain the our attitudes involved in the application of the word "mass", then it's an empirical concept (vice-versa for normative ones[^eg]). This argument renders normative concepts as second-class citizens, bolstering "legal realism" / semantic skepticism.
-}
-\p{[^eg]: E.g. the best way to explain one's belief in good appeals only to other people's (e.g. parents' and teachers') belief in God. 
-}
-\p{Important terminology (by example): \strong{normative statuses} include being responsible / committed, having authority to something, being entitled to something, normative attitudes of \em{taking} or \em{treating} someone as having such a status.
-}
-\p{Hegel's model of reciprocal recognition is a positive account of how some[^clar] genuine normative statuses are instituted by normative attitudes. This addresses Harman's skepticism about normative concepts and is an account of \em{conceptual normativity} from the previous section.
-}
-\p{[^clar]: Not \em{all} social statuses need to follow this model, e.g. being a senator, which depends on relationships involving the president, citizens, etc. However, the claim is that these normative institutions are only intelligible against a background provided by a fundamental discursive normativity which is a matter of reciprocal recognition.
-}
-\p{Basic idea; normative statuses are \em{social} statuses. One is a normative subject iff one is recognized by those one recognizes as normative subjects. E.g. the normative status of "being a good chess player": John achieves this status when those who John recognizes as a good chess player likewise regard John to be good. The content of this status is dependent on who John chooses to recognize as good chess players (if just ordinary folks who merely know the rules, then this is a low value status). 
-}
-\p{This is broadly naturalistic - the advent of norms requires nothing mysterious. This is a \em{sense dependence} claim - understanding normative attitudes is sufficient to understand normative statuses. As it is not a reference dependence claim, one need not deny that there \em{are} normative statuses, as Harmon does.
-}
+  \p{Gil Harman argues that we can distinguish \em{normative} concepts from \em{empirical} concepts by thinking about the best explanation of the use of those concepts - if we need to postulate that "mass" really exists in order to explain the our attitudes involved in the application of the word "mass", then it's an empirical concept (vice-versa for normative ones[^eg]). This argument renders normative concepts as second-class citizens, bolstering "legal realism" / semantic skepticism.
+  }
+  \p{[^eg]: E.g. the best way to explain one's belief in good appeals only to other people's (e.g. parents' and teachers') belief in God.
+  }
+  \p{Important terminology (by example): \strong{normative statuses} include being responsible / committed, having authority to something, being entitled to something, normative attitudes of \em{taking} or \em{treating} someone as having such a status.
+  }
+  \p{Hegel's model of reciprocal recognition is a positive account of how some[^clar] genuine normative statuses are instituted by normative attitudes. This addresses Harman's skepticism about normative concepts and is an account of \em{conceptual normativity} from the previous section.
+  }
+  \p{[^clar]: Not \em{all} social statuses need to follow this model, e.g. being a senator, which depends on relationships involving the president, citizens, etc. However, the claim is that these normative institutions are only intelligible against a background provided by a fundamental discursive normativity which is a matter of reciprocal recognition.
+  }
+  \p{Basic idea; normative statuses are \em{social} statuses. One is a normative subject iff one is recognized by those one recognizes as normative subjects. E.g. the normative status of "being a good chess player": John achieves this status when those who John recognizes as a good chess player likewise regard John to be good. The content of this status is dependent on who John chooses to recognize as good chess players (if just ordinary folks who merely know the rules, then this is a low value status).
+  }
+  \p{This is broadly naturalistic - the advent of norms requires nothing mysterious. This is a \em{sense dependence} claim - understanding normative attitudes is sufficient to understand normative statuses. As it is not a reference dependence claim, one need not deny that there \em{are} normative statuses, as Harmon does.
+  }
 }
 \subtree{\title{Historical version of the recognitive structure of reciprocal authority and responsibility}
 
-\p{What does this Hegelian positive account have to say about the Kripkensteinian worries that the \em{use} of concepts does not \em{determine} the content of concepts? In some sense, the transition from Kant to Hegel mirrors the transition from Carnap (two-phase) to Quine (two-aspect). 
-}
-\p{Hegel's account addresses the problem because it is not only \em{social} but \em{historical}. A recognitive community that institutes conceptual norms takes the distinctive form of a \em{tradition}. This provides fine structure gestured at by Ronald Dworkin's "chain novel metaphor", that the task of a common law judge is akin to the author of a chain novel in \em{media res}:
-}
-\blockquote{Your assignment is to make of the text the best it can be, and you will therefore choose the interpretation you believe makes the work more significant and otherwise better.}
-
-\p{Judges are both responsible \em{for} the law and responsible \em{to} the law. They are symmetrically recognized and recognizing the authority of past and present judges.
-}
-
-\table{
-  \tr{
-    \th{}
-    \th{Current judges hold responsible }
-    \th{Current judges are held responsible}
+  \p{What does this Hegelian positive account have to say about the Kripkensteinian worries that the \em{use} of concepts does not \em{determine} the content of concepts? In some sense, the transition from Kant to Hegel mirrors the transition from Carnap (two-phase) to Quine (two-aspect).
   }
-  \tr{
-    \td{Past judges }
-    \td{One picks which past rulings were precedential }
-    \td{\em{Stare decesis} - one's current justification can appeal only to the authority of prior decisions (i.e. to the conceptual content those decisions have conferred upon the legal term in question).}
+  \p{Hegel's account addresses the problem because it is not only \em{social} but \em{historical}. A recognitive community that institutes conceptual norms takes the distinctive form of a \em{tradition}. This provides fine structure gestured at by Ronald Dworkin's "chain novel metaphor", that the task of a common law judge is akin to the author of a chain novel in \em{media res}:
   }
-  \tr{
-    \td{Future judges }
-    \td{One's ruling is what they must appeal to. }
-    \td{Because future judges could treat you as irrelevant, non-precedential, or incorrect, your ruling must seem authoritative to them.}
+  \blockquote{Your assignment is to make of the text the best it can be, and you will therefore choose the interpretation you believe makes the work more significant and otherwise better.}
+
+  \p{Judges are both responsible \em{for} the law and responsible \em{to} the law. They are symmetrically recognized and recognizing the authority of past and present judges.
   }
-}
 
-\p{
-Judges' rulings make a \em{rational reconstruction} of the tradition:}
+  \table{
+    \tr{
+      \th{}
+      \th{Current judges hold responsible }
+      \th{Current judges are held responsible}
+    }
+    \tr{
+      \td{Past judges }
+      \td{One picks which past rulings were precedential }
+      \td{\em{Stare decesis} - one's current justification can appeal only to the authority of prior decisions (i.e. to the conceptual content those decisions have conferred upon the legal term in question).}
+    }
+    \tr{
+      \td{Future judges }
+      \td{One's ruling is what they must appeal to. }
+      \td{Because future judges could treat you as irrelevant, non-precedential, or incorrect, your ruling must seem authoritative to them.}
+    }
+  }
 
-\ul{
-\li{\strong{Re}construction because integrating only \em{some} of the prior decisions }
-\li{Rational because the decisions treated as precedential must fit together with the decision being made.}
-}
+  \p{
+    Judges' rulings make a \em{rational reconstruction} of the tradition:}
+
+  \ul{
+    \li{\strong{Re}construction because integrating only \em{some} of the prior decisions }
+    \li{Rational because the decisions treated as precedential must fit together with the decision being made.}
+  }
 }
 \subtree{\title{Understanding the determinateness of conceptual norms}
 
-\p{A judge undertakes a commitment by making a decision. Reciprocal recognition shows how the structure of judges' attitudes towards one another institute statuses of authority and responsibility. How do determinate conceptual contents arise from this?
-}
-\p{Kantian/Fregean determinateness: concepts must be semantically settled prior to their application. Objects either fall under the concept xor don't. This means that material inferences are definitively settled as good or not by the conceptual content of the concept.
-}
-\p{Hegel associates the demand for this kind of determinateness with the early modern tradition, culminating in Kant. However, Hegel is aware of the \em{openness} of expression usage - prior use does \em{not} close off future possibilities of developing our use of expressions.[^witt]
-}
-\p{[^witt]: This is precisely the lesson of Wittgenstein's rule following paradox: prior use does not determine all future applications "like rails laid out to infinity."
-}
-\p{Hegel needs to justify his notion of 'determinate', in spite of it being indeterminate in the Kantian sense. He asks what \em{kind of fact} does prior use constrain (but not settle) about future use? It is a social-recognitive fact, a matter of normative status, instituted by a \em{historical} version of reciprocal recognition. This is a process of rational reconstruction. The Kantian account of integrating new commitments with prior ones appeals to concepts having fixed / settled material inferential relations, whereas the Hegelian account's addition of rational reconstruction is playing the same role but with a more realistic model of this integration process.
-}
-\p{We retrospectively \em{make} our applications of concepts rational (i.e. responsive to discursive norms) by finding a way to \em{take} them to be rational. By rationally reconstructing the tradition, concept users retrospectively discern conceptual norms which are determinate in the Kantian sense. The reconstruction treats it as if this determinate content was in play the whole time, with the precedential concept applications getting at the correct material consequences. Hegel's determinateness is temporally perspectival: 
-}
+  \p{A judge undertakes a commitment by making a decision. Reciprocal recognition shows how the structure of judges' attitudes towards one another institute statuses of authority and responsibility. How do determinate conceptual contents arise from this?
+  }
+  \p{Kantian/Fregean determinateness: concepts must be semantically settled prior to their application. Objects either fall under the concept xor don't. This means that material inferences are definitively settled as good or not by the conceptual content of the concept.
+  }
+  \p{Hegel associates the demand for this kind of determinateness with the early modern tradition, culminating in Kant. However, Hegel is aware of the \em{openness} of expression usage - prior use does \em{not} close off future possibilities of developing our use of expressions.[^witt]
+  }
+  \p{[^witt]: This is precisely the lesson of Wittgenstein's rule following paradox: prior use does not determine all future applications "like rails laid out to infinity."
+  }
+  \p{Hegel needs to justify his notion of 'determinate', in spite of it being indeterminate in the Kantian sense. He asks what \em{kind of fact} does prior use constrain (but not settle) about future use? It is a social-recognitive fact, a matter of normative status, instituted by a \em{historical} version of reciprocal recognition. This is a process of rational reconstruction. The Kantian account of integrating new commitments with prior ones appeals to concepts having fixed / settled material inferential relations, whereas the Hegelian account's addition of rational reconstruction is playing the same role but with a more realistic model of this integration process.
+  }
+  \p{We retrospectively \em{make} our applications of concepts rational (i.e. responsive to discursive norms) by finding a way to \em{take} them to be rational. By rationally reconstructing the tradition, concept users retrospectively discern conceptual norms which are determinate in the Kantian sense. The reconstruction treats it as if this determinate content was in play the whole time, with the precedential concept applications getting at the correct material consequences. Hegel's determinateness is temporally perspectival:
+  }
 
-\table{
-  \tr{
-    \th{Perspective}
-    \th{\em{Retro}spective}
-    \th{\em{Pro}spective}
+  \table{
+    \tr{
+      \th{Perspective}
+      \th{\em{Retro}spective}
+      \th{\em{Pro}spective}
+    }
+    \tr{
+      \td{What kind of task is determining conceptual contents? }
+      \td{Theoretical / epistemic}
+      \td{Practical / constructive}
+    }
+    \tr{
+      \td{What is rational reconstruction doing?}
+      \td{Finding out which past applications of the concept were the right ones / which norms govern the process.}
+      \td{Investing one's authority to authorize future concept-users to apply concepts in particular ways.}
+    }
+    \tr{
+      \td{Normativity of concepts}
+      \td{We are \strong{authoritative} over concepts.}
+      \td{We are \strong{responsible} to concepts.}
+    }
+    \tr{
+      \td{ Modality[^heg]}
+      \td{Necessity }
+      \td{Contingency}
+    }
   }
-  \tr{
-    \td{What kind of task is determining conceptual contents? }
-    \td{Theoretical / epistemic}
-    \td{Practical / constructive}
-  }
-  \tr{
-    \td{What is rational reconstruction doing?}
-    \td{Finding out which past applications of the concept were the right ones / which norms govern the process.}
-    \td{Investing one's authority to authorize future concept-users to apply concepts in particular ways.}
-  }
-  \tr{
-    \td{Normativity of concepts}
-    \td{We are \strong{authoritative} over concepts.}
-    \td{We are \strong{responsible} to concepts.}
-  }
-  \tr{
-    \td{ Modality[^heg]}
-    \td{Necessity }
-    \td{Contingency}
-  }
-}
 
-\p{Hegel will reject the dichotomies between concepts being made vs found, perspective-independent vs social-perspectival, determinate vs further-determinable. These are all two two-sides of one coin.
-}
-\p{Hegel characterizes rational reconstructions as "giving contingency the form of necessity" (necessity for him, like Kant, is "according to a rule").
-}
-\p{Traditions are lived forwards, but understood backwards.
-}
-\p{Semantic skepticism results from misunderstanding the nature of determinate conceptual contentfulness: thinking only in terms of Kantian determinateness.
-}
-\p{The debate within jurisprudential theory showcases the unhelpfulness of thinking in terms of only that kind of determinateness. Consider the below two ends of the debate, each sharing this common flaw which is addressed by the Hegelian understanding of the dual role of responsibility and authority. 
-}
+  \p{Hegel will reject the dichotomies between concepts being made vs found, perspective-independent vs social-perspectival, determinate vs further-determinable. These are all two two-sides of one coin.
+  }
+  \p{Hegel characterizes rational reconstructions as "giving contingency the form of necessity" (necessity for him, like Kant, is "according to a rule").
+  }
+  \p{Traditions are lived forwards, but understood backwards.
+  }
+  \p{Semantic skepticism results from misunderstanding the nature of determinate conceptual contentfulness: thinking only in terms of Kantian determinateness.
+  }
+  \p{The debate within jurisprudential theory showcases the unhelpfulness of thinking in terms of only that kind of determinateness. Consider the below two ends of the debate, each sharing this common flaw which is addressed by the Hegelian understanding of the dual role of responsibility and authority.
+  }
 
-\table{
-  \tr{
-    \th{Ideology}
-    \th{Legal Realism}
-    \th{Legal Formalism, Natural law}
+  \table{
+    \tr{
+      \th{Ideology}
+      \th{Legal Realism}
+      \th{Legal Formalism, Natural law}
+    }
+    \tr{
+      \td{View on law}
+      \td{The law is \em{made} by judges. Legal decisions are brought about by casual factors in the world.}
+      \td{The judge's job is to \em{find out} what the law really is. (E.g. finding out what norms the precedents really institute, finding out what natural law dictates)}
+    }
+    \tr{
+      \td{Response to semantic skepticism}
+      \td{We understand the world scientifically perfectly well, and judges are part of the world as such.}
+      \td{Judges have the capacity to investigate what norms are, what natural law says.}
+    }
+    \tr{
+      \td{Bad consequence}
+      \td{Law becomes what some judge takes it to be.  A statement of what is legal becomes a matter-of-factual prediction of what a judge would decide. What is legal becomes contingent on factors (e.g. his political biases) that ought be irrelevant.}
+      \td{Metaphysics / dogmatism. (Lack of acknowledgement of our capacity to evolve our concepts over time.) }
+    }
+    \tr{
+      \td{Why Hegel sees this as one-sided}
+      \td{Sees only the judge's authority}
+      \td{Sees only the judge's responsibility}
+    }
   }
-  \tr{
-    \td{View on law}
-    \td{The law is \em{made} by judges. Legal decisions are brought about by casual factors in the world.}
-    \td{The judge's job is to \em{find out} what the law really is. (E.g. finding out what norms the precedents really institute, finding out what natural law dictates)}
-  }
-  \tr{
-    \td{Response to semantic skepticism}
-    \td{We understand the world scientifically perfectly well, and judges are part of the world as such.}
-    \td{Judges have the capacity to investigate what norms are, what natural law says.}
-  }
-  \tr{
-    \td{Bad consequence}
-    \td{Law becomes what some judge takes it to be.  A statement of what is legal becomes a matter-of-factual prediction of what a judge would decide. What is legal becomes contingent on factors (e.g. his political biases) that ought be irrelevant.}
-    \td{Metaphysics / dogmatism. (Lack of acknowledgement of our capacity to evolve our concepts over time.) }
-  }
-  \tr{
-    \td{Why Hegel sees this as one-sided}
-    \td{Sees only the judge's authority}
-    \td{Sees only the judge's responsibility}
-  }
-}
 }

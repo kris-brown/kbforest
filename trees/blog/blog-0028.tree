@@ -3,10 +3,10 @@
 
 \p{Wanting our conceptual contents to have mechanical determinateness demanded that we have no freedom in deciding which inferences involving the concept are good and bad. Surely to have \em{complete} freedom would be bad (remember Humpty Dumpty), but something in between is better: we must acknowledge the prior use of a word \em{constrains} (but doesn't \em{settle}) future use - how does this work?}
 
-\p{The kind of determinateness we need should acknowledge the socially- and 
-temporally-perspectival nature of conceptual content \em{without} lapsing into 
-relativism.[^want] It should also make sense of mechanical determinateness 
-as a kind of special case; in order to win you over on this new notion of determinateness, we owe you an explanation why the old one was both attractive while showing why it's deficient.[^irony] Core to this new notion of determinateness is the idea of a rational reconstruction which is both forward- and backward-looking. }
+\p{The kind of determinateness we need should acknowledge the socially- and
+  temporally-perspectival nature of conceptual content \em{without} lapsing into
+  relativism.[^want] It should also make sense of mechanical determinateness
+  as a kind of special case; in order to win you over on this new notion of determinateness, we owe you an explanation why the old one was both attractive while showing why it's deficient.[^irony] Core to this new notion of determinateness is the idea of a rational reconstruction which is both forward- and backward-looking. }
 
 \p{[^want]: Given our culture's current sensibilities, we should \em{want} conceptual content to have these dependencies (despite it being convenient when concepts are such that reasoning about them becomes mere deduction). 1. It's essential to conceptual content that it regulates the proper \em{usage} of our concepts. 2. We want the proper usage of our concepts to evolve over time (consider concepts like \em{God}, \em{electron}, \em{freedom}). 3. The above two points make it desirable to have a notion of conceptual content which is in some sense perspectival. This argument holds whether you want to give [explanatory priority](int-0003) to the conceptual content over the rightness or wrongness of the usage of concepts or vice-versa.}
 
@@ -43,29 +43,29 @@ as a kind of special case; in order to win you over on this new notion of determ
 
 
 \p{>[!info]- Example: Socio-historical determinateness for "reasonable contract"
-> Even though another judge could've potentially given a different rational 
-reconstruction of "reasonable contract", Alice presents her ruling in the form 
-of a \em{mechanically} determinate rule, in light of her rational reconstruction 
-which shows how this rule emerged out of judicial history. Although this rule 
-has the form of being universal, independent of social/historical context, the 
-way it determines the content of "reasonable contract" is contingent on the 
-future judges applying \strong{Statute #123} in their cases. They 
-will have to decide whether to regard her ruling as precedential - whether 
-or not she grasped the concept of "reasonable contract" or not. 
-Whether or not this happens depends both on Alice's written rationale for Bob's particular case (to see how well 
-her verdict fits in with other judges we deem to be authoritative) as well as 
-whether she herself is overall to be considered an authoritative judge 
-(considering her whole career).}
+  > Even though another judge could've potentially given a different rational
+  reconstruction of "reasonable contract", Alice presents her ruling in the form
+  of a \em{mechanically} determinate rule, in light of her rational reconstruction
+  which shows how this rule emerged out of judicial history. Although this rule
+  has the form of being universal, independent of social/historical context, the
+  way it determines the content of "reasonable contract" is contingent on the
+  future judges applying \strong{Statute #123} in their cases. They
+  will have to decide whether to regard her ruling as precedential - whether
+  or not she grasped the concept of "reasonable contract" or not.
+  Whether or not this happens depends both on Alice's written rationale for Bob's particular case (to see how well
+  her verdict fits in with other judges we deem to be authoritative) as well as
+  whether she herself is overall to be considered an authoritative judge
+  (considering her whole career).}
 
 \p{By thinking only of mechanical determinateness, we were forced to oscillate between extremes of legal formalist dogmatism (we have the 'right' definition for our concepts; future and past people are wrong if their concepts are different) or legal realist skepticism (we have complete freedom over our definitions).}
 
 \p{We are constrained by the past due to our need to formulate a principle which
-is shown as emerging from past applications of a concept. We are also constrained in how we  formulate that principle because we are going to be judged by our peers / future  concept users, who will decide whether or not to buy into our formulation.[^witt] We navigate concepts like \em{God}, \em{electron}, \em{freedom}, \em{cat},
-in our ordinary conversations and debates; in doing so, it's essential to the 
-fact that we are using those concepts that we are open to justifying our usage 
-of them (formulated as an explicit rule) via appealing to precedent, and the meaningfulness of our justifications is subject to future concept-users taking our formulation to be precedential.}
+  is shown as emerging from past applications of a concept. We are also constrained in how we  formulate that principle because we are going to be judged by our peers / future  concept users, who will decide whether or not to buy into our formulation.[^witt] We navigate concepts like \em{God}, \em{electron}, \em{freedom}, \em{cat},
+  in our ordinary conversations and debates; in doing so, it's essential to the
+  fact that we are using those concepts that we are open to justifying our usage
+  of them (formulated as an explicit rule) via appealing to precedent, and the meaningfulness of our justifications is subject to future concept-users taking our formulation to be precedential.}
 
-\p{[^witt]: [Wittgenstein](ludwig-wittgenstein)'s emphasis of language as public showed that to count as meaning something at all we need buy-in from one's community.}
+\p{[^witt]: [Wittgenstein](wittgenstein)'s emphasis of language as public showed that to count as meaning something at all we need buy-in from one's community.}
 
 \p{[^heg]: Hegel characterizes rational reconstructions as "giving contingency the form of necessity" (necessity for him, like Kant, is "according to a rule").
 }

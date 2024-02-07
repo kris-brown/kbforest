@@ -2,34 +2,34 @@
 
 \subtree{\title{Historical eras}
 
-\subtree{\title{Premodern}
-\p{[Ancient philosophy](phil-0008)
-}
-\p{[Medieval philosophy](phil-0074)
-}
-}
-\subtree{\title{Early modern}
-\p{[Enlightenment](phil-0137) philosophy
-}
-\p{[Post-kantian philosophy](phil-0101)
-}
-\p{[Pragmatism](phil-0103)
-}
-}
-\subtree{\title{Modern}
+  \subtree{\title{Premodern}
+    \p{[Ancient philosophy](phil-0008)
+    }
+    \p{[Medieval philosophy](phil-0074)
+    }
+  }
+  \subtree{\title{Early modern}
+    \p{[Enlightenment](phil-0137) philosophy
+    }
+    \p{[Post-kantian philosophy](phil-0101)
+    }
+    \p{[Pragmatism](phil-0103)
+    }
+  }
+  \subtree{\title{Modern}
 
-\p{[Analytic philosophy](phil-0007)
-}
-\p{[Continental philosophy](phil-0022)
-}
-}}
+    \p{[Analytic philosophy](phil-0007)
+    }
+    \p{[Continental philosophy](phil-0022)
+    }
+  }}
 \subtree{\title{Goal }
 \p{Sellars' view: [Goal of philosophy](q-0050):  He describes the major problem of his time as reconciling the "clash" between "the 'manifest' image of man-in-the-world" and "the scientific image".
 }
 }
 \subtree{\title{Relation to other disciplines}
 
-\p{Philosophy "with a capital P" is the "queen of the sciences". All scientific knowledge is representational or concerned with knowledge, so if philosophy has a special insight into representation or knowledge, then the other disciplines must answer to it. 
-}
-\p{This style and status of philosophy is challenged by [Rorty](richard-rorty).
-}}
+  \p{Philosophy "with a capital P" is the "queen of the sciences". All scientific knowledge is representational or concerned with knowledge, so if philosophy has a special insight into representation or knowledge, then the other disciplines must answer to it.
+  }
+  \p{This style and status of philosophy is challenged by [Rorty](rorty).
+  }}

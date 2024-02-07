@@ -1,21 +1,22 @@
 \title{Having a nature or a history}
 
 \p{
+  When introduced to a new concept, do you prefer to be given a definition for it in terms of other concepts, or do you prefer a story of how the word came to be used as it's used? Which kind of account is more enlightening?
+}
 
-When introduced to a new concept, do you prefer to be given a definition for it 
-in terms of other concepts, or do you prefer a story of how the word came to be 
-used as it's used? Which kind of account is more enlightening? }
-
-\ul{\li{"Electrons", "haploidism", and "sulfur" are popularly regarded to have a \em{nature}. These are the proper subject matter of the Naturwissenschaften.}
-\li{"Freedom", "skepticism", and "the right to vote" are popularly regarded to have a \em{history}. 
-  These are the proper subject matter of the Geisteswissenshaften.}
+\ul{
+  \li{"Electrons", "haploidism", and "sulfur" are popularly regarded to have a \em{nature}. These are the proper subject matter of the [Naturwissenschaften](phil-0030).}
+  \li{"Freedom", "skepticism", and "the right to vote" are popularly regarded to have a \em{history}.
+    These are the proper subject matter of the [Geisteswissenshaften](phil-0030).}
 }
-\p{This can be applied to [philosophy itself](int-0013) or major topics in philosophy (ethics,
-philosophy the mind, epistemology, mereology). It is a meta-philosphical problem to establish what kind of account is satisfactory. This distinction underlies a fork in the road for new German graduate students in philosophy: Kant oder Hegel?
+\p{
+  This can be applied to [philosophy itself](int-0013) or major topics in philosophy ([ethics](phil-0153), philosophy the mind, epistemology, mereology). It is a meta-philosphical problem to establish what kind of account is satisfactory. This distinction underlies a fork in the road for new German graduate students in philosophy: Kant oder Hegel?
 }
-\p{Put another way: Verstand (understanding) or Vernunft (reasoning)
+\p{
+  Put another way: \em{Verstand} (understanding) or \em{Vernunft} (reasoning)
 }
-\p{[Rorty](richard-rorty)/[Hegel](gwf-hegel) can be thought of as making the meta-philosophical claim that the only (specifically) philosophical form of understanding is that of retrospective, reconstructive narratives.[^brand]
+\p{
+[Rorty](rorty)/[Hegel](hegel) can be thought of as making the meta-philosophical claim that the only (specifically) philosophical form of understanding is that of retrospective, [reconstructive narratives](phil-0110).[^brand]
 }
-\p{[^brand]: Brandom says one's sympathy to Rorty is directly proportional to the extent one does find stories over definitions satisfying.
+\p{[^brand]: [Brandom](brandom) says one's sympathy to Rorty is directly proportional to the extent one does find stories over definitions satisfying.
 }

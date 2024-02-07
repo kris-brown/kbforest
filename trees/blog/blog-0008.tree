@@ -1,4 +1,5 @@
 \title{Order of explanation}
+\date{2023-07}
 \tag{blog}
 
 
@@ -18,18 +19,18 @@
 
 \p{[^rd]: An example where these two kinds of priority come apart is [response-dependent properties](int-0017), such as being beautiful or funny.}
 
-\p{Two [Wittgenstein](ludwig-wittgenstein) quotes echo this idea: }
+\p{Two [Wittgenstein](wittgenstein) quotes echo this idea: }
 \ul{
-\li{"We feel that even if all possible scientific questions be answered, the problems of life have still not been touched at all." }
-\li{"Philosophy is not descriptive but elucidatory." }
+  \li{"We feel that even if all possible scientific questions be answered, the problems of life have still not been touched at all." }
+  \li{"Philosophy is not descriptive but elucidatory." }
 }
 
-\p{This attitude towards philosophy resolves tension between ordinary people who 
-perceive philosophy as useless nonsense vs its being incredibly meaningful: if 
-one is restricting attention to claims about the world, then philosophy is not 
-going to add to that knowledge. If one allows that our understanding of the 
-world isn't purely dictated by the descriptive facts,[^bet] then philosophy will 
-seem useful.}
+\p{This attitude towards philosophy resolves tension between ordinary people who
+  perceive philosophy as useless nonsense vs its being incredibly meaningful: if
+  one is restricting attention to claims about the world, then philosophy is not
+  going to add to that knowledge. If one allows that our understanding of the
+  world isn't purely dictated by the descriptive facts,[^bet] then philosophy will
+  seem useful.}
 
 \p{[^bet]: Or, better yet, denies that a distinction between 'descriptive' and non-descriptive facts can be made.}
 

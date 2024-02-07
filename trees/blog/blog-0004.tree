@@ -1,16 +1,13 @@
 \title{Meaning as common law}
+\date{2023-08}
 \tag{blog}
 
-
 \p{
-
-This is a summary of [Brandom](robert-brandom)'s paper [A Hegelian Concept of Legal Determination](refs-0009). That paper nominally addresses a problem 
-involving the meanings of legal concepts, but the problem (and its solution) are applicable to conceptual reasoning generally. It focuses on the legal setting because interactions between judges \em{create} the content of legal concepts 
-in a way that is paradigmatic: the legal setting foregrounds certain features of ordinary concept use which are essential yet often implicit.}
-
+  This is a summary of [Brandom](brandom)'s paper [A Hegelian Concept of Legal Determination](refs-0009). That paper nominally addresses a probleminvolving the meanings of legal concepts, but the problem (and its solution) are applicable to conceptual reasoning generally. It focuses on the legal setting because interactions between judges \em{create} the content of legal concepts in a way that is paradigmatic: the legal setting foregrounds certain features of ordinary concept use which are essential yet often implicit.
+}
 \scope{
-  \put\transclude/numbered{false}
-  \transclude{blog-0024}
+\put\transclude/numbered{false}
+\transclude{blog-0024}
 }
 
 \transclude{blog-0025}

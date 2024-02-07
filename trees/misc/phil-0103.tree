@@ -2,28 +2,28 @@
 \meta{external}{[SEP](https://plato.stanford.edu/entries/pragmatism/)}
 
 \subtree{\title{Overview }
-\p{TODO} 
+  \p{TODO}
 }
 \subtree{\title{History}
 
-\p{American pragmatism
-}
-\ul{
-\li{[Pierce](charles-sanders-pierce)}
-\li{[James](william-james)}
-\li{[Dewey](john-dewey)}
-}
-\p{"Cambridge" pragmatism}
-\ul{
-\li{[Ramsey](frank-ramsey)}
-\li{The later [Wittgenstein](ludwig-wittgenstein)}
-}
-\p{Neo-pragmatism}
-\ul{
-\li{[Rorty](richard-rorty)}
-\li{[Brandom](robert-brandom)}
-\li{[Price](huw-price)}
-}
+  \p{American pragmatism
+  }
+  \ul{
+    \li{[Pierce](pierce)}
+    \li{[James](william-james)}
+    \li{[Dewey](john-dewey)}
+  }
+  \p{"Cambridge" pragmatism}
+  \ul{
+    \li{[Ramsey](frank-ramsey)}
+    \li{The later [Wittgenstein](wittgenstein)}
+  }
+  \p{Neo-pragmatism}
+  \ul{
+    \li{[Rorty](rorty)}
+    \li{[Brandom](brandom)}
+    \li{[Price](huw-price)}
+  }
 
 }
 \subtree{\title{Semantics}

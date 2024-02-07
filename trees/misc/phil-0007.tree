@@ -3,23 +3,23 @@
 \p{Often the task of analytic philosophy is to take statements in some potentially-problematic vocabulary and give them an explanation in terms of some preferred or unproblematic vocabulary. For example: }
 
 \ul{
-\li{In a hypothetical society where only a hard scientific vocabulary were uncontroversial:}
-\ul{
-  \li{one would get pushback when making statements that refer to "feelings", }
-  \li{but the concern could be addressed by explaining feelings in terms of brainchemistry. }
-}\li{If people in that society then became comfortable talking about feelings:}
-\ul{
-  \li{It would still be problematic to talk about "good" and "evil",}
-  \li{but one might try to explain that calling something "evil" is when that thing makes the speaker feel bad.}
-}}
+  \li{In a hypothetical society where only a hard scientific vocabulary were uncontroversial:}
+  \ul{
+    \li{one would get pushback when making statements that refer to "feelings", }
+    \li{but the concern could be addressed by explaining feelings in terms of brainchemistry. }
+  }\li{If people in that society then became comfortable talking about feelings:}
+  \ul{
+    \li{It would still be problematic to talk about "good" and "evil",}
+    \li{but one might try to explain that calling something "evil" is when that thing makes the speaker feel bad.}
+  }}
 \subtree{\title{Origins}
-\p{From its own perspective, analytic philosophy was founded by Russell and Moore. It was rebelling against idealism, which culimated in [Hegel](gwf-hegel) and [Bradley](fh-bradley). ([Kant](immanuel-kant) was also thrown out of the anglophone canon, which moved from Leibniz -> J.S. Mill -> Frege, skipping the German idealists).
-}
-\p{However, Rorty claims in [Philosophy and the Mirror of Nature](ref-0049) that analytic philosophy is a [neokantian](phil-0083) enterprise because it attempts to situate formal logic and philosophy of language as "first philosophy", as having a fundamental and ahistorical understanding of concepts / knowledge, such that it becomes the [queen of the sciences](int-0013).
-}
-\p{Furthermore, analytic philosophy is methodologically Kantian due to its emphasis on understanding \em{language semantically} and the having \em{knowledge epistemologically} correspond to the two species of representation that Kant identified: 1. sense experience and 2. logically-elaborated, meaning-analytic reason-relations. 
-}}
+  \p{From its own perspective, analytic philosophy was founded by Russell and Moore. It was rebelling against idealism, which culimated in [Hegel](hegel) and [Bradley](fh-bradley). ([Kant](kant) was also thrown out of the anglophone canon, which moved from Leibniz -> J.S. Mill -> Frege, skipping the German idealists).
+  }
+  \p{However, Rorty claims in [Philosophy and the Mirror of Nature](ref-0049) that analytic philosophy is a [neokantian](phil-0083) enterprise because it attempts to situate formal logic and philosophy of language as "first philosophy", as having a fundamental and ahistorical understanding of concepts / knowledge, such that it becomes the [queen of the sciences](int-0013).
+  }
+  \p{Furthermore, analytic philosophy is methodologically Kantian due to its emphasis on understanding \em{language semantically} and the having \em{knowledge epistemologically} correspond to the two species of representation that Kant identified: 1. sense experience and 2. logically-elaborated, meaning-analytic reason-relations.
+  }}
 \subtree{\title{Programs}
-\p{Brandom describes [empiricism](phil-0039) and [naturalism](phil-0082) as the two great programs of analytic philosophy.
-}
+  \p{Brandom describes [empiricism](phil-0039) and [naturalism](phil-0082) as the two great programs of analytic philosophy.
+  }
 }

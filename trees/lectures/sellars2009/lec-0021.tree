@@ -6,41 +6,41 @@
 }
 \p{Logical behaviorism / philosophical behaviorism
 }
-\p{Def: the view that one can analyze without remainder intentional vocabulary / 
-intentional concepts into purely behavior characterizations / dispositions to 
-publicly observable behavior (specified in a non-intentional vocabulary).
+\p{Def: the view that one can analyze without remainder intentional vocabulary /
+  intentional concepts into purely behavior characterizations / dispositions to
+  publicly observable behavior (specified in a non-intentional vocabulary).
 }
-\p{Introduced in [Empiricism and the Philosophy of Mind](ref-0016) (9 years earlier), distinct 
-from what he here calls logical behaviorism. \em{Logical behaviorism} refers to a 
-view he attributes to Ryle. JB Watson and BF Skinner promoted this in psychology. 
-Sellars never endorsed this because he saw this as being an application of 
-[Instrumentalism](phil-0055) in the philosophy of science.
+\p{Introduced in [Empiricism and the Philosophy of Mind](ref-0016) (9 years earlier), distinct
+  from what he here calls logical behaviorism. \em{Logical behaviorism} refers to a
+  view he attributes to Ryle. JB Watson and BF Skinner promoted this in psychology.
+  Sellars never endorsed this because he saw this as being an application of
+    [Instrumentalism](phil-0055) in the philosophy of science.
 }
-\p{Observable things, at least we know they exist. Theoretical things, we've got to 
-make risky inferences to get to them. But we can also make observational 
-mistakes. Not just "I thought it was a fox but it was a dog", but categorical 
-observational mistakes. We can give some concept an observational role (e.g. 
-declare that we can observe X's) yet no X's exist, i.e. no thing has such no 
-thing with such circumstances of application and consequences of application. 
-E.g. [Sour acid](phil-0131) and 
-[Referring to witches](phil-0113) examples.
+\p{Observable things, at least we know they exist. Theoretical things, we've got to
+  make risky inferences to get to them. But we can also make observational
+  mistakes. Not just "I thought it was a fox but it was a dog", but categorical
+  observational mistakes. We can give some concept an observational role (e.g.
+  declare that we can observe X's) yet no X's exist, i.e. no thing has such no
+  thing with such circumstances of application and consequences of application.
+  E.g. [Sour acid](phil-0131) and
+    [Referring to witches](phil-0113) examples.
 }
-\p{_The Plasticity of Mind_ is about bad theories incorporating observational 
-practices, i.e. "What do you mean there are no K's. I can \em{see} K's, there's one 
-right there!"
+\p{_The Plasticity of Mind_ is about bad theories incorporating observational
+  practices, i.e. "What do you mean there are no K's. I can \em{see} K's, there's one
+  right there!"
 }
-\p{So again, this is a response to someone saying we can distinguish theoretical 
-from observable entities by pointing to the fact that we can make mistakes about 
-whole categories of theoretical entities. Furthermore, 
-[Pluto](phil-0098) is a great counterexample for this 
-distinction.
+\p{So again, this is a response to someone saying we can distinguish theoretical
+  from observable entities by pointing to the fact that we can make mistakes about
+  whole categories of theoretical entities. Furthermore,
+  [Pluto](phil-0098) is a great counterexample for this
+  distinction.
 }
 
-\p{Just because our evidence for attributing mental states comes from behavior does 
-not mean, unless you are an instrumentalist, that you have to be able to define 
-intentional concepts in terms of behavior. (This doesn't mean that the intentional 
-states are less real, just that we aren't in a position to observe anything but 
-the behavior)
+\p{Just because our evidence for attributing mental states comes from behavior does
+  not mean, unless you are an instrumentalist, that you have to be able to define
+  intentional concepts in terms of behavior. (This doesn't mean that the intentional
+  states are less real, just that we aren't in a position to observe anything but
+  the behavior)
 }
 \subtree{\title{Digressions}
 \p{[Semantics](phil-0124) is a field with instrumentalist vs theoretical realist views. [Michael Dummett](michael-dummett) is an instrumentalist by observing the fact that meaning something is only understood through verbal behavior and concluding that any theory of meaning must be definable in terms of behavior.
@@ -48,15 +48,15 @@ the behavior)
 \p{(A theoretical realist might postulate meanings as theoretical entities to explain verbal behavior and say our access to meanings is inferential and, if they are good theories, then verbal behavior gives us inferential access to something (meanings) that exist.)
 }
 \p{[MacDowell](john-macdowell) and Sellars agree (and disagree with almost all others) that what you hear when someone talks to you is the words themselves, rather than hearing noises and (by some inferential process) constructing the words. You have to actually actively do some work to hear that mere noises. This is evidenced by how difficult it was to tell computers how to recognize a smile in a picture.}
-    \ul{
-    \li{(Some say it's a contradiction to say that meanings are essentially normative yet, on the other hand, we sometimes can directly perceive them. But there's nothing in principle unobservable about normative states of affairs - see Sellars' criteria of observation below)}}
+\ul{
+  \li{(Some say it's a contradiction to say that meanings are essentially normative yet, on the other hand, we sometimes can directly perceive them. But there's nothing in principle unobservable about normative states of affairs - see Sellars' criteria of observation below)}}
 
 
 \p{(Controversial) Criteria for observation:
 }
 \ol{
-\li{You have the capacity to reliably and differentially respond to some normative state of affairs}
-\li{You have to have the concept and which is a matter of inferential articulation and practical mastery of inferential proprieties, involving it. And then if you can hook the one up to the other, you've turned what was beforehand a theoretical concept for you into into the concept of an observable}}
+  \li{You have the capacity to reliably and differentially respond to some normative state of affairs}
+  \li{You have to have the concept and which is a matter of inferential articulation and practical mastery of inferential proprieties, involving it. And then if you can hook the one up to the other, you've turned what was beforehand a theoretical concept for you into into the concept of an observable}}
 
 \p{Sellars wants to make sense of the notion of "language as a rule-governed enterprise" (as essentially involving norms). Sellars believes that if your account language doesn't involve norms, you will be describing the vehicles by which we communicate, rather than what we're saying/meaning.
 }
@@ -64,26 +64,26 @@ the behavior)
 }
 \p{The question of whether meaning is a normative concept was brought to philosophical attention by [Kripkenstein](ref-0074). In present literature, Hattiangadi and Katherin Glüer have pushed back upon the idea that it is a normative concept, advanced by Brandom and MacDowell. Brandom feels it is because they haven't learned lessons from Sellars, in particular thinking of norms purely in terms of explicit presecriptions and not making the distinction between ought-to-be's and ought-to-do's.
 }
-\blockquote{You can define \em{possibility} in terms of \em{not} and \em{necessity}. You can define 
-\em{necessity} in terms of \em{not} and \em{possibility}. I think it's the beginning of 
-wisdom to think of defining \em{not} in terms of the relationship between 
-\em{possibility} and \em{necessity}, but I'm the only human being who thinks that.}
+\blockquote{You can define \em{possibility} in terms of \em{not} and \em{necessity}. You can define
+  \em{necessity} in terms of \em{not} and \em{possibility}. I think it's the beginning of
+  wisdom to think of defining \em{not} in terms of the relationship between
+  \em{possibility} and \em{necessity}, but I'm the only human being who thinks that.}
 
-\p{[Grice](paul-grice) on non-natural meaning: reduces what 
-a linguistic expression #{P} means in 
-terms of the meanings of thoughts and beliefs of those uttering #{P}. Sellars 
-isn't satisfied with this: the puzzling phenomena of meaning are common to both 
+\p{[Grice](paul-grice) on non-natural meaning: reduces what
+a linguistic expression #{P} means in
+terms of the meanings of thoughts and beliefs of those uttering #{P}. Sellars
+isn't satisfied with this: the puzzling phenomena of meaning are common to both
 thought and language.
 }
-\p{Sellars says "ought-to-be's imply ought-to-do's" but is not exact about what 
-quantifier: all or some? Brandom thinks 'some' makes more sense, since there 
-could be an ought-to-be requiring a state of affairs to change without telling 
-us who has to do what to fix it (you need auxillary hypotheses to turn it into 
-an ought-to-do). E.g. "all clocks should be in sync".
+\p{Sellars says "ought-to-be's imply ought-to-do's" but is not exact about what
+  quantifier: all or some? Brandom thinks 'some' makes more sense, since there
+  could be an ought-to-be requiring a state of affairs to change without telling
+  us who has to do what to fix it (you need auxillary hypotheses to turn it into
+  an ought-to-do). E.g. "all clocks should be in sync".
 }
-\p{With a trainer, someone with concepts/rules can condition language learners to 
-shape their behavior (teach them ought-to-be's). It's important that it's 
-possible for the language enterprise get off the ground (i.e. without trainers). It's possible for some sort of selection process to naturally reinforce ought-to-be's (can be social but the conditioners need not be doing so intentionally).
+\p{With a trainer, someone with concepts/rules can condition language learners to
+  shape their behavior (teach them ought-to-be's). It's important that it's
+  possible for the language enterprise get off the ground (i.e. without trainers). It's possible for some sort of selection process to naturally reinforce ought-to-be's (can be social but the conditioners need not be doing so intentionally).
 }
 \p{We can deliberate making a distinction between ought-to-be's in the context of humans vs nonliving/nonsentient beings (e.g. "plants ought to get enough water"). [Ruth Millikan](ruth-millikan)'s work relevant. Connects to the [Aristotelian](aristotle) account.
 }
@@ -95,16 +95,16 @@ possible for the language enterprise get off the ground (i.e. without trainers).
 \li{they ought to be eating when they're hungry, or something like that}
 \li{this could be something we want the rats to do}
 \ul{
-  \li{when they come to a branch in a maze, the rats go to the side that's painted blue and not to the side that's painted red.}
-  \li{That's a regularity that ought to be not because we can read it off of the fundamental teleology of rats}
-  \li{The conformity of the rats in question to this rule does \em{not} require that they have a \em{concept} #{C}, e.g. of colors blue and red. We just require them to respond properly certain to differences emanating from #{C}. This doesn't require even consciousness (photocells can respond differentially to colors).}
+\li{when they come to a branch in a maze, the rats go to the side that's painted blue and not to the side that's painted red.}
+\li{That's a regularity that ought to be not because we can read it off of the fundamental teleology of rats}
+\li{The conformity of the rats in question to this rule does \em{not} require that they have a \em{concept} #{C}, e.g. of colors blue and red. We just require them to respond properly certain to differences emanating from #{C}. This doesn't require even consciousness (photocells can respond differentially to colors).}
 }}
 
 \p{"Recognitional capacity" gets systematically used in two fundamentally different senses (an 'accordion word')
 }
 \ul{
-\li{reliable, differential response}
-\li{applying a concept}
+  \li{reliable, differential response}
+  \li{applying a concept}
 }
 \p{Important for Sellars that following an ought-to-be requires only the former sense.
 }
@@ -121,7 +121,7 @@ possible for the language enterprise get off the ground (i.e. without trainers).
 }}
 \subtree{\title{Romantic views of language}
 
-\p{People with romantic views of language: [Derrida](jaques-derrida) and [Nietzsche](frederich-nietzsche). These are compatible with Wittgenstein [believing language has no downtown](ludwig-wittgenstein).}
+\p{People with romantic views of language: [Derrida](jaques-derrida) and [Nietzsche](frederich-nietzsche). These are compatible with Wittgenstein [believing language has no downtown](wittgenstein).}
 
 \p{Sellars disagrees: the language-language inferential transitions are of the first importance among those because what makes the entries and exits \em{language} entries and exits is the way they connect to the inferential moves. And so he would say to Derrida, "yes, we do all of these other wonderful things with the language, but that's all parasitic on the meanings that things are given because of the role they play in the space of reasons... now, once you've got that up and running, once you've got those meanings to work with, now you can start to do other playful things with it, e.g. use them metaphorically. All sorts of things become possible. But that's in principle a superstructure on this structure."
 }
@@ -149,22 +149,22 @@ possible for the language enterprise get off the ground (i.e. without trainers).
 }
 \p{The kid produces vocal (not yet verbal) noises until he is a member of the language community (his verbal noises conform to enough ought-to-be's).
 }
-\p{As soon as he can say something, that's the expression of a thought. To take him to be saying is to be taking him to be thinking out loud. It's a further stage, when he can take expressing that thought as the object of an intention, and intentionally do as an action that say, before that, that's just an act, it's a performance, he can reliably produce appropriately, but not yet intentionally produce. An adult could be in this situation: 
-[Auction](phil-0012) example. That's the sort of position that the kid (who's just crossed the line into being able to say something) is: she can produce a vocalization that will hold her responsible 
+\p{As soon as he can say something, that's the expression of a thought. To take him to be saying is to be taking him to be thinking out loud. It's a further stage, when he can take expressing that thought as the object of an intention, and intentionally do as an action that say, before that, that's just an act, it's a performance, he can reliably produce appropriately, but not yet intentionally produce. An adult could be in this situation:
+[Auction](phil-0012) example. That's the sort of position that the kid (who's just crossed the line into being able to say something) is: she can produce a vocalization that will hold her responsible
 for, and which, accordingly, we take to express a thought. But she doesn't yet have the \em{concept}. So, she can have the concept of its being red or the house being on fire. But not yet, the concept of \em{endorsing something}, or of making a claim that he's saying can be a later development. And you need \em{that} concept in order to \em{intend} to be making a claim.
 }
 \p{Important to make distinctions between different types of saying:
 }
 \ul{
-\li{mere utterance (position of 1 year old)}
-\li{saying that things are thus-and-so}
-\ul{
+  \li{mere utterance (position of 1 year old)}
+  \li{saying that things are thus-and-so}
+  \ul{
     \li{having mastered the entries/exits/language-language moves, but no metalinguistic concepts}
     \li{Could be called "merely thinking out loud"}
     \li{Can perform speech \em{acts}.}
     \li{Can express that something is read or even a desire for something ("I'm taking that")}
-}\li{intentionally saying (\em{telling} someone) that things are thus-and-so}
-\ul{
+  }\li{intentionally saying (\em{telling} someone) that things are thus-and-so}
+  \ul{
     \li{need concepts of asserting/believing as well as concepts of thus-and-so}
     \li{Can perform speech \em{actions}.}
     \li{Self consciousness.}}

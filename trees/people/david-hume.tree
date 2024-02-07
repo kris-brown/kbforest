@@ -6,7 +6,7 @@
 
 \p{
 
-A Scottish philosopher (1711-1776).
+  A Scottish philosopher (1711-1776).
 }
 
 \image{headshots/hume.jpeg}
@@ -20,14 +20,14 @@ A Scottish philosopher (1711-1776).
 
 \p{The facts don't settle which of the things that actually happened \em{had to happen}, nor which of the things that didn't happen \em{were still possible}, i.e. not ruled out by laws concerning what did happen.}
 
-\p{So, Hume (and [Quine](wo-quine)) took it that epistemologically (but mostly semantically) fastidious philosophers faced a stark choice, either:}
+\p{So, Hume (and [Quine](quine)) took it that epistemologically (but mostly semantically) fastidious philosophers faced a stark choice, either:}
 
 \ul{
-\li{show how to explain what's expressed by [modal](phil-0077) vocabulary in non-modal terms}
-\li{learn to live without it: Show how you can do what you need to do without talk about laws and possibility and necessity and so on.}
+  \li{show how to explain what's expressed by [modal](phil-0077) vocabulary in non-modal terms}
+  \li{learn to live without it: Show how you can do what you need to do without talk about laws and possibility and necessity and so on.}
 }
 
-\p{Hume saw that there was nothing that you could be labeling (or in his sense, describing) by these statements of laws. This is why Hume woke [Kant](immanuel-kant) from his dogmatic slumbers.}
+\p{Hume saw that there was nothing that you could be labeling (or in his sense, describing) by these statements of laws. This is why Hume woke [Kant](kant) from his dogmatic slumbers.}
 
 \p{This stems from a kind of [semantic nominalism](phil-0122) that drew sharp lines around what you couldn't describe. Hume understood saying/thinking something \em{as} describing something. It falls out of this that saying how things might have been (or how things had to be) isn't describing anything. These are the consequences of a theory of description (in the narrow sense) and a descriptivist theory of language. Kant looks at Newton's physics and determines that these conclusions are wrong, so there must be some non-descriptive thing we can do.
 }

@@ -2,57 +2,44 @@
 
 \subtree{\title{Overview}
 
-\p{We normally think that the content of judgments are dictated by the content of the [concepts](phil-0021) used inside of them. This feels especially right for artificial languages:
+\p{We normally think that the content of [judgments](phil-0150) are dictated by the content of the [concepts](phil-0021) used inside of them. This feels especially right for artificial languages:
 }
 \ul{
-\li{Take "If it's a #{P}, then it's a #{Q}."
-    (Or, logically: #{\forall x, P(x)\implies Q(x)})}
-\li{The meaning of this statement seems to depend on what concepts #{P} and #{Q} we 
-  substitute in. E.g. with #{P \mapsto {\rm red\ thing},\  Q \mapsto {\rm colored\ thing}}, 
-  it's a good a judgment, whereas #{Q \mapsto {\rm rectangular\ thing}} would no 
-  longer be a good judgment.}
+\li{
+Take "If it's a #{P}, then it's a #{Q}." (Or, logically: #{\forall x, P(x)\implies Q(x)})} \li{The meaning of this statement seems to depend on what concepts #{P} and #{Q} we substitute in. E.g. with #{P \mapsto {\rm red\ thing},\  Q \mapsto {\rm colored\ thing}}, it's a good a judgment, whereas #{Q \mapsto {\rm rectangular\ thing}} would no longer be a good judgment.
+}
 }
 
-\p{However, [Kant](immanuel-kant) turned this around. In this view, judgments are prior (in the order of understanding) to concepts.
+\p{However, [Kant](kant) turned this around. In this view, judgments are prior (in the order of understanding) to concepts.
 }
 }
 \subtree{\title{The prior tradition }
 
-\p{Traditional logic up until Kant thought of 
-everything in terms of classification. There were three levels:}
+\p{Traditional [logic](phil-0151) up until Kant thought of everything in terms of classification. There were three levels:}
 
 \ol{
-\ol{Logic/semantics starts with concepts,
-    - These are classified as particular or general
-    - e.g. "red" (general), "colored" (general), "ball" (particular)}
-\ol{ ...then built up a notion of judgments,
-    - These are classified say when one judgment falls under another.
-    - e.g. "the ball is red", "red is subsumed by colored"}
-\ol{... then built up a doctrine of conquences of syllogisms.
-    - These tell you what sorts of inferences you can make.
-    - e.g. "If x is red, then x is colored".}
+\ol{[Logic](phil-0151)/[semantics](phil-0124) starts with concepts,
+\ul{
+  \li{These are classified as particular or general}
+  \li{e.g. "red" (general), "colored" (general), "ball" (particular)}}
+}\ol{ ...then built up a notion of judgments,
+  \ul{
+    \li{These are classified say when one judgment falls under another.}
+    \li{e.g. "the ball is red", "red is subsumed by colored"}}
+}\ol{... then built up a doctrine of conquences of syllogisms.
+  \ul{
+    \li{These tell you what sorts of inferences you can make.}
+    \li{e.g. "If x is red, then x is colored".}}
+}}
+
+\p{Kant flipped the order #{1\rightarrow 2} to #{2 \rightarrow 1} (by thinking of concepts as functions of judgment). [Sellars](sellars) then extended this to flip #{2\rightarrow 3} to #{3\rightarrow 2} (think of judgments as functions of the inferences we make).}
+}
+\subtree{\title{Sellars}
+\p{We normally think of [logically-valid](phil-0067) inferences (e.g. #{A \land B \implies B \lor C}) as something we understand \em{prior} to particular inferences (e.g. "If it's red and triangular, then it's triangular or heavy"). Sellars calls these particular inferences [material_inferences](int-0007) and argues that it is only through understanding \em{them} that we could understand logically-valid inferences.
 }
 
-\p{Kant flipped the order #{1\rightarrow 2} to #{2 \rightarrow 1} (think of concepts as functions of judgment). Sellars then extended this to flip #{2\rightarrow 3} to #{3\rightarrow 2} (think of judgments as functions of the inferences we make).}
-}
-\subtree{\title{Sellars
-}
-\p{We normally think of logically-valid inferences 
-(e.g. #{A \land B \implies B \lor C}) as something 
-we understand \em{prior} to particular inferences (e.g. "If it's red and 
-triangular, then it's triangular or heavy"). Sellars calls these particular 
-inferences [material_inferences](int-0007) and 
-argues that it is only through understanding \em{them} that we could understand 
-logically-valid inferences.
-}
-
-\p{One argument for our initial intuition is that the logically-valid inferences 
-are \em{a priori}, whereas the particular inferences are \em{a posteriori}.[^1] 
-However, [What the Tortoise said to Achilles](ref-0072)  articulates that, although the logically-valid inferences exist \em{a priori} as abstract mathematical/syntactical objects, without having any 
-practical experience of actually making inferential moves we don't have access 
-to them \em{qua} inferences.}
+\p{One argument for our initial intuition is that the logically-valid inferences are \em{[a priori](phil-0003)}, whereas the particular inferences are \em{a posteriori}.[^1] However, [What the Tortoise said to Achilles](ref-0072) articulates that, although the logically-valid inferences exist \em{a priori} as abstract mathematical/[syntactical](phil-0152) objects, without having any practical experience of actually making inferential moves we don't have access to them \em{qua} inferences.}
 
 \p{[^1]: The words \em{priori} and \em{posteriori} literally make the order clear.
-
 }
 }

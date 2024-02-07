@@ -2,44 +2,44 @@
 \taxon{reference}
 \import{macros}
 \import{base-macros}
-\author{richard-rorty}
+\author{rorty}
 
 
 \scope{
-  \put\transclude/numbered{false}
-  \transclude{ref-0081}
+\put\transclude/numbered{false}
+\transclude{ref-0081}
 }
 \transclude{ref-0082}
 
 \subtree{\title{The contingency of self
-}}
+  }}
 
 \subtree{\title{The contingency of community
-}}
+  }}
 
 \transclude{ref-0084}
 
 \subtree{\title{Proust, Nietzsche, Heidegger: self creation and affiliation
-}
-\p{Proust was more successful of an ironist than Nietzsche and Heidegger.
-}}
+  }
+  \p{Proust was more successful of an ironist than Nietzsche and Heidegger.
+  }}
 \subtree{\title{Derrida from ironist theory to private allusions}
 
-\p{Derrida shows how to be an ironist philosopher by stopping the making of "theories" and instead making more personal / idiosyncratic expressions, such as in his work _The Post Card_ and _Margins_.
-}}
+  \p{Derrida shows how to be an ironist philosopher by stopping the making of "theories" and instead making more personal / idiosyncratic expressions, such as in his work _The Post Card_ and _Margins_.
+  }}
 \subtree{\title{Nabokov on cruelty}
 
-\p{Rorty denies the distinction between moral literature and aesthetic literature. 
-}
-\p{Nabokov sees himself as an aesthetic writer, uninterested in moralizing, but Rorty redescribes him as someone worried about a kind of unintentional cruelty coming from intellectuals (like himself) being oblivious to their peers. Humbert in _Lolita_ and Kinbote in _Pale Fire_ both vividly demonstrate this kind of flaw.
-}
+  \p{Rorty denies the distinction between moral literature and aesthetic literature.
+  }
+  \p{Nabokov sees himself as an aesthetic writer, uninterested in moralizing, but Rorty redescribes him as someone worried about a kind of unintentional cruelty coming from intellectuals (like himself) being oblivious to their peers. Humbert in _Lolita_ and Kinbote in _Pale Fire_ both vividly demonstrate this kind of flaw.
+  }
 }
 \subtree{\title{Orwell on cruelty}
-\p{Rorty analyzes Orwell's \em{1984}. He admits there is a "Realist reading" of it, especially fueled by the following passage:
-}
-\blockquote{The Party told you to reject the evidence of your eyes and ears. It was their final, most essential, command. His heart sank as he thought of the enormous power arrayed against him, the ease with which any Party intellectual would overthrow him in debate . . . And yet he was in the right! . . . The obvious, the silly, and the true had got to be defended. Truisms are true, hold on to that! The solid world exists, its laws do not change. Stones are hard, water is wet, objects unsupported fall toward the earth's center. With the feeling that he was ... setting forth an important axiom, he wrote: \em{Freedom is the freedom to say that two plus two make four. If that is granted, all else follows.}}
+  \p{Rorty analyzes Orwell's \em{1984}. He admits there is a "Realist reading" of it, especially fueled by the following passage:
+  }
+  \blockquote{The Party told you to reject the evidence of your eyes and ears. It was their final, most essential, command. His heart sank as he thought of the enormous power arrayed against him, the ease with which any Party intellectual would overthrow him in debate . . . And yet he was in the right! . . . The obvious, the silly, and the true had got to be defended. Truisms are true, hold on to that! The solid world exists, its laws do not change. Stones are hard, water is wet, objects unsupported fall toward the earth's center. With the feeling that he was ... setting forth an important axiom, he wrote: \em{Freedom is the freedom to say that two plus two make four. If that is granted, all else follows.}}
 
-\p{Nevertheless, Rorty interprets Orwell as being sympathetic to his anti-epistemological and political projects. What Orwell really shows that "if freedom is granted, truth will take care of itself."
-}
+  \p{Nevertheless, Rorty interprets Orwell as being sympathetic to his anti-epistemological and political projects. What Orwell really shows that "if freedom is granted, truth will take care of itself."
+  }
 }
 \subtree{\title{Solidarity}}

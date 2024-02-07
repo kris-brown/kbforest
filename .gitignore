@@ -11,3 +11,4 @@ output
 *.log
 *.bak0
 *.bak1
+cruft/

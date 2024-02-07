@@ -21,7 +21,7 @@
 }
 }
 \subtree{\title{Defeating the moral relativist}
-\p{Suppose I argue with a friend over whether fox hunting should be made illegal. The moral relativist #{R} drops into the conversation to say "You two are always yammering as if there's a truth to the matter. You ought realize it's true for you that it should be banned and true for the other that it shouldn't, and then shut up." 
+\p{Suppose I argue with a friend over whether fox hunting should be made illegal. The moral relativist #{R} drops into the conversation to say "You two are always yammering as if there's a truth to the matter. You ought realize it's true for you that it should be banned and true for the other that it shouldn't, and then shut up."
 }
 \p{Minimalism rightly shuts #{R} down. It allows us to see how #{R} is just a distraction to the conversation; #{R} was not responsive to any of my reasons for fox hunting being bad nor my friend's reasons for it being good, yet #{R} seems to be proposing that my friend and I agree to disagree (which is just taking the side of whomever doesn't want it banned). [^ex]
 }
@@ -33,9 +33,9 @@
 \p{A refutation of the following ideal (e.g. laypeople, naive realism, positivism):
 }
 \ul{
-\li{We have determinate experiences}
-\li{We have a determinate way for taking experience and making theory }
-\li{Our vocabulary has determinate meaning: you can take results of theorizing and expect them to transmit without distortion}}
+  \li{We have determinate experiences}
+  \li{We have a determinate way for taking experience and making theory }
+  \li{Our vocabulary has determinate meaning: you can take results of theorizing and expect them to transmit without distortion}}
 
 \p{Postmodernism dissolves this picture. Our sayings and perceptions of the world will inevitably be highly influenced by a process of acculturation of which we know very little. It is not limited to continental philosophy.
 }
@@ -47,31 +47,31 @@
 \p{Kuhn arguing science itself is not a pure matter of rationality. Paradigms can shift (how they shift depends on social/political forces among other things).}
 
 }
-\subtree{\title{[Rorty](richard-rorty) }
+\subtree{\title{[Rorty](rorty) }
 
-\p{Spokesman for a postmodernist climate. He says things like "Proper discourse / success in discourse / truth is a matter of \em{coping}, not \em{copying}". He wants to replace concept of "representation" (by language of Reality) and "Truth" with a more Darwinian concept of being adapted (don't ask "true" or not, ask if a belief is useful or not).  He denies we can make sense of Winston's problems in \em{1984}.
-}
-\p{Blackburn concedes the blows Sellars/Quine/Wittgenstein/Kuhn made to an older notion of truth, but he wants to rehibilitate the word with minimalism, rather than siding with Rorty in jettisoning that kind of vocabularly wholesale. He identifies Rorty with the relativist of the absolutist vs relativist paradigm he takes minimalism to dissolve. 
-}
-\p{Rorty seeks to replace vertical relations "representation" with horizontal relations of "solidarity". "Justification becomes a social phenomenon rather than a transaction between a 'knowing subject' and 'Reality'."  He has two devices for softening you up. 
-}
-\ul{
-\li{If you're still bothered by truth and objectivity, you're attempting to stand on your own shoulders, standing outside of your own perspective (a mythical point of view). [^ber]}
-\li{You'd only be a Realist if you had a fantastical idea that nature has its own preferred vocabulary. [^sci]
-}}
-\p{[^ber]: Blackburn thinks this is a fine argument, used by idealists since [Berkeley](george-berkeley).
-}
-\p{[^sci]: Scientism takes this idea seriously (the language of external reality is science / mathematics). But Rorty's main critics don't, since they believe nonscientific discourses have their own propriety.
-}
-\p{Blackburn's minimalism isn't susceptible to these points. 
-}
+  \p{Spokesman for a postmodernist climate. He says things like "Proper discourse / success in discourse / truth is a matter of \em{coping}, not \em{copying}". He wants to replace concept of "representation" (by language of Reality) and "Truth" with a more Darwinian concept of being adapted (don't ask "true" or not, ask if a belief is useful or not).  He denies we can make sense of Winston's problems in \em{1984}.
+  }
+  \p{Blackburn concedes the blows Sellars/Quine/Wittgenstein/Kuhn made to an older notion of truth, but he wants to rehibilitate the word with minimalism, rather than siding with Rorty in jettisoning that kind of vocabularly wholesale. He identifies Rorty with the relativist of the absolutist vs relativist paradigm he takes minimalism to dissolve.
+  }
+  \p{Rorty seeks to replace vertical relations "representation" with horizontal relations of "solidarity". "Justification becomes a social phenomenon rather than a transaction between a 'knowing subject' and 'Reality'."  He has two devices for softening you up.
+  }
+  \ul{
+    \li{If you're still bothered by truth and objectivity, you're attempting to stand on your own shoulders, standing outside of your own perspective (a mythical point of view). [^ber]}
+    \li{You'd only be a Realist if you had a fantastical idea that nature has its own preferred vocabulary. [^sci]
+    }}
+  \p{[^ber]: Blackburn thinks this is a fine argument, used by idealists since [Berkeley](george-berkeley).
+  }
+  \p{[^sci]: Scientism takes this idea seriously (the language of external reality is science / mathematics). But Rorty's main critics don't, since they believe nonscientific discourses have their own propriety.
+  }
+  \p{Blackburn's minimalism isn't susceptible to these points.
+  }
 }
 \subtree{\title{Space of causes vs space of reasons}
-\p{Another argument Rorty leverages is the Kantian/Sellarsian distinction of spaces of [Reasons vs causes](int-0012). Our interaction with the external world is purely \em{causal}, e.g. energies/photons. The old kind of epistemology would require photons to come bearing messages / \em{semantic} contents. This is also related to Davidson's claim that "only a belief justifies another belief."[^d] 
+\p{Another argument Rorty leverages is the Kantian/Sellarsian distinction of spaces of [Reasons vs causes](int-0012). Our interaction with the external world is purely \em{causal}, e.g. energies/photons. The old kind of epistemology would require photons to come bearing messages / \em{semantic} contents. This is also related to Davidson's claim that "only a belief justifies another belief."[^d]
 }
 \p{[^d]: Davidson trying to give a general answer to "what justifies a belief" is as bad as trying to give a general answer to "What is truth?"
 }
-\p{Blackburn claims the slogan is not true. The belief that there's butter in the fridge is justified by "I looked recently".  Beliefs encompass things in the causal flux. "The presence of butter causes my belief in there being butter in the fridge." Responsiveness to the world allows for some rehabilitated notion of representation. 
+\p{Blackburn claims the slogan is not true. The belief that there's butter in the fridge is justified by "I looked recently".  Beliefs encompass things in the causal flux. "The presence of butter causes my belief in there being butter in the fridge." Responsiveness to the world allows for some rehabilitated notion of representation.
 }
 \p{Blackburn accuses Sellars/Rorty/Brandom of getting into a position similar to [Berkeley](george-berkeley) got into, seeing as the only alternative to Locke's trancendental claim that ideas must resemble reality was to lock oneself in the realm of ideas altogether. Consider the representational properties of a map (with cliffs marked to avoid). Rorty claims the map is helping you cope. But what is the contrast between coping and copying? Human common sense allows you to relate the map to the land.
 }
@@ -80,5 +80,5 @@
 }
 \subtree{\title{Conclusion}
 
-\p{Blackburn is not a polyanna - we do have to worry about the concerns of Sellars/Quine/Wittgenstein. He is optimistic about a philosophy which can remove the scare quotes Rorty puts on Truth and Reality. }
+  \p{Blackburn is not a polyanna - we do have to worry about the concerns of Sellars/Quine/Wittgenstein. He is optimistic about a philosophy which can remove the scare quotes Rorty puts on Truth and Reality. }
 }

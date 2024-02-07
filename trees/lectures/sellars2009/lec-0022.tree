@@ -1,127 +1,127 @@
 \title{04 - Counterfactuals and the Kant-Sellars Thesis (2009)}
-\author{robert-brandom}
+\author{brandom}
 \import{base-macros}
 
 \p{Topic: Sellars' [Counterfactuals, Dispositions, and the Causal Modalities](ref-0012)}
 \subtree{\title{Counterfactuals and dispositions}
 
-\p{[Goodman](nelson-goodman) has let the formalism of classical extensional logic mislead him in thinking about counterfactuals. He thought we could build up to counterfactuals from extensional logical vocabulary. The kind that can be built up by extensional logical vocabulary Sellars calls subjunctive identicals.
-}
-\p{Goodman is impressed in [Fact, Fiction, and Forecast](ref-0020), with the difference between the claim 'All copper melts at 1084 °C' and 'all the coins in my pocket are copper'. The first supports counterfactual reasoning ("if this coin in my pocket \em{were} copper, it'd melt at 1084 °C") whereas if this nickel coin were in my pocket, it wouldn't be made of copper. However we can do some limited form of counterfactual reasoning: "if I pulled a coin out of my pocket, it would be copper". We can always rephrase such counterfactuals (accidental generalizations) as a statement about something identical to an actual object. (The distinction is less sharp between genuine counterfactuals and subjunctive identicals is less sharp than he thinks, according to Brandom).
-}
-\p{Sellars makes the distinction of [subjunctive vs counterfactual conditionals](phil-0132).
-}
+  \p{[Goodman](nelson-goodman) has let the formalism of classical extensional logic mislead him in thinking about counterfactuals. He thought we could build up to counterfactuals from extensional logical vocabulary. The kind that can be built up by extensional logical vocabulary Sellars calls subjunctive identicals.
+  }
+  \p{Goodman is impressed in [Fact, Fiction, and Forecast](ref-0020), with the difference between the claim 'All copper melts at 1084 °C' and 'all the coins in my pocket are copper'. The first supports counterfactual reasoning ("if this coin in my pocket \em{were} copper, it'd melt at 1084 °C") whereas if this nickel coin were in my pocket, it wouldn't be made of copper. However we can do some limited form of counterfactual reasoning: "if I pulled a coin out of my pocket, it would be copper". We can always rephrase such counterfactuals (accidental generalizations) as a statement about something identical to an actual object. (The distinction is less sharp between genuine counterfactuals and subjunctive identicals is less sharp than he thinks, according to Brandom).
+  }
+  \p{Sellars makes the distinction of [subjunctive vs counterfactual conditionals](phil-0132).
+  }
 }
 \subtree{\title{Dispositions}
-\p{Sellars' formalization of a disposition:
-}
-\ol{
-\li{A kind term}
-\ul{
-  \li{More than a mere predicate: in addition to criteria of application, also have criteria of identity and individuation.}
-  \li{Two flavors: proper individuating terms as well as mass terms (which  requires something like 'cup of' to individuate)}
-}
-\li{Condition term}
-\li{Intervention term}
-\li{Result term}}
+  \p{Sellars' formalization of a disposition:
+  }
+  \ol{
+    \li{A kind term}
+    \ul{
+      \li{More than a mere predicate: in addition to criteria of application, also have criteria of identity and individuation.}
+      \li{Two flavors: proper individuating terms as well as mass terms (which  requires something like 'cup of' to individuate)}
+    }
+    \li{Condition term}
+    \li{Intervention term}
+    \li{Result term}}
 
-\p{Canonical example: "If you put the sugar in water, it will dissolve."
-}
-\p{Distinct from a capacity claim: "Sugar has the capacity to dissolve" is a claim that there exists a condition and intervention such that the result obtain.
-}
+  \p{Canonical example: "If you put the sugar in water, it will dissolve."
+  }
+  \p{Distinct from a capacity claim: "Sugar has the capacity to dissolve" is a claim that there exists a condition and intervention such that the result obtain.
+  }
 }
 \subtree{\title{Casual modalities}
-\p{Sellars first big idea: what was needed was a functional theory of concepts (especially alethic/normative modalities), which would make their role in reasoning, rather than their supposed origin and experience their primary feature. Sellars takes modal expressions to be inference licenses.
-}
+  \p{Sellars first big idea: what was needed was a functional theory of concepts (especially alethic/normative modalities), which would make their role in reasoning, rather than their supposed origin and experience their primary feature. Sellars takes modal expressions to be inference licenses.
+  }
 
-\p{Jerry Fodor's theory of semantic content in terms of nomological locking: can't directly say anything about modality directly. Not alone: Dretske and other teleosemantic literature. Sellars wants to argue this program will never work.
-}
-\p{An axial idea of [Kant](immanuel-kant): the framework that makes description possible has features which we can express with words (words whose job is not to describe [^5] anything, but rather to make explicit features of the framework within which we can describe things).
-}
-\p{The framework is often characterized with laws. With alethic modal vocabulary on the object side, normative vocabulary on the subject side.
-}
-\p{[Kant](immanuel-kant) is concerned with features that are necessary conditions of the possibility of applying descriptive contents. How are statements like that sensibly thought of as true or false? (where the home language game is ordinary descriptive language) Kant says yes, in a sense, but have to be careful. If these kinds of claims are knowledge, what kind of justification is involved in it? Can we think of them as expressing even a kind of empirical knowledge? (after all, we learned laws of nature empirically, it seems). We have to think about the relationship between the framework and what you can say, in the framework, and what you can say about the framework. Kant was the first one worried about all that stuff. Sellars wants to find a meta framework for talking about the relations between talk within that framework of description, and talk about that framework of description.
-}
-\p{[^5]: in the narrow sense
-}
+  \p{Jerry Fodor's theory of semantic content in terms of nomological locking: can't directly say anything about modality directly. Not alone: Dretske and other teleosemantic literature. Sellars wants to argue this program will never work.
+  }
+  \p{An axial idea of [Kant](kant): the framework that makes description possible has features which we can express with words (words whose job is not to describe [^5] anything, but rather to make explicit features of the framework within which we can describe things).
+  }
+  \p{The framework is often characterized with laws. With alethic modal vocabulary on the object side, normative vocabulary on the subject side.
+  }
+  \p{[Kant](kant) is concerned with features that are necessary conditions of the possibility of applying descriptive contents. How are statements like that sensibly thought of as true or false? (where the home language game is ordinary descriptive language) Kant says yes, in a sense, but have to be careful. If these kinds of claims are knowledge, what kind of justification is involved in it? Can we think of them as expressing even a kind of empirical knowledge? (after all, we learned laws of nature empirically, it seems). We have to think about the relationship between the framework and what you can say, in the framework, and what you can say about the framework. Kant was the first one worried about all that stuff. Sellars wants to find a meta framework for talking about the relations between talk within that framework of description, and talk about that framework of description.
+  }
+  \p{[^5]: in the narrow sense
+  }
 }
 \subtree{\title{From labels to descriptions}
 \p{[Semantic nominalism](phil-0122) was universally held until Kant. (philosophy today hasn't yet graduated from its Humean to its Kantian phase)
 }
-\p{If you could argue that standing in counterfactually, robust inferential 
-relations to other descriptive terms, was an essential feature of the 
-descriptive content of a concept (and you could argue that modal vocabularies 
-had the expressive job of making those explicit), then you'd be in a position 
-to argue for the Kant-Sellars thesis about modality. That would be to say that 
-the expressive job of modal vocabulary is to make explicit the inferential 
-relations between descriptive concepts (these are invisible to the empiricist).
+\p{If you could argue that standing in counterfactually, robust inferential
+  relations to other descriptive terms, was an essential feature of the
+  descriptive content of a concept (and you could argue that modal vocabularies
+  had the expressive job of making those explicit), then you'd be in a position
+  to argue for the Kant-Sellars thesis about modality. That would be to say that
+  the expressive job of modal vocabulary is to make explicit the inferential
+  relations between descriptive concepts (these are invisible to the empiricist).
 }
 \p{Fork in road: Hume+Quine, or Kant+Sellars.
 }
 \p{Labels are not descriptions. There's more to describing than labeling.
 }
-\p{Consider mere labels. Elements on a tray have red or blue dots. Have they been 
-described? If so, what have they been described as? If we add things to the 
-tray, we don't know whether they deserve red or blue labels. At the very least, 
-descriptions need a practice for applying to new cases. We can throw that in but 
-still not have a description.
+\p{Consider mere labels. Elements on a tray have red or blue dots. Have they been
+  described? If so, what have they been described as? If we add things to the
+  tray, we don't know whether they deserve red or blue labels. At the very least,
+  descriptions need a practice for applying to new cases. We can throw that in but
+  still not have a description.
 }
-\p{Suppose I'm trying to give you the concept of gleeb. I give you an infalliable 
-gleebness tester. Do you have a description?
+\p{Suppose I'm trying to give you the concept of gleeb. I give you an infalliable
+  gleebness tester. Do you have a description?
 }
 \transclude{q-0065}
 
 \p{This is what a mere classifier does.
 }
-\p{What's the difference between me and a parrot who has been trained to say 'red' 
-when presented a red object. The parrot isn't describing, but I am because my 
-noise is situated in a space of implications: something follows for me from 
-classifying that thing is red (that it's colored that it's spatially extended, 
-that if it's a Macintosh Apple, it's right). And furthermore, other things can 
-be evidence for the claim that it Scarlet is evidence for it or that it's a 
-right Macintosh, Apple is evidence for it. And it excludes other 
-classifications. That monochromatic patch is not green, if it's red, and so on.
+\p{What's the difference between me and a parrot who has been trained to say 'red'
+  when presented a red object. The parrot isn't describing, but I am because my
+  noise is situated in a space of implications: something follows for me from
+  classifying that thing is red (that it's colored that it's spatially extended,
+  that if it's a Macintosh Apple, it's right). And furthermore, other things can
+  be evidence for the claim that it Scarlet is evidence for it or that it's a
+  right Macintosh, Apple is evidence for it. And it excludes other
+  classifications. That monochromatic patch is not green, if it's red, and so on.
 }\p{
-The classifier focuses only on the \em{circumstances} of application, not the 
-\em{consequences} of application. A way to answer what the red and blue dots 
-describe an element \em{as} is to say what follows from something having a blue or 
-red dot (e.g. things labelled red are to be discarded). Now we have some 
-descriptive content associated with the label.}
+  The classifier focuses only on the \em{circumstances} of application, not the
+  \em{consequences} of application. A way to answer what the red and blue dots
+  describe an element \em{as} is to say what follows from something having a blue or
+  red dot (e.g. things labelled red are to be discarded). Now we have some
+  descriptive content associated with the label.}
 \p{
-Verificationism / classical American pragmatism focused purely on the 
-\em{consequences} of application.}
+  Verificationism / classical American pragmatism focused purely on the
+  \em{consequences} of application.}
 
-\p{To say we need both circumstances and consequences is to say that the inferences 
-the concept plays into is an essential part of a concept.
+\p{To say we need both circumstances and consequences is to say that the inferences
+  the concept plays into is an essential part of a concept.
 }\p{
-If the only inferences we could make were truth functional relations, then a 
-gleeb detector like thing could be sufficient to capture the concept of gleeb 
-fully; however, we care about counterfactually robust inferences.}
+  If the only inferences we could make were truth functional relations, then a
+  gleeb detector like thing could be sufficient to capture the concept of gleeb
+  fully; however, we care about counterfactually robust inferences.}
 \p{
-You can't count as understanding (i.e. grasp the meaning of) any descriptive 
-expression / concept, unless you distinguish at least some of the inferences 
-that it's involved (i.e. some of the connections within that space of 
-implications) as counterfactually robust (i.e. ones that would still obtain, 
-even if something that is true wasn't, or something that isn't true was). The 
-claim is not that there are particular counterfactual inferences you need, but 
-that you need at least \em{some} to have the concept.}
+  You can't count as understanding (i.e. grasp the meaning of) any descriptive
+  expression / concept, unless you distinguish at least some of the inferences
+  that it's involved (i.e. some of the connections within that space of
+  implications) as counterfactually robust (i.e. ones that would still obtain,
+  even if something that is true wasn't, or something that isn't true was). The
+  claim is not that there are particular counterfactual inferences you need, but
+  that you need at least \em{some} to have the concept.}
 
 \p{Examples:}
 
 \ul{
-\li{Chestnut trees produce chestnuts}
-\ul{
+  \li{Chestnut trees produce chestnuts}
+  \ul{
     \li{Unless they're immature / blighted}
     \li{Whether or not it's raining on them now wouldn't affect the fact that chestnut trees produce chestnuts}
-}\li{Dry, well-made matches light if you strike them}
-\ul{
+  }\li{Dry, well-made matches light if you strike them}
+  \ul{
     \li{Not if there's not enough oxygen}
     \li{The position of a distant beetle on a tree that doesn't affect whether this match lights}
-}\li{The hungry lioness would chase the nearby Gazelle}
-\ul{
+  }\li{The hungry lioness would chase the nearby Gazelle}
+  \ul{
     \li{Not if it were struck by lightning}
     \li{But it would, whether or not the hyena were watching it}
-}}
+  }}
 \p{Q: do we have to have overlap in our distinctions we made to communicate about the same concept?
 }
 \p{A: The conceptual content itself is a norm that settles which inferences are correct and which are incorrect. Then, you and I may have different views about where that line is drawn. And what makes it possible for us to communicate (to agree or to disagree) is that we've bound ourselves by the same norm by using the same word. You may think the melting point of copper is different from what I think it is. But we can still be disagreeing about copper because there's a fact of the matter about what you're committed to, on that issue, when you use the word 'copper'.
@@ -130,25 +130,25 @@ that you need at least \em{some} to have the concept.}
 }
 \p{A: It's complicated. Firstly, 'thing' or 'object' is not a sortal - you can't count them (they're pro-sortals, placeholders for sortals). If we supply one (e.g. place-occupying piece of mass - which would suffice give us some counterfactually robust inferences). If you don't supply one, you haven't thought about it. Related to Wittgenstein's [plate example](phil-0099).
 }
-\p{[Kant](immanuel-kant) says concepts are rules for judgment we bind ourselves by. That doesn't settle the question of how much of the law we need to know in order to bind ourselves by it. I don't have to know much about molybdenum to refer to molybdenum.
+\p{[Kant](kant) says concepts are rules for judgment we bind ourselves by. That doesn't settle the question of how much of the law we need to know in order to bind ourselves by it. I don't have to know much about molybdenum to refer to molybdenum.
 }
 }
 \subtree{\title{Semantic nominalism}
-\p{Semantic paradigm is the "name-bearer" relationship. E.g. the 'Fido'-Fido relation, between the name 'Fido' and the dog, Fido. Predicates/properties are just names that stick to the set.}
+  \p{Semantic paradigm is the "name-bearer" relationship. E.g. the 'Fido'-Fido relation, between the name 'Fido' and the dog, Fido. Predicates/properties are just names that stick to the set.}
 
-\p{If we stick together labels, we get descriptions (not a primitive name bearer relation, but one we can understand in terms of name-bearer relations). That's what language lets us do. Describe/classify things (as falling under languages).
-}
-\p{Sellars calls this [descriptivism](phil-0029): what you do with language is describe things.
-}
-\p{You find this not only in anglophone tradition but also in a pure form in Hussurl / semiotics. [Derrida](jaques-derrida) rejects Hussurl because there are some phenomena that can't be related by sign-signified relations, but he 
-addresses it by saying it's all signs.}
+  \p{If we stick together labels, we get descriptions (not a primitive name bearer relation, but one we can understand in terms of name-bearer relations). That's what language lets us do. Describe/classify things (as falling under languages).
+  }
+  \p{Sellars calls this [descriptivism](phil-0029): what you do with language is describe things.
+  }
+  \p{You find this not only in anglophone tradition but also in a pure form in Hussurl / semiotics. [Derrida](jaques-derrida) rejects Hussurl because there are some phenomena that can't be related by sign-signified relations, but he
+    addresses it by saying it's all signs.}
 
-\p{Kant found sentences special: you don't describe things with them, you say things with them. Theory of judgment. The [Tractatus](ref-0066) has no room for statements of natural law. For normative statements, it retreats into mysticism.
-}
-\p{[semantic nominalism](phil-0122) is atomistic - the relation of a name and its bearer doesn't turn on anything else.
-}
+  \p{Kant found sentences special: you don't describe things with them, you say things with them. Theory of judgment. The [Tractatus](ref-0066) has no room for statements of natural law. For normative statements, it retreats into mysticism.
+  }
+  \p{[semantic nominalism](phil-0122) is atomistic - the relation of a name and its bearer doesn't turn on anything else.
+  }
 
-\transclude{phil-0060}
+  \transclude{phil-0060}
 
 }
 \subtree{\title{Modal revolution in the 20th century}
@@ -156,20 +156,20 @@ addresses it by saying it's all signs.}
 \p{Revolution in Anglophone philosophy, taking three phases:}
 
 \ol{
-\li{Kripke's [Possible worlds semantics](phil-0100)  for modal logic (algebraic properties 
-   accessibility relation determine which modal system we're in)
+\li{Kripke's [Possible worlds semantics](phil-0100)  for modal logic (algebraic properties
+accessibility relation determine which modal system we're in)
 \ul{
-    \li{Quine was a skeptic of modal talk, said that we didn't know what we really meant when talking about it.}
-    \li{His concerns became unpopular with this development, as Kripke's semantics gave people the impression that we had a grasp on what we meant (in fact, alethic modal talk became the philosophical ground level for explaining other puzzling things (such as intentionality)).}
-    \li{Quine thinks his objection is not yet satisfied; of course we can explain modal concepts in terms of other modal concepts - what do we mean by \em{possible world}? What do we mean by \em{accessibility}?}
-    }
+  \li{Quine was a skeptic of modal talk, said that we didn't know what we really meant when talking about it.}
+  \li{His concerns became unpopular with this development, as Kripke's semantics gave people the impression that we had a grasp on what we meant (in fact, alethic modal talk became the philosophical ground level for explaining other puzzling things (such as intentionality)).}
+  \li{Quine thinks his objection is not yet satisfied; of course we can explain modal concepts in terms of other modal concepts - what do we mean by \em{possible world}? What do we mean by \em{accessibility}?}
+}
 }\li{The previous development is only for modal logic, but Montague, David Kaplan, [David Lewis](david-lewis), Stalnaker, etc. extended it to work for non-logical semantics as well. See, for example, Lewis' [General Semantics](ref-0021)}
 \li{Kripke's [Naming and Necessity](ref-0036)}
-  \ul{
+\ul{
   \li{Introduced us to contingent \em{a priori} and metaphysical necessity}}
 }
-\p{Brandom says: the second is the most important, but Quine's objection was not 
-addressed by Kripke's semantics nor the fact that it's useful in semantics to be able to use Kripke's apparatus. The reason why we should have gained comfortablity with alethic modal language is actually the [Kant-Sellars thesis](phil-0060), which dispels empiricist worries of modal concepts being unintelligible.
+\p{Brandom says: the second is the most important, but Quine's objection was not
+  addressed by Kripke's semantics nor the fact that it's useful in semantics to be able to use Kripke's apparatus. The reason why we should have gained comfortablity with alethic modal language is actually the [Kant-Sellars thesis](phil-0060), which dispels empiricist worries of modal concepts being unintelligible.
 }
 \p{But hardly anyone knows about that argument. If they did, it would color our current focuses and interests. For the Kant-Sellars thesis pertains to causal/physical modalities. But nowadays, the center of philosophical thought worries about logical modalities and metaphysical modalities - causal modality is boring to them. "We're distracted by the shiny, new playground that Kripke offered us and lost sight of the modality that's philosophically most significant."
 }
@@ -205,21 +205,21 @@ addressed by Kripke's semantics nor the fact that it's useful in semantics to be
   }
 }
 \p{
-Sellars take the dialectic through many turns instead of just saying what he 
-thinks. He pretends to be even-handed until deciding to focus on tweaking 
-Mr E.'s theory to make it work.}
+  Sellars take the dialectic through many turns instead of just saying what he
+  thinks. He pretends to be even-handed until deciding to focus on tweaking
+  Mr E.'s theory to make it work.}
 
 \p{Need to distinguish four related types of claims:
 }
 \ol{
 \li{The practical endorsement of infering that things are #{B}'s from their being #{A}'s.}
-   \ul{
-    \li{This is presupposed by the act of describing (Kant-Sellars thesis)}}
+\ul{
+  \li{This is presupposed by the act of describing (Kant-Sellars thesis)}}
 \li{The explicit statement that one may infer the applicability of #{B} from the applicability of #{A}}
 \ul{
-    \li{This can be asserted without understanding the expressions #{A} and #{B}}
-    \li{I.e., it's syntactic; just a statement about the use of language}
-    \li{Someone who doesn't speak German can still say "If #{x} is 'rot', then #{x} is 'farbig'."}
+\li{This can be asserted without understanding the expressions #{A} and #{B}}
+\li{I.e., it's syntactic; just a statement about the use of language}
+\li{Someone who doesn't speak German can still say "If #{x} is 'rot', then #{x} is 'farbig'."}
 }\li{The statement that #{A} physically entails #{B}}
 \li{The statement that #{A}'s are necessarily #{B}'s.}}
 
@@ -254,7 +254,7 @@ Mr E.'s theory to make it work.}
 }
 }
 \subtree{\title{Relation to Hegel}
-\p{[Hegel](gwf-hegel) says, "By conceptual, I mean, what's articulated by relations of determinant negation [^1] and mediation [^2]".[^3] He says, the objective world, as it is, independently of our activities, is conceptually articulated. It has a conceptual structure because he's a modal realist about it.
+\p{[Hegel](hegel) says, "By conceptual, I mean, what's articulated by relations of determinant negation [^1] and mediation [^2]".[^3] He says, the objective world, as it is, independently of our activities, is conceptually articulated. It has a conceptual structure because he's a modal realist about it.
 }
 \p{He thinks there are laws of nature. He thinks some things really follow from other things. For instance, that if a body with finite mass is accelerated, then a force was applied to it. he thinks that's a consequence, and the remaining relatively at rest, and having a force supplied you those are incompatible. Those are incompatible properties.
 }
@@ -266,15 +266,15 @@ Mr E.'s theory to make it work.}
 \p{[^3]: Brandom says this is expressed, beginning in the section on perception of [Phenomenology of Spirit](ref-0047).
 }
 }\subtree{\title{Utility of possible worlds semantics}
-\p{Let 'possible world' \em{mean} a physically possible world [^4]. This conceptual apparatus can be thought of  simply as a way of expressing what it is for two properties to be incompatible or to stand in a material consequential relation.
-}
-\p{So we can express (in the language of possible worlds) the fact that it follows from (as a consequence) something's being copper that it melts at 1084 °C, for example.
-}
-\p{[David Lewis](david-lewis) is presented as an example of misusing possible world semantics. He discards the connection between inference and the possible worlds. He takes the descriptivist position that all one can do is describe with language, but then says he is not an actualist (you can describe non-actual worlds in the same sense that you can describe the coin in your pocket as copper).
-}
-\p{What is lost by merging description in the narrow sense and description in the wide sense? The connection to semantics. We've also gained an additional problem of justifying our claims to knowledge of the non-actual worlds.
-}
-\p{[^4]: not just metaphysically possible world, whatever that is
-}
+  \p{Let 'possible world' \em{mean} a physically possible world [^4]. This conceptual apparatus can be thought of  simply as a way of expressing what it is for two properties to be incompatible or to stand in a material consequential relation.
+  }
+  \p{So we can express (in the language of possible worlds) the fact that it follows from (as a consequence) something's being copper that it melts at 1084 °C, for example.
+  }
+  \p{[David Lewis](david-lewis) is presented as an example of misusing possible world semantics. He discards the connection between inference and the possible worlds. He takes the descriptivist position that all one can do is describe with language, but then says he is not an actualist (you can describe non-actual worlds in the same sense that you can describe the coin in your pocket as copper).
+  }
+  \p{What is lost by merging description in the narrow sense and description in the wide sense? The connection to semantics. We've also gained an additional problem of justifying our claims to knowledge of the non-actual worlds.
+  }
+  \p{[^4]: not just metaphysically possible world, whatever that is
+  }
 
 }

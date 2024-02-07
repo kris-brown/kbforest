@@ -3,69 +3,69 @@
 
 \subtree{\title{Major lessons}
 
-\p{From the discussion of [truth](phil-0142) as “what is best in the way of belief” as opposed to correspondence with reality:
-}  \ul{
-  \li{How the combination of:}
-       \li{[declarativism](phil-0025) blurring out all distinctions of kind of claimable}
-       \li{[Expressivism](phil-0046)}
-        \ul{
-           \li{a local expressivism about what one is doing in attributing truth —  namely not describing the claimable, but endorsing it}
-           \li{underwriting a global antirepresentationalism because of special properties of the vocabulary of truth}
-}   \li{\em{together} underwrite a [Jamesean](william-james)  understanding of truth-talk.}
-\ul{
-   \li{This role for an [expressivist](phil-0046) move in a pragmatist argument forges an important link between the first and the second halves of this course.}
-}}
+  \p{From the discussion of [truth](phil-0142) as “what is best in the way of belief” as opposed to correspondence with reality:
+  }  \ul{
+    \li{How the combination of:}
+    \li{[declarativism](phil-0025) blurring out all distinctions of kind of claimable}
+    \li{[Expressivism](phil-0046)}
+    \ul{
+      \li{a local expressivism about what one is doing in attributing truth —  namely not describing the claimable, but endorsing it}
+      \li{underwriting a global antirepresentationalism because of special properties of the vocabulary of truth}
+    }   \li{\em{together} underwrite a [Jamesean](william-james)  understanding of truth-talk.}
+    \ul{
+      \li{This role for an [expressivist](phil-0046) move in a pragmatist argument forges an important link between the first and the second halves of this course.}
+    }}
 
-\p{From the discussion of representation:
-}  
-\ul{
-  \li{What is really at stake in the battle between a representational model of the content of expressions and a pragmatist model is the best order of explanation (a way of thinking about conceptual priority) between representational relations and reason relations (of implication and incompatibility).}
-  \li{[Davidson](donald-davidson) teaches us that and how taking reason relations as primary (the pragmatists says, because giving and assessing reasons, implicitly and practically appealing to justificatory reason relations, specifiable in a deontic normative vocabulary of “commitment” and “entitlement”) holistically determines representational relations in top-down explanatory stories.}
-  \li{Representationalists are committed to atomistic objective usually causal relations (specifiable in an alethic modal vocabulary) determine reason relations.}
+  \p{From the discussion of representation:
+  }
+  \ul{
+    \li{What is really at stake in the battle between a representational model of the content of expressions and a pragmatist model is the best order of explanation (a way of thinking about conceptual priority) between representational relations and reason relations (of implication and incompatibility).}
+    \li{[Davidson](donald-davidson) teaches us that and how taking reason relations as primary (the pragmatists says, because giving and assessing reasons, implicitly and practically appealing to justificatory reason relations, specifiable in a deontic normative vocabulary of “commitment” and “entitlement”) holistically determines representational relations in top-down explanatory stories.}
+    \li{Representationalists are committed to atomistic objective usually causal relations (specifiable in an alethic modal vocabulary) determine reason relations.}
 
-}
+  }
 }
 \subtree{\title{Introduction to pragmatism}
 \subtree{\title{Platonist / Pragmatist distinction}
 
 
-\p{Rorty takes for granted a [distinction](int-0011) of [Dewey](john-dewey):
-}
-\table{
-  \tr{
-    \th{platonism[^lo]}
-    \th{ pragmatism}
+  \p{Rorty takes for granted a [distinction](int-0011) of [Dewey](john-dewey):
   }
-  \tr{
-    \td{Principles}
-    \td{Practices}
+  \table{
+    \tr{
+      \th{platonism[^lo]}
+      \th{ pragmatism}
+    }
+    \tr{
+      \td{Principles}
+      \td{Practices}
+    }
+    \tr{
+      \td{Theoria}
+      \td{Phronesis}
+    }
+    \tr{
+      \td{Knowing that}
+      \td{Knowing how}
+    }
+    \tr{
+      \td{Ending the conversation}
+      \td{Continuing the conversation}
+    }
   }
-  \tr{
-    \td{Theoria}
-    \td{Phronesis}
-  }
-  \tr{
-    \td{Knowing that}
-    \td{Knowing how}
-  }
-  \tr{
-    \td{Ending the conversation}
-    \td{Continuing the conversation}
-  }
-}
-\p{Platonists look for a principle or rule, something explicit or that could be 
-  made explicit, behind every implicit propriety of practice.}
-\p{[Pragmatists](phil-0103) argue that explicit principles or theories float on a vast sea of 
-  implicit practical skills.}
+  \p{Platonists look for a principle or rule, something explicit or that could be
+    made explicit, behind every implicit propriety of practice.}
+  \p{[Pragmatists](phil-0103) argue that explicit principles or theories float on a vast sea of
+    implicit practical skills.}
 
-\p{What's at stake: the order of explanation / conceptual priority between \em{principles} and \em{practices}.
-}
-\p{For example, a cobbler can make good shoes. The platonist looks for what form is behind his mastery, what principle / mental representation makes it possible that the cobbler does that? The pragmatist treats the skill as prior to the principle.
-}
-\p{Rorty sees representationalism as the distinctly modern form of platonism as described above.
-}
-\p{[Kant](immanuel-kant) is the avatar of this form of representationalism: representations and rules are two sides of the same coin. He puts principle over practice (opposed by Dewey, who was followed by early [Heidegger](martin-heidegger) and late [Wittgenstein](ludwig-wittgenstein) in this respect).
-}
+  \p{What's at stake: the order of explanation / conceptual priority between \em{principles} and \em{practices}.
+  }
+  \p{For example, a cobbler can make good shoes. The platonist looks for what form is behind his mastery, what principle / mental representation makes it possible that the cobbler does that? The pragmatist treats the skill as prior to the principle.
+  }
+  \p{Rorty sees representationalism as the distinctly modern form of platonism as described above.
+  }
+  \p{[Kant](kant) is the avatar of this form of representationalism: representations and rules are two sides of the same coin. He puts principle over practice (opposed by Dewey, who was followed by early [Heidegger](martin-heidegger) and late [Wittgenstein](wittgenstein) in this respect).
+  }
 }
 \subtree{\title{The vocabulary vocabulary}
 
@@ -78,24 +78,24 @@
 }
 
 \ul{
-\li{the vocabulary of 16th century theology}
-\li{also, the vocabulary of \em{modernity}}
- \ul{
-  \li{where that's presumably an [autonomous discursive practice](phil-0013)}
- }
+  \li{the vocabulary of 16th century theology}
+  \li{also, the vocabulary of \em{modernity}}
+  \ul{
+    \li{where that's presumably an [autonomous discursive practice](phil-0013)}
+  }
 
 }
 \p{Rorty doesn't draw a line between speaking in a vocabulary and changing your vocabulary (he thinks almost all speech acts change it due to the  [Duhem point](phil-0035)).[^du]
 }
-\p{[^du]:  each time we add a new belief we change the meanings in the rest of our vocabulary, since we have changed the inferential relations.  
+\p{[^du]:  each time we add a new belief we change the meanings in the rest of our vocabulary, since we have changed the inferential relations.
 }
 \p{In mature sciences, a lot of work is taken to allow for discourse to proceed as if the vocabulary were fixed
 }
 \ul{
-\li{The discursive equivalent of "clean rooms", maintained through heroic social disciplinary measures}
-\li{This is for \em{mature} sciences: if you think of the history of temperature,  every single time a new way of measuring temperature was discovered, the concept changes}
-\li{But it would be a serious mistake to take this extreme, artificial case to  be the paradigm on the basis of which we understand the use of language in general.[^hei] }
-}      
+  \li{The discursive equivalent of "clean rooms", maintained through heroic social disciplinary measures}
+  \li{This is for \em{mature} sciences: if you think of the history of temperature,  every single time a new way of measuring temperature was discovered, the concept changes}
+  \li{But it would be a serious mistake to take this extreme, artificial case to  be the paradigm on the basis of which we understand the use of language in general.[^hei] }
+}
 
 \p{[^hei]: Here we might think of  [Heidegger](martin-heidegger) on the effort it takes to precipitate Vorhandenheit out of Zuhandenheit.
 }
@@ -103,52 +103,52 @@
 }
 }
 \subtree{\title{Redescription}
-\p{The generation of new vocabularies.
-}
-\p{This is the essence of discursive practice, is to be committed to a view of conversation as something to be continued.
-}\p{But one can do other things with vocabularies than use them to describe. So   “redescription,” though evocative, might be replaced by “recharacterization,”  or “reconceptualization.”}
+  \p{The generation of new vocabularies.
+  }
+  \p{This is the essence of discursive practice, is to be committed to a view of conversation as something to be continued.
+  }\p{But one can do other things with vocabularies than use them to describe. So   “redescription,” though evocative, might be replaced by “recharacterization,”  or “reconceptualization.”}
 }
 \subtree{\title{Conversation}
 
 
-\blockquote{Platonists follow [Plato](plato) in striving for an escape from conversation to something atemporal which lies in the background of all possible conversations}
+  \blockquote{Platonists follow [Plato](plato) in striving for an escape from conversation to something atemporal which lies in the background of all possible conversations}
 
-\p{Conversation is about redescribing our vocabulary as much as using it. It is the process that produces redescriptions.
-}
-\p{Quantifying over all possible vocabularies is a temptation and something you would only attempt to do if you are trying to end all conversation. This is a fundamental mistake.
-}
-\ul{
-\li{This is something the early Wittgenstein did in the  [Tractatus](ref-0066)}
-\li{He then learned not to do this. It's related to his later view that language  is a motley.}
+  \p{Conversation is about redescribing our vocabulary as much as using it. It is the process that produces redescriptions.
+  }
+  \p{Quantifying over all possible vocabularies is a temptation and something you would only attempt to do if you are trying to end all conversation. This is a fundamental mistake.
+  }
+  \ul{
+    \li{This is something the early Wittgenstein did in the  [Tractatus](ref-0066)}
+    \li{He then learned not to do this. It's related to his later view that language  is a motley.}
 
-}
-\p{[Dummett](michael-dummett)'s interpretation of Wittgenstein:
-}
-\ul{
-\li{Wittgenstein would think that if there were any use for a philosophical notion  of meaning, the point of having a notion of meaning would be to codify  proprieties of use.}
-\li{But there is no limit of things one can use language for, so we cannot systematically find all meanings of all expressions.}
-\li{Wittgenstein tool analogy:}
-\ul{
-   \li{you would think that you could describe the different ways of using things in terms of what you do with them in the way you could tools, so that you could think of hammer and nails, screw and screwdriver, glue and glue brush, all his ways of attaching things to one another. And that would be a sort of common function that they could perform.}
-   \li{Early W. thought 'Yes, representation is like that. That's what language is for.'}
-   \li{What about a wrench What about the pencil that the carpenter uses, or the level that the carpenter uses, or the tool belt or tool chest? Or the set  of plans that they're using?}
+  }
+  \p{[Dummett](michael-dummett)'s interpretation of Wittgenstein:
+  }
+  \ul{
+    \li{Wittgenstein would think that if there were any use for a philosophical notion  of meaning, the point of having a notion of meaning would be to codify  proprieties of use.}
+    \li{But there is no limit of things one can use language for, so we cannot systematically find all meanings of all expressions.}
+    \li{Wittgenstein tool analogy:}
+    \ul{
+      \li{you would think that you could describe the different ways of using things in terms of what you do with them in the way you could tools, so that you could think of hammer and nails, screw and screwdriver, glue and glue brush, all his ways of attaching things to one another. And that would be a sort of common function that they could perform.}
+      \li{Early W. thought 'Yes, representation is like that. That's what language is for.'}
+      \li{What about a wrench What about the pencil that the carpenter uses, or the level that the carpenter uses, or the tool belt or tool chest? Or the set  of plans that they're using?}
       \ul{\li{All these are functioning differently, and there isn't going to be a systematic way of saying all the different kinds of tools that you could have}
-}   \li{Classic Wittgensteinian anecdotes turn on the [malleability of language](phil-0140).}
+      }   \li{Classic Wittgensteinian anecdotes turn on the [malleability of language](phil-0140).}
       \ul{
         \li{The metaphysical puzzle comes from having a \em{static}, totalizing picture of language rather than accepting it as a motley that evolves whenever you use it.}
         \li{We carefully design mature natural science and math to not have this  happen, but this should not be a model for how our language works.}
-}   \li{This is why Wittgenstein is a [semantic nihilist](phil-0124), he doesn't think there are actually meanings. The plasticity of language makes this impossible.}
+      }   \li{This is why Wittgenstein is a [semantic nihilist](phil-0124), he doesn't think there are actually meanings. The plasticity of language makes this impossible.}
 
-}
-}
+    }
+  }
 }
 \subtree{\title{Coping}
-\p{Rorty has another term that is part of the constellation that starts with “vocabulary” and includes “redescription” and “conversation.” It is “coping.” 
-}
-\p{It is his generic term for what we do with vocabularies, generally. It is in terms of success at coping that we are able sometimes to assess and compare vocabularies as better and worse. In that regard, it plays a role analogous to the notion of accuracy of representation, that Rorty wants to persuade us to discard as specifying the dimension along which arbitrary vocabularies can be assessed as better or worse.}
+  \p{Rorty has another term that is part of the constellation that starts with “vocabulary” and includes “redescription” and “conversation.” It is “coping.”
+  }
+  \p{It is his generic term for what we do with vocabularies, generally. It is in terms of success at coping that we are able sometimes to assess and compare vocabularies as better and worse. In that regard, it plays a role analogous to the notion of accuracy of representation, that Rorty wants to persuade us to discard as specifying the dimension along which arbitrary vocabularies can be assessed as better or worse.}
 
-\p{It is crucial to this notion of coping that standards for it are rigorously internal to the vocabularies being assessed.
-}
+  \p{It is crucial to this notion of coping that standards for it are rigorously internal to the vocabularies being assessed.
+  }
 
 }
 }
@@ -158,27 +158,27 @@
 }
 
 \scope{
- \put\transclude/heading{false}
- \put\transclude/toc{false}
- \transclude{q-0103}
- }
+\put\transclude/heading{false}
+\put\transclude/toc{false}
+\transclude{q-0103}
+}
 
 
 \scope{
- \put\transclude/heading{false}
- \put\transclude/toc{false}
- \transclude{q-0036}
- }
+\put\transclude/heading{false}
+\put\transclude/toc{false}
+\transclude{q-0036}
+}
 
 
 \p{Pragmatism undercuts a bunch of important (seemingly essential) distinctions:
 }
 \ul{
- \li{saying how things are in the natural science}
- \li{saying how things ought to be in moral theories}
+  \li{saying how things are in the natural science}
+  \li{saying how things ought to be in moral theories}
 }
- 
-\p{Rorty claims they must be seen as the same type of claim (they stand to what they're "about" in the same way - there's no need to worry about what makes them true - just think about the reason relations they stand in to other claims). 
+
+\p{Rorty claims they must be seen as the same type of claim (they stand to what they're "about" in the same way - there's no need to worry about what makes them true - just think about the reason relations they stand in to other claims).
 }
 \p{Brandom accuses Rorty of blurring distinctions with the vocabulary vocabulary in the way that Rorty accused Dewey of using the notion of experience to blur every conceivable distinction. This is point that most people get off the Rorty train.[^c] This is no longer \em{meta}philosophically unpalatable (e.g. we should stop capital-P philosophy) but \em{philosophically} unpaletable.
 }
@@ -189,8 +189,8 @@
 \p{Two broad conceptions
 }
 \ol{
-\li{Truth as "correspondence with reality"}
-\li{Truth as "what is best in the way of belief"}
+  \li{Truth as "correspondence with reality"}
+  \li{Truth as "what is best in the way of belief"}
 
 }
 
@@ -203,10 +203,10 @@
 }
 
 \scope{
- \put\transclude/heading{false}
- \put\transclude/toc{false}
- \transclude{q-0155}
- }
+\put\transclude/heading{false}
+\put\transclude/toc{false}
+\transclude{q-0155}
+}
 
 
 \p{Expressivism about [truth](phil-0142) is to say one is not describing a statement when one says it is true - one is doing something else (endorsing  / taking a normative stance towards it). Combining this with universal [declarativism](phil-0025) about truth leads to global [anti-representationalism](phil-0010) / [anti-bifurcationism](phil-0090)
@@ -221,15 +221,15 @@
 \ul{
 \li{"Jones believes #{\phi}"}
 \ul{
-	\li{ Pragmatically, we are attributing commitment: "Jones is committed to #{\phi}, e.g. can be asked for justification #{\phi} and use it as a premise of other claims."}
+\li{ Pragmatically, we are attributing commitment: "Jones is committed to #{\phi}, e.g. can be asked for justification #{\phi} and use it as a premise of other claims."}
 
 }\li{"Jones is justified in believing #{\phi}"}
 \ul{
-	\li{Pragmatically, we are attributing entitlement; "Jones can provide a justification when asked.""}
+  \li{Pragmatically, we are attributing entitlement; "Jones can provide a justification when asked.""}
 
 }\li{"Jones \em{knows} that #{\phi}" (i.e. the above +"and #{\phi} is true")}
 \ul{
-	\li{Pragmatically, \em{we} (the speaker) are taking a commitment to #{\phi}.}
+\li{Pragmatically, \em{we} (the speaker) are taking a commitment to #{\phi}.}
 
 }
 }
@@ -245,10 +245,10 @@
 }
 }
 \subtree{\title{Representation}
-\p{Rorty is careful about the metaphor of [Language as tool](phil-0062). He avoids letting representationalism sneak into his coping talk.
-}
-\p{Davidson's switcharoo of [meaning and truth](phil-0073).
-}
-\p{For Rorty, coping, conversation, and [redescription](phil-0110) are three ways of talking about the same thing. Coping is deploying reason-relations in a practice of giving and assessing reasons.
-}
+  \p{Rorty is careful about the metaphor of [Language as tool](phil-0062). He avoids letting representationalism sneak into his coping talk.
+  }
+  \p{Davidson's switcharoo of [meaning and truth](phil-0073).
+  }
+  \p{For Rorty, coping, conversation, and [redescription](phil-0110) are three ways of talking about the same thing. Coping is deploying reason-relations in a practice of giving and assessing reasons.
+  }
 }

@@ -6,39 +6,39 @@ Two meanings of "#{X} depends on #{Y}" that are easily conflated.
 }
 
 \table{
-  \tr{
-    \th{Kind of reference}
-    \th{Sense}
-    \th{Reference}
-  }
-  \tr{
-    \td{Meaning of "#{X} depends on #{Y}"     }
-    \td{you can't \em{understand} #{X} unless you \em{understand} #{Y}      }
-    \td{you can't have #{X} existing without #{Y} existing}
-  }
-  \tr{
-    \td{Flavor of dependence  }
-    \td{Epistemological}
-    \td{Ontological}
-  }
+\tr{
+  \th{Kind of reference}
+  \th{Sense}
+  \th{Reference}
+}
+\tr{
+\td{Meaning of "#{X} depends on #{Y}"     }
+\td{you can't \em{understand} #{X} unless you \em{understand} #{Y}      }
+\td{you can't have #{X} existing without #{Y} existing}
+}
+\tr{
+  \td{Flavor of dependence  }
+  \td{Epistemological}
+  \td{Ontological}
+}
 }
 \p{
 
-[Brandom](robert-brandom) points out that we can have sense dependence without having reference dependence.}
+  [Brandom](brandom) points out that we can have sense dependence without having reference dependence.}
 
 \p{Response-dependent properties, e.g. a toy concept of beauty: "#{X} is beautiful if looking at it elicits pleasure in people."
 }
 \ul{
-\li{ This is asserting a \em{sense} dependence of beauty on people, but not a \em{reference} dependence.
-} 
-\li{It is intelligible that there could exist beautiful sunsets before there ever were people in the world, or if people never existed.}
+  \li{ This is asserting a \em{sense} dependence of beauty on people, but not a \em{reference} dependence.
+  }
+  \li{It is intelligible that there could exist beautiful sunsets before there ever were people in the world, or if people never existed.}
 
 }
 
 \subtree{\title{Examples}
 
-\p{"Parent" and "child" are both reciprocally sense- and reference- dependent.
-}
+  \p{"Parent" and "child" are both reciprocally sense- and reference- dependent.
+  }
 }
 \subtree{\title{Historical relevance}
 
@@ -46,8 +46,8 @@ Two meanings of "#{X} depends on #{Y}" that are easily conflated.
 }
 
 \ul{
-  \li{Without understanding what it is for you to follow a rule / to infer #{B} from #{A}, you can't \em{understand} the lawfulness that you're taking the world to have.}
-  \li{This does not entail a reference dependence.
+\li{Without understanding what it is for you to follow a rule / to infer #{B} from #{A}, you can't \em{understand} the lawfulness that you're taking the world to have.}
+\li{This does not entail a reference dependence.
 }
 }
 }

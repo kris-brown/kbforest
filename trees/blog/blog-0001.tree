@@ -1,13 +1,15 @@
 \title{Reasoning with one hand tied behind your back}
+\date{2023-04}
+
 \tag{blog}
 
 
 \p{Here are four potentially-unrelated examples with a common structure:}
 
 \ul{
-  \li{there are (at least) two ways to achieve some goal}
-  \li{one is harder than the other}
-  \li{there is a deeper kind of payoff to taking the harder route}
+	\li{there are (at least) two ways to achieve some goal}
+	\li{one is harder than the other}
+	\li{there is a deeper kind of payoff to taking the harder route}
 }
 
 \transclude{blog-0013}

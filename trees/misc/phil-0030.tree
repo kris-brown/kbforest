@@ -3,8 +3,8 @@
 
 \table{
   \tr{
-    \th{naturwissenschaften }
-    \th{geisteswissenschaften}
+    \th{Naturwissenschaften }
+    \th{Geisteswissenschaften}
   }
   \tr{
     \td{stuff that isn't text / can't talk }
@@ -16,5 +16,5 @@
   }
 }
 \p{
-A contentious issue is whether our understanding in each column is different in kind. Rorty denies this distinction, saying there are only sociological differences (differences in the giving and asking of reasons). 
+  A contentious issue is whether our understanding in each column is different in kind. Rorty denies this distinction, saying there are only sociological differences (differences in the giving and asking of reasons).
 }

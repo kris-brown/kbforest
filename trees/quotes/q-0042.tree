@@ -1,5 +1,5 @@
 \title{Exemplification}
-\author{wilfrid-sellars}
+\author{sellars}
 \import{macros}
 
 \blockquote{
@@ -10,12 +10,12 @@ Exemplification is a 'quasi-semantical' relation, and it (and universals[^1]) ar
 }
 
 \notes{
-[^1]: e.g. redness, lionhood
+  [^1]: e.g. redness, lionhood
 
-\ul{
+  \ul{
 
-\li{This plays off [Carnap](rudolf-carnap)'s notion of  'quasi-syntactical'.}
-\li{There's the narrow view of 'the world', that's the world that science is the measure of all things. And the broader view of the world that has things like rules.}
-}
+    \li{This plays off [Carnap](rudolf-carnap)'s notion of  'quasi-syntactical'.}
+    \li{There's the narrow view of 'the world', that's the world that science is the measure of all things. And the broader view of the world that has things like rules.}
+  }
 
 }

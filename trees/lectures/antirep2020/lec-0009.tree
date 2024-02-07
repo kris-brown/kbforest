@@ -2,63 +2,63 @@
 
 \subtree{\title{Generalizing subject naturalism}
 
-\p{The pragmatic metavocabulary one uses for this purpose need not be naturalistic. One might looks to use a \em{normative} metavocabulary, which specifies (not necessarily “describes”) how it is proper or correct to use expressions. Brandom disagrees with Price, who uses a naturalistic metavocabulary, because he believes having a normative metavocabulary is essential to understanding how meaning is conferred. Naturalistic metavocabulary is committed to working with dispositions (alethic modal vocabulary) and forgoes invoking correctness/proprieties of use.
-}
-\p{This would be a \strong{one}-sorted normative vocabulary, using evaluations of correct/incorrect, justified/unjustified, or proper/improper. That is what assertibility theories, as in [Dewey](john-dewey), [Sellars](wilfrid-sellars), or [Dummett](michael-dummett) do.
-}
-\p{Or one might use the \strong{two}-sorted normative vocabulary of commitment and entitlement (to commitments), or of responsibility and authority. [Brandom](robert-brandom) argues in [Making It Explicit](ref-0075) that such a two-sorted normative pragmatic metavocabulary is much more expressively powerful than the one-sorted variety. [^st]
-}
-\p{[^st]: In \em{A Spirit of Trust} Brandom reads Hegel as deploying such a two-sorted normative pragmatic metavocabulary, using the terms “independence” and “dependence” for authority and responsibility. 
-}
-\p{In all these cases, one can follow what Brandom takes to be the [Rortyan](richard-rorty) social pragmatist approach to normativity, which understands normative statuses (such as commitment and entitlement, responsibility and authority) as social statuses. One is then using a pragmatic metavocabulary to specify the implicitly normative social practices that confer semantic content on expressions and performances that play suitable functional roles in those practices. 
-}
-\p{In \em{Between Saying and Doing} Brandom pursues a "meaning-use analysis" to understand the relationship between semantic metavocabularies and pragmatic metavocabularies (which must take place in a meta-metavocabulary.) There is a methodological pragmatism that understands semantics in terms of pragmatics (but it's still possible to keep both vocabularies respectable). 
-}
-\p{We can also divide through by the representationalism (if you have a semantic metavocabulary that is based on inferential roles rather than representation, you can still ask what is a good pragmatic metavocabulary and what is the relation between the two). Rorty  wanted to throw out semantics wholesale, seeing it as incontrovertably tied to representationalism. 
-}
+  \p{The pragmatic metavocabulary one uses for this purpose need not be naturalistic. One might looks to use a \em{normative} metavocabulary, which specifies (not necessarily “describes”) how it is proper or correct to use expressions. Brandom disagrees with Price, who uses a naturalistic metavocabulary, because he believes having a normative metavocabulary is essential to understanding how meaning is conferred. Naturalistic metavocabulary is committed to working with dispositions (alethic modal vocabulary) and forgoes invoking correctness/proprieties of use.
+  }
+  \p{This would be a \strong{one}-sorted normative vocabulary, using evaluations of correct/incorrect, justified/unjustified, or proper/improper. That is what assertibility theories, as in [Dewey](john-dewey), [Sellars](sellars), or [Dummett](michael-dummett) do.
+  }
+  \p{Or one might use the \strong{two}-sorted normative vocabulary of commitment and entitlement (to commitments), or of responsibility and authority. [Brandom](brandom) argues in [Making It Explicit](ref-0075) that such a two-sorted normative pragmatic metavocabulary is much more expressively powerful than the one-sorted variety. [^st]
+  }
+  \p{[^st]: In \em{A Spirit of Trust} Brandom reads Hegel as deploying such a two-sorted normative pragmatic metavocabulary, using the terms “independence” and “dependence” for authority and responsibility.
+  }
+  \p{In all these cases, one can follow what Brandom takes to be the [Rortyan](rorty) social pragmatist approach to normativity, which understands normative statuses (such as commitment and entitlement, responsibility and authority) as social statuses. One is then using a pragmatic metavocabulary to specify the implicitly normative social practices that confer semantic content on expressions and performances that play suitable functional roles in those practices.
+  }
+  \p{In \em{Between Saying and Doing} Brandom pursues a "meaning-use analysis" to understand the relationship between semantic metavocabularies and pragmatic metavocabularies (which must take place in a meta-metavocabulary.) There is a methodological pragmatism that understands semantics in terms of pragmatics (but it's still possible to keep both vocabularies respectable).
+  }
+  \p{We can also divide through by the representationalism (if you have a semantic metavocabulary that is based on inferential roles rather than representation, you can still ask what is a good pragmatic metavocabulary and what is the relation between the two). Rorty  wanted to throw out semantics wholesale, seeing it as incontrovertably tied to representationalism.
+  }
 
 }
 \subtree{\title{One Cheer for Representationalism}
 
 
 
-\p{Huw opposes the combination of declarativism and descriptivism. His "one cheer" is for the kind of deflationary declarativism that comes from "all declarative sentences are truth evaluable" (because they can embed in the antecedent of a conditional, see [Frege-Geach argument](phil-0050)).
-}
-\p{“Semantic minimalism” serves to break the link between declarativism and descriptivism by going no further - that all these declaratives are truth evaluable is all we are obliged to say.
-}
+  \p{Huw opposes the combination of declarativism and descriptivism. His "one cheer" is for the kind of deflationary declarativism that comes from "all declarative sentences are truth evaluable" (because they can embed in the antecedent of a conditional, see [Frege-Geach argument](phil-0050)).
+  }
+  \p{“Semantic minimalism” serves to break the link between declarativism and descriptivism by going no further - that all these declaratives are truth evaluable is all we are obliged to say.
+  }
 
-\p{The “iron triangle of discursiveness”:
-}
-\ul{
-\li{ On the side of pragmatics, which is Fregean force or the theory of the use of expressions—the practices (social) or abilities-dispositions (individual)—of applying expressions, they can be used assertionally,  }
-\li{ On the side of syntax, the linguistic expressions are declarative sentences,}
-\li{ On the side of semantics, the theory of content or meaning, they express propositions.}
+  \p{The “iron triangle of discursiveness”:
+  }
+  \ul{
+    \li{ On the side of pragmatics, which is Fregean force or the theory of the use of expressions—the practices (social) or abilities-dispositions (individual)—of applying expressions, they can be used assertionally,  }
+    \li{ On the side of syntax, the linguistic expressions are declarative sentences,}
+    \li{ On the side of semantics, the theory of content or meaning, they express propositions.}
 
-}
-\p{The connections among these are important.  Brandom takes the pragmatics to be conceptually fundamental, by which he means prior in a preferred order of explanation. To say that \em{semantically}, declarative sentences express propositions (or, better, are specifically propositionally contentful, which is a way of being conceptually contentful) is to gesture towards their having not only “free-standing” uses, which we understand as paradigmatically assertional, but also embedded uses.
-}
-\p{Semantic pragmatism goes from the pragmatic significance to the semantic content.  The idea is that the concept of declarative sentence is to be understood as what can be used both free-standing, to make assertions, and embedded, to contribute systematically to the content and assertional significance of assertible compound sentences in which it is embedded.
-}
+  }
+  \p{The connections among these are important.  Brandom takes the pragmatics to be conceptually fundamental, by which he means prior in a preferred order of explanation. To say that \em{semantically}, declarative sentences express propositions (or, better, are specifically propositionally contentful, which is a way of being conceptually contentful) is to gesture towards their having not only “free-standing” uses, which we understand as paradigmatically assertional, but also embedded uses.
+  }
+  \p{Semantic pragmatism goes from the pragmatic significance to the semantic content.  The idea is that the concept of declarative sentence is to be understood as what can be used both free-standing, to make assertions, and embedded, to contribute systematically to the content and assertional significance of assertible compound sentences in which it is embedded.
+  }
 }
 \subtree{\title{Expressivism for two voices}
 
-\p{Huw's redescription of Humean expressivism. (How Blackburn characterizes his own view, which he also calls quasi-realism). It is realism b/c he says there is a kind of propositional content to the 3 M's. He thinks this is Humean because what tied together Hume's theoretical and practical philosophy was his expressivism (similar answers about how we get from \em{is} to \em{ought} and how we get from \em{is} to \em{must be}).
-}
-\p{Principal affinity: the essence of their local expressivism was to say "don't think about what you're \em{saying} when you offer moral appraisal (don't think of the content), think at first what you're \em{doing}." Price saw them as offering subject naturalist accounts of the 3 M vocabularies.
-}
-\p{Huw wants to synthesize Humean Expressivism and Brandomian Expressivism into Total Expressivism.
-}
-\p{What makes Wittgenstein want to say language is an \em{unsurveyable} motley? It's a view about the development of practices; it's essential to language practices that it's protean, that they are constantly changing / growing into each other. The most you could systematize is a timeslice / still photograph.
-}
-\p{A sort of concession to representationalists: 
-}
-\ul{
-\li{E-representation: (External/environment tracking) Think of the position of the needle of the fuel gauge and the level of fuel in the tank. (Sellars made fun of this as the "thermometer view" of non-inferential reports.) The function of a representational relation is to covary with some environmental condition. Huw wants to reject this is a good model for the way our talk works. Much less of our talk is E-representational than you'd think.}
-\li{I-representation: (Internal) Something counts as a representation due to the role it plays internal functional role. This is ubiquitous within the declarativist realm. This is congenial to Brandom's project of reconstructing representation based on functional role.}
+  \p{Huw's redescription of Humean expressivism. (How Blackburn characterizes his own view, which he also calls quasi-realism). It is realism b/c he says there is a kind of propositional content to the 3 M's. He thinks this is Humean because what tied together Hume's theoretical and practical philosophy was his expressivism (similar answers about how we get from \em{is} to \em{ought} and how we get from \em{is} to \em{must be}).
+  }
+  \p{Principal affinity: the essence of their local expressivism was to say "don't think about what you're \em{saying} when you offer moral appraisal (don't think of the content), think at first what you're \em{doing}." Price saw them as offering subject naturalist accounts of the 3 M vocabularies.
+  }
+  \p{Huw wants to synthesize Humean Expressivism and Brandomian Expressivism into Total Expressivism.
+  }
+  \p{What makes Wittgenstein want to say language is an \em{unsurveyable} motley? It's a view about the development of practices; it's essential to language practices that it's protean, that they are constantly changing / growing into each other. The most you could systematize is a timeslice / still photograph.
+  }
+  \p{A sort of concession to representationalists:
+  }
+  \ul{
+    \li{E-representation: (External/environment tracking) Think of the position of the needle of the fuel gauge and the level of fuel in the tank. (Sellars made fun of this as the "thermometer view" of non-inferential reports.) The function of a representational relation is to covary with some environmental condition. Huw wants to reject this is a good model for the way our talk works. Much less of our talk is E-representational than you'd think.}
+    \li{I-representation: (Internal) Something counts as a representation due to the role it plays internal functional role. This is ubiquitous within the declarativist realm. This is congenial to Brandom's project of reconstructing representation based on functional role.}
 
-}
-\p{For Huw these are not two competing accounts of a single species of representation, but rather two different beasts.
-}
-\p{It's a good question to how E-representation differs from capital-R representation.
-}
+  }
+  \p{For Huw these are not two competing accounts of a single species of representation, but rather two different beasts.
+  }
+  \p{It's a good question to how E-representation differs from capital-R representation.
+  }
 }

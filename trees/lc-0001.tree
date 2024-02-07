@@ -8,7 +8,7 @@
 \ul{
 \li{#Lecture: [01 - The Concept of Representation](lec-0001)}
 \li{#Example: [Shopping list](phil-0126)}
-\li{#Person: [Ludwig Wittgenstein](ludwig-wittgenstein)}
+\li{#Person: [Ludwig Wittgenstein](wittgenstein)}
 \li{#Argument: [Kant-Sellars thesis](phil-0060)}
 \li{#Quote: [Analytic philosophy is neokantian](q-0008)}
 \li{#Distinction: [Theoretical and observable objects](int-0019)}
@@ -16,30 +16,32 @@
 \li{#Work: [Empiricism and the Philosophy of Mind](ref-0016)}
 }
 
+\put\transclude/expanded{false}
+
 \scope{
-  \put\transclude/title{Blog}
-  \query{\query/tag{blog}}
+\put\transclude/title{Blog}
+\query{\query/tag{blog}}
 }
 
 \scope{
-  \put\transclude/title{People}
-  \put\transclude/expanded{false}
-  \query{\query/taxon{person}}
+\put\transclude/title{People}
+\query{\query/taxon{person}}
 }
 
 \scope{
-  \put\transclude/title{Works}
-  \put\transclude/expanded{false}
-  \query{\query/taxon{reference}}
+\put\transclude/title{Works}
+\query{\query/taxon{reference}}
 }
 
 \scope{
-  \put\transclude/title{Notes on podcasts}
-  \put\transclude/expanded{false}
-  \transclude{elu-0029}
+\put\transclude/title{Notes on podcasts}
+\transclude{elu-0029}
 }
 \scope{
-  \put\transclude/title{Notes on lecture series}
-  \put\transclude/expanded{false}
-  \query{\query/tag{lecture}}
+\put\transclude/title{Notes on lecture series}
+\query{\query/tag{lecture}}
+}
+\scope{
+\put\transclude/title{Jokes}
+\query{\query/tag{joke}}
 }

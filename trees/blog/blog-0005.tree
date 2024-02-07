@@ -1,9 +1,11 @@
 \title{Minimize ontology talk}
+\date{2022-01}
+
 \tag{blog}
 
 
 \p{
-\em{This is essentially a rehash of various bits of [Rorty](richard-rorty) and [Price](huw-price) that were floating in my head.}
+  \em{This is essentially a rehash of various bits of [Rorty](rorty) and [Price](huw-price) that were floating in my head.}
 }
 
 \p{[Ontology](phil-0091) (the theory of what really is, or the what is there 'objectively') makes conflict between things we say possible. For example, the idea of objectivity needs to be invoked for there to be incompatibility between "Alice thinks there is a saber-toothed tiger coming" and "Bob thinks there is no such tiger coming." }
@@ -17,9 +19,9 @@
 \p{For whatever socio-historical reasons, objectivity-talk is incredibly pervasive in almost all domains of discourse. It takes serious work to wean ourselves off of it, to show one can coherently and self-respectingly grapple with non-OED concepts without it. }
 
 \ul{
-  \li{For example: we're primed to think of \em{sentience} as some objective  phenomenon (because we're primed to be [descriptivists](phil-0029)), but this is entirely unnecessary. }
-  \li{We can completely sidestep talk of the ontological nature of sentience and  get along perfectly fine.}
-  \li{Given a real world problem that depends on this issue (e.g. "Is this AI a sentient  being?") this paradigm shift is a net positive because we can focus our attention on relevant things (our social practices relating to the AI, rather than some feature purely of the source code / training process).}
+  \li{For example: we're primed to think of \em{sentience} as some objective phenomenon (because we're primed to be [descriptivists](phil-0029)), but this is entirely unnecessary. }
+  \li{We can completely sidestep talk of the ontological nature of sentience and get along perfectly fine.}
+  \li{Given a real world problem that depends on this issue (e.g. "Is this AI a sentient being?") this paradigm shift is a net positive because we can focus our attention on relevant things (our social practices relating to the AI, rather than some feature purely of the source code / training process).}
 }
 
 \p{However, if you want \em{power} over others, couching your beliefs in objectivity talk is useful for gaining authority.
