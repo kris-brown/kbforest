@@ -1,26 +1,29 @@
-\title{19. Epistemic vigilance}
+\title{Epistemic vigilance}
 \tag{elucidations}
+\number{19}
+\author{dan-sperber}
+\parent{elu-0029}
 
 \p{Information given to us via testimony vs sense experience}
 \ul{
-\li{There are many situations where we trust and others where we distrust}
-\li{Need to be able to benefit from communication with others.}
+  \li{There are many situations where we trust and others where we distrust}
+  \li{Need to be able to benefit from communication with others.}
   \ul{
-  \li{Reductionist: Must have a reason to trust.}
-  \li{Anti-reductionist: We can trust testimony unless we have reason to distrust.}
+    \li{Reductionist: Must have a reason to trust.}
+    \li{Anti-reductionist: We can trust testimony unless we have reason to distrust.}
     \ul{
-    \li{Counterpoint:}
+      \li{Counterpoint:}
       \ul{
-      \li{Our senses work to serve our interests. Others have their own interests.}
-      \li{One communicates with another to have an effect on them. Maybe this is benevolent, maybe it's hostile.}
-}}}}
+        \li{Our senses work to serve our interests. Others have their own interests.}
+        \li{One communicates with another to have an effect on them. Maybe this is benevolent, maybe it's hostile.}
+      }}}}
 \p{Vigilance: on guard for interlocutors who don't have our best interest at heart.}
 \ul{
   \li{Analogy: we walk in a crowd without issue because everyone is vigiliant.}
-  \li{This would not be possible if we thought every stranger would completely 
+  \li{This would not be possible if we thought every stranger would completely
     ignore us.}
-  \li{So we need trust, but we are not paralyzed by consciously 
-    distrusting-by-default each stranger. The community vigilance is the 
+  \li{So we need trust, but we are not paralyzed by consciously
+    distrusting-by-default each stranger. The community vigilance is the
     solution.}}
 \p{How do we trust people without vigilance:}
 \ul{
@@ -32,15 +35,15 @@
 \ul{
   \li{What we do is close to the reductionist's norm}
   \li{Experimental psychology experiments}
-\ul{
+  \ul{
     \li{People encounter a new face and instantly look for trustworthiness}
-\ul{
+    \ul{
       \li{there is the least variation in 'trustworthiness score' (among other properties) when you vary the amount of time a subject has exposed to the picture}
-}    \li{Children as young as 3 will trust the information from a 'nice agent' over a 'mean agent'}
-}  
-\li{However maybe life would be better if everyone trusted a littlee more (even if there were slight higher personal risks). Collective action problem.}
-\ul{
-  \li{Multiple independent sources of some belief reinforce strength of that belief.}
-  \li{Peer review system reflective of epistemic vigilance norms.}
-}}
+    }    \li{Children as young as 3 will trust the information from a 'nice agent' over a 'mean agent'}
+  }
+  \li{However maybe life would be better if everyone trusted a littlee more (even if there were slight higher personal risks). Collective action problem.}
+  \ul{
+    \li{Multiple independent sources of some belief reinforce strength of that belief.}
+    \li{Peer review system reflective of epistemic vigilance norms.}
+  }}
 

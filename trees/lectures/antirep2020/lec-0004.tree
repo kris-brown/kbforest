@@ -1,30 +1,33 @@
 \title{Cheryl Misak's Critique of Rorty's Pragmatism}
+\author{brandom}
+\parent{lec-0024}
+\number{4}
 
 \subtree{\title{Cheryl Misak's reconstruction of the pragmatist tradition}
 
 \p{Kuklick's “Who Owns Pragmatism?” discusses three contesting subdisciplines:
 }
 \ul{
-\li{   Historians of philosophy, in Philosophy departments,}
-\li{   Americanists, in American Studies departments[^jb]}
-\li{   Intellectual historians, in History departments.}
+  \li{   Historians of philosophy, in Philosophy departments,}
+  \li{   Americanists, in American Studies departments[^jb]}
+  \li{   Intellectual historians, in History departments.}
 
 }
 \p{[^jb]: Pragmatism is as interesting to them as jazz or baseball is.
 }
 \p{ Field vs discipline: the former is unified by the objects addressed, the latter by the methods used to address them.
-Kuklick describes Misak as the jewel in the crown of the scholars of American philosophy.[^cp]
+  Kuklick describes Misak as the jewel in the crown of the scholars of American philosophy.[^cp]
 }
 
 \p{[^cp]: Thinking of her book \em{Cambridge Pragmatism: From Peirce and James to Ramsey and Wittgenstein} (2016).
 }
 \p{Misak had three transformative ideas:
 }
- \ul{
- \li{Distinguishing two substantially different strands of American Pragmatism}
- \li{Adding Cambridge Pragmatism (principally Ramsey and Wittgenstein)}
- \li{Seeing analytic philosophy of '50s (Quine, Goodman, Sellars) as the result of synthesizing Vienna Circle empiricism+naturalism with pragmatist ideas from C. I. Lewis.}
- }
+\ul{
+  \li{Distinguishing two substantially different strands of American Pragmatism}
+  \li{Adding Cambridge Pragmatism (principally Ramsey and Wittgenstein)}
+  \li{Seeing analytic philosophy of '50s (Quine, Goodman, Sellars) as the result of synthesizing Vienna Circle empiricism+naturalism with pragmatist ideas from C. I. Lewis.}
+}
 
 \p{She also is unrelentingly critical of Rorty.
 }
@@ -37,65 +40,65 @@ Kuklick describes Misak as the jewel in the crown of the scholars of American ph
 \li{Chauncy Wright provided the original intellectual impetus (the [Socrates](socrates) to Peirce's [Plato](plato)).}
 \li{Pierce -> C.I. Lewis very distinct from James -> Dewey -> Rorty.}
 \ul{
-	\li{One way to view this distinction is the affinity for formal logic. However, Rorty was logically competent, despite not liking it.}
-	\li{Another is the interest in art/literature alongside natural science, which had a special role in the Pierce strain.}
-	\li{Misak views Pierce's strain as progressive, while the other is regressive.}
+  \li{One way to view this distinction is the affinity for formal logic. However, Rorty was logically competent, despite not liking it.}
+  \li{Another is the interest in art/literature alongside natural science, which had a special role in the Pierce strain.}
+  \li{Misak views Pierce's strain as progressive, while the other is regressive.}
 
 }\li{Rorty only succeeded in giving pragmatism a bad name.}
 
 }
 \p{Brandom suggests the two branches could be thought of as "tough minded" and "tender minded". (James' terminology). Ramberg makes the distinction of "problem solving"/perennial philosophers (employing the current vocabulary) in contrast with "problem dissolving" / semantic historicist philosophers (redescribing the current vocabulary). The two can also be seen as reflecting the conflict between Enlightenment and Romantic traditions.
 }
-\p{None of Misak's analytic philosopher pragmatists were willing to call themselves pragmatists, which Brandom argues is a point in favor of the Eclipse narrative. 
+\p{None of Misak's analytic philosopher pragmatists were willing to call themselves pragmatists, which Brandom argues is a point in favor of the Eclipse narrative.
 }
 }
 }
 \subtree{\title{Classical American Pragmatism, Natural Science, and a Second Enlightenment}
 
 \subtree{\title{A second Enlightenment}
-\p{A negative view of classical American pragmatism:
-}
-\ul{
- \li{Theoretically derivative, politically inconsequential}
- \li{Echoed British Utilitarianism - tried to apply its "crass shopkeeper's sensibility which sees everything in terms of profit / loss / 'What's in it for me?'" to the \em{theoretical} now, instead of the practical. }
- \li{Rationality appeared as \em{instrumental intelligence} - capacity to get one wants - that's why truth is what works.}
- \li{As bad as utilitarianism is, at least it eventually developed into rational choice theory / game theory, of use to the social sciences. Not much of lasting value has come from the pragmatist tradition.}
+  \p{A negative view of classical American pragmatism:
+  }
+  \ul{
+    \li{Theoretically derivative, politically inconsequential}
+    \li{Echoed British Utilitarianism - tried to apply its "crass shopkeeper's sensibility which sees everything in terms of profit / loss / 'What's in it for me?'" to the \em{theoretical} now, instead of the practical. }
+    \li{Rationality appeared as \em{instrumental intelligence} - capacity to get one wants - that's why truth is what works.}
+    \li{As bad as utilitarianism is, at least it eventually developed into rational choice theory / game theory, of use to the social sciences. Not much of lasting value has come from the pragmatist tradition.}
 
-}
-\p{Alternate viewpoint, pragmatism as the second [Enlightenment](phil-0137):
-}
-\ul{
-\li{reason was the sovereign force in human life}
-\li{this reason should be understood in the context of the late 19th century (Darwinian / statistical thermo), which had very science from the Newtonian science of the first Enlightenment.}
-\li{Newtonian explanations required to show why what \em{actually} happened \em{had to} happen that way.}
-\li{By contrast, Darwinian/statistical explanations can show why what actually happened was \em{probable}.}
+  }
+  \p{Alternate viewpoint, pragmatism as the second [Enlightenment](phil-0137):
+  }
+  \ul{
+    \li{reason was the sovereign force in human life}
+    \li{this reason should be understood in the context of the late 19th century (Darwinian / statistical thermo), which had very science from the Newtonian science of the first Enlightenment.}
+    \li{Newtonian explanations required to show why what \em{actually} happened \em{had to} happen that way.}
+    \li{By contrast, Darwinian/statistical explanations can show why what actually happened was \em{probable}.}
 
-}
+  }
 }
 \subtree{\title{Two models of Nature and Science}
 
-\p{Pierce saw a structure common to evolution and learning. Even the laws of physics emerged as "habits" from selection processes emerging from chaos. 
-}
-\p{Pierce doesn't worry about epistemic fallibilism (maybe we have the laws wrong) - after all the laws may change themselves (ontological fallibilism / mutabilism). Nature is fluid, stochastic, and its regularities were themselves contingent.
-}
-\p{Newtonian science was a matter of \em{theories}, but by the middle of the 19th century through technology (the practical arm of science), science had practical successes that justified its theoretical insight. Technology \em{embodies} understanding. So pragmatists saught to situate knowing \em{that} (some claim is true) in the larger field of knowing \em{how} (to do something). From \em{anatomy} to \em{physiology} (from \em{structure} to \em{function}).
-}
-\p{Like the first Englightenment, pragmatists were both naturalist (ontologically) and empiricist (epistemologically). The old empiricism thought the unit of experience was self-contained events/epsiodes. \em{Erlebnis} in contrast to experience as Hegel thought it, \em{Erfahrung}. For pragmatists, the Test-Operate-Test-Exit cycle[^tote] is the unit. Experience is not the \em{input} to learning - it \em{is} the process of learning. Experience in the sense of "Job requires 3 years experience". 
-}
-\p{What are the upshots? The first Enlightenment opened a chasm between mind and world, whereas pragmatists see the same structure of order coming out of chaos (by selected habits) everywhere along the continuum of being: molecular configurations, temporarily stable forms of organic matter, temporarily adaptive habits of creatures, untutored common sense of knowers, to the abstract knowledge of natural science. The empiricism and naturalism here fit together far better than in the neokantian tradition.
-}
-\p{For the first time, the rational practices embodying the paradigmatic sort of reason exercised by scientists understanding natural processes become visible as continuous with, and intelligible in just the same terms as, the physical processes paradigmatic of what is understood. 
-}
+  \p{Pierce saw a structure common to evolution and learning. Even the laws of physics emerged as "habits" from selection processes emerging from chaos.
+  }
+  \p{Pierce doesn't worry about epistemic fallibilism (maybe we have the laws wrong) - after all the laws may change themselves (ontological fallibilism / mutabilism). Nature is fluid, stochastic, and its regularities were themselves contingent.
+  }
+  \p{Newtonian science was a matter of \em{theories}, but by the middle of the 19th century through technology (the practical arm of science), science had practical successes that justified its theoretical insight. Technology \em{embodies} understanding. So pragmatists saught to situate knowing \em{that} (some claim is true) in the larger field of knowing \em{how} (to do something). From \em{anatomy} to \em{physiology} (from \em{structure} to \em{function}).
+  }
+  \p{Like the first Englightenment, pragmatists were both naturalist (ontologically) and empiricist (epistemologically). The old empiricism thought the unit of experience was self-contained events/epsiodes. \em{Erlebnis} in contrast to experience as Hegel thought it, \em{Erfahrung}. For pragmatists, the Test-Operate-Test-Exit cycle[^tote] is the unit. Experience is not the \em{input} to learning - it \em{is} the process of learning. Experience in the sense of "Job requires 3 years experience".
+  }
+  \p{What are the upshots? The first Enlightenment opened a chasm between mind and world, whereas pragmatists see the same structure of order coming out of chaos (by selected habits) everywhere along the continuum of being: molecular configurations, temporarily stable forms of organic matter, temporarily adaptive habits of creatures, untutored common sense of knowers, to the abstract knowledge of natural science. The empiricism and naturalism here fit together far better than in the neokantian tradition.
+  }
+  \p{For the first time, the rational practices embodying the paradigmatic sort of reason exercised by scientists understanding natural processes become visible as continuous with, and intelligible in just the same terms as, the physical processes paradigmatic of what is understood.
+  }
 }
 \subtree{\title{Pragmatism and romanticism}
 
-\p{The above ideas echo themes of romantic criticisms of the first enlightenment: rejection of passive / spectator theories of knowledge, abstract principle hollow unless rooted in concrete practice, universality rejected as a hallmark of understanding.
-}
-\p{However, pragmatism did not recoil from reason like Romanticism did; it's just that their version of reason is flexible and adaptable rather than the mastery of universal principles. Romanticism had almost no direct influence, rather pragmatists thought they were making friendly amendments to existing ideas.
-}
+  \p{The above ideas echo themes of romantic criticisms of the first enlightenment: rejection of passive / spectator theories of knowledge, abstract principle hollow unless rooted in concrete practice, universality rejected as a hallmark of understanding.
+  }
+  \p{However, pragmatism did not recoil from reason like Romanticism did; it's just that their version of reason is flexible and adaptable rather than the mastery of universal principles. Romanticism had almost no direct influence, rather pragmatists thought they were making friendly amendments to existing ideas.
+  }
 
-\p{[^tote]: Perception, action, and then further perception of the results of the action.
-}
+  \p{[^tote]: Perception, action, and then further perception of the results of the action.
+  }
 }
 \subtree{\title{Rortyan critique of objectivity}
 
@@ -106,10 +109,10 @@ Kuklick describes Misak as the jewel in the crown of the scholars of American ph
 \p{A Kantian problematic: Kant invites us to ask which features of our vocabulary are as they are because of how the world is vs how we are? This underlies Carnapian pragmatism.[^k]
 }
 \ul{
-\li{No one thinks the world is responsible for us describing it in English/German.}
-\li{But it can seem like the utility of simpler theories over complex theories as reflecting a feature of the world.}
-\li{Or is the utility of mathematical vocabularies reflecting a feature of the world?}
-\li{Or is our grammar reflecting the reality that the world truly has objects and relations among them?}
+  \li{No one thinks the world is responsible for us describing it in English/German.}
+  \li{But it can seem like the utility of simpler theories over complex theories as reflecting a feature of the world.}
+  \li{Or is the utility of mathematical vocabularies reflecting a feature of the world?}
+  \li{Or is our grammar reflecting the reality that the world truly has objects and relations among them?}
 
 }
 \p{Rorty is suspicious about the above question. He is not saying that \em{nothing} should be attributed to the world we are talking about - he's rejecting the demand to apportion the responsibility at all.[^beg] He thinks it makes us ask \em{bad} questions (e.g. the metaphysical examples above).

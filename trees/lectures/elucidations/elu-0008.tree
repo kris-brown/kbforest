@@ -1,48 +1,51 @@
-\title{16. Justice}
+\title{Justice}
 \tag{elucidations}
+\number{16}
+\author{sen}
+\parent{elu-0029}
 
 \subtree{\title{Rawls' political philosophy}
 
-\p{"Completing" the contract theory
-of justice started by Hobbes, developed by Locke / Rousseau / Kant. He can be
-argued to be the most influential modern political philosopher. }
+  \p{"Completing" the contract theory
+    of justice started by Hobbes, developed by Locke / Rousseau / Kant. He can be
+    argued to be the most influential modern political philosopher. }
 }
 \subtree{\title{Non-contractural theory}
-\p{Most theories are contractural but not Sen's. They don't think pursuit of justice involves looking for the perfectly just world.
-}   \ul{
-\li{Issues of injustice:}
+  \p{Most theories are contractural but not Sen's. They don't think pursuit of justice involves looking for the perfectly just world.
+  }   \ul{
+    \li{Issues of injustice:}
     \li{people who need medicine that can be cheaply produced}
     \li{children not being educaiton}
-    \li{tons of other ways. Addressing these individually won't create a perfectly 
+    \li{tons of other ways. Addressing these individually won't create a perfectly
       just world}}
-\p{We can aspire to a perfectly just institution without guaranteeing a 
-  perfectly just world}
-\ul{
-  \li{The latter also depends on people's behavior/natures.}
-    \ul{
-    \li{E.g. if people are incorruptable, then more socially trusting institutions 
-      become feasible.}}
-\li{Seeking a perfect world will not help us rank all of the imperfect worlds we 
-  have as more promixate options.}
+  \p{We can aspire to a perfectly just institution without guaranteeing a
+    perfectly just world}
   \ul{
-  \li{Neither necessary nor sufficient to have a particular target.}
+    \li{The latter also depends on people's behavior/natures.}
     \ul{
-    \li{Do we have no basis for saying something is unjust?}
-    \li{Example: you're in a sauna and the temperature keeps going up. Once you 
-      feel in danger, you try to leave but the door is locked. Someone outside 
-      sees but can't open the door either. But he does have access to the 
-      temperature control. You ask him to lower and he says "what is the ideal 
-      temperature you want" which you don't know. He could object that without 
-      a principled goal, all there is arbitrary gut reaction (the point: gut 
-      reaction is important)}}}}
+      \li{E.g. if people are incorruptable, then more socially trusting institutions
+        become feasible.}}
+    \li{Seeking a perfect world will not help us rank all of the imperfect worlds we
+      have as more promixate options.}
+    \ul{
+      \li{Neither necessary nor sufficient to have a particular target.}
+      \ul{
+        \li{Do we have no basis for saying something is unjust?}
+        \li{Example: you're in a sauna and the temperature keeps going up. Once you
+          feel in danger, you try to leave but the door is locked. Someone outside
+          sees but can't open the door either. But he does have access to the
+          temperature control. You ask him to lower and he says "what is the ideal
+          temperature you want" which you don't know. He could object that without
+          a principled goal, all there is arbitrary gut reaction (the point: gut
+          reaction is important)}}}}
 
 }
 \subtree{\title{Many kinds of Justice}
-\p{There are many kinds of justice, not a single scale:
-}
-\ul{
-\li{Liberty, fairness, reducing inequality, removing poverty}
-\li{For Rawls, these all matter but he strictly orders them in importance like 
-  above. This is a more natural to trade off, like a small concession in liberty could be worth 
-    a huge reduction in poverty}}
+  \p{There are many kinds of justice, not a single scale:
+  }
+  \ul{
+    \li{Liberty, fairness, reducing inequality, removing poverty}
+    \li{For Rawls, these all matter but he strictly orders them in importance like
+      above. This is a more natural to trade off, like a small concession in liberty could be worth
+      a huge reduction in poverty}}
 }

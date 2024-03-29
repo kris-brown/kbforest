@@ -1,0 +1,8 @@
+\title{Cartesian product}
+\date{2024-03-15}
+
+\p{The cartesian product of sets #{A} and #{B}, denoted #{A \times B}, is the
+set of pairs of elements where the first comes from #{A} and the second comes
+from #{B}.}
+
+#{A \times B := \{(a,b)\ |\ a\in A, b \in B\}}

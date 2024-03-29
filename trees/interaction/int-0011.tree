@@ -2,7 +2,7 @@
 \import{base-macros}
 
 \p{
-Rorty takes for granted a distinction of [Dewey](john-dewey):
+  [Rorty](rorty) takes for granted a distinction of [Dewey](dewey):
 }
 
 \table{
@@ -30,20 +30,18 @@ Rorty takes for granted a distinction of [Dewey](john-dewey):
 
 
 \ul{
-\li{Platonists look for a principle or rule, something explicit or that could be 
-  made explicit, behind every implicit propriety of practice.}
+  \li{Platonists look for a principle or rule, something explicit or that could be
+    made explicit, behind every implicit propriety of practice.}
 
-\li{[Pragmatists](phil-0103) argue that explicit principles or theories float on a vast sea of 
-  implicit practical skills.
+  \li{[Pragmatists](phil-0103) argue that explicit principles or theories float on a vast sea of
+    implicit practical skills.
+  }
 }
-}
-\p{What's at stake: the order of explanation / conceptual priority between \em{principles} and \em{practices}.}
+\p{What's at stake: the [order of explanation](blog-0008) / conceptual priority between \em{principles} and \em{practices}.}
 
-\p{For example, a cobbler can make good shoes. The platonist looks for what form is 
-behind his mastery, what principle / mental representation makes it possible 
-that the cobbler does that? The pragmatist treats the skill as prior to the 
-principle.
+\p{For example, a cobbler can make good shoes. The platonist looks for what form is behind his mastery, what principle / mental representation makes it possible that the cobbler does that? The pragmatist treats the skill as prior to the principle.
 }
+
 \p{[^lo]: Lower case because it's not just Plato implicated here. Kant, too.
 }
 \p{Rorty sees [representationalism](phil-0118) as the distinctly modern form of platonism as described above.

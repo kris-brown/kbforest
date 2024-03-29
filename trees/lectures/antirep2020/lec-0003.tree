@@ -1,4 +1,8 @@
 \title{Rorty Finds His Pragmatist Voice}
+\author{brandom}
+\parent{lec-0024}
+\number{3}
+
 \import{base-macros}
 
 \subtree{\title{Major lessons}
@@ -29,7 +33,7 @@
 \subtree{\title{Platonist / Pragmatist distinction}
 
 
-  \p{Rorty takes for granted a [distinction](int-0011) of [Dewey](john-dewey):
+  \p{Rorty takes for granted a [distinction](int-0011) of [Dewey](dewey):
   }
   \table{
     \tr{
@@ -64,7 +68,7 @@
   }
   \p{Rorty sees representationalism as the distinctly modern form of platonism as described above.
   }
-  \p{[Kant](kant) is the avatar of this form of representationalism: representations and rules are two sides of the same coin. He puts principle over practice (opposed by Dewey, who was followed by early [Heidegger](martin-heidegger) and late [Wittgenstein](wittgenstein) in this respect).
+  \p{[Kant](kant) is the avatar of this form of representationalism: representations and rules are two sides of the same coin. He puts principle over practice (opposed by Dewey, who was followed by early [Heidegger](heidegger) and late [Wittgenstein](wittgenstein) in this respect).
   }
 }
 \subtree{\title{The vocabulary vocabulary}
@@ -72,7 +76,7 @@
 
 \p{This is Rorty's way of talking about  [language game](phil-0063)s / paradigms.[^kuhn] Vocabularies are what we deploy in discursive practice.
 }
-\p{[^kuhn]: In the [Kuhnian](thomas-kuhn) sense -  Kuhn was writing just down the hall from Rorty. Though Kuhn was talking about vocabularies that weren't autonomous discursive practices.
+\p{[^kuhn]: In the [Kuhnian](kuhn) sense -  Kuhn was writing just down the hall from Rorty. Though Kuhn was talking about vocabularies that weren't autonomous discursive practices.
 }
 \p{He thinks this is needed as a [successor notion](ref-0134) to the idea of languages and theories, which was rightfully taken apart by Quine's [Two Dogmas of Empiricism](ref-0068). Examples:
 }
@@ -97,7 +101,7 @@
   \li{But it would be a serious mistake to take this extreme, artificial case to  be the paradigm on the basis of which we understand the use of language in general.[^hei] }
 }
 
-\p{[^hei]: Here we might think of  [Heidegger](martin-heidegger) on the effort it takes to precipitate Vorhandenheit out of Zuhandenheit.
+\p{[^hei]: Here we might think of  [Heidegger](heidegger) on the effort it takes to precipitate Vorhandenheit out of Zuhandenheit.
 }
 \p{\em{Sometimes} we want to prevent the vocabulary from changing, [but not always](q-0026).
 }
@@ -122,7 +126,7 @@
     \li{He then learned not to do this. It's related to his later view that language  is a motley.}
 
   }
-  \p{[Dummett](michael-dummett)'s interpretation of Wittgenstein:
+  \p{[Dummett](dummett)'s interpretation of Wittgenstein:
   }
   \ul{
     \li{Wittgenstein would think that if there were any use for a philosophical notion  of meaning, the point of having a notion of meaning would be to codify  proprieties of use.}

@@ -1,84 +1,86 @@
-\title{5. Perception}
+\title{Perception}
 \tag{elucidations}
+\number{5}
+\author{jocelyn-benoist}
 
-\p{What is interesting about perception for philosophers (distinct from 
-biologists/neuroscientists)?}
-    \p{Perception has necessary role within analysis of certain concepts}
+\p{What is interesting about perception for philosophers (distinct from
+  biologists/neuroscientists)?}
+\p{Perception has necessary role within analysis of certain concepts}
 
 \subtree{\title{Philophers need not come up with a theory of perception}
-\p{
-Empirical facts about perception may be useful, and the physical theories of perception need not be challenged}
-\p{E.g. gestalt psychology could be important to phenomonology
-}
-\p{Notion of 'perceptual features'. Empirical question: Is it that to perceive is, essentially, to perceive objects? Every perception is a perception of something?}
-\ul{
-  \li{alternatively, we could also perceive 'features', too}
-  \li{More generally, is perception uniform or is there a richness/complexity of kind in the types of perception? This could influence philosophers who need to discuss the uses of perception.}
-}\p{In some sense, this is just a boring/trivial question about the grammar of 
-  perception.}
-\p{Interesting empirical question: what is the privileged form of perceputal 
-  sensations - how far are we (always) breaking down sense data into 
-  objects? What physical mechanism does this?}
+  \p{
+    Empirical facts about perception may be useful, and the physical theories of perception need not be challenged}
+  \p{E.g. gestalt psychology could be important to phenomonology
+  }
+  \p{Notion of 'perceptual features'. Empirical question: Is it that to perceive is, essentially, to perceive objects? Every perception is a perception of something?}
+  \ul{
+    \li{alternatively, we could also perceive 'features', too}
+    \li{More generally, is perception uniform or is there a richness/complexity of kind in the types of perception? This could influence philosophers who need to discuss the uses of perception.}
+  }\p{In some sense, this is just a boring/trivial question about the grammar of
+    perception.}
+  \p{Interesting empirical question: what is the privileged form of perceputal
+    sensations - how far are we (always) breaking down sense data into
+    objects? What physical mechanism does this?}
 
 }
 \subtree{\title{What should philosophers do}
-\p{Philosophy should disentangle confusions that arise out of the natural usage of the term.}
-\p{An enduring example confusion: Tendency to approach problems in perception from a theory of knowledge.}
-\ul{
-  \li{How much do we know given our perceptions?}
-  \li{How does the knowledge from perceptions interact with other sources of knowledge?}}
-\p{This is often a confusion}
+  \p{Philosophy should disentangle confusions that arise out of the natural usage of the term.}
+  \p{An enduring example confusion: Tendency to approach problems in perception from a theory of knowledge.}
   \ul{
-  \li{(though may make sense in certain contexts, e.g. wondering if I've 
-    seen you before in the street)}}
-\p{It makes us wrongly think of the essence of perception as being in contact / direct relation with the world, as a means of getting knowledge.}
-\p{This is a category error: epistemologists are not actually dealing with perception, rather something derived from perception
-}
+    \li{How much do we know given our perceptions?}
+    \li{How does the knowledge from perceptions interact with other sources of knowledge?}}
+  \p{This is often a confusion}
+  \ul{
+    \li{(though may make sense in certain contexts, e.g. wondering if I've
+      seen you before in the street)}}
+  \p{It makes us wrongly think of the essence of perception as being in contact / direct relation with the world, as a means of getting knowledge.}
+  \p{This is a category error: epistemologists are not actually dealing with perception, rather something derived from perception
+  }
 }\subtree{\title{Local error}
 
-\p{Seeing something far away might be misleading
-}
-\p{Two people could perceive the same phenomenon differently for various reasons
-}
-\p{It's a mistake of philosophers to lift this to questioning perception in 
-  general, questioning whether we ever could be in contact with the real world.
-}
+  \p{Seeing something far away might be misleading
+  }
+  \p{Two people could perceive the same phenomenon differently for various reasons
+  }
+  \p{It's a mistake of philosophers to lift this to questioning perception in
+    general, questioning whether we ever could be in contact with the real world.
+  }
 
 }\subtree{\title{Contact with the outside world}
-\p{Raw data (waves/beams) impinge upon us, our minds make sense of this
-}\p{Optics / biology outside domain of philosophy.}
-\p{Then philosophy asks the trancendental question "how is it possible for us 
-  to access the outside world?"
-} \ul{
+  \p{Raw data (waves/beams) impinge upon us, our minds make sense of this
+  }\p{Optics / biology outside domain of philosophy.}
+  \p{Then philosophy asks the trancendental question "how is it possible for us
+    to access the outside world?"
+  } \ul{
 
-  \li{From what point of view is this question being asked?}
-  \li{"Contact" is a better word than "access" because the fact that we (in the world) are in contact with the world is obvious and nullifies the philosophical question.}
-  \li{This question is a symptom of philosophy since Descartes, implies one has already gone astray from understanding what perception is.}
-\ul{
-    \li{Benoist would respond to a Cartesian skeptic differently; rather, would reject the question as ill-founded because the fact we are in contact with the world is presupposed before asking more abstract/higher order questions.}
-    \li{The fact that Descartes creates this artificial question leads him to the artificial separation of the physical and spiritual world. Both artificialities are related.}
-}  \li{It's fundamental to perception that it's not possible to 'take distance' from perception}
-\ul{
-    \li{(yes, epistemlogically, but that is really treating the uses of perceptions).}
-    \li{It's legitimate inquiry into the role of perception among other aspects of reasoning, but it is not about perception itself.}
-}}
+    \li{From what point of view is this question being asked?}
+    \li{"Contact" is a better word than "access" because the fact that we (in the world) are in contact with the world is obvious and nullifies the philosophical question.}
+    \li{This question is a symptom of philosophy since Descartes, implies one has already gone astray from understanding what perception is.}
+    \ul{
+      \li{Benoist would respond to a Cartesian skeptic differently; rather, would reject the question as ill-founded because the fact we are in contact with the world is presupposed before asking more abstract/higher order questions.}
+      \li{The fact that Descartes creates this artificial question leads him to the artificial separation of the physical and spiritual world. Both artificialities are related.}
+    }  \li{It's fundamental to perception that it's not possible to 'take distance' from perception}
+    \ul{
+      \li{(yes, epistemlogically, but that is really treating the uses of perceptions).}
+      \li{It's legitimate inquiry into the role of perception among other aspects of reasoning, but it is not about perception itself.}
+    }}
 
 }
 \subtree{\title{Making sense of disagreement}
- \p{How does belief in raw contact with the world explain different observers 
-  observing the same thing differently? E.g. "jaundiced eye" seeing the world with yellow tint.}
-\p{Benoist: perception is clearly dependent on where you are}
-\p{The fact it is perspectival does not take away from the fact we are in 
-  direct contact}
-\p{However we also have different faculties which cause differences beyond 
-  geometry (diseases, enhancements).
-}  
+  \p{How does belief in raw contact with the world explain different observers
+    observing the same thing differently? E.g. "jaundiced eye" seeing the world with yellow tint.}
+  \p{Benoist: perception is clearly dependent on where you are}
+  \p{The fact it is perspectival does not take away from the fact we are in
+    direct contact}
+  \p{However we also have different faculties which cause differences beyond
+    geometry (diseases, enhancements).
+  }
   \ul{
-  \li{The yellow of jaundiced eye is just as much a reality and fact of perception as seeing a stick broken in the water.}
+    \li{The yellow of jaundiced eye is just as much a reality and fact of perception as seeing a stick broken in the water.}
     \li{There is a temptation to think when our perspective has dramatically affected the experience of some aspect of reality (stick), that it's no longer the stick which we are perceiving}
     \li{(even though it is the stick, even if it looks different than how we're used to it. It's just the reality of optics that viewed a certain way the experience of a stick is broken)}
     \li{JL Austin: does anyone expect a stick, if it's actually straight, has to appear to be straight under all circumstances?}
-  \li{It is wrong of philosophers to conclude from examples like this that our subjectivity is in between us and contact with reality.}
+    \li{It is wrong of philosophers to conclude from examples like this that our subjectivity is in between us and contact with reality.}
     \li{Our subjectivity is just us being ourselves as we are in relation to the reality.}
     \li{Subjectivity just captures the factors of perception which are dependent on the perceiver's location/faculties}
     \li{Subjectivity is just one aspect of the reality of perception (direct contact with the world).}}

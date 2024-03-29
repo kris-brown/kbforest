@@ -1,0 +1,6 @@
+\title{Atomistic vs holistic mechanics}
+\date{2024-03-27}
+
+\p{\ref{ref-0092} describes Newtonian mechanics as atomistic ("motion of the system is determined by considering how the individual component particles respond to these forces"), whereas Lagrangian mechanics are holistic}
+
+\blockquote{In the variational formulation the equations of motion are formulated in terms of the difference of the kinetic energy and the potential energy. The potential energy is a number that is characteristic of the arrangement of the particles in the system; the kinetic energy is a number that is determined by the velocities of the particles in the system. Neither the potential energy nor the kinetic energy depends on how those positions and velocities are specified. The difference is characteristic of the system as a whole and does not depend on the details of how the system is specified. So we are free to choose ways of describing the system that are easy to work with; we are liberated from the particle-by-particle description inherent in the Newtonian formulation.}

@@ -67,7 +67,7 @@ make sense of a few things which I hope to elaborate on soon:}
 \li{It could be illuminating to think of taking the composite of three arrows vs the single arrow as making a kind of \em{level shift}, e.g. from description in the narrow sense vs description in the wide sense[^s] or first nature vs second nature.[^m] This could resolve philosophical confusion that comes from level shifts which are not made explicit, such as taking a [relational database](https://blog.algebraicjulia.org/post/2020/09/cset-graphs-1/) instance full of facts (e.g. #{src(Edge_1)=tgt(Edge_1)}) and asking if it's a fact in the database that every edge has exactly one source and one target (no, not in some narrow sense, yes in some wider sense, though).}
 }
 \p{[^s]: in Sellars' terminology}
-\p{[^m]: in [MacDowell](john-macdowell)'s terminology}
+\p{[^m]: in [MacDowell](macdowell)'s terminology}
 \p{[^fn]: Understanding someone saying #{\phi} in terms of the laws of physics which dictate the motion of the atoms of their voice box vibrating to produce sounds waves . . . (etc.). This is connected to Huw Price's subject naturalism.
 }
 

@@ -1,4 +1,8 @@
 \title{Rorty's Critique of Enlightenment Representationalism and Analytic Philosophy}
+\author{brandom}
+\parent{lec-0024}
+\number{2}
+
 \import{base-macros}
 \p{
   A discussion of [Philosophy and the Mirror of Nature](ref-0049). Brandom views the core argument to be chapter 4, which this lecture focuses on.
@@ -12,19 +16,19 @@
       \ul{
         \li{Idea originates with [Plato](plato), but Descartes / Kant /  representationalism are modern versions.
         }}}
-    \li{\strong{Neohegelianism}/pragmatism ([Hegel](hegel) socialized philosophy, [Marx](karl-marx) naturalized it). Philosophy brought 'down to Earth'. The American pragmatists continued in this path.}
+    \li{\strong{Neohegelianism}/pragmatism ([Hegel](hegel) socialized philosophy, [Marx](marx) naturalized it). Philosophy brought 'down to Earth'. The American pragmatists continued in this path.}
   }
-  \p{[Bertrand Russell](bertrand-russell) and [Husserl](edmund-husserl) found things for philosophy to be apodictic about. Basis of Rorty's 'astonishing' claim that [Analytic philosophy](phil-0007) is just a phase of neokantianism
+  \p{[Bertrand Russell](russell) and [Husserl](husserl) found things for philosophy to be apodictic about. Basis of Rorty's 'astonishing' claim that [Analytic philosophy](phil-0007) is just a phase of neokantianism
   }
   \ul{
     \li{Russell and those downstream don't think of themselves this way.}
     \li{But they share the idea that philosophy of language is "first philosophy" and that linguistically-inflected philosophy of mind could advance our notions of epistemology and general theory of representation.}
     \li{Shared emphasis on understanding language semantically, distinct from understanding knowledge epistemologically.}
-    \li{Husserl subject to Sellars' critique of the  [Myth of the Given](phil-0079),  [Russell](bertrand-russell) subject to Quine's critique of the [Myth of the Museum](phil-0080). ([Carnap](rudolf-carnap) is subject to both myths).}
+    \li{Husserl subject to Sellars' critique of the  [Myth of the Given](phil-0079),  [Russell](russell) subject to Quine's critique of the [Myth of the Museum](phil-0080). ([Carnap](carnap) is subject to both myths).}
   }
 
   \p{
-    Rorty regards the pragmatist/holist Quine+Sellars rebuttals as bringing us back to [Dewey](john-dewey)'s socialized / historicized / naturalized philosophy.[^de]
+    Rorty regards the pragmatist/holist Quine+Sellars rebuttals as bringing us back to [Dewey](dewey)'s socialized / historicized / naturalized philosophy.[^de]
   }
 
   \p{
@@ -144,7 +148,7 @@
     \li{[Duhem-Quine thesis](phil-0035) }
     \ul{\li{What inferences we are allowed to make depends on the whole of collateral beliefs we have.}}
     \li{The unit of meaning must be the web-of-belief rather than the concept or the sentence.}
-    \li{[Fodor](jerry-fodor) argues against this, considers mixing epistemology and semantics to be a big philosophical mistake initiated by Quine.}
+    \li{[Fodor](fodor) argues against this, considers mixing epistemology and semantics to be a big philosophical mistake initiated by Quine.}
 
   }
 

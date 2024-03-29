@@ -1,0 +1,4 @@
+\title{Relation (math)}
+\date{2024-03-15}
+
+\p{A relation between [sets](math-0001) #{A} and #{B} is a [subset](math-0003) of the [product](math-0004) #{A \times B}.}

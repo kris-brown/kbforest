@@ -1,50 +1,50 @@
 \title{02 - Inference and Meaning and Language Games (2009)}
 
 \subtree{\title{Note on Sellars' style}
-\p{He preferered the 'Mystery story' style:}
-\ul{
+  \p{He preferered the 'Mystery story' style:}
+  \ul{
     \li{There's a problem, and many competing potential explanations}
     \li{These explanations engage each other dialectically}
     \li{Only at the end would you learn the philosopher's actual position}
-}
-\p{In contrast to the 'Journalistic' style:
-}
-\ul{
+  }
+  \p{In contrast to the 'Journalistic' style:
+  }
+  \ul{
     \li{Tell them what you're going to tell them}
     \li{Tell them}
     \li{Tell them what you told them}
-}
+  }
 }\subtree{\title{Material inferences}
 
 
-\transclude{int-0007}
+  \transclude{int-0007}
 
-\subtree{\title{Sellars has two good ideas associated with material inference:}
+  \subtree{\title{Sellars has two good ideas associated with material inference:}
 
-\ol{
-\li{There \em{are} some inferences that are good, not in virtue of their logical form.}
-\li{Turn the above thought on its head and say: we can understand the content of these descriptive terms in terms of the materially good inferences they appear in (as premises or conclusions).}
-}
+    \ol{
+      \li{There \em{are} some inferences that are good, not in virtue of their logical form.}
+      \li{Turn the above thought on its head and say: we can understand the content of these descriptive terms in terms of the materially good inferences they appear in (as premises or conclusions).}
+    }
 
-\p{By this account, material proprieties of inference are more fundamental than / conceptually prior to logical validity. You have to start with the notion of a good inference in order to understand what a logically good inference is.
-}
-}}
+    \p{By this account, material proprieties of inference are more fundamental than / conceptually prior to logical validity. You have to start with the notion of a good inference in order to understand what a logically good inference is.
+    }
+  }}
 \subtree{\title{Aside on the philosophy of logic}
-\p{Aside: It took a while in the 20th century to realize that logic was not about logical truth but rather about validity of inference. In classical logic can you treat these interchangeably, but not all (rough logics vs smooth logics - whether the consequence relation can be determined by the set of all theorems). [Dummett](michael-dummett) has written about this issue.
-}
-\p{What if we picked some other vocabulary (other than logical) to hold fixed? E.g. substituting non-theological vocabulary for non-theological vocabulary. "If justice is loved by the gods then justice is pious". If no matter what we substitute for justice the inference is good, we might say the sentence is true in virtue of its theological form.
-}
-\p{Philosophy of logic (See Quine's and Putnam's books both titled \em{The Philosophy of Logic}) has two classic questions:
-}
-\ol{
-\li{a \em{demarcation} question: what makes something logical vocabulary?
-    \ul{\li{Quine disallows second order quantifiers and the epilson of set theory, whereas Putnam allows them.}}}
-\li{a \em{correctness} question: which logical consequence relation to use:
-    \ul{\li{Classical? Intuitionistic? etc.}}}
-}
+  \p{Aside: It took a while in the 20th century to realize that logic was not about logical truth but rather about validity of inference. In classical logic can you treat these interchangeably, but not all (rough logics vs smooth logics - whether the consequence relation can be determined by the set of all theorems). [Dummett](dummett) has written about this issue.
+  }
+  \p{What if we picked some other vocabulary (other than logical) to hold fixed? E.g. substituting non-theological vocabulary for non-theological vocabulary. "If justice is loved by the gods then justice is pious". If no matter what we substitute for justice the inference is good, we might say the sentence is true in virtue of its theological form.
+  }
+  \p{Philosophy of logic (See Quine's and Putnam's books both titled \em{The Philosophy of Logic}) has two classic questions:
+  }
+  \ol{
+    \li{a \em{demarcation} question: what makes something logical vocabulary?
+      \ul{\li{Quine disallows second order quantifiers and the epilson of set theory, whereas Putnam allows them.}}}
+    \li{a \em{correctness} question: which logical consequence relation to use:
+      \ul{\li{Classical? Intuitionistic? etc.}}}
+  }
 
-\p{Sellars challenges this tradition (logical empiricism) by pointing out there is a concern conceptually prior in the order of explanation to philosophy of logic: materially good inferences.
-}
+  \p{Sellars challenges this tradition (logical empiricism) by pointing out there is a concern conceptually prior in the order of explanation to philosophy of logic: materially good inferences.
+  }
 }
 \subtree{\title{Inference and Meaning}
 
@@ -52,28 +52,28 @@
 }
 \p{A slogan for this: "Concepts as involving laws (and inconceivable without them)"}
 \ul{
-    \li{This is actually the title of an unintelligible essay by Sellars}
-    \li{Luckily the title is the thesis, and that much is intelligible}
+  \li{This is actually the title of an unintelligible essay by Sellars}
+  \li{Luckily the title is the thesis, and that much is intelligible}
 }
 \p{Sellars claims logical vocabulary has the expressive job of making explicit the material proprieties of inference that articulate the content of non-logical concepts.
 }
 \p{More specifically than 'logical', he means \em{alethic modal} vocabulary: i.e. what's \em{necessary} and what's \em{possible}.
 }
 \p{Historical note: Frege is more explicit about this point than Sellars: that you can use this to distinguish logical vocabulary.The [Montaigne example](phil-0078) highlights the difference between the capacity to use material inferences vs making that inference explicit:
-}    
+}
 \ul{
-\li{Dan Dennett argues that we have to take animals as grasping modus ponens because they treat some inferences as good and others as bad}
-\li{Sellars objects, saying that you \em{could} make explicit the practical capacity the animal has via a statement of disjunctive syllogism}
-\li{But what is the surplus value of invoking that explicit expression? (Over simply describing what is the dog can do).}
+  \li{Dan Dennett argues that we have to take animals as grasping modus ponens because they treat some inferences as good and others as bad}
+  \li{Sellars objects, saying that you \em{could} make explicit the practical capacity the animal has via a statement of disjunctive syllogism}
+  \li{But what is the surplus value of invoking that explicit expression? (Over simply describing what is the dog can do).}
 }
 \p{ Talking about following rules very quickly gets into the [Regress of rules](phil-0114).}
 \ul{
-    \li{There have to be some practical moves you're just allowed to make without them having to take the form of explicit premises (see [What the Tortoise said to Achilles](ref-0072).)}
-    \li{Sellars touches upon this in [Some Reflections on Language Games](ref-0060).}
-        \ul{
-        \li{He talks about free/auxillary positions that you're always allowed to occupy.}
-        \li{We could have the auxillary position #{\forall x, \psi(x)\vdash \phi(x)} which would license us to move from a position #{\psi(a)} to a position #{\phi(a)}, but we could also encode this with position for each possiblemove (#{\psi(a)\vdash \phi(a)}, #{\psi(b)\vdash\phi(b)}, ...).}
-        \li{He ways that we could imagine replacing positions with moves, but it's not possible to imagine all moves being replaced with positions ('a game without moves is Hamlet without the Prince of Denmark').}
+\li{There have to be some practical moves you're just allowed to make without them having to take the form of explicit premises (see [What the Tortoise said to Achilles](ref-0072).)}
+\li{Sellars touches upon this in [Some Reflections on Language Games](ref-0060).}
+\ul{
+\li{He talks about free/auxillary positions that you're always allowed to occupy.}
+\li{We could have the auxillary position #{\forall x, \psi(x)\vdash \phi(x)} which would license us to move from a position #{\psi(a)} to a position #{\phi(a)}, but we could also encode this with position for each possiblemove (#{\psi(a)\vdash \phi(a)}, #{\psi(b)\vdash\phi(b)}, ...).}
+\li{He ways that we could imagine replacing positions with moves, but it's not possible to imagine all moves being replaced with positions ('a game without moves is Hamlet without the Prince of Denmark').}
 }}
 \p{Sellars is addressing tradition that wants some small set of explicit principles in accordance with which to reason. Any inference you think is good that isn't derivable from that small set of principles (e.g. modus ponens) is actually an infamy (has some suppressed premises). This is early analytic philosophy's embrace of the new logic. Sellar's contrary view (radical at the time) is that actually the reasoning could be completely in order, just with material proprieties of reasoning. You can still give/ask for reasons and mean that #{p}, but what the logic does is give you meta-linguistic control to talk about what is a good inference and say that #{p \vdash q} is a good inference.[^inf]
 }
@@ -91,38 +91,38 @@
 }
 \p{"Red is a quality". This conveys the same information as the syntactical sentence "\em{Red} is a one place predicate." See [quote](q-0152). What you're \em{doing} in asserting that premise from which to reason (couched in modal vocabulary) is endorsing a principle in accordance with which to reason (couched in normative vocabulary).
 }
-\p{We cannot completely identify modal and normative statements with each other. 
+\p{We cannot completely identify modal and normative statements with each other.
   Their relation is characterized by the say/convey distinction.
 }
 
 \p{[^inf]: However, Sellars doesn't extrapolate from this that logic is an \em{optional} superstructure in our lives - we need to be able to think and talk about the goodness of inferences.
 }
 \subtree{\title{Say/convey distinction}
-\p{When I say "copper melts at 1084 degrees" one makes a claim that is true even if there were no reasoners (so it can't be a claim directly \em{about} inferences being good). What it \em{conveys} is about inferences, not what it \em{says}. Likewise, I say "The sun is shining" while I convey "I believe the sun is shining."
-}
-\p{It might help to make progress toward understanding the say/convey distinction (which Sellars admits he's not clear about) by distinguishing two flavors of inference:
-}
-\ol{
-\li{semantic inference: good in virtue of the contents of the premises and the conclusion}
-\li{pragmatic inference: good in virtue of what you're doing in asserting the premises or the conclusion.}
-\ul{
-    \li{e.g. John says 'your book is terrible' and I infer that he's mad at me}
-    \li{Geech embedding distinction between the two: we look at whether we'd endorse "My book is terrible, then John is mad at me". Because we wouldn't, we know the inference is pragmatic.}
-}}
+  \p{When I say "copper melts at 1084 degrees" one makes a claim that is true even if there were no reasoners (so it can't be a claim directly \em{about} inferences being good). What it \em{conveys} is about inferences, not what it \em{says}. Likewise, I say "The sun is shining" while I convey "I believe the sun is shining."
+  }
+  \p{It might help to make progress toward understanding the say/convey distinction (which Sellars admits he's not clear about) by distinguishing two flavors of inference:
+  }
+  \ol{
+    \li{semantic inference: good in virtue of the contents of the premises and the conclusion}
+    \li{pragmatic inference: good in virtue of what you're doing in asserting the premises or the conclusion.}
+    \ul{
+      \li{e.g. John says 'your book is terrible' and I infer that he's mad at me}
+      \li{Geech embedding distinction between the two: we look at whether we'd endorse "My book is terrible, then John is mad at me". Because we wouldn't, we know the inference is pragmatic.}
+    }}
 
 }
 \subtree{\title{Do subjunctive conditionals describe possible worlds?}
 
-\p{Potential counterargument against Sellars: subjunctive conditionals are not making explicit proprieties of inference, but in fact are descriptions about possible worlds. To address this, we note there are separate issues.}
+  \p{Potential counterargument against Sellars: subjunctive conditionals are not making explicit proprieties of inference, but in fact are descriptions about possible worlds. To address this, we note there are separate issues.}
 
-\p{Firstly, there's the question about whether it's intelligible to have descriptive vocabulary in play in a context where there's no counterfactual reasoning. E.g. Hume believes he understands empirical facts perfectly well (the cat is on the mat) but not statements about what's possible and necessary. But Kant saw that this isn't intelligible - you need to make a distinction about what's possible with the cat and what's not (it's possible for the cat to not be on the mat, but not possible for it to be larger than the sun) or else there's nothing you could say about the content of the concept of 'cat' that I've got (it would be just a label).
-}
-\p{The second issue is the codifiability of proprieties of material inference by logical vocabulary: whether a possible worlds analysis is incompatible with seeing subjunctive conditionals as making properties of inference explicit. Sellars would like to see a possible worlds analysis that matches up.
-}
+  \p{Firstly, there's the question about whether it's intelligible to have descriptive vocabulary in play in a context where there's no counterfactual reasoning. E.g. Hume believes he understands empirical facts perfectly well (the cat is on the mat) but not statements about what's possible and necessary. But Kant saw that this isn't intelligible - you need to make a distinction about what's possible with the cat and what's not (it's possible for the cat to not be on the mat, but not possible for it to be larger than the sun) or else there's nothing you could say about the content of the concept of 'cat' that I've got (it would be just a label).
+  }
+  \p{The second issue is the codifiability of proprieties of material inference by logical vocabulary: whether a possible worlds analysis is incompatible with seeing subjunctive conditionals as making properties of inference explicit. Sellars would like to see a possible worlds analysis that matches up.
+  }
 }}
 \subtree{\title{Some Reflections on Language Games}
 
-\p{Regulism (conceptual norms as a matter of explicit rules) vs regularism (norms in terms of actual regularities). These are identified with empiricist and rationalist approaches. 
+\p{Regulism (conceptual norms as a matter of explicit rules) vs regularism (norms in terms of actual regularities). These are identified with empiricist and rationalist approaches.
 }
 \p{One purpose: "I shall have a chief my present purpose if I've made plausible the idea that an organism might come to play a language game, that is to move from position to position, the system of moves and positions, and to do it because of the system without having to obey rules, and hence without having to be playing a meta language game.'' (Section 18)
 }
@@ -134,42 +134,42 @@
 
 \p{(him making point about distinction of real inferences and mere associations. )
 }
-\p{No distinction between correct and incorrect can be made by purely pointing to 
-regularity - as Wittgenstein pointed out, you'll always find some regularity 
-(there's some elegant rule that generates the sequence, for any arbitrary 
+\p{No distinction between correct and incorrect can be made by purely pointing to
+regularity - as Wittgenstein pointed out, you'll always find some regularity
+(there's some elegant rule that generates the sequence, for any arbitrary
 sequence). This is also called '[disjunctivitis](phil-0031)' or 'gerrymandering' objections.
 }
-\blockquote{What's denied is the playing a game logically involves obedience to the rules of the game. And hence the ability to use the language to play the language game 
-in which the rules are formulated.}
+\blockquote{What's denied is the playing a game logically involves obedience to the rules of the game. And hence the ability to use the language to play the language game
+  in which the rules are formulated.}
 
-\p{(page 29) Need a sense of playing the game 
-stronger than conforming but weaker than having the rules in mind.
+\p{(page 29) Need a sense of playing the game
+  stronger than conforming but weaker than having the rules in mind.
 }
-\p{Metaphysicus suggests why not a non-linguistic awareness of the rules? This is 
-its own regress.
+\p{Metaphysicus suggests why not a non-linguistic awareness of the rules? This is
+  its own regress.
 }
-\blockquote{We've tacitly accepted so far and the dialectic dichotomy between merely 
-conforming to the rules and obey. But surely this is a false dichotomy. Is there 
-something in between, for it required us to suppose that the only way in which a 
-complex system of activity can be involved in the explanation of the occurrence 
-of a particular act is by the agent explicitly envisaging the system and 
-intending its realization. And that's as much as to say that unless the agent 
-conceives of the system, the conformity of his behavior to the system must be 
-accidental.}
+\blockquote{We've tacitly accepted so far and the dialectic dichotomy between merely
+  conforming to the rules and obey. But surely this is a false dichotomy. Is there
+  something in between, for it required us to suppose that the only way in which a
+  complex system of activity can be involved in the explanation of the occurrence
+  of a particular act is by the agent explicitly envisaging the system and
+  intending its realization. And that's as much as to say that unless the agent
+  conceives of the system, the conformity of his behavior to the system must be
+  accidental.}
 
-\p{So what's needed he's saying, is going to be something that says, look, 
-  there's an explanation of why he conforms to the rules. That invokes the 
-  rules, but it doesn't invoke them by him being aware of them. One example of 
+\p{So what's needed he's saying, is going to be something that says, look,
+  there's an explanation of why he conforms to the rules. That invokes the
+  rules, but it doesn't invoke them by him being aware of them. One example of
   this is teleosemantics. See [Bee Waggle](phil-0015).}
 
-\p{The essential thing for Kant was a distinction between what was between acting 
-according to a rule and acting according to a conception of a rule, or a 
-representation (Vorstellung) of a rule. So, ordinary natural objects act 
-according to rules, the laws of nature, but we act according to representations 
-of rules / to conceptions of rules.
+\p{The essential thing for Kant was a distinction between what was between acting
+  according to a rule and acting according to a conception of a rule, or a
+  representation (Vorstellung) of a rule. So, ordinary natural objects act
+  according to rules, the laws of nature, but we act according to representations
+  of rules / to conceptions of rules.
 }
-\p{The explanation as to why I use the word 'purple' for purple things, the rule 
-plays a crucial part even if it is not in my head. It is in the teachers' heads (they're already in the language and can conceive of rules). So the rule is causally antecedent to my behavior, so I can be following the rule (without regress).
+\p{The explanation as to why I use the word 'purple' for purple things, the rule
+  plays a crucial part even if it is not in my head. It is in the teachers' heads (they're already in the language and can conceive of rules). So the rule is causally antecedent to my behavior, so I can be following the rule (without regress).
 }
 \p{Related question addressed here: [classical behaviorism](phil-0016).
 }
@@ -179,8 +179,8 @@ plays a crucial part even if it is not in my head. It is in the teachers' heads 
 }
 \p{There is debate (but it should be more of a bigger deal, in Brandom's opinion) about what are the minimal features needed for one to have a discursive language practice. Brandom views logical language as optional (though the expressive power would be incredibly stunted, you could still give and ask for reasons). MacDowell and Sellars think otherwise, that there can't be discourse without a meta-language.
 }
-\p{Sellars needs the notion of language to be something that evolves over time 
-(rather than an instantaneous collection of rules) because we want the decision to make a material move to occur within a language (one is not doing 
-redescription in another language).
+\p{Sellars needs the notion of language to be something that evolves over time
+  (rather than an instantaneous collection of rules) because we want the decision to make a material move to occur within a language (one is not doing
+  redescription in another language).
 }
 }

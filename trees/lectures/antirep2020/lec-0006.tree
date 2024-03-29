@@ -1,23 +1,27 @@
 \title{Rorty's Political Turn}
+\author{brandom}
+\parent{lec-0024}
+\number{6}
+
 \import{base-macros}
 \subtree{\title{Periodizing Rorty's Antirepresentationalism}
 
-\p{Rorty's overall goal was how to see the world without representationalism.
-}
-\ol{
-\li{ [PMN](ref-0049), epistemological foundationalism is the result of representationalism, and it is bad.}
+  \p{Rorty's overall goal was how to see the world without representationalism.
+  }
+  \ol{
+    \li{ [PMN](ref-0049), epistemological foundationalism is the result of representationalism, and it is bad.}
 
-\li{ Gets to social pragmatism about normativity, already in [Consequences of Pragmatism](ref-0010). But doesn't yet know how to use this as an argument for the conclusion he wants.
-}
-\p{'Vocabulary' vocabulary undercuts idea of some aspects of our discursive practice being responsible to how things are, as opposed to contingent (relative to how things are) features of our practices. But how does this work, exactly? Urges vocabulary-relativity of everything. But quick argument of that form is retrograde, backsliding Carnapian pragmatism, not post-Quinean.
-}
-}
-\p{What more careful antirepresentationalist uses can RR make of the 'vocabulary' vocabulary?
-}
-\p{Some ideas that get explored in trying to make 'vocabulary' vocabulary's undercutting of Kantian problematic the basis for an argument for antirepresentationalism that goes beyond “that old pragmatist chestnut: when you describe what is represented, you are using another description.”
-}
-\p{Antiauthoritarianism. This has some variants, at least one of which (combining social pragmatism about normativity with a normative analysis of representation) yields his best argument
-}
+    \li{ Gets to social pragmatism about normativity, already in [Consequences of Pragmatism](ref-0010). But doesn't yet know how to use this as an argument for the conclusion he wants.
+    }
+    \p{'Vocabulary' vocabulary undercuts idea of some aspects of our discursive practice being responsible to how things are, as opposed to contingent (relative to how things are) features of our practices. But how does this work, exactly? Urges vocabulary-relativity of everything. But quick argument of that form is retrograde, backsliding Carnapian pragmatism, not post-Quinean.
+    }
+  }
+  \p{What more careful antirepresentationalist uses can RR make of the 'vocabulary' vocabulary?
+  }
+  \p{Some ideas that get explored in trying to make 'vocabulary' vocabulary's undercutting of Kantian problematic the basis for an argument for antirepresentationalism that goes beyond “that old pragmatist chestnut: when you describe what is represented, you are using another description.”
+  }
+  \p{Antiauthoritarianism. This has some variants, at least one of which (combining social pragmatism about normativity with a normative analysis of representation) yields his best argument
+  }
 }
 \subtree{\title{A Closer look at the Various Antirepresentationalist Arguments:}
 
@@ -30,9 +34,9 @@
 \p{This is the precursor for his key pragmatist idea, that the ontological distinctions of subjective / social / objective are \em{socially determined} (what matters is how we talk \em{about} the thing):
 }
 \ul{
-\li{subjective - the speaker has authority over it}
-\li{social - the community has authortiy over it (e.g. the proper greeting gesture of a tribe)}
-\li{objective - neither individuals nor communities are authoritive.[^br]}
+  \li{subjective - the speaker has authority over it}
+  \li{social - the community has authortiy over it (e.g. the proper greeting gesture of a tribe)}
+  \li{objective - neither individuals nor communities are authoritive.[^br]}
 
 }
 \p{Rorty combines this view with "social pragmatism about norms" (all matters of authority and responsibility are matters of roles in social practices).
@@ -43,11 +47,11 @@
 }
 \p{RR wanted to use the pragmatist considerations that speak in favor of the vocabulary-in- use vocabulary to undercut the Kantian problematic of assigning \em{responsibility} for different features of our discursive practice to what is represented by it and to aspects of our practices of representing it.
 }
-\p{The argument has \strong{two} phases: 
+\p{The argument has \strong{two} phases:
 }
 \ul{
-\li{First we need to establish what the real (holistic) content of expressions / thoughts / commitments.} 
-\li{Then we apply the vocabulary vocabulary: "you can't think about the world in the representationalist way if you appreciate the holistic feature of the contents of our thoughts".}
+  \li{First we need to establish what the real (holistic) content of expressions / thoughts / commitments.}
+  \li{Then we apply the vocabulary vocabulary: "you can't think about the world in the representationalist way if you appreciate the holistic feature of the contents of our thoughts".}
 }
 
 \subtree{\title{Vehicle-less content}
@@ -69,8 +73,8 @@
 }
 \p{These are two dimensions of denial that the intentional states can be specified in “subpersonal” terms.
 }
-\p{We then apply this argument not just to intentional states,  
-but to the idea of things that make those states true (or false): truthmakers (Armstrong).
+\p{We then apply this argument not just to intentional states,
+  but to the idea of things that make those states true (or false): truthmakers (Armstrong).
 
 }
 
@@ -81,15 +85,15 @@ but to the idea of things that make those states true (or false): truthmakers (A
 \p{What vocabulary would those sentence-shaped truthmakers be specified in? If it is specified in some such terms as “the fact that...” then what vocabulary is the ellipsis to be thought of as filled in with?
 }
 \ul{
-  \li{   “Nature's own vocabulary”?[^nov]}
-  \li{   Or the vocabulary in which the original claim is stated?}
+\li{   “Nature's own vocabulary”?[^nov]}
+\li{   Or the vocabulary in which the original claim is stated?}
 
 }
 \p{In the latter case,
 }
 \ul{
-\li{that is one of our vocabularies, and  }
-\li{How is this different from the Fregean option that there are no truthmakers, and “a fact is just a thinkable that is true”? i.e. in the conceptually articulated “realm of sense” rather than the “realm of reference”?}
+  \li{that is one of our vocabularies, and  }
+  \li{How is this different from the Fregean option that there are no truthmakers, and “a fact is just a thinkable that is true”? i.e. in the conceptually articulated “realm of sense” rather than the “realm of reference”?}
 
 }
 \p{[^nov]: metaphysical objectivists do bite this bullet, say it's fundamental physics. There must be "natural properties" somehow distinguished from Cambridge properties.
@@ -99,10 +103,10 @@ but to the idea of things that make those states true (or false): truthmakers (A
 }
 \subtree{\title{Related issue}
 
-\p{If a property is just an aspect that two things can share, then there are an infinite number of ways two objects can be similar or dissimilar. But we want to privilege some of those respects as "natural properties" which they do really share. That notion of privilege is normative - the \em{world} does not distinguish those properties; it's a matter of our social practices.
-}
-\p{Nelson Goodman asks this same question in in [Fact, Fiction, and Forecast](ref-0020): "which properties should we project in our inductive inferences?". Wittgenstein asks this same question in considering all the possible ways we can follow a rule. Both conclude pragmatically that it is up to our social practices to pick from all the possibilities.
-}
+  \p{If a property is just an aspect that two things can share, then there are an infinite number of ways two objects can be similar or dissimilar. But we want to privilege some of those respects as "natural properties" which they do really share. That notion of privilege is normative - the \em{world} does not distinguish those properties; it's a matter of our social practices.
+  }
+  \p{Nelson Goodman asks this same question in in [Fact, Fiction, and Forecast](ref-0020): "which properties should we project in our inductive inferences?". Wittgenstein asks this same question in considering all the possible ways we can follow a rule. Both conclude pragmatically that it is up to our social practices to pick from all the possibilities.
+  }
 }
 \subtree{\title{Justification vs truth}
 
@@ -134,35 +138,35 @@ but to the idea of things that make those states true (or false): truthmakers (A
   }
 }
 \p{
-Dewey's story of spiritual progress: we eventually found satisfaction, where we once had to go to an immortal being for, in relationships with our fellow mortal men.}
+  Dewey's story of spiritual progress: we eventually found satisfaction, where we once had to go to an immortal being for, in relationships with our fellow mortal men.}
 }}
 \subtree{\title{Antiauthoritarian argument}
 
-\p{Three considerations at play:
-}
-\ul{
-\li{It's not \em{intelligible} to acknowledge the authority of anything non-human over our practices. }
-\ul{
-	\li{The notion of authority is the notion of a normative status, and those are always conferred by social practices.}
+  \p{Three considerations at play:
+  }
+  \ul{
+    \li{It's not \em{intelligible} to acknowledge the authority of anything non-human over our practices. }
+    \ul{
+      \li{The notion of authority is the notion of a normative status, and those are always conferred by social practices.}
 
-}\li{Even if it's intelligible, but it's \em{beneath our dignity} to acknowledge the authority of anything nonhuman.}
-\ul{
-	\li{seems to presuppose that in fact the authority lies with us both for improving our practices and for saying what improving them comes to or requires. This would be the “social character of ontology” downstream from social pragmatism about norms.}
+    }\li{Even if it's intelligible, but it's \em{beneath our dignity} to acknowledge the authority of anything nonhuman.}
+    \ul{
+      \li{seems to presuppose that in fact the authority lies with us both for improving our practices and for saying what improving them comes to or requires. This would be the “social character of ontology” downstream from social pragmatism about norms.}
 
-}\li{Rational authority cannot be dogmatic - it must be subject to criticism (and able to defend itself) according to our practices of giving and \em{asking} for reasons. }
-\ul{
-	\li{Therefore we ought not grant authority over our reasons to anything that can't talk—to anything that cannot have its reasons challenged and be required to defend them. Thinking of what we are doing as ultimately “answering” to something of which we cannot demand that it “answer back,” by defending its claims, showing that they are justified.}
-	\li{The question is just whether it is not irrational to cede ultimate authority over our practices of defending claims by giving reasons for them and challenging claims by giving reasons against them, to something that cannot in principle take part in those reasoning practices, something whose only involvement with those practices is to set an objective standard for normative assessment of how well we are doing.}
-	\li{The argument would be that don't need such an external standard, and shouldn't want one, for the same reasons (on the theoretical side) that (on the practical side) we don't need Old Nobodaddy to set ultimate objective moral standards for our practical undertakings, and shouldn't want him too. (The Nietzschean thought that “If God existed, we would have to kill Him.”)}
+    }\li{Rational authority cannot be dogmatic - it must be subject to criticism (and able to defend itself) according to our practices of giving and \em{asking} for reasons. }
+    \ul{
+      \li{Therefore we ought not grant authority over our reasons to anything that can't talk—to anything that cannot have its reasons challenged and be required to defend them. Thinking of what we are doing as ultimately “answering” to something of which we cannot demand that it “answer back,” by defending its claims, showing that they are justified.}
+      \li{The question is just whether it is not irrational to cede ultimate authority over our practices of defending claims by giving reasons for them and challenging claims by giving reasons against them, to something that cannot in principle take part in those reasoning practices, something whose only involvement with those practices is to set an objective standard for normative assessment of how well we are doing.}
+      \li{The argument would be that don't need such an external standard, and shouldn't want one, for the same reasons (on the theoretical side) that (on the practical side) we don't need Old Nobodaddy to set ultimate objective moral standards for our practical undertakings, and shouldn't want him too. (The Nietzschean thought that “If God existed, we would have to kill Him.”)}
 
-}
-}
-\p{Third point a tension between justification and truth.
-}
-\p{It is [fetishistic](phil-0047) (projecting our practices of giving and asking for reasons onto an "objective" world) in the way that Gods commandments are projections of our own socially determined moral rules.  
-}
-\p{An Enlightenment idea is that norms are determined by the community, rather than externally fixed. Prior, the rule of kings and lords was thought of as the great chain of Being with some people naturally ruling over others - social contract theory was developed to show how political authority must derive from the attitudes of the governed.
-}
+    }
+  }
+  \p{Third point a tension between justification and truth.
+  }
+  \p{It is [fetishistic](phil-0047) (projecting our practices of giving and asking for reasons onto an "objective" world) in the way that Gods commandments are projections of our own socially determined moral rules.
+  }
+  \p{An Enlightenment idea is that norms are determined by the community, rather than externally fixed. Prior, the rule of kings and lords was thought of as the great chain of Being with some people naturally ruling over others - social contract theory was developed to show how political authority must derive from the attitudes of the governed.
+  }
 }
 \subtree{\title{Getting an account of truth from justificatory practices}
 
@@ -175,16 +179,16 @@ Dewey's story of spiritual progress: we eventually found satisfaction, where we 
 }}
 \subtree{\title{Beautiful and sublime}
 
-\p{A distinction from Kant, which is further articulated by Edmund Burke.
-}
-\p{One striking illustration of the difference is that before 1700, passengers in carriages going through the Alps kept the windowshades tightly rolled down, to avoid looking at the horrifying vistas. Over the course of the eighteenth century, landscape painters taught people to see those vistas as “picturesque”: literally, the sort of thing one painted pictures of. By the end of that century, people would get in carriages to go into the Alps specifically to look at what they had previously shunned. The terrible sublime had become domesticated as the beautiful.  Rorty uses this distinction to enrich by redescription the opposition between Platonists and pragmatists that we have seen him make before.
-}
-\p{E.H. Gombrich in Art and Illusion, cited on this point by the pragmatist Nelson Goodman in Languages of Art, invokes a psychological experiment in which two contrasting nonsense terms, 'ping; and 'pong' are given a sense by applying them to 6 or 8 cases. It is found that very often, when presented with the same training cases, people learn to “go on in the same way” and will agree on how to apply the terms to new cases.
-}
-\p{Gombrich means this as a deflationary, cautionary tale about discerning genres and using classifications in cultural history. (His particular concern is ranking paintings as “realistic” or not.). Such terms, Gombrich thinks, are as meaningless as 'ping' and 'pong', and all the training on paradigmatic examples does is “engender an illusion of understanding” (to use the phrase Quine applied disparagingly to modal logic).
-}
-\p{Brandom thinks the pragmatist does not draw this deflationary conclusion: this is \em{all there is to understanding}, rather than an illusion of understanding. Ping/pong is a paradigm case for how concepts work.
-}
-\p{Rorty teaches us "beautiful"/"sublime" in a particular way. That is teaching us to notice something, under this redescription, that we could not or would not have noticed otherwise. His deploying of this distinction is filling in the content of his notion of pragmatism.
-}
+  \p{A distinction from Kant, which is further articulated by Edmund Burke.
+  }
+  \p{One striking illustration of the difference is that before 1700, passengers in carriages going through the Alps kept the windowshades tightly rolled down, to avoid looking at the horrifying vistas. Over the course of the eighteenth century, landscape painters taught people to see those vistas as “picturesque”: literally, the sort of thing one painted pictures of. By the end of that century, people would get in carriages to go into the Alps specifically to look at what they had previously shunned. The terrible sublime had become domesticated as the beautiful.  Rorty uses this distinction to enrich by redescription the opposition between Platonists and pragmatists that we have seen him make before.
+  }
+  \p{E.H. Gombrich in Art and Illusion, cited on this point by the pragmatist Nelson Goodman in Languages of Art, invokes a psychological experiment in which two contrasting nonsense terms, 'ping; and 'pong' are given a sense by applying them to 6 or 8 cases. It is found that very often, when presented with the same training cases, people learn to “go on in the same way” and will agree on how to apply the terms to new cases.
+  }
+  \p{Gombrich means this as a deflationary, cautionary tale about discerning genres and using classifications in cultural history. (His particular concern is ranking paintings as “realistic” or not.). Such terms, Gombrich thinks, are as meaningless as 'ping' and 'pong', and all the training on paradigmatic examples does is “engender an illusion of understanding” (to use the phrase Quine applied disparagingly to modal logic).
+  }
+  \p{Brandom thinks the pragmatist does not draw this deflationary conclusion: this is \em{all there is to understanding}, rather than an illusion of understanding. Ping/pong is a paradigm case for how concepts work.
+  }
+  \p{Rorty teaches us "beautiful"/"sublime" in a particular way. That is teaching us to notice something, under this redescription, that we could not or would not have noticed otherwise. His deploying of this distinction is filling in the content of his notion of pragmatism.
+  }
 }

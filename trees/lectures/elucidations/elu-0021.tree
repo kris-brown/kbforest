@@ -1,5 +1,8 @@
-\title{34. Moral disagreement}
+\title{Moral disagreement}
 \tag{elucidations}
+\author{kieran-setiya}
+\number{34}
+\parent{elu-0029}
 
 \p{Moral realism :The claim that moral claims are objectively true or false}
 \ul{
@@ -8,39 +11,39 @@
   \li{Question KS is interested: what are the implications of moral reason}
 }
 \p{But moral disagreement makes people think moral realism is false.
-} 
- \p{If it were true, then we'd converge on the truth like science.}
+}
+\p{If it were true, then we'd converge on the truth like science.}
 \ul{
-\li{But it's unclear why one would think moral facts would make people converge on a solution.}
-\ul{
-  \li{Also historically, we had long periods of time where you'd look back and not see convergence (e.g. whether world was flat or not). By analogy, perhaps we are doing that with in morality.}
-}\li{It's rather about how we can be justified to believe moral truths that would make you expect}
+  \li{But it's unclear why one would think moral facts would make people converge on a solution.}
+  \ul{
+    \li{Also historically, we had long periods of time where you'd look back and not see convergence (e.g. whether world was flat or not). By analogy, perhaps we are doing that with in morality.}
+  }\li{It's rather about how we can be justified to believe moral truths that would make you expect}
 }
 \p{But moral disagreements persist, even if we imagined knowing all the possible 'scientific facts' (Knowing all nonmoral facts doesn't help you resolve moral facts.)}
 
 \p{Shift from disagreements about morality to ethics (more broad: like "how to live")
-}       
+}
 \ul{
-\li{There are cases of philosophers who've held diametrically opposed views for millennia ( E.g. Selfishness vs altruism)}
-\li{"If your views are true and confront with others who views are false, you should stick to your guns."}
-\li{In discussions of disagreement, we have a view "the equal weight view"}
+  \li{There are cases of philosophers who've held diametrically opposed views for millennia ( E.g. Selfishness vs altruism)}
+  \li{"If your views are true and confront with others who views are false, you should stick to your guns."}
+  \li{In discussions of disagreement, we have a view "the equal weight view"}
   \ul{
-  \li{You should give others' views equal weight to your own without a prior reason to discount their beliefs}
-  \li{Leads to skepticism.}
-  \li{But it's not plausible because (argument of Tom Kelly)}
-\ul{
-    \li{It has you reason as if your only prior is how much you were likely to be right.}
-    \li{Nonmoral example: weather prediction}
-}  \li{Equal weight view IS reasonable for perceptual experiences (this is where it gets its power from). The problem is philosophers who liken moral intuitions to perceptual appearances.}
-  \li{What is the alternative in the non-perceptual cases}
-\ul{
-    \li{Problematic alternative:}
-\ul{
-      \li{Keep the belief that moral beliefs bottom out in perceptual intuitions.}
-      \li{But relativize people's intuitions (break asymmetry by saying opponent has bad intuitions or that morality's purpose is to provide coherence of just your beliefs)}
-      \li{However, this is epistemic egoism.}
-}    \li{Better alternative:}
-\ul{
-      \li{There is an asymmetry in the standard of justification of moral beliefs: true beliefs have better evidence for them.}
+    \li{You should give others' views equal weight to your own without a prior reason to discount their beliefs}
+    \li{Leads to skepticism.}
+    \li{But it's not plausible because (argument of Tom Kelly)}
+    \ul{
+      \li{It has you reason as if your only prior is how much you were likely to be right.}
+      \li{Nonmoral example: weather prediction}
+    }  \li{Equal weight view IS reasonable for perceptual experiences (this is where it gets its power from). The problem is philosophers who liken moral intuitions to perceptual appearances.}
+    \li{What is the alternative in the non-perceptual cases}
+    \ul{
+      \li{Problematic alternative:}
+      \ul{
+        \li{Keep the belief that moral beliefs bottom out in perceptual intuitions.}
+        \li{But relativize people's intuitions (break asymmetry by saying opponent has bad intuitions or that morality's purpose is to provide coherence of just your beliefs)}
+        \li{However, this is epistemic egoism.}
+      }    \li{Better alternative:}
+      \ul{
+        \li{There is an asymmetry in the standard of justification of moral beliefs: true beliefs have better evidence for them.}
         \li{Coherentists/reflective equilibrium etc. want to find a standard of justification that is independent of taking a stance on particular moral beliefs.}
-}}}}
+      }}}}

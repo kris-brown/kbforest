@@ -1,12 +1,15 @@
-\title{2. Poetry}
+\title{Poetry}
 \tag{elucidations}
+\number{2}
+\author{gabriel-lear}
+\parent{elu-0029}
 
 \subtree{\title{What do we mean by poetry}
-\p{Clarification: "poetry" to [Plato](plato) is more similar to what we call theatre
-  (performative context).}
-\p{Plato thought he innovated the distinction between style and content:}
+  \p{Clarification: "poetry" to [Plato](plato) is more similar to what we call theatre
+    (performative context).}
+  \p{Plato thought he innovated the distinction between style and content:}
   \ul{
-  \li{Distinguishing the story from the way the poet tells the story. E.g. style could vary between 3rd person, 1st person narration for the same story}}
+    \li{Distinguishing the story from the way the poet tells the story. E.g. style could vary between 3rd person, 1st person narration for the same story}}
 
 }
 \subtree{\title{Effect of poetry}
@@ -15,18 +18,18 @@
 
 \p{Background: Plato + [Aristotle](aristotle) both believed a good human life is unified}
 \ul{
-\li{A single goal, so you could say what it was about}
-\ul{
-  \li{(they happened to think the best goal was contemplation of eternal truths).}
-  \li{We share this intuition, though now we also praise people for having a variety of interests.}
-\ul{
-    \li{How can you be a mother and a working professional at once?}
-    \li{We would rather try to make the two identities compatible, rather than try to argue that people should be comfortable/adept at having multiple identities.}
-}}\li{What is the distinction between unity and diversity:}
-\ul{
-  \li{A single person does many things (shoemaker has to cut leather, sew, negotiate, ...) and these are all ways of expressing a single identity (illusory multiplicity).}
-  \li{Plato objects to the multiple identities.}
-}}  
+  \li{A single goal, so you could say what it was about}
+  \ul{
+    \li{(they happened to think the best goal was contemplation of eternal truths).}
+    \li{We share this intuition, though now we also praise people for having a variety of interests.}
+    \ul{
+      \li{How can you be a mother and a working professional at once?}
+      \li{We would rather try to make the two identities compatible, rather than try to argue that people should be comfortable/adept at having multiple identities.}
+    }}\li{What is the distinction between unity and diversity:}
+  \ul{
+    \li{A single person does many things (shoemaker has to cut leather, sew, negotiate, ...) and these are all ways of expressing a single identity (illusory multiplicity).}
+    \li{Plato objects to the multiple identities.}
+  }}
 \p{Also note: Plato not opposed to all poetry, since he thinks it is valuable in early moral development as a form of play. Rather, we should reform poetry to prevent it from encouraging multiplicity. Example:
 }
 
@@ -39,9 +42,9 @@
 }
 \subtree{\title{Can we relate this to the modern condition}
 
-\ul{
-\li{We have lots of fleeting/meaningless pleasure that is not actually satisfying (we have to keep varying things to keep interested). Was Plato predicting the emptiness of contemporary society and shallowness of popular culture?}
-\li{Plato's remedy is austere: the only goal capable of having the stability of unifying a life is pursuit of reason. (Not incompatible with modern conceptions of the good life, for theists or academic-minded people).}
-\li{Plato offers valid criticism of entertainment and high culture, but he underestimates the value of certain kinds of play. He didn't see that we play not at things we want to become, but also things we're afraid of or want to learn about.}
-}
+  \ul{
+    \li{We have lots of fleeting/meaningless pleasure that is not actually satisfying (we have to keep varying things to keep interested). Was Plato predicting the emptiness of contemporary society and shallowness of popular culture?}
+    \li{Plato's remedy is austere: the only goal capable of having the stability of unifying a life is pursuit of reason. (Not incompatible with modern conceptions of the good life, for theists or academic-minded people).}
+    \li{Plato offers valid criticism of entertainment and high culture, but he underestimates the value of certain kinds of play. He didn't see that we play not at things we want to become, but also things we're afraid of or want to learn about.}
+  }
 }

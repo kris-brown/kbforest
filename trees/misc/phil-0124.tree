@@ -15,7 +15,7 @@
   \p{[descriptivism](phil-0029) ...}
 }
 \subtree{\title{Crude casual theory}
-  \p{See [Jerry Fodor](jerry-fodor).}
+  \p{See [Jerry Fodor](fodor).}
 }
 \subtree{\title{Teleosemantics}
   \p{[teleosemantics](phil-0136)...}
@@ -25,10 +25,15 @@
   \p{[semantic nominalism](phil-0122)...}
 }
 \subtree{\title{Semantic nihilism}
-  \p{[Wittgenstein](wittgenstein) is interpreted by [Dummett](michael-dummett) to be a semantic nihilist: i.e. he doesn't think there are actually meanings. The plasticity of language makes this impossible, as it is fundamentally at odds with codifying the properties of use (at best it could just give you a snapshot).
+  \p{[Wittgenstein](wittgenstein) is interpreted by [Dummett](dummett) to be a semantic nihilist: i.e. he doesn't think there are actually meanings. The plasticity of language makes this impossible, as it is fundamentally at odds with codifying the properties of use (at best it could just give you a snapshot).
   }
 }
 \subtree{\title{Nominalistic representationalism}
   \p{This is how Brandom characterizes de Saussure, Derrida, semiotics, textualists: they take the name-bearer relationship as the paradigm model of semantics. This is described as not taking into account the advances of Kant/Frege/Wittgenstein that show the primacy of sentences/judgments in the order of explanation, prior to names.
   }
 }
+
+\p{What are meanings? One answer, if you think semantics answers to pragmatics: semantic interpretants that theorists associate with linguistic expressions so as best to codify how they are properly used.}
+
+
+\p{Formal semantics is concerned both with what is associated with our expressions (sets of possible worlds? truthmakers and falsemakers?), but furthermore philosophical semantics should worry about \em{how} they become attached to the expressions.}

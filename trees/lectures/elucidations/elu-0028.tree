@@ -1,75 +1,78 @@
-\title{9. Metaphor}
+\title{Metaphor}
 \tag{elucidations}
+\number{9}
+\author{ted-cohen}
+\parent{elu-0029}
 
 \subtree{\title{Examples of Metaphor}
-\p{What are examples of metaphor?}
- \p{ Need to be careful to not use 'dead metaphors', idioms (e.g.  "bit the dust" / "went west" / "bought the farm" -> die)}
+  \p{What are examples of metaphor?}
+  \p{ Need to be careful to not use 'dead metaphors', idioms (e.g.  "bit the dust" / "went west" / "bought the farm" -> die)}
   \p{ Metaphors are devices for saying something and using something else}
 }
 \subtree{\title{Questions philosophers ask}
-\p{There are two lines of questions:}
-\ol{
- \li{ Technical ones in the philosophy of language (e.g. Joseph Stern)}
- \li{ Aesthetic questions (this is what Ted is interested in)}
-\ul{
-    \li{Metaphors are small-scale works of art}
-\ul{
-      \li{you need imaginative capacity to make/understand one}
-      \li{Art: the thing we do that we don't need to do. it's the place human's exhibit their freedom}
-}}}
+  \p{There are two lines of questions:}
+  \ol{
+    \li{ Technical ones in the philosophy of language (e.g. Joseph Stern)}
+    \li{ Aesthetic questions (this is what Ted is interested in)}
+    \ul{
+      \li{Metaphors are small-scale works of art}
+      \ul{
+        \li{you need imaginative capacity to make/understand one}
+        \li{Art: the thing we do that we don't need to do. it's the place human's exhibit their freedom}
+      }}}
 }
 \subtree{\title{Differences between metaphor and irony}
-\p{Once you understand a statement as ironic, it's not hard to figure out what it  means.}
+  \p{Once you understand a statement as ironic, it's not hard to figure out what it  means.}
 
-\p{Could recognize something as a not-literal metaphor but then be puzzled about what it means}
-\ul{
+  \p{Could recognize something as a not-literal metaphor but then be puzzled about what it means}
+  \ul{
     \li{Try reading Wallace Stevens poetry as an example}
     \li{Song of Solomon in the bible actually about sex, though you could read it without realizing that.}}
 }
 \subtree{\title{Can metaphor be translated to non-metaphor}
-\p{Is it possible to say what a metaphor says literally? Is this committing the 'heresy of paraphrase'?
-}
-\p{The question was confused. Metaphors aren't reducible to similes which have a straightforward content. ("Juliet is the sun" is not "Juliet is like the sun")}
-    \p{The simile is not true, there's no relevant property shared by Juliet and the sun that Romeo means.}
-\p{Inverse: "My love is like a red, red rose" why not "My life is a red, red 
-  rose"?}
-\p{These questions are addressed by Joseph Stern, from analysis of the context.}
-\p{In using a metaphor you will do something you couldn't do otherwise, harder to 
-  say if you will say something you couldn't do otherwise. Poetry is often the desire to compress a language and squeeze out all you can get}
-\p{Can you translate poetry? Czech poet, Anschel, makes his name easier one day as Ansel, then much 
-      later writes under anagram "Selam". Has a poem "Death Fugue" which begins 
-      "Der Tod ist ein Meister aus Deustchland" This should be translated "Death is a Meister from Germany" because no subtitute would work for Meister.}
-\p{Romans made very few advances in mathematics, possibly because their notation 
-  was so bad.}
-\ul{
+  \p{Is it possible to say what a metaphor says literally? Is this committing the 'heresy of paraphrase'?
+  }
+  \p{The question was confused. Metaphors aren't reducible to similes which have a straightforward content. ("Juliet is the sun" is not "Juliet is like the sun")}
+  \p{The simile is not true, there's no relevant property shared by Juliet and the sun that Romeo means.}
+  \p{Inverse: "My love is like a red, red rose" why not "My life is a red, red
+    rose"?}
+  \p{These questions are addressed by Joseph Stern, from analysis of the context.}
+  \p{In using a metaphor you will do something you couldn't do otherwise, harder to
+    say if you will say something you couldn't do otherwise. Poetry is often the desire to compress a language and squeeze out all you can get}
+  \p{Can you translate poetry? Czech poet, Anschel, makes his name easier one day as Ansel, then much
+    later writes under anagram "Selam". Has a poem "Death Fugue" which begins
+    "Der Tod ist ein Meister aus Deustchland" This should be translated "Death is a Meister from Germany" because no subtitute would work for Meister.}
+  \p{Romans made very few advances in mathematics, possibly because their notation
+    was so bad.}
+  \ul{
     \li{Representation makes a big difference in our ability to imagine}
     \li{This may be analogous to poetry which represents concepts in a way that prose may not be able to.}
-}
+  }
 }
 \subtree{\title{Rousseau paradox of freedom}
-\p{We must be free, but if we're free then there's chaos and we end up not free, 
-  so the solution is a self-imposed constraint.}
-\p{
-\strong{# Connecting with other people}}
-\p{Interpreting metaphors in the same way seen as a means of connecting with other people (meaningful because it is falliable)}
-\p{ Wittgenstein in PI: "Sometimes people we cannot find our feet with them"}
-\ul{
+  \p{We must be free, but if we're free then there's chaos and we end up not free,
+    so the solution is a self-imposed constraint.}
+  \p{
+    \strong{# Connecting with other people}}
+  \p{Interpreting metaphors in the same way seen as a means of connecting with other people (meaningful because it is falliable)}
+  \p{ Wittgenstein in PI: "Sometimes people we cannot find our feet with them"}
+  \ul{
     \li{If you tell a joke that someone laughs at, you find youself in that person. Gratifying.}
     \li{If you tell a joke that someone doesn't laugh at, we react poorly, like something has gone wrong.}
-}
+  }
 }
 \subtree{\title{Jokes}
-\p{ Irony/metaphors/jokes. All ways we live within but break rules. They help us get in touch with our freedom.
-}\p{Are inappropriate/offensive jokes similar in how they work to normal jokes? Or has something gone wrong?}
- \p{Cohen: they're the same. Learning to not say telling offensive jokes is akin to learning to not pinch a stranger or roughhouse with someone who doesn't want to.}
-\ul{
-\li{Double infliction: they don't like it, then you say they don't have a sense of humor (it's their fault for not finding it funny)}
-\li{They don't need a justification to not find it funny.}
-\li{No moral theories could account for why it's not ok for a stranger to say "I don't like it when you cross your legs" but ok to say "Your music is too loud". It's something to be negotiated - you won't learn it studying moral philosophy. The layperson is equally or more qualified than the philosopher at these practical questions.}
-}  
-\p{No bearing on the functioning of the joke among people who find it funny.}
-\ul{
+  \p{ Irony/metaphors/jokes. All ways we live within but break rules. They help us get in touch with our freedom.
+  }\p{Are inappropriate/offensive jokes similar in how they work to normal jokes? Or has something gone wrong?}
+  \p{Cohen: they're the same. Learning to not say telling offensive jokes is akin to learning to not pinch a stranger or roughhouse with someone who doesn't want to.}
+  \ul{
+    \li{Double infliction: they don't like it, then you say they don't have a sense of humor (it's their fault for not finding it funny)}
+    \li{They don't need a justification to not find it funny.}
+    \li{No moral theories could account for why it's not ok for a stranger to say "I don't like it when you cross your legs" but ok to say "Your music is too loud". It's something to be negotiated - you won't learn it studying moral philosophy. The layperson is equally or more qualified than the philosopher at these practical questions.}
+  }
+  \p{No bearing on the functioning of the joke among people who find it funny.}
+  \ul{
     \li{Would need some account of it being harmful, that it perpetuates or creates harmful stereotypes has not been convincingly shown}
     \li{The fact that a stereotype isn't true is not a mark against the joke (a joke is always a small fiction)}
-} \p{"Not everything you don't like is immoral"}
+  } \p{"Not everything you don't like is immoral"}
 }

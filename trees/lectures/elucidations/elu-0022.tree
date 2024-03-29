@@ -1,83 +1,86 @@
-\title{4. Sexuality and Law}
+\title{Sexuality and Law}
 \tag{elucidations}
+\number{4}
+\author{nussbaum}
+\parent{elu-0029}
 
-\p{There has been historical precedent to place legal restrictions on human 
-behavior due to disgust reaction}
+\p{There has been historical precedent to place legal restrictions on human
+  behavior due to disgust reaction}
 
 \subtree{\title{Disgust}
-\p{Rejection of something that is seen as a contaminant (useful in the context of 
-  feces, etc.). These are called the primary objects of disgust
-}  
-\p{In all societies, it gets extended in practice to groups of people seen as 
-  'low'/'dirty'. Extending the attributes of primary objects of disgust to these people (e.g. separate drinking fountains for blacks)
-}
+  \p{Rejection of something that is seen as a contaminant (useful in the context of
+    feces, etc.). These are called the primary objects of disgust
+  }
+  \p{In all societies, it gets extended in practice to groups of people seen as
+    'low'/'dirty'. Extending the attributes of primary objects of disgust to these people (e.g. separate drinking fountains for blacks)
+  }
 }
 \subtree{\title{Historical theoretical justification}
-\p{Lord Devlin: a society needs to be able to defend itself against intrusion/defilement.}
-\ul{
+  \p{Lord Devlin: a society needs to be able to defend itself against intrusion/defilement.}
+  \ul{
     \li{Justifies making things illegal even if they cause no harm to others}
     \li{His rival: John Stuart Mill who said only harm to others should matter}
-}\p{More contemporarily, Leon Cass: disgust is a legitimate emotion which can 
-  sometimes guide us legitimately warn us of atrocity. E.g. "torture" elicits disgust that rightly directs us away from it}
+  }\p{More contemporarily, Leon Cass: disgust is a legitimate emotion which can
+    sometimes guide us legitimately warn us of atrocity. E.g. "torture" elicits disgust that rightly directs us away from it}
 
 }
 \subtree{\title{An unreliable guide}
-\p{When disgust is potent, we cannot rely on reasoning to give us respect.
-}\p{Gays/Lesbians depicted as weirdos/animals}
-\p{'Torture' also elicits indignation, which is a more constructive feeling 
-  towards righting the wrong of torture (concede that disgust happens to be 
-  right on this one)
-}  
-\ul{
-  \li{That is wrong and it better not happen again}
-  \li{But maybe indignation may be argued to already be 'getting too close'; dignifying the abhorrent act with the status of "an act that is wrong": maybe rejecting uncritically is the proper treatment?}
-  \li{"We won't look at that at all" is evasion of moral confrontation.}
-  \li{Both have cognitive content and are falliable}
-  \li{Disgust's validity limited to primary objects, which actually do pose a danger.}
-}\p{Juries to whom a murder is described in a more gory way are more likely to be 
-  harsher, even though this doesn't always track how bad the homicide was / 
-  whether it was premeditated}
+  \p{When disgust is potent, we cannot rely on reasoning to give us respect.
+  }\p{Gays/Lesbians depicted as weirdos/animals}
+  \p{'Torture' also elicits indignation, which is a more constructive feeling
+    towards righting the wrong of torture (concede that disgust happens to be
+    right on this one)
+  }
+  \ul{
+    \li{That is wrong and it better not happen again}
+    \li{But maybe indignation may be argued to already be 'getting too close'; dignifying the abhorrent act with the status of "an act that is wrong": maybe rejecting uncritically is the proper treatment?}
+    \li{"We won't look at that at all" is evasion of moral confrontation.}
+    \li{Both have cognitive content and are falliable}
+    \li{Disgust's validity limited to primary objects, which actually do pose a danger.}
+  }\p{Juries to whom a murder is described in a more gory way are more likely to be
+    harsher, even though this doesn't always track how bad the homicide was /
+    whether it was premeditated}
 
 }
 \subtree{\title{Empathy}
-\p{Need to imagine the other as fully human like ourselves
-}
-\p{Is this sufficient? Couldn't a homophobe fairly imagine this but still 
-  conclude the other person is wrong?}
-\ul{
+  \p{Need to imagine the other as fully human like ourselves
+  }
+  \p{Is this sufficient? Couldn't a homophobe fairly imagine this but still
+    conclude the other person is wrong?}
+  \ul{
     \li{Nussbaum: Certainly. Empathy is not sufficient for compassion.}
     \li{perhaps not even necessary, e.g. compassion towards actual animals we cannot empathize with.}
-}
+  }
 }
 \subtree{\title{Application to marriage}
-\p{Should government be involved in marriage? Marriage has three aspects:
-}
-\ol{
-\li{Religious: state shouldn't be involved (obviously)}
-\li{Material: benefits given to certain relationships (civil unions sufficient)}
-\li{Stuff in between: marriage is important because it signals some sort of societal approval of the act}
-\ul{
-  \li{Nussbaum doubts that this is really as true as proponents claim:}
-  \li{We don't think of the state as supporting the N'th marriage of some celebrity}
-  \li{Extremely low bar in most states for being able to officiate a marriage}}
-}\p{ Civil unions analogous to transracial marriage:}
-\ul{\li{People had to fight to not give this a different term since they truly believe it is equal}}
+  \p{Should government be involved in marriage? Marriage has three aspects:
+  }
+  \ol{
+    \li{Religious: state shouldn't be involved (obviously)}
+    \li{Material: benefits given to certain relationships (civil unions sufficient)}
+    \li{Stuff in between: marriage is important because it signals some sort of societal approval of the act}
+    \ul{
+      \li{Nussbaum doubts that this is really as true as proponents claim:}
+      \li{We don't think of the state as supporting the N'th marriage of some celebrity}
+      \li{Extremely low bar in most states for being able to officiate a marriage}}
+  }\p{ Civil unions analogous to transracial marriage:}
+  \ul{\li{People had to fight to not give this a different term since they truly believe it is equal}}
 
 }
 \subtree{\title{Application to privacy}
-\p{Three dimensions that get conflated:}
-\ul{
+  \p{Three dimensions that get conflated:}
+  \ul{
     \li{Informational: the private is secret}
     \li{Spatial: a private place, like the home}
     \li{Decisional: what is private is yours to design}
-}
-\p{Example: pornography is legal, but only in your home. Or a court ruling that 
-  gay sex was legal unclear about whether it was merely because it was 
-  demonstrated in private that the homosexuality should be condoned.}
-\p{Mill: self-regarding impact principle}
-\ul{
+  }
+  \p{Example: pornography is legal, but only in your home. Or a court ruling that
+    gay sex was legal unclear about whether it was merely because it was
+    demonstrated in private that the homosexuality should be condoned.}
+  \p{Mill: self-regarding impact principle}
+  \ul{
     \li{What impact does this have on non-consenting strangers}
     \li{Could recover our intuitions (the pornography has an impact on other people, acts in sex clubs that you have to voluntarily enter).}}
-\p{We should avoid the word 'privacy' because it's such a nest of confusions.}
+  \p{We should avoid the word 'privacy' because it's such a nest of confusions.}
 
 }

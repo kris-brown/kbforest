@@ -1,31 +1,34 @@
-\title{7. Nature and ethics}
+\title{Nature and ethics}
 \tag{elucidations}
+\number{7}
+\author{daniel-groll}
+\parent{elu-0029}
 
 \subtree{\title{Naive way of incorporating the two}
-\p{Something is not acceptable because it is 'not natural'.
-}
-\ul{
-\li{This has counterexamples in both dimensions (good things - e.g. medicine - that are unnatural)}
-\li{More sophisticated version: something that comes out of evolution is good}
-\li{Good for survival is not the same as good in the ethical sense, even if the origins of our ethical norms came out of some competitive advantage it gave early humans.}
-}
+  \p{Something is not acceptable because it is 'not natural'.
+  }
+  \ul{
+    \li{This has counterexamples in both dimensions (good things - e.g. medicine - that are unnatural)}
+    \li{More sophisticated version: something that comes out of evolution is good}
+    \li{Good for survival is not the same as good in the ethical sense, even if the origins of our ethical norms came out of some competitive advantage it gave early humans.}
+  }
 }
 \subtree{\title{Alternative way}
-\p{What is good is indexed to the kind of thing one naturally is}
-\ul{
-  \li{We should always ask the question "is X good for Y" (rather than simply "Is X good?")}
-  \li{"What is good for a plant is not good for what is good for a human"}
-}
-\subtree{\title{Problems}
-\p{It is still desirable to appeal to "Good simpliciter". which is not of the form "Good for X".
-}\ul{
-  \li{"What's good for the Russian mafia is not good (simpliciter)"}
-  \li{Could argue the latter good is talking about "good for general community"}}
-\p{It is intelligible to ask "can we improve our natures?"}
-\ul{
-  \li{Difficult to appeal to our natures to explain how change our nature}
-  \li{We might actually be imagining some portion of our nature being fixed while varying a small part.}}
-\p{Evolutionary theory says natures change over time. So what is one appealing to?}
- \ul{
-  \li{You can take a 'snapshot' of a couple generations}}
-}}
+  \p{What is good is indexed to the kind of thing one naturally is}
+  \ul{
+    \li{We should always ask the question "is X good for Y" (rather than simply "Is X good?")}
+    \li{"What is good for a plant is not good for what is good for a human"}
+  }
+  \subtree{\title{Problems}
+    \p{It is still desirable to appeal to "Good simpliciter". which is not of the form "Good for X".
+    }\ul{
+      \li{"What's good for the Russian mafia is not good (simpliciter)"}
+      \li{Could argue the latter good is talking about "good for general community"}}
+    \p{It is intelligible to ask "can we improve our natures?"}
+    \ul{
+      \li{Difficult to appeal to our natures to explain how change our nature}
+      \li{We might actually be imagining some portion of our nature being fixed while varying a small part.}}
+    \p{Evolutionary theory says natures change over time. So what is one appealing to?}
+    \ul{
+      \li{You can take a 'snapshot' of a couple generations}}
+  }}

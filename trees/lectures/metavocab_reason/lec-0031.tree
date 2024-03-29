@@ -1,0 +1,35 @@
+\title{Lecture 1}
+\parent{lec-0030}
+
+\p{Course in a nutshell: [reasons](phil-00155) and [language](phil-0156) are mutually-[sense dependent](phil-0157).}
+
+\p{Agreement with [Dummett](phil-015E) on the significance of [philosophy of language](phil-0095).}
+
+
+\p{A sharper term than 'language' is [discursive practice](phil-015H).}
+
+\transclude{phil-015H}
+
+\p{Each question we can ask in the [philosophy of language](phil-0095) will come with its own [metavocabulary](phil-015N).}
+
+\transclude{phil-015W}
+
+\subtree{\title{What will not be discussed in the course}
+
+  \subtree{\title{Syntax}
+    \p{
+      A linguist's answer to "What is language?" will (downstream of [Chomsky](chomsky)) involve generative grammar.}
+  }
+  \subtree{\title{Subsentential structure}
+    \p{
+      Predicate logic is concerned with elements smaller than that of a whole sentence, but this course is concerned only with operators that form sentences from sentences.
+    }
+  }
+  \subtree{\title{Social character social practices}
+    \p{
+      It's not necessary to delve into the distinction between attributing a commitment to someone else and undertaking an independent oneself (which is at the core of the pragmatic the normative pragmatics of [Making it explicit](ref-0075))
+    }}
+
+}
+
+\p{Up to 30:48}

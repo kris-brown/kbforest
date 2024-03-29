@@ -1,0 +1,6 @@
+\title{Subset}
+\date{2024-03-15}
+
+\p{Given a set #{X}, a subset of #{X} is a set whose elements are all contained in #{X}.}
+
+##{\forall x \in X': x \in X}

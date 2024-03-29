@@ -5,7 +5,31 @@
 
 \put\transclude/expanded{false}
 
-\scope{
-  \put\transclude/title{Episodes}
-  \query{\query/tag{elucidations}}
-}
+\transclude{elu-0001}
+\transclude{elu-0012}
+\transclude{elu-0020}
+\transclude{elu-0024}
+\transclude{elu-0022}
+\transclude{elu-0002}
+\transclude{elu-0003}
+\transclude{elu-0004}
+\transclude{elu-0005}
+\transclude{elu-0006}
+\transclude{elu-0007}
+\transclude{elu-0008}
+\transclude{elu-0009}
+\transclude{elu-0010}
+\transclude{elu-0011}
+\transclude{elu-0013}
+\transclude{elu-0014}
+\transclude{elu-0015}
+\transclude{elu-0016}
+\transclude{elu-0017}
+\transclude{elu-0018}
+\transclude{elu-0019}
+\transclude{elu-0021}
+\transclude{elu-0023}
+\transclude{elu-0025}
+\transclude{elu-0026}
+\transclude{elu-0027}
+\transclude{elu-0028}

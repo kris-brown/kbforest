@@ -1,94 +1,97 @@
-\title{1. Desire}
+\title{Desire}
+\number{1}
+\author{callard}
 \tag{elucidations}
+\parent{elu-0029}
 
-\p{We want a theory of desire that can answer questions like: given a scenario 
-and a desire, was that desire satisfied?
+\p{We want a theory of desire that can answer questions like: given a scenario
+  and a desire, was that desire satisfied?
 }
-\p{Notably, we are \em{not} asking whether a person with that desire was happy or 
-not afterwards.
+\p{Notably, we are \em{not} asking whether a person with that desire was happy or
+  not afterwards.
 }
 \subtree{\title{Conventional wisdom}
 
-\p{Conventionally, desire corresponds to a desired state of the world, and 
-satisfaction is whether or not that state is obtained.
-}
-\p{A challenging scenario for this view: a man is rushing to catch a important 
-train to NYC and boards at the last 
-second, only to realize afterward that the train is heading to the wrong 
-destination. Was his desire satisfied?
-}
+  \p{Conventionally, desire corresponds to a desired state of the world, and
+    satisfaction is whether or not that state is obtained.
+  }
+  \p{A challenging scenario for this view: a man is rushing to catch a important
+    train to NYC and boards at the last
+    second, only to realize afterward that the train is heading to the wrong
+    destination. Was his desire satisfied?
+  }
 
-\ul{
-\li{\strong{No} - eliminitivist}
-\ul{
-  \li{We reject that the than man desired to get on the train to a wrong 
-    destination, because his 'true' desire involved to see the doctor in 
-    NYC, which is inconsistent with being on the wrong train.}
-  \li{Problem:}
-\ul{
-    \li{The doctor was going to tell him if his disease was curable, so what 
-      his 'true' desire is the cure, not the train to NYC. [^1]}
-    \li{I.e. the naive eliminitivist accidentally eliminates all desires other 
-      than the desire for 'the good'.}
+  \ul{
+    \li{\strong{No} - eliminitivist}
+    \ul{
+      \li{We reject that the than man desired to get on the train to a wrong
+        destination, because his 'true' desire involved to see the doctor in
+        NYC, which is inconsistent with being on the wrong train.}
+      \li{Problem:}
+      \ul{
+        \li{The doctor was going to tell him if his disease was curable, so what
+          his 'true' desire is the cure, not the train to NYC. [^1]}
+        \li{I.e. the naive eliminitivist accidentally eliminates all desires other
+          than the desire for 'the good'.}
 
-}
-}\li{\strong{Yes} - separatist
-}  \ul{
-\li{Introduce another desire to make sense of why the man is upset despite 
-    the desire being satisfied. The 'catch-this-train' desire was satisfied, 
-    but 'get to NYC' that was not satisfied.}
-  \li{Problems}
-\ul{
-    \li{This account makes the desires seem separate/atomic, but why do they 
-      seem so intimately connected to each other?}
-    \li{If he learned just before that it was going to the wrong destination, 
-      his desire to catch the (that) train would instantly vanish.}
-    \li{Also this makes desires in principle unconnected from what is good for us.}
+      }
+    }\li{\strong{Yes} - separatist
+    }  \ul{
+      \li{Introduce another desire to make sense of why the man is upset despite
+        the desire being satisfied. The 'catch-this-train' desire was satisfied,
+        but 'get to NYC' that was not satisfied.}
+      \li{Problems}
+      \ul{
+        \li{This account makes the desires seem separate/atomic, but why do they
+          seem so intimately connected to each other?}
+        \li{If he learned just before that it was going to the wrong destination,
+          his desire to catch the (that) train would instantly vanish.}
+        \li{Also this makes desires in principle unconnected from what is good for us.}
 
+      }
+    }
+  }
+  \p{[^1]: This can be done ad infinitum: his true desire is not the cure but rather good health, or happiness, and so on, until you reach a terminal desire("the Good").
+  }
 }
-}
-}
-\p{[^1]: This can be done ad infinitum: his true desire is not the cure but rather good health, or happiness, and so on, until you reach a terminal desire("the Good").
-}
-}
-\subtree{\title{Challenging the conventional wisdom: Desire = Object + Aim} 
-\p{When you want anything, you want more than one thing, so it's complicated to answer "did you get what you want".
-}
-\p{The man wanted to catch the train \em{and} wanted to get to NYC; those are both aspects of his \em{single} desire.
-}
-\p{  There is a specific side and a general side to a desire
-}   \ul{
- \li{Object of desire: ("catching this train")}
+\subtree{\title{Challenging the conventional wisdom: Desire = Object + Aim}
+  \p{When you want anything, you want more than one thing, so it's complicated to answer "did you get what you want".
+  }
+  \p{The man wanted to catch the train \em{and} wanted to get to NYC; those are both aspects of his \em{single} desire.
+  }
+  \p{  There is a specific side and a general side to a desire
+  }   \ul{
+    \li{Object of desire: ("catching this train")}
     \li{Aim: what makes the object appealing.}
 
-}
+  }
 }
 \subtree{\title{Relation between desire and belief}
 
-\p{Conventional wisdom holds they are both representable merely as states of the world, although they have an complementary relationship:
-}
-\ul{
-\li{We want to update our belief state to match the world, }
-\li{we want to update the world to match our belief state.}
+  \p{Conventional wisdom holds they are both representable merely as states of the world, although they have an complementary relationship:
+  }
+  \ul{
+    \li{We want to update our belief state to match the world, }
+    \li{we want to update the world to match our belief state.}
 
-}
-\p{This picture is incomplete. Example: feel hungry, desire food.}
-\ul{
-\li{It can't be an accident that a bunch of seemingly related desires pop up (want a sandwich downstairs, want pasta from next door, ...)}
-\li{It doesn't make sense that we desire things in a way that is not possible (want sandwich from Paris, from the moon)}
-\li{Things make more sense when we break down the structure of a desire:}
-\ul{
-  \li{Object: sandwich from deli downstairs, sandwich}
-  \li{Aim: satisfy the hunger}
-}
-}
+  }
+  \p{This picture is incomplete. Example: feel hungry, desire food.}
+  \ul{
+    \li{It can't be an accident that a bunch of seemingly related desires pop up (want a sandwich downstairs, want pasta from next door, ...)}
+    \li{It doesn't make sense that we desire things in a way that is not possible (want sandwich from Paris, from the moon)}
+    \li{Things make more sense when we break down the structure of a desire:}
+    \ul{
+      \li{Object: sandwich from deli downstairs, sandwich}
+      \li{Aim: satisfy the hunger}
+    }
+  }
 }
 \subtree{\title{Summary slogan: "Satisfaction as a compromise"}
 
-\p{These thoughts might inspire positive change in fields like economics, where people's desires are taken to be "given in advance". Their framework involves setting up a system that optimizes utility, given desires (as the fixed input data), but rather the desires are adaptive to the world / how things are achieved.}
+  \p{These thoughts might inspire positive change in fields like economics, where people's desires are taken to be "given in advance". Their framework involves setting up a system that optimizes utility, given desires (as the fixed input data), but rather the desires are adaptive to the world / how things are achieved.}
 
-\p{Parents try don't satisfy children's desires because they don't have the right desires. The desires are formed on the reflection of prior experience (knowing what to want, how to achieve it).
-}
-\p{The story of the formation of the desire is required towards understanding what it means to satisfy it.
-}
+  \p{Parents try don't satisfy children's desires because they don't have the right desires. The desires are formed on the reflection of prior experience (knowing what to want, how to achieve it).
+  }
+  \p{The story of the formation of the desire is required towards understanding what it means to satisfy it.
+  }
 }

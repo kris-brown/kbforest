@@ -1,0 +1,6 @@
+\title{Set}
+\date{2024-03-14}
+
+\p{A set is a mathematical object that can contain elements.}
+
+\p{The notation #{x \in A} denotes that #{x} is an element of set #{A}.}

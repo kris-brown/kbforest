@@ -1,5 +1,5 @@
 \title{Depsychologizing}
-\author{stanley-cavell}
+\author{cavell}
 \import{macros}
 
 \blockquote{
@@ -9,9 +9,9 @@ We know the efforts of such philosophers as Frege and Husserl to undo the "psych
 —  [Aesthetic Problems of Modern Philosophy](ref-0004)
 }
 \notes{
-[^trans]: i.e. transposed it into a normative key, not just a descriptive matter
+  [^trans]: i.e. transposed it into a normative key, not just a descriptive matter
 
-\ul{
-\li{We might add Hegel depsychologized history }
-\li{"de-psychologize" can also be interchanged with "de-sociologize"}
-}}
+  \ul{
+    \li{We might add Hegel depsychologized history }
+    \li{"de-psychologize" can also be interchanged with "de-sociologize"}
+  }}

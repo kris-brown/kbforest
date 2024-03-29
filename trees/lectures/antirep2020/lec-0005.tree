@@ -1,99 +1,103 @@
 \title{Rorty's Literary Turn}
+\author{brandom}
+\parent{lec-0024}
+\number{5}
+
 \import{base-macros}
 \p{
-Rorty's literary kehre lasted 10 years. But he realized he's an analytic philosopher and that literary theorists didn't know how to make distinctions and were not good to talk to. He then had a political kehre (had extended interactions with Habermas).}
+  Rorty's literary kehre lasted 10 years. But he realized he's an analytic philosopher and that literary theorists didn't know how to make distinctions and were not good to talk to. He then had a political kehre (had extended interactions with Habermas).}
 
 \subtree{\title{Rorty's argument}
 
-\p{Here are five claims or moves Rorty might be seen to be making:
-}
-\ol{
-\li{Rejecting two-stage talk of two activities, one of instituting meanings and the other of applying them to justify beliefs. [^tde]}
-\li{Rejecting the language/theory distinction entirely, in favor of the 'vocabulary' vocabulary. All we do is use vocabularies, and those practices both institute meanings and apply concepts to undertake commitments (endorse, take-true, some claimables).}
-\li{Rejecting the Kantian problematic of assigning responsibility for some features of our discourse (vocabulary-use) to what we are talking about (what is represented)—the authority of the objective—and responsibility for other features of our discourse to us— the authority of the subjective.}
-\li{Rejecting as ultimately unintelligible the idea that our thought is normatively constrained (as opposed to causally constrained) by an objective world via the representational semantic dependence of representings on representeds that consists in representeds providing normative standards of assessment of the correctness of representings (in a distinctive sense of “correctness.”). This is a kind of authority of representeds over representings.}
-\li{Social pragmatism about normativity: all normative statuses (responsibility, authority, being a standard of correctness) are social statuses.}
+  \p{Here are five claims or moves Rorty might be seen to be making:
+  }
+  \ol{
+    \li{Rejecting two-stage talk of two activities, one of instituting meanings and the other of applying them to justify beliefs. [^tde]}
+    \li{Rejecting the language/theory distinction entirely, in favor of the 'vocabulary' vocabulary. All we do is use vocabularies, and those practices both institute meanings and apply concepts to undertake commitments (endorse, take-true, some claimables).}
+    \li{Rejecting the Kantian problematic of assigning responsibility for some features of our discourse (vocabulary-use) to what we are talking about (what is represented)—the authority of the objective—and responsibility for other features of our discourse to us— the authority of the subjective.}
+    \li{Rejecting as ultimately unintelligible the idea that our thought is normatively constrained (as opposed to causally constrained) by an objective world via the representational semantic dependence of representings on representeds that consists in representeds providing normative standards of assessment of the correctness of representings (in a distinctive sense of “correctness.”). This is a kind of authority of representeds over representings.}
+    \li{Social pragmatism about normativity: all normative statuses (responsibility, authority, being a standard of correctness) are social statuses.}
 
-}
-\p{[^tde]: The appeal here is to Quine's pragmatist arguments in [Two Dogmas of Empiricism](ref-0068).
-}
+  }
+  \p{[^tde]: The appeal here is to Quine's pragmatist arguments in [Two Dogmas of Empiricism](ref-0068).
+  }
 }
 \subtree{\title{RR on Romanticism}
 
 
-\p{Mediating between idealism and pragmatism.
-}
-\p{Romanticism has idealist and pragmatist tendencies. Idealism corresponds to [weak textualism](q-0139), while pragmatism to strong. The weak ones haven't freed themselves from Philosophy.
-}
-\p{Rorty gives a [redescription of Nietzsche](q-0101), an example of the kind of strong textualism which takes a text and beats it into a shape to suit the reader's purpose, imposing his own vocabulary on it.
-}
-\p{Rorty [reconstructs](q-0053) a progression from \em{idealism} to \em{romanticism} to \em{pragmatism}.
-}
-\p{Rorty makes a number of claims:
-}
-\ol{
-\li{[all problems, topics, and distinctions are language-relative](q-0146)}
-\li{[criticizing any philosophical view that presupposes an objectively privileged vocabulary (simply in virtue of its relation to its subject matter)](q-0139)}
-\li{[the vocabulary of science is merely one among others](q-0124)}
-	\ul{
-	\li{The privilege that science (controlling nature) has is not inherently privileged over other possible advantages other vocabularies have}
-	}
-\li{Romanticism defined as "the one thing needful was to discover not which propositions are true but rather what vocabulary we should use."}
+  \p{Mediating between idealism and pragmatism.
+  }
+  \p{Romanticism has idealist and pragmatist tendencies. Idealism corresponds to [weak textualism](q-0139), while pragmatism to strong. The weak ones haven't freed themselves from Philosophy.
+  }
+  \p{Rorty gives a [redescription of Nietzsche](q-0101), an example of the kind of strong textualism which takes a text and beats it into a shape to suit the reader's purpose, imposing his own vocabulary on it.
+  }
+  \p{Rorty [reconstructs](q-0053) a progression from \em{idealism} to \em{romanticism} to \em{pragmatism}.
+  }
+  \p{Rorty makes a number of claims:
+  }
+  \ol{
+    \li{[all problems, topics, and distinctions are language-relative](q-0146)}
+    \li{[criticizing any philosophical view that presupposes an objectively privileged vocabulary (simply in virtue of its relation to its subject matter)](q-0139)}
+    \li{[the vocabulary of science is merely one among others](q-0124)}
+    \ul{
+      \li{The privilege that science (controlling nature) has is not inherently privileged over other possible advantages other vocabularies have}
+    }
+    \li{Romanticism defined as "the one thing needful was to discover not which propositions are true but rather what vocabulary we should use."}
 
-}
+  }
 
-\p{What's important about being human is our ability to self-transform, redescribe.  Romanticism was important because of its focus on that capacity as the center of human aspiration, rather than getting things right representationally.
-}
-\p{Rorty has a notion of a "presiding cultural discipline" - since the [Enlightenment](phil-0137) it has been science, but in the future it could be literature. Science was emancipatory at the start of the Enlightenment, but by the end of the 19th century it became constraining.
-}
-\subtree{\title{Danger: backsliding into Carnapian pragmatism}
+  \p{What's important about being human is our ability to self-transform, redescribe.  Romanticism was important because of its focus on that capacity as the center of human aspiration, rather than getting things right representationally.
+  }
+  \p{Rorty has a notion of a "presiding cultural discipline" - since the [Enlightenment](phil-0137) it has been science, but in the future it could be literature. Science was emancipatory at the start of the Enlightenment, but by the end of the 19th century it became constraining.
+  }
+  \subtree{\title{Danger: backsliding into Carnapian pragmatism}
 
-\p{Rorty says that what the romantics discovered that we are free to pick our vocabulary.
-}
-\p{Treating vocabularies as if they are languages that we are free to chose from is dangerously close to Carnapian pragmatism. This is a misuse of the vocabulary vocabulary because it violates Quine's anti-Carnap lesson.
-}
-}}
+    \p{Rorty says that what the romantics discovered that we are free to pick our vocabulary.
+    }
+    \p{Treating vocabularies as if they are languages that we are free to chose from is dangerously close to Carnapian pragmatism. This is a misuse of the vocabulary vocabulary because it violates Quine's anti-Carnap lesson.
+    }
+  }}
 \subtree{\title{Criticism of "There is nothing outside of the text"}
 
-\p{Rorty classifies this claim of [Derrida](jaques-derrida) as "weak textualism" and sees it as backsliding into representationalist philosophy.
-}
-\transclude{q-0144}
+  \p{Rorty classifies this claim of [Derrida](derrida) as "weak textualism" and sees it as backsliding into representationalist philosophy.
+  }
+  \transclude{q-0144}
 
 
-\p{[^mcd]: Note that McDowell centrally claims "The conceptual has no outer boundary" in [Mind and World](ref-0033)
-}
-\p{Some background for Derrida's claim:
-}
-\p{He is working in a post-structuralist environment. Their principal tool is de Saussure's signifier/signified model.
-}
-\p{This is a linguistic version of Berekle's "it's representings all the way down" idealism.
-}
-\p{Derrida restricts it to just the signifier side. Brandom: "If we really understand structuralism (thinking of the functional roles of signifiers) we'll see that there is only the signifiers to worry about".
-}
-\p{Brandom says this model is semantically inadequate as a model and not even a radical rejection of the signifier/signified model. He wants to file it away in a cabinet labeled "How not to be an antirepresentationalist".
-}
-\p{Pierce said similar things about interpretants and interpreters. His principal admirer Charles Morris used this notion of the name-bearer relation to found semiotics, which is not a successful field.
-}
-\p{This is not just [representationalism](phil-0118), it is nominalistic representationalism (Taking the name-bearer relationship as the semantic paradigm). It is all pre-kantian, pre-Fregegian, pre-Wittgensteinien.
-}
-\ul{
-\li{Kant: the judgment is the smallest unit of awareness/consciousness (and commitment, the smallest thing we can be held responsible for). We can only understand names in terms of the roles they play in reasoning. }
-\li{Frege: What's expressed by sentences is special/prior in order explanation to the semantic content of proper names. Because a declarative sentence is the smallest unit to which pragmatic force can attach.}
-\li{Early Wittgenstein: prioritized propositional signs (saw the world as facts, not things). }
-\li{Later Wittgenstein: the smallest move in a language game.}
-}
+  \p{[^mcd]: Note that McDowell centrally claims "The conceptual has no outer boundary" in [Mind and World](ref-0033)
+  }
+  \p{Some background for Derrida's claim:
+  }
+  \p{He is working in a post-structuralist environment. Their principal tool is de Saussure's signifier/signified model.
+  }
+  \p{This is a linguistic version of Berekle's "it's representings all the way down" idealism.
+  }
+  \p{Derrida restricts it to just the signifier side. Brandom: "If we really understand structuralism (thinking of the functional roles of signifiers) we'll see that there is only the signifiers to worry about".
+  }
+  \p{Brandom says this model is semantically inadequate as a model and not even a radical rejection of the signifier/signified model. He wants to file it away in a cabinet labeled "How not to be an antirepresentationalist".
+  }
+  \p{Pierce said similar things about interpretants and interpreters. His principal admirer Charles Morris used this notion of the name-bearer relation to found semiotics, which is not a successful field.
+  }
+  \p{This is not just [representationalism](phil-0118), it is nominalistic representationalism (Taking the name-bearer relationship as the semantic paradigm). It is all pre-kantian, pre-Fregegian, pre-Wittgensteinien.
+  }
+  \ul{
+    \li{Kant: the judgment is the smallest unit of awareness/consciousness (and commitment, the smallest thing we can be held responsible for). We can only understand names in terms of the roles they play in reasoning. }
+    \li{Frege: What's expressed by sentences is special/prior in order explanation to the semantic content of proper names. Because a declarative sentence is the smallest unit to which pragmatic force can attach.}
+    \li{Early Wittgenstein: prioritized propositional signs (saw the world as facts, not things). }
+    \li{Later Wittgenstein: the smallest move in a language game.}
+  }
 
-\p{Brandom calls it "the worst combination" to be declarativist, representationalist, and nominalist.
-}
-\p{Tarskian model theory (and following it, possible worlds semantics) is \em{not} nominalistic: it starts with semantic relations understood nominalistically, but then it builds up representational readings of sentences as sets of models / possibles worlds (those are treated differently from the names).
-}
-\p{There is a connection between this topic and the vocabularity-relativity / objectivity. One question we can ask: to what extent is the categorical-structure of the world a vocabulary-dependent phenomenon?: Ask how we are to address debate two ways of thinking of the objective world we are talking about: is it (as wittgenstein puts it) a world of facts or a world of things?
-Rorty thinks, if you say it's a world of facts, you've conceded his antirepresentationalist point (because the notion of fact[^f] is a vocabulary-relative). }
+  \p{Brandom calls it "the worst combination" to be declarativist, representationalist, and nominalist.
+  }
+  \p{Tarskian model theory (and following it, possible worlds semantics) is \em{not} nominalistic: it starts with semantic relations understood nominalistically, but then it builds up representational readings of sentences as sets of models / possibles worlds (those are treated differently from the names).
+  }
+  \p{There is a connection between this topic and the vocabularity-relativity / objectivity. One question we can ask: to what extent is the categorical-structure of the world a vocabulary-dependent phenomenon?: Ask how we are to address debate two ways of thinking of the objective world we are talking about: is it (as wittgenstein puts it) a world of facts or a world of things?
+    Rorty thinks, if you say it's a world of facts, you've conceded his antirepresentationalist point (because the notion of fact[^f] is a vocabulary-relative). }
 
-\p{[^f]: Frege says: a fact is a thought (i.e. thinkable) that is true.
-}
-\p{You might try to avoid this by thinking of a world of objects, but objects are equally vocabulary-dependent. (you need \em{[sortals](phil-0130)} to distinguish objects).
-}
+  \p{[^f]: Frege says: a fact is a thought (i.e. thinkable) that is true.
+  }
+  \p{You might try to avoid this by thinking of a world of objects, but objects are equally vocabulary-dependent. (you need \em{[sortals](phil-0130)} to distinguish objects).
+  }
 }
 \subtree{\title{Two senses of vocabulary-dependence}
 
@@ -104,9 +108,9 @@ Rorty thinks, if you say it's a world of facts, you've conceded his antirepresen
 \p{[Sense dependence vs reference](int-0017) is relevant: One is frightened of claims of vocabulary dependence because one is thinking of reference- dependence claims. What is arguable is sense-dependence.
 }
 \ul{
-\li{You can't understand the notion of a fact without understanding the notion of a declarative sentence}
-\li{You can't understand the notion of an object without understanding a singular term + sortal in a language}
-\li{You can't understand the concept of a law with understanding modally quantified conditionals.}
+  \li{You can't understand the notion of a fact without understanding the notion of a declarative sentence}
+  \li{You can't understand the notion of an object without understanding a singular term + sortal in a language}
+  \li{You can't understand the concept of a law with understanding modally quantified conditionals.}
 
 }
 \p{There is a sense dependence[^ff] between concepts we use to articulate the categorial structure of the world and concepts we use to describe various features of vocabularies in use (grammatical categories).
@@ -128,30 +132,30 @@ Rorty thinks, if you say it's a world of facts, you've conceded his antirepresen
 }
 \subtree{\title{Pragmatist conceptual progress}
 
-\transclude{q-0051}
+  \transclude{q-0051}
 
-\p{We can only tell progress (that one vocabulary is an improvement) \em{retrospectively}, from within our current vocabulary. There's nothing outside the dialogue.
-}
-\p{But we can imagine institutions of science being taken over by religious fanatics. They'll be able to make a retrospective story too. Rorty has to say "We hope that this won't happen, but history is written by the victors."
-}
-\p{Brandom challenges this and offers a pragmatist-sanitized notion of \em{pro}spective, technological progress.
-}
-\ul{
-\li{The new technology has to be able to do what we're already doing (better than we can).}
-\li{This is evaluated in \em{our} current vocabulary.}
-\li{This sorts future retrospective stories into good or bad from our perspective.}
-}
+  \p{We can only tell progress (that one vocabulary is an improvement) \em{retrospectively}, from within our current vocabulary. There's nothing outside the dialogue.
+  }
+  \p{But we can imagine institutions of science being taken over by religious fanatics. They'll be able to make a retrospective story too. Rorty has to say "We hope that this won't happen, but history is written by the victors."
+  }
+  \p{Brandom challenges this and offers a pragmatist-sanitized notion of \em{pro}spective, technological progress.
+  }
+  \ul{
+    \li{The new technology has to be able to do what we're already doing (better than we can).}
+    \li{This is evaluated in \em{our} current vocabulary.}
+    \li{This sorts future retrospective stories into good or bad from our perspective.}
+  }
 
-\p{This is what persuaded the conquering Arabs to keep Greek learning - they \em{knew} Greek medicine could save people from battlefield wounds that were otherwise surely fatal. When the Greek doctors said that to understand how, you needed to think about how the microcosm and the macrocosm were related, the Arabs had little choice but to think that all that Greek literature and philosophy must be valuable and should be preserved. Aristotle would not be able to appreciate how accurately we can measure the mass of the electron. But he would be impressed by our medicine, by our ability to blow large holes in the ground, move things rapidly over great distances, build large, stable structures...and so on.  
-}
-\p{The demand for technological conservation and progress, understood by prospective normative standards set by earlier practical attitudes and assessments puts a genuine constraint on what counts as theoretical progress, understood by retrospective normative standards set by later practical attitudes and assessments.
-}
-\p{We could \em{define} technological progress as that which can be measured prospectively.[^tp] Then we can make it a criterion of adequacy for a good "retrospective story" that it must be technologically progressive (in domains of the empirical world). We might not care, e.g. for poetic traditions, that we preserve prospective progress. 
-}
-\p{[^tp]: This would be what we call "technological progress" in our \em{current} vocabulary
-}
-\p{Brandom ties this to Pierce's theory of progress. What is prospectively assessible is a constraint on what is retrospectively assessible. This is a way to not be mere carnappian progress but see real friction between vocabularies in use (without thinking in representationalist terms).
-}
+  \p{This is what persuaded the conquering Arabs to keep Greek learning - they \em{knew} Greek medicine could save people from battlefield wounds that were otherwise surely fatal. When the Greek doctors said that to understand how, you needed to think about how the microcosm and the macrocosm were related, the Arabs had little choice but to think that all that Greek literature and philosophy must be valuable and should be preserved. Aristotle would not be able to appreciate how accurately we can measure the mass of the electron. But he would be impressed by our medicine, by our ability to blow large holes in the ground, move things rapidly over great distances, build large, stable structures...and so on.
+  }
+  \p{The demand for technological conservation and progress, understood by prospective normative standards set by earlier practical attitudes and assessments puts a genuine constraint on what counts as theoretical progress, understood by retrospective normative standards set by later practical attitudes and assessments.
+  }
+  \p{We could \em{define} technological progress as that which can be measured prospectively.[^tp] Then we can make it a criterion of adequacy for a good "retrospective story" that it must be technologically progressive (in domains of the empirical world). We might not care, e.g. for poetic traditions, that we preserve prospective progress.
+  }
+  \p{[^tp]: This would be what we call "technological progress" in our \em{current} vocabulary
+  }
+  \p{Brandom ties this to Pierce's theory of progress. What is prospectively assessible is a constraint on what is retrospectively assessible. This is a way to not be mere carnappian progress but see real friction between vocabularies in use (without thinking in representationalist terms).
+  }
 }
 \subtree{\title{Pragmatist version of Kantian problematic}
 
@@ -161,7 +165,7 @@ Rorty thinks, if you say it's a world of facts, you've conceded his antirepresen
 }
 \p{It's through understanding relationships between the vocabularies that we can achieve something vocabulary independent (e.g. the isomorphism between "1,2,3..." and "#{\alpha,\beta,\gamma}...").
 }
-\p{You say "it weighs 1" and I say "no it ways 2.2" - what has to be true about our practice for someone outside us to say "they are both measuring \em{the (objective) weight} (with units lb and kg)". This requires ground-level pragmatism engineering to find out such-and-such properties need to preserved in the language mapping . 
+\p{You say "it weighs 1" and I say "no it ways 2.2" - what has to be true about our practice for someone outside us to say "they are both measuring \em{the (objective) weight} (with units lb and kg)". This requires ground-level pragmatism engineering to find out such-and-such properties need to preserved in the language mapping .
 }
 
 \p{\mark{This is saying that a pragmatist strategy for making an objective/subjective distinction is via mappings between languages (characterizable via universal properties?)}

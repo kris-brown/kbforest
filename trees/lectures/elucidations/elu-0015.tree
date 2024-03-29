@@ -1,61 +1,64 @@
-\title{22. Collective action}
+\title{Collective action}
 \tag{elucidations}
+\number{22}
+\author{ben-laurence}
+\parent{elu-0029}
 
 \subtree{\title{Can a group of people do an action?}
-\ul{
-  \li{We regularly conjoin plural subjects with action verbs.}
-  \li{We have a desire to analyze the collective action purely into terms of the individual actions. This is a mistake - removes what is interesting about collective action.}
-}\p{Example: five people building a wall}
-\ul{
-  \li{Someone could say there is no more to this action than just the individuals laying bricks / cement.}
-  \li{This account gives no relations between the people doing the various actions}
-}\p{Example: swedish diplomat}
-\ul{
-\li{Case 1: collective action}
-  \li{Want to talk to the diplomat, who is talking to someone else. Your teammate engages the other person, opening up the diplomat for you to sweep in.}
-  \li{Together you pull off the plan together}
-\li{Case 2: no collective action}
-  \li{Same as above, except no coordination was planned with the teammate}
-  \li{It just happens that this other person started talking to the person talking to the diplomat, and you seize the opportunity.}
-  \li{It's just one agent exploiting the actions of another agent.}}
-\p{The reduction of group actions to individual actions cannot distinguish the 
-  two cases.}
+  \ul{
+    \li{We regularly conjoin plural subjects with action verbs.}
+    \li{We have a desire to analyze the collective action purely into terms of the individual actions. This is a mistake - removes what is interesting about collective action.}
+  }\p{Example: five people building a wall}
+  \ul{
+    \li{Someone could say there is no more to this action than just the individuals laying bricks / cement.}
+    \li{This account gives no relations between the people doing the various actions}
+  }\p{Example: swedish diplomat}
+  \ul{
+    \li{Case 1: collective action}
+    \li{Want to talk to the diplomat, who is talking to someone else. Your teammate engages the other person, opening up the diplomat for you to sweep in.}
+    \li{Together you pull off the plan together}
+    \li{Case 2: no collective action}
+    \li{Same as above, except no coordination was planned with the teammate}
+    \li{It just happens that this other person started talking to the person talking to the diplomat, and you seize the opportunity.}
+    \li{It's just one agent exploiting the actions of another agent.}}
+  \p{The reduction of group actions to individual actions cannot distinguish the
+    two cases.}
 
-\p{One source of pressure that makes people (illegitimately) doubt the reality of
-  collective action:}
+  \p{One source of pressure that makes people (illegitimately) doubt the reality of
+    collective action:}
 
-\ul{
-\li{Cause by an intuitive (but bad) picture of how solitary action happens. A process that is caused by a psychological state}
-\li{When we generalize this to groups, it requires us to postulate a group mind.}
-\li{Laurence: this picture is bad because it presupposes the causality between action and mental states is like the causality between rocks bumping each other.}
-\ul{
-  \li{Different kinds of explanation ought be appropriate for talking about human action.}
-  \li{It lacks any reference to people's purposes for acting.}
-}\li{Alternative}
-\ul{
-  \li{Slogan: acting together is acting with a common purpose.}
-  \li{E.g. bank robber is listening to a stethescope}
-\ul{
-    \li{We can ask why and get the answer "to crack the safe"}
-    \li{We can ask why is he cracking the safe and get the answer "because the robbers are robbing the bank"}
-\ul{
-      \li{Isn't this circular?}
-      \li{All that was presupposed was that an intentional action with a plural subject is intelligible.}
-      \li{Proof: Laurence can articulate the difference between actions with plural subjects and plural agents}
-}}  \li{Why is the gunman holding the gun on the security guard? To immobilize him? Why? Because the robbers are robbing the bank.}
-  \li{What it means for the two actors to be acting together is that the "purposive explanations" of their actions unify at some point.}
-}}
+  \ul{
+    \li{Cause by an intuitive (but bad) picture of how solitary action happens. A process that is caused by a psychological state}
+    \li{When we generalize this to groups, it requires us to postulate a group mind.}
+    \li{Laurence: this picture is bad because it presupposes the causality between action and mental states is like the causality between rocks bumping each other.}
+    \ul{
+      \li{Different kinds of explanation ought be appropriate for talking about human action.}
+      \li{It lacks any reference to people's purposes for acting.}
+    }\li{Alternative}
+    \ul{
+      \li{Slogan: acting together is acting with a common purpose.}
+      \li{E.g. bank robber is listening to a stethescope}
+      \ul{
+        \li{We can ask why and get the answer "to crack the safe"}
+        \li{We can ask why is he cracking the safe and get the answer "because the robbers are robbing the bank"}
+        \ul{
+          \li{Isn't this circular?}
+          \li{All that was presupposed was that an intentional action with a plural subject is intelligible.}
+          \li{Proof: Laurence can articulate the difference between actions with plural subjects and plural agents}
+        }}  \li{Why is the gunman holding the gun on the security guard? To immobilize him? Why? Because the robbers are robbing the bank.}
+      \li{What it means for the two actors to be acting together is that the "purposive explanations" of their actions unify at some point.}
+    }}
 }
 \subtree{\title{Ethical/political consequences}
-\p{Individualistic picture of acting together can cause problems}
-\ul{
-  \li{E.g. understanding democratic reasoning in terms of a lone agent tries to satisfy his preferences will cause distortions}
-  \li{What goes missing is the notion of a shared purpose/mission}
-  \li{Will be difficult to reconstruct the group from the individual citizen's purposes.}
-}\p{Situations where impermissible coercion is involved}
-\ul{
-  \li{"Jump through this hoop or else I'll set your pants on fire"}
-  \li{Force used against free riders (e.g. taxation)}
-  \li{Without collective reasons, we end up with strong libertarian arguments that taxation is theft.}
-}
+  \p{Individualistic picture of acting together can cause problems}
+  \ul{
+    \li{E.g. understanding democratic reasoning in terms of a lone agent tries to satisfy his preferences will cause distortions}
+    \li{What goes missing is the notion of a shared purpose/mission}
+    \li{Will be difficult to reconstruct the group from the individual citizen's purposes.}
+  }\p{Situations where impermissible coercion is involved}
+  \ul{
+    \li{"Jump through this hoop or else I'll set your pants on fire"}
+    \li{Force used against free riders (e.g. taxation)}
+    \li{Without collective reasons, we end up with strong libertarian arguments that taxation is theft.}
+  }
 }

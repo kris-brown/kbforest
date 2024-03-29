@@ -1,10 +1,13 @@
 \title{Huw Price on Representationalism, Rorty, and Expressivism}
+\author{brandom}
+\parent{lec-0024}
+\number{9}
 
 \subtree{\title{Generalizing subject naturalism}
 
   \p{The pragmatic metavocabulary one uses for this purpose need not be naturalistic. One might looks to use a \em{normative} metavocabulary, which specifies (not necessarily “describes”) how it is proper or correct to use expressions. Brandom disagrees with Price, who uses a naturalistic metavocabulary, because he believes having a normative metavocabulary is essential to understanding how meaning is conferred. Naturalistic metavocabulary is committed to working with dispositions (alethic modal vocabulary) and forgoes invoking correctness/proprieties of use.
   }
-  \p{This would be a \strong{one}-sorted normative vocabulary, using evaluations of correct/incorrect, justified/unjustified, or proper/improper. That is what assertibility theories, as in [Dewey](john-dewey), [Sellars](sellars), or [Dummett](michael-dummett) do.
+  \p{This would be a \strong{one}-sorted normative vocabulary, using evaluations of correct/incorrect, justified/unjustified, or proper/improper. That is what assertibility theories, as in [Dewey](dewey), [Sellars](sellars), or [Dummett](dummett) do.
   }
   \p{Or one might use the \strong{two}-sorted normative vocabulary of commitment and entitlement (to commitments), or of responsibility and authority. [Brandom](brandom) argues in [Making It Explicit](ref-0075) that such a two-sorted normative pragmatic metavocabulary is much more expressively powerful than the one-sorted variety. [^st]
   }

@@ -12,3 +12,4 @@ output
 *.bak0
 *.bak1
 cruft/
+.DS_Store

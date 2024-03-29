@@ -1,4 +1,8 @@
 \title{Anti-Representationalism, Pragmatism, and Expressivism}
+\author{brandom}
+\parent{lec-0024}
+\number{8}
+
 \import{base-macros}
 \p{To understand [subject naturalism](phil-0089), we first need to understand object-naturalism (normally just called "[naturalism](phil-0082)").}
 
@@ -164,7 +168,7 @@
 
   \p{Huw looks at two uses of naturalistic vocabulary: one on the side of objects represented, and another on the side of the practices that can be understood as representing/describing them (but at the cost of metaphysical puzzlement about the extravagant ranges of facts and kinds of objects one must envisage)
   }
-  \p{That can be understood in more pragmatic terms, not shoe-horned in Procrustean ways into the representational model. (This is what HP means by “expressivism”—or at any rate, how he wants to adopt and co-opt the vocabulary of metaethical expressivism, as generalized by [Blackburn](simon-blackburn) to the “3 'M's”.).
+  \p{That can be understood in more pragmatic terms, not shoe-horned in Procrustean ways into the representational model. (This is what HP means by “expressivism”—or at any rate, how he wants to adopt and co-opt the vocabulary of metaethical expressivism, as generalized by [Blackburn](blackburn) to the “3 'M's”.).
   }
   \blockquote{Characterizing discursive practice in resolutely non-normative terms is hopeless: what is lost is the meaning.}
 
@@ -188,7 +192,7 @@
 
 \p{Huw calls it  "Semantic minimalism".[^now]  Semantic deflationism gave Huw a grip on placement problems.
 }
-\p{Historical background: [Ramsey](frank-ramsey) and [Quine](quine) call it disquotationalism. This becomes [Strawson](peter-strawson)'s "[Redundancy theory of facts](phil-0111)". Horwich called it minimalism, which is where Huw got the name.
+\p{Historical background: [Ramsey](ramsey) and [Quine](quine) call it disquotationalism. This becomes [Strawson](peter-strawson)'s "[Redundancy theory of facts](phil-0111)". Horwich called it minimalism, which is where Huw got the name.
 }
 \p{[^now]: However, that is \em{now} used for the view that denies truth conditions (Travis' radical contextualism) or assigning minimal, invariant truth conditions and relegating everything else to “pragmatics”.
 }
@@ -196,7 +200,7 @@
 }
 \p{A: The rarest and most precious thing in philosophy is when you can find a way to do some detailed, close to the ground work on a topic, where there are independent criteria of adequacy on an account, and leverage your results into an argument concerning some large and important philosophical topic.
 }
-\p{Examples of the above: Kantians like Korsgaard and [Habermas](jurgen-habermas) using detailed arguments from the philosophy of action and the philosophy of language (respectively) to draw significant conclusions in moral and political theory.
+\p{Examples of the above: Kantians like Korsgaard and [Habermas](habermas) using detailed arguments from the philosophy of action and the philosophy of language (respectively) to draw significant conclusions in moral and political theory.
 }
 \subtree{\title{Prosentential theory of truth}
 
@@ -215,7 +219,7 @@
     \li{It blocks a move that says "these claims you're making in the problematic discourse, they're truth evaluable, so it makes sense to ask what the truthmakers are". Quine talks about semantic ascent ("snow is white" => "'snow is white' is true") and how it adds nothing semantically to what was there already. One can also say semantic descent works the same way.}
 
   }
-  \p{[^yt]: e.g. [Blackburn](simon-blackburn) using it to argue against Rorty https://www.youtube.com/watch?v=KekgLOAejwM
+  \p{[^yt]: e.g. [Blackburn](blackburn) using it to argue against Rorty https://www.youtube.com/watch?v=KekgLOAejwM
   }
   \p{Brandom thinks the argument is good against saying that S.D. => O.N., but not that S.D. => S.N. Price and Brandom agree that semantic deflationism does not make the representationalist move cheap, easy, or trivial.
   }

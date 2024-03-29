@@ -1,86 +1,89 @@
 \title{Simon Blackburn on Expressivism and Pragmatism}
+\author{brandom}
+\parent{lec-0024}
+\number{10}
 
 \subtree{\title{Review of [Object naturalism and subject naturalism](phil-0089). }
 
-\p{Dividing through by the naturalism (to just think about distinguishing a semantic metavocabulary and a pragmatic metavocabulary) allows us to consider having different vocabularies for both. Diving through by the representationalism allows possibility of inferentialist semantic metavocabulary.}
+  \p{Dividing through by the naturalism (to just think about distinguishing a semantic metavocabulary and a pragmatic metavocabulary) allows us to consider having different vocabularies for both. Diving through by the representationalism allows possibility of inferentialist semantic metavocabulary.}
 
-\p{If you decide to use a normative pragmatic metavocabulary (understand the norms as instituted by social practices) and use an inferentialist semantic metavocabulary (explain the use of representational vocabulary in terms of the pragmatic metavocabulary) you get view in [Making It Explicit](ref-0075). 
-}
+  \p{If you decide to use a normative pragmatic metavocabulary (understand the norms as instituted by social practices) and use an inferentialist semantic metavocabulary (explain the use of representational vocabulary in terms of the pragmatic metavocabulary) you get view in [Making It Explicit](ref-0075).
+  }
 
-\p{A meta-metavocabulary needed to talk about the relation between semantic and pragmatic metavocabularies is discussed in \em{Between Saying and Doing}.
-}
+  \p{A meta-metavocabulary needed to talk about the relation between semantic and pragmatic metavocabularies is discussed in \em{Between Saying and Doing}.
+  }
 
-\p{Humean expressivists like Blackburn and Gibbard saw Hume as a naturalist rather than a skeptic. (This is a divisive point in the Hume literature). Blackburn emphasized the unity between Hume's move on morality (morals) and necessity (modals).  
-}
+  \p{Humean expressivists like Blackburn and Gibbard saw Hume as a naturalist rather than a skeptic. (This is a divisive point in the Hume literature). Blackburn emphasized the unity between Hume's move on morality (morals) and necessity (modals).
+  }
 }
 \subtree{\title{Distinction of Local vs Global Expressivism}
 
-\p{Rorty thinks about whether we should use an alternative semantic model to the representationlalist model. He doesn't deliberate that one's semantic model can be piecemeal. Blackburn makes this distinction. It seems \em{obvious} to people who disagree with Rorty that \em{some} of our language is descriptive/representational.
-}
-\p{Frank Jackson bets that people who come to philosophy meetings to argue against representationalism have things like maps of the conference area and printed schedules whose job is to represent. This idea is treated as a straightforward refutation of global anti-representationalist.
-}
-\p{Sellars was ahead of his time on this one: he treats ordinary empirical vocabulary and scientific vocabulary on a representationalist model but does not assimilate all discourse to describing (he was a Kantian categorial expressivist about other vocabularies).
-}
-\subtree{\title{Why did Rorty not make this distinction?}
+  \p{Rorty thinks about whether we should use an alternative semantic model to the representationlalist model. He doesn't deliberate that one's semantic model can be piecemeal. Blackburn makes this distinction. It seems \em{obvious} to people who disagree with Rorty that \em{some} of our language is descriptive/representational.
+  }
+  \p{Frank Jackson bets that people who come to philosophy meetings to argue against representationalism have things like maps of the conference area and printed schedules whose job is to represent. This idea is treated as a straightforward refutation of global anti-representationalist.
+  }
+  \p{Sellars was ahead of his time on this one: he treats ordinary empirical vocabulary and scientific vocabulary on a representationalist model but does not assimilate all discourse to describing (he was a Kantian categorial expressivist about other vocabularies).
+  }
+  \subtree{\title{Why did Rorty not make this distinction?}
 
-\p{He thought the representational model of semantics was broken-backed through and through - unable to illuminate the use of \em{any} vocabulary. He saw representation (as we'd inherited it from the [Enlightenment](phil-0137) through Kant) as incorporating the idea that there is a non-vocabulary-relative standard of assessment of vocabularies at how good they are at the job of representing how things objectively are. This is what he called the ideal of "accuracy of representation" or big-R Representationalism. This is what he really wanted to reject. This is not an epistemic point: it's not that we can't \em{know} how good our vocabulary is doing at representing how things objectively are. It's the idea of one vocabulary being better at representing than another doesn't make sense. 
-}
-\p{Rorty's holism is also at odds with representionalism (which is intrinsically atomistic). 
-}
-}}
+    \p{He thought the representational model of semantics was broken-backed through and through - unable to illuminate the use of \em{any} vocabulary. He saw representation (as we'd inherited it from the [Enlightenment](phil-0137) through Kant) as incorporating the idea that there is a non-vocabulary-relative standard of assessment of vocabularies at how good they are at the job of representing how things objectively are. This is what he called the ideal of "accuracy of representation" or big-R Representationalism. This is what he really wanted to reject. This is not an epistemic point: it's not that we can't \em{know} how good our vocabulary is doing at representing how things objectively are. It's the idea of one vocabulary being better at representing than another doesn't make sense.
+    }
+    \p{Rorty's holism is also at odds with representionalism (which is intrinsically atomistic).
+    }
+  }}
 \subtree{\title{Bifurcation}
-\p{Challenge to the local expressivist: where do we draw the line (without getting into objectional metaphysics on the representational side)?
-}
-\p{How does one undersatnd the relationship between the descriptive-representational bits of language and the alternative ones? 
-}
-\p{Kantian categorial local expressivists think OED \em{is} basic and that other discourse is parasitic on it.[^dt] Wittgenstein denies this when claiming language does not have a "downtown". 
-}
-\p{[^dt]: Inferentialists claim that asserting is "downtown" in discursive practice, insofar as having some performances with this significance is \em{criterial} for qualifying as \em{discursive} practice, as being a \em{Sprach}spiel. There are complex relationships between this downtown of asserting and the downtown of OED vocabulary.
-}
-\p{Blackburn concedes that the topic of bifurcation cannot be addressed at the level of semantics, of talk of 'truth' and 'facts.' This is largely because of the [semantic minimalism](q-0088) (deflationism) he shares with Huw, and that Price has taken to be central to the antirepresentationalist case. He argues instead for an \em{epistemological} criterion: what Price and MacArthur call the “\strong{Eleatic criterion}.”
-}
-\p{Price/MacArthur's criterion: do we need to invoke the vocabulary in our causal explanations of achievement of knowledge by using the target vocabulary. 
-}
-\p{It is generalized by Harman's move, in distinguishing electrons from moral values on the basis that the best story about our 'electron'-talk involves invoking causal interactions with electrons, whereas the best explanation of our use of 'moral value'-talk need not step outside talking about our attitudes.
-}
-\p{Blackburn's further criterion: In characterizing[^cr] the practices themselves do we need to use, and not merely mention, the sentences and singular terms of the practice being characterized? If so (e.g. we are \em{obliged} to say things like "They respond to K things by calling them 'K'.") it should be representational.  E.g. in our best account of "price of stocks" do we need to invoke the price of stocks?
-}
-\p{[^cr]: Hidden parameter: there is some goal/standard/purpose for something to count as 'characterizing' a linguistic practice.
-}
-\p{This is all agnostic to \em{what} an E-representational account is - it's just about when we need to go looking for one.
-}
-\p{This is related to a dispute between Dummett and MacDowell in the 80's about "robust" vs "modest" theories of meaning, which led MacDowell to distinguish "theories of meaning" (must be robust, telling you what meaning \em{is}) and "meaning theories" (specifying the meanings of expressions in some target vocabulary). 
-}
-\subtree{\title{Brandom's critique}
-\p{I have pointed out that the temptations for question-begging in the appeal to arguments of this broadly Eliatic form is great, since presuppositions can be hidden in one's not-explicitly- motivated implicit restrictions on the vocabulary one can appeal to in specifying what one is explaining and what one can appeal to in explaining it. This is particularly so with appeals to 'dispositions' to use expressions as the explanandum. One usually has in mind thereby dispositions to make noises under stimuli or in environments specified in a naturalistic vocabulary. But things look quite different if what one take to need explanation is one's disposition to use, say 'negation' \em{correctly}.
-}
-\p{For vocabularies that raise puzzles, typically about how we can come to know about the sorts of facts and entities discussed in some vocabulary we should adopt the “anthropological” stance of explaining the use of the vocabulary, rather than assuming it is e-representational. Here functional pluralism should reign.
-}
-\p{Blackburn is willing to be deflationist about truth, but not about knowledge. But whence the difference, on a properly pragmatist point of view? SB thinks some sort of “quasi-causation” must be invoked to explain knowledge of numbers or values or possibilities.
-}
-\p{In any case, it is not clear to me that focusing on knowledge rather than on truth makes things easier here. I can deflate knowledge as easily as truth. That is precisely what the social-perspectival account of attributions of knowledge—as attributing a commitment (B), attributing entitlement to that commitment (J), and undertaking or endorsing that commitment (T), hence JTB—is supposed to do.
-}
+  \p{Challenge to the local expressivist: where do we draw the line (without getting into objectional metaphysics on the representational side)?
+  }
+  \p{How does one undersatnd the relationship between the descriptive-representational bits of language and the alternative ones?
+  }
+  \p{Kantian categorial local expressivists think OED \em{is} basic and that other discourse is parasitic on it.[^dt] Wittgenstein denies this when claiming language does not have a "downtown".
+  }
+  \p{[^dt]: Inferentialists claim that asserting is "downtown" in discursive practice, insofar as having some performances with this significance is \em{criterial} for qualifying as \em{discursive} practice, as being a \em{Sprach}spiel. There are complex relationships between this downtown of asserting and the downtown of OED vocabulary.
+  }
+  \p{Blackburn concedes that the topic of bifurcation cannot be addressed at the level of semantics, of talk of 'truth' and 'facts.' This is largely because of the [semantic minimalism](q-0088) (deflationism) he shares with Huw, and that Price has taken to be central to the antirepresentationalist case. He argues instead for an \em{epistemological} criterion: what Price and MacArthur call the “\strong{Eleatic criterion}.”
+  }
+  \p{Price/MacArthur's criterion: do we need to invoke the vocabulary in our causal explanations of achievement of knowledge by using the target vocabulary.
+  }
+  \p{It is generalized by Harman's move, in distinguishing electrons from moral values on the basis that the best story about our 'electron'-talk involves invoking causal interactions with electrons, whereas the best explanation of our use of 'moral value'-talk need not step outside talking about our attitudes.
+  }
+  \p{Blackburn's further criterion: In characterizing[^cr] the practices themselves do we need to use, and not merely mention, the sentences and singular terms of the practice being characterized? If so (e.g. we are \em{obliged} to say things like "They respond to K things by calling them 'K'.") it should be representational.  E.g. in our best account of "price of stocks" do we need to invoke the price of stocks?
+  }
+  \p{[^cr]: Hidden parameter: there is some goal/standard/purpose for something to count as 'characterizing' a linguistic practice.
+  }
+  \p{This is all agnostic to \em{what} an E-representational account is - it's just about when we need to go looking for one.
+  }
+  \p{This is related to a dispute between Dummett and MacDowell in the 80's about "robust" vs "modest" theories of meaning, which led MacDowell to distinguish "theories of meaning" (must be robust, telling you what meaning \em{is}) and "meaning theories" (specifying the meanings of expressions in some target vocabulary).
+  }
+  \subtree{\title{Brandom's critique}
+    \p{I have pointed out that the temptations for question-begging in the appeal to arguments of this broadly Eliatic form is great, since presuppositions can be hidden in one's not-explicitly- motivated implicit restrictions on the vocabulary one can appeal to in specifying what one is explaining and what one can appeal to in explaining it. This is particularly so with appeals to 'dispositions' to use expressions as the explanandum. One usually has in mind thereby dispositions to make noises under stimuli or in environments specified in a naturalistic vocabulary. But things look quite different if what one take to need explanation is one's disposition to use, say 'negation' \em{correctly}.
+    }
+    \p{For vocabularies that raise puzzles, typically about how we can come to know about the sorts of facts and entities discussed in some vocabulary we should adopt the “anthropological” stance of explaining the use of the vocabulary, rather than assuming it is e-representational. Here functional pluralism should reign.
+    }
+    \p{Blackburn is willing to be deflationist about truth, but not about knowledge. But whence the difference, on a properly pragmatist point of view? SB thinks some sort of “quasi-causation” must be invoked to explain knowledge of numbers or values or possibilities.
+    }
+    \p{In any case, it is not clear to me that focusing on knowledge rather than on truth makes things easier here. I can deflate knowledge as easily as truth. That is precisely what the social-perspectival account of attributions of knowledge—as attributing a commitment (B), attributing entitlement to that commitment (J), and undertaking or endorsing that commitment (T), hence JTB—is supposed to do.
+    }
 
-}
-\subtree{\title{David Lewis alternative}
-\p{Vocabulary-relative method for deciding what you are talking about (in terms of an unproblematic base vocabulary) when using a target vocabulary.
-}
-\ol{
+  }
+  \subtree{\title{David Lewis alternative}
+    \p{Vocabulary-relative method for deciding what you are talking about (in terms of an unproblematic base vocabulary) when using a target vocabulary.
+    }
+    \ol{
 
-\li{Ramsify your target theory[^ram]
-}
-\li{Pick out best realizers of the functional roles so specified, with the realizers specified in one's favorite (privileged) base or use vocabulary.}
-}
-\p{[^ram]:  Replace terms with variables bound by quantifiers—typically at least second-order predicate variable, bound by wide-scope higher-order existential quantifiers. Normally some fragment is left unRamsified, usually causal or alethic modal terms.
-}
-\p{This is important for the Canberra plan. It's related in complicated ways.
-}
-}
-\subtree{\title{Kantian categorial expressivism}
-\p{The important Kantian idea is that Kant saw some concepts were not for describing empirical goings-on (OED vocab); these concepts have the expressive job of making explicit the practical framework for describing/explaining empirical goings-on. These pure concepts did not have the expressive role of describing. 
-}
-\p{Sellars used this to view Carnap as a neoKantian (metalinguistic concepts play a different role from linguistic concepts). Most concepts philosophers find problematic or puzzling were covertly metalinguistic.
-}
-\p{In contrast to Blackburn's piecemeal selection of Modals/Morals/Mathematics for deserving an expressive account (whatever that doesn't meet the eleatic principle), a principled account will give an expressive account to anything which plays the framework-explicating role.
-}}
+      \li{Ramsify your target theory[^ram]
+      }
+      \li{Pick out best realizers of the functional roles so specified, with the realizers specified in one's favorite (privileged) base or use vocabulary.}
+    }
+    \p{[^ram]:  Replace terms with variables bound by quantifiers—typically at least second-order predicate variable, bound by wide-scope higher-order existential quantifiers. Normally some fragment is left unRamsified, usually causal or alethic modal terms.
+    }
+    \p{This is important for the Canberra plan. It's related in complicated ways.
+    }
+  }
+  \subtree{\title{Kantian categorial expressivism}
+    \p{The important Kantian idea is that Kant saw some concepts were not for describing empirical goings-on (OED vocab); these concepts have the expressive job of making explicit the practical framework for describing/explaining empirical goings-on. These pure concepts did not have the expressive role of describing.
+    }
+    \p{Sellars used this to view Carnap as a neoKantian (metalinguistic concepts play a different role from linguistic concepts). Most concepts philosophers find problematic or puzzling were covertly metalinguistic.
+    }
+    \p{In contrast to Blackburn's piecemeal selection of Modals/Morals/Mathematics for deserving an expressive account (whatever that doesn't meet the eleatic principle), a principled account will give an expressive account to anything which plays the framework-explicating role.
+    }}
 }

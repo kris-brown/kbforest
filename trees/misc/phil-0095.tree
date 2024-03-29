@@ -7,7 +7,7 @@
 
 \subtree{\title{Logistical tradition}
 
-\p{Runs from [Frege](gottlob-frege)/[Russell](bertrand-russell), through the [Tractatus](ref-0066), [Carnap](rudolf-carnap), [Tarski](alfred-tarski), [Quine](quine), [David Lewis](david-lewis)}
+\p{Runs from [Frege](gottlob-frege)/[Russell](russell), through the [Tractatus](ref-0066), [Carnap](carnap), [Tarski](tarski), [Quine](quine), [David Lewis](david-lewis)}
 
 \p{Operative paradigm: formal calculi suitable for proofs about artificial symbolic languages}
 \ul{
@@ -20,6 +20,6 @@
   \ul{
     \li{Focuses on natural languages over artificial ones}
     \li{Thinks of languages as a social practice characteristic of biological creatures like us}
-    \li{[Dewey](john-dewey), early [Heidegger](martin-heidegger), late Wittgenstein, [Rorty](rorty).}
+    \li{[Dewey](dewey), early [Heidegger](heidegger), late Wittgenstein, [Rorty](rorty).}
   }
 }}
