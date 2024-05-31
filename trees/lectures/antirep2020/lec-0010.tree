@@ -2,25 +2,26 @@
 \author{brandom}
 \parent{lec-0024}
 \number{10}
+\taxon{lecture}
 
 \subtree{\title{Review of [Object naturalism and subject naturalism](phil-0089). }
 
   \p{Dividing through by the naturalism (to just think about distinguishing a semantic metavocabulary and a pragmatic metavocabulary) allows us to consider having different vocabularies for both. Diving through by the representationalism allows possibility of inferentialist semantic metavocabulary.}
 
-  \p{If you decide to use a normative pragmatic metavocabulary (understand the norms as instituted by social practices) and use an inferentialist semantic metavocabulary (explain the use of representational vocabulary in terms of the pragmatic metavocabulary) you get view in [Making It Explicit](ref-0075).
+  \p{If you decide to use a [normative pragmatic metavocabulary](phil-017K) (understand the norms as instituted by social practices) and use an [inferentialist](phil-018Z) semantic metavocabulary (explain the use of representational vocabulary in terms of the pragmatic metavocabulary) you get view in [Making It Explicit](ref-0075).
   }
 
-  \p{A meta-metavocabulary needed to talk about the relation between semantic and pragmatic metavocabularies is discussed in \em{Between Saying and Doing}.
+  \p{A meta-metavocabulary needed to talk about the relation between semantic and pragmatic metavocabularies is discussed in [Between Saying and Doing](ref-009O).
   }
 
-  \p{Humean expressivists like Blackburn and Gibbard saw Hume as a naturalist rather than a skeptic. (This is a divisive point in the Hume literature). Blackburn emphasized the unity between Hume's move on morality (morals) and necessity (modals).
+  \p{Humean expressivists like [Blackburn](blackburn) and [Gibbard](gibbard) saw [Hume](hume) as a naturalist rather than a [skeptic](phil-0128). (This is a divisive point in the Hume literature). Blackburn emphasized the unity between Hume's move on morality (morals) and necessity (modals).
   }
 }
 \subtree{\title{Distinction of Local vs Global Expressivism}
 
   \p{Rorty thinks about whether we should use an alternative semantic model to the representationlalist model. He doesn't deliberate that one's semantic model can be piecemeal. Blackburn makes this distinction. It seems \em{obvious} to people who disagree with Rorty that \em{some} of our language is descriptive/representational.
   }
-  \p{Frank Jackson bets that people who come to philosophy meetings to argue against representationalism have things like maps of the conference area and printed schedules whose job is to represent. This idea is treated as a straightforward refutation of global anti-representationalist.
+  \p{[Frank Jackson](jackson) bets that people who come to philosophy meetings to argue against representationalism have things like maps of the conference area and printed schedules whose job is to represent. This idea is treated as a straightforward refutation of global anti-representationalist.
   }
   \p{Sellars was ahead of his time on this one: he treats ordinary empirical vocabulary and scientific vocabulary on a representationalist model but does not assimilate all discourse to describing (he was a Kantian categorial expressivist about other vocabularies).
   }
@@ -36,7 +37,7 @@
   }
   \p{How does one undersatnd the relationship between the descriptive-representational bits of language and the alternative ones?
   }
-  \p{Kantian categorial local expressivists think OED \em{is} basic and that other discourse is parasitic on it.[^dt] Wittgenstein denies this when claiming language does not have a "downtown".
+  \p{Kantian categorial local expressivists think OED \em{is} basic and that other discourse is parasitic on it.[^dt] Wittgenstein denies this when [claiming](q-015F) language does not have a "downtown".
   }
   \p{[^dt]: Inferentialists claim that asserting is "downtown" in discursive practice, insofar as having some performances with this significance is \em{criterial} for qualifying as \em{discursive} practice, as being a \em{Sprach}spiel. There are complex relationships between this downtown of asserting and the downtown of OED vocabulary.
   }

@@ -1,0 +1,6 @@
+\date{2024-05-03}
+\title{Theoremhood}
+
+\p{In logics with global monotonicity, #{p} being a theorem means #{\vdash p}, i.e. that it is entailed by an empty set of premises. Monotonicity implies then that #{p} is entailed by \em{every} premise set.}
+
+\p{For [non-monotonic](phil-0085) logics, #{p} being entailed by every premise set is the right notion of theoremhood, which is unrelated to whether or not #{p} is entailed by an empty premise set.}

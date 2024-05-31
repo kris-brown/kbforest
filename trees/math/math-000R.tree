@@ -1,0 +1,4 @@
+\date{2024-04-15}
+\title{Thin category}
+\taxon{definition}
+\p{A [category](math-000D) which has at most one morphism between any pair of objects.}

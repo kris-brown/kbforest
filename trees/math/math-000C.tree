@@ -1,0 +1,29 @@
+\date{2024-04-15}
+\title{Double category}
+\import{macros}
+\taxon{definition}
+
+\p{A \em{double category} #{\DD} consists in: }
+
+\ul{
+\li{a [category](math-000D): #{\DD_0}
+\ul{
+\li{Whose objects are the objects of #{\DD}}
+\li{Whose arrows are the arrows of #{\DD}}
+}
+}
+\li{a [category](math-000D): #{\DD_1}
+\ul{
+\li{Whose objects are the \em{proarrows} of #{\DD}}
+\li{Whose arrows are the \em{cells} of #{\DD}}
+}}
+\li{Two [functors](math-000E): #{s,t: \DD_1 \rightarrow \DD_0}}
+}
+
+\p{Satisfying:}
+
+\ul{
+\li{Composition interchange: #{(\alpha \odot \beta)\cdot (\alpha' \odot \beta') = (\alpha \cdot \alpha')\odot (\beta\cdot\beta')}}
+\li{Identity interchange: ...}
+}
+

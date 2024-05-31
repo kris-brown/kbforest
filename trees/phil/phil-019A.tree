@@ -1,0 +1,4 @@
+\date{2024-04-16}
+\title{Deontic modal logic}
+
+\p{#{\box p} is interpreted as "it is obligatory that #{p}" and #{\diamond p} is interpreted as "it is permissible that #{p}.}

@@ -1,0 +1,15 @@
+\date{2024-04-15}
+\title{Rel}
+\taxon{definition}
+\import{macros}
+\p{#{{\RR}el} is a [double category](math-000S):}
+
+\ul{
+\li{#{{\RR}el_0} = \cat{Set}, i.e. \ul{
+  \li{Objects are sets}
+  \li{Arrows are functions}
+}}
+\li{Proarrows are [relations](math-0002)}
+\li{Cells are inclusions of relations.}
+}
+

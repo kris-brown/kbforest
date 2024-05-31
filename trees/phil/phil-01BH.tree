@@ -1,0 +1,34 @@
+\date{2024-05-01}
+\title{Intrinsic-explicative vs extrinsic explanatory}
+\import{base-macros}
+
+\p{Two kinds of metavocabularies which codify the reason-relations of a base vocabulary, #{V}.}
+
+\table{
+\tr{
+  \th{}
+  \th{[Intrinsic-explicative](phil-01BI)}
+  \th{[Extrinsic-explanatory](phil-01BJ)}
+}
+\tr{
+  \th{Examples}
+  \td{Logical vocabulary}
+  \td{[Semantic](phil-017F) and [pragmatic](phil-015S) metalanguages}
+}
+\tr{
+\th{Conceptual resources}
+\td{Limited to #{V}}
+\td{Introduces new material}
+}
+\tr{
+\th{Goals}
+\td{Make explicit #{V}'s reason relations + the conceptual contents they articulate}
+\td{Explain why #{V}'s reason relations are as they are, or what it is for them to be as they are.}
+}
+\tr{
+\th{Use-mention distinction}
+\td{Merely refer to / mention terms in #{V}}
+\td{Genuinely \em{use} terms in #{V}}
+}
+
+}

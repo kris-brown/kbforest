@@ -1,0 +1,28 @@
+\title{Truth}
+\import{base-macros}
+\ref{ref-009X}
+
+\p{Two broad conceptions:}
+
+\ul{
+  \li{Truth as "correspondence with reality"}
+  \li{Truth as "what is best in the way of belief"}
+}
+\p{The former is a modern, representationalist rendering of [Aristotle](aristotle)'s "saying of what is, that it is, and of what is not, that it is not". The latter is associated with [James](william-james) and Rorty sees no conflict between the two (because the former is a [platitude](q-0155)).
+}
+\p{Pragmatists see philosophy's lack of success in convincingly finding a non-platitudinous way of making sense of the first conception, and thus we should move on and [change the subject](q-0020). They deny truth has an [essence](q-0102).[^ec]
+}
+\p{[^ec]: This is why Rorty says calling something true is paying it an empty compliment.
+}
+\p{With [declarativism](phil-0025) about truth,[^dec] the latter has consequences that statements in all vocabularies are true \em{in the very same sense} as OED statements can be. They are \em{no less true} than true scientific claims.
+}
+\p{[^dec]: I.e. there are not different [kinds of truth](q-0106)
+}
+
+\transclude{q-0154}
+
+\transclude{phil-01AE}
+
+\p{The above thinks of truth as a \em{property}, below we consider truth from a distinctively \em{social} perspective:}
+
+\transclude{phil-01AD}

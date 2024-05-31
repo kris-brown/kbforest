@@ -1,0 +1,26 @@
+\date{2024-04-15}
+\title{Category}
+\import{macros}
+
+\p{A \em{category} #{\cat{C}} consists in:}
+
+\ul{
+\li{A class \Ob(\cat{C}), whose elements are called \em{objects}}
+\li{A class \Hom(\cat{C}), whose elements are called \em{morphisms}, or \em{maps}, or \em{arrows}.
+
+\ul{
+\li{Morphisms have a source and target object}
+\li{E.g. #{f: a \rightarrow b} is a morphism from object #{a} to object #{b}}
+\li{The class of all morphisms from #{a} to #{b} is written #{\Hom_\cat{C}(a,b)}}
+}  }
+
+\li{An \em{identity} operation which assigns, for each object #{a \in \Ob(\cat{C})}, an identity morphism #{id(a)\in \Hom(a,a)}}
+\li{A \em{composition} operation which assigns, for each pair of composable morphisms, #{{x\xrightarrow{f}y\xrightarrow{g}z}}, a composite morphism #{f\cdot g \in \Hom(x,z)}.}
+}
+
+\p{Which satisfies:}
+
+\ul{
+\li{Unitality of identity morphisms: for all #{a\xrightarrow{f}b} we have #{{(id(a)\cdot f) = f = (f \cdot id(b))}}.}
+\li{Associativity of composition: #{f\cdot(g\cdot h) = (f\cdot g)\cdot h}.}
+}

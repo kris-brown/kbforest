@@ -1,0 +1,5 @@
+\date{2024-04-15}
+\title{Flat double category}
+\taxon{definition}
+\import{macros}
+\p{A [double category](math-000S) where there is at most one cell for any pair of proarrows, i.e. #{\DD_1} is a [thin category](math-000R).}

@@ -2,6 +2,7 @@
 \author{brandom}
 \parent{lec-0024}
 \number{1}
+\taxon{lecture}
 
 \subtree{
 \title{The history of representation}
@@ -154,7 +155,7 @@
   }
   \subtree{\title{Modern anti-representationalism}
 
-    \p{[Price](huw-price) synthesizes these two strands of anti-representationalism.
+    \p{[Price](price) synthesizes these two strands of anti-representationalism.
     }
     \ul{
       \li{Agrees with Rorty that representation should never be used to do substantial explanatory work. They are global anti-representationalists, which is a radical position currently.}

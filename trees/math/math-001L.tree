@@ -1,0 +1,162 @@
+\date{2024-04-16}
+\title{Equivalent characterizations of equipments}
+\import{macros}
+\taxon{claim}
+\import{base-macros}
+
+
+\p{The following are equivalent:}
+
+\ol{
+\li{#{\DD} is an [equipment](math-001A), i.e. has [companions](math-000L)/[conjoints](math-000M) for all arrows.}
+\li{#{\DD} has [restrictions](math-001F) for every [niche](math-001D).}
+\li{#{\DD} has [extensions](math-001I) for every [co-niche](math-001E).}
+}
+
+
+\proof{
+
+\p{Because companions and conjoints are self-dual, it suffices to show #{1\iff 2}.}
+
+\subtree{\title{#{2\implies 1}}
+
+\p{Assume #{\DD} has restrictions. Let #{f} be an arrow. The only thing we can do with it:}
+
+% https://q.uiver.app/#q=WzAsNCxbMCwwLCJ4Il0sWzEsMCwieSJdLFswLDEsInkiXSxbMSwxLCJ5Il0sWzAsMiwiZiIsMl0sWzAsMSwiZl8hIiwwLHsic3R5bGUiOnsiYm9keSI6eyJuYW1lIjoiYmFycmVkIn19fV0sWzIsMywiIiwyLHsibGV2ZWwiOjIsInN0eWxlIjp7ImhlYWQiOnsibmFtZSI6Im5vbmUifX19XSxbMSwzLCIiLDAseyJsZXZlbCI6Miwic3R5bGUiOnsiaGVhZCI6eyJuYW1lIjoibm9uZSJ9fX1dLFs1LDYsInJlcz1cXHZhcmVwc2lsb24iLDEseyJzaG9ydGVuIjp7InNvdXJjZSI6MjAsInRhcmdldCI6MjB9fV1d
+\quiver{\begin{tikzcd}
+    x & y \\
+    y & y
+    \arrow[""{name=0, anchor=center, inner sep=0}, "{f_!}", "\shortmid"{marking}, from=1-1, to=1-2]
+    \arrow["f"', from=1-1, to=2-1]
+    \arrow[Rightarrow, no head, from=1-2, to=2-2]
+    \arrow[""{name=1, anchor=center, inner sep=0}, Rightarrow, no head, from=2-1, to=2-2]
+    \arrow["{res=\varepsilon}"{description}, shorten <=4pt, shorten >=4pt, Rightarrow, from=0, to=1]
+  \end{tikzcd}}
+
+\p{Use the universal property for getting a unit #{\eta}:}
+
+% https://q.uiver.app/#q=WzAsNixbMCwwLCJ4Il0sWzEsMCwieCJdLFswLDEsIngiXSxbMCwyLCJ5Il0sWzEsMiwieSJdLFsxLDEsInkiXSxbMSw1LCJmIl0sWzIsMywiZiIsMl0sWzAsMSwiIiwwLHsibGV2ZWwiOjIsInN0eWxlIjp7ImhlYWQiOnsibmFtZSI6Im5vbmUifX19XSxbMCwyLCIiLDIseyJsZXZlbCI6Miwic3R5bGUiOnsiaGVhZCI6eyJuYW1lIjoibm9uZSJ9fX1dLFszLDQsIiIsMix7ImxldmVsIjoyLCJzdHlsZSI6eyJoZWFkIjp7Im5hbWUiOiJub25lIn19fV0sWzUsNCwiIiwwLHsibGV2ZWwiOjIsInN0eWxlIjp7ImhlYWQiOnsibmFtZSI6Im5vbmUifX19XSxbOCwxMCwiMV9mIiwwLHsic2hvcnRlbiI6eyJzb3VyY2UiOjIwLCJ0YXJnZXQiOjIwfX1dXQ==
+\quiver{\begin{tikzcd}
+    x & x \\
+    x & y \\
+    y & y
+    \arrow[""{name=0, anchor=center, inner sep=0}, Rightarrow, no head, from=1-1, to=1-2]
+    \arrow[Rightarrow, no head, from=1-1, to=2-1]
+    \arrow["f", from=1-2, to=2-2]
+    \arrow["f"', from=2-1, to=3-1]
+    \arrow[Rightarrow, no head, from=2-2, to=3-2]
+    \arrow[""{name=1, anchor=center, inner sep=0}, Rightarrow, no head, from=3-1, to=3-2]
+    \arrow["{1_f}", shorten <=9pt, shorten >=9pt, Rightarrow, from=0, to=1]
+  \end{tikzcd}}
+
+\p{This is factored into:}
+
+\quiver{
+  % https://q.uiver.app/#q=WzAsNixbMCwwLCJ4Il0sWzEsMCwieCJdLFswLDEsIngiXSxbMCwyLCJ5Il0sWzEsMiwieSJdLFsxLDEsInkiXSxbMSw1LCJmIl0sWzIsMywiZiIsMl0sWzAsMSwiIiwwLHsibGV2ZWwiOjIsInN0eWxlIjp7ImhlYWQiOnsibmFtZSI6Im5vbmUifX19XSxbMCwyLCIiLDIseyJsZXZlbCI6Miwic3R5bGUiOnsiaGVhZCI6eyJuYW1lIjoibm9uZSJ9fX1dLFszLDQsIiIsMix7ImxldmVsIjoyLCJzdHlsZSI6eyJoZWFkIjp7Im5hbWUiOiJub25lIn19fV0sWzUsNCwiIiwwLHsibGV2ZWwiOjIsInN0eWxlIjp7ImhlYWQiOnsibmFtZSI6Im5vbmUifX19XSxbMiw1LCIiLDEseyJzdHlsZSI6eyJib2R5Ijp7Im5hbWUiOiJiYXJyZWQifX19XSxbOCwxMiwiXFxleGlzdHMhXFwgXFxldGEiLDAseyJzaG9ydGVuIjp7InNvdXJjZSI6MjAsInRhcmdldCI6MjB9fV0sWzEyLDEwLCJcXHZhcmVwc2lsb24iLDAseyJzaG9ydGVuIjp7InNvdXJjZSI6MjAsInRhcmdldCI6MjB9fV1d
+  \begin{tikzcd}
+    x & x \\
+    x & y \\
+    y & y
+    \arrow[""{name=0, anchor=center, inner sep=0}, Rightarrow, no head, from=1-1, to=1-2]
+    \arrow[Rightarrow, no head, from=1-1, to=2-1]
+    \arrow["f", from=1-2, to=2-2]
+    \arrow[""{name=1, anchor=center, inner sep=0}, "\shortmid"{marking}, from=2-1, to=2-2]
+    \arrow["f"', from=2-1, to=3-1]
+    \arrow[Rightarrow, no head, from=2-2, to=3-2]
+    \arrow[""{name=2, anchor=center, inner sep=0}, Rightarrow, no head, from=3-1, to=3-2]
+    \arrow["{\exists!\ \eta}", shorten <=4pt, shorten >=4pt, Rightarrow, from=0, to=1]
+    \arrow["\varepsilon", shorten <=4pt, shorten >=4pt, Rightarrow, from=1, to=2]
+  \end{tikzcd}
+}
+
+\p{By construction, #{1_f = \eta\cdot\varepsilon}, to check that #{\eta\odot\varepsilon=1_{f_!}}, we compose both sides of the equation with #{\cdot \varepsilon}, obtaining that #{\frac{1}{\eta}} is equal to }
+
+##{\frac{\eta\ \varepsilon}{\varepsilon\ \varepsilon} = 1_f \odot \eta\cdot\eta}
+
+}
+
+\subtree{\title{#{1\implies 2}}
+\p{Assume companions and conjoints. Given a [niche](math-001D), we construct a restriction:}
+
+
+\quiver{
+  % https://q.uiver.app/#q=WzAsOCxbMCwwLCJ4Il0sWzEsMCwidyJdLFsyLDAsInoiXSxbMywwLCJ5Il0sWzEsMSwidyJdLFsyLDEsInoiXSxbMCwxLCJ3Il0sWzMsMSwieiJdLFsxLDIsIm4iLDAseyJzdHlsZSI6eyJib2R5Ijp7Im5hbWUiOiJiYXJyZWQifX19XSxbNCw1LCJuIiwyLHsic3R5bGUiOnsiYm9keSI6eyJuYW1lIjoiYmFycmVkIn19fV0sWzAsMSwiZl8hIiwwLHsic3R5bGUiOnsiYm9keSI6eyJuYW1lIjoiYmFycmVkIn19fV0sWzIsMywiZ14qIiwwLHsic3R5bGUiOnsiYm9keSI6eyJuYW1lIjoiYmFycmVkIn19fV0sWzAsNiwiZiIsMl0sWzYsNCwiIiwxLHsibGV2ZWwiOjIsInN0eWxlIjp7ImhlYWQiOnsibmFtZSI6Im5vbmUifX19XSxbNSw3LCIiLDAseyJsZXZlbCI6Miwic3R5bGUiOnsiaGVhZCI6eyJuYW1lIjoibm9uZSJ9fX1dLFsyLDUsIiIsMSx7ImxldmVsIjoyLCJzdHlsZSI6eyJoZWFkIjp7Im5hbWUiOiJub25lIn19fV0sWzEsNCwiIiwxLHsibGV2ZWwiOjIsInN0eWxlIjp7ImhlYWQiOnsibmFtZSI6Im5vbmUifX19XSxbMyw3LCJnIl0sWzgsOSwiMV9uIiwwLHsic2hvcnRlbiI6eyJzb3VyY2UiOjIwLCJ0YXJnZXQiOjIwfX1dLFsxMCwxMywiXFx2YXJlcHNpbG9uIiwwLHsic2hvcnRlbiI6eyJzb3VyY2UiOjIwLCJ0YXJnZXQiOjIwfX1dLFsxMSwxNCwiXFx2YXJlcHNpbG9uIiwwLHsic2hvcnRlbiI6eyJzb3VyY2UiOjIwLCJ0YXJnZXQiOjIwfX1dXQ==
+  \begin{tikzcd}
+    x & w & z & y \\
+    w & w & z & z
+    \arrow[""{name=0, anchor=center, inner sep=0}, "{f_!}", "\shortmid"{marking}, from=1-1, to=1-2]
+    \arrow["f"', from=1-1, to=2-1]
+    \arrow[""{name=1, anchor=center, inner sep=0}, "m", "\shortmid"{marking}, from=1-2, to=1-3]
+    \arrow[Rightarrow, no head, from=1-2, to=2-2]
+    \arrow[""{name=2, anchor=center, inner sep=0}, "{g^*}", "\shortmid"{marking}, from=1-3, to=1-4]
+    \arrow[Rightarrow, no head, from=1-3, to=2-3]
+    \arrow["g", from=1-4, to=2-4]
+    \arrow[""{name=3, anchor=center, inner sep=0}, Rightarrow, no head, from=2-1, to=2-2]
+    \arrow[""{name=4, anchor=center, inner sep=0}, "n"', "\shortmid"{marking}, from=2-2, to=2-3]
+    \arrow[""{name=5, anchor=center, inner sep=0}, Rightarrow, no head, from=2-3, to=2-4]
+    \arrow["\varepsilon", shorten <=4pt, shorten >=4pt, Rightarrow, from=0, to=3]
+    \arrow["{1_n}", shorten <=4pt, shorten >=4pt, Rightarrow, from=1, to=4]
+    \arrow["\varepsilon", shorten <=4pt, shorten >=4pt, Rightarrow, from=2, to=5]
+  \end{tikzcd}
+}
+}
+
+\p{Need to check universal property. Given:}
+
+\quiver{
+  % https://q.uiver.app/#q=WzAsNixbMCwwLCJ4JyJdLFsxLDAsInknIl0sWzAsMSwieCJdLFsxLDEsInkiXSxbMCwyLCJ3Il0sWzEsMiwieiJdLFsyLDQsImYiLDJdLFs0LDUsIiIsMCx7InN0eWxlIjp7ImJvZHkiOnsibmFtZSI6ImJhcnJlZCJ9fX1dLFszLDUsImciXSxbMCwyLCJoIiwyXSxbMSwzLCJrIl0sWzAsMSwiIiwyLHsic3R5bGUiOnsiYm9keSI6eyJuYW1lIjoiYmFycmVkIn19fV0sWzExLDcsIlxcYWxwaGEiLDAseyJzaG9ydGVuIjp7InNvdXJjZSI6MjAsInRhcmdldCI6MjB9fV1d
+  \begin{tikzcd}
+    {x'} & {y'} \\
+    x & y \\
+    w & z
+    \arrow[""{name=0, anchor=center, inner sep=0}, "m", "\shortmid"{marking}, from=1-1, to=1-2]
+    \arrow["h"', from=1-1, to=2-1]
+    \arrow["k", from=1-2, to=2-2]
+    \arrow["f"', from=2-1, to=3-1]
+    \arrow["g", from=2-2, to=3-2]
+    \arrow[""{name=1, anchor=center, inner sep=0}, "n"', "\shortmid"{marking}, from=3-1, to=3-2]
+    \arrow["\alpha", shorten <=9pt, shorten >=9pt, Rightarrow, from=0, to=1]
+  \end{tikzcd}
+}
+
+\p{We construct the unique #{\alpha'} such that #{\alpha=\alpha' \cdot res}}
+
+\quiver{
+  % https://q.uiver.app/#q=WzAsMTIsWzEsMCwieCciXSxbMiwwLCJ5JyJdLFsxLDEsIngiXSxbMiwxLCJ5Il0sWzEsMiwidyJdLFsyLDIsInoiXSxbMCwwLCJ4JyJdLFszLDAsInknIl0sWzMsMSwieSJdLFszLDIsInkiXSxbMCwyLCJ4Il0sWzAsMSwieCJdLFs0LDUsIm4iLDIseyJzdHlsZSI6eyJib2R5Ijp7Im5hbWUiOiJiYXJyZWQifX19XSxbMyw1LCJnIl0sWzAsMiwiaCIsMl0sWzEsMywiayJdLFswLDEsIm0iLDAseyJzdHlsZSI6eyJib2R5Ijp7Im5hbWUiOiJiYXJyZWQifX19XSxbMTAsNCwiZl8hIiwyLHsic3R5bGUiOnsiYm9keSI6eyJuYW1lIjoiYmFycmVkIn19fV0sWzExLDEwLCIiLDAseyJsZXZlbCI6Miwic3R5bGUiOnsiaGVhZCI6eyJuYW1lIjoibm9uZSJ9fX1dLFsxMSwyLCIiLDAseyJsZXZlbCI6Miwic3R5bGUiOnsiaGVhZCI6eyJuYW1lIjoibm9uZSJ9fX1dLFs2LDExLCJoIiwyXSxbNiwwLCIiLDIseyJsZXZlbCI6Miwic3R5bGUiOnsiaGVhZCI6eyJuYW1lIjoibm9uZSJ9fX1dLFsxLDcsIiIsMix7ImxldmVsIjoyLCJzdHlsZSI6eyJoZWFkIjp7Im5hbWUiOiJub25lIn19fV0sWzcsOCwiayJdLFs4LDksIiIsMix7ImxldmVsIjoyLCJzdHlsZSI6eyJoZWFkIjp7Im5hbWUiOiJub25lIn19fV0sWzUsOSwiZ14qIiwyLHsic3R5bGUiOnsiYm9keSI6eyJuYW1lIjoiYmFycmVkIn19fV0sWzIsNCwiZiIsMl0sWzMsOCwiIiwxLHsibGV2ZWwiOjIsInN0eWxlIjp7ImhlYWQiOnsibmFtZSI6Im5vbmUifX19XSxbMjEsMTksIjFfaCIsMix7InNob3J0ZW4iOnsic291cmNlIjoyMCwidGFyZ2V0IjoyMH19XSxbMjIsMjcsIjFfayIsMCx7InNob3J0ZW4iOnsic291cmNlIjoyMCwidGFyZ2V0IjoyMH19XSxbMjcsMjUsIlxcZXRhIiwwLHsic2hvcnRlbiI6eyJzb3VyY2UiOjIwLCJ0YXJnZXQiOjIwfX1dLFsxOSwxNywiXFxldGEiLDIseyJzaG9ydGVuIjp7InNvdXJjZSI6MjAsInRhcmdldCI6MjB9fV0sWzE2LDEyLCJcXGFscGhhIiwwLHsic2hvcnRlbiI6eyJzb3VyY2UiOjIwLCJ0YXJnZXQiOjIwfX1dXQ==
+  \begin{tikzcd}
+    {x'} & {x'} & {y'} & {y'} \\
+    x & x & y & y \\
+    x & w & z & y
+    \arrow[""{name=0, anchor=center, inner sep=0}, Rightarrow, no head, from=1-1, to=1-2]
+    \arrow["h"', from=1-1, to=2-1]
+    \arrow[""{name=1, anchor=center, inner sep=0}, "m", "\shortmid"{marking}, from=1-2, to=1-3]
+    \arrow["h"', from=1-2, to=2-2]
+    \arrow[""{name=2, anchor=center, inner sep=0}, Rightarrow, no head, from=1-3, to=1-4]
+    \arrow["k", from=1-3, to=2-3]
+    \arrow["k", from=1-4, to=2-4]
+    \arrow[""{name=3, anchor=center, inner sep=0}, Rightarrow, no head, from=2-1, to=2-2]
+    \arrow[Rightarrow, no head, from=2-1, to=3-1]
+    \arrow["f"', from=2-2, to=3-2]
+    \arrow[""{name=4, anchor=center, inner sep=0}, Rightarrow, no head, from=2-3, to=2-4]
+    \arrow["g", from=2-3, to=3-3]
+    \arrow[Rightarrow, no head, from=2-4, to=3-4]
+    \arrow[""{name=5, anchor=center, inner sep=0}, "{f_!}"', "\shortmid"{marking}, from=3-1, to=3-2]
+    \arrow[""{name=6, anchor=center, inner sep=0}, "n"', "\shortmid"{marking}, from=3-2, to=3-3]
+    \arrow[""{name=7, anchor=center, inner sep=0}, "{g^*}"', "\shortmid"{marking}, from=3-3, to=3-4]
+    \arrow["{1_h}"', shorten <=4pt, shorten >=4pt, Rightarrow, from=0, to=3]
+    \arrow["\alpha", shorten <=9pt, shorten >=9pt, Rightarrow, from=1, to=6]
+    \arrow["{1_k}", shorten <=4pt, shorten >=4pt, Rightarrow, from=2, to=4]
+    \arrow["\eta"', shorten <=4pt, shorten >=4pt, Rightarrow, from=3, to=5]
+    \arrow["\eta", shorten <=4pt, shorten >=4pt, Rightarrow, from=4, to=7]
+  \end{tikzcd}
+}
+
+\p{First we check that  #{\alpha=\alpha' \cdot res}:}
+
+
+##{\frac{\alpha'}{res}=\frac{\frac{1}{\eta}\alpha\frac{1}{\eta}}{\varepsilon 1 \varepsilon} = \alpha}
+
+\p{Then we check that this #{\alpha'} is unique:}
+\p{Suppose #{\frac{\alpha''}{res}=\alpha}. Hit both sides with #{\frac{1}{\eta}(-)\frac{1}{\eta}} to obtain #{{\alpha'' = \alpha'}}}
+
+}

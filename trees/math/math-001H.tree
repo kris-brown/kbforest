@@ -1,0 +1,54 @@
+\date{2024-04-16}
+\title{Extension}
+\taxon{definition}
+
+\import{macros}
+
+\p{An \em{extension} of a [coniche](math-001E) is a cell:}
+
+% https://q.uiver.app/#q=WzAsNCxbMCwwLCJ4Il0sWzEsMCwieSJdLFswLDEsInciXSxbMSwxLCJ6Il0sWzIsMywibiIsMix7InN0eWxlIjp7ImJvZHkiOnsibmFtZSI6ImJhcnJlZCJ9fX1dLFswLDIsImYiLDJdLFsxLDMsImciXSxbMCwxLCJuKGYsZykiLDAseyJzdHlsZSI6eyJib2R5Ijp7Im5hbWUiOiJiYXJyZWQifX19XSxbNyw0LCJyZXMiLDAseyJzaG9ydGVuIjp7InNvdXJjZSI6MjAsInRhcmdldCI6MjB9fV1d
+\quiver{\begin{tikzcd}
+    x & y \\
+    w & z
+    \arrow[""{name=0, anchor=center, inner sep=0}, "{m}", "\shortmid"{marking}, from=1-1, to=1-2]
+    \arrow["f"', from=1-1, to=2-1]
+    \arrow["g", from=1-2, to=2-2]
+    \arrow[""{name=1, anchor=center, inner sep=0}, "{(f,g)m}"', "\shortmid"{marking}, from=2-1, to=2-2]
+    \arrow["ext", shorten <=4pt, shorten >=4pt, Rightarrow, from=0, to=1]
+  \end{tikzcd}}
+
+\p{Satisfying a universal property: all cells of the following shape}
+
+% https://q.uiver.app/#q=WzAsNixbMCwxLCJ4Il0sWzEsMSwieSJdLFswLDIsInciXSxbMSwyLCJ6Il0sWzAsMCwieCciXSxbMSwwLCJ5JyJdLFsyLDMsIm4iLDIseyJzdHlsZSI6eyJib2R5Ijp7Im5hbWUiOiJiYXJyZWQifX19XSxbMCwyLCJmIiwyXSxbMSwzLCJnIl0sWzQsMCwiaCIsMl0sWzUsMSwiayJdLFs0LDUsIm0iXSxbMTEsNiwiXFxhbHBoYSIsMCx7InNob3J0ZW4iOnsic291cmNlIjoyMCwidGFyZ2V0IjoyMH19XV0=
+\quiver{\begin{tikzcd}
+    {x} & {y} \\
+    w & z \\
+    {w'} & {z'}
+    \arrow[""{name=0, anchor=center, inner sep=0}, "m", "\shortmid"{marking}, from=1-1, to=1-2]
+    \arrow["f"', from=1-1, to=2-1]
+    \arrow["g", from=1-2, to=2-2]
+    \arrow["h"', from=2-1, to=3-1]
+    \arrow["k", from=2-2, to=3-2]
+    \arrow[""{name=1, anchor=center, inner sep=0}, "n"', "\shortmid"{marking}, from=3-1, to=3-2]
+    \arrow["\alpha", shorten <=9pt, shorten >=9pt, Rightarrow, from=0, to=1]
+  \end{tikzcd}}
+
+\p{Can be \em{uniquely} factored through the extension:}
+
+% https://q.uiver.app/#q=WzAsNixbMCwxLCJ4Il0sWzEsMSwieSJdLFswLDIsInciXSxbMSwyLCJ6Il0sWzAsMCwieCciXSxbMSwwLCJ5JyJdLFsyLDMsIm4iLDIseyJzdHlsZSI6eyJib2R5Ijp7Im5hbWUiOiJiYXJyZWQifX19XSxbMCwyLCJmIiwyXSxbMSwzLCJnIl0sWzAsMSwiIiwwLHsic3R5bGUiOnsiYm9keSI6eyJuYW1lIjoiYmFycmVkIn19fV0sWzQsMCwiaCIsMl0sWzUsMSwiayJdLFs0LDUsIm0iXSxbOSw2LCJyZXMiLDAseyJzaG9ydGVuIjp7InNvdXJjZSI6MjAsInRhcmdldCI6MjB9fV1d
+\quiver{\begin{tikzcd}
+    {x} & {y} \\
+    w & z \\
+    {w'} & {z'}
+    \arrow[""{name=2, anchor=center, inner sep=0}, "m", "\shortmid"{marking}, from=1-1, to=1-2]
+    \arrow["f"', from=1-1, to=2-1]
+    \arrow["g", from=1-2, to=2-2]
+    \arrow[""{name=0, anchor=center, inner sep=0}, "\shortmid"{marking}, from=2-1, to=2-2]
+    \arrow["h"', from=2-1, to=3-1]
+    \arrow["k", from=2-2, to=3-2]
+    \arrow[""{name=1, anchor=center, inner sep=0}, "n"', "\shortmid"{marking}, from=3-1, to=3-2]
+    \arrow["\exists!", shorten <=4pt, shorten >=4pt, Rightarrow, from=0, to=1]
+    \arrow["ext", shorten <=4pt, shorten >=4pt, Rightarrow, from=2, to=0]
+  \end{tikzcd}}
+
+\p{Where #{\alpha = ext \odot \exists!}}

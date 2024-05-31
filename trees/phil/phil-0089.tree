@@ -1,0 +1,74 @@
+\title{Object naturalism and subject naturalism}
+
+\p{[Huw Price](price) redescribes [naturalism](phil-0082) as being naturalism about the referents of language and considers [subject naturalism](phil-018N) to be a [successor concept](phil-0134) or [redescription](phil-0110) of the idea of what it means to be 'naturalistic'.}
+
+\p{
+  This is a distinction about [naturalism](phil-0082) made by [Price](price). : one can be naturalist about the \em{subjects} doing the talking, without necessarily being a naturalist towards what is being talked about.}
+
+\p{Object naturalism: naturalism is a \em{semantic} metavocabulary. If one asks "what does 'beauty' or 'justice' mean?", then a good answer is one which points to some feature of the world as described as natural science.
+}
+
+\import{base-macros}
+
+\table{
+  \tr{
+    \th{}
+    \th{Object [naturalism](phil-0082)}
+    \th{[Subject naturalism](phil-018N)}
+  }
+  \tr{
+    \td{Naturalist about}
+    \td{what is being talked about}
+    \td{the \em{subjects} doing the talking}
+  }
+  \tr{
+    \td{Naturalistic metavocabulary}
+    \td{Semantic}
+    \td{Pragmatic}
+  }
+  \tr{
+    \td{Avatars}
+    \td{[Frank Jackson](jackson), David Armstrong}
+    \td{[Late Wittgenstein](wittgenstein), [Huw Price](price)}
+  }
+}
+
+
+\subtree{\title{Examples }
+  \subtree{\title{ Natural numbers}
+
+    \p{Object naturalists are puzzled by what numbers actually \em{are} / locating them in the world of natural science. Where is the number 3? Wittgenstein asks us what do we have to \em{do} to be using the natural numbers. His thought was the subject naturalist one: if we can get clear about how children learn to count, we should not worry about the metaphysics or ontology of numbers. Your semantic model might be the problem rather than there being a genuine metaphysical mystery.
+    }
+  }
+  \subtree{\title{Abstract objects}
+
+    \p{E.g. "Things" like numbers, triangularity, propositions. Nominalists have an ontology that says abstracta don't exist. Others debate argue they do, but in general philosophers use the terms 'concrete' and (especially) 'abstract' without thinking very much about what they mean. [Frege](frege), however, tells us exactly what they mean by giving the first non-psychological account of what you're \em{doing} when you abstract.[^aa] This is a subject-naturalist account of our \em{use} of abstract singular terms.
+    }
+    \p{[^aa]: Historically, it has been thought of as a kind of "anti-attention".
+    }
+    \p{He describes abstraction as a way of introducing new [sortal](phil-0104) terms (and so singular terms), based on the use of old ones, via equivalence relations.  Abstraction treats an equivalence relation as if it were identity—but of a new kind of thing.  For example, we introduce 'directions of lines', on the basis of a vocabulary of lines that includes the relational predicate “parallel to.”
+    }
+    \p{Thus, "is abstract to" is a relative notion between vocabularies, and the adjective "abstract" describes \em{how} we come to know of something rather than the thing itself. This has philosophical payoff: we no longer have the ontological problem of abstract objects. If "abstract object" means anything, it is idea of objects which could \em{only} be introduced via abstraction. It's not obvious from the fact that I \em{can} introduce a term, like direction, from the use of others that this is the \em{only} way to introduce vocabulary talking about directions (e.g. demonstratively, descriptively). For example, consider the example of [Pluto](phil-0098).
+    }
+  }}
+\subtree{\title{ Key figures}
+
+  \ul{
+    \li{[Hume](hume): describes what we're \em{doing} when we say things "must be"}
+    \li{[Ludwig Wittgenstein](wittgenstein): Dissolves issues with problematic language by suggesting we look to the use, rather than to the meaning.}
+    \li{The American [pragmatists](phil-0103)}
+  }
+}
+\subtree{\title{Priority thesis}
+
+  \p{The questions of the subject naturalist are conceptually prior to those of the object naturalist. The object naturalist allows as a possible answer "this discourse doesn't refer" to location problems (e.g. astrological discourse "The moon is in a bad house for you today"). From their perspective, that means there is something defective about the discourse. But the fact that they accept as a possibility that we do things with language other than describe means that they do must accept that, prior to finding the truthmakers, we must ask how does this way of talking work?
+  }
+  \p{Therefore asking object naturalist question (instead of the subject naturalist question) must be justified in every specific case.
+  }
+  \subtree{\title{Another argument for the priority thesis:}
+
+    \p{The object naturalist has to say something about the reference relation between our vocabulary for talking about the world and the world itself. But the object naturalist has to locate the reference relation itself: i.e. solve the location problem for semantic vocabulary.[^lad]
+    }
+    \p{[^lad]: Otherwise you're in the embarrassing position Wittgenstein is at the end of the [Tractatus](ref-0066).
+    }
+  }}

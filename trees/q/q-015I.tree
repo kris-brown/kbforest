@@ -1,0 +1,11 @@
+\title{Meaning-use diagram primitives}
+\taxon{quote}
+\parent{ref-009N}
+
+\ol{
+\li{\strong{PV-Sufficiency}: Where one has mastery of any [vocabulary](phil-0147) - autonomous or otherwise - [Brandom](brandom) supposes that there must be some set of practices that suffices for mastery of that vocabulary. He calls this relation \em{PV-sufficiency}. Roughly: a practice is \em{PV-sufficient} for a vocabulary just in case one has mastery of the vocabulary, if one engages in that practice.}
+\li{\strong{PV-Necessity}: Now suppose that for some vocabulary there is a practice that one must engage in to count as having mastery of the vocabulary. Suppose, for example, that the capacity to identify the successor of any natural number is required for mastery of the language of arithmetic. Then this practice - identifying successors - would be \em{PV-necessary} for mastery of arithmetic vocabulary.}
+\li{\strong{VP-Sufficiency}: This relation between vocabularies and practices obtains when a practice can be specified in a particular vocabulary. That is, a vocabulary is \em{VP-sufficient} for a practice just in case that practice can be described using that vocabulary.}
+\li{\strong{PP-Sufficiency}: The fourth relation that we consider here obtains between practices. If, when one engages in a particular practice, one can in principle do everything needed to engage in some other practice, then the former is \em{PP-sufficient} for the latter. For example, perhaps being able to add any three numbers between 0 and 9 is \em{PP-sufficient} for being able to find the sum of any two numbers by the usual method of addition. In characterizing \em{PP-sufficiency}, Brandom tends to express a preference for using the framework of computational theory, but there is no reason to think that this is essential to the notion.}
+\li{\strong{PP-Necessity}: The final relation we consider is also a relation between practices. One practice is \em{PP-necessary} for another if it is impossible to engage in the second without engaging in the first. For example, the practice of asserting is \em{PP-necessary} for the practice of asserting conditionals.}
+}

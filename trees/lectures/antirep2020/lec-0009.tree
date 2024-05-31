@@ -2,6 +2,7 @@
 \author{brandom}
 \parent{lec-0024}
 \number{9}
+\taxon{lecture}
 
 \subtree{\title{Generalizing subject naturalism}
 
@@ -15,7 +16,7 @@
   }
   \p{In all these cases, one can follow what Brandom takes to be the [Rortyan](rorty) social pragmatist approach to normativity, which understands normative statuses (such as commitment and entitlement, responsibility and authority) as social statuses. One is then using a pragmatic metavocabulary to specify the implicitly normative social practices that confer semantic content on expressions and performances that play suitable functional roles in those practices.
   }
-  \p{In \em{Between Saying and Doing} Brandom pursues a "meaning-use analysis" to understand the relationship between semantic metavocabularies and pragmatic metavocabularies (which must take place in a meta-metavocabulary.) There is a methodological pragmatism that understands semantics in terms of pragmatics (but it's still possible to keep both vocabularies respectable).
+  \p{In [Between Saying and Doing](ref-009O) [Brandom](brandom) pursues a "meaning-use analysis" to understand the relationship between semantic metavocabularies and pragmatic metavocabularies (which must take place in a meta-metavocabulary.) There is a methodological pragmatism that understands semantics in terms of pragmatics (but it's still possible to keep both vocabularies respectable).
   }
   \p{We can also divide through by the representationalism (if you have a semantic metavocabulary that is based on inferential roles rather than representation, you can still ask what is a good pragmatic metavocabulary and what is the relation between the two). Rorty  wanted to throw out semantics wholesale, seeing it as incontrovertably tied to representationalism.
   }

@@ -1,0 +1,27 @@
+\title{Examples of material mode vs formal mode}
+\taxon{quote}
+\author{carnap}
+\date{2024-04-05}
+\import{base-macros}
+
+\table{
+  \tr{
+    \th{Sentences with universal words (material mode)}
+    \th{Syntactical sentences (formal mode)}
+  }
+  \tr{
+    \td{The moon is \em{thing}. Five is not a thing, but a \em{number}.}
+    \td{'Moon' is a thing-word; 'five' is not a thing-word, but a number-word.}
+  }
+
+  \tr{
+    \td{A property is not \em{thing}.}
+    \td{An adjective (property-word) is not a thing-word.}
+  }
+  \tr{
+    \td{Friendship is a \em{relation}.}
+    \td{'Friendship' is a relation-word.}
+  }
+}
+
+\p{- [Logical Syntax of Language](ref-0095), section 77.}

@@ -2,6 +2,7 @@
 \author{brandom}
 \parent{lec-0024}
 \number{2}
+\taxon{lecture}
 
 \import{base-macros}
 \p{
@@ -135,7 +136,7 @@
 
   \p{Sellars in [EPM](ref-0016)}
   \ul{
-    \li{[Locke](john-locke) got confused by conflating the causation of a belief from its justification. See [Reasons vs causes](int-0012) distinction.}
+    \li{[Locke](locke) got confused by conflating the causation of a belief from its justification. See [Reasons vs causes](int-0012) distinction.}
     \li{Sense data may be causally prerequisite to knowledge, but it cannot justify belief (it's not conceptually contentful, in the sense of standing in reason relations of implication/justification).}
     \ul{
       \li{To stand in reason relations requires lots of other infrastructure, such that atomic sense data cannot do this on its own (this is a semantic holist argument)}
@@ -154,22 +155,22 @@
 
 }
 \subtree{\title{Who is Rorty opposing?}
-  \p{Is Rorty attacking a strawman? Rorty sees representationalism in semantics as bound up with [foundationalism in epistemology](phil-0049), but the two aren't actually tied together.[^knt] Empiricism / epistemological foundationalism are not popular now:
-  }
-  \ul{
-    \li{"Default and challenge" structure a way of avoiding [Agrippan trilemma](phil-0004) without challenging the language-theory distinction.}
-    \li{Bayesianism sees all justification as comparative (never have to justify one's prior commitments).}
-    \ul{
-      \li{though the problem of semantics is still open, if it is to not be representationalist}
-    }\li{Naturalism + representationalism remains unchallenged.}
-    \ul{
-      \li{picking an ontologically privileged base vocabulary}
-    }\li{So Rorty and [Price](huw-price) need to do one or both of:}
-    \ul{
-      \li{Argue independently for [pragmatism](phil-0103), then use that to attack representationalism without passing through foundationalism}
-      \li{Argue independently against representationalism and propose pragmatism as the best alternative approach}
-    }
-  }
-  \p{[^knt]: Kant did not feel the need to address the Cartesian problematic / Agrippan trilemma. He felt that, once he resolved semantic skepticism and got clear of how it is possible for our thought to be object directed at all, that it was a trivial consequence that we need not worry about being radically out of touch with reality, as Descartes worried about. (His [Refutation of Idealism](https://plato.stanford.edu/entries/kant-transcendental/#RefIde) is quite short).
-  }
+\p{Is Rorty attacking a strawman? Rorty sees representationalism in semantics as bound up with [foundationalism in epistemology](phil-0049), but the two aren't actually tied together.[^knt] Empiricism / epistemological foundationalism are not popular now:
+}
+\ul{
+\li{"[Default and challenge](phil-019T)" structure a way of avoiding [Agrippan trilemma](phil-0004) without challenging the language-theory distinction.}
+\li{Bayesianism sees all justification as comparative (never have to justify one's prior commitments).}
+\ul{
+  \li{though the problem of semantics is still open, if it is to not be representationalist}
+}\li{Naturalism + representationalism remains unchallenged.}
+\ul{
+  \li{picking an ontologically privileged base vocabulary}
+}\li{So Rorty and [Price](price) need to do one or both of:}
+\ul{
+  \li{Argue independently for [pragmatism](phil-0103), then use that to attack representationalism without passing through foundationalism}
+  \li{Argue independently against representationalism and propose pragmatism as the best alternative approach}
+}
+}
+\p{[^knt]: Kant did not feel the need to address the Cartesian problematic / Agrippan trilemma. He felt that, once he resolved semantic skepticism and got clear of how it is possible for our thought to be object directed at all, that it was a trivial consequence that we need not worry about being radically out of touch with reality, as Descartes worried about. (His [Refutation of Idealism](https://plato.stanford.edu/entries/kant-transcendental/#RefIde) is quite short).
+}
 }

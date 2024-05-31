@@ -1,0 +1,15 @@
+\date{2024-05-06}
+\title{Liar Paradox sequent analysis}
+\import{macros}
+\ref{ref-00AZ}
+
+\bussproofs{
+  \AxiomC{$\lambda$}
+  \AxiomC{$\lambda$}
+  \UnaryInfC{$\tau(\neg \lambda)$}
+  \UnaryInfC{$\neg\lambda$}
+  \BinaryInfC{$\bot$}
+  \DisplayProof
+}
+
+

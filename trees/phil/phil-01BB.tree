@@ -1,0 +1,29 @@
+\date{2024-04-29}
+\title{Semantic vs pragmatic metavocabularies}
+\import{base-macros}
+
+\subtree{\title{Differences}
+\table{
+\tr{
+  \th{}
+  \th{[Semantic metavocabularies](phil-017F)}
+  \th{[Pragmatic metavocabularies](phil-015S)}
+}
+\tr{
+  \td{Modality}
+  \td{[Alethic](phil-0005)}
+  \td{[Deontic normative](phil-019A)}
+}
+\tr{
+\td{#{p} is incompatible with #{q}}
+\td{The fusion of any state which is a truthmaker for #{p} with likewise for #{q} is an impossible state.}
+\td{An interlocutor who has asserted both #{p} and #{q} is normatively out-of-bounds, i.e. one cannot be [entitled](phil-019R) to both.}
+}
+
+}
+}
+\subtree{\title{Commonalities}
+
+  \p{Both can be regarded as \em{rational} metavocabularies, i.e. ways of explaining [reason relations](phil-01AY). They use different \em{senses} of 'impossible' but this impossibility has the same \em{referent}: the reason relation.
+  }
+}

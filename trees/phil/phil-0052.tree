@@ -1,0 +1,27 @@
+\title{Hesperus and Phosphorus}
+\meta{external}{[Wikipedia](https://en.wikipedia.org/wiki/Frege's_puzzles)}
+\p{
+  These are puzzles posed by [Frege](frege). They are addressed by making a [distinction between sense and reference](int-0018).
+}
+
+\subtree{\title{First puzzle }
+
+  \p{The brightest star in morning was called Hesperus, and the brightest star of evening was called Phosphorus. Science later discovered these to be same object,namely, Venus. Consider the two sentences:
+  }
+  \ol{
+    \li{Hesperus is Hesperus.}
+    \li{Hesperus is Phosphorus.}}
+
+  \p{The first is just a matter of \em{[a priori](phil-0003)} logic, whereas the second is a nontrivial [empirical truth](phil-0158). However, given the existing [semantics](phil-0124) (attributed to [Mill](mill)), names have no meaning beyond their reference, meaning the second sentence \em{means} "Venus is Venus".
+  }
+}
+\subtree{\title{Second puzzle }
+
+  \ol{
+    \li{Alex believes Hesperus is visible in the evening.}
+    \li{Hesperus = Phosphorus.}
+    \li{Therefore, Alex believes Phosphorus is visible in the evening.}
+  }
+  \p{This is not valid, but by naive substitution of identicals it would appear to be so.
+  }
+}

@@ -1,0 +1,13 @@
+\date{2024-05-04}
+\title{Explicitation as inconsequential}
+\author{brandom}
+
+\p{[Cumulative transitivity](phil-01BV) and [cautious monotonicity](phil-01BS) respectively say that [explicitation](phil-01BT) does not add nor remove consequences, meaning that it is \em{inconsequential}.}
+
+\p{I.e. there is no difference between [implicit and explicit content](math-001N), or put another way, the epistemic status of premises and conclusions of good implications is equated. Yet in reality we do acknowledge this difference: }
+
+\ul{
+  \li{A database has explicit content (the records) and implicit content (anything derivable by queries). We do not think of these two things on the same epistemic ground.}
+  \li{Suppose we have data measurements for a physics experiment as explicit content, and we derive implicit content using our present scientific theories. Explicitation is a very significant move, determining the boundary between [theory and observation](int-0019).}}
+
+

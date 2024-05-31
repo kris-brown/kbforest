@@ -1,0 +1,8 @@
+\date{2024-05-05}
+\title{Antecedent-Adjunction}
+\import{macros}
+\author{brandom}
+
+\subtree{\taxon{definition}
+\p{#{\Gamma, A\land B \vsim \Delta} iff #{\Gamma,A,B\vsim \Delta}}
+}

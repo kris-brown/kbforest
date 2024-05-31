@@ -1,0 +1,12 @@
+\title{Closure operator}
+\date{2024-04-05}
+\taxon{definition}
+\import{macros}
+
+\p{Given a set #{S}, a closure operator is a function #{cl: \cP(S) \to \cP(S)} such that #{cl} is:}
+
+\ul{
+
+\li{Extensive: #{X \subseteq cl(X)}}
+\li{Increasing: #{X \subseteq Y \implies cl(X) \subseteq cl(Y)}}
+\li{Idempotent: #{cl(cl(X)) = cl(X)}}}

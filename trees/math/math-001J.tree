@@ -1,0 +1,7 @@
+\date{2024-04-16}
+\title{Restrictions and fibrations}
+\import{macros}
+
+\p{A [double category](math-000S) has all [restrictions](math-001F) iff #{\DD_1\xrightarrow{(s,t)} \DD_0\times\DD_0} is a [fibration].}
+
+\p{Dually, a [double category](math-000S) has all [extensions](math-001I) iff #{\DD_1\xrightarrow{(s,t)} \DD_0\times\DD_0} is an opfibration.}

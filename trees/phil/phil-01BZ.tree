@@ -1,0 +1,12 @@
+\date{2024-05-05}
+\title{Weakening with implications of subsets}
+\import{macros}
+
+\subtree{\taxon{definition}
+  \bussproofs{
+    \AxiomC{$\Gamma \vsim B$}
+    \AxiomC{$\Gamma, \Theta \vsim \Delta$}
+    \BinaryInfC{$\Gamma, \Delta, A \vsim \Delta$}
+    \DisplayProof
+  }
+}

@@ -1,0 +1,15 @@
+\date{2024-05-05}
+\title{Explicative vocabulary}
+\author{brandom}
+
+\subtree{\taxon{definition}
+  \p{A metavocabulary is \em{explicative} of a base vocabulary iff it satisfies four conditions:}
+
+  \ol{
+    \li{[Deduction-detachment](phil-01BY)}
+    \li{[Incoherence-Incompatibility](phil-01C0)}
+    \li{[Antecedent-Adjunction](phil-01C2)}
+    \li{[Succedent-Summation](phil-01C3)}
+  }
+
+}

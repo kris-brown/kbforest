@@ -1,0 +1,29 @@
+\date{2024-04-16}
+\title{Ways of acquiring entitlement}
+\import{base-macros}
+
+
+\p{These feature in the [default-and-challenge](phil-019T) structure of [entitlement](phil-019R).}
+
+
+\table{
+\tr{
+  \th{Method}
+  \th{ [Justification](phil-019U)  }
+  \th{ [Testimony](phil-019C)}
+}
+
+\tr{
+\th{Mechanism}
+\td{Giving [reasons](phil-0155)}
+\td{Appeal to someone else's [assertion](phil-017H)}
+}
+
+\tr{
+  \th{Duality}
+  \td{\strong{Intercontent, intrapersonal}: invocation of new content via reason relations of implication.}
+  \td{\strong{Intracontent, interpersonal}: the content is unchanged but its assertion is shifted to a new person.}
+}
+}
+
+

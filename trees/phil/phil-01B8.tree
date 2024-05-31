@@ -1,0 +1,9 @@
+\date{2024-04-29}
+\title{Order of explanation reversal for sets characterized by functional role}
+\author{kris-brown}
+\transclude{phil-01B7}
+
+
+\p{We talk about a set of #{X}'s, e.g. a set of cats. Normally we argue there is a set of things, each thing is a cat, therefore we have a set of cats. The concept of "a set of cats" is conceptually downstream of the concept "cat".}
+
+\p{However, here is an example of this being reversed: what it \em{means} to be a set of declarative sentences is the role that set plays, and then downstream of that we reason that "The frog is on the log" is a declarative sentence because it is an element of that set.}

@@ -1,0 +1,12 @@
+\date{2024-05-04}
+\title{Explicitation}
+\author{brandom}
+
+\transclude{math-001N}
+
+\subtree{\taxon{definition}
+  \p{\em{Explicitation} is moving a claimable (expressed by a sentence) from the right-hand side of the implication turnstile to the left-hand side.}
+}
+
+\p{Note this is a \em{logical}, not a \em{psychological}, sense of the word.}
+

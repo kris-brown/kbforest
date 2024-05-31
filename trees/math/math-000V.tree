@@ -1,0 +1,6 @@
+\date{2024-04-15}
+\title{Function}
+
+\p{The \em{graph} of a function #{A \xrightarrow{f} B} is a [relation](math-0002) between sets #{A} and #{B}.}
+
+\p{This relation is only the graph of a function if it has exactly one element #{(a_i,b_j)} for each #{a_i \in A}.}

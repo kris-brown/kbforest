@@ -1,0 +1,34 @@
+\date{2024-04-17}
+\title{Truth vs assertability}
+
+\p{Rather than [truth](phil-0142) being a property of statements, it is better to think of the pragmatics of calling something truth as \em{you} taking a normative stance towards it - you are \em{doing} something (endorsing) that is not describing. This is [Expressivism](phil-0046) about truth. This is giving an expressivst reading to "best" in the second conception of truth.
+}
+\p{However, we have an intuition that one \em{means} something different by saying that "#{\phi} is true" and "I endorse #{\phi}". One is justified in asserting the first statement iff one is justified in asserting the second. Rorty encourages us to [get over this intuition](q-0010), but Brandom believes it can be salvaged while still adhering to pragmatist scruples.
+}
+\ul{
+\li{"Jones believes #{\phi}"}
+\ul{
+\li{ Pragmatically, we are attributing commitment: "Jones is committed to #{\phi}, e.g. can be asked for justification #{\phi} and use it as a premise of other claims."}
+}\li{"Jones is justified in believing #{\phi}"}
+\ul{
+  \li{Pragmatically, we are attributing entitlement; "Jones can provide a justification when asked."}
+}\li{"Jones \em{knows} that #{\phi}" (i.e. the above +"and #{\phi} is true")}
+\ul{
+\li{Pragmatically, \em{we} (the speaker) are taking a commitment to #{\phi}.}
+\li{This is not clear from the grammar ("true" being an adjective is misleading).}
+}}
+\p{So in the \em{interpersonal} case it is more clear that there is a difference in #{\phi} being assertable and #{\phi} being true.
+}
+\p{In the personal case, the assertability conditions are the same, but they also come apart when we look downstream (what we can infer from each statement):
+}
+\ul{
+  \li{I plan to finish writing this book}
+  \li{I will write this book}}
+\p{These have the same assertability conditions, but it's clear they don't mean the same thing because different consequences can be extracted from each.
+}
+\p{Pragmatically one is merely endorsing #{\phi} regardless of whether one says #{\phi} or "#{\phi} is true." But they \em{mean} different things.[^kb]
+}
+\p{[^kb]: This strikes me as important in blocking some argument that semantics can be cleanly/functorially read off of the pragmatics.
+}
+\p{Deflationary theories of truth need to address the [Frege-Geach argument](phil-0050) in explaining embedded uses of truth.
+}

@@ -1,17 +1,19 @@
 \title{Intentionality and Language}
 \import{base-macros}
+\taxon{lecture}
+\number{2}
 \meta{external}{[Video](https://www.youtube.com/watch?v=yz7PWdUSA8c)}
 %\meta{external}{[Text](https://sites.pitt.edu/~rbrandom/Texts/Intentionality_and_Language_A_Normative\%20(2).pdf)}
 
 \subtree{\title{Intentionality}
 
-  \p{\em{Intentionality} is the contentfulness distinctive of some of our psychological states and linguistic utterances.
+  \p{[Intentionality](phil-017X) is the contentfulness distinctive of some of our psychological states and linguistic utterances.
   }
 
   \p{Intentionality \em{partially} overlaps with \strong{consciousness}:
   }
   \ul{
-    \li{pain is a nonintentional but psychologically conscious phenomenon. (a pain is not \em{about} anything: there is no content that could be expressed by a sentential 'that' clause). }
+    \li{[Pain](phil-018O) is a nonintentional but psychologically conscious phenomenon. (a pain is not \em{about} anything: there is no content that could be expressed by a sentential 'that' clause). }
     \li{We make use of unconscious intentional states when making sense of other's behavior.}
   }
   \p{This distinction of consciousness and intentionality is related to the distinction between \strong{sentience} and \strong{sapience}:
@@ -64,28 +66,25 @@
   \li{\strong{Platonism} - understand practical intentionality in terms of discursive intentionality. Every implicit skill or propriety of practice is underwritten by a rule/principle - something that could be made discursively explicit.}
   \li{\strong{Pragmatism} - understand discursive intentionality in terms of practical intentionality. Knowing-that (things are thus-and-so) is a kind of knowing-how (to do something). What is explicit in the form of a conceptually articulated principle is intelligible only against a background of implicit practices.}
 }
-\p{What of the explanatory priority of the representational and propositional dimensions? Brandom says for practical intentionality, the propositional should be understood in terms of representational.[^ex] But for discursive intentionality, the representational should be understood in terms of the propositional.
+\p{What of the explanatory priority of the representational and propositional dimensions? Brandom says for practical intentionality, the propositional should be understood in terms of representational. (Consider the mapping relation that skillful dealings produce and promote between items in the environment and states of the  organism. The usefulness of map representations depends on the goodness of inferences from map-facts (there is a blue wavy line between two dots here) to terrain-facts (there is a river between these two cities). The propositional content of the map facts is built up out of representational relations that are sub-propositional (correlating blue lines and rivers, dots and cities). Such relations underwrite the representation-to-proposition order of explanation at the level of practical intentionality.) But for discursive intentionality, the representational should be understood in terms of the propositional.
 }
-\p{[^ex]: Consider the mapping relation that skillful dealings produce and promote between items in the environment and states of the  organism. The usefulness of map representations depends on the goodness of inferences from map-facts (there is a blue wavy line between two dots here) to terrain-facts (there is a river between these two cities). The propositional content of the map facts is built up out of representational relations that are sub-propositional (correlating blue lines and rivers, dots and cities). Such relations underwrite the representation-to-proposition order of explanation at the level of practical intentionality.
-}
+
 }
 \subtree{\title{The normativity of discursive intentionality}
 
-\p{Kant's idea: judgments/intentional doings are distinguished from nondiscursive creatures' behavior in that they are things the subject is \em{responsible for}. They express \em{commitments} or \em{endorsements}, they are exercises of the \em{authority} of the subject. Concepts are normative. Discursive creatures are ones who live in a \em{normative} space.
+\p{[Kant](kant)'s idea: judgments/intentional doings are distinguished from nondiscursive creatures' behavior in that they are things the subject is \em{responsible for}. They express \em{commitments} or \em{endorsements}, they are exercises of the \em{authority} of the subject. Concepts are normative. Discursive creatures are ones who live in a \em{normative} space.
 }
 \p{Example: in judging the coin is copper, one is committed (whether one knows it or not) to the coin conducting electricity / melting at 1085 degrees. One is precluded from claiming the coin is less dense than water.
 }
-\p{Kant explains the content of concepts in terms of judgments / responsibility (i.e. representational content explained in terms of propositional content). This is an opposite explanatory order from the tradition before him: people would start with contents of concepts (particular ones, like "Socrates", which represent objects and general ones, like "man" or "mortal", which represent properties). These concepts can be combined to form propositions (e.g. "Socrates is a man") and a theory of syllogisms ("Socrates is a man, all men are mortal, \em{so} Socrates is mortal") which classifies the inferences as good or bad depending on the contents of the propositions. This is explaining propositional content in terms of representational.
+\p{Kant explains the content of concepts in terms of judgments / responsibility (i.e. representational content explained in terms of propositional content). This is an opposite explanatory order from the tradition before him: people would start with contents of concepts (particular ones, like "Socrates", which represent objects and general ones, like "man" or "mortal", which represent properties). These concepts can be combined to form propositions (e.g. "Socrates is a man") and a theory of [syllogisms](phil-0196) ("Socrates is a man, all men are mortal, \em{so} Socrates is mortal") which classifies the inferences as good or bad depending on the contents of the propositions. This is explaining propositional content in terms of representational.
 }
 \p{Given the Kantian order of explanation, what it means to treat something as a represent\em{ing} (of something represent\em{ed}) is to acknowledge the authority of what is represented over assessments of the correctness of that representing.
 }
 \p{Two broad ways of understanding normativity (as it appears in discursive intentionality). Both are \em{functionalist} (they look at the role discursive intentional states play in some larger system)
 }
 \ul{
-  \li{\strong{Teleosemantic}: what we ought to follow / how representing ought be derives from selectionary/adaptive/evolutionary explanations.}
-  \li{\strong{Social-practical}: the norms of concepts are instituted socially by normative attitudes (in particular, "reciprocal recognition"). This line of thought was invented by Hegel and continued through American pragmatists and Wittgenstein. Social norms is instituted when practitioners take performances \em{as} appropriate or inappropriate / treat others \em{as} committed or entitled etc.[^1] }
-}
-\p{[^1]: E.g. what it \em{means} for the the court to really \em{be} adjourned is precisely when #{J} \em{takes} it to be adjourned, and that the community \em{takes} #{J} to be the judge, who has the authority to adjourn the court.
+\li{\strong{Teleosemantic}: what we ought to follow / how representing ought be derives from selectionary/adaptive/evolutionary explanations.}
+\li{\strong{Social-practical}: the norms of concepts are instituted socially by normative attitudes (in particular, "reciprocal recognition"). This line of thought was invented by Hegel and continued through American pragmatists and Wittgenstein. Social norms is instituted when practitioners take performances \em{as} appropriate or inappropriate / treat others \em{as} committed or entitled etc.E.g. what it \em{means} for the the court to really \em{be} adjourned is precisely when #{J} \em{takes} it to be adjourned, and that the community \em{takes} #{J} to be the judge, who has the authority to adjourn the court. }
 }
 }
 \subtree{\title{An inferential approach to discursive propositional intentional content}
@@ -109,7 +108,9 @@
   }
   \p{Can there by discursive intentionality without language? Early modern philosophers took it to be obvious we could have thoughts apart from their linguistic expression. Grice and Fodor have continued this tradition. However, there is an alternative order of explanation which understands discursive intentionality in terms of language (often associated with Wittgenstein). Dummett expresses this with the [quote](q-0062):
   }
-  \blockquote{We have opposed throughout the view of assertion as the expression of an interior act; judgment, rather, is the interiorization of the external act of assertion.}
+
+  \transclude{q-0062}
+
 
   \p{This view is more extreme than Davidson's view which holds that there is no overall explanatory priority in either direction:
   }
@@ -120,12 +121,7 @@
 }
 \subtree{\title{Putting together a social normative pragmatics and an inferential semantics for discursive intentionality}
 
-\p{Iron triangle of discursiveness:}
-\ul{
-
-  \li{Syntax: declarative sentences}
-  \li{Semantics: propositions}
-  \li{Pragmatics: assertions}}
+\transclude{phil-019K}
 
 \p{A pragmatist considers explaining/understanding the first two categories in terms of the last.
 }

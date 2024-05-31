@@ -1,0 +1,12 @@
+\date{2024-05-03}
+\title{Monotonicity of incompatibility}
+\import{macros}
+
+\subtree{\taxon{definition}
+  \bussproofs{
+    \AxiomC{$\Gamma \# B$}
+    \AxiomC{$A$}
+    \BinaryInfC{$\Gamma, A \# B$}
+    \DisplayProof
+  }
+}

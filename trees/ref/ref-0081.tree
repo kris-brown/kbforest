@@ -1,0 +1,59 @@
+\title{Preface}
+\taxon{reference}
+\author{rorty}
+\parent{ref-0011}
+\import{base-macros}
+
+\p{This book's main thesis: reject attempt to \em{unify} public and private life.}
+
+\table{
+  \tr{
+    \th{Human nature}
+    \th{Solidarity}
+    \th{Individualism}
+  }
+  \tr{
+    \td{\strong{Examples}}
+    \td{Plato trying to answer "Why is it in one's interest to be just?" or Christianity's claim that perfect self-realization is attained by service to others }
+    \td{Nietzsche thinking human nature is selfish (e.g. will to power)}
+  }
+}
+
+\p{
+  Historicist thinkers deny there is a 'human nature', something outside of our contingent socialization / historical circumstance which defines us. Yet they can still focus on the individual or the community:}
+
+\table{
+  \tr{
+    \th{Focus  }
+    \th{Individualism  }
+    \th{Solidarity}
+  }
+  \tr{
+    \td{\strong{Example thinkers}  }
+    \td{Heidegger, Foucault  }
+    \td{Dewey, Habermas}
+  }
+  \tr{
+    \td{\strong{Hero}  }
+    \td{The self-created exemplar (Kierkegaard, Nietzsche, Proust, Nabokov)  }
+    \td{The fellow citizen (Marx, Mill, Rawls)}
+  }
+  \tr{
+    \td{\strong{Interested in}  }
+    \td{Self-creation, private autonomy  }
+    \td{A more just and free human community}
+  }
+  \tr{
+    \td{\strong{Problem with other column's interest}  }
+    \td{Antithetical to something deep inside of us  }
+    \td{"Irrationalism" or "aestheticism"}
+  }
+  \tr{
+    \td{As a tool, these thinkers help us...  }
+    \td{...realize social virtues aren't the only virtues and some have succeeded in re-creating themselves, articulate our felt need to become a new person  }
+    \td{...see the failure of institutions to live up to the convictions we are publicly committed to}
+  }
+}
+
+\p{We need not see these as opposed to each other. Unlike the vocabulary of justice, the vocabulary of self-creation is necessarily private and unsuited to argument. The writings of these two kinds of thinkers are like different tools - both are right. The book paints a favorable picture of the liberal ironist: someone who has adopted the book's thesis, rejecting the demand to unify the public and private, treating both as valid yet incommensurable.
+}

@@ -1,0 +1,26 @@
+\title{Styles of Ethical Theory}
+\parent{ref-0018}
+\taxon{chapter}
+\number{5}
+\tag{to-do}
+
+\p{There are many styles of critique: effective ones involve showing existing attitudes rest on falsehoods. Sometimes there are purely formal arguments.
+}
+\p{Ethical theory is not mere critique. It is a theoretical account of what ethical thought and practice are. These can be \strong{positive} (which yield a general test for the correctness of basic ethical beliefs) or \strong{negative} (show that such a test cannot exist).
+}
+\p{20th century philosophy distinguishes \strong{ethics} (substantive claims about what one should do, what was worthwhile) from \strong{meta-ethics} (what is the status of the claims of ethics, whether they were knowledge, etc.). This distinction wraps up an assumption that they can be factored: a meta-ethical theory would not have ethical implications.[^sep] But the distinction isn't helpful: meta-ethics inevitably provides criteria for ethical thought and is thereby ethical thought.
+}
+\p{[^sep]: Often people have a (bad) conception of philosophy that leads to thinking that meta-ethics must be linguistic and that philosophy should be in the business of meta-ethics but not ethics.
+}
+\p{Contractual theories: basic principle made explicit by Scanlon. "An act is wrong if its performance under the circumstances would be disallowed by any system of rules for the general regulation of behavior which no one could reasonably reject as a basis for informed, unforced, general agreement." The basic moral motivation: "a desire to be able to justify one's actions to others on grounds they could not reasonably reject." Natural constituency: those who you could conceivably try to justify your actions (e.g. other moral agents). Not immediately consequentialist: our place in the space of reasons more important than causes.
+}
+\p{Utilitarian theories: basic principle is that ethical thought is concerned with individual welfare. Direct utilitarianism says acts are justified by maximizing welfare, indirect allows justification via maximizing some rule / practice / institution. Natural constituency: those who can feel pleasure / pain. Immediately consequentialist: our status as causes is more important than our agency. Ethical demands are in principle boundless, so utilitarians \em{put back} restrictions on what one may be required to do (e.g. it's ok to occasionally relax from work, give extra attention to one's own children).
+}
+\p{Contractural examples: Kant and Rawls. Basic Rawls idea: a fair system of arrangements is one which parties agree to without knowing how it will benefit them personally. The parties in the "original position" don't have preferences/tastes, but they do have access to a list of "primary goods" (e.g. liberty, opportunity, income, self-respect). For utilitarianism, the characteristic moral motive is benevolence.
+}
+\scope{
+\put\transclude/toc{false}
+
+\transclude{phil-0148}
+}
+\p{TODO ...}

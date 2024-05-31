@@ -1,0 +1,8 @@
+\date{2024-05-05}
+\title{Succedent-Summation}
+\import{macros}
+\author{brandom}
+
+\subtree{\taxon{definition}
+\p{#{\Gamma \vsim A\lor B \Delta} iff #{\Gamma\vsim A,B,\Delta}}
+}

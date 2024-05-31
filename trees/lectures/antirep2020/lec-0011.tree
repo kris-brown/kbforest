@@ -2,6 +2,7 @@
 \author{brandom}
 \parent{lec-0024}
 \number{11}
+\taxon{lecture}
 
 \subtree{\title{Two species of language}
 
@@ -37,7 +38,7 @@
   }
   \subtree{\title{Was the vocabulary vocabulary pointless?}
 
-    \p{The vocabulary vocabulary was to remove the language-theory distinction, but the ADP / idiom distinction may seem like it reveals no progress has been made. Brandom notes that there are some similarities in Language:ADP::Theory:Idiom. This is where Brandom says Rorty's rhetoric about description sometimes sounds as if he's slipping back into Carnappian pragmatism.
+    \p{The vocabulary vocabulary was to remove the [language-theory distinction](phil-016R), but the ADP / idiom distinction may seem like it reveals no progress has been made. Brandom notes that there are some similarities in Language:ADP::Theory:Idiom. This is where Brandom says Rorty's rhetoric about description sometimes sounds as if he's slipping back into Carnappian pragmatism.
     }
     \p{Brandom says it's a pragmatist version of that distinction. It's not the same. For Carnap, you choose the language and the world settles the proper theory. In the new version, there's only one (up to intertranslatability) 'language', and the theory is up to you. So the Carnappian picture is turned on its head.
     }

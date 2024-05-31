@@ -62,7 +62,7 @@
 }
 \p{Reminder that, due to the [regress argument](phil-0114), that we need to broaden our notion of 'rule' from just explicit rules and need think of rules also as implicit in what we do. Sellars wants to better understand the relationship between implicit practical abilities and explicit representations of rules.
 }
-\p{The question of whether meaning is a normative concept was brought to philosophical attention by [Kripkenstein](ref-0074). In present literature, Hattiangadi and Katherin Glüer have pushed back upon the idea that it is a normative concept, advanced by Brandom and MacDowell. Brandom feels it is because they haven't learned lessons from Sellars, in particular thinking of norms purely in terms of explicit presecriptions and not making the distinction between ought-to-be's and ought-to-do's.
+\p{The question of whether [meaning is a normative concept](phil-017T) was brought to philosophical attention by [Kripkenstein](ref-0074). In present literature, Hattiangadi and Katherin Glüer have pushed back upon the idea that it is a normative concept, advanced by Brandom and MacDowell. Brandom feels it is because they haven't learned lessons from Sellars, in particular thinking of norms purely in terms of explicit presecriptions and not making the distinction between ought-to-be's and ought-to-do's.
 }
 \blockquote{You can define \em{possibility} in terms of \em{not} and \em{necessity}. You can define
   \em{necessity} in terms of \em{not} and \em{possibility}. I think it's the beginning of
@@ -121,7 +121,7 @@ thought and language.
 }}
 \subtree{\title{Romantic views of language}
 
-\p{People with romantic views of language: [Derrida](derrida) and [Nietzsche](nietzsche). These are compatible with Wittgenstein [believing language has no downtown](wittgenstein).}
+\p{People with romantic views of language: [Derrida](derrida) and [Nietzsche](nietzsche). These are compatible with Wittgenstein [believing language has no downtown](q-015F).}
 
 \p{Sellars disagrees: the language-language inferential transitions are of the first importance among those because what makes the entries and exits \em{language} entries and exits is the way they connect to the inferential moves. And so he would say to Derrida, "yes, we do all of these other wonderful things with the language, but that's all parasitic on the meanings that things are given because of the role they play in the space of reasons... now, once you've got that up and running, once you've got those meanings to work with, now you can start to do other playful things with it, e.g. use them metaphorically. All sorts of things become possible. But that's in principle a superstructure on this structure."
 }
@@ -143,7 +143,7 @@ thought and language.
 }
 \p{The period prior to the child's mastery and social status as a language speaker has some peculiarities. His verbal behavior would express his thoughts but, to put it paradoxically, the child could not express them. The child isn't in a position to \em{intentionally} say that things are thus-and-so, even though it is in a position to say that things are thus-and-so. So there's a question: which comes first, speaker's meaning or semantic meaning?
 }
-\p{Semantic meaning is a matter of what the words mean. No agent involved in that. In English, the word 'molybdenum' means the noble metal with 42 protons. Contrast with "When Humpty Dumpty says 'glory', he means *a nice knockdown, drag-out fight*". Grice says speaker meaning comes first. Sellars says that is a Cartesian way of thinking about things, that the primary meaning is what words mean in the language process.
+\p{Semantic meaning is a matter of what the words mean. No agent involved in that. In English, the word 'molybdenum' means the noble metal with 42 protons. Contrast with "When [Humpty Dumpty](q-015E) says 'glory', he means *a nice knockdown, drag-out fight*". Grice says speaker meaning comes first. Sellars says that is a Cartesian way of thinking about things, that the primary meaning is what words mean in the language process.
 }
 \p{If I claim the notebook is made out of copper, I have (whether I know it or not), committed it to melting at 1084 °C and that it conducts electricity. My words mean those things, whether or not I mean to.
 }

@@ -1,0 +1,34 @@
+\title{Pragmatism}
+\ref{ref-00A6}
+\subtree{\title{Overview }
+  \tag{to-do}
+
+}
+\subtree{\title{History}
+  \transclude{phil-0190}
+
+  \p{"Cambridge" pragmatism}
+  \ul{
+    \li{[Ramsey](ramsey)}
+    \li{The later [Wittgenstein](wittgenstein)}
+  }
+  \p{Neo-pragmatism}
+  \ul{
+    \li{[Rorty](rorty)}
+    \li{[Brandom](brandom)}
+    \li{[Price](price)}
+  }
+
+}
+\subtree{\title{Semantics}
+\p{What does it \em{mean} that "All #{A}'s are necessarily #{B}'s"? A pragmatist answer is that it is a license to infer statements like "#{x} is a #{B}" from statements like "#{x} is an #{A}".
+}
+}
+\subtree{\title{Truth }
+\ul{
+\li{[Peirce](peirce): [Truth as the limit of inquiry](phil-0141)}
+\li{[James](james): Truth as what is good for belief[^bb]}
+}
+\p{[^bb]: [Blackburn](blackburn): false beliefs can be useful, e.g. it may be useful to believe you are the most popular person in class but that does not make it true. Conversely, many things we think of as true are useless.
+}
+}

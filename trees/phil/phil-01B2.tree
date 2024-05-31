@@ -1,0 +1,17 @@
+\date{2024-04-23}
+\title{Bridge principle (logic and norms)}
+\author{john-macfarlane}
+\taxon{definition}
+\ref{ref-00AR}
+
+\p{A \em{bridge principle} is a rule of inference of the form:   }
+
+\p{If #{A, B \vDash C}, then (normative claim about believing #{A, B}, and #{C}).}
+
+\p{[MacFarlane](john-macfarlane) considers the following parameters:}
+
+\ol{
+\li{\strong{Type of deontic operator:} Do facts about logical validity give rise to strict obligations, permissions, or (defeasible) reasons for belief?}
+\li{\strong{Polarity:} Are these obligations/permissions/reasons to believe, or merely not to disbelieve?}
+\li{\strong{Scope of deontic operator:} These norms are in some sense conditional: what one ought/may/has reason to believe with respect to #{C} depends somehow on what one believes, or ought/may/has reason to believe, with respect to #{A} and #{B}. Does the deontic operator govern the consequent of the conditional (#{P \implies \Box Q}), or both the antecedent and the consequent (#{\Box P ⊃ \Box O}), or the whole conditional (#{\Box (P \implies Q)})?}
+}

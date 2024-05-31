@@ -1,0 +1,8 @@
+\date{2024-05-04}
+\title{Turnstile}
+\import{macros}
+\p{There are various turnstiles: #{\vdash}, #{\vDash}, #{\vsim}}
+
+\p{These represent [binary relations](math-001M) in different contexts.}
+
+\p{The expressivist ideal is to develop the expressive power to make explicit any and all species of the turnstile, any and all senses of "follows from." The [logicist](phil-016J) is restricted to only the senses of "follows from" which satisfy [topological closure](math-0006).}

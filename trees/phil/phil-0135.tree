@@ -1,0 +1,15 @@
+\title{Superassertibility}
+
+\transclude{phil-0185}
+
+\p{
+  [Crispin Wright](wright)'s pragmatist-friendly successor notion to [truth](phil-0142).
+}
+
+\p{Related to [Peirce](peirce)'s [Truth as the limit of inquiry](phil-0141).
+}
+
+\subtree{\title{Objection}
+  \p{This is circular because we need a notion of truth in order to determine whether a putative piece of information is an "increase" (i.e. it's true).
+  }
+}

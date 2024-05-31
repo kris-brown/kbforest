@@ -1,0 +1,6 @@
+\date{2024-04-15}
+\title{Transpose double category}
+\taxon{definition}
+\import{macros}
+
+\p{Given any double category #{\DD} there is a double category #{\DD^T} called the \em{transpose} of #{\DD} which swaps the arrows and proarrows.}

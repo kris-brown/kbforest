@@ -1,10 +1,11 @@
-\title{Lecture 1}
+\title{A Metarationalist Perspective on Language, Logic, and Meaning}
+\number{1}
+\taxon{lecture}
 \parent{lec-0030}
 
 \p{Course in a nutshell: [reasons](phil-00155) and [language](phil-0156) are mutually-[sense dependent](phil-0157).}
 
 \p{Agreement with [Dummett](phil-015E) on the significance of [philosophy of language](phil-0095).}
-
 
 \p{A sharper term than 'language' is [discursive practice](phil-015H).}
 
@@ -28,8 +29,21 @@
   \subtree{\title{Social character social practices}
     \p{
       It's not necessary to delve into the distinction between attributing a commitment to someone else and undertaking an independent oneself (which is at the core of the pragmatic the normative pragmatics of [Making it explicit](ref-0075))
-    }}
-
+    }
+  }
 }
 
-\p{Up to 30:48}
+\p{An appeal for [discursive exceptionalism](phil-0168) and a warning about a potential [problem](phil-016G).}
+
+\p{A return to the question '[What is language?](phil-015O)', beginning with a historical summary, saying recent philosophy (since [Frege](frege)) should be thought of not in terms of [analytic vs continental philosophy](phil-016I) (both are strongly concerned with philosophy of language) but rather [logicist vs pragmatist](phil-016K) strands. [Metalinguistic rationalism](phil-015Y) synthesizes this dichotomy as by showing how they both illuminate different aspects of reason-giving.
+}
+
+\p{Why 'metavocabularies of reason' rather than 'metalanguages'? [Vocabulary](phil-0147)' is a better term for language that avoids making the [language-theory distinction](phil-016R), which is problematic for natural languages. Logical, nautical, culinary vocabularies are all examples. [ADPs](phil-0013) are a  special class of vocabularies that do not need to be embedded in a larger vocabulary to have the meanings they have.}
+
+\p{Progression from normative metavocabulary to reason relations. The story starts with Kant's normative definition of [autonomy](phil-016S). His distinction of normative from non-normative was more helpful than the ontological distinction of mental from non-mental. But that distinction was still problematic until Hegel and Wittgenstein independently naturalize it, showing how normativity arises from social practice.}
+
+\transclude{phil-0170}
+
+\p{Discursive practices must be assertional practices which must be practices of giving and asking for reasons for and against claims.}
+
+\p{Brandom endorses the possibility of creatures which are rational but not yet logical, whereas [MacDowell](macdowell) denies this.}

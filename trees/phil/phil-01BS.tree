@@ -1,0 +1,19 @@
+\date{2024-05-04}
+\title{Cautious monotonicity}
+
+\import{macros}
+
+\subtree{\taxon{definition}
+  \bussproofs{
+    \AxiomC{$\Gamma \vsim A$}
+    \AxiomC{$\Gamma \vsim B$}
+    \BinaryInfC{$\Gamma,A \vsim B$}
+    \DisplayProof
+  }
+}
+
+\p{Restriction of [monotonicity](phil-01BQ) to only allow throwing in premises which are themselves consequences of #{\Gamma}.}
+
+\p{Dual to [Cumulative transitivity](phil-01BR)}
+
+\p{This says that [explicitation](phil-01BT) never \em{removes} consequences.}

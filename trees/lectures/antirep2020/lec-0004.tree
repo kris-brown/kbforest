@@ -2,6 +2,7 @@
 \author{brandom}
 \parent{lec-0024}
 \number{4}
+\taxon{lecture}
 
 \subtree{\title{Cheryl Misak's reconstruction of the pragmatist tradition}
 
@@ -37,7 +38,7 @@
 \p{Prior to Misak, the [Eclipse view of pragmatism](q-0038) was dominant. She thinks most of that story is wrong.
 }
 \ul{
-\li{Chauncy Wright provided the original intellectual impetus (the [Socrates](socrates) to Peirce's [Plato](plato)).}
+\li{[Chauncey Wright](chauncey-wright) provided the original intellectual impetus (the [Socrates](socrates) to Peirce's [Plato](plato)).}
 \li{Pierce -> C.I. Lewis very distinct from James -> Dewey -> Rorty.}
 \ul{
   \li{One way to view this distinction is the affinity for formal logic. However, Rorty was logically competent, despite not liking it.}
@@ -106,7 +107,7 @@
 }
 \p{Representationalist say that some vocabularies are better due to the relations they stand in to the world that they're about. Rorty would claim we cannot understand this privileging without vocabularies of social practice (the space of reasons, the normative order).
 }
-\p{A Kantian problematic: Kant invites us to ask which features of our vocabulary are as they are because of how the world is vs how we are? This underlies Carnapian pragmatism.[^k]
+\p{A Kantian problematic: Kant invites us to ask which features of our vocabulary are as they are because of how the world is vs how we are? This underlies [Carnapian pragmatism](phil-01BG).[^k]
 }
 \ul{
   \li{No one thinks the world is responsible for us describing it in English/German.}

@@ -1,0 +1,6 @@
+\date{2024-05-04}
+\title{Binary relation}
+
+\subtree{\title{Binary relation}\taxon{definition}
+\p{A binary relation on a set #{A} is a [relation](math-0002) between #{A} and #{A} (i.e. a subset of #{A \times A}.)}
+}

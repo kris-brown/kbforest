@@ -1,0 +1,7 @@
+\date{2024-04-15}
+\title{Conjoint in #{{\RR}el}}
+\import{macros}
+
+\p{The [conjoint](math-000M) of an arrow #{f} in [Rel](math-000T) is given by the co-graph of #{f}.}
+
+\p{This works dually to [companions in](math-000N) #{{\RR}el}.}

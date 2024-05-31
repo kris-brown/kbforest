@@ -2,13 +2,14 @@
 \author{brandom}
 \parent{lec-0024}
 \number{8}
-
+\taxon{lecture}
 \import{base-macros}
+
 \p{To understand [subject naturalism](phil-0089), we first need to understand object-naturalism (normally just called "[naturalism](phil-0082)").}
 
 \subtree{\title{Placement problems}
 
-  \p{Frank Jackson's "location problem". The first two chapters of Oxford Locke lectures ("From Metaphysics to Ethics") are an authorative statement of this. Brandom says these lectures capture what happened to logical positivism / empiricism: a version of that for the late 20th century. Related to the [Canberra plan](phil-0019).
+  \p{[Frank Jackson](jackson)'s "location problem". The first two chapters of Oxford Locke lectures ("From Metaphysics to Ethics") are an authorative statement of this. Brandom says these lectures capture what happened to logical positivism / empiricism: a version of that for the late 20th century. Related to the [Canberra plan](phil-0019).
   }
   \p{What does the best natural science of our time tells us about the world. In some sense, it tells us everything. If we have a problematic vocabulary, we need to understand how it relates to what our best science tells us is out there (what does it refer to in the natural world?). 3 M's for potentially problematic vocabularies: morals, modals, mathematics. What kinds of things are "necessity"/"norms"/"numbers"? Also problematic could be intensional vocabulary (beliefs/desires), semantic vocabulary (e.g. relation of reference).
   }
@@ -69,7 +70,7 @@
         }
       }\td{\ul{
           \li{additionally with criteria of application and identity/individuation}
-          \li{The question “Is this the same K as that?” makes sense for sortals (kind terms) K.}
+          \li{The question "Is this the same K as that?" makes sense for sortals (kind terms) K.}
           \li{example: dog}
 
         }
@@ -80,7 +81,7 @@
   }
   \p{Abstraction is a process that introduces new sortals based on old ones, which inherit their criteria of application and individuation as transforms of the criteria of application and individuation from the old vocabulary.
   }
-  \p{We introduce directions of lines, on the basis of a vocabulary of lines that includes the relational predicate “parallel to.” This method works only because that relational predicate expresses an equivalence relation: it is reflexive, symmetric, and transitive, like identity.
+  \p{We introduce directions of lines, on the basis of a vocabulary of lines that includes the relational predicate "parallel to." This method works only because that relational predicate expresses an equivalence relation: it is reflexive, symmetric, and transitive, like identity.
   }
   \p{Abstraction treats an equivalence relation as if it were identity—but of a new kind of thing. This can be done hierarchically, thus "is abstract to" is a relative notion between vocabularies.
   }
@@ -120,20 +121,20 @@
 }
 \subtree{\title{Quinean challenge }
 
-\p{The "vocabulary" vocabulary motivated for rorty by Quine's argument that you can't make a language-theory distinction.
+\p{The "vocabulary" vocabulary motivated for rorty by Quine's argument that you can't make a [language-theory distinction](phil-016R).
 }
 \p{This is not the conclusion quine drew: Quine established the holistic character of total theories (what Rorty called vocabularies) and took that to show that you couldn't scientifically study these things: meaning is not a fit topic for scientific study; we should only study reference (which is atomic, not holistic) / we should only use \em{extensional} notions in our semantics (i.e. in terms that only depend on reference). This is about truth, not understanding.
 }
 \p{Two ironies:
 }
 \ul{
-  \li{Davidson follow him in this regard, in pushing purely extensional semantic treatments of all expressions. That is what the result of his turning Tarski's theory of truth on its head comes to. He does this even for propositional attitudes (his “paratactic” theory of them). But methodologically, DD is the great holist and articulator of the “space of reasons.” This is the great tension in Davidson (compare to Quine's, which is between empiricism and naturalism, with the crunch coming over modal claims and laws of nature).}
+  \li{Davidson follow him in this regard, in pushing purely extensional semantic treatments of all expressions. That is what the result of his turning Tarski's theory of truth on its head comes to. He does this even for propositional attitudes (his "paratactic" theory of them). But methodologically, DD is the great holist and articulator of the "space of reasons." This is the great tension in Davidson (compare to Quine's, which is between empiricism and naturalism, with the crunch coming over modal claims and laws of nature).}
 
   \li{Precisely on the topic of modality, extensionalism is incompatible with the [Kant-Sellars thesis](phil-0060) about modality. \em{The result is that the extensional move is unsustainable once we take modality seriously}. Lewis thinks a Kripkean extensional semantics for modality (PW semantics) can solve this problem. But it is conceptually broken-backed, since it presupposes a notion of extensional property (modally-insulated properties) that it uses to define possible worlds.}
 
 }
 
-\p{In the present context, the point is that retreating to the “purely extensional” won't work. It goes wrong in two related ways.
+\p{In the present context, the point is that retreating to the "purely extensional" won't work. It goes wrong in two related ways.
 }
 
 \ol{
@@ -143,15 +144,15 @@
 }
 \p{Here we can ask a \strong{sense/reference question}: is it what we are referring to (talking about) or what we say about it that must be specifiable in naturalistic vocabulary (locatable/placeable in physicalistically specifiable world)?
 }
-\p{Seems one wants to say: just \strong{referents}. But then where are \strong{the facts}? Are they referred to by sentences? Or expressed by them? They do not seem to be vocabulary independent (extension rather than intensions, which are “description-relative”).}
+\p{Seems one wants to say: just \strong{referents}. But then where are \strong{the facts}? Are they referred to by sentences? Or expressed by them? They do not seem to be vocabulary independent (extension rather than intensions, which are "description-relative").}
 
-\p{In any case, surely we must at some point get the senses into the naturalistic world- picture too. (Jackson talks about the “dispositions of language-users” as part of the story that will need to be told. He has in mind, though he doesn't says so, those dispositions specified in the vocabulary of the natural sciences. For dispositions to, say, “use expressions correctly,” or “use the tilde to express negation” are not going to do for him.)  And that means that meanings, senses, claimables must get into even an object-naturalist story, even if they come in late in it.
+\p{In any case, surely we must at some point get the senses into the naturalistic world- picture too. ([Jackson](jackson) talks about the "dispositions of language-users" as part of the story that will need to be told. He has in mind, though he doesn't says so, those dispositions specified in the vocabulary of the natural sciences. For dispositions to, say, "use expressions correctly," or "use the tilde to express negation" are not going to do for him.)  And that means that meanings, senses, claimables must get into even an object-naturalist story, even if they come in late in it.
 }
 \p{But that means that anyone (an object naturalist) who worries about location/placement problems will have to worry about such problems for specifically semantic facts (vocabularies).
 }
-\p{To adopt an error theory about them, to say that semantic terms don't really refer, entails skepticism about the notion of “truth makers” or “facts.”
+\p{To adopt an error theory about them, to say that semantic terms don't really refer, entails skepticism about the notion of "truth makers" or "facts."
 }
-\p{This is in fact the conclusion Price wants to get to, after observing that semantic deflationism (not quite skepticism, but is from the point of view of object-naturalists) had been thought to strengthen the object-naturalist case by underwriting declarativism, which puts every vocabulary in the same box, which one can then, in a second step, label “description” or “representation” to yield semantic descriptivism or representationalism.
+\p{This is in fact the conclusion Price wants to get to, after observing that semantic deflationism (not quite skepticism, but is from the point of view of object-naturalists) had been thought to strengthen the object-naturalist case by underwriting declarativism, which puts every vocabulary in the same box, which one can then, in a second step, label "description" or "representation" to yield semantic descriptivism or representationalism.
 }
 
 
@@ -168,20 +169,20 @@
 
   \p{Huw looks at two uses of naturalistic vocabulary: one on the side of objects represented, and another on the side of the practices that can be understood as representing/describing them (but at the cost of metaphysical puzzlement about the extravagant ranges of facts and kinds of objects one must envisage)
   }
-  \p{That can be understood in more pragmatic terms, not shoe-horned in Procrustean ways into the representational model. (This is what HP means by “expressivism”—or at any rate, how he wants to adopt and co-opt the vocabulary of metaethical expressivism, as generalized by [Blackburn](blackburn) to the “3 'M's”.).
+  \p{That can be understood in more pragmatic terms, not shoe-horned in Procrustean ways into the representational model. (This is what HP means by "expressivism"—or at any rate, how he wants to adopt and co-opt the vocabulary of metaethical expressivism, as generalized by [Blackburn](blackburn) to the "3 'M's".).
   }
   \blockquote{Characterizing discursive practice in resolutely non-normative terms is hopeless: what is lost is the meaning.}
 
-  \p{But Brandom wants to say that we need not use \em{naturalistic} vocabulary for this dissolutive purpose. We can use a language of norms implicit in social practices in order to specify the discursive practices we will give nonrepresentational accounts of. This is both “dividing through by the naturalism” in subject naturalism and object naturalism, and reuniting Price's line of thought with pragmatism of the Rortyan sort. This is where I am going (what I have been looking for) in synthesizing the two parts of the course: Rortyan pragmatism as antirepresentationalism and Price's subject-naturalistic global expressivism as antirepresentationalism
+  \p{But Brandom wants to say that we need not use \em{naturalistic} vocabulary for this dissolutive purpose. We can use a language of norms implicit in social practices in order to specify the discursive practices we will give nonrepresentational accounts of. This is both "dividing through by the naturalism" in subject naturalism and object naturalism, and reuniting Price's line of thought with pragmatism of the Rortyan sort. This is where I am going (what I have been looking for) in synthesizing the two parts of the course: Rortyan pragmatism as antirepresentationalism and Price's subject-naturalistic global expressivism as antirepresentationalism
   }
   \p{The key is this way of:
   }
   \ul{
     \li{understanding the role of naturalistic vocabulary in specifying subject naturalism vs. object naturalism,
     }
-    \li{Understanding how to “divide through” by the choice of naturalistic vocabulary for this purpose.
+    \li{Understanding how to "divide through" by the choice of naturalistic vocabulary for this purpose.
     }
-    \li{Substitute a \em{pragmatist} vocabulary—in a sense that goes beyond just the pragmatism that is implicit in the good, indeed decisive, “subject naturalism” thought to the pragmatism of \strong{social pragmatism about normativity} and the insight into the \strong{normative character of discursive practice} that meaning is a normative concept, that the pragmatics in terms of which we understand semantics is normative, and so is the semantics, whether we understand it representationally—representation as a normative concept—or in a deflationary pragmatist way (\em{truth} and \em{reference} as normative concepts, or to be understood in terms of norms governing their use).}
+    \li{Substitute a \em{pragmatist} vocabulary—in a sense that goes beyond just the pragmatism that is implicit in the good, indeed decisive, "subject naturalism" thought to the pragmatism of \strong{social pragmatism about normativity} and the insight into the \strong{normative character of discursive practice} that [meaning is a normative concept](phil-017T), that the pragmatics in terms of which we understand semantics is normative, and so is the semantics, whether we understand it representationally—representation as a normative concept—or in a deflationary pragmatist way (\em{truth} and \em{reference} as normative concepts, or to be understood in terms of norms governing their use).}
   }
   \p{Naturalism that includes the products of our social interactions is a different, wider notion of naturalism. MacDowell calls this second nature (rather than bald naturalism).
   }
@@ -194,7 +195,7 @@
 }
 \p{Historical background: [Ramsey](ramsey) and [Quine](quine) call it disquotationalism. This becomes [Strawson](peter-strawson)'s "[Redundancy theory of facts](phil-0111)". Horwich called it minimalism, which is where Huw got the name.
 }
-\p{[^now]: However, that is \em{now} used for the view that denies truth conditions (Travis' radical contextualism) or assigning minimal, invariant truth conditions and relegating everything else to “pragmatics”.
+\p{[^now]: However, that is \em{now} used for the view that denies truth conditions (Travis' radical contextualism) or assigning minimal, invariant truth conditions and relegating everything else to "pragmatics".
 }
 \p{Q: Why is semantic vocabulary of special significance in assessing the relationship between object and subject naturalism?
 }
@@ -232,7 +233,7 @@
 
   \p{This is pointing out that if you think that reference-representation is an objective relation that one can study scientifically-objectively-naturalistically, because one is not a semantic deflationist and is an object naturalist, about semantic vocabulary as about all others, and one sees (correctly) that one cannot, as an object naturalist, have an \em{error theory} about semantic vocabulary (that is, take it not to represent anything, and so to be in principle defective discourse, to be discarded or explained away), because doing so undercuts one's object naturalism (which depends on reference-representation relations referring to or representing something) then you are committed to there being a relation that 'refers' ('represents') stands in to relations of reference and representation that is the \em{same} relation that 'Fido' stands in to Fido (Fodor's 'horses' to horses).
   }
-  \p{This is a complex, self-referential claim. But Price sees (correctly) that it is absolutely essential to object-naturalism, that is, to applying the descriptive- representational semantic model \em{universally}. And his claim is \em{not} that this idea is unintelligible. Rather, he follows Putnam (in his stuff on “internal” and “external” realism) in claiming not that there is no such relation, but that there are, at least in principle, too \em{many}. The demand for a relation that stands to 'refers' as Fido stands to 'Fido' is not only 1. too weak to pick out a unique relation of reference-representation, but 2. too weak sufficiently to constrain relations so as to pick out only relations that are plausibly or colorably \em{reference or representation} relations. Recall that there are infinite number of respects of similarity between the relations between names and what they are names of and relations between 'refers' and \em{absolutely anything}. Here Putnam imagines someone holding up an uninterpreted sign labeled 'refers', to mediate between words and things, and when asked to interpret it, holds up another sign labeled 'causes' (“in the right way”).
+  \p{This is a complex, self-referential claim. But Price sees (correctly) that it is absolutely essential to object-naturalism, that is, to applying the descriptive- representational semantic model \em{universally}. And his claim is \em{not} that this idea is unintelligible. Rather, he follows Putnam (in his stuff on "internal" and "external" realism) in claiming not that there is no such relation, but that there are, at least in principle, too \em{many}. The demand for a relation that stands to 'refers' as Fido stands to 'Fido' is not only 1. too weak to pick out a unique relation of reference-representation, but 2. too weak sufficiently to constrain relations so as to pick out only relations that are plausibly or colorably \em{reference or representation} relations. Recall that there are infinite number of respects of similarity between the relations between names and what they are names of and relations between 'refers' and \em{absolutely anything}. Here Putnam imagines someone holding up an uninterpreted sign labeled 'refers', to mediate between words and things, and when asked to interpret it, holds up another sign labeled 'causes' ("in the right way").
   }
 }
 }

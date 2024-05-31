@@ -2,6 +2,7 @@
 \author{brandom}
 \parent{lec-0024}
 \number{3}
+\taxon{lecture}
 
 \import{base-macros}
 
@@ -24,7 +25,7 @@
   }
   \ul{
     \li{What is really at stake in the battle between a representational model of the content of expressions and a pragmatist model is the best order of explanation (a way of thinking about conceptual priority) between representational relations and reason relations (of implication and incompatibility).}
-    \li{[Davidson](donald-davidson) teaches us that and how taking reason relations as primary (the pragmatists says, because giving and assessing reasons, implicitly and practically appealing to justificatory reason relations, specifiable in a deontic normative vocabulary of “commitment” and “entitlement”) holistically determines representational relations in top-down explanatory stories.}
+    \li{[Davidson](davidson) teaches us that and how taking reason relations as primary (the pragmatists says, because giving and assessing reasons, implicitly and practically appealing to justificatory reason relations, specifiable in a deontic normative vocabulary of “commitment” and “entitlement”) holistically determines representational relations in top-down explanatory stories.}
     \li{Representationalists are committed to atomistic objective usually causal relations (specifiable in an alethic modal vocabulary) determine reason relations.}
 
   }

@@ -1,0 +1,6 @@
+\date{2024-04-23}
+\title{Reason relation}
+
+\subtree{\title{Definition}\taxon{definition}
+  \p{A reason relation is either an [implication relation](phil-01B9) or an [incompatibility relation](phil-01BA).}
+}

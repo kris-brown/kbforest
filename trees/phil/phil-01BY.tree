@@ -1,0 +1,10 @@
+\date{2024-05-05}
+\title{Deduction detachment condition}
+
+\subtree{\taxon{definition}
+\p{The conditional obeys the \em{deduction detachment condition} when:} \p{#{\Gamma \vdash A \rightarrow B, \Delta} iff #{\Gamma, A \vdash B, \Delta}}
+}
+
+\p{This property is says the conditional makes the metalinguistic implication turnstile explicit in the logically extended object language.}
+
+\p{One could consider this a criterion of adequacy for any binary operator that is called a "conditional".}

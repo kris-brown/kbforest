@@ -1,0 +1,15 @@
+\date{2024-05-04}
+\title{Material rational frame}
+\import{macros}
+\author{brandom}
+
+\subtree{\taxon{definition}
+
+\p{A triple #{(L, IMP, INC)} where}
+
+\ul{
+\li{#{L} is a set of [sentences](phil-0024).}
+\li{#{IMP} is a [relation](math-0002) between #{L} and #{\cP(L)}, i.e. a set [implications](phil-01B9) #{\Gamma \vsim A}}
+\li{#{INC} is a subset of #{\cP(L)}, representing a set of [incompatible](phil-01BA) sets of sentences.}
+}
+}

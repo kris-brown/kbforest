@@ -1,44 +1,58 @@
 \title{basic macros}
 
-\def\nowrap[body]{\xml{span}[style]{white-space: nowrap}{\body}}
-\def\mark[body]{\xml{mark}{\body}}
+\import{latex-preamble}
+
+\xmlns:html{http://www.w3.org/1999/xhtml}
+
+\def\nowrap[body]{\<html:span>[style]{white-space: nowrap}{\body}}
+\def\mark[body]{\<html:mark>{\body}}
 
 \def\table[body]{
-  \xml{table}{\body}
+\<html:table>{\body}
 }
 \def\tr[body]{
-  \xml{tr}{\body}
+\<html:tr>{\body}
 }
 \def\td[body]{
-  \xml{td}{\body}
+\<html:td>{\body}
 }
 \def\th[body]{
-  \xml{th}{\body}
+\<html:th>{\body}
 }
 \def\hr{
-  \xml{hr}{}
+\<html:hr>{}
 }
 
 \alloc\base/tex-preamble
 
+\def\texfig[body]{
+\scope{
+\put?\base/tex-preamble{
+\latex-preamble/string-diagrams
+\latex-preamble/diagrams
+}
+\tex{\get\base/tex-preamble}{\body}
+}
+}
+
 \def\proof[body]{
- \scope{
-   \put\transclude/toc{false}
-   \subtree{
-     \taxon{proof}
-     \body
-   }
- }
+\scope{
+\put\transclude/toc{false}
+\subtree{
+  \taxon{proof}
+  \body
+}
+}
 }
 
 \def\solution[body]{
- \scope{
-   \put\transclude/toc{false}
-   \subtree{
-     \taxon{solution}
-     \body
-   }
- }
+\scope{
+\put\transclude/toc{false}
+\subtree{
+  \taxon{solution}
+  \body
+}
+}
 }
 
 \def\Con[arg1]{#{\mathsf{\arg1}}}
@@ -63,7 +77,7 @@
 \def\SET{#{\mathbf{Set}}}
 \def\InvImg[arg1]{#{\arg1\Sup{*}}}
 \def\DirImg[arg1]{#{\arg1\Sub{*}}}
-\def\OpCat[arg1]{#{\arg1\Sup{\mathsf{o}}}}
+\def\OpCat[arg1]{#{\arg1\Sup{\mathsf{op}}}}
 \def\ObjTerm[arg1]{#{\mathbf{1}\Sub{\arg1}}}
 \def\ObjInit[arg1]{#{\mathbf{0}\Sub{\arg1}}}
 \def\tick{#{'}}
@@ -72,9 +86,18 @@
 \def\FibProd[arg1][arg2][arg3]{#{\arg1\mathbin{\times\Sub{\arg2}}\arg3}}
 \def\Mor[arg1][arg2][arg3]{#{{\arg2}\xrightarrow{{\arg1}}{\arg3}}}
 \def\Comma[arg1][arg2]{#{{\arg1}\downarrow{\arg2}}}
-\def\Prod[arg1]{#{{\textstyle\prod_{\arg1}}}}
-\def\Sum[arg1]{#{{\textstyle\sum_{\arg1}}}}
-\def\Coprod[arg1]{#{{\textstyle\coprod_{\arg1}}}}
+
+\def\big-symbol[sym]{\mathchoice{\textstyle\sym}{\textstyle\sym}{\scriptstyle\sym}{\scriptscriptstyle\sym}}
+
+\def\dsum[ix]{#{\big-symbol{\sum_{\prn{\ix}}}}}
+\def\covsum[ix]{#{\big-symbol{\oint_{\prn{\ix}}}}}
+\def\ctrvsum[ix]{#{\big-symbol{\int_{\prn{\ix}}}}}
+\def\dprod[ix]{#{\big-symbol{\prod_{\prn{\ix}}}}}
+\def\idprod[ix]{#{\big-symbol{\prod_{\brc{\ix}}}}}
+
+\def\lam[x]{\lambda\x\mathpunct{.}}
+\def\inv{^{-1}}
+
 \def\Lim[arg1]{\operatorname{lim}_{\arg1}}
 \def\Colim[arg1]{\operatorname{colim}_{\arg1}}
 
@@ -83,5 +106,19 @@
 
 
 \def\citek[uid]{\let\escape[x]{\x}[\escape{[\uid]}](\uid)}
+
+
+
+
+\xmlns:jms-indent{jonmsterling:indenting}
+
+\def\iblock[body]{
+\<jms-indent:block>{\body}
+}
+
+\def\irow[body]{
+\<jms-indent:row>{\body}
+}
+
 
 \p{This tree defines the basic notational macros used across my forest.}

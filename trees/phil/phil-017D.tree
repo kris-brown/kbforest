@@ -1,0 +1,11 @@
+\title{Metalanguage}
+\date{2024-04-05}
+
+\p{Originally pioneered to [Tarski](tarski). We can also talk of meta[vocabularies](phil-0147).}
+
+\transclude{phil-017E}
+\transclude{phil-017F}
+\transclude{phil-015S}
+
+\p{That there is a difference between these metalanguages is not a matter of high theory. In ordinary talk we distinguish what we are saying and what we are talking about and the \em{act} of saying. However, it's an intricate philosophical job to give satisfying necessary/sufficient conditions for a given vocabulary to be playing the role of syntactic / semantic / pragmatic metalanguage.}
+

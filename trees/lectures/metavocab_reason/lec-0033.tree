@@ -1,0 +1,34 @@
+\title{Pragmatics}
+\number{3}
+\taxon{lecture}
+\parent{lec-0030}
+\tag{to-do}
+
+\subtree{\title{Recap}
+  \ul{
+
+    \li{[Pragmatic metavocabularies](phil-015S)}
+    \li{[Pragmatic metavocabularies should be normative](phil-017K)}
+    \li{[Pragmatic metavocabularies should be two-dimensional](phil-0194)}
+    \li{[Default-and-challenge structure of entitlement](phil-019T)}
+    \li{[The Harmon Point](phil-0170)}
+  }
+}
+
+\subtree{\title{Plan}
+
+  \p{Understand the relation between the two things the Harman point wants us to distinguish:}
+
+  \ol{
+    \li{Practices of asserting (premises and conclusions) and inferring (defending and challenging assertings, by producing more assertings), the positions and moves of practices of reason\em{ing}}
+
+    \li{Reason relations, paradigmatically implication or consequence relations between assertibles = claimables, as I will say, the \em{contents} expressed by the \em{sentences} asserted.}
+  }
+  \p{First understand reason \em{relations} in terms of \em{practice} of asserting in a normative pragmatic metavocabulary, then show how those reason relations normatively govern practices of reasoning.}
+}
+
+\subtree{\title{Bilateralism}
+
+  [Restall-Ripley bilateralism]
+
+}

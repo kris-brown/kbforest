@@ -1,0 +1,31 @@
+\date{2024-04-15}
+\title{Two-dimensional pragmatic metalanguage}
+
+\import{base-macros}
+
+\p{Traditionally, [pragmatic metalanguages](phil-015S) have one merely binary [sort](sort) which applied to performances:}
+
+\table{
+  \tr{\th{Dimension} \th{Positive} \th{Negative}}
+  \tr{\td{Normativity} \td{Correct} \td{Incorrect}}
+  \tr{\td{Propriety} \td{Appropriate} \td{Inappropriate}}
+  \tr{\td{Morality} \td{Right} \td{Wrong}}
+  \tr{\td{Emotion} \td{Good} \td{Bad}}
+  \tr{\td{Verificationism} \td{Verified} \td{Not verified}}
+  \tr{\td{Falsificationism} \td{Falsified} \td{Not falsified}}
+  \tr{\td{Assertibility} \td{Assertible} \td{Non-assertible}}
+}
+
+\p{These are all getting at the same idea.}
+
+\transclude{phil-0198}
+
+\p{The problem is that while assertibility keeps track of \em{entitlement}, it does not keep track of \em{commitment}. [Kant](kant)'s normative theory of judging, as undertaking a certain kind of commitment (a responsibility to synthesize) which is distinct from fulfilling that responsibility.}
+
+\table{
+  \tr{\th{Dimension 1} \th{Dimension 2}}
+  \tr{\td{[Authority](phil-019P)} \td{[Responsibility](phil-019Q)}}
+  \tr{\td{[Entitlement](phil-019R)} \td{Commitment}}
+}
+
+\p{(Each dimension will have positive and negative values (e.g. being committed vs not being committed).)}

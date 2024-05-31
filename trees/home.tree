@@ -1,0 +1,64 @@
+\title{Notes}
+\author{kris-brown}
+
+\p{A collection of notes on math and philosophy.}
+
+\p{Here are some example pages:}
+
+\ul{
+\li{Lecture: [The Concept of Representation](lec-0001)}
+\li{Example: [Shopping list](phil-0126)}
+\li{Person: [Ludwig Wittgenstein](wittgenstein)}
+\li{Argument: [Kant-Sellars thesis](phil-0060)}
+\li{Quote: [Analytic philosophy is neokantian](q-0008)}
+\li{Distinction: [Theoretical and observable objects](int-0019)}
+\li{School: [Emotivism](phil-0038)}
+\li{Reference: [Empiricism and the Philosophy of Mind](ref-0016)}
+\li{Math: [category](math-000D)}
+}
+
+\p{Or navigate the entire list of pages via \code{Ctrl + K}.}
+
+\p{Particularly in philosophy, there are some things which are hard to write 'neutrally' about. I will use the authorship of pages to mark which viewpoint I am attributing the content to. This has its own problems:}
+
+\ul{
+  \li{Authors' views can change over time, so this can be ambiguous.}
+  \li{The attribution of a claim to an author is itself a claim which can be not entirely neutral.}
+}
+
+
+\put\transclude/expanded{false}
+
+\subtree{\title{Blog}
+\query{\query/tag{blog}}
+}
+
+\subtree{\title{People}
+\query{\query/taxon{person}}
+}
+
+\subtree{\title{Works}
+\query{\query/taxon{reference}}
+}
+
+
+\subtree{\title{Notes on lecture series}
+\query{\query/tag{lecture}}
+}
+
+
+\subtree{\title{Quotes}
+\query{\query/taxon{quote}}
+}
+
+\subtree{\title{Jokes}
+\query{\query/tag{joke}}
+}
+
+
+
+\subtree{\title{To-do}
+\p{Active problems to think about or things which notes should be taken of}
+\query{\query/tag{to-do}}
+
+}

@@ -1,0 +1,19 @@
+\date{2024-04-15}
+\title{Functor}
+\import{macros}
+\taxon{definition}
+
+\p{A \em{functor} between [categories](math-000D) #{F: \cat{C} \rightarrow \cat{D}} consists in:}
+
+\ul{
+\li{For each object #{X \in \Ob(\cat{C})}: an object #{F(X) \in \Ob(\cat{D})}}
+\li{For each morphism #{A \xrightarrow{f} B \in \Hom_{\cat{C}}(A,B)}: a morphism #{F(f) \in \Hom_{\cat{D}}(F(A),F(B))}}
+}
+
+\p{Such that identity and composition operations are preserved, i.e.}
+
+\ul{
+\li{#{F(id_\cat{C}(X)) = id_\cat{D}(F(X))}}
+\li{#{F(f \cdot_\cat{C} g) = F(f) \cdot_\cat{D} F(g)}}
+}
+

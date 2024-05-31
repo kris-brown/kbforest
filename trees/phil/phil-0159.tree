@@ -1,0 +1,21 @@
+\title{Relation (philosophy)}
+\date{2024-03-13}
+\ref{ref-009Y}
+
+\p{See [relation](math-0002).}
+
+\subtree{\title{Simple examples}
+  \ul{
+    \li{Being on top of something.}
+    \li{Taking place before some other event.}
+  }
+}
+
+\p{These need not be binary}
+
+\subtree{\title{Simple examples of higher arity}
+  \ul{
+    \li{Being on between two other things.}
+    \li{Taking place in between two other events.}
+  }
+}

@@ -2,6 +2,7 @@
 \author{brandom}
 \parent{lec-0024}
 \number{6}
+\taxon{lecture}
 
 \import{base-macros}
 \subtree{\title{Periodizing Rorty's Antirepresentationalism}
@@ -13,7 +14,7 @@
 
     \li{ Gets to social pragmatism about normativity, already in [Consequences of Pragmatism](ref-0010). But doesn't yet know how to use this as an argument for the conclusion he wants.
     }
-    \p{'Vocabulary' vocabulary undercuts idea of some aspects of our discursive practice being responsible to how things are, as opposed to contingent (relative to how things are) features of our practices. But how does this work, exactly? Urges vocabulary-relativity of everything. But quick argument of that form is retrograde, backsliding Carnapian pragmatism, not post-Quinean.
+    \p{'Vocabulary' vocabulary undercuts idea of some aspects of our discursive practice being responsible to how things are, as opposed to contingent (relative to how things are) features of our practices. But how does this work, exactly? Urges vocabulary-relativity of everything. But quick argument of that form is retrograde, backsliding [Carnapian pragmatism](phil-01BG), not post-Quinean.
     }
   }
   \p{What more careful antirepresentationalist uses can RR make of the 'vocabulary' vocabulary?
@@ -174,7 +175,7 @@
 \p{[Success semantics](phil-0133)
 }
 
-\p{Crispin Wright's [Superassertibility](phil-0135)
+\p{[Crispin Wright](wright)'s [Superassertibility](phil-0135)
 }
 }}
 \subtree{\title{Beautiful and sublime}

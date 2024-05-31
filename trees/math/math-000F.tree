@@ -1,0 +1,5 @@
+\date{2024-04-15}
+\title{Cat}
+\taxon{definition}
+\import{macros}
+\p{\cat{Cat} is a category whose objects are small [categories](math-000D) and morphisms are [functors](math-000E).}

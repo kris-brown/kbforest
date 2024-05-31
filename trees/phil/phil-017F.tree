@@ -1,0 +1,19 @@
+\title{Semantic metalanguage}
+\date{2024-04-05}
+
+\subtree{\title{Semantic metalanguage}
+\taxon{definition}
+
+\p{A language whose semantics is the semantics of another language, #{L} (i.e. the relation between #{L}'s syntax and #{L}'s semantics).
+}
+}
+
+\p{The language in which [model theory](math-0007) is conducted.}
+
+\p{These were of interest to the [Vienna Circle](phil-0146) because it was a challenge to the [Tractatus' claim](phil-017G) that you could not talk about what it is that a sentence has in common with what its about (the picturing relation can only be shown, not said).}
+
+\p{Semantic metavocabularies explain what is expressed by the reason relations of empirical base vocabularies}
+\ul{
+  \li{by saying what features of the world those vocabularies capture in their consequence and incompatibility relations}
+  \li{by specifying what the sentences that stand in those relations mean, in the sense of how the world must be for what they say to be true (thus semantic metavocabularies are [alethic modal](phil-0005) vocabularies).}
+}

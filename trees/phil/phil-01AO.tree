@@ -1,0 +1,24 @@
+\date{2024-04-22}
+\title{Judgment as predicating}
+
+\ul{
+  \li{Predicating meaning classifying objects as being particular kinds}
+  \li{"Socrates is a man" is subsuming a particular to a general concept}
+  \li{"Men are mortal" is subsuming one concept under another concept}
+
+}
+
+\p{This view was widespread after [Port Royal logic](ref-00AP), but [Kant](kant) challenged this tradition. He considers many other forms of judgment: modal, conditional, disjunctive, negative}
+
+\p{E.g. what are you predicating of what in a conditional judgment #{p \implies q}?}
+
+\p{The problem is that predication is forced to do two jobs:}
+
+\ol{
+  \li{Forming new contents from old contents.}
+  \li{Giving an account of what one is doing in judging that things are thus-
+    and-so. This was classifying as a \em{doing}, which the tradition understood as an
+    act of will. }
+}
+
+\p{Conflating them is an example of failing to make the [ing-ed distinction](phil-0001): judging from what is judged}

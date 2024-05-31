@@ -1,0 +1,14 @@
+\date{2024-04-15}
+\title{Conjoint in Sq(C)}
+\import{macros}
+
+\p{The [conjoint](math-000M) of an arrow #{x \xrightarrow{f}y} in
+the category of squares #{{\SS}q(\cC)}, if it exists, is a morphism #{y\xrightarrow{f^*}x} and two cells:}
+
+\ul{
+\li{The unit 2-morphism: #{\eta 1_x \rightarrow f^*\cdot f}}
+\li{The counit 2-morphism: #{\varepsilon f\cdotf^* \rightarrow 1_y}}
+}
+
+\p{This is the data of a [2-adjunction](math-0015) in #{\cC}. The two equations that the conjoint must satisfy correspond to the triangle identities of an adjunction.}
+

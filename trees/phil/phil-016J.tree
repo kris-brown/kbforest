@@ -1,0 +1,20 @@
+\title{Logicist / semantic formalist tradition}
+\date{2024-04-03}
+
+
+\p{A philosophical tradition in the [philosophy of language](phil-0095) to be contrasted with anthropological, pragmatist tradition}
+
+\p{Includes the [Frege](frege), early [Wittgenstein](wittgenstein), the [Vienna Circle](phil-0146), [Carnap](carnap), [Tarski](tarski), [Lewis](ci-lewis), [Kit Fine](fine).}
+
+\p{Paradigm of a good reason is a mathematical proof.}
+
+\p{Comes in two flavors: [model-theoretic](math-0007) and [proof-theoretic](math-0008).}
+
+\ul{
+  \li{Tarskian model theory as a paradigm of semantics}
+  \li{more powerful successor: possible worlds semantics}
+}
+
+\p{Consequence: reason relations must be monotonic and transitive (because logical consquence must be a [closure operator](math-0006)).}
+
+\p{This does not cleanly overlap [analytic philosophy](phil-0007): consider the [structuralists](phil-016O) (e.g. [de Saussure](saussure)).}

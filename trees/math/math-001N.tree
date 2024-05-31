@@ -1,0 +1,7 @@
+\date{2024-05-04}
+\title{Explicit and implicit content of [turnstile](phil-01BU)}
+\import{macros}
+
+\p{The expression #{\Gamma \vsim B} says: given some \em{explicit} content #{\Gamma}, that #{B} is part of its \em{implicit} content.}
+
+\p{Etymologically, this is motivated by \em{content} of set being what is \em{contained} in it.}

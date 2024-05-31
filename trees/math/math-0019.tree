@@ -1,0 +1,4 @@
+\date{2024-04-16}
+\title{Equipment}
+\taxon{definition}
+\p{An \em{equipment} is a [double category](math-000S) for which every arrow has a [companion](math-000L) and [conjoints](math-000M).}

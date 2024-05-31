@@ -1,0 +1,12 @@
+\date{2024-05-03}
+\title{Monotonicity of implication}
+\import{macros}
+
+\subtree{\taxon{definition}
+  \bussproofs{
+    \AxiomC{$\Gamma \vsim B$}
+    \AxiomC{$A$}
+    \BinaryInfC{$\Gamma, A \vsim B$}
+    \DisplayProof
+  }
+}

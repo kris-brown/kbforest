@@ -1,0 +1,12 @@
+\title{Pia's Maple Tree}
+\author{travis}
+
+\ul{
+  \li{Maple trees have red leaves naturally, but Pia paints them green.}
+  \li{One day, a decorator asks her if she has any green leaves for her display, and Pia answers \em{yes}.}
+  \li{Another day, a chemist asks her if she has any green leaves for her experiment on green leaf chemistry, and Pia answers \em{no}.}
+  \li{In both cases, Pia answered truthfully.}
+}
+
+\p{The moral: any true sentence in some context has a context which would make its negation true.
+}

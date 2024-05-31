@@ -1,0 +1,6 @@
+\title{Incompatibility}
+\taxon{definition}
+\author{brandom}
+
+\p{#{A} and #{B} are defined as \em{incompatible} (symbolically, #{A\#B}) when commitment to #{A} precludes entitlement to #{B} (and vice versa).
+}

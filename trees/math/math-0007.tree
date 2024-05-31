@@ -1,0 +1,6 @@
+\title{Model theory}
+\date{2024-04-05}
+
+\p{An account of logical consequence in terms of models. Developed by [Tarski](tarski).}
+
+\p{We understand #{\Gamma \models \phi} as "every model of #{\Gamma} is a model of #{\phi}."}

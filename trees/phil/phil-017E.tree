@@ -1,0 +1,18 @@
+\title{Syntactic metalanguage}
+\date{2024-04-05}
+
+\subtree{\title{Syntactic metalanguage}
+  \taxon{definition}
+
+  \p{  A language whose semantics is the syntax of another language.
+  }
+}
+
+
+\p{Talk of syntactic metalanguages allows us to see [Hilbert's program](math-0009) as understanding mathematics purely in terms of syntactic metalanguages.}
+
+\p{It is the language in which [proof theory](math-0008) is conducted.
+}
+
+\p{Carnap used syntactic metalanguages in his [Logical Syntax of Language](ref-0095).
+}

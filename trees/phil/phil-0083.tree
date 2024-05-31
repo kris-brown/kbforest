@@ -1,0 +1,31 @@
+\title{Neokantianism}
+\ref{ref-00A0}
+
+\import{macros}
+
+\subtree{
+  \title{A strict sense}
+  \p{The dominant philosophical movement in Germany from roughly 1870 until the First World War.
+  }
+
+  \quiver{
+    \begin{tikzcd}
+      {\rm{Kuno\ Fischer}} & {\rm{Heinrich\ Rickert}} & {\rm{Wilhelm\ Wildelband}} & {\rm{Herman\ Cohen}} & {\rm{Paul\ Natorp}} \\
+      {\rm{Gottlob\ Frege}} & {\rm{Bruno\ Bauch}} & {\rm{Martin\ Heidegger}} & {\rm{Ernst\ Cassirer}} \\
+      & {\rm{Rudolph\ Carnap}}
+      \arrow[from=1-5, to=2-4]
+      \arrow[from=1-4, to=2-4]
+      \arrow[from=1-2, to=2-3]
+      \arrow[from=1-2, to=2-2]
+      \arrow[from=1-1, to=2-1]
+      \arrow[from=2-2, to=3-2]
+    \end{tikzcd}
+  }
+  % https://q.uiver.app/#q=WzAsMTAsWzAsMCwiXFx0ZXh0e0t1bm8gRmlzY2hlcn0iXSxbMCwxLCJcXHRleHR7R290dGxvYiBGcmVnZX0iXSxbMSwyLCJcXHRleHR7UnVkb2xwaCBDYXJuYXB9Il0sWzEsMSwiXFx0ZXh0e0JydW5vIEJhdWNofSJdLFsxLDAsIlxcdGV4dHtIZWlucmljaCBSaWNrZXJ0fSJdLFsyLDEsIlxcdGV4dHtNYXJ0aW4gSGVpZGVnZ2VyfSJdLFsyLDAsIlxcdGV4dHtXbSBXaWxkZWxiYW5kfSJdLFszLDAsIlxcdGV4dHtIZXJtYW4gQ29oZW59Il0sWzQsMCwiXFx0ZXh0e1BhdWwgTmF0b3JwfSJdLFszLDEsIlxcdGV4dHtFcm5zdCBDYXNzaXJlcn0iXSxbOCw5XSxbNyw5XSxbNCw1XSxbNCwzXSxbMCwxXSxbMywyXV0=
+}
+
+\subtree{
+  \title{A weaker sense}
+  \p{Rorty uses the term neokantian to assimilate all philosophers who share Kant's attitude of the [Relation of philosophy to other disciplines](int-0013).
+  }
+}

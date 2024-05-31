@@ -1,0 +1,6 @@
+\date{2024-05-05}
+\title{Incoherence-Incompatibility condition}
+\import{macros}
+\subtree{\taxon{definition}
+\p{#{\Gamma \vsim \neg A} iff #{\Gamma # A}}
+}

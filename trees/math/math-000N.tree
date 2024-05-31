@@ -1,0 +1,13 @@
+\date{2024-04-15}
+\title{Companion in Rel}
+\import{macros}
+
+\p{The [companion](math-000L) of an arrow #{x \xrightarrow{f} y} in #{{\RR}el} [see](math-000T) is the graph of #{f}.}
+
+\p{Because #{{\RR}el} is a [flat double category](math-000Q), no data is required to specify #{\eta} and #{\varepsilon}, other than that they exist. Take an arbitrary arrow #{X \xrightarrow{f} Y}:}
+
+\ul{
+\li{The unit axiom says #{\forall x \in X, (x, f(x)) \in graph(f)}}
+\li{The counit axiom says #{(x, y) \in graph(f) \implies (f(x),y) \in id_Y}}
+}
+

@@ -1,0 +1,15 @@
+\title{Reference}
+
+\ref{ref-00A4}
+
+\subtree{\title{Grammar }
+  \p{Grammatically, one signals reference with \em{of}. E.g.: I'm thinking \em{of} a number
+  }
+}
+\subtree{\title{As a relation}
+
+  \p{Reference has been thought of as a \em{relation} between linguistic terms and things in the world.
+  }
+  \p{If this is true, then the linguistic term "reference" must be mapped onto the aforementioned relation.
+  }
+}

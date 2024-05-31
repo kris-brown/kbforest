@@ -1,0 +1,6 @@
+\date{2024-04-16}
+\title{Terminal object}
+\taxon{definition}
+\import{macros}
+
+\p{The \em{terminal object} of a [category](math-000D) #{\cat{C}}, if it exists, is an object #{T} such that, for all objects #{X \in \Ob(\cat{C})}, there exists a unique morphism #{X \xrightarrow{!} T}.}

@@ -1,0 +1,9 @@
+\date{2024-05-03}
+\title{Containment}
+\import{macros}
+
+\subtree{\taxon{definition}
+##{\Gamma, A \vsim A}
+}
+
+\p{Reflexivity}

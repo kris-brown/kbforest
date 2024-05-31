@@ -1,0 +1,177 @@
+\title{The Nature of the Virtues}
+\taxon{reference}
+\author{macintyre}
+\import{base-macros}
+
+
+\subtree{
+  \title{my title1}
+  \p{My body}
+
+  \subtree{
+    \title{my title11}
+    \p{My body}
+  }
+
+  \subtree{
+    \title{my title12}
+    \p{My body}
+  }
+}
+
+\subtree{
+  \title{my title2}
+  \p{My body}
+
+  \subtree{
+    \title{my title21}
+    \p{My body}
+  }
+
+  \subtree{
+    \title{my title22}
+    \p{My body}
+  }
+}
+
+
+\p{Does 'virtue' have a determinate meaning? The word has been used so differently throughout history. We wonder if Homer's \em{aretai} should even be translated to \em{virtue} (it may seem like \em{excellence} is a better fit).}
+
+\p{Purported virtues:}
+\ul{
+  \li{Friendship}
+  \li{Patience}
+  \li{Justice}
+  \li{\em{Phronesis} (excellence in practical judgment)}
+  \li{Constancy (similar to \em{phronesis} insofar as it is prerequisite to other virtues)}
+  \li{Physical strength}
+  \li{Faith}
+  \li{Love}
+  \li{Hope}
+  \li{Chastity}
+}
+
+\table{
+\tr{
+  \th{    }
+  \th{Homer}
+  \th{[Aristotle](aristotle)}
+  \th{New Testament}
+  \th{Jane Austen}
+  \th{Ben Franklin}
+}
+\tr{
+  \th{Emphasized virtues}
+  \td{Physical strength}
+  \td{Friendship, phronesis}
+  \td{Faith, hope, and love.}
+  \td{Constancy}
+  \td{Drive to acquire, chastity}
+}
+\tr{
+\th{Conflicts with other virtue systems}
+\td{(See #{\rightarrow})}
+\td{Military courage (of Homer) viewed as a simulacrum of true courage. }
+\td{Material wealth (virtue of Aristotle) viewed as a vice.}
+\td{Agreeableness (virtue of Aristotle) viewed as a simulacrum of amicability.}
+\td{Drive to acquire seen as a vice (\em{pleonexia}) by Greeks}
+}
+\tr{
+  \th{Paradigm}
+  \td{Warrior}
+  \td{Athenian gentleman}
+  \td{n/a}
+  \td{n/a}
+  \td{n/a}
+}
+\tr{
+  \th{Practice which underlies the virtues}
+  \td{Social role}
+  \td{Telos}
+  \td{The good life for man (synthesized with Aristotle via Aquinas)}
+  \td{Social roles (with a Christian spin)}
+  \td{Utility (virtues as means to an end)}
+}
+\tr{
+  \th{What is a virtue? A quality which ....}
+  \td{...enables one to fulfill one's social role}
+  \td{...enables one to achieve the specifically human telos (natural)}
+  \td{...enables one to achieve the specifically human telos (supernatural)}
+  \td{n/a}
+  \td{...has utility in acheiving earthly/heavenly success}
+}
+\tr{
+  \th{No real concept of virtue, just selfish hegemony?}
+  \td{The Cyclopes are condemned (lack agriculture)}
+  \td{Barbarians are condemed (lack polis). Poor are condemned.}
+  \td{Non-christians are condemned}
+  \td{A certain kind of marriage (with an English naval officer) is prioritized}
+  \td{Virtues are more at home in Philadelphia than Paris}
+}
+
+}
+
+\p{So much for their differences. What about similarities? They are all tied to \em{practices}, which are coherent/complex forms fo socially-established cooperative human activity through which goods internal to that activity are realized in the course of trying to achieve the standards of excellence appropriate to that activity.}
+
+\table{
+  \tr{
+    \th{Not a practice}
+    \th{Practice}
+  }
+  \tr{
+    \td{Tic-tac-toe}
+    \td{Chess}
+  }
+  \tr{
+    \td{Throwing a football with skill}
+    \td{The game of football}
+  }
+  \tr{
+    \td{Bricklaying}
+    \td{Architecture}
+  }
+  \tr{
+    \td{etc.}
+    \td{Farming, physics, chemistry, being a historian, painting}
+  }
+}
+
+\table{
+  \tr{
+    \th{}
+    \th{Internal goods}
+    \th{External goods}
+  }
+  \tr{
+    \td{E.g. A child encouraged to play chess via offers of candy if they win}
+    \td{Child first tries to get better in order to get the candy (cheating is rational)}
+    \td{Excelling in chess may eventually seem to be its own reward (cheating would be cheating oneself)}
+  }
+  \tr{
+    \td{Specification}
+    \td{Can only be specified with reference to the practice}
+    \td{Can only be specified independent of any practice}
+  }
+  \tr{
+    \td{Determining whether one has the good}
+    \td{Those who lack experience in the practice cannot tell.}
+    \td{Only an experienced chess player / painter / etc. can determine who i}
+  }
+  \tr{
+    \td{Benefit and competition}
+    \td{One's possession of the good benefits the society.}
+    \td{There is a natural competition for them as a resource (e.g. power, fame, money). One benefits to another's detriment.}
+  }
+}
+
+\p{First approximation of a definition of virtue: an acquired human quality, the exercise of which enables us to achieve \em{internal} goods to practices.}
+
+\p{Practices are essentially social practices, and some virtues can be understood as essential to the social structure: e.g. honesty, and trust. Courage too is essential for the community (people who are not willing to sacrifice for the community oughtn't be thought of as being concerned with the community). The differences between the five seemingly-conflicting accounts of virtues can be understood as different \em{codes} for the same virtues, as well as different practices being emphasized.
+}
+\p{Practices do not have a fixed goal - unlike technical skills they have a [history, rather than a nature](int-0005).}
+
+\p{Practices and institutions (chess clubs, universities, hospitals) cannot survive without each other. Institutions are structured in terms of external goods and can have corrupting power on practices (because possession of virtues can be at odds with acquisition of external goods). Virtues depend on certain institutions (e.g. Jefferson thought only in a society of small farmers could virtues flourish).}
+
+\p{The account here is Aristotelian (it relies on his voluntariness, distinction between intellectual virtues and virtues of character, structure of practical reason). It denies internal and external goods are commensurable, as utilitarianism demands. And it asserts a link between evaluation and explanation (explanation of one's actions must appeal to their virtues and vices).}
+
+\p{The account is incomplete insofar as it doesn't specify a telos for a human life, a way of ordering / resolving conflicts between the virtues.}

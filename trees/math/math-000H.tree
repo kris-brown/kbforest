@@ -1,0 +1,42 @@
+\date{2024-04-15}
+\title{Internal category}
+\taxon{definition}
+\meta{external}{https://ncatlab.org/nlab/show/internal+category}
+\import{macros}
+
+\p{Given a [category](math-000D) #{\cat{A}} with [pullbacks](math-000J), an \em{internal category to} #{A} consists in:}
+
+\ul{
+\li{An object #{C_0 \in \Ob{cat{A}}} of \em{objects}}
+\li{An object #{C_1 \in \Ob{cat{A}}} of \em{morphisms}}
+\li{\em{Source} and \em{target} morphisms #{s,t \in \Hom_\cat{A}(C_1,C_0)} }
+\li{An \em{identity-assigning} morphism #{e: C_0 \rightarrow C_1}}
+\li{A composition morphism #{c: C_1 \times_{C_0} C_1 \rightarrow C_1}}
+}
+
+\p{Such that the following diagrams commute:}
+
+\ul{
+  \li{Unitality of identities
+    % https://q.uiver.app/#q=WzAsMixbMCwwLCJDXzAiXSxbMSwwLCJDXzEiXSxbMCwxLCJlIl0sWzEsMCwicyIsMix7ImN1cnZlIjozfV0sWzEsMCwidCIsMCx7ImN1cnZlIjotM31dXQ==
+    \quiver{\begin{tikzcd}
+        {C_0} & {C_1}
+        \arrow["e", from=1-1, to=1-2]
+        \arrow["s"', curve={height=18pt}, from=1-2, to=1-1]
+        \arrow["t", curve={height=-18pt}, from=1-2, to=1-1]
+      \end{tikzcd}}
+  }
+  \li{Associativity
+    % https://q.uiver.app/#q=WzAsNCxbMCwwLCJDXzFcXHRpbWVzX3tDXzB9Q18xXFx0aW1lc197Q18wfUNfMSJdLFswLDEsIkNfMVxcdGltZXNfe0NfMH1DXzEiXSxbMSwxLCJDXzEiXSxbMSwwLCJDXzFcXHRpbWVzX3tDXzB9Q18xIl0sWzMsMiwiYyJdLFsxLDIsImMiLDJdLFswLDMsImNcXHRpbWVzIDEiXSxbMCwxLCIxIFxcdGltZXMgYyIsMl1d
+    \quiver{
+      \begin{tikzcd}
+        {C_1\times_{C_0}C_1\times_{C_0}C_1} & {C_1\times_{C_0}C_1} \\
+        {C_1\times_{C_0}C_1} & {C_1}
+        \arrow["{c\times 1}", from=1-1, to=1-2]
+        \arrow["{1 \times c}"', from=1-1, to=2-1]
+        \arrow["c", from=1-2, to=2-2]
+        \arrow["c"', from=2-1, to=2-2]
+      \end{tikzcd}}}
+}
+
+\p{Some more diagrams are required (see nlab, TODO)}

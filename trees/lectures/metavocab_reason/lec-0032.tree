@@ -1,0 +1,67 @@
+\title{Normative Pragmatic Metavocabularies}
+\number{2}
+\taxon{lecture}
+\parent{lec-0030}
+
+\p{Narrative flow:}
+\ol{
+  \li{What a pragmatic MV is, and why it should use normative concepts}
+  \li{Why such a pragmatic MV should be deontically two-dimensional rather than merely binary.}
+  \li{How to understand asserting as pragmatically significant performances, their role in the game of giving and asking for reasons.}
+  \li{How these constraints on and connections between normative statuses and reasons develop ideas already are among the crucial ideas animating Kant's philosophical revolution.}
+}
+
+\subtree{\title{Normative pragmatic metavocabularies}
+\p{Introduction to [metavocabularies](phil-015N).}
+\subtree{\title{Kripkenstein}
+  \p{[Kripkenstein](phil-017O) is concerned with [rule-following problems](phil-017P).}
+}
+\subtree{\title{Regularism/Regulism}}
+
+\p{These lead us to a dilemma between [regularism and regulism](phil-0188).
+}
+\subtree{\title{Social Practice response}}
+\p{[Norms implicit in practices](phil-0189) are in between mere regularities and explicit rules.}
+\subtree{\title{Antinormativism}}
+\p{Some reject normativity of meaning, such as [Hattiangadi](ref-009C), [Wikforss](wikforss), and [Gluer](gluer).}
+
+
+\subtree{\title{Price}}
+
+\p{[Subject vs object naturalism](phil-0089), with the caveat that a non-naturalistic pragmatic metavocabulary could be equally elucidating.}
+
+
+\subtree{\title{Pragmatic MVs as in BSD}}
+
+\p{Example [meaning-use diagrams](phil-018Y)}
+
+
+\subtree{\title{Price in terms of pragmatic MVs}
+\p{The view is not that intentionality is irreducibly normative. It is that any account of intentionality-as-sapience = discursivity must underwrite the applicability of a normative pragmatic metavocabulary. What one then says about that vocabulary is another matter. In particular,
+}
+\ol{
+  \li{One might be able to give a nonnormative pragmatic (M)MV for that normative pragmatic MV.}
+  \li{One might be able to give a non-normative representational semantic (M)MV for that normative pragmatic MV.}}
+
+\p{Price's [subject naturalism](phil-018N) is the first option above. [Millikan](ruth-millikan) might be thought of as the latter option, which Brandom finds more plausible.}
+}
+}
+
+\subtree{\title{Expressive power of two-dimensional pragmatic metavocabularies}
+  \p{Advocating for [two-dimensional metavocabularies](phil-0194).}
+}
+
+\subtree{\title{Asserting as the core performance of discursive practice}
+  \p{[Assertion as demarcation criterion](phil-019G).}
+  \p{Assertion as the easiest entry point into the [iron triangle of discursiveness](phil-019K).}
+  \p{A [defense](phil-019O) against the charge of [assertionalism](phil-019N).}
+  \p{[Tomasello](tomasello) thinks that focus on the assertional practice obscures the acknowledgement of norms that amount to reasons in prelinguistic practices. This can be thought of as a friendly amendment.}
+}
+
+\subtree{\title{Back to Kant: recollecting}
+  \ul{
+    \li{[Kant's normative turn](phil-01AI)}
+    \li{[Judgment as prior to conceptual content](phil-016V)}
+    \li{[Normative character of representation](phil-0086)}
+  }
+}

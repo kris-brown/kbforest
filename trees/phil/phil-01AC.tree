@@ -1,0 +1,21 @@
+\date{2024-04-17}
+\title{Chains of justifications, quantified}
+\import{base-macros}
+
+\table{
+\tr{
+  \th{Solution to [Agrippan trilemma](phil-0004)}
+  \th{Quantifier representation}
+  \th{Explanation}
+}
+\tr{
+\td{Foundationalism}
+\td{ #{\exists\ \forall}  }
+\td{There exists a collection of foundational claims which are self-justifying, which all chains of justification bottom out in.}
+}
+\tr{
+\td{[Default-and-challenge](phil-019T)}
+\td{ #{\forall\ \exists}  }
+\td{All chains of justification end somewhere.}
+}
+}

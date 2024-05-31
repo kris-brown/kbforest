@@ -1,0 +1,5 @@
+\date{2024-05-01}
+\title{Sequent calculus}
+
+
+\p{Improves upon natural deduction calculus (which derives sentences from sentences) by deriving sequents from sequents.}

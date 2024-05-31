@@ -95,6 +95,7 @@
 
 % Category Theory
 
+\def\Ob{#{\operatorname{\mathrm{Ob}}}}
 \def\Hom{#{\operatorname{\mathrm{Hom}}}}
 \def\dom{#{\operatorname{\mathrm{dom}}}}
 \def\codom{#{\operatorname{\mathrm{codom}}}}
@@ -125,6 +126,8 @@
 \def\Sh{#{\operatorname{\cS\mathrm{h}}}}
 \def\Open{#{\cO}}
 
+\def\vsim{#{\mid\sim}}
+
 % Blocks
 
 \def\abstract[body]{
@@ -143,6 +146,12 @@
   \tex{\usepackage{quiver}}{\body}
 }
 
+\def\bussproofs[body]{
+  \tex{\usepackage{bussproofs}}{\body}
+}
+
+\xmlns:html{http://www.w3.org/1999/xhtml}
+
 \def\image[source]{
-  \xml{center}{\xml{img}[src]{\source}{}}
+\<html:img>[src]{\source}{}
 }

@@ -1,0 +1,15 @@
+\date{2024-04-15}
+\title{2-Category}
+\taxon{definition}
+\import{macros}
+
+\p{A \em{2-category} consists of:}
+
+\ul{
+\li{A class of objects}
+\li{For each pair of objects #{x} and #{y}, a [category](category) of 2-morphisms between them.
+\ul{
+
+\li{The objects of which are morphisms #{x \rightarrow y}}
+\li{The morphisms of are 2-morphisms for the double category.}}}
+}

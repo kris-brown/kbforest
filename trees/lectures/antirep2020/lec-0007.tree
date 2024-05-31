@@ -2,6 +2,7 @@
 \author{brandom}
 \parent{lec-0024}
 \number{7}
+\taxon{lecture}
 
 \p{Remark on [Kant oder Hegel](int-0005)}
 
@@ -160,7 +161,8 @@
   }
   \p{I don't have the authority to commitment to commit myself independent of others having the authority to hold me accountable for what I commit myself to.  All normative statuses are a product of \em{reciprocal recognition}. Otherwise, as Wittgenstein puts it in his [Private language argument](phil-0105):
   }
-  \blockquote{One would like to say: whatever is going to seem right to me is right. And that only means that here we can't talk about 'right'.}
+
+  \transclude{q-015N}
 
   \p{Consider the status of being a good chess player. The question is what am I committing myself to by saying "I want to be a good chess player". First, who do \em{I} identify as a good chess player? They are going to determine whether or not I have succeeded. (I could make it easy on myself, e.g. anyone who can play a legal game. But if I recognize only grandmasters as good, then it's up to them for "I am a good chess player" to not be merely an \em{attitude} but to be a \em{status}.) The meaning of my words is not \em{entirely} up to me. This is the model for which we should understand being a normative subject at all.
   }

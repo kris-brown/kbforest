@@ -4,17 +4,9 @@
 \p{In a simplified version of the various positions one can take in the theory of where legal authority comes from, taken from [Leiter](ref-0002), there are extremes of \strong{legal realism} and \strong{legal formalism}. }
 
 \p{> [!info]- Example: vulgar formalism
-> This is a flavor of legal formalism which holds that judicial decision-making 
-involves nothing more than the syllogistic / mechanical deduction from the law and 
-the facts. One thinks, "Whether or not Bob should pay the fine just depends on 
-whether the facts of Bob's case must be suitably related to the contents of 
-\strong{Statute #123} (i.e. Bob must be a business owner who required his customers to 
-sign an unreasonable contract). The judge has nothing to do but grasp the meaning of the law and look at the facts in order to deduce Bob's guilt or innocence."
+  > This is a flavor of legal formalism which holds that judicial decision-making involves nothing more than the syllogistic / mechanical deduction from the law and the facts. One thinks, "Whether or not Bob should pay the fine just depends on whether the facts of Bob's case must be suitably related to the contents of \strong{Statute #123} (i.e. Bob must be a business owner who required his customers to sign an unreasonable contract). The judge has nothing to do but grasp the meaning of the law and look at the facts in order to deduce Bob's guilt or innocence."
 
-Although actual judicial decisions do have syllogistic form, no intellectuals 
-today are vulgar formalists; they all acknowledge the 
-interesting question is what the relevant legal facts are and why the applied 
-laws are applicable.[^dec] 
+  Although actual judicial decisions do have [syllogistic](phil-0196) form, no intellectuals today are vulgar formalists; they all acknowledge the interesting question is what the relevant legal facts are and why the applied laws are applicable.[^dec]
 }
 
 \table{
@@ -26,7 +18,7 @@ laws are applicable.[^dec]
   \tr{
     \td{What is the goal of legal theory?}
     \td{Determine correct procedures for determining the relevant facts and applicability of statutes. This is a normative ideal; there is a right and wrong way to do it.}
-    \td{Describe what judges \em{really} do,  which is contingent on their cultural upbringing, personal biases and beliefs, mood, etc.}
+    \td{Describe what judges \em{really} do, which is contingent on their cultural upbringing, personal biases and beliefs, mood, etc.}
   }
   \tr{
     \td{Does the law does provide sufficient content to settle the verdict of the case?}
@@ -36,23 +28,19 @@ laws are applicable.[^dec]
 }
 
 \p{
-> [!info]- Example: formalism and realism
-> Suppose a kind of legal formalist believes that the 
-correct way to resolve ambiguities in the law is to pick the fairest 
-interpretation (achieved through adequate moral reflection). This particular 
-formalist will view the judge's verdict in Bob's case as proper insofar as the 
-judge's interpretation of "unreasonable contract" was fair. 
->
-> A legal realist has many ways to analyze the outcome of the case. Perhaps the judge wanted to rule Bob was innocent because Bob reminded her of her son. But perhaps that was outweighed by the fact that the judge worries other judges will look poorly upon her if she does not fine Bob. Furthermore when looking for precedent, she happened to give more attention to previous cases of a judge she thinks is very cool, and that judge interprets contracts like those of Bob's as unreasonable.
+  > [!info]- Example: formalism and realism
+  > Suppose a kind of legal formalist believes that the correct way to resolve ambiguities in the law is to pick the fairest interpretation (achieved through adequate moral reflection). This particular formalist will view the judge's verdict in Bob's case as proper insofar as the judge's interpretation of "unreasonable contract" was fair.
+  >
+  > A legal realist has many ways to analyze the outcome of the case. Perhaps the judge wanted to rule Bob was innocent because Bob reminded her of her son. But perhaps that was outweighed by the fact that the judge worries other judges will look poorly upon her if she does not fine Bob. Furthermore when looking for precedent, she happened to give more attention to previous cases of a judge she thinks is very cool, and that judge interprets contracts like those of Bob's as unreasonable.
 
-[^dec]: Some intellectuals in the 18th century did subscribe to vulgar formalism. Today, many laypeople believe something like this, and political figureheads act as if they believe it too (e.g. during a Supreme Court nominee's confirmation hearing, there is intense political pressure to say that one will merely apply the law, not 'make' law).
+    [^dec]: Some intellectuals in the 18th century did subscribe to vulgar formalism. Today, many laypeople believe something like this, and political figureheads act as if they believe it too (e.g. during a Supreme Court nominee's confirmation hearing, there is intense political pressure to say that one will merely apply the law, not 'make' law).
 
-The belief that the letter of the law is not determinate is a kind of [semantic skepticism](phil-0123): if there is no principled way to resolve the ambiguity of what the law \em{means}, then judges are forced to rely on their unprincipled whims/prejudices. This seems very plausible to those who appreciate the subtleties and ambiguities of language, leading such people to legal realism. The problem with legal realism is that it leads to \strong{legal nihilism}: the inability to distinguish rule by \em{power} from rule by \em{law} (i.e. \em{rational} authority). If verdicts are given based on unprincipled whims/prejudices of judges rather than on reasons answerable to the law, then the legal system's authority will cease to be rational. This is incompatible with our [Enlightenment](phil-0137) values. 
+  The belief that the letter of the law is not determinate is a kind of [semantic skepticism](phil-0123): if there is no principled way to resolve the ambiguity of what the law \em{means}, then judges are forced to rely on their unprincipled whims/prejudices. This seems very plausible to those who appreciate the subtleties and ambiguities of language, leading such people to legal realism. The problem with legal realism is that it leads to \strong{legal nihilism}: the inability to distinguish rule by \em{power} from rule by \em{law} (i.e. \em{rational} authority). If verdicts are given based on unprincipled whims/prejudices of judges rather than on reasons answerable to the law, then the legal system's authority will cease to be rational. This is incompatible with our [Enlightenment](phil-0137) values.
 
->[!info]- Example: semantic skepticism and legal nihilism
-If Bob's coercement to pay a fine is an act of law (regardless of whether we like the law) rather than a pure act of force, then we are owed a \em{reason} for the verdict. For the stated reason (\strong{Statute #123}) to actually be responsive to our request, the statute must apply to the circumstances of the case. But this isn't obvious; for example, what does it mean to be an "unreasonable contract"? This is not skepticism about the facts of the case, but skepticism about what the statute \em{means} - whether applying it to the current circumstances is \em{correctly} applying it.
-> Certain concepts seem like common sense to apply (e.g. whether or not Bob is a "business owner"), but in general we will lose faith in the legal process if justification merely boils down to "The judge felt like 100 pages was an unreasonable length for a contract; I mean, \em{come on}!" 
+  >[!info]- Example: semantic skepticism and legal nihilism
+  If Bob's coercement to pay a fine is an act of law (regardless of whether we like the law) rather than a pure act of force, then we are owed a \em{reason} for the verdict. For the stated reason (\strong{Statute #123}) to actually be responsive to our request, the statute must apply to the circumstances of the case. But this isn't obvious; for example, what does it mean to be an "unreasonable contract"? This is not skepticism about the facts of the case, but skepticism about what the statute \em{means} - whether applying it to the current circumstances is \em{correctly} applying it.
+  > Certain concepts seem like common sense to apply (e.g. whether or not Bob is a "business owner"), but in general we will lose faith in the legal process if justification merely boils down to "The judge felt like 100 pages was an unreasonable length for a contract; I mean, \em{come on}!"
 
-In the extreme scenario (which is a clear example of rule by power), if judges were to behave like [Humpty Dumpty](https://www.jstor.org/stable/430352) who says "When \em{I} use a word it means just what I choose it to mean - neither more nor less", then they could supply any statute as a reason for any verdict. 
+  In the extreme scenario (which is a clear example of rule by power), if judges were to behave like [Humpty Dumpty](q-015E) who says "When \em{I} use a word it means just what I choose it to mean - neither more nor less", then they could supply any statute as a reason for any verdict.
 
 }

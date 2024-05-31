@@ -1,0 +1,15 @@
+\date{2024-04-23}
+\title{Two-dimensional bilateralism}
+\author{brandom}
+\import{macros}
+\ul{
+\li{#{\Gamma \vsim A} says that commitment to all of #{\Gamma} precludes entitlement to commitment to \em{reject} #{A}}
+\li{#{\Gamma \# A} says that commitment to all of #{\Gamma} precludes entitlement to commitment to \em{accept} #{A}}
+}
+
+
+\p{Connection to [bilateralism](phil-01AQ)}
+\ul{
+  \li{Being a reason \em{for} is being a reason to \em{accept}.}
+  \li{Being a reason \em{against} is being a reason to \em{reject}.}
+}

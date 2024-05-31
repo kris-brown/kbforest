@@ -1,0 +1,19 @@
+\title{Following a rule: numerical sequences}
+\date{2024-04-11}
+\ref{ref-0096}
+
+
+\p{I write out the beginning of an arithmetical series}
+
+##{2,4,6,8,10,...}
+
+\p{If the rule I'm following is \em{add 2}, the continuation
+}
+
+##{12,14,16,...}
+
+\p{is \em{correct}, in that it accords with the rule I'm following, while the continuation}
+
+##{13,19,20,...}
+
+\p{is \em{incorrect}, in that it fails to accord with the rule I’m following.}

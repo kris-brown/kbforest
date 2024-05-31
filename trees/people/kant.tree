@@ -37,12 +37,4 @@
 \p{Kant thinks that answering the semantic skeptic will also address the epistemic skeptic: Specifying conditions under which there could be representations at all requires that there is a substantial degree of representational \em{success}. If we are not to a large extent \em{right} about representations, we can't make sense of being \em{wrong}. This idea is echoed by Davidson and Putnam's responses to skeptics.
 }
 
-\subtree{\title{Innovation: The tradition Kant inherited thought of judgment as \em{predicating}}
-\ul{
-    \li{i.e. classifying objects as being particular kinds}
-    \li{Kant considers many other forms of judgment: modal, conditional, disjunctive, negative}
-}
-
-\p{What distinguishes knowers from non-sapient creatures is not that they involve special mental processes, but rather that their judgments are in a distinctive way something they are \em{responsible} for. Minded creatures are not distinguished by an ontological distinction but rather a \em{de}ontological one.
-}
-}
+\transclude{phil-01AI}

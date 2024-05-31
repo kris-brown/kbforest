@@ -1,0 +1,54 @@
+\title{Two major traditions in philosophy of language}
+\import{base-macros}
+\date{2024-04-03}
+
+\table{
+  \tr{
+    \th{}
+    \th{[Logicist / formal semantic](phil-016J)}
+    \th{[Anthropological / pragmatist](phil-016L)}
+  }
+  \tr{
+    \td{Focus}
+    \td{Meaning}
+    \td{Use}
+  }
+  \tr{
+    \td{Paradigm kind of language}
+    \td{Formal}
+    \td{Natural}
+  }
+  \tr{
+    \td{Big question}
+    \td{[What is meaning?](phil-016Q)}
+    \td{[What is discursive practice?](phil-015O)}
+  }
+  \tr{
+    \td{Common place to look for answer}
+    \td{Mathematical structures}
+    \td{Norms of use}
+  }
+  \tr{
+    \td{Regard for the other tradition}
+    \td{Pragmatics is an afterthought, no special need to worry about what is discursive practice.}
+    \td{Not interested in formal semantics, sometimes think such a thing is impossible}
+  }
+  \tr{
+    \td{Character of reasoning}
+    \td{Monological: reasoning as deriving via proof}
+    \td{Dialogical: reasoning as understanding via social practice}
+  }
+  \tr{
+    \td{Epistemology}
+    \td{Truth-making}
+    \td{Justification}
+  }
+
+}
+
+\p{To pick between these traditions is to ask whether or not [semantic metavocabularies](phil-017F) or [pragmatic metavocabularies](phil-015S) are more illuminating.}
+
+
+\transclude{phil-016J}
+\transclude{phil-016L}
+\transclude{phil-01B4}

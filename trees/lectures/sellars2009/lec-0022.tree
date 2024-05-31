@@ -5,7 +5,7 @@
 \p{Topic: Sellars' [Counterfactuals, Dispositions, and the Causal Modalities](ref-0012)}
 \subtree{\title{Counterfactuals and dispositions}
 
-  \p{[Goodman](nelson-goodman) has let the formalism of classical extensional logic mislead him in thinking about counterfactuals. He thought we could build up to counterfactuals from extensional logical vocabulary. The kind that can be built up by extensional logical vocabulary Sellars calls subjunctive identicals.
+  \p{[Goodman](goodman) has let the formalism of classical extensional logic mislead him in thinking about counterfactuals. He thought we could build up to counterfactuals from extensional logical vocabulary. The kind that can be built up by extensional logical vocabulary Sellars calls subjunctive identicals.
   }
   \p{Goodman is impressed in [Fact, Fiction, and Forecast](ref-0020), with the difference between the claim 'All copper melts at 1084 °C' and 'all the coins in my pocket are copper'. The first supports counterfactual reasoning ("if this coin in my pocket \em{were} copper, it'd melt at 1084 °C") whereas if this nickel coin were in my pocket, it wouldn't be made of copper. However we can do some limited form of counterfactual reasoning: "if I pulled a coin out of my pocket, it would be copper". We can always rephrase such counterfactuals (accidental generalizations) as a statement about something identical to an actual object. (The distinction is less sharp between genuine counterfactuals and subjunctive identicals is less sharp than he thinks, according to Brandom).
   }

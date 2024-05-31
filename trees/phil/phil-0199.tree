@@ -1,0 +1,10 @@
+\date{2024-04-16}
+\title{Modal logic as pseudo-two-dimensional}
+
+\p{It seems like [deontic modal logic](phil-019A) offers a possible means of expressing commitment and entitlement.}
+
+\p{However, modal logics interdefine #{\box} and #{\diamond}, so it's only the appearance of being two-dimensional.}
+
+\transclude{phil-019D}
+
+\p{We lose the space to define material incompatibility: joint commitment precludes joint entitlement. Negation can then be defined as the minimal incompatibility.}

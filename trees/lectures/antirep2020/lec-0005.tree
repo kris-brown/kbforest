@@ -2,6 +2,7 @@
 \author{brandom}
 \parent{lec-0024}
 \number{5}
+\taxon{lecture}
 
 \import{base-macros}
 \p{
@@ -13,7 +14,7 @@
   }
   \ol{
     \li{Rejecting two-stage talk of two activities, one of instituting meanings and the other of applying them to justify beliefs. [^tde]}
-    \li{Rejecting the language/theory distinction entirely, in favor of the 'vocabulary' vocabulary. All we do is use vocabularies, and those practices both institute meanings and apply concepts to undertake commitments (endorse, take-true, some claimables).}
+    \li{Rejecting the [language/theory distinction](phil-016R) entirely, in favor of the 'vocabulary' vocabulary. All we do is use vocabularies, and those practices both institute meanings and apply concepts to undertake commitments (endorse, take-true, some claimables).}
     \li{Rejecting the Kantian problematic of assigning responsibility for some features of our discourse (vocabulary-use) to what we are talking about (what is represented)—the authority of the objective—and responsibility for other features of our discourse to us— the authority of the subjective.}
     \li{Rejecting as ultimately unintelligible the idea that our thought is normatively constrained (as opposed to causally constrained) by an objective world via the representational semantic dependence of representings on representeds that consists in representeds providing normative standards of assessment of the correctness of representings (in a distinctive sense of “correctness.”). This is a kind of authority of representeds over representings.}
     \li{Social pragmatism about normativity: all normative statuses (responsibility, authority, being a standard of correctness) are social statuses.}
@@ -54,7 +55,7 @@
 
     \p{Rorty says that what the romantics discovered that we are free to pick our vocabulary.
     }
-    \p{Treating vocabularies as if they are languages that we are free to chose from is dangerously close to Carnapian pragmatism. This is a misuse of the vocabulary vocabulary because it violates Quine's anti-Carnap lesson.
+    \p{Treating vocabularies as if they are languages that we are free to chose from is dangerously close to [Carnapian pragmatism](phil-01BG). This is a misuse of the vocabulary vocabulary because it violates Quine's anti-Carnap lesson.
     }
   }}
 \subtree{\title{Criticism of "There is nothing outside of the text"}
@@ -63,9 +64,8 @@
   }
   \transclude{q-0144}
 
+  \transclude{q-015Q}
 
-  \p{[^mcd]: Note that McDowell centrally claims "The conceptual has no outer boundary" in [Mind and World](ref-0033)
-  }
   \p{Some background for Derrida's claim:
   }
   \p{He is working in a post-structuralist environment. Their principal tool is de Saussure's signifier/signified model.
@@ -92,10 +92,8 @@
   \p{Tarskian model theory (and following it, possible worlds semantics) is \em{not} nominalistic: it starts with semantic relations understood nominalistically, but then it builds up representational readings of sentences as sets of models / possibles worlds (those are treated differently from the names).
   }
   \p{There is a connection between this topic and the vocabularity-relativity / objectivity. One question we can ask: to what extent is the categorical-structure of the world a vocabulary-dependent phenomenon?: Ask how we are to address debate two ways of thinking of the objective world we are talking about: is it (as wittgenstein puts it) a world of facts or a world of things?
-    Rorty thinks, if you say it's a world of facts, you've conceded his antirepresentationalist point (because the notion of fact[^f] is a vocabulary-relative). }
+    Rorty thinks, if you say it's a world of facts, you've conceded his antirepresentationalist point (because the notion of [fact](q-015O) is a vocabulary-relative). }
 
-  \p{[^f]: Frege says: a fact is a thought (i.e. thinkable) that is true.
-  }
   \p{You might try to avoid this by thinking of a world of objects, but objects are equally vocabulary-dependent. (you need \em{[sortals](phil-0130)} to distinguish objects).
   }
 }

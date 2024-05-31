@@ -1,0 +1,6 @@
+\date{2024-04-16}
+\title{Fibration}
+\taxon{definition}
+\tag{to-do}
+
+\p{A functor #{\cat{E}\rightarrow \cat{B}} is a \em{fibration} if, for all arrows #{e'\xrightarrow{g}e} in #{\cat{E}}, there is a unique lift ... to do, but [Matteo's post](https://matteocapucci.wordpress.com/2023/02/02/grrrothendieck-fibrations/) seems helpful.}

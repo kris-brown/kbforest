@@ -1,0 +1,5 @@
+\date{2024-04-15}
+\title{Conjoint in Span(C)}
+\import{macros}
+
+\p{In #{{\SS}pan(\cat{C})} ([see](math-000Y)), a conjoint of an arrow #{x\xrightarrow{f} y} is given by a span #{f^* :=x \xleftarrow{f} y \xrightarrow{1_y}y}. It works analogously to [companions in ](math-000W) #{{\SS}pan(\cat{C})}}
