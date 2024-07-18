@@ -1,0 +1,10 @@
+\date{2024-06-08}
+\title{Hyperdoctrine}
+\meta{external}{https://ncatlab.org/nlab/show/hyperdoctrine}
+
+
+\p{A hyperdoctrine is a setting in which we can perform categorical logic.}
+
+\p{It is specified via a functor }
+
+\p{In particular, a Boolean hyperdoctrine is a functor into the category of Boolean Algebras.}

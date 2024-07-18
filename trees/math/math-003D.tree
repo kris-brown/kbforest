@@ -1,0 +1,7 @@
+\date{2024-07-10}
+\title{Stone duality theorem}
+
+\p{Relates [models of propositional logic](math-003B) with points of a [Stone space](math-002P).}
+
+\p{Points of #{\mathbf{Stone}(F(V)/A)} are prime filters in #{F(V)/A}, and the topology has basic open sets determined by elements of #{F(V)/A}.}
+

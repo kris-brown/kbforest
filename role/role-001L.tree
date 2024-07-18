@@ -1,0 +1,14 @@
+\date{2024-07-05}
+\title{Harman point}
+
+\p{There are no rules of deductive \em{reasoning}.}
+\ul{
+\li{We \em{could} have a deductive rule that, if you accept #{p} and #{p\rightarrow q} you must accept #{q}}
+\li{This would be a terrible rule: we might have better reasons for rejecting #{q} than accepting #{p} or #{p \rightarrow q}}.}
+
+\p{Rather, deductive logic supplies [reason relations](phil-01AY).}
+\ul{
+\li{These tell us how claimables provide reasons for and against others}
+\li{These constrain reasoning but do not tell us what to \em{do}.}
+\li{E.g. the formal incompatibility of #{p} and #{\neg p} tells us we oughtn't accept both #{p} and #{\neg p} but not what to do in such a case.}
+}

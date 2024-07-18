@@ -1,0 +1,17 @@
+\title{Linear logic}
+\taxon{definition}
+
+\p{Given a set of propositional variables #{p_0,p_1,...}, the set of propositions is: }
+
+\ul{
+\li{Any propositional variable is a proposition.}
+\li{For each proposition #{A}, the negation #{A^\bot} is a proposition.}
+\li{For each pair of propositions #{A,B}:\ul{
+\li{#{A ＆ B} ("with"), the additive conjunction of #{A} and #{B} is a proposition.}
+\li{#{A \oplus B} ("plus"), the additive disjunction of #{A} and #{B} is a proposition.}
+\li{#{A \otimes B} ("times"), the multiplicative conjunction of #{A} and #{B} is a proposition.}
+\li{#{A ⅋ B} ("par"), the multiplicative disjunction of #{A} and #{B} is a proposition.}
+}}
+}
+
+\p{The valid sequents are...}

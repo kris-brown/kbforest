@@ -1,0 +1,9 @@
+\date{2024-07-10}
+\title{About hyperdoctrines}
+\p{Rather than just a 'theory category', we have a functor #{\tau \rightarrow \mathbb{C}} from a 'category of types' into some category whose internal logic we wish to work in.}
+\p{Let's assume #{\mathbb{C}} is a category of Boolean algebras to recover classical logic (though could swap for, e.g., Heyting algebras to obtain intuitionistic logic).}
+\p{This generalizes functorial semantics by allowing us to associate to each object #{A} an arbitrary poset, instead of assuming we just want the poset of subobjects of #{A}.}
+\p{I give an example of this approach [here](https://forest.localcharts.org/ksb-0001.xml).}
+\p{Propositional logic corresponds to a category of types that is discrete (one for each atomic proposition). This gives us hope for a path forward that there are certain sets in the R4L formalism that can be redescribed as discrete categories, but when viewed as a general categories will allow for quantification.}
+
+

@@ -1,0 +1,16 @@
+\date{2024-06-15}
+\title{Join (preorder)}
+
+\subtree{\taxon{definition}
+
+\p{The join of #{X \subseteq S} in a preorder #{(S, \leq)}, if it exists, is an element #{\vee X \in S} such that }
+
+\ul{
+\li{#{\forall x \in X, x  \leq \vee X}}
+\li{If #{\forall x \in X, x \leq z}, then #{\vee x \leq z}}
+}
+}
+
+\p{We often think of the join of a pair of elements and write this #{x \vee y}.}
+
+\p{The join of the empty set #{\vee \varnothing := \top} is a top element #{\forall s \in S: s \leq \top}.}

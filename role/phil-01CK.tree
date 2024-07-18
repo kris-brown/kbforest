@@ -1,0 +1,13 @@
+\title{Fever implication nonmonotonicity}
+\import{macros}
+
+\p{Let #{\mathfrak{B}=\{p,q,r\}} be a [lexicon](phil-01CI).}
+
+\ul{
+\li{#{p} = Tara is a human being}
+\li{#{q} = Tara's body temperature is 37 #{^\circ} C}
+\li{#{r} = Tara has a fever}}
+
+##{p #{\vsimB} q}
+
+##{p, r #{\nvsimB} q}

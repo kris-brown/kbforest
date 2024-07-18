@@ -1,0 +1,7 @@
+\date{2024-06-12}
+\title{Truthmaker semantics}
+
+\p{Consider the following sequence of generalizations (thinking only of propositional logic):}
+\p{Classical logic: we work with a base set of atomic sentences #{B}. We can think of a state of the world as the subset of these which happen to be true: #{S := \mathcal{P}(B)}. We can express truth conditions as functions #{S \rightarrow \mathbb{B}}. The sorts of things I can \em{mean} by some symbol #{A} are combinations of atomic sentences, e.g. #{Bachelor:=Unmarried \land Man} induces a function from world states to truth values. This is \em{extensional}: two sentences have the same meaning if they share the same extension.}
+\p{Modal logic thinks of truth conditions as subsets of possible worlds, each of which is a subset of atomic sentences. So we can distinguish "I have a dog" and "I am a human" because it's possible I might not have had a dog, while it's impossible that I might've not been a human. This is \em{intensional}: two sentences have the same meaning if they share the same extension (across all possible worlds) though they might not share the same extension in the actual world.}
+\p{Truthmaker semantics thinks of conditions of truth and falsity of a sentence in terms of \em{states} that make a sentence true or false. So we can now distinguish "1+1=2" and "#{\pi} is irrational" even though they are both necessarily true (true in all possible worlds).}

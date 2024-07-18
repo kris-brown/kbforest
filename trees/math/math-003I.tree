@@ -1,0 +1,5 @@
+\date{2024-07-10}
+\title{Coherent theory}
+\taxon{definition}
+
+\p{Given a first-order signature #{\Sigma}, a \em{coherent theory} is a deductively closed set #{A} of ([coherent](math-003G)) sequents.}

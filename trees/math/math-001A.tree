@@ -6,4 +6,4 @@
 
 \p{Examples: [Rel](math-000T), [Span(C)](math-000Y), [V-Mat](math-0018), [Prof](math-001B).}
 
-\p{Non-examples: [Square(C)](math-0010) (proof, consider #{C = \cat{Cat}} (see [Cat](math-000F)): not every [functor](math-000E) has a right adjoint.)}
+\p{Non-examples: [Square(C)](math-0010) (proof, consider #{C = \cat{Cat}} (see [Cat](math-000F)): not every [functor](math-000E) has a right [adjoint](math-0028).)}

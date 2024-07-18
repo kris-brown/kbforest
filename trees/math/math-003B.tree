@@ -1,0 +1,9 @@
+\date{2024-07-10}
+\title{Models of a propositional theory}
+\import{macros}
+
+\p{Models of a [propositional theory](math-0039) #{\mathcal{B}=(V, A)} are morphisms from the [syntactic category](math-003A) presented by that theory into the two-element [Boolean algebra](math-0038), #{2}.}
+
+##{{\rm Mod}_\mathcal{B} \cong \Hom_{\mathbf{BA}}(\mathcal{B}, 2)}
+
+\p{We can think of a model as a valuation of the propositional letters #{V} that satisfies the axioms #{A}.}

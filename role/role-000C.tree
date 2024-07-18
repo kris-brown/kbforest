@@ -1,0 +1,75 @@
+\date{2024-06-08}
+\title{Universal property of being LX}
+\import{macros}
+
+\p{Problem: supposing that we have a (suitably-defined) category of reason relations, could we tell which ones were universal logical elaborations of others? This would be characterizing what it means to be universally \em{LX}, relationally.}
+
+\p{There is an [endofunctor](math-002F)  #{L: \mathsf{Set}\rightarrow \mathsf{Set}} that sends each lexicon to a set of logically-elaborated expressions on that base lexicon. Because we can take an expression tree of expression trees and turn it into a single expression tree, this operation actually defines a [monad on](role-000D) #{\mathsf{Set}}.}
+
+\p{(The Kleisli category and [Eilenberg Moore](math-002C) category for this monad are interesting.)}
+
+\p{Here's an attempt at a category of reason relations:}
+
+\subtree{\taxon{definition}
+\p{Let #{RRel} be a category of reason relations with objects #{(B:Set, I\subseteq \mathcal{P}(B)^2)}}
+\p{Let #{Hom_{RRel}((A,I_A),(B,I_B))} be the set of functions #{A\rightarrow B} such that #{\forall (\Gamma, \Delta) \in I_A: (f(\Gamma),f(\Delta))\in I_B}}
+}
+
+\p{We can also apply the monad #{L} to a monad on #{RRel}, as the meanings of the connectives state how to lift the relation on the base vocabulary, #{\vsim} to a relation on the logical lexicon.}
+
+\p{Now, what is the universal property of the unit #{\eta_L}, which sends a vocabulary to its logical elaboration? Can we express formally for it to be LX? One way to express "elaborated from" is to say that #{\eta_L} is a monic function which furthermore satisfies the property that #{\forall (\Gamma, \Delta) \notin I_A: (f(\Gamma),f(\Delta))\notin I_B}.}
+
+\p{The "expressive of" feature says that every element of the lexicon of #{\eta_L(B)} is expressive of an element of #{\mathcal{P}(B)^2}. I've yet to work out what this could mean in terms of universal properties. However, another way to think of this is that if the reason relation #{(B,I)} \em{had} been different, the reason relation #{\eta_L(B)} \em{would be} different. So perhaps we cannot characterize #{\eta_L(B)} purely in the category above but rather need to be working in a double category that also involves normative relations between reason relations.}
+
+
+\subtree{\title{A strategy}
+
+\p{If the notion of morphism #{(B,I) \rightarrow (B',J)} is a pair of interpretation functions #{\brack{\cdot}^+,\brack{\cdot}^-}, such that, for all #{\Gamma,\Delta \subseteq \mathcal{P}(B)}:}
+
+##{RSR(...)}
+
+% https://q.uiver.app/#q=WzAsMyxbMCwwLCJZIl0sWzEsMCwiTChZKSJdLFswLDEsIlgiXSxbMCwxLCIiLDAseyJjdXJ2ZSI6MSwic3R5bGUiOnsidGFpbCI6eyJuYW1lIjoibW9ubyJ9fX1dLFsxLDAsIiIsMCx7ImN1cnZlIjoxLCJzdHlsZSI6eyJoZWFkIjp7Im5hbWUiOiJlcGkifX19XSxbMiwwLCJcXGZvcmFsbCJdLFsyLDEsIlxcZXhpc3RzISIsMix7InN0eWxlIjp7InRhaWwiOnsibmFtZSI6Im1vbm8ifSwiYm9keSI6eyJuYW1lIjoiZGFzaGVkIn19fV1d
+\quiver{\begin{tikzcd}
+    Y & {L(Y)} \\
+    X
+    \arrow[curve={height=6pt}, tail, from=1-1, to=1-2]
+    \arrow[curve={height=6pt}, two heads, from=1-2, to=1-1]
+    \arrow["\forall", from=2-1, to=1-1]
+    \arrow["{\exists!}"', dashed, tail, from=2-1, to=1-2]
+  \end{tikzcd}}
+
+\p{Note these aren't truly epi and mono, but perhaps there is a [weak factorization system](https://ncatlab.org/nlab/show/weak+factorization+system) where interpretation maps that send sentences to single sentences are #{L} maps and maps that hit upon all roles in the reason relation are #{R} maps.}
+\p{A possible double categorical representation: if we look at interpretation functions as horizontal morphisms and monic functions as vertical morphisms}
+
+% https://q.uiver.app/#q=WzAsNixbMCwwLCJYIl0sWzEsMCwiWSJdLFsxLDEsIkwoWSkiXSxbMiwxLCJZIl0sWzIsMCwiWSJdLFswLDEsIkwoWSkiXSxbMCwxLCJtIiwwLHsic3R5bGUiOnsiYm9keSI6eyJuYW1lIjoiYmFycmVkIn19fV0sWzEsNCwiIiwwLHsibGV2ZWwiOjIsInN0eWxlIjp7ImhlYWQiOnsibmFtZSI6Im5vbmUifX19XSxbNSwyLCIiLDAseyJsZXZlbCI6Miwic3R5bGUiOnsiaGVhZCI6eyJuYW1lIjoibm9uZSJ9fX1dLFs0LDMsIiIsMCx7ImxldmVsIjoyLCJzdHlsZSI6eyJoZWFkIjp7Im5hbWUiOiJub25lIn19fV0sWzIsMywiW0xdIiwyLHsic3R5bGUiOnsiYm9keSI6eyJuYW1lIjoiYmFycmVkIn19fV0sWzEsMiwiTCJdLFswLDUsIlxcZXhpc3RzISIsMix7InN0eWxlIjp7ImJvZHkiOnsibmFtZSI6ImRhc2hlZCJ9fX1dXQ==
+\quiver{\begin{tikzcd}
+    X & Y & Y \\
+    {L(Y)} & {L(Y)} & Y
+    \arrow["m", "\shortmid"{marking}, from=1-1, to=1-2]
+    \arrow["{\exists!}"', dashed, from=1-1, to=2-1]
+    \arrow[Rightarrow, no head, from=1-2, to=1-3]
+    \arrow["L", from=1-2, to=2-2]
+    \arrow[Rightarrow, no head, from=1-3, to=2-3]
+    \arrow[Rightarrow, no head, from=2-1, to=2-2]
+    \arrow["{[L]}"', "\shortmid"{marking}, from=2-2, to=2-3]
+  \end{tikzcd}
+}}
+
+\p{I.e., from any #{m: X \pro Y}:}
+
+% https://q.uiver.app/#q=WzAsNCxbMCwwLCJYIl0sWzEsMCwiWSJdLFsxLDEsIlkiXSxbMCwxLCJMKFkpIl0sWzMsMiwiW0xdIiwyLHsic3R5bGUiOnsiYm9keSI6eyJuYW1lIjoiYmFycmVkIn19fV0sWzAsMSwibSIsMCx7InN0eWxlIjp7ImJvZHkiOnsibmFtZSI6ImJhcnJlZCJ9fX1dLFsxLDIsIiIsMCx7ImxldmVsIjoyLCJzdHlsZSI6eyJoZWFkIjp7Im5hbWUiOiJub25lIn19fV0sWzAsMywiXFxleGlzdHMhIiwyLHsic3R5bGUiOnsiYm9keSI6eyJuYW1lIjoiZGFzaGVkIn19fV1d
+\quiver{\begin{tikzcd}
+    X & Y \\
+    {L(Y)} & Y
+    \arrow["m", "\shortmid"{marking}, from=1-1, to=1-2]
+    \arrow["{\exists!}"', dashed, from=1-1, to=2-1]
+    \arrow[Rightarrow, no head, from=1-2, to=2-2]
+    \arrow["{[L]}"', "\shortmid"{marking}, from=2-1, to=2-2]
+  \end{tikzcd}}
+
+\subtree{\title{Sentence-wise approach}
+
+  \p{Another approach, rather than talking about an entire reason relation being LX to another, is to talk about individual sentences being explicative. A vocabulary could be explicative if every sentence in it is explicative in the following sense:}
+
+  \transclude{phil-01CM}
+}

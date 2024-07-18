@@ -1,0 +1,4 @@
+\date{2024-07-10}
+\title{Coherent logic}
+
+\p{A fragment of first-order logic that includes only the connectives #{\top, \land, \exists, \bot, \wedge}.}

@@ -1,0 +1,10 @@
+\date{2024-07-09}
+\title{Closed monoidal category}
+\taxon{definition}
+\import{macros}
+\meta{external}{https://ncatlab.org/nlab/show/closed+monoidal+category}
+
+\p{A [monoidal category](math-0021) #{(\cat{C}, I, \otimes)} is \em{closed} if for each #{Y \in \cat{C}} the [endofunctor](math-002F) #{-\otimes Y} has a [right adjoint](math-0028), #{[Y, -]}.}
+
+\p{I.e. there is a [natural hom-isomorphism](math-0032) #{\Hom_\cat{C}(X \otimes Y, Z)\cong \Hom_\cat{C}(X, [Y,Z])}.}
+

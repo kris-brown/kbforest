@@ -1,0 +1,6 @@
+\date{2024-07-09}
+\title{Natural isomorphism}
+\meta{external}{https://ncatlab.org/nlab/show/natural+isomorphism}
+\taxon{definition}
+
+\p{A \em{natural isomorphism} is a [natural transformation](math-002E) which is an isomorphism in functor category #{[C,D]}.}

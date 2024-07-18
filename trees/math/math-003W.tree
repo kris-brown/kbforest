@@ -1,0 +1,5 @@
+\date{2024-07-15}
+\title{Subobject}
+\taxon{definition}
+
+\p{A \em{subobject} of an object #{X} in a [category](math-000D) is a [monomorphism](math-003X) #{\iota_A: A \rightarrowtail X} considered up to isomorphism, where we regard #{\iota_B: B \rightarrowtail X} to be the same subobject if there exists an isomorphism #{\varphi: A \xrightarrow{\cong} B} such that #{\varphi\cdot\iota_B = \iota_A}.}

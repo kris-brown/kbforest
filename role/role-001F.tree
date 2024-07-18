@@ -1,0 +1,8 @@
+\date{2024-06-20}
+\title{Irrational belief update}
+\p{Given a lexicon #{\mathcal{B}}, the space of possible commitments is #{\mathcal{P(B)}}.}
+
+\p{Absent any constraints of requiring \em{reasons} for update, all conceivable transitions are allowed. This is an indiscrete category.}
+
+\p{One aspiration for a theory of reasons is to allow us to endorse subcategories of this space, where the morphisms are \em{rational} updates.}
+

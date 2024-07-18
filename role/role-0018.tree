@@ -1,0 +1,60 @@
+\date{2024-06-20}
+\title{Discrete belief update: fixed reason relations}
+\import{macros}
+\import{base-macros}
+
+\p{Let a fixed [reason relation](role-0004), #{RR = (\mathcal{B}:Set, \mathbb{I}\subseteq \mathcal{P(B)}^2)}, be taken as 'ground truth'.}
+
+\p{This induces a discrete, nondeterministic dynamics on sets of explicit commitments, #{C\subseteq \mathcal{B}}. At any moment in time, we can look at all of the subsets of our commitments and see if they match any of the implications, which results in an obligation to do something. These obligations pick out a subset of the good implications which are \em{triggered} by our existing commitments, #{C}.}
+
+% https://q.uiver.app/#q=WzAsNCxbMCwwLCJPYmxpZ2F0aW9uIl0sWzEsMCwiXFxtYXRoY2Fse1B9KEMpIl0sWzEsMSwiXFxtYXRoY2Fse1B9KEIpIl0sWzAsMSwiXFxtYXRoYmJ7SX0iXSxbMSwyLCIiLDAseyJzdHlsZSI6eyJ0YWlsIjp7Im5hbWUiOiJtb25vIn19fV0sWzAsMV0sWzMsMiwiXFxwaV8xIiwyXSxbMCwzLCIiLDAseyJzdHlsZSI6eyJ0YWlsIjp7Im5hbWUiOiJtb25vIn19fV0sWzAsMiwiIiwxLHsic3R5bGUiOnsibmFtZSI6ImNvcm5lciJ9fV1d
+\quiver{
+  \begin{tikzcd}
+    Oblig & {\mathcal{P}(C)} \\
+    {\mathbb{I}} & {\mathcal{P(B)}}
+    \arrow[from=1-1, to=1-2]
+    \arrow[tail, from=1-1, to=2-1]
+    \arrow["\lrcorner"{anchor=center, pos=0.125}, draw=none, from=1-1, to=2-2]
+    \arrow[tail, from=1-2, to=2-2]
+    \arrow["{\pi_1}"', from=2-1, to=2-2]
+  \end{tikzcd}}
+
+\p{Not all of the elements of \em{Oblig} as defined above are actually obligations to do something. When the RHS of an implication intersects with our existing commitments, there is no problem to rectify. So we want to restrict the above diagram to only look for triggered implications among those whose RHS is unchanged by the act of subtracting #{C} (this condition is trivially satisfied for the incompatibility relations, which have an empty RHS). We can encode this with an equalizer #{eq} of #{\pi_2} and #{\pi_2 \cdot (-\setminus C)}:}
+
+% https://q.uiver.app/#q=WzAsNixbMSwwLCJPYmxpZ2F0aW9uIl0sWzIsMCwiXFxtYXRoY2Fse1B9KEMpIl0sWzIsMSwiXFxtYXRoY2Fse1B9KEIpIl0sWzEsMSwiXFxtYXRoYmJ7SX1fe2VxfSJdLFswLDEsIlxcbWF0aGJie0l9Il0sWzAsMCwiXFxtYXRoY2Fse1B9KEIpIl0sWzEsMiwiIiwwLHsic3R5bGUiOnsidGFpbCI6eyJuYW1lIjoibW9ubyJ9fX1dLFswLDEsIlxcUGlfMiIsMl0sWzMsMiwiXFxwaV8xIiwyXSxbMCwzLCJcXFBpXzEiXSxbMCwyLCIiLDEseyJzdHlsZSI6eyJuYW1lIjoiY29ybmVyIn19XSxbNCw1LCJcXHBpXzFcXGNkb3QoLVxcc2V0bWludXMgQykiLDAseyJjdXJ2ZSI6LTF9XSxbMyw0LCJcXGZvb3Rub3Rlc2l6ZXtFcShcXHBpXzFcXGNkb3QoLVxcc2V0bWludXMgQyksXFxwaV8xKX0iLDAseyJzdHlsZSI6eyJ0YWlsIjp7Im5hbWUiOiJtb25vIn19fV0sWzQsNSwiXFxwaV8xIiwyLHsiY3VydmUiOjF9XV0=
+\quiver{
+  \begin{tikzcd}
+    {\mathcal{P(B)}} & Oblig & {\mathcal{P}(C)} \\
+    {\mathbb{I}} & {\mathbb{I}_{eq}} & {\mathcal{P(B)}}
+    \arrow[from=1-2, to=1-3]
+    \arrow[tail, from=1-2, to=2-2]
+    \arrow["\lrcorner"{anchor=center, pos=0.125}, draw=none, from=1-2, to=2-3]
+    \arrow[tail, from=1-3, to=2-3]
+    \arrow["{\pi_2\cdot(-\setminus C)}", curve={height=-6pt}, from=2-1, to=1-1]
+    \arrow["{\pi_2}"', curve={height=6pt}, from=2-1, to=1-1]
+    \arrow["{eq}", tail, from=2-2, to=2-1]
+    \arrow["{\pi_1}"', from=2-2, to=2-3]
+  \end{tikzcd}
+}
+
+\p{If #{(\Gamma, \Delta)} is an obligation (an instance of being "out of bounds"), it means we must either add \em{something} from #{\Delta} to #{C} or remove something from #{\Gamma} in #{C}.}
+
+\p{However, there seem like four natural choices for what the update relation is. Our notion of \em{rational update} might be required to address:}
+
+\ul{
+  \li{a particular obligation \ul{\li{by adding/removing exactly one bearer}\li{by adding/removing nonzero bearers}}}
+  \li{all obligations}
+  \li{nonzero obligations}
+}
+
+\p{The most liberal of these options is the nonzero-bearer, nonzero-obligations addressed: in this case the set of rational updates is the set of pairs of sets of bearers #{(Del,\ Add)}, the first set being bearers we'll remove from #{C} and the second being bearers we'll add to #{C}, such that there exists some incompatibility addressed by removing #{Del} \em{or} some implication addressed by adding #{Add}.}
+
+\p{However, when we consider dialogue (or, reflectively, error recognition), we may want to also note \em{which} obligations we are changing our beliefs with respect to. Just as we may unintentionally introduce new obligations by changing our commitments, we likewise could unintentionally address obligations we weren't aware of. To make sure we have the information we need to handle such cases, or notion of a rational update should be a triple #{(I \subseteq \mathbb{I}, Del, Add)}, where #{I} is a non-empty subset of obligations being addressed, and #{Del, Add} are the same as before, though they must address the obligations in #{I}.}
+
+\p{This allows for defining rational hysteresis as the induced  directed graph with vertices #{\mathcal{P(B)}} and edges given by rational updates. We can also think of this as a presentation of category, where morphisms are paths through the graph.}
+
+\p{There is no guarantee of a terminal object of this category, which is what is required for there to be a well-defined notion of \em{a} set of consequences of #{\Gamma}. And there is nothing special about the paths the start from the empty set of commitments (the 'theorems'), since the consequences of #{\varnothing} in #{\mathbb{I}} have no special significance.}
+
+\subtree{\title{TODO}
+  \p{This kind of framework be sufficient to prove Ryan's argument for the symmetry of incompatibility relations: there is always a rational path from addressing the obligation of an asymmetric incompatibility relation that leads back to original set of commitments.}
+}

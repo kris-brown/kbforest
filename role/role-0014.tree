@@ -1,0 +1,36 @@
+\date{2024-06-15}
+\title{Quantale of a commutative monoid with distinguished subset}
+
+\p{Given any [commutative monoid](math-001Q) with distinguished subset #{(S, 0, +, I\subseteq S)}, one obtains a [quantale](math-001T) #{(Q, \leq, \otimes)} in the following way:}
+\p{#{Q := \mathcal{P}(S)}. Let #{X, Y} be subsets of #{S} (i.e. elements of #{Q}).}
+\p{Let #{RSR'(s \in S) = \{s'\in S\ |\ s+s' \in I\}} and #{RSR(X):=\underset{x\in X}\bigcap RSR'(x)}.}
+\ul{\li{Note #{RSR(X \cup Y) = RSR(X)\cap RSR(Y)}.}}
+\p{We define #{X \leq Y := RSR(X)\leq RSR(Y)}}
+\p{#{Q} has all [joins](math-001U): for any #{A \subseteq F}, we have #{\bigvee A := \underset{i}\bigcup A_i}}
+
+\ul{\li{ #{\bigvee A \leq A_i} as the additional elements of #{S} in #{A} but not #{A_i} will only contribute constraints to #{RSR(A)}, thereby making it a subset of #{RSR(A_i)}.}
+\li{If #{\forall i, X \leq A_i}, (i.e. #{RSR(X)} is a subset of each component #{RSR}), then #{X \leq \bigvee A} (i.e. it is a subset of their intersection).}
+}
+
+\p{#{Q} has a symmetric tensor product: #{X \otimes Y := \{x+y\ |\ x \in X, y \in Y\}}}
+
+\p{This distributes over joins: #{X \otimes (Y \cup Z) = (X \otimes Y) \cup (X \otimes Z)}}
+\ul{\li{ #{\{x+q\ |\ x \in X, q \in (Y \cup Z)\} = \{x + y\ |\ x \in X, y \in Y\} \cup \{x + z\ | x \in X, z \in Z\} }}}
+
+\p{The tensor product is commutative and unital (with unit #{\{0\}}).}
+
+\p{Sidenote: in the case of the commutative monoids induced by NMMS and modal state spaces (but not #{NMMS^{/ctr}}), #{x+x=x}, which lets us generally conclude #{X \otimes X \leq X}. But even in this case, #{\otimes} is not idempotent, which is what would be needed for #{Q} to be a [frame](math-001V) (making #{\otimes} is a meet).}
+% 
+\p{We also have some freedom in how we define #{RSR(\varnothing)}. By defining it to be equal to #{S}, the math works out quite cleanly. The way it is done in R4LL4R, the semilattice has all [nonempty joins](https://ncatlab.org/nlab/show/lattice#bounded_lattices_and_pseudolattices).}
+
+\p{A quantale has a notion of an \em{internal hom}, which satisfies the property #{{Z \otimes X \leq Y \iff Z \leq X \multimap Y}}}
+
+\p{In general: #{X \multimap Y = \bigvee \{Z \in Q\ |\ Z \otimes X \leq Y \}}}
+
+\p{This is the best element with which one combines with #{X} to get to #{Y}. It can be thought of as subtracting #{X} from #{Y}.}
+
+\p{For example, let's consider what #{X \multimap \{0\} } means:}
+\ul{
+\li{#{0 \in X \multimap \{0\}} means #{X \leq \{0\}}, i.e. "the implications which make all of #{X} good are themselves good inferences.}
+\li{#{X \multimap \{0\} } is empty if ???}
+}

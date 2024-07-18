@@ -1,0 +1,36 @@
+\date{2024-06-30}
+\title{Discrete belief update: self-reflection}
+\import{role-001G}
+\import{macros}
+
+\p{To complicate [the previous story](role-0018), we can understand a set of commitments as itself inducing a reason relation if we take the lexicon to be a logically extended vocabulary: #{C \subseteq L(\mathcal{B})}. Let's assume a fixed #{\mathcal{B}}.}
+
+\p{Now, instead of having #{RR = (\mathcal{B}, \mathbb{I}\subseteq \mathcal{P(B)^2})} fixed, it also can change in response to updates to #{C}.}
+
+\p{There is a temptation to \em{define} #{\mathbb{I}} (at time #{t}) in terms of #{C} (at time #{t}). E.g. suppose my commitments are #{\{a,a\rightarrow b, \neg(a \land b)\}}, we might propose the following [reason relation on two bearers](role-001G) as picked out:}
+
+\RR2{\checkmark}{\times}{\times}{\times}{\checkmark}{\times}{\times}{\checkmark}
+
+\p{However, we could have conflicting explicit beliefs: #{\{a, b, \neg(a \vee b)\}} even if we never explicitly have #{\phi} and #{\neg \phi}. There exists no (particular) reason relation that this set of propositions could be making explicit.}
+
+\p{Instead, we could think of the content of the reason relation (that represents my commitments) as responsive (responsible) to the set of commitments rather than determined or defined by the commitments. Both my beliefs update in time and the reason relation updates in time, both in response to each other.}
+
+\p{There are multiple ways we could model this pair of interacting discrete dynamical systems. In general, for #{n} interacting systems, we could allow all systems to update at the same time in lockstep, we could allow only one at a time, or we could allow some non-zero number to update.}
+
+\p{For simplicity, let's consider one system at a time updating. With the first example above, we generated the reason relation from the commitments, so #{RR} is not out-of-bounds.}
+
+\ol{
+\li{The only move to make is for #{C} to change by adding #{b} because #{a \vsim b}.}
+\li{Now, #{C=\{a,b,a\rightarrow b, \neg (a \land b)\}}, and we multiple options:
+\ul{
+\li{We could modify #{RR} to check off #{\vsim b}.}
+\li{We could remove #{a} or #{b} to resolve the obligation from #{a,b\vsim }.}}
+}
+}
+
+\p{One interesting thing to note is that this system in isolation could never reach a state where #{{\vsim a,b}}. This corresponds to the proposition #{{a \lor b}}.} \subtree{\title{Questions}
+
+\p{Should we take the bare assertion #{a} (or even the pair of assertions #{a} and #{b}) to be endorsing #{{\vsim a,b}}? It seems like this would be presuming structural weakening.}
+
+\p{Should we understand #{L(\mathcal{B})} as simply adding \em{one} layer of connectives over the sentences of #{B} or should it be all possible logically-complex sentences? There seems to be a \em{de re}/\em{de dicto} distinction that gets lost if we don't distinguish #{A \rightarrow (B \rightarrow C)} and #{A \rightarrow ``B \rightarrow C"}.}
+}

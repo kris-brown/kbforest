@@ -1,0 +1,18 @@
+\date{2024-07-01}
+\title{Categorical model of a given logic}
+\taxon{definition}
+\import{macros}
+
+\p{A [category](math-000D) #{\cat{C}} is a \em{categorical model} of a logic #{\mathcal{L}} iff:}
+
+\ul{
+\li{For all proofs #{\Gamma \vdash M: A} there is a morphism #{\brack{M}: \Hom_\cat{C}(\Gamma, A)}}
+\li{For all equalities #{\Gamma \vdash M=N: A} there is an equality of morphisms #{\brack{M}=\brack{N}} in #{\cat{C}}.}
+}
+
+\p{Such a model is \em{complete} if for any signature of #{\mathcal{L}} there is a category #{\cat{C}} and interpretation #{\brack{\cdot}} such that:}
+\ul{
+\li{If #{\Gamma \vdash M:A} and #{\Gamma \vdash N:A} are derivable, then #{M} and #{N} are interpreted as the same map #{\Gamma \rightarrow A}  just when #{M=N : A} is provable in #{\mathcal{L}}.}
+}
+
+\p{From "Categorical Semantics of Linear Logic For All"}

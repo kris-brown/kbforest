@@ -1,0 +1,11 @@
+\date{2024-07-10}
+\title{Category of pointed sets}
+
+\subtree{\taxon{definition}
+
+\p{The [category](math-000D) of pointed sets has:}
+
+\ul{
+\li{As objects, sets with a distinguished point *}
+\li{As morphisms #{A\rightarrow B}, functions #{A\rightarrow B} which send #{* \mapsto *}}}
+}

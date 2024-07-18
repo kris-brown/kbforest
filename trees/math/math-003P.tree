@@ -1,0 +1,4 @@
+\date{2024-07-10}
+\title{Pointed sets closed monoidal structure}
+
+\p{The [category of pointed sets](math-003O) is not [cartesian closed](math-002Z), but it does have a [closed monoidal structure](math-0031) where #{A \otimes B} is the smash product (#{A\times B/\sim} where any pairs #{(a,b)} are identified if either #{a} or #{b} is *.)}

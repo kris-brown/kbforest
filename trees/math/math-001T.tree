@@ -1,0 +1,15 @@
+\date{2024-06-15}
+\title{Quantale}
+
+\subtree{\taxon{definition}
+
+\p{A \em{quantale} is a [poset](math-001O) having all [joins](math-001U) and an associative, tensor product #{\otimes} which distributes over joins.}
+
+\p{I.e. #{x \otimes(y \vee z) = (x \otimes y) \vee (x \otimes z)}}
+}
+
+\p{The quantale is \em{idempotent} if #{x \otimes x = x}.}
+\p{The quantale is \em{affine} if #{\top} is the unit for #{\otimes}.}
+\p{A quantale with an idempotent and affine tensor product is a [frame](math-001V).}
+
+\p{Quantales form a category of structure-preserving maps.}

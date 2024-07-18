@@ -1,0 +1,21 @@
+\date{2024-07-10}
+\title{Syntactic category of a coherent theory}
+\import{macros}
+
+\p{Given a [coherent theory](math-003I) #{\mathbb{T}=(\Sigma, A)} the \em{syntactic category} #{\cat{C}_\mathbb{T}} has:}
+
+\ul{
+\li{As objects: equivalence classes of formulas in context, where #{[X,\varphi]\cong [Y, \psi]} iff #{X \cong Y} and #{\mathbb{T}} proves both
+#{\varphi \vdash_X \psi[X/Y]} and #{\psi[X/Y] \vdash_X \varphi}}
+
+\li{A morphism #{[X,\varphi]\rightarrow [Y, \psi]} (with #{X} and #{Y} disjoint) is an equivalence class of formulas #{[X+Y, \sigma]} such that
+#{\mathbb{T}} proves:
+\ul{
+\li{#{\sigma \vdash_{X+Y} \varphi\land\psi}}
+\li{#{\varphi\vdash_X \exists_Y \sigma}}
+\li{#{\sigma \land \sigma(z/y) \vdash_{X+Y+Z} Y=Z}}}}
+}
+
+\p{If the #{\mathbb{T}} is [decidable](math-003M), then each object #{A \in \cat{C}_\mathbb{T}} has a diagonal #{\Delta_A: A \rightarrowtail A \times A} that is complemented as a subobject.}
+
+\p{We can recover a coherent theory from a syntactic category #{\cat{C}} by taking the objects to be sorts, the morphisms to be function symbols, and all sequents that are true in the canonical interpretation of #{\cat{C}}.}

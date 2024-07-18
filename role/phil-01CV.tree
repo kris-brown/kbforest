@@ -1,0 +1,8 @@
+\date{2024-06-03}
+\title{Implication space model}
+\import{macros}
+
+\subtree{\taxon{definition}\number{71}
+
+\p{A model #{\mathcal{M}} is a pair #{(\mathbb{C}, \brack{\cdot}^\mathcal{M})} where #{\mathbb{C}} is a set of [implicational roles](phil-01CQ) of an [implication frame](phil-01CO) and #{\brack{\cdot}} is an [interpretation function](phil-01CU).}
+}

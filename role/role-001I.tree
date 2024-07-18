@@ -1,0 +1,26 @@
+\date{2024-07-01}
+\title{Open systems in physics: analogy}
+\import{macros}
+
+
+\blockquote{When we explicitly model the environment to create a closed
+  system, we lose the ability to compose the model that we have made with other
+  models of the environment. This is the key feature of open systems: open
+  systems are most naturally discussed in a compositional framework where
+  one can “glue” two open systems together along a part of their boundary.}
+
+
+\image{images/opensystem.png}
+\image{images/openpetri2cell.png}
+\image{images/opendynsys.png}
+
+\ul{
+  \li{open Petri nets}
+  \li{open electrical circuits}
+  \li{open chemical reaction networks}
+  \li{open Markov processes}
+}
+
+\p{Open systems express \em{constraints} on future behavior but do not generally \em{determine} future behavior (once you have an empty interface, behavior could be determinate).}
+
+\p{The analogy is that open reason relations are connected via normative relations which constrain how things (ought) change. This is like connecting physical systems along boundaries of shared flows and variables.}

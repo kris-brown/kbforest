@@ -1,0 +1,4 @@
+\date{2024-06-13}
+\title{Assumption of expressibility of worldly propositions}
+
+\p{For any proposition #{(V, F) \in \mathcal{P}(S)^2}, we can add sentences #{\Gamma \cup \Delta} to our language such that #{V} contains exactly one truth-maker for each sentence in #{\Gamma} (and nothing else) and #{F} contains exactly one falsity-maker for each sentence in #{\Delta} (and nothing else).}

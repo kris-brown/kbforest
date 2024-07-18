@@ -1,0 +1,38 @@
+\date{2024-07-05}
+\title{Logicism vs rational expressivism}
+
+\import{base-macros}
+
+
+\table{
+  \tr{
+    \th{}
+    \th{Logicism}
+    \th{Logical expressivism}
+  }
+  \tr{
+    \td{Logic ought study relations between...}
+    \td{... sentences with \em{only} logical vocabulary.}
+    \td{... entences with logical vocabulary and sentences in a base vocabulary.}
+  }
+  \tr{
+    \td{Reason relations and logical vocabulary}
+    \td{Reason relations should be \em{reducible} to logical vocabulary.}
+    \td{Reason relations should be \em{expressible} by logical vocabulary.}
+  }
+  \tr{
+    \td{Nonlogical content, material inferences}
+    \td{Not possible (it is just hazily specified content / inferences)}
+    \td{Possible (\em{fever}, \em{cruel}, \em{birds can fly}, \em{torture is wrong})}
+  }
+  \tr{
+    \td{Search for generality}
+    \td{Exhibit all (doxastic) reasons as covertly logical reasons.}
+    \td{Find a logic which is \em{universally} [LX](role-001T).}
+  }
+
+}
+
+
+
+

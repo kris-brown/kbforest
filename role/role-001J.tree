@@ -1,0 +1,71 @@
+\date{2024-07-01}
+\title{Explicit example of logical elaboration}
+\import{base-macros}
+\import{role-001G}
+
+
+\RR2{\checkmark}{\times}{\checkmark}{\checkmark}{\checkmark}{\times}{\times}{\times}
+
+\p{We can make the above [reason relation on two bearers](role-001G) explicit.}
+
+\table{
+\tr{
+\th{}
+\th{#{\varnothing}}
+\th{#{a}}
+\th{#{b}}
+\th{#{a,b}}
+\th{#{\neg a}}
+\th{#{\neg b}}
+\th{#{\small{a\rightarrow b}}}
+\th{#{\small{b\rightarrow a}}}
+\th{#{\small{a\land b}}}
+\th{#{\small{a\vee b}}}
+\th{...}
+}
+\tr{
+\th{#{\varnothing}}
+\td{#{\times}}\td{#{\boxed{\checkmark}}}\td{#{\boxed{\times}}}\td{#{\boxed{\checkmark}}}
+\td{#{\checkmark}}\td{#{\times}}\td{#{\checkmark}}\td{#{\times}}\td{#{\times}}\td{#{\checkmark}}\td{...}
+}
+\tr{
+\th{#{a}}
+\td{#{\boxed{\checkmark}}}\td{#{\checkmark}}\td{#{\boxed{\checkmark}}}\td{#{\checkmark}}
+\td{#{\checkmark}}\td{#{\times}}\td{#{\checkmark}}\td{#{\checkmark}}\td{#{\checkmark}}\td{#{\checkmark}}\td{...}}
+\tr{
+\th{#{b}}
+\td{#{\boxed{\times}}}\td{#{\boxed{\times}}}\td{#{\checkmark}}\td{#{\checkmark}}
+\td{#{\times}}\td{#{\times}}\td{#{{\checkmark}}}\td{#{\times}}\td{#{\times}}\td{#{{\checkmark}}}\td{...}}
+\tr{
+\th{#{a,b}}
+\td{#{\boxed{\times}}}\td{#{\checkmark}}\td{#{\checkmark}}\td{#{\checkmark}}
+\td{#{\times}}\td{#{\times}}\td{#{{\checkmark}}}\td{#{{\checkmark}}}\td{#{{\checkmark}}}\td{#{{\checkmark}}}\td{...}}
+\tr{
+\th{#{\neg a}}
+\td{#{\checkmark}}\td{#{\checkmark}}\td{#{\checkmark}}\td{#{\checkmark}}\td{...}\td{...}\td{...}\td{...}\td{...}\td{...}\td{...}
+}
+\tr{
+\th{#{\neg b}}
+\td{#{\times}}\td{#{\checkmark}}\td{#{\times}}\td{#{\checkmark}}\td{...}\td{...}\td{...}\td{...}\td{...}\td{...}\td{...}
+}
+\tr{
+\th{#{\small{a\rightarrow b}}}
+\td{#{\times}}\td{#{\times}}\td{#{\checkmark}}\td{#{\checkmark}}\td{...}\td{...}\td{...}\td{...}\td{...}\td{...}\td{...}
+}
+\tr{
+\th{#{\small{b\rightarrow a}}}
+\td{#{\times}}\td{}\td{}\td{}\td{...}\td{...}\td{...}\td{...}\td{...}\td{...}\td{...}
+}
+\tr{
+\th{#{\small{a\land b}}}
+\td{#{\times}}\td{#{\checkmark}}\td{#{\checkmark}}\td{#{\checkmark}}\td{...}\td{...}\td{...}\td{...}\td{...}\td{...}\td{...}
+}
+\tr{
+
+\th{#{\small{a\vee b}}}
+\td{}\td{}\td{}\td{}\td{...}\td{...}\td{...}\td{...}\td{...}\td{...}\td{...}
+}
+\tr{
+  \th{...}\td{...}\td{...}\td{...}\td{...}\td{...}\td{...}\td{...}\td{...}\td{...}\td{...}\td{...}
+}
+}

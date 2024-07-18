@@ -1,0 +1,19 @@
+\date{2024-07-10}
+\title{About functorial semantics}
+\p{What is a less ad-hoc solution to the problem of generalizing to predicate logic? Traditional logic has been redescribed before in category-theoretic terms, which might give us a hint.}
+
+\p{The idea here is that we can interpret a (syntactic) logical theory in a category.}
+\ul{
+  \li{Primitive types in the theory are interpreted as objects.}
+  \li{Functions in the theory are interpreted as morphisms.}
+  \li{Relations in the theory are interpreted as subobjects.}
+  \li{Axioms in the theory are assertions of certain subobjects being equal.}
+  \li{Existential/universal quantifiers emerge as [adjoint functors](math-0028).}
+  \li{Models are functors from the theory into some semantics category.}
+}
+\p{Different presentations of the same logical theory end up as equivalent categories. (e.g. different presentations of theory of groups)}
+
+\p{Given enough structure in the category (e.g. pullbacks, coproducts), we can interpret logical connectives.}
+
+\p{This story has nice continuity with R4L: the logical connectives are don't \em{constitute} the underlying data of the category, but they are structure which it may have (thus it is \em{explicative}).}
+

@@ -1,0 +1,6 @@
+\date{2024-07-10}
+\title{Models of a coherent theory}
+\import{macros}
+\taxon{definition}
+
+\p{The \em{category of models} of a [coherent theory](math-003I) #{\mathbb{T}} is [equivalent](math-002B) to the [functor category](math-0033) #{[\cat{C}_\mathbb{T}, \mathbf{Set}]} from the [syntactic category](math-003J) to [\strong{Set}](math-003L) (though we could also think of models in any other [coherent category](math-003H).)}

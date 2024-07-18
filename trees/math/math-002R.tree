@@ -1,0 +1,4 @@
+\date{2024-07-09}
+\title{Compact topological space}
+\taxon{definition}
+\p{A [topological space](math-002Q) is \em{compact} if every [open cover] has a finite [subcover](math-002T).}

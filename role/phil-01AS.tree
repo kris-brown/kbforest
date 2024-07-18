@@ -1,0 +1,17 @@
+\date{2024-04-23}
+\title{Two-dimensional bilateralism}
+\import{macros}
+
+\subtree{\title{Implication (IMP)}
+\p{#{\Gamma \vsim A} says that commitment to all of #{\Gamma} precludes entitlement to commitment to \em{reject} #{A}}
+}
+
+\subtree{\title{Incompatibility (IMC)}
+\p{#{\Gamma \# A} says that commitment to all of #{\Gamma} precludes entitlement to commitment to \em{accept} #{A}}
+}
+
+\p{Connection to [bilateralism](phil-01AQ)}
+\ul{
+  \li{Being a reason \em{for} is being a reason to \em{accept}.}
+  \li{Being a reason \em{against} is being a reason to \em{reject}.}
+}

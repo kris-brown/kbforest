@@ -1,0 +1,10 @@
+\date{2024-06-08}
+\title{Range of subjunctive robustness (RSR) for set of implications}
+
+\p{Given an implication frame, the #{RSR} of a \em{set} of implications is their intersection}
+
+##{RSR(A \subseteq S) := \{(X,Y) \in S\ |\ \forall (\Gamma, \Delta) \in A, (\Gamma \cup X, \Delta \cup Y) \in \mathbb{I} \}}
+
+\p{Intersection is reasonable because RSR is an analogue [truth conditions](phil-01CD). }
+
+\p{Note that #{RSR(\varnothing)=S}}

@@ -1,0 +1,12 @@
+\date{2024-06-13}
+\title{Truthmaker semantics of logical vocabulary}
+\taxon{definition}
+
+\p{#{s \vDash \neg B := s ⫣ B}}
+\p{#{s ⫣ \neg B := s \vDash B}}
+
+\p{#{u \Cup t \vDash B \land C := u \vDash B \land t \vDash C}}
+\p{#{u \Cup t ⫣ B \land C := (u ⫣ B \land t ⫣ C) \vee (u \Cup t ⫣ B) \vee (u \Cup t ⫣ C)}}
+
+\p{#{u \Cup t \vDash B \vee C := (u \vDash B \land t \vDash C) \vee ( u \Cup t \vDash B) \vee (u \Cup t \vDash C)}}
+\p{#{u \Cup t⫣ B \vee C := u⫣ B \land t⫣ C}}

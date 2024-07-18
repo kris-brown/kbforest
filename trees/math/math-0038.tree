@@ -1,0 +1,9 @@
+\date{2024-07-10}
+\title{Boolean algebra}
+
+\subtree{\taxon{definition}
+
+\p{A \em{Boolean algebra} consists in a set #{X} ... (TODO)}
+}
+
+\p{This can be regarded as a [propositional theory](math-0039) modulo algebraic equivalence.}

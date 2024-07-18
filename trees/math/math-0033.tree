@@ -1,0 +1,10 @@
+\date{2024-07-09}
+\title{Functor category}
+\import{macros}
+\meta{external}{https://ncatlab.org/nlab/show/functor+category}
+\taxon{definition}
+\p{Given [categories](math-000D) #{\cat{C}} and #{\cat{D}}, the \em{functor category} #{[\cat{C},\cat{D}]} (or #{\cat{D}^\cat{C}}) has:}
+
+\ul{
+\li{As objects, [functors](math-000E) #{C \rightarrow D}}
+\li{As morphisms #{F \rightarrow G}, [natural transformations](math-002E) #{F \Rightarrow G}}}

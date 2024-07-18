@@ -1,0 +1,16 @@
+\date{2024-07-10}
+\title{Internal adjoint}
+\meta{external}{http://therisingsea.org/notes/ch2018-lecture13.pdf}
+\taxon{definition}
+\import{macros}
+
+\p{Let #{\mathcal{E}} be a [topos](math-002Y) and #{Y,Z} be objects of #{\mathcal{E}} and #{\varphi: \Omega^Y \rightarrow \Omega^Z} and #{\psi: \Omega^Z \rightarrow \Omega^Y}. We say #{\varphi} is \em{internally left adjoint} to #{\psi} if, we have an [adjunction](math-0028) for each #{A \in \mathcal{E}}:
+}
+
+% https://q.uiver.app/#q=WzAsMixbMCwwLCJ7XFxybSBIb219X1xcbWF0aGNhbHtFfShBLFxcT21lZ2FeWSkiXSxbMiwwLCJ7XFxybSBIb219X1xcbWF0aGNhbHtFfShBLFxcT21lZ2FeWikiXSxbMCwxLCItO1xcdmFycGhpIiwwLHsiY3VydmUiOi0xfV0sWzEsMCwiLTtcXHBzaSIsMCx7ImN1cnZlIjotMX1dLFsyLDMsIiIsMCx7ImxldmVsIjoxLCJzdHlsZSI6eyJuYW1lIjoiYWRqdW5jdGlvbiJ9fV1d
+\quiver{\begin{tikzcd}
+    {{\rm Hom}_\mathcal{E}(A,\Omega^Y)} && {{\rm Hom}_\mathcal{E}(A,\Omega^Z)}
+    \arrow[""{name=0, anchor=center, inner sep=0}, "{-;\varphi}", curve={height=-6pt}, from=1-1, to=1-3]
+    \arrow[""{name=1, anchor=center, inner sep=0}, "{-;\psi}", curve={height=-6pt}, from=1-3, to=1-1]
+    \arrow["\dashv"{anchor=center, rotate=-90}, draw=none, from=0, to=1]
+  \end{tikzcd}}

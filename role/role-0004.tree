@@ -1,0 +1,6 @@
+\date{2024-06-07}
+\title{Implication frame}
+\taxon{definition}
+
+\p{An \em{implication frame} is an [implication space](role-0002) equipped with a distinguished subset #{\mathbb{I} \subseteq S} (of good/endorsed implications).}
+

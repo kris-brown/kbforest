@@ -1,0 +1,5 @@
+\title{Semantic correctness}
+
+
+\blockquote{Acceptance is \em{semantically} correct just in case what is taken-true is true, and rejection is semantically correct just in case what is taken-false is false.
+}

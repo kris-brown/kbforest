@@ -1,0 +1,88 @@
+\date{2024-06-29}
+\title{Reason relations with two bearers}
+\import{base-macros}
+\import{macros}
+
+\p{#{\mathcal{B}:=\{a,b\}, \mathcal{P(B)}=\{\varnothing, \{a\},\{b\},\{a,b\}\}}. If we assume containment, this leaves #{2^8=256} reason relations, as one has to independently make the binary decision whether or not the following inferences are good:}
+
+\ul{
+\li{#{\vsim a}}
+\li{#{\vsim b}}
+\li{#{\vsim a,b}}
+\li{#{a \vsim}}
+\li{#{b \vsim}}
+\li{#{a,b\vsim}}
+\li{#{a\vsim b}}
+\li{#{b \vsim a}}
+}
+
+\p{This is far too many to enumerate, but each one is small enough to visually take stock of. We may benefit from taking a look at a few specific ones that might have interesting properties, along with natural interpretations of what #{a} and #{b} are such that the reason relation is plausible.}
+
+
+\def\RR2[x01][x02][x012][x10][x12][x20][x21][x120]{
+\table{
+\tr{
+\th{}
+\th{#{\varnothing}}
+\th{#{\{a\}}}
+\th{#{\{b\}}}
+\th{#{\{a,b\}}}
+}
+\tr{
+\th{#{\varnothing}}
+\td{#{\times}}\td{#{\boxed{\x01}}}\td{#{\boxed{\x02}}}\td{#{\boxed{\x012}}}
+}
+\tr{
+\th{#{\{a\}}}
+\td{#{\boxed{\x10}}}\td{#{\checkmark}}\td{#{\boxed{\x12}}}\td{#{\checkmark}}
+}
+\tr{
+\th{#{\{b\}}}
+\td{#{\boxed{\x20}}}\td{#{\boxed{\x21}}}\td{#{\checkmark}}\td{#{\checkmark}}
+}
+\tr{
+\th{#{\{a,b\}}}
+\td{#{\boxed{\x120}}}\td{#{\checkmark}}\td{#{\checkmark}}\td{#{\checkmark}}
+}
+}
+}
+
+\subtree{\title{Zazzles}
+\p{Background context #{\Gamma}: Zazzles is a cat}
+\ul{\li{#{a=}"Zazzles has 4 legs"} \li{#{b=}"Zazzles lost a leg in an accident"}}
+\RR2{\checkmark}{\times}{\checkmark}{\times}{\times}{\times}{\times}{\checkmark}
+
+\p{Non-monotonicity: adding premise #{b} invalidates the inference #{\vsim a}}
+}
+
+\subtree{\title{Contraries}
+\p{For some monochromatic patch:}
+\ul{\li{#{a=}"it is red"} \li{#{b=}"it is green"}}
+\RR2{\times}{\times}{\times}{\times}{\times}{\times}{\times}{\checkmark}
+}
+
+\subtree{\title{Contradictories}
+\p{Background context #{\Gamma}: a dog chases a rabbit and comes across a fork.}
+\ul{\li{#{a=}"the rabbit went left"} \li{#{b=}"the rabbit went right"}}
+\RR2{\times}{\times}{\checkmark}{\times}{\times}{\times}{\times}{\checkmark}
+
+\p{This is also a sub-reason-relation for contradictories in general:}
+\ul{\li{#{a=}"#{\phi}"} \li{#{b=}"#{\neg \phi}"}}
+
+\p{In both of the two cases with checkmarks: because of the meaning of #{\neg}, #{b} can be moved to the other side (and turned into #{a}), such that it becomes equivalent to #{a \vsim a}.}
+}
+
+\subtree{\title{Liar paradox}
+\p{In general, #{\neg \phi} is determined by #{\phi}. But if we happen to define #{\lambda := \tau(\neg \lambda)} (where #{\tau=}"It is true that...").}
+\ul{\li{#{a=}"#{\lambda}"} \li{#{b=}"#{\neg \lambda}"}}
+\RR2{\times}{\times}{\checkmark}{\times}{\checkmark}{\times}{\checkmark}{\checkmark}
+
+\p{So this adds #{a \vsim b} and #{b \vsim a} to the reason relation for contradictories. This introduces nonmonotonicity/nontransivity, which is commonly treated as paradoxicality.}
+}
+
+
+\subtree{\title{Simple material implication}
+\p{Background context: inside a philosophy seminar room}
+\ul{\li{#{a=}"Here is one hand"} \li{#{b=}"There is an external world"}}
+\RR2{\times}{\times}{\times}{\times}{\checkmark}{\times}{\times}{\times}
+}

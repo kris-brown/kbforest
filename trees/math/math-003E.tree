@@ -1,0 +1,27 @@
+\date{2024-07-10}
+\title{Syntax-semantics duality}
+\import{base-macros}
+
+
+\table{
+  \tr{
+    \th{Theory}
+    \th{Duality}
+    \th{Reference}
+  }
+  \tr{
+    \td{[Propositional](math-0039)}
+    \td{[Stone spaces](math-003D)}
+    \td{Johnstone 1982}
+  }
+  \tr{
+    \td{Equational}
+    \td{Lawvere theories}
+    \td{Adámek, Lawvere, Rosický 2003}
+  }
+  \tr{
+    \td{[Coherent](math-003I) / first order (due to [morleyization](math-003N))}
+    \td{?}
+    \td{Makkai 1987 and Awodey, Forssell, 2013}
+  }
+}

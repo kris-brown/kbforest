@@ -1,0 +1,13 @@
+\date{2024-06-01}
+\title{Ceteris paribus laws}
+\ref{ref-00B3}
+
+\p{\em{Ceteris paribus} means "all else equal", such as}
+
+\blockquote{Cats have four legs, all else equal}
+
+\p{Without the qualifer, one can claim the statement is false, because this particular cat here has three legs.}
+
+\subtree{\title{Relation to defeasibility}
+  \p{Although one may think of including \em{ceteris paribus} is a way of stipulating something indefeasible, all it does is serve to mark the defeasibility.}
+}

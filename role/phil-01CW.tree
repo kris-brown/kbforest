@@ -1,0 +1,15 @@
+\date{2024-06-03}
+\title{Implication in an implication space model}
+\import{macros}
+
+\p{Model theory for implication space models makes no reference to \em{truth}: the basic semantic notion is one of implication.}
+
+
+\subtree{\taxon{definition}\number{72}
+
+\p{Given an [implication space model](phil-01CV) #{\mathcal{M}}, the following condition determines if #{\Gamma} model-theoretically implies #{\Delta}: ##{\Gamma \vsimm{\mathcal{M}} \Delta := {\brack{\Gamma}^\mathcal{M} \Vsim \brack{\Delta}^\mathcal{M}} }}
+}
+
+\p{This can be generalized to implication in a set of models, #{m}: }
+
+##{\Gamma \vsimm{m} \Delta := \forall \mathcal{M} \in m, \Gamma \vsimm{\mathcal{M}} \Delta}

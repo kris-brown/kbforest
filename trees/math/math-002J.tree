@@ -1,0 +1,3 @@
+\title{Surjective function}
+\taxon{definition}
+\p{A function #{f: X \rightarrow Y} is \em{surjective} if, for all #{y \in Y}, there exists a #{x \in X} such that #{f(x) = y}.}

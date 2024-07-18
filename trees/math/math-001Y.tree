@@ -1,0 +1,7 @@
+\date{2024-07-01}
+\title{Categorical proof theory}
+
+\p{Propositions should be interpreted as objects the an appropriate category.}
+\p{Natural deduction proofs should be interpreted as morphisms of that category.}
+\transclude{math-001Z}
+\p{[Symmetric monoidal categories](math-0020) are sound and complete for rudimentary [linear logic](math-0027).}

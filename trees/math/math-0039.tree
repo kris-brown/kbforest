@@ -1,0 +1,5 @@
+\date{2024-07-10}
+\title{Propositional theory}
+\taxon{definition}
+
+\p{A \em{propositional theory} is interpreted by propositional logic. It consists in a set of propositional variables #{V} (e.g. #{\{P,Q,R\}}) and a set of formulas #{A} (e.g. #{P\land Q, Q\rightarrow R}) that are asserted to obtain.}

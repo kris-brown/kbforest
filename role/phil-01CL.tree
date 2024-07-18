@@ -1,0 +1,9 @@
+\date{2024-06-02}
+\title{Geometry incompatibility nonmonotonicity}
+\import{macros}
+
+\p{Reason relations in some material base [lexicon](phil-01CI) #{\mathfrak{B}}.}
+
+\p{[p] This figure is a triangle [q] The sum of this figure's inner angles exceeds two right angles #{\vsimB}}
+
+\p{[p], [q], [r] This figure is a spherical triangle #{\nvsimB}}

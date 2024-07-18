@@ -1,0 +1,6 @@
+\date{2024-06-13}
+\title{Operational rules of NMMS in terms of impossible states}
+\taxon{lemma}
+\number{41}
+
+\p{For every application of an operational rule of NMMS, the set of states deemed impossible by the bottom-sequent is the union of the sets of states deemed impossible by the top-sequents.}

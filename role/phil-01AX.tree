@@ -1,0 +1,14 @@
+\date{2024-04-23}
+\title{Implicit commitment to attitudes towards claimables}
+
+\p{Commitments to accept and to reject are implicit in [preclusions](phil-01AS) of entitlement to reject and to accept, respectively.}
+
+\subtree{\title{Pragmatically Implicit Acceptance (PIA)}
+\p{To be precluded from entitlement to (commitment to) reject #{A} is to be implicitly committed to accept #{A}.
+}
+}
+\subtree{\title{Pragmatically Implicit Rejection (PIR)}
+\p{To be precluded from entitlement to (commitment to) accept #{A} is to be implicitly committed to reject #{A}.}}
+
+
+\p{This is a weaker version (that avoids the critique of the [Harman point](role-001L)) of the naive reading of modus ponens as saying accepting #{p} and #{p \rightarrow q} obliges one to accept #{q}. In fact, it gets at the underlying (good) idea underlying that mistake.}

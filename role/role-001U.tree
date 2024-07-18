@@ -1,0 +1,7 @@
+\date{2024-07-06}
+\title{Making Base Reason Relations Explicit By One Sequent}
+\import{macros}
+\taxon{definition}
+\number{6}
+
+\p{Let #{AtomicImp = \{\Theta_1 \vsimB \Gamma_1, ...\} \subseteq \vsimB} be a set of implications in the base consequence relations. Then the sequent #{\Gamma \vdash \Delta} makes #{AtomicImp} explicit (by one sequent) iff #{\Gamma \vsim \Delta} just in case #{\Theta_1 \vsimB \Lambda_1}, and ... }

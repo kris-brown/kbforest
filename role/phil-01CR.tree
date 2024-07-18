@@ -1,0 +1,12 @@
+\date{2024-06-03}
+\title{Adjunction of implicational roles}
+
+\subtree{\taxon{definition}\number{67}
+
+\p{For #{F, G \subseteq \mathbb{S}}, the adjunction #{\mathcal{R}(F) \sqcup \mathcal{R}(G)} of the implicational roles of #{F} and #{G} is:}
+
+##{\mathcal{R}(\{(\Gamma \cup \Delta, \Theta \cup \Lambda)\ |\ (\Gamma, \Theta) \in F, (\Delta, \Lambda) \in G\})}
+}
+
+\p{This does not depend on which representative of the implicational role is selected.}
+

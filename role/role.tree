@@ -1,0 +1,63 @@
+\title{Categorification of logical expressivism}
+\import{macros}
+\put\transclude/expanded{false}
+
+\subtree{\title{R4L chapter summaries}
+  \p{Most thorough is Chapter 5, so other chapters may be very incomplete.}
+  \transclude{role-0009}
+  \transclude{role-000I}
+  \transclude{role-0008}
+  \transclude{role-000K}
+  \transclude{phil-01D4}
+  \transclude{role-001O}
+}
+
+\subtree{\title{Idea scratchpad}
+\transclude{role-001X}
+\subtree{\title{Statics}
+  \transclude{role-001B}
+  \transclude{role-0011}
+  \transclude{role-0012}
+  \transclude{role-0001}
+  \transclude{role-0007}
+  \transclude{phil-01CD}
+  \transclude{phil-01CC}
+  \transclude{role-000A}
+  \transclude{role-000B}
+  \transclude{role-000C}
+  \transclude{role-001C}
+  \transclude{role-0014}
+  \transclude{role-0015}
+}
+\subtree{\title{Dynamics}
+\p{At first glance, there are two kinds of dynamics. }
+\ul{
+\li{Updating a set of commitments (distinguished set of bearers) with respect to a reason relation}
+\li{Updating a reason relation with respect to another reason relation (via a model, #{\brack{\cdot}})}
+}
+\p{If we understand a set of commitments \em{as} a reason relation (because the commitments include logical vocabulary), then we can complete the circle: commitments can be responsible to norms (whether pragmatic-normative or alethic modal), and norms can be responsible to commitments.}
+\transclude{role-0019}
+\transclude{role-000F}
+\transclude{role-001I}
+}
+}
+
+\subtree{\title{Concrete examples}
+  \transclude{role-001G}
+}
+
+\transclude{role-0016}
+
+\subtree{\title{Presentations}
+  \transclude{role-001E}
+  \transclude{role-000H}
+}
+
+\subtree{\title{Papers}
+  \ul{
+    \li{\em{Perspectives} by Asudeh and Giorgolo: codifying how a proposition can be indexed by an individual whose perspective it is via the reader [monad](math-002D).}
+    \li{\em{First-order logical duality} by Awodey and Forssell: generalizes [syntax-semantics adjunction](math-003E) for propositional logic ([Stone representation theorem](math-003D)) to predicate logic. Normally, categorical logic jumps straight to higher order logic, so this is an interesting intermediate point to look at.}
+    \li{\em{Affine logic for constructive mathematics} by Shulman: Talks about pathologies of classical/intuitionistic logic coming from focusing only on proofs and not refutations (reasons for without reasons against).}
+    \li{\em{A Fibrational Framework for Substructural and Modal Logics} by Shulman, Licata, Riley. "We have described a sequent calculus that can express a variety of substructural and modal logics through a suitable choice of mode theory. The framework itself enjoys identity and cut admissibility for all mode theories, and these properties are inherited by the logics that are represented in it. The logic corresponds semantically to a fibration between 2-dimensional cartesian multicategories, and so gives both a syntactic and semantic account of the idea that substructural and modal logics are constraints on structural proofs"}
+  }
+}

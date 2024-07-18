@@ -1,0 +1,10 @@
+\date{2024-06-04}
+\title{Implication space conceptual content}
+\subtree{\taxon{definition}\number{66}
+\p{A \em{conceptual content} is a pair of [implicational roles](phil-01CQ). }
+
+\p{The collection of all contents of an [implication frame](phil-01CO) is written #{\mathbb{C}}.}
+
+}
+
+\p{For example, let #{F,G} be sets of candidate implications. Then #{a=(a^+,a^-)=(\mathcal{R}(F), \mathcal{R}(G))} is an element of #{\mathbb{C}}.}

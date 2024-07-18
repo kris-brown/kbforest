@@ -1,0 +1,9 @@
+\date{2024-06-13}
+\title{Modalized state space fusion}
+
+\taxon{definition}
+\number{36}
+
+\p{The fusion of a set of states of a [modalized state space](role-000M) is their least upper bound.}
+
+\p{This is written #{t_1 \Cup ... \Cup t_n}}

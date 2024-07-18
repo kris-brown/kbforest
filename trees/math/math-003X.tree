@@ -1,0 +1,8 @@
+\date{2024-07-15}
+\title{Monomorphism}
+
+\taxon{definition}
+
+\p{A morphism #{f: A\rightarrow B} in a [category](math-000D) is a \em{monomorphism} (#{f} is \em{monic}) if, for every pair of morphisms #{g_1,g_2: C\rightarrow A}: }
+
+##{g_1\cdot f = g_2 \cdot f \implies g_1 = g_2}

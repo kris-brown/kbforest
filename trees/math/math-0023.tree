@@ -1,0 +1,11 @@
+\title{Product category}
+\import{macros}
+\p{A \em{product category} #{\cat{C}\times \cat{D}} of [categories](math-000D) #{\cat{C}} and #{\cat{D}} is the [categorical product](math-0024) in the category [Cat](math-000F). More concretely:
+}
+
+\ul{
+\li{Objects: all pairs of objects #{(c,d)} for each pair of objects #{c \in \Ob_\cat{C}} and #{d \in \Ob_\cat{D}}}
+\li{Morphisms #{(c_1,d_1) \rightarrow (c_2,d_2)}: all pairs of arrows #{(f,g)} where #{f \in \Hom_\cat{C}(c_1,c_2)} and #{f \in \Hom_\cat{D}(d_1,d_2)}}
+\li{Composition: #{(f,g)\cdot_{\cat{C}\times\cat{D}}(f',g'):=(f\cdot_\cat{C} f',g\cdot_\cat{D}g')}}
+\li{Identity for #{(c,d)}: This is #{(1_c \in \Hom_\cat{C}(c,c), 1_d \in \Hom_\cat{D}(d,d))}}
+}

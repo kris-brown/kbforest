@@ -1,0 +1,11 @@
+\date{2024-06-08}
+\title{Truth conditions}
+
+\p{Here is a concreteness spectrum of ways of thinking of truth conditions:}
+
+\ul{
+  \li{Truth conditions (e.g. truthmakers) are real things which \em{make} (ground) sentences true or not.}
+  \li{Modally-robust covariation, expressed by subjunctive conditionals: "If the worldly situation \em{were} thus-and-so, the sentences \em{would be} true."}
+  \li{The truth conditions of (the content of) a sentence is a function from world states to truth values.}
+}
+

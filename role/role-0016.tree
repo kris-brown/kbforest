@@ -1,0 +1,64 @@
+\date{2024-06-17}
+\title{ROLE: Open questions}
+\import{macros}
+
+
+\subtree{
+\p{Working the the reason relation [here](role-001W), imagine I have a one sentence lexicon #{\{x\}} and have a model #{\brack{x} = (RSR((\{a\}, \varnothing)), RSR((\varnothing), \{a\}))} (i.e. I give the sentence the premisory and conclusory role of the bearer #{a} in the reason relation). Because the implication #{\varnothing \vsim a}, holds, I would've expected the model entailment #{\varnothing \vDash x} to hold, but that doesn't seem to be the case when I work out the calculation (by hand and with my code). Perhaps I'm misunderstanding something here. This is motivated by the idea that there should be some kind of "identity" interpretation function.}
+}
+
+\subtree{
+\p{Could the [transition](role-001D) from modalized state spaces to "worldly propositions" be more motivated? Ideally I would want to have some sort of proof that these are equivalent things, especially if we're using this move to say that modalized state spaces share a common structure with the pragmatic normative reason relations. E.g. there is an [equivalence of categories](math-002B) #{F, G: RRel \leftrightarrows StateSpace} ... however, this doesn't seem plausible because #{(B, I) \mapsto (\mathcal{P}(B)^2, \varnothing, \cup, I)} and #{(S,0,+,S^\diamond) \mapsto (\mathcal{P}(S)^2, \Gamma \vDash \Delta)} ... these maps can only hit upon lexicons / state spaces which have #{2^n} bearers / states.
+}
+
+\p{Which is taken to be more 'fundamental' from the implication space persepctive?}
+}
+
+\subtree{
+  \p{How should we think of the structure of \em{commitments}? Are they just an endorsed subset of bearers? Or are they an endorsed subset of implications?}
+}
+
+\subtree{
+\p{The notions of making reason relations explicit [by implication](phil-01CM) or [by one sequent](role-001U) seem like extensional definitions, whereas it seems essential to the notion of making something explicit that it be subjunctively robust (not only does such-and-such hold, but if the reason relations with #{a} had been different, such-and-such would be different). So sometimes it seems like the only way to make sense of this is in a context where we can talk about relations (between reason relations) which are normative (as in my [double category of reason relations](role-000F)) - does this seem reasonable?}
+}
+
+\subtree{
+  \p{See \ref{role-0013}}
+}
+
+
+\subtree{
+
+\p{Related to [discrete belief update](role-0018): suppose}
+\ul{
+\li{#{a\vsim \Gamma} and #{a,b\vsim \Delta} are good reasons according to #{RR}}
+\li{#{\Gamma \cap \Delta = \varnothing}}
+\li{I am commited to at least #{\{a,b\}}}
+}
+
+\p{Is there some sense in which the obligations from the second implication normatively override obligations of the first? We'd still get nondeterministic dynamics, but less so.}
+
+\p{Relatedly what if I was consciously aware of #{a} but had forgotten I had explicitly committed to #{b} yesterday? Is it worth exploring the complexity of \em{self-aware} commitments #{X \subseteq C \subseteq \mathcal{B}}?}
+}
+
+\subtree{
+\p{What is lost by considering interpretation functions as sending atomic sentences to inferential roles? I.e. what if conceptual contents were just roles, rather than pairs of premisory and conclusory roles? [Model entailment](phil-01CS) for a conceptual content discards the conclusory part of the premisory role and the premisory part of conclusory role.}
+\p{I understand we need this to make negation swap the premisory and conclusory role, but I find this hard to motivate.}
+}
+
+% \subtree{
+% \p{Will the notion of map between implication frames be required to send bad inferences to bad inference or could it send them to good or bad inferences? The fact that conservative extensions of a base vocabulary cannot change good to bad nor vice-versa makes me think morphisms should only send bad to bad, though that makes the category much less nice.}
+
+% \p{Another argument in favor of not allowing bad to good mapping is that it institutes an asymmetry that may or may not be something we want.}
+
+% \p{Argument against: we can think of a lexicon as inducing a kind of reason  relation with zero commitments about what follows from what. It then has a map into any implication frame on that same implication space. It is thus 'free' and this matches our notion of the role syntax must play (see below).}
+
+% \p{(Bob's argument for asymmetry between #{\bot,\top}: all true claimables are compatible with each other, but not so when you swap.)}
+% }
+
+\subtree{
+  \p{Is the move from interpretation function as a relation between a lexicon to implication frame to a relation that holds between implication frames welcome?}
+
+  \p{I think it lets us talk about the relationship between syntax and semantics/pragmatics (in algebraic theories, we think of \em{free} objects as syntax: here the free implication frame on a lexicon (zero)). It lets us talk about order of explanation in a certain way.}
+}
+

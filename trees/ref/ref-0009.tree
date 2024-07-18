@@ -64,7 +64,7 @@
       }
       \tr{
         \td{Example }
-        \td{If a patient has a high fever, it's good to infer that they bacterial infection. However, if it's also the case thatthe patient recently took a certain fever-inducing drug then it's no longer a good inference that they have a bacterial infection. }
+        \td{If a patient has a high fever, it's good to infer that they bacterial infection. However, if it's also the case that the patient recently took a certain fever-inducing drug then it's no longer a good inference that they have a bacterial infection. }
         \td{A straight line is the shortest distance between two points, and if those points happen to be vertices of a triangle, it's still the case that straight line is the shortest distance between two points.}
       }
       \tr{

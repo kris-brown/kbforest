@@ -1,0 +1,14 @@
+\date{2024-06-01}
+\title{Logical entailment has topological closure structure}
+
+\p{Logical entailment has been taken to have a [topological closure structure](math-0006)
+  since [Gentzen](ref-00B2) and [Tarski](ref-00B1).}
+
+\p{Examples}
+
+\ul{
+  \li{[Classical logic](phil-0020)}
+  \li{[Intuitionistic logic](phil-0057)}
+  \li{Modal logics built atop these: S4 and S5}
+  \li{Traditional multivalued logics: K3 and its dual LP}
+}

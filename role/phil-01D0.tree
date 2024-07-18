@@ -1,0 +1,15 @@
+\date{2024-06-03}
+\title{Abstract structure of [implication space semantics](phil-01D3)}
+
+\p{An [implication frame](phil-01CO) requires a [commutative monoid](math-001Q) #{(M, +, 0)} with a distinguished subset  #{I \subseteq M}.}
+
+\p{We can think of the elements of #{M} are pairs of sets of implication role bearers, i.e. think of #{M = \mathcal{P(B) \times P(B)}}. In this case, the binary operation is pointwise union. We also can think of #{M} as pairs of multisets, #{M=\mathbb{N}^\mathcal{B} \times \mathbb{N}^\mathcal{B}}}
+
+\p{We need a way of combining elements of #{M} because this is essential to defining the [range of subjunctive robustness](phil-01CP) ("what can I combine #{(\Gamma,\Delta)} with while preserving the propriety of an inference?").}
+
+##{RSR(X \subseteq M) := \{m \in M\ |\ \forall x \in X: x + m \in I\}}
+
+
+\p{We need the binary operation to be associative and commutative because the ordering and grouping of premises does not matter for implications.}
+
+\p{Once we have a notion of #{RSR}, we can define implicational roles purely in terms of it.}

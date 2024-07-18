@@ -1,0 +1,5 @@
+\date{2024-07-10}
+\title{Morleyization}
+\taxon{definition}
+
+\p{The \em{Morleyization} of a finitary first-order theory is its conversion to an equivalent (classically) [coherent theory](math-003I) by systematically replacing #{\forall x, P} wth #{\neg \exists x, \neg p} and #{P \Rightarrow Q} with #{\neg P \vee Q}.}

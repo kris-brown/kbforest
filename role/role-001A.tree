@@ -1,0 +1,17 @@
+\date{2024-06-21}
+\title{Belief update with models}
+\import{macros}
+
+\p{[Previously](role-0018) we focused updating with respect to a fixed, ground truth reason relation.}
+
+\p{This reason relation was a pragmatic, normative reason relation, given that its underlying set was pairs of sets of bearers (\em{our} language).}
+
+\p{How can we make sense of a reason relation \em{induced} by our language representing the world?}
+
+\p{We now need, as our initial data, a [truthmaker semantics model](role-000O) #{(\mathcal{L,M})} where #{\mathcal{M}} is a [modalized state space](role-000M) #{(S, S^\diamond,\sqsubset)}. Our notion of commitment is now a subset of our lexicon #{C \subseteq \mathcal{P(L)}} as well as an [interpretation function](phil-01CU), \brack{\cdot}, which is a function #{\mathcal{L}\rightarrow \mathcal{P}(S)^2} (assignment of truthmakers and falsemakers).}
+
+\p{This model gives us a model entailment relation #{\underset{TM}\vDash \subseteq \mathcal{P(L)^2}}, which can serve as the #{\mathbb{I}} of a reason relation on lexicon #{\mathcal{L}}. Everything before now carries over, except we have a new degree of freedom for how we can rationally update. Although we are not free to rationally change #{\mathcal{M}}, we can change our \em{model} of #{M}. The space of our commitments is now #{Comm:=(2 \times \mathcal{P}(S)^2)^\mathcal{L}}.}
+
+\p{The dynamics of our space of commitments matches the previous dynamics when the interpretation function is held fixed. However, we are also entitled to rationally update via changing the interpretation function to resolve an incompatibility. The space of changes here is adding (or removing) truthmakers (or falsemakers) for some set of sentences in #{\mathcal{L}}.}
+
+\p{Again our updates select a set of obligations: #{{(I \subseteq \mathbb{I}, u \in Comm)}}. The data of #{{u \cong (Add, Del, Add_{TM}, Del_{TM})}} (with #{Add_{TM}, Del_{TM} :\mathcal{L}\rightarrow\mathcal{P}(S)}) with says which elements are added, which are deleted, and for each element of #{\mathcal{L}} which truthmakers and falsemakers are added or deleted. It's clear how an obligation gets addressed by #{Add} or #{Del} as before, but what does it mean for an obligation (induced by #{\underset{TM}\vDash}) to be addressed by modifying #{\brack{\cdot}}? Any change to #{\brack{\cdot}} induces a change in #{\underset{TM}\vDash} which can be captured by which implications get toggled, i.e. there is a function from changes to truth/falsemakers to changes in goodness of inference: #{\Delta_\vDash : (\mathcal{P}(S)^2)^\mathcal{L} \rightarrow \mathcal{P(P(L)^2)}}. From this we can understand some addition or deletion of truth/falsemakers as responsive to some set #{I \subseteq \mathbb{I}}.}

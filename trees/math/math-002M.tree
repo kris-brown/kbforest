@@ -1,0 +1,6 @@
+\date{2024-07-08}
+\title{Essentially surjective functor}
+\import{macros}
+\taxon{definition}
+
+\p{A [functor](math-000E) #{F: \cat{C}\rightarrow \cat{D}} is \em{essentially surjective} if, for any object #{d} in #{\cat{D}}, there exists an object #{c} in #{\cat{C}} such that #{F(c)\cong d}.}

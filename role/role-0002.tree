@@ -1,0 +1,14 @@
+\date{2024-06-07}
+\title{Implication space (commutative monoid)}
+\taxon{definition}
+
+\p{An \em{implication space} #{\mathbb{S}} is a commutative monoid #{(S, +, 0)}.}
+\ul{
+\li{#{S} is thought of as a space of candidate implications, prototypically #{\mathcal{{P(B)\times P(B)}}} for some set of bearers #{\mathcal{B}}.}
+\li{#{+} is an operation which combines implications, prototypically thought of as unioning the premise and conclusion sets.}
+\li{#{0} is prototypically thought of as a pair empty premise and conclusion sets.}
+}
+
+\p{This is an \em{implication frame} if we add the data #{\mathbb{I} \subseteq S}.}
+
+\p{We define the range of subjunctive robustness #{RSR(A\subseteq S) := \{s \in S\ |\ \forall a \in a: a+s\in \mathbb{I} \}}}

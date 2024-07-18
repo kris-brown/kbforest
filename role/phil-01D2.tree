@@ -1,0 +1,12 @@
+\title{Implicational role inclusion}
+
+\p{[Implicational roles](phil-01CQ) induce an equivalence class on pairs of sets of bearers (that they can be substituted for each other \em{salva consequentia}), but there is a finer-grained structure, noting that sometimes #{A} can be substituted for #{B} but not vice-versa.}
+
+\subtree{\taxon{definition} \number{90}
+\p{Given a set of [implication-space models](phil-01CV) #{m}, we can say the set of implicational roles #{R_{i \in I}} is \em{included in} the set of implicational roles #{R_{j \in J}}: }
+
+##{R_{i \in I} \preceq R_{j \in J} := RSR(\sqcap R_i) \subseteq RSR (\sqcup R_j)}
+}
+
+
+

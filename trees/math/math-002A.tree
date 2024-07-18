@@ -1,0 +1,7 @@
+\title{Adjoint functors hom set definition}
+\taxon{definition}
+\import{macros}
+
+\p{Given two functors #{F: \cat{D}\rightarrow \cat{C}} and #{G: \cat{C} \rightarrow \cat{D}}, one says #{F} is left adjoint to #{G} (i.e. #{G} is right-adjoint to #{F}) if there is a [natural isomorphism](math-0032) #{\Hom_\cat{D}(L(c), d)\cong \Hom_\cat{C}(c \rightarrow R(d))} for all objects #{c \in \Ob \cat{C}} and #{d \in \Ob \cat{D}}.
+}
+

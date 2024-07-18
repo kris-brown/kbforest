@@ -1,0 +1,8 @@
+\date{2024-07-05}
+\title{Snake turnstile}
+\taxon{notation}
+\import{macros}
+
+\p{#{\Gamma \vsim A} denotes that a set of claimables #{A} \em{implies} a claimable #{A}.}
+
+\p{By not using #{\vdash} or #{\vDash} this emphasizes we are talking about \em{material} inferences.}

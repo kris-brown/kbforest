@@ -1,0 +1,25 @@
+\date{2024-06-15}
+\title{Interpretting implication frames as phase spaces (appendix)}
+\taxon{lemma}
+\number{121}
+
+\p{There is a function #{f} sending [implication frames](phil-01CO) #{(\mathbb{S}=\mathcal{P(B)^2},\mathbb{I\subseteq S})} to [phase spaces](math-001S) #{(P,1,\bullet,\bot_P \subseteq P)}.}
+
+\ul{
+\li{#{f(\mathbb{S}) := P}, #{f(e)=1}, #{f(\mathbb{I})=\bot_P}}
+\li{Let #{G,H \subseteq \mathbb{S}} and #{G \circ H := \{(X\cup Y,Z\cup W)\ |\ (X,Z)\in G, (Y,W) \in H\}}}
+\li{#{f(G \circ H) := f(G) + f(H)}}
+}
+
+\p{The "mapping" as stated in R4LL4R seems problematic}
+
+\ul{
+\li{#{\circ} is a binary operation on \em{subsets} of #{\mathbb{S}}, yet #{f(G) \bullet f(H)} wouldn't make sense unless #{\bullet} were defined for subsets of #{P} (it is only for elements of #{P} as stated)}
+\li{I assume #{f(\bot_P)=\mathbb{I}_M} is a typo, where it was meant to be the other way around (all the other parts of the mapping are from the implication frame vocabulary \em{to} the phase space vocabulary).}
+\li{It seems odd that the mapping is being defined in this direction at all if implication frames are more general than phase spaces.}
+}
+
+
+\p{The definition of #{RSR(s \in S)} matches precisely with the definition of #{\{p\}^\bot}.}
+\p{So #{e \in RSR(g \sqcup h)=RSR(g \circ h)} ([adjunction](phil-01CR)) iff #{0 \in (f(g) + f(h))^\bot}}
+

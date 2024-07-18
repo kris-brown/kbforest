@@ -1,0 +1,5 @@
+\date{2024-07-09}
+\title{Totally disconnected space}
+\taxon{definition}
+
+\p{A \em{totally disconnected} [topological space](math-002Q) has only singletons as connected subsets.}

@@ -1,0 +1,7 @@
+\date{2024-07-10}
+\title{Category of sets and functions}
+\taxon{definition}
+
+\p{\strong{Set} is the [category](math-000D) whose objects are [sets](math-0001) and whose morphisms are [functions](math-000V).}
+
+

@@ -1,0 +1,12 @@
+\date{2024-06-13}
+\title{Category of modalized state spaces}
+
+\p{A [modalized state space](role-000M) is equivalent to a commutative monoid with a distinguished subset.}
+
+\p{This could be modeled as the category of models of a finite limit sketch, which is a locally presentable category, which gives us:}
+
+\ul{
+  \li{It has all limits}
+  \li{It is well-powered and well-copowered.}
+  \li{It is the [reflective subcategory](https://ncatlab.org/nlab/show/reflective+subcategory) of a presheaf category.}
+}

@@ -1,0 +1,32 @@
+\date{2024-06-08}
+\title{Nonmonotonic symmetric monoidal preorder structure of reason relations}
+
+\p{Consider a [symmetric monoidal preorder](https://math.ucr.edu/home/baez/act_course/lecture_22.html) #{(S::\mathbf{Set}, +::S^{S\times S}, 0::S, \leq :: \mathbb{B}^{S \times S})}, but \em{missing} the monotonicity condition.}
+
+##{(a \leq x) \land (b \leq y) \implies (a \otimes b) \leq (x\otimes y)}
+
+\p{Think of the elements of the set as elements of #{S:=\mathcal{P(B)\times P(B)}}, and #{(\Gamma, \Delta) \leq (\Theta, \Lambda)} is taken to mean #{RSR((\Gamma, \Delta))\subseteq RSR((\Theta, \Lambda))}.}
+
+\p{The lack of the monotonicity corresponds to the lack of relation between the distinguished subset and the monoid operation. Monotonicity corresponds  to monotonicity in the logical sense: adding premises or possible conclusions must preserve validity.}
+
+\p{This is more abstract than a commutative monoid with a distinguished subset, as it encodes \em{less} data: we don't know \em{what} the [RSR](phil-01CP) is, just how the RSRs of the implications relate to each other.} 
+
+
+\p{Can we recover the notion of [RSR for sets of implications](role-0005)? (at least in a \em{relative} sense)} 
+\ul{
+\li{There is a poset of sets of implications via inclusion. If #{A \subseteq B} then #{RSR(B) \subseteq RSR(A)}, as the added elements of #{B} can constrain the RSR set.}
+\li{Another general case is #{\{a\} \overset{?}\leq B}. In this case, this is true if #{\forall b \in B, a \leq b}.}
+
+\li{However, consider #{\{a,b\}\overset{?}\leq \{c\}}. It might be that #{a \nleq c} and #{b \nleq c} yet #{\forall s \in S, s+a \in I \land s+b \in I \implies s+c \in I}.}
+}
+
+\p{This seems like a fatal flaw: we don't have enough resources to reproduce the material.}
+
+
+\subtree{\title{Advantages (if it had worked)}
+\ul{
+\li{Definition does not rely on a notion of bearers.}
+\li{We encode information \em{relationally}, so we'll even forgo the notion of a [RSR].}
+\li{A symmetric monoidal preorder is a nicer structure to think about categorically than a commutative monoid with a distinguished subset.}
+}
+}

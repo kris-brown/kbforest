@@ -1,0 +1,5 @@
+\title{Endofunctor}
+\taxon{definition}
+\import{macros}
+
+\p{An \em{endofunctor} is an endomorphism in [Cat](math-000F), i.e. a [functor](math-000E) #{\cat{C} \rightarrow \cat{C}} for some [category](math-000D) #{\cat{C}}.}

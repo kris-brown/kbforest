@@ -1,0 +1,10 @@
+\date{2024-07-10}
+\title{Recovering a propositional theory from a class of models}
+\import{macros}
+
+\p{We can retrieve (the [syntactic category](math-003A) of) a [propositional theory](math-0039) #{\mathcal{B}} from its [class of models](math-003B) #{{\rm Mod}_\mathcal{B}} by considering the class of models [as a Stone space](math-003D):
+}
+
+##{\mathcal{B} \cong \Hom_{\mathbf{Stone}}({\rm Mod}_\mathcal{B}, 2)}
+
+\p{Where #{2} is the two-element [Stone space](math-002P).}

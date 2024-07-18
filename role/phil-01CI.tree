@@ -1,0 +1,13 @@
+\date{2024-06-02}
+\title{Material base}
+
+\import{macros}
+
+\subtree{\taxon{definition}
+
+\p{A \em{material base} #{\mathfrak{B}}, is an [atomic language](phil-01B6) #{\mathfrak{L_B}} with
+a base [consequence relation](phil-01AS) #{{\vsim_\mathfrak{B}\ \subseteq\ \mathcal{P}(#{\mathfrak{L_B}}) \times \mathcal{P}(#{\mathfrak{L_B}})}} }
+
+
+\p{This is said to obey [containment](phil-01BP) iff #{\Gamma \cap \Delta \ne \varnothing} implies that #{(\Gamma, \Delta) \in \vsim_\mathfrak{B}}. This codifies the incoherence of explicitly accepting a premise and rejecting it at the same time.}
+}

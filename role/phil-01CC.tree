@@ -1,0 +1,8 @@
+\date{2024-05-31}
+\title{Same-saying equivalence relation among sentences}
+
+\p{The same-saying equivalence relation among sentences (in a context of utterance) is the equivalence relation of the fibers of a function from such sentences to conceptual contents.}
+
+##{Sentences/\sim \ \Longleftrightarrow\  Sentences \twoheadrightarrow Contents}
+
+\p{This can work explanatorily in both ways: we can explain why #{\varphi} and #{\psi} say the same thing by pointing out the have the same content. But we can also understand the content as the class of same-saying sentences in context.}

@@ -1,0 +1,26 @@
+\date{2024-07-08}
+\title{Equivalence of categories}
+\import{macros}
+
+\subtree{\taxon{definition}
+
+\p{Given two [categories](math-000D) #{\cat{C}} and #{\cat{D}}, the data of an \em{equivalence} is:}
+
+\ul{
+\li{[Functors](math-000E) #{F: \cat{C}\rightarrow \cat{D}} and #{G: \cat{D}\rightarrow \cat{C}}
+\li{[Natural transformations](math-002E) #{\epsilon: FG \Rightarrow 1_D}} and #{\eta: 1_C \Rightarrow GF}
+}
+}
+}
+
+\p{This data is more conveniently specified just in terms of the data of one direction:}
+
+\subtree{\taxon{definition}
+
+\p{Given two [categories](math-000D) #{\cat{C}} and #{\cat{D}}, the data of a weak \em{equivalence} is a functor #{F: \cat{C}\rightarrow \cat{D}} that is:}
+
+\ul{
+  \li{[Full](math-002I)}
+  \li{[Faithful](math-002K)}
+  \li{[Essentially surjective](math-002M)}}
+}

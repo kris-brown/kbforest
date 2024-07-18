@@ -1,0 +1,9 @@
+\date{2024-06-04}
+\title{Preorder}
+
+\subtree{\taxon{definition}
+\p{A \em{preorder} is a set #{X} with a binary relation #{\leq} that is}
+
+\p{Reflexive: #{\forall x \in X, x \leq x}}
+\p{Transitive: #{\forall x,y,z \in X, x \leq y \land y \leq z \implies x \leq z}}
+}

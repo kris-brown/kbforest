@@ -1,0 +1,19 @@
+\date{2024-06-08}
+\title{Symmetric rig of sets of reason relations}
+
+\p{We begin with a commutative monoid, #{(S, +, 0)}. A concrete one would be #{S=\mathcal{P(B)\times P(B)}}.}
+
+\p{A symmetric rig has a set #{X} with two commutative operations, #{\oplus, \otimes} which distribute, and a unit #{0}.}
+
+\p{Consider #{X} as #{\mathcal{P(S)}}. These are \em{sets of implications}.}
+
+\p{Consider #{\oplus} as a top-level union (joining together more implications).}
+
+\p{Consider #{A\otimes B} as #{\{a + b\ |\ a \in A, b \in B \}}. This is [adjunction](phil-01CR).}
+
+\p{This is a rig: #{A \otimes (B\oplus C) = (A\otimes B)\oplus (A\otimes C)}. }
+
+\p{We need one more piece of data to recapture reason relations: a preorder structure on #{X} that encodes the relative RSR of sets of implications.}
+
+\p{Implication equivalence is equivalence in the preorder.}
+

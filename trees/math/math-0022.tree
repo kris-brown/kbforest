@@ -1,0 +1,4 @@
+\title{Bifunctor}
+\taxon{definition}
+\import{macros}
+\p{A binary functor (or \em{bifunctor}) is a functor whose domain is a [product category](math-0023), e.g. #{\cat{C} \times \cat{D}\rightarrow \cat{E}}}

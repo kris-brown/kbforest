@@ -1,0 +1,5 @@
+\date{2024-06-13}
+\title{Logical truth-maker consequence}
+
+\p{#{\Gamma \underset{LTM}\vDash \Delta} is defined to mean for \em{all} models, the fusion of any truthmaker #{u} of #{\Gamma} and any falsemaker #{t} of #{\Delta} is an impossible state (#{u \Cup t \notin S^\diamond})
+}

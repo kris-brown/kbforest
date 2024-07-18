@@ -1,0 +1,13 @@
+\date{2024-06-03}
+\title{Symjunction of implicational roles}
+
+\subtree{\taxon{definition}\number{69}
+
+\p{For #{F, G \subseteq \mathbb{S}}, the \em{symjunction} #{\mathcal{R}(F) \sqcap \mathcal{R}(G)} of the implicational roles of #{F} and #{G} is: #{{\mathcal{R}(F \cup G)}}
+}
+}
+
+\p{This can be thought of isolating the part that the two implicational roles share: #{{RSR(F\cup G) = \underset{x \in F\cup G}{\bigcap} RSR(x) = RSR(F) \cap RSR(G)} }}
+
+\p{This does not depend on which representative of the implicational role is selected.}
+

@@ -1,0 +1,6 @@
+[forest]
+trees = ["trees", "macros"]
+assets = ["assets"]
+theme = "theme"
+root = "home"
+base_url = "https://www.krisb.org/forest"

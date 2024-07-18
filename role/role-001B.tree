@@ -1,0 +1,17 @@
+\date{2024-06-24}
+\title{Discrete monoidal category of bearers}
+\import{macros}
+
+\p{We can think of the set of bearers as the generating objects discrete [monoidal category](math-0021), #{(\mathcal{C}, \otimes, I)} (i.e. the \em{free} monoidal category given by a left [adjoint](math-0028) from \strong{Set}).}
+
+\p{This gives us an associative way of combining elements (think of this as the comma, on either side of the turnstile).}
+
+\p{The existence of a unit (empty context) and associator are the only structure assumed. There are important kinds of further structure that are frequently studied, such as symmetric monoidal categories (the order of the premises doesn't matter), cartesian i.e. copy/discard structure (the number of times the premise appears doesn't matter).}
+
+\p{An [implication frame](phil-01CO) would be a [bifunctor](math-0022) #{\mathbb{I}: \mathcal{C \times C}^{op} \rightarrow \mathcal{V}}, where #{\mathcal{V}} can be \strong{Bool} for now (if we replace it with something like #{\mathcal{C \times C^{op}}}, we could have a 'reason relevant' relation, where we send each pair #{\Gamma\vsim \Delta} to sets of \em{bearers} taken to be reasons-for and sets of \em{bearers} taken to be reasons-against). We understand the data of #{\mathbb{I}} as a square matrix indexed by all combinations of the bearers.}
+
+\p{This bifunctor does not force #{A\vdash B} and #{B \vdash C} to entail #{A \vdash C}, which would happen if #{\vdash} was a morphism in some category (as in [categorical proof theory](math-001Y)).}
+
+\p{We can take [ends and coends](https://ncatlab.org/nlab/show/end) of bifunctors, which are popular though it's not obvious if they correspond to something meaningful in this setting (certainly not in the \strong{Bool} case, possibly in the 'reason relevant' setting). This is like a big product (resp. coproduct) of all the values #{I(\Gamma,\Gamma)} for all #{\Gamma \in Ob(\mathcal{C})}. These are well-explained [here](https://golem.ph.utexas.edu/category/2014/01/ends.html).}
+
+\p{We can think of interpretation functions as functors #{\mathcal{C} \rightarrow \mathcal{D}} (or perhaps: #{\mathcal{C} \rightarrow \mathcal{D} \times \mathcal{D}^{op}}).}

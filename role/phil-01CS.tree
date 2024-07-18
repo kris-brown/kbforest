@@ -1,0 +1,13 @@
+\date{2024-06-03}
+\title{Content entailment in an implication frame}
+\import{macros}
+
+\subtree{\taxon{definition}\number{68}
+
+\p{Given an [implication frame](phil-01CO) #{(\mathcal{B}, \mathbb{I})} with [implicational roles](phil-01CQ) #{\mathbb{C}},
+let #{G,D \subseteq \mathbb{C}}. Define #{G \Vsim D} to be a relation that holds iff the following condition is met:}
+
+##{\bigcup(\underset{i}\sqcup g_i^+\ \sqcup\ \underset{j}\sqcup d_j^-)\subseteq \mathbb{I}}
+}
+
+\p{Entailment #{\Gamma \Vsim \Delta} holds if and only if every set of candidate implications, whose range of subjunctive robustness is #{RSR(\Gamma, \Delta⟩)}, includes only good implications.}

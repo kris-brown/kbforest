@@ -1,0 +1,6 @@
+\date{2024-07-12}
+\title{Double diagram}
+\taxon{definition}
+\import{macros}
+
+\p{A \em{double diagram} is a [double functor] from an indexing [double category](math-000S) #{\II} to an arbitrary [double category](math-000S) #{\AA}.}

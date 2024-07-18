@@ -1,0 +1,101 @@
+\date{2024-06-02}
+\title{Nonmonotonic Multi-succedent (NMMS) logic}
+\import{macros}
+
+\subtree{\taxon{definition}
+
+\p{Given a [material base](phil-01CI), #{\mathfrak{B}}
+}
+
+\subtree{\title{Axioms}
+
+\p{#{\Gamma \triangleright \Delta} iff #{\Gamma \vsim_\mathfrak{B} \Delta}}
+}
+
+\subtree{\title{Rules}
+
+\subtree{\title{L#{\rightarrow}}
+\bussproofs{
+  \AxiomC{$\Gamma \triangleright \Delta, A$}
+  \AxiomC{$B, \Gamma \triangleright \Delta$}
+  \AxiomC{$B, \Gamma \triangleright \Delta, A$}
+  \TrinaryInfC{$\Gamma, A \rightarrow B \triangleright \Delta$}
+  \DisplayProof
+}
+}
+
+\subtree{\title{R#{\rightarrow}}
+\bussproofs{
+  \AxiomC{$\Gamma,A \triangleright B,\Delta$}
+  \UnaryInfC{$\Gamma \triangleright A \rightarrow B, \Delta$}
+  \DisplayProof
+}
+}
+
+\subtree{\title{L#{\neg}}
+\bussproofs{
+  \doubleLine
+  \AxiomC{$\Gamma \triangleright \Delta, A$}
+  \UnaryInfC{$\Gamma, \neg A \triangleright \Delta$}
+  \DisplayProof
+}
+}
+\subtree{\title{R#{\neg}}
+\bussproofs{
+  \doubleLine
+  \AxiomC{$\Gamma, A \triangleright \Delta$}
+  \UnaryInfC{$\Gamma \triangleright \Delta, \neg A$}
+  \DisplayProof
+}
+}
+
+\subtree{\title{L#{\land}}
+\bussproofs{
+  \doubleLine
+  \AxiomC{$\Gamma, A, B \triangleright \Delta$}
+  \UnaryInfC{$\Gamma, A \land B \triangleright \Delta$}
+  \DisplayProof
+}
+}
+
+\subtree{\title{R#{\land}}
+\bussproofs{
+  \doubleLine
+  \AxiomC{$\Gamma \triangleright \Delta, A$}
+  \AxiomC{$\Gamma \triangleright \Delta, B$}
+  \AxiomC{$\Gamma \triangleright \Delta, A, B$}
+  \TrinaryInfC{$\Gamma \triangleright \Delta, A \land B $}
+  \DisplayProof
+}
+}
+
+
+\subtree{\title{L#{\vee}}
+\bussproofs{
+  \doubleLine
+  \AxiomC{$\Gamma, A \triangleright \Delta$}
+  \AxiomC{$\Gamma, B \triangleright \Delta$}
+  \AxiomC{$\Gamma, A, B \triangleright \Delta$}
+  \TrinaryInfC{$\Gamma, A \vee B  \triangleright \Delta$}
+  \DisplayProof
+}
+}
+
+\subtree{\title{R#{\vee}}
+\bussproofs{
+  \doubleLine
+  \AxiomC{$\Gamma\triangleright \Delta, A, B$}
+  \UnaryInfC{$\Gamma \triangleright \Delta, A \vee B$}
+  \DisplayProof
+}
+}
+
+
+}
+}
+
+\p{The #{\neg} operator switches something from a reason for to a reason against (and vice-versa)}
+
+\p{The introduction rules R#{\rightarrow}, L#{\land}, and R#{\vee} show that these connectives codify the turnstile, left comma, and right comma respectively.}
+
+\p{}

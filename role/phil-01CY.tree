@@ -1,0 +1,8 @@
+\date{2024-06-03}
+\title{Implication space model fitness for a base vocabulary}
+\import{macros}
+
+\subtree{\taxon{definition}\number{75}
+\p{A [model](phil-01CV) #{{\mathcal{M} = (\mathbb{C}, \brack{\cdot}^\mathcal{M})}} is \em{fit for} a base #{\mathfrak{B}=(\mathfrak{L_B}, \vsimB)} iff for all #{{(\Gamma, \Delta)\in\ \vsimB}} we have #{{\brack{\Gamma}^\mathcal{M} \Vsim \brack{\Delta}^\mathcal{M}}}
+}
+}

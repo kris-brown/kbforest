@@ -1,0 +1,9 @@
+\date{2024-06-13}
+\title{Truth maker consequence}
+\taxon{definition}
+
+\p{#{A} is a reason for #{B} if it is impossible that #{A} is true and #{B} is false.}
+
+##{\Gamma \underset{TM}\vDash \Delta := \forall (\gamma,\delta)\in \Gamma \times \Delta, \forall (s,t) \in |\gamma|^+ \times |\delta|^-, s \Cup t \notin S^\diamond}
+
+\p{Truth-Maker Consequence gives us a notion of consequence relative to a choice of model.}

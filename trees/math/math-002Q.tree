@@ -1,0 +1,10 @@
+\title{Topological space}
+\taxon{definition}
+
+\p{A \em{topological space} is a set #{X} equipped with set of subsets #{U \subseteq \mathcal{P}(X)} called \em{open sets} such that}
+
+\ul{
+  \li{Any arbitrary (finite or infinite) union of open sets is an open set}
+  \li{Any finite intersection of open sets is an open set}}
+
+\p{Note: because #{\varnothing} and #{X} are the intersection and union (respectively) of zero open sets, these are both automatically open sets.}

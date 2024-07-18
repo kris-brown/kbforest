@@ -1,0 +1,6 @@
+\date{2024-07-12}
+\title{Double limit}
+\import{macros}
+\taxon{definition}
+
+\p{A \em{limit} for a given [double diagram](math-003S) #{D} is a universal double cone over #{D}.}

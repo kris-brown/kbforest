@@ -1,0 +1,7 @@
+\date{2024-07-05}
+\title{Dutch book argument for symmetry of incompatibility}
+
+\p{Critcizing someone by invoking a nonsymmetric incompatibility relation is impotent: they can immunize themselves from the effects of such criticism by the simple mechanism of withdrawing prior commitments shown to be incompatible with, and so to rule out entitlement to, subsequent commitments, and then reinstating those same commitments.}
+
+\p{Suppose #{i: A\#B} but there exists no #{j: B\#A}: A speaker #{S} is committed to accept #{A} and then asserts #{B}. By invoking #{i}, #{S} cannot be entitled to that commitment. #{S} might repair his normatively "out of bounds" situation by withdrawing commitment to accepting #{A}, keeping ([default](phil-019T)) entitlement to #{B}. #{S} can immediately reassert #{A}, committing to accept it once again. But #{i} cannot be invoked this time to block the move.}
+

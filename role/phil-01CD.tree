@@ -1,0 +1,22 @@
+\date{2024-05-31}
+\title{Truth conditions}
+
+\p{Recall from [Chapter 3](role-0009):
+}
+
+\transclude{role-000E}
+
+\p{There are competing ideas for which conception of truth conception to use, but we can use the term generically for any class of items which plays this semantic explanatory role.}
+
+##{Conditions \rightarrow Contents \rightarrow \Omega}
+
+\p{This can be rearranged via currying and symmetry}
+
+##{Contents \rightarrow Conditions \rightarrow \Omega}
+
+\subtree{\title{Relation to logicism}
+
+  \p{The idea of truth conditions (individually necessary and jointly sufficient) for non-logical concepts is a logicist idea. It leaves no room for \em{materially good} inferences. }
+
+  \p{(Note this could make it seem like the conditions and sentences are intelligible independent of each other, but that is not being asserted.)}
+}

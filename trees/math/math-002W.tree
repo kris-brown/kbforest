@@ -1,0 +1,53 @@
+\date{2024-07-09}
+\title{Quantifiers as adjoints: binary relation}
+\meta{external}{http://therisingsea.org/notes/ch2018-lecture13.pdf}
+\import{macros}
+
+\subtree{\title{Projection of a binary relation}
+\p{Let #{S \subseteq X \times Y}}
+
+##{\forall_p S := \{y \in Y\ |\ \forall x \in X: (x,y) \in S\}}
+
+\p{Thinking of power sets as [thin categories](math-000R), #{\forall_p S} defines a [functor](math-000E) #{{\mathcal{P}(X \times Y) \rightarrow \mathcal{P}(Y)}}.}
+
+\p{Dually, we define }
+##{\exists_p S := \{y \in Y\ |\ \exists x \in X: (x,y) \in S\}}
+
+\p{Lastly, we take #{p^{-1}} to be the inverse image functor of the projection #{{X \times Y \rightarrow Y}}. Let #{{T \subseteq Y}}:}
+
+##{p^{-1} T := \{(x,y) \in X \times Y \ |\ y \in T\}}
+
+\p{These functors are [adjoint](math-0028): #{\exists_p \dashv p^{-1} \dashv \forall_p}.}
+
+
+##{\Hom(p^{-1} T, S)\cong \Hom(T, \forall_p S)}
+
+##{
+\begin{align}
+  p^{-1} T \subseteq S & \Leftrightarrow & p(x,y) \in T & \implies (x,y) \in S                    \\
+                       & \Leftrightarrow & y \in T      & \implies (\forall x \in X: (x,y) \in S) \\
+                       & \Leftrightarrow &              & T \subseteq \forall_p S
+\end{align}
+}
+
+##{\Hom(\exists_p S, Y) \cong \Hom(S, p^{-1} Y)}
+
+##{
+\begin{align}
+  S \subseteq p^{-1} T & \Leftrightarrow & (x,y) \in S                    & \implies  p(x,y) \in T   \\
+                       & \Leftrightarrow & (\exists x \in X: (x,y) \in S) & \implies y \in T         \\
+                       & \Leftrightarrow &                                & \exists_p S \subseteq  T
+\end{align}
+}
+}
+
+\subtree{\title{Arbitrary function}
+
+\p{This can now be generalized: consider an arbitrary function #{f: Z \rightarrow Y}. Let #{S \subseteq Z}:}
+
+##{\forall_f S := \{y \in Y\ |\ \forall z \in Z: f(z)=y \implies z \in S\}}
+##{\exists_f S := \{y \in Y\ |\ \exists z \in S: f(z) = y\}}
+##{f^{-1} T := \{z \in Z \ |\ f(z) \in T\}}
+
+\p{Once again, these functors are [adjoint](math-0028): #{\exists_f \dashv f^{-1} \dashv \forall_f}.}
+}

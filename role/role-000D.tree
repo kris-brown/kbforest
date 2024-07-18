@@ -1,0 +1,23 @@
+\date{2024-06-08}
+\title{Monad in Set}
+
+\subtree{\taxon{definition}
+\p{A [monad](math-002D) in \strong{Set} is a [monoid](math-001P) in the category of [endofunctors](math-002F) on \strong{Set}.}
+
+\p{To unpack that, we have:}
+\ul{
+\li{A [functor](math-000E) #{T: \mathbf{Set}\rightarrow \mathbf{Set}}}
+\li{A natural transformation #{\eta: 1_\mathbf{Set}\Rightarrow T}}
+\li{A natural transformation #{\mu: T\cdot T\Rightarrow T}}
+}
+
+\p{Such that #{\mu \cdot \mu T = T\mu\cdot \mu} and #{\mu \cdot T\eta  = 1_T = \eta T \cdot \mu}.}
+}
+
+\subtree{\title{Examples}
+\ul{
+\li{The power set monad: #{X \mapsto \mathcal{P}(X), \eta_X(x)\mapsto \{x\}, \mu=\cup}}
+\li{The multi-set monad}
+\li{The list monad}
+}
+}

@@ -1,0 +1,7 @@
+\date{2024-06-03}
+\title{Monoid}
+
+\subtree{\taxon{definition}
+
+\p{A monoid is a set #{M} with an associative binary operation #{\cdot: M\times M \rightarrow M} and an \em{identity element} #{e \in M} such that #{\forall m \in M, m \cdot e = e = e \cdot m}. }
+}

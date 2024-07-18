@@ -1,5 +1,5 @@
 #!/bin/bash
-var=`/nix/store/3ylkpp629vaf40rh1if5646bv04kb405-forester-4.0.1/bin/forester new --dest=trees/$1 --prefix=$1`
+var=`forester new --dest=trees/$1 --prefix=$1 privateforest.toml`
 echo '\title{}' >> $var
 if [ $1 = "ref" ]; then 
   echo '\taxon{reference}' >> $var

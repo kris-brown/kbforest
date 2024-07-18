@@ -1,0 +1,23 @@
+\date{2024-06-15}
+\title{Idempotence / non-negativity as constraints on commutative monoid}
+
+\subtree{\title{Idempotence}
+\p{In the case of NMMS reason relations and modalized state spaces, when we view them as inducing commutative monoids (on #{\mathcal{P(B)^2}} with pointwise union and on #{S} with join, respectively), these operations are both \em{idempotent}}
+
+##{x + x = x}
+
+\p{In the case of #{NMMS^{/ctr}}, however, multiset union is not idempotent.}
+\p{Conclusion: we do not have the ability to add this constraint, if we want to include non-contractive NMMS in our account.}
+}
+
+\subtree{\title{Non-negativity}
+
+\p{Should we restrict the [commutative monoid definition](role-0002) of an implication space to be non-negative?
+}
+
+##{a + b = 0 \implies a=b=0}
+
+\p{This holds for the power set, multiset, and modalized state space cases.}
+
+\p{When this is the case, the monoid embeds into the free commutative monoid, #{\mathbb{N}^n} ([nLab](https://ncatlab.org/nlab/show/commutative+monoid#results_on_commutative_monoids_in_set))}
+}

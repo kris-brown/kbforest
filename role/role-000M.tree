@@ -1,0 +1,11 @@
+\title{Modalized state space}
+\taxon{definition}
+\number{35}
+\p{A triple #{(S, S^\diamond, \sqsubset)}}
+\ul{
+\li{#{S} is a non-empty set of states}
+\li{#{S^\diamond \subseteq S} is the set of \em{possible} states}
+\li{#{\sqsubset} is a partial order on #{S} with all joins}
+}
+
+\p{We denote #{\square} to be the join of the empty set, i.e. #{\square \sqsubset s} for all #{s \in S}.}

@@ -1,0 +1,7 @@
+\date{2024-06-03}
+\title{Commutative monoid}
+
+\subtree{\taxon{definition}
+
+\p{A commutative monoid is a [monoid](math-001P) #{(M, \cdot, e)} which, furthermore, has the property that #{\forall a,b \in M, a\cdot b = b\cdot a}.}
+}

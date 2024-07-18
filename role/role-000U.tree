@@ -1,0 +1,7 @@
+\date{2024-06-13}
+\title{Exclusivity for [truthmaker semantics models](role-000O)}
+\p{If #{(s,t) \in (|p|^+,|p|^-)}, then #{\forall u, s \Cup t \Cup u \notin S^\diamond}}
+
+\p{For any atomic sentence #{p} and any state #{u}, if you fuse #{u} with one of #{p}'s verifiers and one of its falsifiers, you always get an impossible state.}
+
+\p{This corresponds to Containment}

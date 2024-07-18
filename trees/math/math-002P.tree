@@ -1,0 +1,9 @@
+\date{2024-07-09}
+\title{Stone space}
+\taxon{definition}
+\p{A \em{Stone space} (also known as \em{profinite space} or \em{profinite set}) is a [topological space](math-002Q) that is:}
+\ul{
+  \li{[Compact](math-002R)}
+  \li{[Hausdorff](math-002U)}
+  \li{[Totally disconnected](math-002V)}
+}

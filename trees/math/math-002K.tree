@@ -1,0 +1,6 @@
+\date{2024-07-08}
+\title{Faithful functor}
+\taxon{definition}
+\import{macros}
+
+\p{A [functor](math-000E) #{F: \cat{C}\rightarrow \cat{D}} is \em{faithful} if, for any two objects #{c_1} and #{c_2} of C, the function #{\Hom_\cat{C}(c_1, c_2) \rightarrow \Hom_\cat{D}(F(c_1),F(c_2))} induced by #{F} is [injective](math-002L).}

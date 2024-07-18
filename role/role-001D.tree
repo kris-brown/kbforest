@@ -1,0 +1,12 @@
+\date{2024-06-24}
+\title{Interpreting truth-maker theory}
+
+\subtree{\taxon{definition}
+
+\p{The implication frame associated with a [modalized state space](role-000M) #{(S,S^\diamond,\sqsubseteq)} is defined as having bearers #{\mathcal{B}:=\mathcal{P}(S)^2}, i.e. pairs of truthmaker+falsemaker sets #{(p^+,p^-)}.}
+
+\p{#{\mathbb{I}} is a binary relation on #{\mathcal{P}(\mathcal{P}(S)^2)}, with #{(\{p_1,...,p_n\},\{q_1,...,q_m\}) \in \mathbb{I}} iff for all combinations of truthmakers of the first set (i.e. #{\{t_i \in p_i^+\ |\ i \in \bar n \}}) and falsemakers of the second set (i.e. #{\{u_i \in q_i^-\ |\ i \in \bar m\}}), we have #{\Cup({\{...,t_i,...,u_i,... \}}) \notin S^\diamond} }
+
+
+\p{A set of worldly propositions implies another just in case any fusion of a truth-maker of each proposition in the first set and a falsity-maker of each proposition in the second set is an impossible state}
+}

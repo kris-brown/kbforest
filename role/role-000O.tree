@@ -1,0 +1,12 @@
+\date{2024-06-13}
+\title{Truthmaker semantics model}
+
+\taxon{definition}
+\number{37}
+
+\p{Given a language #{L}, a model #{M} is a [modalized state space](role-000M) with an interpretation function: #{L \rightarrow \mathcal{P}(S)^2}.}
+
+\p{The interpretation function assigns truthmakers and falsemakers for each atomic sentence. For #{A \in L}, we write #{|A| \mapsto (|A|^+,|A|^-)}.}
+
+\p{We notate that #{s\in |A|^+} with #{s \Vdash A} and #{s \in |A|^-} with #{s ⫣ A}.}
+

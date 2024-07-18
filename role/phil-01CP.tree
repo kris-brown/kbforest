@@ -1,0 +1,18 @@
+\date{2024-06-02}
+\title{Range of subjunctive robustness (RSR)}
+
+\subtree{\taxon{definition}\number{63}
+
+\p{Given an [implication frame](phil-01CO) #{\mathbb{I}}:
+}
+
+\p{#{RSR((\Gamma, \Delta)):= \{(X,Y)\ |\ (\Gamma \cup X, \Delta \cup Y) \in \mathbb{I}\}}
+}
+}
+
+\p{#{RSR(\Gamma, \varnothing)} is the premisory role of #{\Gamma}}
+
+\p{#{RSR(\varnothing, \Delta)} is the conclusory role of #{\Delta}}
+
+\p{The range of subjunctive robustness plays an analogous role for implications to the role [truth conditions](phil-01CD) play for sentences. }
+

@@ -1,0 +1,7 @@
+\date{2024-07-09}
+\title{Cartesian closed category}
+\meta{external}{https://ncatlab.org/nlab/show/cartesian+closed+category}
+\taxon{definition}
+\import{macros}
+
+\p{A [category](category) #{\cat{C}} is \em{cartesian closed} if it is a [closed monoidal category](math-0031) with respect to the [Cartesian product](math-0024) monoidal structure #{(\cat{C}, \times, 1)}.}

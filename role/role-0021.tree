@@ -1,0 +1,18 @@
+\date{2024-07-12}
+\title{What does predicate logic syntax make explicit?}
+
+\p{R4L takes propositional logic syntax (#{\neg, \implies, \land, \vee}) and shows how it makes explicit features of an underlying reason relation #{\mathcal{(B, I\subseteq P(B)^2)}}.
+}
+
+\p{This leads to the question: what does #{P(x,y,...)} make explicit? What does a term #{x} or #{f(x)} make explicit?}
+
+\ul{
+  \li{that a claimable depends on something 'as a parameter'}
+  \li{that two claimables depend "on the same thing"}
+  \li{that a claimable has internal structure}
+}
+
+
+\p{Can we talk about these things from the perspective of reason relations between claimables? We can think of the 'internal structure' as just a reification of the conceptually-prior external structure given by a reason relation: the constructive task is to say what that is in a satisfying way.}
+\p{Could 'depending on the same thing' refer to sharing a conceptual content in a model? If true, then predicate logic makes explicit features of a modeling relationship #{L \pro RR} between reason relations rather than the features internal to a particular reason relation.}
+\p{Thinking of \em{dependence} in general though might be made internal to a reason relation. We might carve out a subset of claimables as being of the same type, and then have it be the case that #{P} just doesn't imply anything unless accompanied by some claimable #{x} of from that type (which we denote syntactically via treating #{P(x)} as a claimable and saying that #{P} has an arity of 1, etc.).}

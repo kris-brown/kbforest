@@ -9,7 +9,7 @@
 
 # Tips 
 
-If you want to transclude simply the raw content of a tree, do this:
+If you want to transclude simply the raw content of a tree, do this: 
 
 ```latex
 \scope{

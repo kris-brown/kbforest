@@ -1,0 +1,4 @@
+\title{Injective function}
+\taxon{definition}
+
+\p{A function #{f: X \rightarrow Y} is \em{injective} if, for all #{x_1,x_2 \in X}, #{f(x_1) = f(x_2)} only if #{x_1=x_2}.}

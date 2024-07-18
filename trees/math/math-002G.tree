@@ -1,0 +1,12 @@
+\title{Kleisli category}
+\taxon{definition}
+\import{macros}
+
+\p{Given a [monad](math-002D) #{T} on a category #{\cat{C}}, the \em{Kleisli category} #{\cat{C}_T} has:}
+
+\ul{
+\li{The same objects of #{\cat{C}}}
+\li{As morphisms #{a\rightarrow b} in #{\cat{C}_T}, morphisms #{f: a\rightarrow T(b)} in #{\cat{C}}}
+\li{As identity arrows #{a \rightarrow a}, the unit #{\eta_a}}
+\li{As composition #{f: a \rightarrow b} and #{g: b \rightarrow c}, the morphism #{f \cdot T(g) \cdot \mu_C}}
+}

@@ -1,0 +1,15 @@
+\date{2024-06-02}
+\title{Making Reason Relations Explicit by Implication}
+\import{macros}
+\taxon{definition}
+\number{4}
+
+\blockquote{We start with a particular reason relation. What it takes to make explicit a particular reason relation is to have a sentence that is undeniable just in case the reason relation indeed holds. That is, the reason relation holds if and only if the sentence is implied by the background commitments, against which we want to assess the particular reason relation at issue.}
+
+\ul{
+\li{For: The sentence #{\varphi} makes explicit that  #{\Theta} is a reason for #{\Lambda} iff, for all #{\Gamma} and #{\Delta}, we have #{{\Gamma \vsim \varphi, \Delta}} just in case #{{\Gamma, \Theta \vsim \Lambda, \Delta}}.
+}
+
+\li{Against: The sentence #{\varphi} makes explicit that #{\Theta} is a reason against #{\Lambda} iff, for all #{\Gamma} and #{\Delta}, we have #{{\Gamma \vsim \varphi, \Delta}} just in case #{{\Gamma, \Theta, \Lambda \vsim \Delta}}.}
+}
+

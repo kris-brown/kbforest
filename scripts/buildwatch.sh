@@ -1,1 +1,1 @@
-watch -n 5 $@ -- "/nix/store/3ylkpp629vaf40rh1if5646bv04kb405-forester-4.0.1/bin/forester build --dev; sleep 5"
+watch -n 4 $@ -- "forester build --dev role.toml; sleep 4"

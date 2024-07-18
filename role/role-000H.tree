@@ -1,0 +1,26 @@
+\date{2024-06-11}
+\title{ACT and Inferentialism}
+
+\subtree{\title{Why pragmatic order of explanation?}
+  \p{Logical vocabulary responsible to material reasoning, not other way around.}
+
+  \p{[Harmon point](role-001L) shows we cannot derive what to \em{do} from reason relations (which merely constrain). However, we can go in the other direction (understanding what is a reason for what (in terms of what we do) recovers the reason relations).}
+}
+
+\p{Lawvere's functorial semantics revolutionized logic: it no longer saw syntax and semantics as things of a fundamentally different nature, but rather saw them both as objects in the same category that share a particular kind of relation. ([source](https://diagonalargument.com/2019/06/02/first-order-categorical-logic-1/))}
+
+\p{Something similar is done by Bob and Ulf in R4LL4R. A similar structure between semantics and pragmatic metavocabularies is uncovered.}
+
+
+\p{R4L approach to reasoning and logic makes clear why knowledge is contextual: there is nothing special about what follows from #{\varnothing}. This leads to an anti-foundationalist attitude.}
+
+
+\p{Truth conditions relativize truth to something else (properties of sentences). From the perspective of RRels, the role of truth conditions is played by RSR (relations among sentences). }
+
+
+\p{ACT and scientific modeling (examples): status quo is that rationality extracts consequences from models. When we don't like those consequences, something like 'creativity' allows us to change our definitions / assumptions in order to then get something which has consequences we like better. In contrast, with this new framework we can understand / better constrain (without removing the freedom+nondeterminism) how our definitions and assumptions change without having to "step outside" the rational process. We shouldn't think of the distinction between creative redescription and logical consequence extraction as different in kind (though clearly there is a difference in degree).}
+
+\p{Rejecting explicitation-closure (i.e. cautious M + T) means we can distinguish the data in the database and the consequences we extract from it with theory. This is making explicit the implicit content of the data.}
+
+
+\p{Mathematical \em{presentations} correspond to "sign-designs".}

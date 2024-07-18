@@ -1,0 +1,13 @@
+\date{2024-07-05}
+\title{Reason relations with only reasons-for}
+
+\p{From Huw Price's 'Why Not?': reason relations cannot constrain our behavior if they only include reasons \em{for}.}
+
+\blockquote{
+  \p{Me: Fred is in the kitchen. (Sets off for kitchen.)}
+  \p{You: Wait! Fred is in the garden.}
+  \p{Me: I see. But he is in the kitchen, so I'll go there.}
+  \p{You: You lack understanding. The kitchen is Fred-free.}
+  \p{Me: Is it really? But Fred's in it, and that's the important thing. (Leaves for kitchen.)}}
+
+\p{This is related to Shannon's information theory: a message has no information unless it excludes some alternatives that were previously open.}

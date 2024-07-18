@@ -1,0 +1,13 @@
+\date{2024-07-09}
+\title{Elementary topos}
+\taxon{definition}
+
+\p{An \em{elementary topos} is a [category](math-000D) which has}
+
+\ul{
+  \li{finite [limits](math-0026)}
+  \li{is [cartesian closed](math-002Z)}
+  \li{has a [subobject classifier](math-0030)}
+}
+
+\p{This is equivalent to a category with finite [limits](math-0026) and [power objects](math-002X). }

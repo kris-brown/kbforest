@@ -1,0 +1,7 @@
+\date{2024-06-13}
+\title{Exhaustivity for [truthmaker semantics models](role-000O)}
+\p{#{\forall u \in S^\diamond}, either #{\exists s \in |p|^+: u \Cup s \in S^\diamond} or #{\exists s \in |p|^+: u \Cup s \in S^\diamond}}
+
+\p{If you have a possible state and an atomic sentence, then you can extend it to a possible state either by fusing it with a verifier of the sentence or by fusing it with a falsifier of the sentence.}
+
+\p{This corresponds to Cut.}

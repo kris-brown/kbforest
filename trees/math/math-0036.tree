@@ -1,0 +1,16 @@
+\date{2024-07-10}
+\title{Type theory}
+\taxon{definition}
+\meta{external}{http://therisingsea.org/notes/ch2018-lecture13.pdf}
+
+\p{A \em{type theory} consists of:}
+
+\ul{
+\li{a class of types, including special types #{\mathbb{1}, \Omega}}
+\li{a class of terms of each type (including countably many variables for each type)}
+\li{for each finite set #{X} of variables, a binary relation #{\vdash_X} of entailment}.}
+
+\p{Let #{FV(\sigma)} be the free variables of a term #{\sigma}.}
+
+\p{If #{S=\{x_1,...,x_n\}} is a set of free variables, let #{\bar S := X_1 \times ... \times X_n}.}
+

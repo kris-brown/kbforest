@@ -1,0 +1,100 @@
+\date{2024-06-07}
+\title{Implication space semantics, starting from monoid and role inclusions}
+
+
+\transclude{role-0002}
+
+\transclude{role-0004}
+
+
+\subtree{\taxon{notation}
+\p{It will be helpful to condense the notation a bit, so let #{{\overline{x} := x \in \mathbb{I}}} and addition may be represented via concatenation when all symbols are single characters, e.g. #{{abc := a+b+c}}.}
+}
+
+\subtree{\taxon{definition}
+\p{The \em{range of subjunctive robustness} (RSR) is a function #{S \rightarrow \mathcal{P}(S)}}
+##{RSR(x \in S) := \{s \in S\ |\ \overline{sx}\}}
+}
+
+\p{We recover that #{RSR(0) = I}. There is not much we can say about how #{RSR(x)} and #{RSR(y)} relate to #{RSR(x+y)} generically without structural principles: what effect combining two implications has w/r/t #{\mathbb{I}} depends on the frame.}
+
+\subtree{\taxon{definition}
+\p{The range of subjunctive robustness of a \em{set of implications} is a function #{\mathcal{P}(S) \rightarrow \mathcal{P}(S)}}
+##{RSR'(X \subseteq S) := \bigwedge_{x \in X} RSR(x)}
+\p{Alternatively: #{\bigcap RSR(x)} (as intersection is the same as meet) or #{\{s \in S\ |\ \forall x \in X, \overline{sx}\}}}
+}
+
+\p{(Just to be more explicit, we'll mark with a prime when #{RSR} is applied to a set rather than an individual candidate implication.)}
+
+\p{We'll do things in a different order than R4LL4R, where implicational role inclusion is defined in terms of implicational roles, adjunction, and symjunction. The hope is that this results in an equivalent framework which is clearer.}
+
+\subtree{\taxon{definition}
+\p{An implication frame comes with a built-in notion of \em{implicational inclusion} between elements of #{S}.}
+##{x \leq y := \forall s \in S, \overline{sx} \implies \overline{sy}}
+\p{Or, equivalently: #{x \leq y := RSR(x) \subseteq RSR(y)}}
+\p{Implicational role inclusion forms a [preorder](math-001R) due to the reflexivity/transitivity of #{\subseteq}}
+\p{This means #{x} can be replaced with #{y} \em{salva consequentia}.}
+}
+
+\blockquote{The first way of phrasing the definition leads to a possible generalization: the data of #{\mathbb{I}} is a map #{S\rightarrow \mathbb{B}}. We could consider defining #{\mathbb{I}} via maps into another preorder, #{(P,\leq_P)}, generalizing the above to #{x \leq y := sx \leq_P sy} and obtaining, e.g., something like fuzzy logic for #{P=[0,1]}.}
+
+\subtree{\taxon{definition}
+\p{An implication frame comes with a built-in notion of \em{implicational inclusion} between subsets of #{S}.}
+##{X \preceq Y := RSR'(X) \subseteq RSR'(Y)}
+}
+
+\subtree{\taxon{definition}
+\p{The skeleton of the implicational preorder (for either elements of #{S} or subsets of it) is a preorder of implicational roles and implicational role inclusions, i.e. equivalence classes of the inclusion preorder are called implicational roles. }
+
+\p{#{S \xtwoheadrightarrow{\mathcal{R}} R}}
+\p{#{\mathcal{P}(S) \xtwoheadrightarrow{\mathcal{R'}} R'}}
+}
+
+\p{Let's see how this reformulation of inclusion matches up with the prototypical case: #{x,y \in S} are pairs of subsets of bearers, so let #{{x=(\Gamma, \Delta),\ y=(\Theta, \Lambda)}}. The definition of inclusion above translates to #{{x \preceq y := \forall (A,B)\in \mathbb{S}, (A \cup \Gamma, B \cup \Delta) \in \mathbb{I} \implies (A \cup \Theta, B \cup \Lambda) \in \mathbb{I}}}. This matches up with [Definition 90](phil-01D2) when we have just singleton sets of roles, i.e. #{{R_x \preceq R_y :=R_i \subseteq R_j}}.}
+
+\subtree{\taxon{proposition}
+\p{#{+} is well-defined on roles, #{R}, i.e. #{{\mathcal{R}(a) + \mathcal{R}(b) := \mathcal{R}(a+b)}} is well-defined because #{(a\cong x)} and #{(b \cong y)} implies that #{(a+b) \cong (x+y)}.}
+
+\subtree{\taxon{proof}
+\p{Premise 1 says #{\forall s \in S, \overline{sa} \iff \overline{sx}}. Then this also holds for all elements of the form #{s+b}, yielding  #{\forall s \in S, \overline{sab} \iff \overline{sbx}}}
+\p{Premise 2 says #{\forall s \in S, \overline{sb} \iff \overline{sy}}. Then this also holds for all elements of the form #{s+x}, yielding  #{\forall s \in S, \overline{sbx} \iff \overline{sxy}}
+}
+\p{Putting these two together, we've shown #{{\forall s \in S, \overline{sab} \iff \overline{sxy}}}}
+}
+}
+
+\p{The [join](math-001U) and meet (respectively) in this preorder of implicational roles is tantamount to the join and meet of the preorder of #{RSR}s.}
+
+
+\p{In terms of #{RSR}, this would be an implication with an #{RSR} that includes #{RSR(x)}, includes #{RSR(y)}, and anything that includes both includes it. If there exists an element #{z\in S} with #{RSR(z)=RSR(x)\cup RSR(y)}, then #{z=x \vee y}. However, there may be no such #{z} - it's possible an element with a bigger #{RSR} is the meet or it's possible no such meet exists.}
+
+
+\subtree{\taxon{notation}
+\p{Because we can add elements #{x,y \in S}, we can add subsets #{X,Y \subseteq S} to obtain another subset of #{S}:}
+##{X \times Y = \{x + y\ |\ x \in X, y \in Y\}}
+}
+
+\subtree{\taxon{definition}
+\p{The adjunction of a pair #{x,y \in S}, is defined #{x \sqcup y := RSR(xy). }}
+\p{The adjunction of a pair #{X,Y \subseteq S}, is defined #{x \sqcup y := RSR(X + Y).}
+}
+}
+
+\subtree{\taxon{definition}
+\p{The symjunction of a pair #{x,y \in S}, is defined #{x \sqcap y := RSR(\{x,y\}). }}
+\p{The symjunction of a pair #{X,Y \subseteq S}, is defined #{x \sqcap y := RSR(X \cup Y).}
+}
+}
+
+
+\subtree{\taxon{definition}
+\p{A \em{conceptual content} is a pair of implicational roles, i.e. #{\mathbb{C}:= R \times R} (or #{S \times S / \sim}). }
+}
+
+
+\subtree{\taxon{definition}
+\p{Let #{(a,b), (x,y) \in \mathbb{C}} be conceptual contents. We define content entailment as:}
+##{(a,b)\Vsim (x,y) := RSR(a) \cup RSR(y) \subseteq \mathbb{I}}
+}
+
+

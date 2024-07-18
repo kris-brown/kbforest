@@ -1,0 +1,11 @@
+\date{2024-07-11}
+\title{Multicategory}
+\taxon{definition}
+
+\p{A \em{multicategory} #{\mathcal{M}} consists of}
+
+\ul{
+\li{A collection of objects #{x,y,... \in \mathcal{M}}}
+\li{For every arity #{n \geq 0}, families of #{n}-ary multimorphisms ##{\mathcal{M}(x_1,...,x_n; y)} whose elements are denoted #{f:(x_1,...,x_n)\rightarrow y}}
+\li{Composition operations}
+}

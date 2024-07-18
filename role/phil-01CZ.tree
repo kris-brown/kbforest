@@ -1,0 +1,10 @@
+\date{2024-06-03}
+\title{Soundness and completeness of NMMS with respect to implication space semantics}
+\taxon{proposition}
+\number{76}
+\import{macros}
+
+\p{For any base vocabulary #{\mathfrak{B = (L_B, \vsimB)}} and sentences #{\Gamma, \Delta \subseteq \mathfrak{L}} in the logically-extended lexicon, #{\Gamma \vsimm{b} \Delta} iff #{\Gamma \succ \Delta} is derivable in NMMS#{_{\mathfrak{B}}}. }
+
+
+\p{We can interpret NNMS in implication-space conceptual role semantics.}

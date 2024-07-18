@@ -1,0 +1,61 @@
+\date{2024-07-09}
+\title{Ad hoc idea for predicates in reason relations}
+\import{macros}
+
+\p{R4L currently models situations like this:}
+\transclude{phil-01CK}
+
+\p{We might add another bearer #{s} for "It is raining now" to show how this collateral premise does \em{not} affect the other implications.}
+
+\ul{
+\li{#{p,s \vsimB q}}
+\li{#{p,r,s \nvsimB q}}
+}
+
+\p{Our goal is to have the freedom to model this scenario, given a \em{signature} of, e.g.:}
+\ul{
+\li{Types: #{H}(uman), #{\mathbb{R}}}
+\li{Relations: #{F}(ever): #{H}, #{R}(aining now): #{1} (note: relations on #{1} are propositions)}
+\li{Functions: #{t}(emperature): #{H\rightarrow \mathbb{R}}, #{37: 1 \rightarrow \mathbb{R}}
+}}
+
+\p{Trying to recover something as close to the R4L as possible, we might consider claimables as equipped with a set of (typed) variables that they can refer to. E.g. instead of #{p\vsim q} we have #{(\{a:A,b:B\}, P(a,a,b)) \vsim (\varnothing, R),(\{b:B\}, Q(b))}. Some shorthand notation:}
+
+\ul{
+\li{#{\gamma_X} - an abstract claimable with a set #{X}}
+\li{#{\Gamma_X} - a set of claimables that share the same variable set}
+\li{#{\Gamma \vsim_X \Delta} - an implication where antecedent and consequent share a variable set.}}
+
+
+\p{So the fever example above might be rendered:}
+
+\ul{
+\li{#{R \vsim_{\{h:H\}} t(h)=37}}
+\li{#{F(h), R \nvsim_{\{h:H\}} t(h)=37}}
+}
+
+\p{What would be the meaning of endorsing a sequent with a free variable? E.g. #{{IsMan(x) \vsim_{\{x\}} IsMortal(x)}}. It is an implicit quantification, which we can make explicit. Where does existential quantification come in? This could be thought of as variables that appear on the right that do not appear on the left, e.g. #{IsMan(x)\vsim MotherOf(y, x)}.}
+
+
+\p{All of the [NMMS rules](phil-01CJ) could be generalized in the following way, noting that #{\forall_\varnothing P} is identified with just #{P}:}
+
+
+\bussproofs{
+\AxiomC{$\Gamma_X,A_{X+Y} \triangleright B_{X+Z},\Delta_X$}
+\UnaryInfC{$\Gamma \triangleright_X (\forall_Y, \exists_{Z\setminus (X+Y)} A \rightarrow B), \Delta$}
+\DisplayProof
+}
+
+\p{For example, from #{{NonFiction, IsMan(x) \vsim IsMortal(x), OppositeDay}} we obtain #{{NonFiction \vsim (\forall x, IsMan(x)\implies IsMortal(x)), OppositeDay}}.}
+
+\p{We can use the same prodcedure for antecedent #{\rightarrow} introduction:}
+
+\bussproofs{
+  \AxiomC{$\Gamma_X \triangleright \Delta_X, A_{X+Y}$}
+  \AxiomC{$B_{X+Y}, \Gamma_X \triangleright \Delta_X$}
+  \AxiomC{$B_{X+Y}, \Gamma_X \triangleright \Delta_X, A_{X+Y}$}
+  \TrinaryInfC{$\Gamma, \forall_Y  (A \rightarrow B) \triangleright_X \Delta$}
+  \DisplayProof
+}
+
+\p{This is ad hoc. There is no connection between #{\forall} and an infinite conjunction. There isn't an obvious notion of #{\exists}.}

@@ -1,0 +1,8 @@
+\date{2024-06-03}
+\title{Soundness of implication space model semantics}
+\taxon{proposition}
+\import{macros}
+
+\p{Let #{\mathbb{C}} be a set of [implicational roles](phil-01CQ) of an [implication frame](phil-01CO) #{(\mathcal{B}, \mathbb{I})}, and let #{\mathcal{M}} be an [implication space model](phil-01CV) inducing an [interpretation function](phil-01CU). Then:}
+
+\p{#{(\Gamma, \Delta) \in \mathbb{I}} iff #{\Gamma \vsimm{\mathcal{M}} \Delta}}

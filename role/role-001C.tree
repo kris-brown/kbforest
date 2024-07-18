@@ -1,0 +1,11 @@
+\date{2024-06-24}
+\title{Classical and linear logic as two different monads on set}
+
+\p{R4L works both with and without the assumption of contraction.}
+
+\p{In one case, our implication frame is a relation on #{\mathcal{P(B)^2}}, and
+the other is a relation on power \em{multi}-sets.}
+
+\p{There is both a power set monad and a multiset monad on set, so we might consider how far we can get by working with a general #{T} monad instead.}
+
+\p{This is also a means of thinking about the generalization to predicate logic, where we would like to have claimables which depend on each other: there are monads for various kinds of trees (e.g. [rose](https://en.wikipedia.org/wiki/Rose_tree) trees, which have arbitrary arity) to allow one to effectively have expressions trees of claimables on either side of the turnstile.}

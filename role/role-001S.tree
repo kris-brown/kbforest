@@ -1,0 +1,26 @@
+\date{2024-07-05}
+\title{Tonk}
+
+\import{macros}
+
+\p{Arthur Prior's example showing it's problematic to introduce vocabulary via natural deduction introduction and elimination rules:}
+
+\p{Introduction rule:}
+
+\bussproofs{
+  \AxiomC{$p$}
+  \UnaryInfC{$p$ tonk $q$}
+  \DisplayProof
+}
+
+\p{Elimination rule:}
+
+\bussproofs{
+  \AxiomC{$p$ tonk $q$}
+  \UnaryInfC{$q$}
+  \DisplayProof
+}
+
+\p{Introducing this new connective allows one to derive any #{p \vdash q}.}
+
+\p{Belnap diagnosed the problem as due to it being a \em{non-conservative} vocabulary extension.}

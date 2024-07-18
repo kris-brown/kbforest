@@ -1,0 +1,7 @@
+\date{2024-06-13}
+\title{Deeming impossible}
+\taxon{definition}
+\number{40}
+
+\p{A sequent #{\Gamma \vdash \Delta} deems all and only those states impossible that are a fusion of verifiers for everything in #{\Gamma} and falsifiers for everything in #{\Delta}.}
+

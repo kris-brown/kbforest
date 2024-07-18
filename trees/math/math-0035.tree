@@ -1,0 +1,103 @@
+\date{2024-07-10}
+\title{Mitchell-Bènabou language}
+\taxon{definition}
+\import{base-macros}
+\import{macros}
+\p{Given a [topos](math-002Y) #{\mathcal{E}}, the \em{Mitchell-Bènabou language} #{\mathcal{L(E)}} is a canonical [type theory](math-0036).}
+
+\ul{
+\li{The types of #{\mathcal{L(E)}} are objects of #{\mathcal{E}}}
+\li{Each term #{\sigma: X} is associated with an \em{interpretation} #{\overline{\sigma}: \overline{FV \sigma}\rightarrow X} }
+\li{The construction rules for terms and their interpretations:}
+}
+
+\table{
+\tr{
+  \th{Given}
+  \th{Term}
+  \th{Type}
+  \th{Interpretation}
+}
+\tr{
+\td{A type #{X}}
+\td{Var #{x_i}}
+\td{#{X}}
+\td{#{\overline{x_i} := X \xrightarrow{id_X} X}}
+}
+\tr{
+\td{Terms #{\sigma: X} and #{\tau:Y}}
+\td{#{(\sigma, \tau)}}
+\td{#{X \footnotesize{\times} Y}}
+\td{#{{\overline{(\sigma, \tau)} := (\pi_1\cdot \overline{\sigma},\pi_2 \cdot \overline{\tau})}} #{{\overline{FV \sigma \cup FV \tau}\rightarrow{} X \times Y}}}
+}
+\tr{
+\td{Terms #{\sigma: X} and #{\tau: X}}
+\td{#{\sigma \footnotesize{=} \tau}}
+\td{#{\Omega}}
+\td{#{{\overline{\sigma=\tau} := (\pi_1\cdot \overline{\sigma},\pi_2 \cdot \overline{\tau})\cdot \delta_X}} #{{\overline{FV \sigma \cup FV \tau}\rightarrow \Omega}}}
+}
+\tr{
+\td{Terms #{\sigma: Y^X} and #{\tau: X}}
+\td{#{\sigma(\tau)}}
+\td{#{Y}}
+\td{#{{\overline{\sigma(\tau)} := (\pi_1\cdot \overline{\sigma},\pi_2 \cdot \overline{\tau})\cdot ev_{X,Y}}} #{{\overline{FV \sigma \cup FV \tau}\rightarrow Y}}}
+}
+\tr{
+\td{Term #{\sigma: X} and #{f: X\rightarrow Y}}
+\td{#{\sigma\cdot f}}
+\td{#{Y}}
+\td{#{{\overline{\sigma\cdot f} := \overline{\sigma}\cdot f}} #{\\{\overline{FV \sigma}\rightarrow Y}}}
+}
+\tr{
+\td{A term #{\sigma:Z} w/ free var of type #{X} and a var #{x:X}}
+\td{#{\lambda x.\sigma}}
+\td{#{Z^X}}
+\td{#{\overline{{\lambda x.\sigma} := }} transpose of #{\sigma} #{{\overline{FV \sigma \setminus \{x\}} \rightarrow Z^X}}}}
+}
+
+\p{Where}
+\ul{\li{#{\overline{FV \sigma \cup FV \tau}} has [projection maps](math-0024) to #{FV \sigma} and #{FV \tau}.}
+\li{#{\delta_X} is the [characteristic map](math-0030) of the diagonal #{X \rightarrowtail X \times X}.}
+\li{#{ev_{X,Y}} is the [evaluation map](math-002Z).}
+\li{Given #{\sigma: \Omega^X} and #{\tau: X}, we can write #{\sigma(\tau)} as #{\tau \in \sigma}.}
+\li{What is the 'transpose'? (TODO)}
+}
+
+\p{A term of type #{\Omega} is a \em{formula} and is \em{true} if it factors through #{\mathbb{1}\rightarrow \Omega}.}
+
+\subtree{\title{Connectives}
+\p{We can define connectives using the internal Heyting algebra, e.g. using #{\cap}:}
+% https://q.uiver.app/#q=WzAsNSxbMCwwLCJTdWJfXFxtYXRoY2Fse0V9KEIpXjIiXSxbMSwwLCJTdWJfXFxtYXRoY2Fse0V9KEIpIl0sWzAsMSwie1xccm0gSG9tfV9cXG1hdGhjYWx7RX0oQixcXE9tZWdhKV4yIl0sWzAsMiwie1xccm0gSG9tfV9cXG1hdGhjYWx7RX0oQixcXE9tZWdhIFxcdGltZXMgXFxPbWVnYSkiXSxbMSwyLCJ7XFxybSBIb219X1xcbWF0aGNhbHtFfShCLFxcT21lZ2EpIl0sWzMsNCwiXFxsYW5kX0IiLDAseyJzdHlsZSI6eyJib2R5Ijp7Im5hbWUiOiJkYXNoZWQifX19XSxbMCwxLCJcXGNhcF9CIl0sWzIsMCwiXFxjb25nIl0sWzMsMiwiXFxjb25nIl0sWzEsNCwiXFxjb25nIl1d
+\quiver{\begin{tikzcd}
+    {Sub_\mathcal{E}(B)^2} & {Sub_\mathcal{E}(B)} \\
+    {{\rm Hom}_\mathcal{E}(B,\Omega)^2} \\
+    {{\rm Hom}_\mathcal{E}(B,\Omega \times \Omega)} & {{\rm Hom}_\mathcal{E}(B,\Omega)}
+    \arrow["{\cap_B}", from=1-1, to=1-2]
+    \arrow["\cong", from=1-2, to=3-2]
+    \arrow["\cong", from=2-1, to=1-1]
+    \arrow["\cong", from=3-1, to=2-1]
+    \arrow["{\land_B}", dashed, from=3-1, to=3-2]
+  \end{tikzcd}
+}
+}
+
+\subtree{\title{Quantifiers}
+
+\p{Suppose #{\sigma} is a formula with a free variable #{x:X} (and possibly other free variables #{\{u_1,...\}}). It is interpreted by a morphism #{\overline{\sigma}: X \times U \rightarrow \Omega}. The formula #{\forall x \sigma} is interpreted by a map #{U \rightarrow \Omega}. It is defined by using the unique map #{p: X \rightarrow \mathbb{1}} and using the [internal adjoint](math-0037):}
+
+##{\overline{\forall x \sigma} := U\xrightarrow{\overline{x.\sigma}} \Omega^X \xrightarrow{\forall_p}\Omega}
+
+\p{Likewise, we could do the same with #{\exists_p}.}
+}
+
+\subtree{\title{Set comprehension syntax}
+\p{Let #{\sigma} be a formula with a free variable #{x:X}. Then we can define #{x \in X\ |\ \sigma(x)} as the subobject classified by #{\overline{\sigma}: X \times U \rightarrow \Omega}}
+
+}
+\subtree{\title{Upshot}
+\p{We can specify subobjects of a given object \em{as if} they had elements #{x}. E.g. the 'object of epimorphisms' #{X \twoheadrightarrow Y}:}
+
+##{Epi(X,Y) := \{f \in Y^X\ |\ \forall y \in Y, \exists x \in X, f(x) = y\}}
+}
+
+

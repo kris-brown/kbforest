@@ -1,0 +1,13 @@
+\title{Monoidal category}
+\import{macros}
+\meta{external}{https://ncatlab.org/nlab/show/monoidal+category}
+\taxon{definition}
+
+\p{A \em{monoidal category} is a [category](math-000D) #{\cat{C}} with:}
+
+\ul{
+\li{a [bifunctor](math-0022) #{\otimes: \cat{C} \times \cat{C} \rightarrow \cat{C}} called the \em{monoidal} or \em{tensor product}.}
+\li{an object #{I} called the \em{monoidal unit}}
+\li{Associativity isomorphisms for each triple of objects #{\alpha_{A,B,C}: A\otimes(B\otimes C) \cong (A\otimes B)\otimes C}}
+\li{Unitality isomorphisms for each object: #{I \otimes A \overset{\lambda_A}\cong A \overset{\rho_A}\cong A \otimes I}}
+}

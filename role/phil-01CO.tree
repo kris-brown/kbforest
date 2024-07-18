@@ -1,0 +1,11 @@
+\date{2024-06-02}
+\title{Implication frame}
+
+\subtree{\taxon{definition} \number{62}
+
+\p{An implication frame is a distinguished subset of an [implication space](phil-01CN), i.e. a binary relation on sets of bearers: #{\mathbb{I} \subseteq \mathbb{S}}. }
+}
+
+\p{We assume minimal element #{e:=(\varnothing, \varnothing) \notin \mathbb{I}}. }
+
+\p{We assume the maximal element #{*:=\mathcal{(B,B)} \in \mathbb{I}}.}

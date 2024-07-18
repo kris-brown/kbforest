@@ -1,0 +1,7 @@
+\title{Adjoint functors}
+\import{macros}
+
+\transclude{math-0029}
+\transclude{math-002A}
+
+\p{Note that the (co)-unit definition is the one which more naturally generalizes to higher category theory, e.g. for [double categories](math-000S).}

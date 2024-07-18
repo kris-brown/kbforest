@@ -1,0 +1,24 @@
+\title{Structural principles expressed in terms of role inclusion}
+
+\p{[Implicational role inclusion](phil-01D2) allows us to formulate conditions for the underlying reason-relations to obey structural principles:}
+
+\subtree{\title{Containment}
+##{\forall p \in \mathbb{C}, \star \preceq p}
+
+\p{#{RSR(\star)= \mathbb{S}}, so this says that whenever we combine the premisory+conclusory roles of a bearer in one implication, the result has the maximal range of subjunctive robustness.} 
+
+\p{All implications in which any bearers with the same content occur on the LHS and also on the RHS are indefeasible implications.}
+
+}
+\subtree{\title{Monotonicity}
+##{\forall p,q \in \mathbb{C}, (p^+) \preceq (p^+, q^+)}
+##{\forall p,q \in \mathbb{C}, (p^-) \preceq (p^-, q^-)}
+
+\p{Anything that makes good all implications in some premisory (resp. conclusory) role #{p^+}  also makes good all implications #{p^+\sqcup q^+} with additional premises and conclusions.}
+}
+
+\subtree{\title{Cut}
+##{\forall p \in \mathbb{C}, p \preceq 0}
+
+\p{#{RSR(0)= \mathbb{I}}, so this says if the goodness of an implication is preserved by adjoining arbitrary premises and conclusions, then it is already good itself.}
+}

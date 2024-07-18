@@ -1,0 +1,9 @@
+\date{2024-06-15}
+\title{Frame}
+
+\subtree{\taxon{definition}
+
+\p{A \em{frame} is a poset with all small coproducts (called joins) and all finite limits (called meets) satisfying a distributative law}
+
+##{x \land (\bigvee Y) \leq \bigvee_{y \in Y} x \land y}
+}

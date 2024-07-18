@@ -6,7 +6,7 @@
 \p{A \em{companion} of an arrow #{x \xrightarrow{f} y} in a [double category](math-000S) #{\DD} consists in:}
 
 \ul{
-\li{A proarrow #{f_!: x \nrightarrow y}}
+\li{A proarrow #{f_!: x \pro y}}
 \li{Two cells:
   \ul{
     \li{\em{Unit}: % https://q.uiver.app/#q=WzAsNCxbMCwwLCJ4Il0sWzEsMCwieCJdLFswLDEsIngiXSxbMSwxLCJ5Il0sWzAsMSwiIiwwLHsibGV2ZWwiOjIsInN0eWxlIjp7ImhlYWQiOnsibmFtZSI6Im5vbmUifX19XSxbMCwyLCIiLDIseyJsZXZlbCI6Miwic3R5bGUiOnsiaGVhZCI6eyJuYW1lIjoibm9uZSJ9fX1dLFsyLDMsImZfISIsMl0sWzEsMywiZiJdLFs0LDYsIlxcZXRhIiwwLHsic2hvcnRlbiI6eyJzb3VyY2UiOjIwLCJ0YXJnZXQiOjIwfX1dXQ==

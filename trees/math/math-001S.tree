@@ -1,0 +1,49 @@
+\date{2024-06-14}
+\title{Phase space}
+\import{macros}
+
+\subtree{
+\taxon{definition}
+
+\p{A \em{phase space} is a commutative monoid #{(P, 0, +)} with a distinguished subset #{\bot_P \subseteq P} of "anti-phases".}
+
+}
+
+\subtree{
+\taxon{definition}
+\p{The \em{dual} of #{G \subseteq P} is: #{G^\bot:=\{p \in P\ |\ \forall q \in G: (p+q \in \bot_P)\}}}
+}
+
+\subtree{
+\taxon{definition}
+\p{A fact is a subset  #{G \subseteq P} such that #{G^{\bot\bot}=G}.}
+}
+
+\subtree{
+\taxon{definition}
+\p{The connectives for subsets of #{P} are as follows}
+\ul{
+\li{#{\neg G:= G^\bot}}
+\li{#{G \otimes H := (G+H)^{\bot\bot}}}
+\li{#{G ⅋ H := (G^\bot + H^\bot)^\bot}}
+\li{#{G ＆ H := G \cap H}}
+\li{#{G \oplus H := (G \cup H)^{\bot\bot}}}
+}
+}
+
+\subtree{
+\taxon{definition}
+\p{A \em{phase structure} is a phase space with an assignment of a \em{fact} for
+each atomic sentence of a language #{L}.}
+
+\p{For #{A \in L} we say #{\brack{A}} is \em{valid} iff #{0 \in #{\brack{A}}}}
+
+\p{#{A} is a linear tautology if it is valid in any phase structure.}
+}
+
+
+\subtree{
+\title{MALL consequence}\taxon{definition}
+\p{#{\Gamma\underset{LL}\vDash \Delta} is defined as #{⅋(\Gamma^\bot \cup \Delta)} is a linear tautology, where #{\Gamma^\bot := \{\Gamma_1^\bot, \Gamma_2^\bot,... \}}}
+}
+

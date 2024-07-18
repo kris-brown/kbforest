@@ -1,0 +1,7 @@
+\date{2024-06-02}
+\title{Implication space}
+
+\subtree{\taxon{definition}\number{61}
+
+\p{Given a set of role-bearers (e.g. speech acts, worldly propositions), #{\mathcal{B}}, the space of possible implications is #{\mathbb{S} := \mathcal{P(B)\times P(B)}. }
+}}

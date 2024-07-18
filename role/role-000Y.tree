@@ -1,0 +1,9 @@
+\date{2024-06-13}
+\title{Sharing rational forms}
+
+\p{A sentence #{A} of a language and the worldly proposition #{|A|} (i.e. its interpretation in a model) share a rational form if for all sets of sentences #{\Gamma, \Delta}:}
+
+\ul{
+\li{#{\Gamma, A \underset{PN}\vDash \Delta} iff #{\Gamma, A \underset{TM}\vDash \Delta}}
+\li{#{\Gamma \underset{PN}\vDash A, \Delta} iff #{\Gamma \underset{TM}\vDash A,  \Delta}}
+}

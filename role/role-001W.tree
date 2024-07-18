@@ -1,0 +1,18 @@
+\date{2024-07-08}
+\title{ROLE.jl: a computational implementation}
+\import{role-001G}
+
+\p{Code to represent and compute with reason relations [here](https://github.com/kris-brown/ROLE). Current features are:}
+
+\ul{
+\li{Create reason relations (manual or randomized)}
+\li{Efficiently represent good implications + RSRs via [bitsets](https://en.wikipedia.org/wiki/Bit_array).}
+\li{Visualize reason relations via a #{\mathcal{P(B)\times P(B)}} table}
+\li{Implicational roles, symjunction, adjunction}
+\li{Define two categories of reason relations \ol{
+    \li{Simple maps on bearers that preserve good implications} \li{Interpretation functions}}}
+\li{Automatically compute all maps (of the first kind) between any pair of reason relations.}}
+
+\p{There are many tests that use the following 'arbitrary' [reason relation on two bearers](role-001G):}
+
+\RR2{\checkmark}{\times}{\times}{\times}{\checkmark}{\times}{\times}{\checkmark}

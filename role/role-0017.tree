@@ -1,0 +1,9 @@
+\date{2024-06-17}
+\title{Bob's task: show priority of reason relations over TM and PN}
+
+\p{Starting order of explanation from truth conditions, semantics starts with the exclusion of #{\top,\bot}. This is a symmetric relationship.}
+
+\p{However, this can't be right: all of the true claimables are compatible with each other, but not vice-versa. We just need to assume that implication is truth-preserving. You can't preserve the reason relations by swapping truth for falsity.}
+
+
+\p{Kris: my plan was to show how PN and TM embed into some other category Imp.}

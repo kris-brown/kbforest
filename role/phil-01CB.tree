@@ -1,0 +1,22 @@
+\date{2024-05-31}
+\title{Relation between pragmatic attitudes and semantic values}
+
+\p{The bivalence of pragmatic attitudes is related to the bivalence of semantic values}
+
+\ul{
+\li{\em{Acceptence} of #{\varphi} is taking #{\varphi} to be \em{true}.}
+\li{\em{Rejection} of #{\varphi} is taking #{\varphi} to be \em{false}.
+}}
+
+\p{\em{What} is being accepted or rejected?}
+
+\p{Quine thinks \em{sentences} like #{\varphi} directly have truth values, but it's better to think of what is accepted or rejected as that which #{\varphi} \em{expresses}.}
+
+\p{This allows us to make sense of how }
+
+\ul{
+  \li{Me (John) saying "I'm angry"}
+  \li{You saying "You're angry"}
+  \li{Someone else saying "John is angry" or "John está enojado"}}
+
+\p{All stand or fall together. This is evidence of a same-saying equivalence relation among sentences in context (e.g. who wrote/said the sentence? when?).}

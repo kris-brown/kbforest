@@ -1,0 +1,11 @@
+\date{2024-06-13}
+\title{Truth and falsity makers for sets of propositions}
+\taxon{definition}
+\number{38}
+
+\p{Given a set of (possibly logically-complex) sentences #{\Gamma}:}
+
+\ul{
+\li{#{u \vDash \Gamma := u \vDash \bigwedge \Gamma} unless #{\bigwedge \Gamma} has no truthmakers, in which case #{\square \vDash \Gamma}}
+\li{#{u ⫣ \Gamma := u ⫣ \bigvee \Gamma}, unless #{\bigvee \Gamma} has no falsemakers, in which case #{\square ⫣ \Gamma} }
+}

@@ -1,0 +1,7 @@
+\date{2024-06-13}
+\title{Downward closure for [truthmaker semantics models](role-000O)}
+\p{If #{s \in S^\diamond}, and #{t \sqsubseteq s}, then #{t \in S^\diamond}}
+
+\p{All parts of a possible state are possible.}
+
+\p{This corresponds to Weakening}

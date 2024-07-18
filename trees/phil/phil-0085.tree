@@ -1,7 +1,17 @@
 \title{Nonmonotonic logic}
 \meta{external}{https://plato.stanford.edu/entries/logic-nonmonotonic/}
+
 \p{
   Monotonicity is a property of the entailment relation of a logic.
 }
 
 \p{It's important to distinguish non-monotonic logics from logics which codify non-monotonic reason relations.}
+
+\p{The former is an attempt to adapt the logicist program (that reasoning has a topological closure structure) by reconstructing nonmonotonic implications out of monotonic ones. This is done by adding structure like:}
+
+\ul{
+  \li{preference orderings}
+  \li{distinctions among different classes of premises}
+  \li{restricting models}}
+
+\p{The latter task of codifying nonmonotonic reason relations can be done via monotonic logics.}

@@ -1,0 +1,6 @@
+\date{2024-07-10}
+\title{Decidable coherent theory}
+
+\p{A [coherent theory](math-003I) #{\mathbb{T}} is \em{decidable} if its signature includes an inequality predicate and #{\mathbb{T}} proves:}
+##{x \ne y \land x = y \vdash_{\{x,y\} } \bot}
+##{\top \vdash_{\{x,y\} x \ne y \vee x = y}}

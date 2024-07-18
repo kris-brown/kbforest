@@ -1,0 +1,12 @@
+\date{2024-07-12}
+\title{Star autonomous category}
+\taxon{definition}
+\meta{external}{https://ncatlab.org/nlab/show/star-autonomous+category}
+\import{macros}
+
+\p{A *-autonomous category is a [symmetric](math-0020) and [closed](math-0031) monoidal category #{(\cat{C}, \otimes, I, \multimap)} with a \em{global dualizing object} #{\bot} such that}
+
+##{d_A: A \rightarrow (A \multimap \bot) \multimap \bot}
+
+\p{is an isomorphism for all #{A \in \cat{C}}.}
+

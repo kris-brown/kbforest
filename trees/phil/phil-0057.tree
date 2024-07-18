@@ -5,3 +5,11 @@
 \p{
   A kind of [formal logic](phil-0048) contrasted with [classical logic](phil-0020).
 }
+
+\ul{
+\li{A proof of #{P \rightarrow Q} is a method converting any proof of #{P} into a proof of #{Q}.}
+\li{A proof of #{P \vee Q} is either a proof of #{P} or a proof of #{Q}.}
+\li{A proof of #{\neg P} is a method converting any proof of #{P} into a proof of an absurdity.}
+}
+
+\p{Unlike classical logic, #{{P \vee \neg P}} is not a theorem because we don't know whether to give a proof of #{P} or a proof of #{\neg P}.}

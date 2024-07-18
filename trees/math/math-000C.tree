@@ -18,6 +18,8 @@
 \li{Whose arrows are the \em{cells} of #{\DD}}
 }}
 \li{Two [functors](math-000E): #{s,t: \DD_1 \rightarrow \DD_0}}
+\li{A [functor](math-000E): #{1: \DD_0 \rightarrow \DD_1} specifying external identity}
+\li{A [functor](math-000E): #{\odot: \DD_1 \times_{\DD_0} \DD_1 \pro \DD_0} specifying external composition}
 }
 
 \p{Satisfying:}

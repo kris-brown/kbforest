@@ -1,0 +1,4 @@
+\date{2024-07-10}
+\title{Geometric logic}
+
+\p{This adds a connective #{\bigvee} of infinite disjunction to [coherent logic](math-003G).}

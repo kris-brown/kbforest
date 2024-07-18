@@ -1,0 +1,10 @@
+\date{2024-06-14}
+\title{Monoid ideals and regions of monotonicity}
+
+\subtree{\taxon{definition}
+\p{An \em{ideal} of a monoid #{(S, 0, +)} is a subset #{I \subseteq S} such that #{\forall (i,s) \in I\times S: i+s \in I}}
+}
+
+\p{Thus if the subset of good implications is an ideal, one has a monotonic relation.}
+
+\p{Or if the possible subset of states of a modalized state space is an ideal, one obtains the structural properties.}
