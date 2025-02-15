@@ -1,0 +1,6 @@
+\date{2024-08-23}
+\title{Atomic lattice}
+\taxon{definition}
+
+\p{A [lattice](math-0069) is \em{atomic} if for each nonzero element #{a} has an [atom](math-006G) #{p} such that #{p \leq a}.}
+

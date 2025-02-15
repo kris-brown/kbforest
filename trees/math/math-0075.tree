@@ -1,0 +1,11 @@
+\date{2024-09-01}
+\title{Contravariant power set functor is right adjoint to its opposite}
+\taxon{proposition}
+\import{macros}
+
+\p{The [contravariant power set functor](math-006J) #{\cP_c: #{\mathbf{Set}\rightarrow \mathbf{Set}^{op}}} is right [adjoint](math-0028) to its opposite, #{\cP_c^{op}: #{\mathbf{Set}^{op}\rightarrow \mathbf{Set}}}: #{\cP_c\vdash \cP}}
+
+##{\Hom_{\mathbf{Set}}(\cP(A),B)\cong \Hom_{\mathbf{Set}}(A,\cP(B)) = \Hom_{\mathbf{Set}}(B, \cP(A))}
+
+\p{This follows from expressing #{\cP(-)} as #{-\rightarrow 2}, currying the function and swapping the argument order.}
+

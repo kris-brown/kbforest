@@ -1,0 +1,8 @@
+\date{2024-08-03}
+\title{Zero objects from (co)-slice}
+\taxon{proposition}
+\import{macros}
+
+\p{The [slice category](math-005X) #{\cat{C}/0} over the [initial object](math-0052) has a zero object.}
+
+\p{Likewise, the co-[slice category](math-005X) #{1/\cat{C}} under the [terminal object](math-001G) has a zero object.}

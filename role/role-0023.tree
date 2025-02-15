@@ -1,0 +1,82 @@
+\date{2024-07-21}
+\title{Structure of LX vocabularies}
+\import{macros}
+\p{Given the following category of reason relations:}
+
+\transclude{role-002F}
+
+\subtree{\title{Identifying when a reason relation explicates another}
+\p{Consider [monomorphisms](math-003X) in this category: these cannot send two bearers with different RSRs to the same conceptual content.}
+
+\p{Now consider [split monomorphisms](math-003Y): }
+
+% https://q.uiver.app/#q=WzAsMixbMCwwLCJYIl0sWzEsMCwiTFgiXSxbMCwxLCJcXGlvdGEiLDIseyJjdXJ2ZSI6MSwic3R5bGUiOnsidGFpbCI6eyJuYW1lIjoibW9ubyJ9fX1dLFsxLDAsImYiLDIseyJjdXJ2ZSI6MX1dXQ==
+\quiver{
+  \begin{tikzcd}
+    X & LX
+    \arrow["\iota"', curve={height=6pt}, tail, from=1-1, to=1-2]
+    \arrow["f"', curve={height=6pt}, from=1-2, to=1-1]
+  \end{tikzcd}}
+
+\p{That #{\iota \cdot f = id_X} means that for each #{\gamma \in A} there is a bearer #{\iota(\gamma) \in B}  #{f(\gamma)\mapsto  \langle\cR^+(\gamma),\cR^-(\gamma)\rangle}}
+
+\p{I conjecture that split monomorphisms deserve to be called logical elaborations. They witness how one implication frame preserves the reason relations of some base implication frame.}
+
+\p{Every such one of these can make certain features of #{X} explicit (given that morphisms in this category are required to satisfy normative governance): that #{(\Lambda,\Theta) \in \II_{LX}} holds says something about #{\II_X}.}
+}
+\subtree{\title{Universal explications}
+% https://q.uiver.app/#q=WzAsNCxbMCwwLCJYIl0sWzEsMCwiTF8xIl0sWzIsMCwiTF8yIl0sWzEsMSwiTF8zIl0sWzMsMiwiIiwwLHsiY3VydmUiOi0xLCJzdHlsZSI6eyJ0YWlsIjp7Im5hbWUiOiJtb25vIn19fV0sWzAsMSwiIiwwLHsic3R5bGUiOnsidGFpbCI6eyJuYW1lIjoibW9ubyJ9fX1dLFsxLDIsIiIsMSx7InN0eWxlIjp7InRhaWwiOnsibmFtZSI6Im1vbm8ifX19XSxbMSwzLCIiLDEseyJzdHlsZSI6eyJ0YWlsIjp7Im5hbWUiOiJtb25vIn19fV0sWzIsMywiIiwwLHsiY3VydmUiOi0xfV1d
+\quiver{\begin{tikzcd}
+    X & {L_1} & {L_2} \\
+    & {L_3}
+    \arrow[tail, from=1-1, to=1-2]
+    \arrow[tail, from=1-1, to=2-2]
+    \arrow[tail, from=1-2, to=1-3]
+    \arrow[tail, from=1-2, to=2-2]
+    \arrow[curve={height=-6pt}, tail, from=1-3, to=2-2]
+    \arrow[curve={height=-6pt}, tail, from=2-2, to=1-3]
+  \end{tikzcd}}
+
+\p{Imagine #{L_1} adds #{\neg}, #{L_2} furthermore adds #{\rightarrow}, and #{L_3} adds the Scheffer stroke.}
+
+% https://q.uiver.app/#q=WzAsNixbMSwwLCJMXzE9XFx7QSxCLFxcbmVnIEEsXFxuZWcgQlxcfSJdLFsyLDAsIlg9XFx7QSxCXFx9Il0sWzIsMSwiXFxtYXRoYmJ7SX1fWD1cXHtcXGJveGVke1xcdmRhc2ggQX0sIFxcYm94ZWR7QlxcdmRhc2ggQX0sXFxcXFxcYm94ZWR7QSxCXFx2ZGFzaCB9LCAuLi5cXH0iXSxbMSwxLCJbW0FdXVxcbWFwc3RvXFxsYW5nbGUgXFxtYXRoY2Fse1J9XisoQSksXFxtYXRoY2Fse1J9Xi0oQSlcXHJhbmdsZSBcXFxcIFtbXFxuZWcgQV1dXFxtYXBzdG9cXGxhbmdsZVxcbWF0aGNhbHtSfV4tKEEpLFxcbWF0aGNhbHtSfV4rKEEpXFxyYW5nbGVcXFxcLi4uIl0sWzAsMCwiTF8yPVxce0EsQixcXG5lZyBBLFxcbmVnIEIsQVxccmlnaHRhcnJvdyBCLFxcXFxCXFxyaWdodGFycm93IEEsIFxcbmVnIEFcXHJpZ2h0YXJyb3cgQiwgQSBcXHJpZ2h0YXJyb3cgXFxuZWcgQlxcXFwgXFxuZWcgQSBcXHJpZ2h0YXJyb3cgXFxuZWcgQixcXG5lZyAoQVxccmlnaHRhcnJvdyBCKSwuLi5cXH0iXSxbMCwxLCJbW0FcXHJpZ2h0YXJyb3cgQl1dIFxcbWFwc3RvIFxcbGFuZ2xlXFxtYXRoY2Fse1J9XisoQSlcXHNxY2FwXFxtYXRoY2Fse1J9XisoQSlcXHNxY2FwXFxcXChcXG1hdGhjYWx7Un1eKyhBKVxcc3FjdXBcXG1hdGhjYWx7Un1eKyhBKSksXFwgXFxtYXRoY2Fse1J9XisoQSlcXHNxY3VwIFxcbWF0aGNhbHtSfV4tKEIpXFxyYW5nbGVcXFxcLi4uIl0sWzAsMSwiW1tcXGNkb3RdXSJdLFs0LDAsIltbXFxjZG90XV0iXV0=
+\quiver{\begin{tikzcd}
+    \begin{array}{c} L_2=\{A,B,\neg A,\neg B,A\rightarrow B,\\B\rightarrow A, \neg A\rightarrow B, A \rightarrow \neg B\\ \neg A \rightarrow \neg B,\neg (A\rightarrow B),...\} \end{array} & {L_1=\{A,B,\neg A,\neg B\}} & {X=\{A,B\}} \\
+    \begin{array}{c} A\rightarrow B \mapsto \langle\mathcal{R}^+(A)\sqcap\mathcal{R}^+(A)\sqcap\\(\mathcal{R}^+(A)\sqcup\mathcal{R}^+(A)),\ \mathcal{R}^+(A)\sqcup \mathcal{R}^-(B)\rangle\\... \end{array} & \begin{array}{c}  A\mapsto\langle \mathcal{R}^+(A),\mathcal{R}^-(A)\rangle \\ \neg A\mapsto\langle\mathcal{R}^-(A),\mathcal{R}^+(A)\rangle\\... \end{array} & \begin{array}{c} \mathbb{I}_X=\{B \vdash A ...\} \end{array}
+    \arrow["{[\cdot]}", from=1-1, to=1-2]
+    \arrow["{[\cdot]}", from=1-2, to=1-3]
+  \end{tikzcd}}
+
+
+\p{Two things to note:}
+\ul{
+\li{These extensions do \em{not} need to add all of the propositions one gets by freely adding in a new collective. For example, the map #{X \rightarrow L_1} could be decomposed into two maps #{X \rightarrow L_1' \rightarrow L_1} which first adds a #{\neg A} bearer and then adds a #{\neg B} bearer.}
+\li{The bearers in these extensions need not be associated with any particular logical syntax. There could be a map #{X \rightarrow L_4} where the bearers of #{L_4} are #{\{A, B, \heartsuit\}}, and the inverse interpretation function sends #{{\heartsuit \mapsto \langle \heartsuit^+(A,B), \heartsuit^-(A,B) \rangle}} (some random, arbitrary thing). If it happens to be the case that we can express this assignment in terms of the rules for #{{\land, \neg, \vee}} etc., then we can give #{\heartsuit} a more friendly / intelligible name.}
+}
+\p{\strong{Conjecture:} Fixing some #{X} and looking at the category of split monomorphisms out of #{X}: the [terminal object](math-001G) could be said to be \em{universally} LX.}
+}
+
+
+\p{\strong{Upshots:} we don't need to talk syntactically about particular symbols. We've characterized being universally LX in a relational way.}
+
+\subtree{\title{Making reason relations explicit by implication}
+
+\transclude{phil-01CM}
+
+\p{Does a universally LX vocabulary make reason relations explicit in this sense?}
+
+\p{A bearer of #{LX} makes #{\Theta\vsim\Lambda} explicit (such that we could \em{call} the bearer #{\Theta\vsim\Lambda}) if it has the following interpretation:}
+
+##{\brack{\Theta\vsim\Lambda}^+ := \brack{\cR^+(\Theta) \sqcup \cR^-(\Lambda) }}
+
+\p{Likewise for against}
+##{\brack{\Theta\vsim\Lambda}^+ := \brack{\cR^+(\Theta) \sqcup \cR^-(\Lambda) }}
+
+
+}
+
+\p{\strong{TO THINK ABOUT:} we get a 'base-change' operation: given an interpretation #{A \rightarrow B}, there is a map #{LX(A)\rightarrow B} via composition.}
+
+\p{\strong{TO THINK ABOUT:} are we really quantifying over all possible implicational roles? Could this lead to size issues?}
+\p{\strong{TO THINK ABOUT:} We might define equivalence of morphisms such that there exists no [terminal object](math-001G) but there do exist [weakly terminal](math-0054) ones, which are universally LX (as there could be nontrivial automorphisms between the logically complete elaborations ... Galois theory is relevant here).}
+\p{\strong{TODO:} show that we can make reason relations explicit by one sequent whenever one is terminal}

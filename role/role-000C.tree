@@ -8,12 +8,7 @@
 
 \p{(The Kleisli category and [Eilenberg Moore](math-002C) category for this monad are interesting.)}
 
-\p{Here's an attempt at a category of reason relations:}
-
-\subtree{\taxon{definition}
-\p{Let #{RRel} be a category of reason relations with objects #{(B:Set, I\subseteq \mathcal{P}(B)^2)}}
-\p{Let #{Hom_{RRel}((A,I_A),(B,I_B))} be the set of functions #{A\rightarrow B} such that #{\forall (\Gamma, \Delta) \in I_A: (f(\Gamma),f(\Delta))\in I_B}}
-}
+\transclude{role-0026}
 
 \p{We can also apply the monad #{L} to a monad on #{RRel}, as the meanings of the connectives state how to lift the relation on the base vocabulary, #{\vsim} to a relation on the logical lexicon.}
 
@@ -22,7 +17,7 @@
 \p{The "expressive of" feature says that every element of the lexicon of #{\eta_L(B)} is expressive of an element of #{\mathcal{P}(B)^2}. I've yet to work out what this could mean in terms of universal properties. However, another way to think of this is that if the reason relation #{(B,I)} \em{had} been different, the reason relation #{\eta_L(B)} \em{would be} different. So perhaps we cannot characterize #{\eta_L(B)} purely in the category above but rather need to be working in a double category that also involves normative relations between reason relations.}
 
 
-\subtree{\title{A strategy}
+\subtree{\title{Some preliminary strategies}
 
 \p{If the notion of morphism #{(B,I) \rightarrow (B',J)} is a pair of interpretation functions #{\brack{\cdot}^+,\brack{\cdot}^-}, such that, for all #{\Gamma,\Delta \subseteq \mathcal{P}(B)}:}
 
@@ -73,3 +68,5 @@
 
   \transclude{phil-01CM}
 }
+
+\transclude{role-0023}

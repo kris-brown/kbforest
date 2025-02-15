@@ -1,0 +1,10 @@
+\date{2024-12-27}
+\title{Virtual double category of matrices}
+\taxon{example}
+\import{macros}
+
+\transclude{math-007Q}
+
+\p{When #{(V,\otimes, I)} is the two-object [Bool](math-007R), this construction produces the [bicategory](math-0055) of [relation](math-0002)s..}
+
+\p{#{V\text{-}{\MM}at} forms a bicategory if #{V} has coproducts preserved by #{\otimes}, but this extra condition is unnecessary if we merely want a virtual double category. [ref](ref-00B8)}

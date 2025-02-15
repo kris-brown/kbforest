@@ -1,0 +1,18 @@
+\date{2024-08-06}
+\title{Direct definition of implicational role adjunction}
+\taxon{definition}
+\import{macros}
+
+\p{Given the ability to [recover a canonical presentation of an implicational role](role-002T), the \em{direct} definition of adjunction becomes:}
+
+##{  \cR \sqcup \cR' := RSR(\{a+b\ |\ a \in RSR(\cR), b \in RSR(\cR')\})
+}
+
+\p{Perhaps there is a way to massage this into something that is actually direct / more elegant, rather than just converting to a (canonical) representative and using the [old definition](phil-01CR). But this does match up precisely with #{A ⅋ B := (A^*\otimes B^*)^*} in the phase-space semantics.}
+
+\p{Other recastings of the formula look like}
+
+\ul{
+\li{#{\{s \in S\ |\ (a,b) \in S^2, a \in RSR(\cR) \land b \in RSR(\cR') \land a+b+s \in \II \}}}
+\li{#{\{s \in S\ |\ (a,b) \in S^2, a\in RSR(\cR \cup \{b,s\})  \land b \in RSR(\cR'\cup \{a,s\})\}}}
+}

@@ -1,0 +1,22 @@
+\date{2024-07-28}
+\title{Simplification of strict symmetric monoidal paracategory functorality of product}
+\taxon{proposition}
+\import{macros}
+
+\p{The functorality constraint of #{\otimes} in a [symmetric monoidal paracategory](math-005F) #{(\cat{C},[-],\otimes,I,\sigma)} can be expressed as:}
+
+##{[f_1,...,f_n]\otimes [g_1,...,g_n] \overline{\leftharpoondown} [f_1\otimes g_1,...,f_n\otimes g_n]}
+
+\p{However this can be simplified to the following conditions, over all arrows #{f,g,f',g'} in #{\cat{C}}:}
+
+##{[f,f']\otimes [g,g'] \overline{\leftharpoondown} [f\otimes g,f'\otimes g']}
+
+\p{and over all paths #{\vec p} in the [path category](math-0058) #{P(\cat{C})}}
+
+##{1 \otimes [\vec p] \overline{\leftharpoondown} [1 \otimes \vec p]}
+
+##{[\vec p] \otimes 1 \overline{\leftharpoondown} [\vec p \otimes 1]}
+
+
+
+

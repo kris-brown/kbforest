@@ -1,0 +1,12 @@
+\date{2024-07-28}
+\title{Embedding strict symmetric monoidal paracategories into strict symmetric monoidal categories}
+\taxon{definition}
+
+\p{Given a [strict symmetric monoidal paracategory](math-0020) #{(\cat{C},[-],\otimes,I,\sigma)} and a [congruence](math-005I) #{S}, there exists a [functor](math-005H) #{F: \cat{C}\rightarrow P(\cat{C})/S} to the [quotient](math-005J) given by the following [graph homomorphism](math-005D):}
+
+\ul{
+\li{On objects, #{F} is the identity}
+\li{On arrows, #{F(f) = \overbar{f}}}}
+
+
+\p{This satisfies the constraints of a symmetric monoidal functor and, if #{S} is the smallest congruence relation #{\sim}, then #{F} is [faithful](math-002K).}

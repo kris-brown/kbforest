@@ -1,0 +1,7 @@
+\date{2024-07-22}
+\title{Conceptual completeness of pretoposes}
+\import{macros}
+
+\blockquote{When we take tight extensions of a first order theory, we do not add, in fact, any new models. However we do add in general, new concepts (such as equivalence classes), which now become ordinary elements of the models. The theorem we just presented states this is not the case if #{\TT} was a [pretopos](math-0044) to begin with.}
+
+\p{- Model theory vs Categorical Logic: Two approaches to pretopos completion}

@@ -1,0 +1,8 @@
+\date{2024-08-26}
+\title{Category of implication frames and interpretations}
+\import{macros}
+\taxon{definition}
+\p{The objects of the [category](math-000D) are implication frames (i.e. [implication frames](phil-01CO))}
+\p{A morphism from #{(\cL_A,\II_A)\rightarrow (\cL_B, \II_B)} is an [interpretation function](role-003J) #{\brack{\cdot}} sending bearers of #{A} to [conceptual contents](phil-01D6) in #{B} such that:}
+
+##{ (\Gamma \vsim_A \Delta) \implies \brack{\Gamma} \Vsim_B \brack{\Delta}}

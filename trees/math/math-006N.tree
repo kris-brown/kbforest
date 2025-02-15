@@ -1,0 +1,106 @@
+\date{2024-08-24}
+\title{Three-valued truth tables}
+\import{base-macros}
+
+\table{
+\tr{
+\th{A}
+\th{#{\neg A}}
+}
+\tr{
+  \td{F}
+  \td{T}
+}
+\tr{
+  \td{U}
+  \td{U}
+}
+\tr{
+  \td{T}
+  \td{F}
+}
+
+}
+
+\table{
+\tr{
+\th{#{A\land B}}
+\th{#{F_B}}
+\th{#{U_B}}
+\th{#{T_B}}
+}
+\tr{
+\th{#{F_A}}
+\td{F}
+\td{F}
+\td{F}
+}
+\tr{
+\th{#{U_A}}
+\td{F}
+\td{U}
+\td{U}
+}
+\tr{
+\th{#{T_A}}
+\td{F}
+\td{U}
+\td{T}
+}
+
+}
+
+
+\table{
+\tr{
+\th{#{A\vee B}}
+\th{#{F_B}}
+\th{#{U_B}}
+\th{#{T_B}}
+}
+\tr{
+\th{#{F_A}}
+\td{F}
+\td{U}
+\td{T}
+}
+\tr{
+\th{#{U_A}}
+\td{U}
+\td{U}
+\td{T}
+}
+\tr{
+\th{#{T_A}}
+\td{T}
+\td{T}
+\td{T}
+}
+}
+
+\table{
+\tr{
+\th{#{A\implies B}}
+\th{#{F_B}}
+\th{#{U_B}}
+\th{#{T_B}}
+}
+\tr{
+\th{#{F_A}}
+\td{T}
+\td{T}
+\td{T}
+}
+\tr{
+\th{#{U_A}}
+\td{U}
+\td{U}
+\td{T}
+}
+\tr{
+\th{#{T_A}}
+\td{F}
+\td{U}
+\td{T}
+}
+}

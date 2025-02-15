@@ -1,0 +1,6 @@
+\date{2024-07-30}
+\title{Category of modalized state spaces}
+\taxon{definition}
+\p{As objects: [modalized state spaces](role-000M) #{(S, S^\diamond \subseteq S, \sqsubset_S, \vee)} (i.e. join semilattices with a distinguished subset)}
+
+\p{As morphisms #{(S, S^\diamond, \sqsubset_S) \rightarrow (T, T^\diamond,  \sqsubset_T, \vee)}, functions #{S \rightarrow T} which preserve the distinguished subset, poset, and join structure.}

@@ -1,0 +1,13 @@
+\date{2024-09-01}
+\title{Join semilattice of join-semilattice morphisms}
+\import{macros}
+\taxon{definition}
+
+\p{The set of morphisms #{X\rightarrow Y} in the category of [join semilattices](math-006Z) can be given the structure of a join-semilattice. Call this lattice \cat{JSL(X,Y)}.}
+
+##{f \leq_\cat{JSL(X,Y)} g:= \forall x \in X, f(x)\leq_Y g(x)}
+
+
+\p{We can define the join too:}
+
+##{ f \vee_\cat{JSL(X,Y)} g := x\mapsto f(x)\vee g(x)}

@@ -1,0 +1,102 @@
+\date{2024-08-31}
+\title{Category of implication frames and weird maps.}
+\import{macros}
+\import{base-macros}
+
+\p{A morphism #{X\rightarrow Y} is a function #{f: \cL_X \rightarrow \cL_Y} such that}
+
+#{\forall V \in S_Y: \cP_c f(V) \in \II_X \implies V \in \II_Y}
+
+\p{The empty implication frame is [initial](math-0052).}
+
+\p{The one-bearer implication frame with #{\II=S} is [terminal](math-001G).}
+
+\table{
+\tr{
+\th{#{\II_1}}
+\th{#{0}}
+\th{#{a^-}}
+}
+\tr{
+\th{#{0}}
+\td{#{\checkmark}}\td{#{a_1=\checkmark}}}
+\tr{
+\th{#{a^+}}
+\td{#{a_2=\checkmark}}\td{#{a_3=\checkmark}}}
+}
+
+
+\p{If we consider looking for binary coproducts, we'll have to consider cospans #{A \xrightarrow{f} X \xleftarrow{g} B}. If #{A} and #{B} have one bearer which are sent to different bearers in #{X}, what constraints do we have on #{\II_X} as a function of #{\II_A} and #{\II_B}? (Note if there are other bearers in #{X}, they are not at all constrained by the existence of the cospan.)}
+
+\table{
+\tr{
+\th{#{\II_X}}
+\th{#{0}}
+\th{#{a^-}}
+\th{#{b^-}}
+\th{#{a^-b^-}}
+}
+\tr{
+\th{#{0}}
+\td{#{\checkmark}}\td{#{\geq a_1}}\td{#{\geq b_1}}\td{#{\geq a_1 \vee b_1}}
+}
+\tr{
+\th{#{a^+}}
+\td{#{\geq a_2}}\td{#{\geq a_3}}\td{#{\geq a_2 \vee b_1}}\td{#{\geq a_3 \vee b_1}}
+}
+\tr{
+\th{#{b^+}}
+\td{#{\geq b_2}}\td{#{\geq a_1 \vee b_2}}\td{#{\geq b_3}}\td{#{\geq a_1 \vee b_2}}
+}
+\tr{
+\th{#{a^+b^+}}
+\td{#{\geq a_2 \vee b_2}}\td{#{\geq a_3\vee b_2}}\td{#{\geq a_2 \vee b_3}}\td{#{\geq a_3 \vee b_3}}
+}
+}
+
+\p{Where "#{\geq a_1}" means that the value is a greater truth value than that of #{a_1} (if it is false, then #{a_1} had to have been false; it being true does not tell us anything about what #{a_1} had to have been.). Note how the cells correspond to pairs of cells in the component tables.}
+
+\p{These constraints apply equally to #{A+B}, except we need to make a decision for each of the cells without knowing what #{A+B} is mapping into. The conservative choice is simply remove the #{\geq}'s.}
+
+
+\table{
+\tr{
+\th{#{\II_{A+B}}}
+\th{#{0}}
+\th{#{a^-}}
+\th{#{b^-}}
+\th{#{a^-b^-}}
+}
+\tr{
+\th{#{0}}
+\td{#{\checkmark}}\td{#{a_1}}\td{#{b_1}}\td{#{a_1 \vee b_1}}
+}
+\tr{
+\th{#{a^+}}
+\td{#{a_2}}\td{#{a_3}}\td{#{a_2 \vee b_1}}\td{#{a_3 \vee b_1}}
+}
+\tr{
+\th{#{b^+}}
+\td{#{b_2}}\td{#{a_1 \vee b_2}}\td{#{b_3}}\td{#{a_1 \vee b_2}}
+}
+\tr{
+\th{#{a^+b^+}}
+\td{#{a_2 \vee b_2}}\td{#{a_3\vee b_2}}\td{#{a_2 \vee b_3}}\td{#{a_3 \vee b_3}}
+}
+}
+
+\subtree{\taxon{definition}
+\p{The coproduct of implication frames #{A+B} has #{\cL_{A+B}:=\cL_A+\cL_B} and injection morphisms given by this coproduct in \strong{Set}. Any given #{i \in S_{A+B}} is an element of #{{\II_{A+B}}} unless there exists a #{j \notin \II_A} such that #{\iota_A(j)=i} (likewise for #{\iota_B}). I.e.:}
+
+##{i \in \II_{A+B} := \iota_A^{-1}(i) \in \II_A \vee \iota_B^{-1}(i) \in \II_B}
+}
+
+\p{(TODO: Something about this is wrong: the cells with empty preimage in one of the injections would be made automatically #{\checkmark} by this definition ... alternatively, is the definition right and they \em{should} be checkmarks?)}
+
+\subtree{\taxon{proposition}
+\p{#{A+B} satisfies the universal property of the coproduct for any cospan #{{A \xrightarrow{f} X \xleftarrow{g} B}}.}
+\subtree{\taxon{proof}
+\p{Given #{{A \xrightarrow{f} X \xleftarrow{g} B}}, the universal property in \strong{Set} gives us the unique morphism #{{A+B \xrightarrow{u} X}}. That this is unique (if it exists) is given by the fact we are looking at a subcategory of \strong{Set}, so we just need to verify that #{u} satisfies the constraint.}
+
+\p{Suppose #{i \in S_{X}}. We need to show that if #{(a,b) = u^{-1}(i) \in \II_{A+B}}, then #{i \in \II_X}. By construction of #{\II_{A+B}}, we know #{a \in \II_A} or #{b \in \II_B}. Then, because at least one of #{f^{-1}(i)} or  #{g^{-1}(i)=b} are good implications, we are guaranteed that #{i \in \II_X}.}
+}}

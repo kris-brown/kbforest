@@ -1,0 +1,9 @@
+\date{2024-08-30}
+\title{Category of join-semilattices}
+
+\subtree{\taxon{definition}
+\p{The [category](math-000D) of [join-semilattices](math-006Z) has join-semilattices as objects and [monotone-maps](math-0068) which preserve #{\vee} and #{\bot} as morphisms. Because join-semilattices have all joins, they must have all meets, and so are lattices. But morphisms of this category are only required to preserve the joins.}
+}
+
+\p{This is a category of varieties. It is the category of algebras of a Lawvere theory.}
+

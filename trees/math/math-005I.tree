@@ -1,0 +1,23 @@
+\date{2024-07-28}
+\title{Congruence of a paracategory}
+\import{macros}
+\taxon{definition}
+
+\p{A congruence relation #{S} on a [paracategory](math-005A) #{(\cat{C}, [-])} is an equivalence relation #{\sim^{A,B}_S} for each set of [paths](math-0058) #{\Hom_{P(C)}(A,B)} such that:}
+
+\ul{
+\li{#{\vec p \sim_S \vec{p'}} and #{\vec q \sim_S \vec {q'}} implies #{\vec p,\vec q \sim_S \vec {p'}, \vec {q'}}}
+\li{If #{[\vec p]} is defined, then #{\vec p \sim_S [\vec p]}}
+\li{If #{\cat{C}} is [symmetric monoidal](math-005F), then #{\vec p \sim_S \vec q} implies that #{\vec p \otimes 1 \sim_S \vec q \otimes 1} and #{1 \otimes \vec p \sim_S 1 \otimes \vec q}}}
+
+\subtree{
+\p{#{\hat S} is a congruence relation obtained by setting #{\vec p \sim_{\hat S} \vec q} iff for all #{A,B,\vec r, \vec s}}
+
+##{[\vec r, 1_A \otimes \vec p \otimes 1_B , \vec s] \rightleftharpoons [\vec r, 1_A \otimes \vec q \otimes 1_B, \vec s]}
+
+\p{letting #{A=B=I} and #{\vec r=\vec s = \varnothing}, it's clear that #{\vec p \sim_{\hat S} \vec q} implies #{[\vec p] \rightleftharpoons [\vec q]}}
+}
+
+\p{There is a canonical congruence #{\sim}, the \em{smallest} congruence (i.e. intersection of all congruences).}
+
+

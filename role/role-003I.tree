@@ -1,0 +1,21 @@
+\date{2024-08-24}
+\title{Implicational role inclusion example}
+\taxon{example}
+\import{macros}
+
+\p{Suppose we have an implication frame with #{\cL=\{a,b,c,d,...\}} and following four implicational roles:}
+
+##{
+\begin{align*}
+  \cA^+ & := \{ a^+ \}^* \\
+  \cB^- & := \{ b^- \}^* \\
+  \cC^- & := \{ c^- \}^* \\
+  \cD^- & := \{ d^- \}^* \\
+\end{align*}
+}
+
+\p{What does the [implicational role inclusion](role-003H) #{\{ \cA^+,\cB^-\}\preceq \{\cC^-,\cD^- \} } mean? }
+
+\p{For all #{(\Gamma,\Delta)}, \em{if} we have #{\Gamma,a \vsim \Delta} and #{\Gamma \vsim b, \Delta}... \em{then} we have #{\Gamma\vsim \Delta, c,d}.}
+
+\p{The contexts which validate all of the domain roles independently must validate all of the codomain roles combined.}

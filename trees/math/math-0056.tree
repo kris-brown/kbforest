@@ -1,0 +1,11 @@
+\date{2024-07-28}
+\title{Kleene equality}
+\meta{external}{https://ncatlab.org/nlab/show/Kleene+equality}
+\taxon{definition}
+
+\p{In the context of [partial functions](math-0057) where we can have undefined values, \em{Kleene equality} is defined as:}
+
+#{a \rightleftharpoons b := (a = b \text{ if both defined}) \vee \text{ both undefined} }
+
+\p{\em{Directed} Kleene equality is defined as:}
+#{a \overline{\leftharpoondown} b := (a = b \text{ if both defined}) \vee a \text{ undefined}}

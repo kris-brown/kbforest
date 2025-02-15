@@ -1,0 +1,23 @@
+\date{2024-08-25}
+\title{Recursive semantics for logical expressions}
+\import{macros}
+
+\p{Let #{\brack{A} = (a^+,a^-)} and #{\brack{B} = (b^+,b^-)} }
+
+##{
+\begin{align*}
+  \brack{\neg A}^+          & := a^-                              \\
+  \brack{\neg A}^-          & := a^+                              \\
+
+  \brack{A \rightarrow B}^+ & := a^-\cap b^+ \cap (a^-\sqcup b^+) \\
+  \brack{A \rightarrow B}^- & :=  a^+ \sqcup b^-                  \\
+  \brack{A \land B}^+       & := a^+\sqcup b^+                    \\
+  \brack{A \land B}^-       & := a^-\cap b^- \cap (a^-\sqcup b^-) \\
+  \brack{A \lor B}^+        & := a^+\cap b^+ \cap (a^+\sqcup b^+) \\
+  \brack{A \lor B}^-        & := a^- \sqcup b^-
+\end{align*}
+}
+
+
+
+

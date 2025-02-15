@@ -1,0 +1,10 @@
+\date{2024-09-01}
+\title{Join semilattice morphisms have adjoints}
+\import{macros}
+\taxon{proposition}
+
+\p{Any [join semilattice](math-006Z) morphism #{f:X\rightarrow Y} perserves all [joins](math-001U), so it is [therefore](math-0073) a left [adjoint](math-0028) in the category of [posets](math-001O). It has a right adjoint [monotone map](math-0068): #{f_*: Y \rightarrow X} }
+
+#{f_*:= y \mapsto \bigvee \{x \in X\ | f(x) \leq y\}}
+
+\p{This is \em{not} a join semilattice morphism because it preserves [meets](math-006A), not joins. However, it \em{is} a join semilattice morphism #{Y^{op}\rightarrow X^{op}}.}

@@ -1,0 +1,74 @@
+\date{2024-08-27}
+\title{Logical elaboration example}
+\import{macros}
+\import{base-macros}
+\taxon{example}
+\import{role-001G}
+
+\p{Suppose we have an implication frame with one bearer #{a} and #{\II= \{e, a^+,a^-a^+\}} (i.e. the only bad sequent is #{a\vsim}). We have as atomic roles #{\{e\}^*=\II, \{a^+\}*=\{a^-a^+\}^* = S, \{a^-\}^*= \{a^+,a^-a^+\}} }
+
+% https://q.uiver.app/#q=WzAsMyxbMSwxLCJTIl0sWzAsMCwiXFx7YV4rLGFeLWFeK1xcfSJdLFsyLDAsIlxcbWF0aGJie0l9Il0sWzAsMV0sWzAsMl0sWzIsMV1d
+\quiver{\begin{tikzcd}
+    {\{a^+,a^-a^+\}} && {\mathbb{I}} \\
+    & S
+    \arrow[from=1-3, to=1-1]
+    \arrow[from=2-2, to=1-1]
+    \arrow[from=2-2, to=1-3]
+  \end{tikzcd}}
+
+\p{Now consider a logical elaboration of this with two bearers: #{a, b = \neg a}. In virtue of calling the second bearer #{\neg a}, we are obligated to send its premisory role to #{S} and its conclusory role to #{\{a^+,a^-a^+\} }. This fully determines the implication frame #{\II_B}:}
+
+\RR2{\checkmark}{\times}{\checkmark}{\times}{\times}{\checkmark}{\checkmark}{\checkmark}
+
+
+
+
+\table{
+\tr{
+\th{#{\cR}}
+\th{#{0}}
+\th{#{a^-}}
+\th{#{(\neg a)^-}}
+\th{#{a^-(\neg a)^-}}
+}
+\tr{
+\th{#{0}}
+\td{#{\II}}\td{#{S}}\td{#{S \setminus \cP(\{a^-,(\neg a)^+\})}}\td{#{S}}
+}
+\tr{
+\th{#{a^+}}
+\td{#{S \setminus \cP(\{a^-,(\neg a)^+\})}}\td{#{S}}\td{#{S \setminus \cP(\{a^-,(\neg a)^+\})}}\td{#{S}}
+}
+\tr{
+\th{#{(\neg a)^+}}
+\td{#{S}}\td{#{S}}\td{#{S}}\td{#{S}}
+}
+\tr{
+\th{#{a^+,(\neg a)^+}}
+\td{#{S}}\td{#{S}}\td{#{S}}\td{#{S}}
+}
+}
+
+% https://q.uiver.app/#q=WzAsMTIsWzEsMSwiU19BIl0sWzAsMCwiU19CXFxzZXRtaW51c1xcbWF0aGNhbHtQfShcXHthXi1cXH0pIl0sWzIsMCwiXFxtYXRoYmJ7SX1fQSJdLFs1LDEsIlNfQiJdLFs0LDAsIlNfQlxcc2V0bWludXNcXG1hdGhjYWx7UH0oXFx7YV4tLFxcbmVnIGFeK1xcfSkiXSxbNiwwLCJcXG1hdGhiYntJfV9CIl0sWzEsMywiYV4rIl0sWzYsMywiYV4rIl0sWzUsMywiXFxuZWcgYV4rIl0sWzAsMywiYV4tIl0sWzQsMywiYV4tIl0sWzcsMywiXFxuZWcgYV4tIl0sWzAsMV0sWzAsMl0sWzIsMV0sWzMsNF0sWzMsNV0sWzUsNF0sWzMsMCwiIiwwLHsic3R5bGUiOnsiYm9keSI6eyJuYW1lIjoiZGFzaGVkIn19fV0sWzQsMSwiIiwwLHsiY3VydmUiOjIsInN0eWxlIjp7ImJvZHkiOnsibmFtZSI6ImRhc2hlZCJ9fX1dLFs1LDIsIiIsMSx7ImN1cnZlIjozLCJzdHlsZSI6eyJib2R5Ijp7Im5hbWUiOiJkYXNoZWQifX19XSxbNiwwLCIiLDEseyJzdHlsZSI6eyJib2R5Ijp7Im5hbWUiOiJkb3R0ZWQifX19XSxbOCw0LCIiLDIseyJzdHlsZSI6eyJib2R5Ijp7Im5hbWUiOiJkb3R0ZWQifX19XSxbNywzLCIiLDIseyJzdHlsZSI6eyJib2R5Ijp7Im5hbWUiOiJkb3R0ZWQifX19XSxbOSwxLCIiLDIseyJzdHlsZSI6eyJib2R5Ijp7Im5hbWUiOiJkb3R0ZWQifX19XSxbMTAsNCwiIiwyLHsic3R5bGUiOnsiYm9keSI6eyJuYW1lIjoiZG90dGVkIn19fV0sWzExLDMsIiIsMix7InN0eWxlIjp7ImJvZHkiOnsibmFtZSI6ImRvdHRlZCJ9fX1dXQ==
+\quiver{\begin{tikzcd}
+    {S_B\setminus\mathcal{P}(\{a^-\})} && {\mathbb{I}_A} && {S_B\setminus\mathcal{P}(\{a^-,\neg a^+\})} && {\mathbb{I}_B} \\
+    & {S_A} &&&& {S_B} \\
+    \\
+    {a^-} & {a^+} &&& {a^-} & {\neg a^+} & {a^+} & {\neg a^-}
+    \arrow[from=1-3, to=1-1]
+    \arrow[curve={height=12pt}, dashed, from=1-5, to=1-1]
+    \arrow[curve={height=18pt}, dashed, from=1-7, to=1-3]
+    \arrow[from=1-7, to=1-5]
+    \arrow[from=2-2, to=1-1]
+    \arrow[from=2-2, to=1-3]
+    \arrow[from=2-6, to=1-5]
+    \arrow[from=2-6, to=1-7]
+    \arrow[dashed, from=2-6, to=2-2]
+    \arrow[dotted, from=4-1, to=1-1]
+    \arrow[dotted, from=4-2, to=2-2]
+    \arrow[dotted, from=4-5, to=1-5]
+    \arrow[dotted, from=4-6, to=1-5]
+    \arrow[dotted, from=4-7, to=2-6]
+    \arrow[dotted, from=4-8, to=2-6]
+  \end{tikzcd}
+}

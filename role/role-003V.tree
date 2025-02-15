@@ -1,0 +1,28 @@
+\date{2024-08-26}
+\title{Unitality for monoidal product of category of roles}
+\taxon{proposition}
+\import{macros}
+
+\p{#{\II} is a unit for the monoidal product #{\sqcup} in the [category of roles](role-003U) #{\cR}. Let #{A^*} be an arbitrary object}
+
+##{A^* \sqcup \II = (A^{**}\otimes \II^*)^* = A^*}
+
+\subtree{\taxon{proof}
+
+\subtree{\title{LHS #{\subseteq} RHS}
+\p{Supposing we have an element #{z} of the LHS,  we show it is an element of the RHS by demonstrating for arbitrary #{a \in A} that #{az \in \II}.}
+\p{We know #{z} combined with any pair of elements #{a' \in A^**} and #{i \in \II^*} is a good implication, i.e. #{zai' \in \II}}
+
+\p{Note that #{0 \in \II^*} and that #{A \subseteq A^{**}}. Therefore let #{a'=a} and #{i = 0}, then we've proven #{az \in \II}.}
+
+}
+\subtree{\title{RHS #{\subseteq} LHS}
+\p{Supposing we have an element #{z} of the RHS: all we know is that #{\forall a \in A, az \in \II}. We show it is an element of the LHS by demonstrating for arbitrary pair of elements #{a' \in A^**} and #{i \in \II^*} that #{za'i \in II}.}
+
+\p{We know that #{\forall x \in A^*} that #{xa' \in \II}. But #{z} is such an element, so even for an arbitrary #{a' \in A^{**}} we know that #{za' \in \II}.}
+
+\p{We know that each #{i\in \II^*} does not turn a good inference into a bad one, thus #{za'i \in \II}.}
+}
+}
+
+

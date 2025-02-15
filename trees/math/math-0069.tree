@@ -1,0 +1,5 @@
+\date{2024-08-11}
+\title{Lattice}
+\taxon{definition}
+
+\p{A \em{lattice} is a poset with all finite [joins](math-001U) and [meets](meet).}

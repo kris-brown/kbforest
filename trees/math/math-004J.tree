@@ -1,0 +1,5 @@
+\date{2024-07-23}
+\title{Strict abstract interpretation}
+\taxon{definition}
+
+\p{A \em{strict} [abstract interpretation](math-004H) is one which interprets all equalities #{x=y} as equivalence relations with singleton equivalence classes.}

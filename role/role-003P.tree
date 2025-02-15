@@ -1,0 +1,24 @@
+\date{2024-08-26}
+\title{Composition of implication space interpretation functions}
+\import{macros}
+
+
+% https://q.uiver.app/#q=WzAsNyxbMCwwLCJcXG1hdGhjYWx7TH1eXFxwbV9BIl0sWzAsMSwiXFxtYXRoY2Fse1J9X0EiXSxbMSwxLCJcXG1hdGhjYWx7Un1fQiJdLFsxLDAsIlxcbWF0aGNhbHtMfV5cXHBtX0IiXSxbMiwwLCJcXG1hdGhjYWx7TH1eXFxwbV9DIl0sWzIsMSwiXFxtYXRoY2Fse1J9X0MiXSxbMywxLCJcXG1hdGhjYWx7Un1fRCJdLFswLDIsIlstXV9mIiwwLHsibGFiZWxfcG9zaXRpb24iOjMwfV0sWzAsMSwiXFxtYXRoY2Fse1J9IiwyXSxbMSwyLCJbLV0nX2YiLDJdLFsyLDUsIlstXSdfZyIsMl0sWzUsNiwiWy1dJ19oIiwyXSxbNCw1LCJcXG1hdGhjYWx7Un0iLDFdLFszLDIsIlxcbWF0aGNhbHtSfSIsMV0sWzQsNiwiWy1dX2giLDAseyJsYWJlbF9wb3NpdGlvbiI6MjB9XSxbMyw1LCJbLV1fZyIsMCx7ImxhYmVsX3Bvc2l0aW9uIjoyMH1dXQ==
+\quiver{\begin{tikzcd}
+    {\mathcal{L}^\pm_A} & {\mathcal{L}^\pm_B} & {\mathcal{L}^\pm_C} \\
+    {\mathcal{R}_A} & {\mathcal{R}_B} & {\mathcal{R}_C} & {\mathcal{R}_D}
+    \arrow["{\mathcal{R}}"', from=1-1, to=2-1]
+    \arrow["{[-]_f}"{pos=0.3}, from=1-1, to=2-2]
+    \arrow["{\mathcal{R}}"{description}, from=1-2, to=2-2]
+    \arrow["{[-]_g}"{pos=0.2}, from=1-2, to=2-3]
+    \arrow["{\mathcal{R}}"{description}, from=1-3, to=2-3]
+    \arrow["{[-]_h}"{pos=0.2}, from=1-3, to=2-4]
+    \arrow["{[-]'_f}"', from=2-1, to=2-2]
+    \arrow["{[-]'_g}"', from=2-2, to=2-3]
+    \arrow["{[-]'_h}"', from=2-3, to=2-4]
+  \end{tikzcd}}
+
+
+\p{Consider the a category of atomic join-semilattices. Each map is determined by the action on the atoms. The map from #{\mathcal{L}} picks out a subset of these atoms. The interpretation functions are in bijection with atomic join-semilattice morphisms that respect the rule for interpreting sequents (and are uniquely factored through the #{\cR} function).}
+
+\p{In this way, we can think of any category of implication frames interpretation functions as an \em{embedding} into the category of join-semilattices}

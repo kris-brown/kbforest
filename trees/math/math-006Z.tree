@@ -1,0 +1,5 @@
+\date{2024-08-30}
+\title{Join semilattice}
+\taxon{definition}
+
+\p{A [poset](math-001O) that has all [joins](math-001U).}

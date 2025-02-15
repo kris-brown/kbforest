@@ -1,0 +1,5 @@
+\date{2024-08-06}
+\title{Self-adjunction}
+\meta{external}{https://ncatlab.org/nlab/show/self-adjoint+functor}
+
+\p{A [functor](math-000E) which is its own left and right [adjoint](math-0028).}

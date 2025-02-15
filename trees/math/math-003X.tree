@@ -6,3 +6,5 @@
 \p{A morphism #{f: A\rightarrow B} in a [category](math-000D) is a \em{monomorphism} (#{f} is \em{monic}) if, for every pair of morphisms #{g_1,g_2: C\rightarrow A}: }
 
 ##{g_1\cdot f = g_2 \cdot f \implies g_1 = g_2}
+
+\p{I.e. a monic morphism is right-cancellative with respect to composition.}

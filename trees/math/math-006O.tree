@@ -1,0 +1,13 @@
+\date{2024-08-24}
+\title{Strong Kleene logics}
+
+\p{These are four three-valued logics which have the same truth tables (but differ on logical consequence).}
+
+\transclude{math-006N}
+
+
+\ul{
+  \li{[LP](math-006P) consequence is preservation of values more than 0}
+  \li{[K3](math-006M) consequence is preservation of value of 1}
+  \li{[ST](math-006R) consequence is in case every interpretation in which all premises have value 1 is one where some conclusion has value other than 0.}
+  \li{[TS](math-006Q) every interpretation in which all premises have values other than 0 is one in which some conclusion has value 1}}

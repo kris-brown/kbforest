@@ -1,0 +1,14 @@
+\date{2024-07-24}
+\title{Bicategory}
+\taxon{definition}
+\p{A \em{bicategory} #{B} has:}
+
+\ul{
+\li{A collection of \em{objects} (or 0-cells), e.g. #{x,y,z}}
+\li{For each pair #{x,y} of 0-cells, a [category](math-000D)  #{B(x,y)} whose objects are \em{morphisms} (or 1-cells) and whose morphisms are 2-cells.}
+\li{For each 0-cell #{x}, an \em{identity} 1-cell #{1_x \in B(x,x)}}
+\li{For each triple of 0-cells #{x,y,z}, a \em{horizontal composition} [functor](math-000E) #{B(x,y)\times B(y,z)\rightarrow B(x,z)}}
+\li{Unitor [natural isomorphisms](math-0032) for each pair of 0-cells}
+\li{Associator [natural isomorphisms](math-0032) for each quadruple of 0-cells}
+\li{Such that the pentagon identity is satisfied by the associators and the triangle identity is satisfied by the unitors}
+}

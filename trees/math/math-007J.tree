@@ -1,0 +1,10 @@
+\date{2024-09-15}
+\title{Coend}
+\taxon{definition}
+\import{macros}
+
+\p{Given a [difunctor](math-007C) #{P: \cat{C}^{op}\times \cat{C}\rightarrow \cat{D^{op}}}, the \em{coend} of #{P} is the [initial object](math-0052) of the [category of cowedges](math-007H) of #{P}.}
+
+##{\int^{x:\cat{C}} P(\bar x,x)}
+
+

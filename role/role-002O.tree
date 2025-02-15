@@ -1,0 +1,11 @@
+\date{2024-08-04}
+\title{String diagrams for reason relations}
+\import{macros}
+
+\p{Implications are wires (the monoidal products allowing for braiding / merging / etc. encodes what structural properties are at play).}
+
+\p{Wires \em{signed} bearers. So one might have #{a^+ \otimes b^+ \otimes c^-} as a representation of #{a,b\vsim c}.}
+
+\p{There are boxes #{\Gamma\vsim\Delta \rightarrow \Theta\vsim\Omega} whenever we have #{RSR(\Gamma\vsim\Delta)\subseteq RSR(\Theta\vsim\Omega)}.}
+
+\p{We can compose these boxes horizontally and vertically to obtain other morphisms. A morphism implies if the first implication is good, then (monotonically) the second is good.}

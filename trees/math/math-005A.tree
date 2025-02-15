@@ -1,0 +1,30 @@
+\date{2024-07-28}
+\title{Paracategory}
+\meta{external}{https://ncatlab.org/nlab/show/paracategory}
+\import{macros}
+\taxon{definition}
+
+\p{A \em{paracategory} consists in:}
+
+\ul{
+\li{a graph #{G:=(V,E,src,tgt)}
+\ul{
+\li{Let #{E(A,B)} be the subset of edges with source #{A} and target #{B}.}}}
+\li{A family of partial operations #{[-]_{(A,B)}: \Hom_{P(G)}(A,B) \pro E(A,B)}
+\ul{
+\li{Where #{P(G)} is the [path category](math-0058)}}}
+}
+
+\p{Such that:}
+
+\ul{
+\li{#{[\varnothing]_{(A,A)}} is defined for all #{A \in V}}
+\li{#{[f]_{(A,B)} := f}}
+\li{For all paths #{\vec r: A\rightarrow B,\ \vec f: B\rightarrow C,\ \vec s: C\rightarrow D} ##{[\vec f]_{(B,C)} \text { is defined} \implies [\vec r, [\vec f]_{(B,C)}, \vec s]_{(A,D)} \rightleftharpoons [\vec r, \vec f, \vec s]_{(A,D)}}
+
+\ul{
+\li{Where #{\rightleftharpoons } is [Kleene equality](math-0056)}}}
+}
+
+
+\p{As defined in "Partially traced categories" by Malherbe,Scott, and Selinger.}

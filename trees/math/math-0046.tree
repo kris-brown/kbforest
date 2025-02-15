@@ -1,0 +1,11 @@
+\date{2024-07-22}
+\title{Extensive category}
+\taxon{definition}
+\meta{external}{https://ncatlab.org/nlab/show/extensive+category}
+\p{A [category](math-000D) with [coproducts](math-004D) is \em{extensive} if}
+
+\ul{
+  \li{[pullbacks](math-000J) along coproduct injections exist}
+  \li{finite coproducts are [disjoint](math-004E)}
+  \li{finite coproducts are [stable under pullback](math-004F)}
+}

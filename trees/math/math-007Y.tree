@@ -1,0 +1,91 @@
+\title{Metatheory-backed ACSets}
+\date{2024-09-04}
+
+\p{These are notes from a discussion between Owen Lynch and Kris Brown on how to implement various algorithms in AlgebraicJulia on top of Metatheory.}
+
+\p{The main idea to come out of the discussion is that the instruction-set of the Metatheory \code{egraph_compiler.jl} could be the target for a DSL that is more low-level than the current \code{@rule} macro}
+
+\p{Specifically, it could look something like:}
+
+\pre{e <- bind E
+  v <- tgt E
+  e' <- bind(src⁻¹(v))
+  return (e, e')
+}
+
+\subtree{
+  \title{Implementation notes}
+
+  \p{If we were in Haskell, we could use something like a free monad for the syntax of this, and then compile the result.}
+
+  \p{It may be possible to achieve a similar thing in Julia via passing a compiler object around. Something like}
+
+  \pre{function path2(c::Compiler)
+    E = lookup!(c, :E)
+    e1 = bind!(c, :typeof, E)
+    v = apply!(c, :tgt, e1)
+    e2 = bind!(c, :src, v)
+    (e1, e2)
+    end
+  }
+
+  \p{We might want to use better-structured objects than symbols though, of course. But this way of writing these queries could compose nicely. For example:}
+
+  \pre{function path4(c::Compiler)
+    (e1, e2) = path2(c)
+    (e3, e4) = path2(c)
+    guard!(c, e2.tgt == e3.src)
+    end}
+
+  \p{(Of course, in that specific instance, we'd probably want to look for e3 among the preimage of src applied to `e2.tgt`, but the general point about composition still holds).}
+
+  \p{This is essentially an implementation of [tagless-final](https://okmij.org/ftp/tagless-final/index.html) in Julia, except using multiple dispatch on \code{c} in order to do the staging rather than using ML-style modules or Haskell typeclasses.}
+
+  \p{Previously, we thought that we were going to do typing via metadata. That's still a viable approach, but a perhaps even better approach is to encode typing via a \code{typeof} function. That is, we put each type that we care about as its own e-class, and then we set, say, \code{typeof(e) == E}. The advantage of this is that we can iterate through all of the edges in a acset by iterating through the e-nodes in the e-class for \code{E}.}
+}
+
+\subtree{
+  \title{Minimum features}
+
+  \p{The ACSet API should be implemented for e-graph-backed ACSets. The most natural one for the e-graph implementation is \code{add_part!} (e.g., adding an edge to graph, corresponding to just adding a new e-class \code{x} to the e-graph and equating \code{typeof(x)} to a special schema e-class). The \code{subpart} function looks up the value of a column in a database for a given row: this is now a partial operation, as there may be an e-class \code{E3} but no eclass containing the term \code{src(E3)}. Alternatively, this operation could potentially mutate the e-graph by adding such a term and returning its (new) e-class. \code{incident(my_graph, V2, :src)} will induce a search through all the e-terms of the \code{V2} e-class looking for one of the form \code{src(-)}.}
+
+  \p{The ACSet operation that poses the most difficulty for an e-graph based representation \code{set_subpart!}. This is because \code{f(x)} may be in e-class \code{y} and \code{g(f(x))} may be in e-class \code{z} (and so on), such that setting \code{f(x)} to be some different value could have a massive cascading effect throughout the e-graph. One is tempted to say \code{set_subpart!} should be forbidden for e-graph-backed ACSets (if you want to do that, convert back to a database-backed ACSet, do the setting, then convert back to an e-graph) but there are alternatives that may minimize the infficiencies: e.g. the e-class \code{x} is sent to a "graveyard" and a new \code{x'} is added with some slightly modified terms (equality saturation will still have to rederive all complex terms involving \code{x}). Ditto for \code{clear_subpart!} and \code{rem_part!}, which also violate the basic monotonicity assumptions (one only adds and equates things) of e-graphs.}
+
+  \p{Conversion between classical (database-backed) ACSets and e-graph-backed ACSets. The forward conversion is straightforward: a distinct e-class is created for each part for each object of the schema. For example, a graph with two loops would result in four e-classes, \code{V1},\code{V2},\code{E1},\code{E2}  (plus e-classes for \code{V} and \code{E}). In the \code{V1} e-class are the terms \code{idV(V1), src(E1), tgt(E1)}. In the \code{E} e-class are terms \code{typeof(E1), \code{typeof(E2)}}. If the initial data was a valid, equation-obeying instance of an ACSet, then equality saturation will not alter the e-graph at all.}
+}
+
+\p{Conversion in the opposite direction is less trivial: in fact, it may not terminate, because infinitely-sized sets are representable via e-graphs, while database-backed ACSets can only represent functors into \strong{FinSet}. However, modulo this concern, if equality saturation (including rules for the totality of functions that schema morphisms are assigned to) terminates, then a database-backed ACSet can be simply constructed by taking its parts to be the e-classes (fibered by the special \code{typeof} function.)}
+
+\subtree{
+  \title{Applications}
+
+  \subtree{
+    \title{Specifying ACSets via colimits of representables}
+
+    \p{This comes from the ability to do "generators and relations" presentations of an acset. That is, you throw in a bunch of generators, you assert that relations hold, and then you run all of the rules for your schema until they converge.}
+  }
+
+  \subtree{
+    \title{LACSets - Labelled ACSets}
+
+    \p{Names neither inject nor surject onto the parts of an ACSet. For example, a vertex can have multiple names or none. Keeping track of which parts have which names can be managed by e-graphs: we can add generators with names which may be equal to one another. }
+  }
+
+
+  \subtree{
+    \title{Computing left Kan extensions via the chase}
+    \p{Sigma migrations, i.e. left Kan extensions of ACSets, are a particularly natural and simple form of of data migration. This is computed via an algorithm called 'the chase', which iteratively (until it terminates, if it terminates) applies "tuple generating dependencies" (rules which add things) and "equality generating dependencies" (rules which equate things). Just adding and equating? That sounds like e-graphs!}
+
+    \p{For example, a sigma migration along the injection of the schema for graphs into the schema for reflexive graphs takes the initial graph, \code{G}, and uses the functor data to initialize a reflexive graph  \code{ΣG}. However, this \code{ΣG} may not be a well-formed reflexive graph yet, as the schema says each vertex requires a reflexive edge. But the process of equality saturation (including schema-derived rules for the totality of functions) does exactly this process. More complicated sigma migrations will require using equalities between terms in \code{G} to induce equalities in \code{ΣG}, too.}
+  }
+
+  \subtree{
+    \title{Computing duc queries}
+
+    \p{In the case of the chase, or in the case of presenting an acset by generators and relations, a query produces a bunch of actions to perform on the acset that the query was run on. But this does not necessarily have to be the case.}
+
+    \p{Namely, a duc query could be performed by running each component conjunctive query in succession, and then performing all of the mutations that arise from those conjunctive queries on a single acset.}
+  }
+}
+
+

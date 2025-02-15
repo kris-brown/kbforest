@@ -1,0 +1,5 @@
+\date{2024-07-22}
+\title{Exact category}
+\taxon{definition}
+\meta{external}{https://ncatlab.org/nlab/show/exact+category}
+\p{An \em{exact} [category](math-000D) is one where every [internal equivalence relation](math-0049) is a [kernel pair](math-0047).}

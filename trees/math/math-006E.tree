@@ -1,0 +1,5 @@
+\date{2024-08-23}
+\title{Atomistic lattice}
+\taxon{definition}
+
+\p{A [lattice](math-0069) is \em{atomistic} if it is [atomic](math-006F) and every element is a [join](math-001U) of some finite set of [atoms](math-006G).}

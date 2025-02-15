@@ -1,0 +1,10 @@
+\date{2024-08-24}
+\title{Implicational role inclusion}
+\taxon{definition}
+\import{macros}
+
+\p{Given two sets of roles, #{\cR_{i\in I}} and #{\cR_{j \in J}} we say that the former set is \em{included} in the latter set iff:}
+
+##{\cR_{i \in I} \preceq \cR_{j \in J} := \bigwedge_{i \in I} \cR_i \subseteq \bigsqcup_{j \in J} \cR_j}
+
+

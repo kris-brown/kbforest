@@ -1,0 +1,13 @@
+\date{2024-08-03}
+\title{Trying to make an endofunctor out of conceptual roles}
+\import{macros}
+
+\p{The [category of reason relations and interpretations](role-002I) seems a bit odd at first: the [natural guess](role-0026) at maps between reason relations would be functions between bearers that preserve the distinguished subset structure. By #{A \rightarrow B} sending \em{bearers} of #{A} to \em{conceptual roles} of #{B}, it makes one think that there is secretly an [endofunctor](math-002F) #{T} that sends #{A} to a reason relation where the bearers correspond to conceptual roles (think of these as equivalence classes of sets of implications, quotiented by [RSR](role-0005)). Then if #{T} is a [monad](math-002D), our category has a chance of being a [Klesli-category](math-002G).}
+
+\p{However, I doubt it is possible to define an endofunctor that sends a reason relation #{(\cL_A,\II_A)} to an analogous one which has implicational roles as bearers. This is for two reasons:}
+
+\ol{
+\li{It's not clear what the distinguished subset of such a thing should be. There are roles on both sides of the turnstile. One \em{could} do something like check whether some kind of RSR on the left is a subset of the RSR on the right (thus enforcing #{\II} is a preorder). It doesn't feel great.}
+\li{More importantly: it's not possible to lift maps #{A \rightarrow B} to maps #{\cR(A)\rightarrow\cR(B)}, as it seems like there's no reason for the equivalence class structure of quotienting by RSR is respected by applying #{f} pointwise. I.e. it would matter which representative of the role you pick. (I need to check this but pretty sure) Perhaps to address this we could add a constraint to the types of functions one is allowed to make?}
+\li{Even if we said that #{\cR} merely sends a reason relation to one where the bearers are sets of implications (no quotienting by role), such that it would be better to just call the endofunctor #{\cP}, there's no reason why the natural mapping of bearers #{\cP(A)\rightarrow \cP(B) } would satisfy the distinguished subset structure (however we define it) for #{\cP(A)}. E.g., given that #{RSR_A(a\vsim_A b)\subseteq RSR_A(c\vsim_A d)}, there's no reason why #{RSR_B(f(a)\vsim_B f(b))\subseteq RSR_B(f(c)\vsim_B f(d))}, even if we know that #{\Gamma\vsim_A\Delta \implies f(\Gamma)\vsim_B f(\Delta)}. The root of this is that we want the distinguished subset of #{\cR(A)} or #{\cP(A)} to somehow reflect \em{global} structure of the reason relation, whereas the constraint on #{f} is only required to preserve \em{local} structure.}
+}

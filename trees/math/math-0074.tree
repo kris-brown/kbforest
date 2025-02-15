@@ -1,0 +1,8 @@
+\date{2024-08-31}
+\title{Upper set}
+\taxon{definition}
+\p{An \em{upper set} of an element #{x} in a [preorder](math-001R) #{(X,\leq)}, denoted #{x^\uparrow}, is the set}
+
+##{x^\uparrow:= \{x' \in X\ |\ x \leq x'\}}
+
+\p{The upper set of a subset #{A\subseteq X} is the union of the upper sets of its points.}

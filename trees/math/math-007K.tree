@@ -1,0 +1,12 @@
+\date{2024-09-15}
+\title{Ends as equalizers}
+\taxon{proposition}
+\import{macros}
+
+\p{The [end](math-007I) of a [difunctor](math-007C) #{P: \cat{C}^{op}\times \cat{C}\rightarrow \cat{D}} can be obtained as the [equalizer](math-0042) of the conjoint actions of #{P} on morphisms:}
+
+##{\int_{x \in \cat{C}} P(\bar x, x) := eq(\prod_{x \in \cat{C}} P(x,x) \rightrightarrows \prod_{f: a\rightarrow b} P(a,b) )}
+
+\p{Where the two morphisms (call them #{P_l, P_r}) are }
+
+##{P_l: \langle \pi_b;P(f,id_b)\rangle \ \ \ \ \ \ P_r: \langle \pi_a;P(id_a,f)\rangle}

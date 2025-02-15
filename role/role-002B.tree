@@ -1,0 +1,51 @@
+\date{2024-07-29}
+\title{Equivalence between truthmaker and pragmatic normative vocabularies}
+
+\import{macros}
+
+
+\subtree{\title{Conjecture}
+\p{Given [functors](math-000E) #{tm: PN\rightarrow TM} and #{pn: TM\rightarrow PN} which interconvert pragmatic normative reason relations and truthmaker-semantic [modalized state spaces](role-000M), in addition to #{\iota_{TM}: TM \rightarrow IS} and #{\iota_{PN}: PN \rightarrow IS} ways of understanding both as [implication spaces](phil-01CO), we can take [kernel pairs](math-0047) to effectively quotient #{TM} and #{PN} under the action of interpreting them as implication spaces. We can then lift #{pn} and #{tm} to the quotiented categories (using the universal property of [coequalizers](math-005M)), at which point they become an equivalence.}
+
+% https://q.uiver.app/#q=WzAsNSxbMCwwLCJUTSJdLFsyLDAsIlBOIl0sWzEsMSwiSVMiXSxbMCwyLCJUTS9rZXIoXFxpb3RhX3tUTX0pIl0sWzIsMiwiUE4va2VyKFxcaW90YV97SVN9KSJdLFswLDIsIlxcaW90YV97VE19IiwyXSxbMSwyLCJcXGlvdGFfe1BOfSJdLFswLDEsInBuIiwwLHsiY3VydmUiOi0xfV0sWzEsMCwidG0iLDAseyJjdXJ2ZSI6LTF9XSxbMyw0LCJcXGNvbmciLDAseyJjdXJ2ZSI6MX1dLFs0LDMsIiIsMSx7ImN1cnZlIjoxfV0sWzAsMywiIiwxLHsic3R5bGUiOnsiaGVhZCI6eyJuYW1lIjoiZXBpIn19fV0sWzEsNCwiIiwxLHsic3R5bGUiOnsiaGVhZCI6eyJuYW1lIjoiZXBpIn19fV1d
+\quiver{\begin{tikzcd}
+    TM && PN \\
+    & IS \\
+    {TM/ker(\iota_{TM})} && {PN/ker(\iota_{IS})}
+    \arrow["pn", curve={height=-6pt}, from=1-1, to=1-3]
+    \arrow["{\iota_{TM}}"', from=1-1, to=2-2]
+    \arrow[two heads, from=1-1, to=3-1]
+    \arrow["tm", curve={height=-6pt}, from=1-3, to=1-1]
+    \arrow["{\iota_{PN}}", from=1-3, to=2-2]
+    \arrow[two heads, from=1-3, to=3-3]
+    \arrow["\cong", curve={height=6pt}, from=3-1, to=3-3]
+    \arrow[curve={height=6pt}, from=3-3, to=3-1]
+  \end{tikzcd}}
+
+
+\p{\strong{Note:} Kevin thinks use of co[isoinserters](math-005O) would be better, because
+asking for an \em{isomorphism} #{x \rightarrow F(G(x))} is too strict.}
+}
+
+\subtree{\title{Definitions}
+
+\p{We start with the categories #{PN}, #{TM}, which are crafted to have basic structure preservation as their morphisms.}
+
+\transclude{role-0026}
+
+\transclude{role-002C}
+
+\transclude{role-002D}
+
+\p{(In progress)}
+}
+
+\subtree{\title{Progress}
+\p{The equivalence would be witnessed by two natural isomorphisms.}
+
+\p{First, we construct #{{\alpha: 1_{TM/IS} \xRightarrow{\cong} (pn'\cdot tm')}}, which is an isomorphism #{{(S,\sqsubset, S^\diamond)\xrightarrow{\cong} tm'(pn'((S,\sqsubset,S^\diamond)))}} for each modalized state space (up to congruence of #{IS}).}
+
+
+\p{Next, we construct #{\alpha': 1_{PN/IS} \Rightarrow (tm'\cdot pn')}}
+
+}

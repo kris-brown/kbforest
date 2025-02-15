@@ -1,0 +1,6 @@
+\date{2024-07-23}
+\title{Boolean category}
+\taxon{definition}
+\meta{external}{https://ncatlab.org/nlab/show/Boolean+category}
+
+\p{A \em{Boolean} [category](math-000D) is a [coherent category](math-003H) in which every [subobject](math-003W) has a complement, i.e. given #{A \rightarrowtail X} there is a #{B\rightarrowtail X} such that #{A \land B} is [initial](math-0052) and #{A \vee B = X}.}

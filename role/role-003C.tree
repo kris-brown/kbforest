@@ -1,0 +1,27 @@
+\date{2024-08-23}
+\title{Functor from Role to ImpFrame}
+\import{macros}
+
+\p{Without actually picking a specific #{\cat{ImpFrame}}, it will be hard to define a functor \em{into} it.}
+
+\p{Also, we'd need to be precise about which category #{\cat{Role}} is the codomain of our previous functor (Thin star-autonomous catgories? Atomistic join semilattices?)}
+
+\p{Nevertheless, it \em{is} natural to think that there is a corresponding implication frame for a given a atomistic lattice of roles.}
+
+\p{There is a [fruitful](role-003E) notion of \em{role inclusion} which can play the role of #{\II}, as it something that is true or false for pairs of sets of roles:}
+
+\transclude{role-003H}
+
+\p{Because the information of #{\cat{Role}} is captured in its atoms, I suspect the corresponding implication frame for such an object should have, as its set #{\cL_\cX} of claimables, the set of \em{atoms}.}
+
+\p{This would be a transitive implication frame, but not necessarily monotonic. However, assuming containment, transitivity is enough to obtain [weak monotonicity](math-006S).}
+
+\p{Defining these two functors such that they form an [adjoint pair](math-0028) would yield a monad whose [Kleisli category](math-002G) would send claimables of one implication frame to roles of another.}
+
+% https://q.uiver.app/#q=WzAsMixbMCwwLCJJbXBTcGFjZSJdLFsyLDAsIlJvbGUiXSxbMCwxLCJcXG1hdGhjYWx7UH1eMiBmIiwwLHsiY3VydmUiOi0xfV0sWzEsMCwiXFxwcmVjZXEiLDAseyJjdXJ2ZSI6LTF9XSxbMiwzLCIiLDAseyJsZXZlbCI6MSwic3R5bGUiOnsibmFtZSI6ImFkanVuY3Rpb24ifX1dXQ==
+\quiver{\begin{tikzcd}
+    ImpSpace && Role
+    \arrow[""{name=0, anchor=center, inner sep=0}, "{\mathcal{P}^2 f}", curve={height=-6pt}, from=1-1, to=1-3]
+    \arrow[""{name=1, anchor=center, inner sep=0}, "\preceq", curve={height=-6pt}, from=1-3, to=1-1]
+    \arrow["\dashv"{anchor=center, rotate=-90}, draw=none, from=0, to=1]
+  \end{tikzcd}}

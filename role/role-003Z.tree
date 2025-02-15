@@ -1,0 +1,19 @@
+\date{2024-08-27}
+\title{Facts about (Girard) facts}
+\import{macros}
+
+\p{For arbitrary elements of #{\cP(M)} where #{M} is a commutative monoid (such as #{S = \cP(L+L)} with union) with identity #{e}:}
+
+##{X \subseteq Y^* \iff X \otimes Y \subseteq \II}
+##{X \otimes X^{*} \subseteq \II}
+##{X \subseteq Y \implies Y^* \subseteq X^*}
+##{X \subseteq X^{**}}
+##{X^{***}=X^{*}}
+##{(X\cup Y)^* = X^* \cap Y^*}
+
+\p{If #{X} and #{Y} are facts:}
+
+##{e \in (X^{*}\otimes Y^{*})^* \iff X^{*} \subseteq Y}
+
+
+\p{From "Phase Semantics for Linear Logic with Least and Greatest Fixed Points" (De, Jafarrahmani, Saurin)}

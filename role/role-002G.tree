@@ -1,0 +1,16 @@
+\date{2024-07-31}
+\title{Content entailment for empty sequent}
+\import{macros}
+
+\p{The definition of [content entailment](phil-01CS) does not address cases where the premises and conclusions are empty.}
+
+\p{Given that it is a big [adjunction](phil-01CR), it makes sense for the empty case to be the unit element #{\{\varnothing \vsim \varnothing\}} for adjunction. So, to define how adjunction operates on sets of roles:}
+
+##{\sqcup(\varnothing) := \{\varnothing\vsim\varnothing\}}
+##{\sqcup(X) := \bigsqcup_{x \in X} x}
+
+\p{Now we can ask whether #{{\varnothing \vsim_X \varnothing}} given any interpretation #{{\brack{\cdot}: X \rightarrow Y}}: }
+
+##{\varnothing \vsim_{X,\brack{\cdot}} \varnothing \iff RSR(\{\varnothing\vsim\varnothing\}) \subseteq \II_Y}
+
+\p{This does hold for any #{X,Y,\brack{\cdot}} - which is an indiciation that we should enforce that #{{\varnothing\vsim\varnothing \in \II}}.}

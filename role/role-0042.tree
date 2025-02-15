@@ -1,0 +1,44 @@
+\date{2024-08-28}
+\title{Category of implication frames with biconditional inverse image constraint}
+\import{macros}
+\import{base-macros}
+\import{role-001G}
+\p{We might consider making a category whose objects are implication frames and whose morphisms satisfy the property:}
+
+##{\forall i \in S_B: i \in \II_B \iff f^{-1}(i) \in \II_A}
+
+\p{This is a very bad category. It has the empty implication frame as the initial object. (We'll assume that #{0 \in \II}.)}
+
+\p{However, there's no terminal object: there are #{2^3} possible implication frames with one claimable (or 4 if we want to enforce containment). We can identify these with triples of bools, e.g. #{A=[a_1,a_2,a_3]} corresonding to whether #{a^-,a^+,a^-a^+} are in #{\II_A}. None of these have any morphisms among each other, save for identity morphisms.}
+
+\p{There are #{2^{15}} possible implication frames with two claimables.}
+
+\p{If we consider looking for binary products, we'll have to consider pairs #{A \xrightarrow{f} X \xleftarrow{g} B}. If #{X} is a reason relation with 2 bearers and #{A} and #{B} have one bearer, what must #{\II_X} be in terms of #{\II_A} and #{\II_B}?}
+
+\table{
+\tr{
+\th{#{\II}}
+\th{#{0}}
+\th{#{a^-}}
+\th{#{b^-}}
+\th{#{a^-b^-}}
+}
+\tr{
+\th{#{0}}
+\td{#{\checkmark}}\td{#{a_1}}\td{#{b_1}}\td{#{a_1=b_1}}
+}
+\tr{
+\th{#{a^+}}
+\td{#{a_2}}\td{#{a_3}}\td{#{b_1=a_2}}\td{#{b_1=a_3}}
+}
+\tr{
+\th{#{b^+}}
+\td{#{b_2}}\td{#{a_1=b_2}}\td{#{b_3}}\td{#{a_1=b_3}}
+}
+\tr{
+\th{#{a^+b^+}}
+\td{#{a_2=b_2}}\td{#{a_3=b_2}}\td{#{a_1=b_3}}\td{#{a_3=b_3}}
+}
+}
+
+\p{There is only such a cospan if all of #{a_1=a_2=a_3=b_1=b_2=b_3}. This is clearly bad.}

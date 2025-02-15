@@ -1,0 +1,51 @@
+\date{2024-08-22}
+\title{Implication frame}
+\import{macros}
+\import{role-001G}
+
+
+\subtree{\taxon{definition}
+\p{An \em{implication frame} consists in a set #{\cL} (called a \em{lexicon}) and a subset #{\II} of #{{\cP(\cL)^2 = \cP(\cL+\cL)}}.}
+}
+
+\p{This is a formal model of a \em{vocabulary}: a set of things that can be said (\em{claimables}) with \em{some} norm that characterizes what follows from what.}
+
+\subtree{\taxon{notation}
+\import{macros}
+
+\p{Let #{\cL=\{a,b,c,...\}}, then #{{(\{a,b\},\{c\}) \in \II}} is written as #{a,b \vsim c}}
+
+\p{This can also be written more concisely as #{a^+b^+c^- \in \II}}
+\p{The element #{(\varnothing,\varnothing)} is sometimes written as 0.}
+\p{The set #{\cP(\cL+\cL)} is called #{S_\cL} (or just #{S}, when #{\cL} is clear).}
+}
+
+\p{Our default interpretation of #{\Gamma\vsim\Delta} is "It is out-of-bounds to accept everything in #{\Gamma} while rejecting everything in #{\Delta}." So thinking of the LHS as "acceptance" and RHS as "rejection" is tantamount to thinking of LHS commas as conjunctive and RHS commas as disjunctive.}
+
+\p{When the RHS is empty, this means that accepting everything on the LHS is out of bounds: i.e. the claims are incompatible with each other.}
+
+
+\subtree{\title{FOL}\taxon{example}
+\p{Let #{\cL_{FOL\Sigma}} be the set of sentences expressible in first-order logic with the signature #{\Sigma: R(-,-),P(),Q()} and constants #{a,b}. We have:}
+
+##{\{``P() \vee Q()", ``R(a,b)", ``\exists x: P() \land R(x,x)"\} \subseteq  \cL_{FOL\Sigma} }
+##{
+\begin{align*}
+  P(), (\forall x,y: R(x,y)=R(y,x)), R(a,b) & \vsim_{FOL\Sigma} R(b,a), Q() \\
+  P(), \neg P()                             & \vsim_{FOL\Sigma}
+\end{align*}
+}
+
+\p{Monotonicity is responsible for the principle of explosion: we can add anything we want to the RHS.}
+}
+
+
+\subtree{\taxon{definition}
+\p{An implication frame is said to obey \em{containment} if #{{(\Gamma \cap \Delta \ne \varnothing) \implies (\Gamma \vsim \Delta)}}}
+}
+
+\p{Containment is reasonable to expect given the default interpretation, but our definition does not enforce it.}
+
+\transclude{role-0037}
+
+

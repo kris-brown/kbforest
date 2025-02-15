@@ -1,0 +1,11 @@
+\date{2024-07-23}
+\title{Abstract interpretation of first order theories}
+\import{macros}
+\taxon{definition}
+\p{Given a #{\cL} [theory](math-004I) #{T} and a #{\cL'} theory #{T'}, an \em{abstract intepretation} #{I: T\rightarrow T'} is:}
+
+\ul{
+\li{For each sort #{S} in #{\cL}, an #{\cL'} formula #{I(S)} (such that [products](math-0024) are preserved).}
+\li{For each relation #{R} and function #{f} in #{\cL}, an #{\cL'} formula consistent with the assignment of sorts.}
+\li{Such that #{T \vDash \psi} implies #{T' \vDash I(\psi)}.}
+}

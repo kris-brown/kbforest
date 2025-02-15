@@ -1,7 +1,7 @@
 \date{2024-06-13}
-\title{Category of modalized state spaces}
+\title{Category of commutative monoids with a distinguished subset}
 
-\p{A [modalized state space](role-000M) is equivalent to a commutative monoid with a distinguished subset.}
+\p{A [modalized state space](role-000M) (insofar as it is a join semilattice) is equivalent to a commutative monoid with a distinguished subset.}
 
 \p{This could be modeled as the category of models of a finite limit sketch, which is a locally presentable category, which gives us:}
 

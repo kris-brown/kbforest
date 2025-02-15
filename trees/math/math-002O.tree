@@ -1,4 +1,18 @@
 \date{2024-07-08}
 \title{Symmetric monoidal preorder}
 \taxon{definition}
-\p{TODO}
+
+\p{A \em{symmetric monoidal preorder} consists in:}
+
+\ul{
+\li{A [preorder](math-001R), #{X ,\leq}}
+\li{A \em{monoidal unit}: an element #{I \in X}}
+\li{A \em{monoidal product}: a symmetric, associative function #{X \times X \rightarrow X}}
+}
+
+\p{Such that}
+
+\ul{
+  \li{Monotonoicity; #{x_1\leq y_1} and #{x_2\leq y_2} implies #{x_1\otimes x_2 \leq y_1\otimes y_2}}
+  \li{Unitality: #{I \otimes x =x = x\otimes I}}
+}

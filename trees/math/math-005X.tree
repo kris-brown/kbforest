@@ -1,0 +1,11 @@
+\date{2024-08-03}
+\title{Slice category}
+\taxon{definition}
+\import{macros}
+
+\p{The \em{slice} [category](math-000D) #{\cat{C}/X} sliced over an object #{X \in \cat{C}} consists in:}
+
+\ul{
+\li{Objects: morphisms #{A \rightarrow X} for some #{A \in \cat{C}}}
+\li{Morphisms: #{A\rightarrow B} such that the triangle commutes}
+\li{Identities and composition come directly from #{\cat{C}}}}

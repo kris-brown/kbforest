@@ -1,0 +1,11 @@
+\date{2024-07-23}
+\title{First-order language}
+\taxon{definition}
+
+\p{A \em{first-order language} is a signature which declares}
+
+\ul{
+  \li{Sorts}
+  \li{Functions}
+  \li{Relations}
+}

@@ -12,8 +12,11 @@
   \transclude{role-001O}
 }
 
+\transclude{role-002Y}
+
 \subtree{\title{Idea scratchpad}
 \transclude{role-001X}
+\transclude{role-002E}
 \subtree{\title{Statics}
   \transclude{role-001B}
   \transclude{role-0011}
@@ -28,6 +31,11 @@
   \transclude{role-001C}
   \transclude{role-0014}
   \transclude{role-0015}
+  \transclude{role-0029}
+  \transclude{role-002O}
+  \transclude{role-002P}
+  \transclude{role-002W}
+  \transclude{role-002X}
 }
 \subtree{\title{Dynamics}
 \p{At first glance, there are two kinds of dynamics. }
@@ -51,6 +59,9 @@
 \subtree{\title{Presentations}
   \transclude{role-001E}
   \transclude{role-000H}
+  \transclude{role-0034}
+  \transclude{role-004D}
+
 }
 
 \subtree{\title{Papers}
@@ -59,5 +70,5 @@
     \li{\em{First-order logical duality} by Awodey and Forssell: generalizes [syntax-semantics adjunction](math-003E) for propositional logic ([Stone representation theorem](math-003D)) to predicate logic. Normally, categorical logic jumps straight to higher order logic, so this is an interesting intermediate point to look at.}
     \li{\em{Affine logic for constructive mathematics} by Shulman: Talks about pathologies of classical/intuitionistic logic coming from focusing only on proofs and not refutations (reasons for without reasons against).}
     \li{\em{A Fibrational Framework for Substructural and Modal Logics} by Shulman, Licata, Riley. "We have described a sequent calculus that can express a variety of substructural and modal logics through a suitable choice of mode theory. The framework itself enjoys identity and cut admissibility for all mode theories, and these properties are inherited by the logics that are represented in it. The logic corresponds semantically to a fibration between 2-dimensional cartesian multicategories, and so gives both a syntactic and semantic account of the idea that substructural and modal logics are constraints on structural proofs"}
-  }
+    \li{\em{Model theory vs Categorical Logic: Two approaches to pretopos completion}: Inspiring for ideas for categorifying what it means to be universally LX.}}
 }

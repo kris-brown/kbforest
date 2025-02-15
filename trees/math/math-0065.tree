@@ -1,0 +1,10 @@
+\date{2024-08-08}
+\title{Product monad}
+
+\p{The [product functor](math-0024) #{P:\mathbf{Set}^2\rightarrow \mathbf{Set}} is right [adjoint](math-0028) to the [diagonal functor](math-0066) #{\Delta: \mathbf{Set} \rightarrow \mathbf{Set^2}}.}
+
+\p{The monad of this adjunction is #{P\Delta: \mathbf{Set}\rightarrow \mathbf{Set}}.}
+
+\p{The unit components are #{X\xrightarrow{\eta_X}X\times X:=x\mapsto (x,x)}}
+
+\p{The join components are #{X^4\xrightarrow{\mu_X}X^2:= (x_1,x_2,x_3,x_4)\mapsto (x_1,x_4)}}

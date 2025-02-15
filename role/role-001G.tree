@@ -22,38 +22,32 @@
 \def\RR2[x01][x02][x012][x10][x12][x20][x21][x120]{
 \table{
 \tr{
-\th{}
-\th{#{\varnothing}}
-\th{#{\{a\}}}
-\th{#{\{b\}}}
-\th{#{\{a,b\}}}
+\th{#{\II}}
+\th{#{0}}
+\th{#{a^-}}
+\th{#{b^-}}
+\th{#{a^-b^-}}
 }
 \tr{
-\th{#{\varnothing}}
-\td{#{\times}}\td{#{\boxed{\x01}}}\td{#{\boxed{\x02}}}\td{#{\boxed{\x012}}}
+\th{#{0}}
+\td{#{\checkmark}}\td{#{\boxed{\x01}}}\td{#{\boxed{\x02}}}\td{#{\boxed{\x012}}}
 }
 \tr{
-\th{#{\{a\}}}
+\th{#{a^+}}
 \td{#{\boxed{\x10}}}\td{#{\checkmark}}\td{#{\boxed{\x12}}}\td{#{\checkmark}}
 }
 \tr{
-\th{#{\{b\}}}
+\th{#{b^+}}
 \td{#{\boxed{\x20}}}\td{#{\boxed{\x21}}}\td{#{\checkmark}}\td{#{\checkmark}}
 }
 \tr{
-\th{#{\{a,b\}}}
+\th{#{a^+b^+}}
 \td{#{\boxed{\x120}}}\td{#{\checkmark}}\td{#{\checkmark}}\td{#{\checkmark}}
 }
 }
 }
 
-\subtree{\title{Zazzles}
-\p{Background context #{\Gamma}: Zazzles is a cat}
-\ul{\li{#{a=}"Zazzles has 4 legs"} \li{#{b=}"Zazzles lost a leg in an accident"}}
-\RR2{\checkmark}{\times}{\checkmark}{\times}{\times}{\times}{\times}{\checkmark}
-
-\p{Non-monotonicity: adding premise #{b} invalidates the inference #{\vsim a}}
-}
+\transclude{role-0037}
 
 \subtree{\title{Contraries}
 \p{For some monochromatic patch:}
@@ -79,7 +73,6 @@
 
 \p{So this adds #{a \vsim b} and #{b \vsim a} to the reason relation for contradictories. This introduces nonmonotonicity/nontransivity, which is commonly treated as paradoxicality.}
 }
-
 
 \subtree{\title{Simple material implication}
 \p{Background context: inside a philosophy seminar room}

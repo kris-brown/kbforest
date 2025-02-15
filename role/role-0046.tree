@@ -1,0 +1,150 @@
+\date{2024-08-29}
+\title{Implication frames and 'responsible' maps}
+\import{macros}
+\import{base-macros}
+
+##{\forall U \in S_X, \cP f(U) \in \II_Y \Rightarrow U \in \II_X  }
+
+\p{The empty implication frame is an initial object.}
+
+\p{The implication frame with one bearer and #{\II=\{0\} } is terminal.}
+
+\table{
+\tr{
+\th{#{\II_1}}
+\th{#{0}}
+\th{#{a^-}}
+}
+\tr{
+\th{#{0}}
+\td{#{\checkmark}}\td{#{a_1=\times}}}
+\tr{
+\th{#{a^+}}
+\td{#{a_2=\times}}\td{#{a_3=\times}}}
+}
+
+
+\p{If we consider looking for binary coproducts, we'll have to consider pairs #{A \xrightarrow{f} X \xleftarrow{g} B}. If #{X} is an implication frame with 2 bearers and #{A} and #{B} have one bearer, what must #{\II_X} be in terms of #{\II_A} and #{\II_B}?}
+
+
+\table{
+\tr{
+\th{#{\II_X}}
+\th{#{0}}
+\th{#{a^-}}
+\th{#{b^-}}
+\th{#{a^-b^-}}
+}
+\tr{
+\th{#{0}}
+\td{#{\checkmark}}\td{#{\leq a_1}}\td{#{\leq b_1}}\td{#{x_1}}
+}
+\tr{
+\th{#{a^+}}
+\td{#{\leq a_2}}\td{#{\leq a_3}}\td{#{x_2}}\td{#{x_3}}
+}
+\tr{
+\th{#{b^+}}
+\td{#{\leq b_2}}\td{#{x_4}}\td{#{\leq b_3}}\td{#{x_5}}
+}
+\tr{
+\th{#{a^+b^+}}
+\td{#{x_6}}\td{#{x_7}}\td{#{x_8}}\td{#{x_9}}
+}
+}
+
+\p{Where "#{\leq a_1}" means that the value is a lesser truth value than that of #{a_1} (if it is true, then #{a_1} had to have been true).}
+
+\p{These constraints apply equally to #{A+B}, except we need to make a decision for each of the cells. Because we don't know what any of the #{x_i} are, we must be conservative and put the corresponding in #{\II_{A+B}}. For the #{\leq a_i} values, we can take the value #{a_i} (even if it's false, because it being false will mean that we will not violate the constraint).}
+
+\table{
+\tr{
+\th{#{\II_{A+B}}}
+\th{#{0}}
+\th{#{a^-}}
+\th{#{b^-}}
+\th{#{a^-b^-}}
+}
+\tr{
+\th{#{0}}
+\td{#{\checkmark}}\td{#{a_1}}\td{#{b_1}}\td{#{\checkmark}}
+}
+\tr{
+\th{#{a^+}}
+\td{#{a_2}}\td{#{a_3}}\td{#{\checkmark}}\td{#{\checkmark}}
+}
+\tr{
+\th{#{b^+}}
+\td{#{b_2}}\td{#{\checkmark}}\td{#{b_3}}\td{#{\checkmark}}
+}
+\tr{
+\th{#{a^+b^+}}
+\td{#{\checkmark}}\td{#{\checkmark}}\td{#{\checkmark}}\td{#{\checkmark}}
+}
+}
+
+\subtree{\taxon{definition}
+\p{The coproduct of implication frames #{A+B} has #{\cL_{A+B}:=\cL_A+\cL_B} and injection morphisms given by this coproduct in \strong{Set}. Any given #{i \in S_{A+B}} is an element of #{{\II_{A+B}}} unless there exists a #{j \notin \II_A} such that #{\iota_A(j)=i} (likewise for #{\iota_B}). I.e.:}
+
+##{\neg \II_{A+B} := \cP \iota_A(\neg \II_A) \cup \cP \iota_B(\neg \II_B)}
+}
+
+\subtree{\taxon{proposition}
+\p{#{A+B} satisfies the universal property of the coproduct for any cospan #{{A \xrightarrow{f} X \xleftarrow{g} B}}.}
+\subtree{\taxon{proof}
+\p{Given #{{A \xrightarrow{f} X \xleftarrow{g} B}}, the universal property in \strong{Set} gives us the unique morphism #{{A+B \xrightarrow{u} X}}. That this is unique (if it exists) is given by the fact we are looking at a subcategory of \strong{Set}, so we just need to verify that #{u} satisfies the responsibility constraint.}
+
+\p{Suppose #{i \in \II_X}. We require that for all #{{j \in S_{A+B}}} such that #{{u(j)=i}}, that #{{j \in \II_{A+B}}}. If #{i} involves any mixture of #{A} and #{B} vocabulary, then any such #{j} is true by construction. If it involves purely #{A} vocabulary, then there must be a #{k \in S_A} such that #{f(k)=i} (therefore #{k \in \II_A}) and #{{\iota_A(k) = j}} (therefore #{{j \in \II_{A+B}}}, by how we constructed #{{A+B}}). (Likewise for #{B})}
+}}
+
+\p{Now let's consider products. What do we know about #{X} given that it is the apex of a span #{{A \xleftarrow{f} X \xrightarrow{g} B}}? For concreteness, let's take #{A} to be a one-bearer implication frame (defined by three booleans, #{\{a_1=(#{\vsim a}),a_2=(#{a \vsim}),a_3=(#{a\vsim a})\}})
+and #{B} to have bearers #{\{b,c\}} and #{\II_B} characterized by 15 booleans.}
+
+\table{
+\tr{
+\th{#{\II_X}}
+\th{#{0}}
+\th{#{(a,b)^-}}
+\th{#{(a,c)^-}}
+\th{#{(a,bc)^-}}
+}
+\tr{
+\th{#{0}}
+\td{#{\checkmark}}\td{#{\geq a_1 \vee b_1}}\td{#{\geq a_1 \vee b_2}}\td{#{\geq a_1 \vee b_3}}
+}
+\tr{
+\th{#{(a,b)^+}}
+\td{#{\geq a_2 \vee b_4}}\td{#{\geq a_3 \vee b_5}}\td{#{\geq a_3 \vee b_6}}\td{#{\geq a_3 \vee b_7}}
+}
+\tr{
+\th{#{(a,c)^+}}
+\td{#{\geq a_2 \vee b_8}}\td{#{\geq a_3 \vee b_9}}\td{#{\geq  a_3 \vee b_{10}}}\td{#{\geq a_3 \vee b_{11}}}
+}
+\tr{
+\th{#{(a,bc)^+}}
+\td{#{\geq a_2 \vee b_{12}}}\td{#{\geq a_3 \vee b_{13}}}\td{#{\geq a_3 \vee b_{14}}}\td{#{\geq a_3 \vee b_{15}}}
+}
+}
+
+\p{The actual product will be equal (rather than greater than or equal) to the value of the cell.}
+
+\subtree{\taxon{definition}
+
+\p{The product #{A\times B} of two implication frames has #{\cL_{A+B}} and projection maps given by the product in \strong{Set}.}
+
+##{i \in \II_{A\times B} := \pi_1(i)\in \II_A \vee \pi_2(i)\in\II_B
+}
+}
+\subtree{\taxon{proposition}
+\p{#{A\times B} satisfies the universal property of the product for any span #{{A \xleftarrow{f} X \xrightarrow{g} B}}.}
+\subtree{\taxon{proof}
+\p{The unique morphism #{X \xrightarrow{u} A \times B} is given by the universal property in \strong{Set}. If this morphism is included in this subcategory, then it is unique, so we show it exists:}
+
+\p{Suppose #{i \in \II_{A\times B}}. We need to show that, for an arbitrary #{j \in S_X} such that #{u(j) = i}, that #{j \in \II_X}. By construction, #{\pi_1(i)\in \II_A} or #{\pi_2(i)\in \II_B}. Because #{f(j) = \pi_1(i)} and #{g(j) = \pi_2(i)}, if either of them is in their respective #{\II} (which is true for one), then #{j \in \II_X}.}
+}
+}
+
+\p{We can verify that #{0} and #{1} are the units for (co)products, respectively.}
+
+
+\p{In general, I suppose limits and colimits in #{\cat{ImpFrame}} all exist and are computed in \strong{Set}. #{\II} is made precisely as strong as it needs to be to map into its projects for limits, and as weak as it needs to be in order for legs to inject into it for colimits.}

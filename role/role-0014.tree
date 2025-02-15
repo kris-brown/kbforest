@@ -1,15 +1,29 @@
 \date{2024-06-15}
 \title{Quantale of a commutative monoid with distinguished subset}
+\import{macros}
 
-\p{Given any [commutative monoid](math-001Q) with distinguished subset #{(S, 0, +, I\subseteq S)}, one obtains a [quantale](math-001T) #{(Q, \leq, \otimes)} in the following way:}
+\subtree{\title{Notation}
+
+\p{We'll fix a convention for variables of various types:}
+
+\ul{
+\li{#{S,T,...} for the underlying sets of commutative monoids}
+\li{#{\Gamma\Delta, \Theta\Lambda,...} for elements of #{S}}
+\li{#{X,Y,...} for subsets of #{S} (i.e. elements of #{Q=\cP(S)})}
+\li{#{A,B,...} for subsets of #{Q}}}
+
+}
+
+
+\p{Given any [commutative monoid](math-001Q) with distinguished subset #{(S, 0, +, \II\subseteq S)}, one obtains a [quantale](math-001T) #{(Q, \leq, \otimes)} in the following way:}
 \p{#{Q := \mathcal{P}(S)}. Let #{X, Y} be subsets of #{S} (i.e. elements of #{Q}).}
-\p{Let #{RSR'(s \in S) = \{s'\in S\ |\ s+s' \in I\}} and #{RSR(X):=\underset{x\in X}\bigcap RSR'(x)}.}
+\p{Let #{RSR'(\Gamma\Delta \in S) = \{\Theta\Lambda\in S\ |\ \Gamma\Delta+\Theta\Lambda \in \II\}} and #{RSR(X):=\underset{\Gamma\Delta\in X}\bigcap RSR'(\Gamma\Delta)}.}
 \ul{\li{Note #{RSR(X \cup Y) = RSR(X)\cap RSR(Y)}.}}
 \p{We define #{X \leq Y := RSR(X)\leq RSR(Y)}}
-\p{#{Q} has all [joins](math-001U): for any #{A \subseteq F}, we have #{\bigvee A := \underset{i}\bigcup A_i}}
+\p{#{Q} has all [joins](math-001U): for any #{A \subseteq Q}, we have #{\bigvee A := \underset{X \in A}\bigcup X}}
 
-\ul{\li{ #{\bigvee A \leq A_i} as the additional elements of #{S} in #{A} but not #{A_i} will only contribute constraints to #{RSR(A)}, thereby making it a subset of #{RSR(A_i)}.}
-\li{If #{\forall i, X \leq A_i}, (i.e. #{RSR(X)} is a subset of each component #{RSR}), then #{X \leq \bigvee A} (i.e. it is a subset of their intersection).}
+\ul{\li{ #{\forall X \in A, \bigvee A \leq X} as the additional elements of #{S} in #{A} but not #{X} will only contribute constraints to #{RSR(A)}, thereby making it a subset of #{RSR(X)}.}
+\li{If #{\forall X \in A, Y \leq X}, (i.e. #{RSR(Y)} is a subset of each component #{RSR}), then #{Y \leq \bigvee A} (i.e. it is a subset of their intersection).}
 }
 
 \p{#{Q} has a symmetric tensor product: #{X \otimes Y := \{x+y\ |\ x \in X, y \in Y\}}}

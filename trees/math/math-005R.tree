@@ -1,0 +1,5 @@
+\date{2024-08-02}
+\title{Zero object}
+\taxon{definition}
+
+\p{A \em{zero} object of a [category](math-000D) is one which is both [initial](math-0052) and [terminal](math-001G).}

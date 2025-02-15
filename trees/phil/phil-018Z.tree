@@ -1,2 +1,66 @@
 \date{2024-04-15}
 \title{Inferentialism}
+\ref{phil-01DD}
+
+\p{A species of use-theoretic approaches to linguistic meaning, in contrast (superficially) to referential / [representational](phil-0118) theories of meaning. The particular kind of use that is taken as meaning-determining is the [inferential role](phil-01DI) of an expression or concept. Call theories of this sort \em{Inferential Role Semantics} (IRS).}
+
+\p{IRS is a subspecies of [conceptual role semantics](phil-01DD).}
+
+\subtree{\title{Varieties of inferentialism}
+
+\p{Various flavors of IRS can be about:}
+\ul{
+  \li{(Social): meanings of expressions in a public language}
+  \li{(Individualistic): the meanings of expressions in someone's idiolect}
+  \li{the contents of symbols in a [language of thought](phil-01DE) / the content of [thought](phil-01DF)}
+}
+
+
+\p{IRS differs from representionalism at a \em{metasemantic} level, not (necessarily) a semantic level. The difference is in \transclude{phil-01DH}}
+
+
+\p{Thinking of IRS as a \em{metasemantic} theory, it has two broad theses}
+
+\ul{
+  \li{(MD) Meaning determination: The meanings of linguistic expressions are determined by their role in inference.}
+  \li{(UND) Understanding: To understand a linguistic expression is to know its role in inference.}}
+
+\p{Nevertheless, IRS gives space for non-referential theories of meaning, e.g.}
+
+\ul{
+  \li{Assertability conditions rather than truth conditions}
+  \li{Epistemically constrained notion of truth as in [Dummett](dummett) or [Wright](wright)}
+  \li{Substantial notions of reference and truth are just no longer needed}}
+
+\p{Let an \em{orthodox} IRS position be one compatible with 'standard' semantic theories, and furthermore \em{genuine} IRS positions are ones which are not [deflationary](ref-00B7).}
+
+\p{[Informational semantics](q-015T) is in conflict with all forms of IRS. One is bottom-up, the other is top-down. One is atomistic (one could in principle have just one concept), the other is holisic.}
+
+\p{Holism could be worrying: to have meaning of something determined by \em{all} other statements involving it would be too fine-grained (no plausible account of UND). Dummett's 'molecularism' ameliorates this: semantic clusters are sets of expressions whose meanings are mutually dependent. E.g. ("mother of"/"father of"/"child of") and ("analytic"/"necessary"/"synonymous") [according](ref-0068) to Quine.}
+
+\p{Language entry and language exit rules are regarded as 'inferential' connections in order to accommodate expressions relating to observation and action (respectively) and explain how inference latches onto the world.}
+
+\p{Distinction: descriptive vs normative IRS: are the relevant inferences the ones we \em{would} make or the ones we \em{ought} make?}
+
+\p{Argument against individualistic inferentialism: [(radical) content externalism](phil-01DK).}
+
+\p{Four uses of 'meaning'.
+  \ol{
+    \li{the referent or extension of an expression}
+    \li{the compositional contribution it makes to what is said by a sentence in which it is being used}
+    \li{the semantic determinants of the referent or extension of an expression. On simple descriptivist accounts, the meaning of a proper name (say) may be a definite description (or cluster of such descriptions). It is in virtue of the description's being satisfied by a particular object, that the associated name names its bearer}
+    \li{what it is that a speaker must grasp in order to understand an expression/concept.}
+  }}
+
+
+\p{IRS is incompatible with (1) above.}
+
+}
+
+\subtree{\title{Logical inferentialism}
+
+  \p{The ...}
+
+}
+
+\subtree{}

@@ -1,0 +1,14 @@
+\date{2024-07-21}
+\title{Split monomorphism}
+\meta{external}{https://ncatlab.org/nlab/show/split+monomorphism}
+
+\subtree{
+  \taxon{definition}
+
+  \p{A \em{split monomorphism} is a morphism with a right inverse (which is a \em{split epimorphism}).}
+}
+
+\p{Split monomorphisms are preserved by all [functors](math-000E).}
+
+\p{A morphism is a isomorphism iff it is an epimorphism and a split monomorphism.}
+

@@ -1,0 +1,6 @@
+\date{2024-08-30}
+\title{Small category}
+\taxon{definition}
+
+\p{A [category](math-000D) is \em{small} if it has a \em{set} of objects and a \em{set} of morphisms (rather than a proper class)}
+

@@ -1,0 +1,86 @@
+\date{2024-12-12}
+\title{Viewing vocabularies as virtual double categories}
+\import{macros}
+
+\p{We can obtain a [virtual double category](math-007O) from a vocabulary (i.e. an [implication frame](role-0036)).}
+
+\p{Given a lexicon #{\cL}, define the tight [category](math-000D) to be the [poset](math-001O) #{\cP(\cL)}.}
+
+\p{Take the set of loose morphisms to be #{\cP(\cL+\cL)}, i.e. all possible entailments. This is indiscrete (there is exactly one loose arrow between any pair of objects).}
+
+\p{The set of incoherences of a vocabulary #{\II} determine which cells exist. An implication #{a,b\vsim b,c \in \II} is the following cell with a zero-length list of loose arrows as domain of the cell:}
+
+% https://q.uiver.app/#q=WzAsMyxbMSwwLCJcXHZhcm5vdGhpbmciXSxbMCwxLCJhIl0sWzIsMSwiYiJdLFsxLDIsIiIsMCx7InN0eWxlIjp7ImJvZHkiOnsibmFtZSI6ImJhcnJlZCJ9fX1dLFswLDEsIiIsMCx7InN0eWxlIjp7InRhaWwiOnsibmFtZSI6Im1vbm8ifX19XSxbMCwyLCIiLDIseyJzdHlsZSI6eyJ0YWlsIjp7Im5hbWUiOiJtb25vIn19fV1d
+\quiver{\begin{tikzcd}
+    & \varnothing \\
+    a,b && b,c
+    \arrow[tail, from=1-2, to=2-1]
+    \arrow[tail, from=1-2, to=2-3]
+    \arrow["\shortmid"{marking}, from=2-1, to=2-3]
+  \end{tikzcd}}
+
+
+\p{The data of composition of cells need not be specified due to the thinness of the double category (at most one cell for any boundary). This property also means any axioms are automatically satisfied.}
+
+\p{This leaves open the question: what to make of cells that do not have a nullary domain?}
+
+\p{These cells have an interesting semantic value: they codify regions of monotonicity and transitivity.}
+
+\p{For example, suppose we have #{\Gamma \vsim \Delta} and #{\Delta \vsim \Theta}. It is \em{not} the case that such an implication frame must have #{\Gamma \vsim \Theta}. However, a cell #{\Gamma \vsim \Delta \vsim \Theta \Rightarrow \Gamma \vsim \Theta} says something to the effect that "if one has #{\Gamma \vsim \Delta} and #{\Delta \vsim \Theta} then one has #{\Gamma \vsim \Theta}. The fact that we can compose cells gives this:}
+
+  % https://q.uiver.app/#q=WzAsOSxbMSwwLCJcXHZhcm5vdGhpbmciXSxbMCwxLCJcXEdhbW1hIl0sWzIsMSwiXFxUaGV0YSJdLFsxLDEsIlxcRGVsdGEiXSxbMCwyLCJcXEdhbW1hIl0sWzIsMiwiXFxUaGV0YSJdLFs0LDAsIlxcdmFybm90aGluZyJdLFszLDIsIlxcR2FtbWEiXSxbNSwyLCJcXFRoZXRhIl0sWzAsMV0sWzAsM10sWzAsMl0sWzQsNSwiIiwyLHsic3R5bGUiOnsiYm9keSI6eyJuYW1lIjoiYmFycmVkIn19fV0sWzEsMywiIiwwLHsic3R5bGUiOnsiYm9keSI6eyJuYW1lIjoiYmFycmVkIn19fV0sWzMsMiwiIiwwLHsic3R5bGUiOnsiYm9keSI6eyJuYW1lIjoiYmFycmVkIn19fV0sWzEsNCwiIiwwLHsibGV2ZWwiOjIsInN0eWxlIjp7ImhlYWQiOnsibmFtZSI6Im5vbmUifX19XSxbMiw1LCIiLDAseyJsZXZlbCI6Miwic3R5bGUiOnsiaGVhZCI6eyJuYW1lIjoibm9uZSJ9fX1dLFs2LDddLFs2LDhdLFs3LDgsIiIsMSx7InN0eWxlIjp7ImJvZHkiOnsibmFtZSI6ImJhcnJlZCJ9fX1dLFszLDEyLCJcXGNoZWNrbWFyayIsMSx7InNob3J0ZW4iOnsidGFyZ2V0IjoyMH0sInN0eWxlIjp7ImJvZHkiOnsibmFtZSI6Im5vbmUifSwiaGVhZCI6eyJuYW1lIjoibm9uZSJ9fX1dLFswLDEzLCJcXGNoZWNrbWFyayIsMSx7InNob3J0ZW4iOnsidGFyZ2V0IjoyMH0sInN0eWxlIjp7ImJvZHkiOnsibmFtZSI6Im5vbmUifSwiaGVhZCI6eyJuYW1lIjoibm9uZSJ9fX1dLFswLDE0LCJcXGNoZWNrbWFyayIsMSx7InNob3J0ZW4iOnsidGFyZ2V0IjoyMH0sInN0eWxlIjp7ImJvZHkiOnsibmFtZSI6Im5vbmUifSwiaGVhZCI6eyJuYW1lIjoibm9uZSJ9fX1dLFs2LDE5LCJcXGNoZWNrbWFyayIsMSx7InNob3J0ZW4iOnsidGFyZ2V0IjoyMH0sInN0eWxlIjp7ImJvZHkiOnsibmFtZSI6Im5vbmUifSwiaGVhZCI6eyJuYW1lIjoibm9uZSJ9fX1dLFsyLDE3LCIiLDEseyJzaG9ydGVuIjp7InNvdXJjZSI6MjAsInRhcmdldCI6NDB9fV1d
+\quiver{
+\begin{tikzcd}
+	& \varnothing &&& \varnothing \\
+	\Gamma & \Delta & \Theta \\
+	\Gamma && \Theta & \Gamma && \Theta
+	\arrow[from=1-2, to=2-1]
+	\arrow[from=1-2, to=2-2]
+	\arrow[from=1-2, to=2-3]
+	\arrow[""{name=0, anchor=center, inner sep=0}, from=1-5, to=3-4]
+	\arrow[from=1-5, to=3-6]
+	\arrow[""{name=1, anchor=center, inner sep=0}, "\shortmid"{marking}, from=2-1, to=2-2]
+	\arrow[Rightarrow, no head, from=2-1, to=3-1]
+	\arrow[""{name=2, anchor=center, inner sep=0}, "\shortmid"{marking}, from=2-2, to=2-3]
+	\arrow[Rightarrow, no head, from=2-3, to=3-3]
+	\arrow[""{name=3, anchor=center, inner sep=0}, "\shortmid"{marking}, from=3-1, to=3-3]
+	\arrow[""{name=4, anchor=center, inner sep=0}, "\shortmid"{marking}, from=3-4, to=3-6]
+	\arrow["\checkmark"{description}, draw=none, from=1-2, to=1]
+	\arrow["\checkmark"{description}, draw=none, from=1-2, to=2]
+	\arrow["\checkmark"{description}, draw=none, from=1-5, to=4]
+	\arrow["\checkmark"{description}, draw=none, from=2-2, to=3]
+	\arrow[shorten <=8pt, shorten >=16pt, Rightarrow, from=2-3, to=0]
+\end{tikzcd}
+}
+
+\p{As another example, suppose we have #{\{a\} \vsim \{c\}}. It is \em{not} the case that such an implication frame must have #{\{a,b\} \vsim \{c,d\}}. However, a cell #{\{a\} \vsim \{c\} \Rightarrow \{a,b\} \vsim \{c,d\}} says something to the effect that "if one has #{\{a\} \vsim \{c\}} then one has #{\{a,b\} \vsim \{c,d\}}. The fact that we can compose cells gives this:}
+
+% https://q.uiver.app/#q=WzAsOCxbMSwwLCJcXHZhcm5vdGhpbmciXSxbMCwxLCJhIl0sWzIsMSwiYyJdLFswLDIsImEsYiJdLFsyLDIsImMsZCJdLFs0LDAsIlxcdmFybm90aGluZyJdLFszLDIsImEsYiJdLFs1LDIsImMsZCJdLFszLDQsIiIsMCx7InN0eWxlIjp7ImJvZHkiOnsibmFtZSI6ImJhcnJlZCJ9fX1dLFsxLDIsIiIsMCx7InN0eWxlIjp7ImJvZHkiOnsibmFtZSI6ImJhcnJlZCJ9fX1dLFswLDFdLFswLDJdLFsxLDNdLFsyLDRdLFs1LDZdLFs1LDddLFs2LDcsIiIsMSx7InN0eWxlIjp7ImJvZHkiOnsibmFtZSI6ImJhcnJlZCJ9fX1dLFs5LDgsIlxcY2hlY2ttYXJrIiwxLHsic2hvcnRlbiI6eyJzb3VyY2UiOjIwLCJ0YXJnZXQiOjIwfSwic3R5bGUiOnsiYm9keSI6eyJuYW1lIjoibm9uZSJ9LCJoZWFkIjp7Im5hbWUiOiJub25lIn19fV0sWzAsOSwiXFxjaGVja21hcmsiLDEseyJzaG9ydGVuIjp7InRhcmdldCI6MjB9LCJzdHlsZSI6eyJib2R5Ijp7Im5hbWUiOiJub25lIn0sImhlYWQiOnsibmFtZSI6Im5vbmUifX19XSxbNSwxNiwiXFxjaGVja21hcmsiLDEseyJzaG9ydGVuIjp7InRhcmdldCI6MjB9LCJzdHlsZSI6eyJib2R5Ijp7Im5hbWUiOiJub25lIn0sImhlYWQiOnsibmFtZSI6Im5vbmUifX19XSxbMiwxNCwiIiwxLHsic2hvcnRlbiI6eyJzb3VyY2UiOjMwLCJ0YXJnZXQiOjMwfX1dXQ==
+\quiver{\begin{tikzcd}
+	& \varnothing &&& \varnothing \\
+	a && c \\
+	{a,b} && {c,d} & {a,b} && {c,d}
+	\arrow[from=1-2, to=2-1]
+	\arrow[from=1-2, to=2-3]
+	\arrow[""{name=0, anchor=center, inner sep=0}, from=1-5, to=3-4]
+	\arrow[from=1-5, to=3-6]
+	\arrow[""{name=1, anchor=center, inner sep=0}, "\shortmid"{marking}, from=2-1, to=2-3]
+	\arrow[from=2-1, to=3-1]
+	\arrow[from=2-3, to=3-3]
+	\arrow[""{name=2, anchor=center, inner sep=0}, "\shortmid"{marking}, from=3-1, to=3-3]
+	\arrow[""{name=3, anchor=center, inner sep=0}, "\shortmid"{marking}, from=3-4, to=3-6]
+	\arrow["\checkmark"{description}, draw=none, from=1-2, to=1]
+	\arrow["\checkmark"{description}, draw=none, from=1-5, to=3]
+	\arrow["\checkmark"{description}, draw=none, from=1, to=2]
+	\arrow[shorten <=12pt, shorten >=12pt, Rightarrow, from=2-3, to=0]
+\end{tikzcd}}
+
+
+\p{This leads to a nice friendly amendment to the definition of a vocabulary, which is to allow the stipulation of cells of any shape, not merely of that particular shape.}
+
+
+\p{Two properties of interest for virtual double categories are [being representable](math-007W) and having [extensions](math-001I). These characterize a vocabulary as classical.}
+
+\p{Future work will explore what the double category of functors and natural transformations between these looks like. In particular, implicational roles may be associated with Yoneda (#{\Hom(\Gamma,-)}, things #{\Gamma} is a reason for) and co-Yoneda (#{\Hom(-,\Gamma)}, things #{\Gamma} is a reason against) embeddings }
+
+\p{Matteo writes about an epiphany in this direction [on Twitter](https://x.com/mattecapu/status/1872999788242976902).}

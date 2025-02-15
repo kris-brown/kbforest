@@ -1,0 +1,18 @@
+\date{2024-08-21}
+\title{Category of RSR inclusions (failed)}
+\import{macros}
+
+
+\p{Given an implication frame #{(L,\II)} with #{S = \cP(L)^2}, union of implications denoted by +, and RSR denoted by #{X^* := \{Y\in S\ |\ X+Y \in \II\} }}
+
+\p{Let the objects be implications #{\Ob(\cat{C}):=S}}
+
+\p{Let #{\Hom_\cat{C}(X,Y) := \{Z\in S\ | (X+Z)^*\subseteq Y^* \} }}
+
+\p{The motivation here is that an inclusion of RSRs is a context-free entailment (under all contexts one can substitute #{X} with #{Y} is what is said by  #{X^*\subseteq Y^*}). So our notion of a morphism is what needs to be added to #{X} to obtain this property.}
+
+\p{One can compose these morphisms by unioning: #{f\cdot g: X\rightarrow Z := f + g}. We need to confirm that #{(X + f + g)^*\subseteq Z^*}. #{f} being a morphism gives us that #{(X+f)^*\subseteq Y^*} (i.e. #{X^* \cap f^* \subseteq Y^*}) and likewise #{g} means that #{Y^*\cap g^* \subseteq Z^*}. Combining these facts allows us to deduce that #{X^* \cap f^* \cap g^* \subseteq Z^*}.}
+
+\p{There is an identity map #{e} for each object.}
+
+\p{Nevermind, this isn't that interesting...}

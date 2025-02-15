@@ -1,0 +1,23 @@
+\date{2024-08-23}
+\title{A contravariant self-adjunction for implication-set quantales}
+\import{macros}
+\taxon{definition}
+
+\p{Given any [implication frame](role-0036) #{(\cL, \II)} and the quantale #{Q_\cL} equipped with a distguished \em{object} #{\II} in its poset, there is a monotone map #{{(-)^{*_\II} : Q_\cL \rightarrow Q^{op}_\cL := - \multimap \II}} that is a contravariant left adjoint of itself:}
+
+##{
+\begin{align*}
+  Q(X,Y\multimap \II) & \iff Q(X\otimes Y,\II)         \\
+                      & \iff Q(Y\otimes X, \II)        \\
+                      & \iff Q(Y, X\multimap \II)      \\
+                      & \iff Q^{op}(X\multimap \II, Y) \\
+\end{align*}}
+
+
+\p{We write #{(-)^*} if the #{\II} is inferable from context.}
+
+\p{One way of understanding #{\{\Gamma\vsim\Delta\}^* } is as the \em{range of subjunctive robustness} of the implication #{{\Gamma\vsim\Delta}}. It may not be a good implication (i.e. not in #{\II}), but there are contexts (other sequents, e.g. #{{\Theta\vsim\Lambda}}) under which it \em{is} a good implication, i.e. #{{\Theta,\Gamma\vsim\Delta,\Lambda}}. The set of such sequents is #{{\{\Gamma\vsim\Delta\}^* }}.}
+
+\p{Thinking relationally (and holistically), we can identify #{X^*} as the \em{role} that #{X} plays in the implication frame. The setup is guiding us towards this as the implication frame has already forgotten whatever 'internal structure' any given claimable might've had.}
+
+\p{When there are multiple elements in the argument, we intersect all the ranges of subjunctive robustness.}

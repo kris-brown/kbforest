@@ -1,0 +1,13 @@
+\date{2024-08-25}
+\title{Interpretation function action of sequents}
+\import{macros}
+\subtree{
+\taxon{definition}
+
+\p{Given an [interpretation function](role-003J) #{\brack{-} = \cL_A+\cL_A \rightarrow \cR_B}, we can lift this to an interpretation of implications generally #{\brack{-}: S_A\rightarrow \cR_B}, via the formula}
+
+##{\brack{\Gamma\vsim\Delta}:=\bigsqcup_{\gamma \in \Gamma} \brack{\gamma}^+\sqcup \bigsqcup_{\delta \in \Delta} \brack{\delta}^-}
+}
+
+\p{Note that Girard's linear logic uses par in this way to interpret sequents (based on interpretations of atomic formulas) as well.}
+

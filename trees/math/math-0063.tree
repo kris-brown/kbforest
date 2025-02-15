@@ -1,0 +1,6 @@
+\date{2024-08-06}
+\title{Galois connection}
+\meta{external}{https://ncatlab.org/nlab/show/Galois+connection}
+\taxon{definition}
+
+\p{A \em{Galois connection} is an [adjunction](math-0028) between [posets](math-001O).}

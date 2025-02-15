@@ -1,0 +1,4 @@
+\date{2024-08-23}
+\title{Atom (lattice)}
+\taxon{definition}
+\p{An \em{atom} of a [lattice](math-0069) is an element #{p} such that #{\forall x, (0 < x \leq p) \implies x = p}.}

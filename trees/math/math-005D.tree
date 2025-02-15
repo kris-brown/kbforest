@@ -1,0 +1,20 @@
+\date{2024-07-28}
+\title{Graph homomorphism}
+\taxon{definition}
+\import{macros}
+\p{A \em{graph homomorphism} #{f: G\rightarrow H} from a [graph](math-0059) #{G=(V,E,src,tgt)} to a graph #{H=(V',E',src',tgt')} is a pair of functions, #{f_V: V\rightarrow V'} and #{f_E: E \rightarrow E'} such that:}
+
+% https://q.uiver.app/#q=WzAsOCxbMCwxLCJWIl0sWzEsMSwiViciXSxbMCwwLCJFIl0sWzEsMCwiRSciXSxbMiwwLCJFIl0sWzMsMCwiRSciXSxbMiwxLCJWIl0sWzMsMSwiViciXSxbMiwzLCJmX0UiXSxbMCwxLCJmX1YiLDJdLFsyLDAsInNyYyIsMl0sWzMsMSwic3JjJyJdLFs0LDYsInRndCIsMl0sWzUsNywidGd0JyJdLFs0LDUsImZfRSJdLFs2LDcsImZfViIsMl1d
+\quiver{\begin{tikzcd}
+    E & {E'} & E & {E'} \\
+    V & {V'} & V & {V'}
+    \arrow["{f_E}", from=1-1, to=1-2]
+    \arrow["src"', from=1-1, to=2-1]
+    \arrow["{src'}", from=1-2, to=2-2]
+    \arrow["{f_E}", from=1-3, to=1-4]
+    \arrow["tgt"', from=1-3, to=2-3]
+    \arrow["{tgt'}", from=1-4, to=2-4]
+    \arrow["{f_V}"', from=2-1, to=2-2]
+    \arrow["{f_V}"', from=2-3, to=2-4]
+  \end{tikzcd}}
+

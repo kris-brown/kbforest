@@ -1,0 +1,99 @@
+\date{2024-08-03}
+\title{(Failed) associativity of interpretation function composition}
+\taxon{proposition}
+\tag{fail}
+\import{macros}
+
+\p{Given interpretation functions #{A \xrightarrow{\brack{\cdot}_f} B\xrightarrow{\brack{\cdot}_g} C\xrightarrow{\brack{\cdot}_h} D}}
+
+\p{For all bearers #{a \in \cL_A}, we have #{\brack{\brack{a}_{f\cdot g}}_{h}= \brack{\brack{a}_f}_{g\cdot h}}.}
+\subtree{\taxon{proof}
+
+\p{This is verified the same way for the premisory and conclusory roles of the conceptual content assigned to #{a}. I.e. both #{\brack{\brack{a}^+_{f\cdot g}}_{h}= \brack{\brack{a}^+_f}_{g\cdot h}} and #{\brack{\brack{a}^-_{f\cdot g}}_{h}= \brack{\brack{a}^-_f}_{g\cdot h}}. A #{\pm} symbol is used to signal this.}
+
+\p{We begin with #{\brack{\brack{a}^\pm_{f\cdot g}}_{h}}. We start by substituting the value of #{f\cdot g} in the formula for composition of interpretation functions:}
+
+##{ \underset{(\Gamma,\Delta)\in\brack{a}^\pm_{f\cdot g}}{\large{\sqcap}} \brack{\Gamma}^+_h \sqcup \brack{\Delta}^-_h}
+
+\p{Now we substitute in #{\brack{a}^\pm_{f\cdot g}}:}
+
+##{ \underset{(\Gamma,\Delta)\in \underset{(\Theta,\Lambda)\in\brack{a}^\pm_f}{\sqcap}(\brack{\Theta}^+_g \sqcup \brack{\Lambda}^-_g)}{\large{\sqcap}} \brack{\Gamma}^+_h \sqcup \brack{\Delta}^-_h}
+
+\p{If we were to test whether #{(A,B)} were an element of this set, we could express this (by translating the intersections into #{\forall} constraints):}
+
+##{\forall (\Theta,\Lambda)\in \brack{a}^\pm_f, \forall (\Gamma,\Delta) \in \brack{\Theta}^+_g \sqcup\brack{\Lambda}^-_g, (A,B) \in \brack{\Gamma}^+_h\sqcup \brack{\Delta}^-_h}
+
+\p{And, unpacking the adjunction in the middle:}
+
+##{\forall (\Theta,\Lambda)\in \brack{a}^\pm_f, \forall ((\Gamma,\Delta),(\Gamma', \Delta')) \in \brack{\Theta}^+_g \times \brack{\Lambda}^-_g, (A,B) \in \brack{\Gamma \cup \Gamma'}^+_h\sqcup \brack{\Delta\cup \Delta'}^-_h}
+
+
+\p{And, using the fact that interpretation}
+
+
+\p{Now, we return to #{\brack{\brack{a}^\pm_{f}}_{g\cdot h}}. We start by substituting the value of #{g\cdot h} in the formula for composition of interpretation functions:}
+
+##{ \underset{(\Theta,\Lambda)\in\brack{a}^\pm_{f}}{\Large{\sqcap}} \brack{\Theta}^+_{g\cdot h} \sqcup \brack{\Lambda}^-_{g\cdot h}}
+
+\p{Now we substitute in for #{\brack{-}_{g\cdot h}}:}
+
+##{ \underset{(\Theta,\Lambda)\in\brack{a}^\pm_{f}}{\Large{\sqcap}} (\underset{(\Gamma,\Delta)\in\brack{\Theta}^+_{g}}{\large{\sqcap}} \brack{\Gamma}^+_h \sqcup \brack{\Delta}^-_h) \sqcup (\underset{(\Gamma,\Delta)\in\brack{\Lambda}^-_{g}}{\large{\sqcap}} \brack{\Gamma}^+_h \sqcup \brack{\Delta}^-_h)}
+
+
+\p{Because #{{A \sqcup (B \sqcap C) = (A\sqcap B)\sqcup (A\sqcap C)}}, and more generally #{{\underset{i\in I}\sqcap(x_i) \sqcup \underset{j\in J}\sqcap(y_j) = \underset{(i,j)\in I\times J}\sqcap(x_i \sqcup y_j)}}, we can simplify this expression:}
+
+##{ \underset{(\Theta,\Lambda)\in\brack{a}^\pm_{f}}{\Large{\sqcap}} (\underset{((\Gamma,\Delta),(\Gamma',\Delta'))\in\brack{\Theta}^+_{g}\times\brack{\Delta}^-_g}\sqcap (\brack{\Gamma}^+_h \sqcup \brack{\Delta}^-_h) \sqcup (\brack{\Gamma'}^+_h \sqcup \brack{\Delta'}^-_h))}
+
+\p{This translates to}
+
+##{\forall (\Theta,\Lambda)\in \brack{a}^\pm_f, \forall ((\Gamma,\Delta),(\Gamma', \Delta')) \in \brack{\Theta}^+_g \times \brack{\Lambda}^-_g, (A,B) \in \brack{\Gamma}^+_h \sqcup \brack{\Gamma'}^+_h\sqcup \brack{\Delta}^-_h\sqcup \brack{\Delta'}^-_h}
+
+
+\p{However, we seem to be at an impassse because #{\sqcup(A \cup B) \ne A \sqcup B}}
+
+
+% \subtree{\title{PREVIOUS WORK}
+% \p{Which equals (because interpretations are applied to sets pointwise):}
+
+% ##{ \{\brack{\brack{X}^+_g \sqcup \brack{Y}^-_g}_h\ |\ (X,Y) \in \brack{a}^\pm_f \}}
+
+% \p{Which equals:}
+
+% ##{ \{\brack{\Gamma}^+_h \sqcup \brack{\Delta}^-_h\ |\ (X,Y) \in \brack{a}^\pm_f, (\Gamma,\Delta) \in (\brack{X}^+_g \sqcup \brack{Y}^-_g)\} }
+
+% \p{Next we unpack the adjunction with multiple arguments:}
+
+% ##{ \{\bigsqcup(\brack{\gamma \in \Gamma}^+_h,..., \brack{\delta \in \Delta}^-_h...)\ |\ (X,Y) \in \brack{a}^\pm_f, (\Gamma,\Delta) \in (\brack{X}^+_g \sqcup \brack{Y}^-_g)\} }
+
+% ##{
+% \begin{align*}
+%   \brack{\brack{a}^\pm_{f\cdot g}}_{h} & =                                                                                                                                                                                        \\
+%                                        & =\{\brack{\Gamma}^+_h \sqcup \brack{\Delta}^-_h\ |\ (\Gamma,\Delta) \in \{\brack{X}^+_g \sqcup \brack{Y}^-_g\ |\ (X,Y) \in \brack{a}^\pm_f \} \}                                         \\
+%                                        & =\{\brack{\Theta\cup\Omega}^+_h \sqcup \brack{\Lambda\cup\Xi}^-_h\  |\ (X,Y) \in \brack{a}^\pm_f, (\Theta,\Lambda) \in \brack{X}^+_g, (\Omega,\Xi)\in \brack{Y}^-_g \}                   \\
+%                                        & =\{\bigsqcup(\brack{\theta_i \in \Theta}^+_h,...,\brack{\omega_i \in \Omega}^-_h,...) |\ (X,Y) \in \brack{a}^\pm_f, (\Theta,\Lambda) \in \brack{X}^+_g, (\Omega,\Xi)\in \brack{Y}^-_g \} \\
+%                                        & = ...                                                                                                                                                                                    \\
+% \end{align*}
+% }
+
+
+
+
+% ##{
+% \begin{align*}
+%    &  & =     & ...                                                                                                                                                                                          \\
+
+%   %     &  & =  \{ & \bigsqcup(\{\brack{\Gamma}^+_h \sqcup \brack{\Delta}^-_h\ |\ (\Gamma,\Delta) \in \brack{x \in X}^+_g, (\Theta,\Lambda) \in \brack{X}^+_g, (\Omega,\Xi)\in \brack{Y}^-_g \},                          \\
+%   %  &  &       & ...,\{\brack{\Gamma}^+_h \sqcup \brack{\Delta}^-_h\ |\ (\Gamma,\Delta) \in \brack{y}^-_g \},...)\ |\ (X,Y) \in \brack{a}^\pm_f \} \\
+
+%    &  & =  \{ & \bigsqcup(\{ \{\brack{\gamma}^+_h\ |\ \gamma \in \Gamma\} \sqcup \{\brack{\delta}^-_h\ |\ \delta \in \Delta\}\ |\ (\Gamma,\Delta) \in \brack{x \in X}^+_g \},                                \\
+%    &  &       & ...,\{ \{\brack{\gamma}^+_h\ |\ \gamma \in \Gamma\} \sqcup \{\brack{\delta}^-_h\ |\ \delta \in \Delta\}\ |\ (\Gamma,\Delta) \in \brack{y \in Y}^-_g \},...)\ |\ (X,Y) \in \brack{a}^\pm_f \} \\
+
+%    &  & =  \{ & \bigsqcup(\{\brack{\Gamma}^+_h \sqcup \brack{\Delta}^-_h\ |\ (\Gamma,\Delta) \in \brack{x \in X}^+_g \},                                                                                     \\
+%    &  &       & ...,\{\brack{\Gamma}^+_h \sqcup \brack{\Delta}^-_h\ |\ (\Gamma,\Delta) \in \brack{y \in Y}^-_g \},...)\ |\ (X,Y) \in \brack{a}^\pm_f \}                                                      \\
+%    &  & =  \{ & \bigsqcup(\brack{x \in X}^+_{g\cdot h},...,\brack{y \in Y}^-_{g\cdot h},...)\ |\ (X,Y) \in \brack{a}^\pm_f \}                                                                                \\
+%    &  & =  \{ & \brack{X}^+_{g\cdot h} \sqcup \brack{Y}^-_{g\cdot h}\ |\ (X,Y) \in \brack{a}^\pm_f \}                                                                                                        \\
+%    &  & =     & \brack{\brack{a}^\pm_f}_{g\cdot h}
+% \end{align*}
+% }
+% }
+}

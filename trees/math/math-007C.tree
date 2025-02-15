@@ -1,0 +1,6 @@
+\date{2024-09-15}
+\title{Difunctor}
+\taxon{definition}
+\import{macros}
+
+\p{A \em{difunctor} is a [functor](math-000E) #{\cat{C}^{op}\times \cat{C}}.}

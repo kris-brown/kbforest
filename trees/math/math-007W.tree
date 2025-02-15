@@ -1,0 +1,4 @@
+\date{2024-12-29}
+\title{Representability (Virtual double categories)}
+
+\p{A [virtual double category](math-007O) is \em{representable} if its cells happen to satisfy the axioms of a [double category](math-000S).}

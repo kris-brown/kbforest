@@ -1,0 +1,24 @@
+\date{2024-08-20}
+\title{Why should mathematicians think differently about logic}
+\import{macros}
+
+\p{Traditional logic (even when generalized to [categorical logic](math-001Z)) does not take non-logical content seriously.}
+
+\p{It is designed to study inferences which hold \em{regardless} of what the non-logical content is.}
+
+\p{This is bad for at least two reasons:}
+\ul{
+\li{\copy{role-0031}}
+\li{Rational \em{hysteresis} is common in science: we use theories to extract consequences from data, though this data \em{can} make us change our theories (yield consequences incompatible with our premises) and then the new theory extracts even newer consequences.
+\ul{
+\li{Models of logic require assigning \em{fixed} semantic contents to the nonlogical contents, such as a particular extension of a predicate. Consequences are then deduced, but these cannot possibly change those assignments of contents.}
+\li{Traditional consequence relations require #{{Cn(\Gamma)=Cn(Cn(\Gamma))}} and #{{\Gamma \subseteq \Delta \implies Cn(\Gamma)\subseteq Cn(\Delta)}}. This means taking a derived fact and adding it in as a premise neither adds any new conclusions nor removes any. But this is contrary to essential dynamics of rationality: we derive consequences which, if we accept them as our new premises, allow us to derive new things, which may invalidate earlier premises or rectify earlier contradictions.}
+\li{Explosion is implausible for non-logical conceptual contents.}
+
+\li{Rationality ought not be merely retrospective but also prospective: we ought be able to such a process as \em{rational} steps. (#{a} yields discovery of #{b,c} which support each other yet are perhaps incompatible with #{a})
+}}}
+
+\transclude{role-0032}
+
+\p{There is an idea that we can separate our talk into language and theory, or \em{frame} and \em{content} simultaneously. This is true in a sense but also not as hard of a distinction as one might think. But if we try very hard, we can (more or less) hold the frame fixed and work out the content (this happens in mathematics and scientific contexts often, through very hard work). However, the 'interesting' stuff is what happens where this distinction becomes relevant.}
+}

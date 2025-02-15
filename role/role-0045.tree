@@ -1,0 +1,34 @@
+\date{2024-08-29}
+\title{Category of implication frames and continuous maps}
+\import{macros}
+\import{base-macros}
+
+\p{We might consider making a category whose objects are implication frames and whose morphisms #{A\rightarrow B} satisfy the property:}
+
+##{\forall i \in S_B: i \in \II_B \implies f^{-1}(i) \in \II_A}
+
+
+\p{This is a curious category if we are thinking of morphisms as \em{interpretations} of claimables in #{A} as claimables in #{B}. For example, suppose #{b_1\vsim_B b_2}, and #{(a_1,a_3)\mapsto b_1}, and #{a_2\mapsto b_2}. Then, this fact about #{B} induces an obligation that #{a_1,a_3\vsim_A a_2}. It imposes no constraint on #{a_1\vsim_A a_2}. It's odd that introducing a synonym within #{A}, namely #{a_3} for #{a_1}, makes it no longer the case that #{a_1\vsim_A a_2} is relevant to the goodness of the map #{A\rightarrow B}.  }
+
+
+\p{The empty implication frame is [initial](math-0052).}
+
+\p{The one-bearer implication frame with #{\II=\{0\} } is [terminal](math-001G).}
+
+\table{
+\tr{
+\th{#{\II_1}}
+\th{#{0}}
+\th{#{a^-}}
+}
+\tr{
+\th{#{0}}
+\td{#{\checkmark}}\td{#{a_1=\times}}}
+\tr{
+\th{#{a^+}}
+\td{#{a_2=\times}}\td{#{a_3=\times}}}
+}
+
+\transclude{role-0049}
+\transclude{role-004A}
+\transclude{role-004B}

@@ -1,0 +1,6 @@
+\date{2024-08-03}
+\title{Left and right adjoints equal given zero object}
+\taxon{proposition}
+\import{macros}
+
+\p{Given a category #{\cat{C}} with a [zero object](math-005R), the functors #{\cat{C}\rightarrow 1} and #{1 \xrightarrow{0} \cat{C}} are both left and right adjoints of each other.}

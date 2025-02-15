@@ -1,5 +1,5 @@
 [forest]
-trees = ["role", "macros", "trees/math"]
+trees = ["role", "macros", "trees"]
 assets = ["assets"]
 theme = "theme"
 root = "role"

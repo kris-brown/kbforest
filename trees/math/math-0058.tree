@@ -1,0 +1,14 @@
+\date{2024-07-28}
+\title{Path category}
+\import{macros}
+\taxon{definition}
+\meta{external}{https://ncatlab.org/nlab/show/path+category}
+\p{Given a [graph](math-0059) #{G=(E,V,src,tgt)}, the \em{path} [category](math-000D) #{P(G)} consists in:}
+
+\ul{
+\li{#{\Ob(P(G)) := V}}
+\li{#{\Hom_{P(G)}(A,B) := } paths from #{A} to #{B}. \ul{\li{I.e. finite sequences of edges, matching head-to-tail, starting with #{A} and ending at #{B}.}
+\li{Equality of arrows is literal equality of sequences.}
+\li{We can represent these as #{\vec f = f_1,f_2,...,f_n}}}}
+\li{Composition is path concatenation}
+\li{Identity morphisms are length-0 paths.}}

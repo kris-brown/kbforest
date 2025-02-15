@@ -1,0 +1,6 @@
+\date{2024-07-23}
+\title{First-order structure}
+\taxon{definition}
+\import{macros}
+
+\p{Given a [first-order language](math-004G) #{\cL}, a \em{first-order structure} is a [model](math-004L) of the empty #{\cL}-[theory](math-004I).}

@@ -1,0 +1,17 @@
+\date{2024-08-06}
+\title{Idempotence of RSR#{^2} example}
+\taxon{proposition}
+\import{macros}
+
+\p{Given #{RSR(\II) := \{x \in S\ |\ \forall i \in \II, i+x \in \II\}}}
+
+\p{These are implications which do not infirm already good implications. They are all (and only) the goodness-preserving additions. Because #{\II} is the RSR of some set of implications, we must [have](role-002T):}
+
+##{\II = RSR(RSR(\II))}
+
+\subtree{\taxon{proof}
+
+##{RSR(RSR(\II)) = \{y \in S\ |\ \forall x \in RSR(\II), x+y \in \II\}}
+
+\p{Now this at least includes the good implications, as adding an #{x} preserves goodness. And because #{\varnothing\vsim\varnothing \in RSR(\II)}, there can \em{only} be good implications in #{RSR(RSR(\II))}.}
+}

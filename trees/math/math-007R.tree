@@ -1,0 +1,4 @@
+\date{2024-12-27}
+\title{Bool symmetric monoidal preorder}
+
+\p{The symmetric monoidal preorder #{Bool} has two objects, #{\bot} and #{\top} with #{\bot \leq \top}. The monoidal product #{\otimes} is given by logical conjunction, #{\wedge}.}

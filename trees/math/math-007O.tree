@@ -1,0 +1,12 @@
+\date{2024-12-12}
+\title{Virtual double category}
+
+\transclude{math-007N}
+
+\blockquote{Virtual double categories are to double categories as multicategories are to monoidal categories - Evan Patterson}
+
+\blockquote{Virtual double categories are the third circle of hell. But that's better than where you are currently - David Spivak}
+
+\p{Virtual double categories are useful because we may not be able to literally compose certain morphisms despite wanting to use them for other purposes. Examples: composing profunctors, composing certain types of morphisms between models of double theories.}
+
+\p{Virtual double categories are relevant to [formal category theory](math-007S).}

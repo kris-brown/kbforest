@@ -1,0 +1,21 @@
+\date{2024-08-06}
+\title{Computing directly with roles}
+\import{macros}
+
+\p{We can make a distinction between the roles themselves (subsets of #{S}) and the sets of implications (analogous to truth conditions) which have roles as their RSRs. We often want to abstract away from the particular set of implications and think of the role abstractly. We can take symjunction directly of the roles by intersecting them - we don't need to know what presentation generated the RSR. It becomes cumbersome to work with the R4L definition of adjunction because one is forced to always carry around a set of implications in addition to the RSR if one wants to compute with it. This page attempts to address this problem beginning with the following observation:}
+
+\transclude{role-002T}
+
+\p{Let's test this out with #{RSR(\varnothing\vsim\varnothing)=\II}.}
+
+\transclude{role-002U}
+\transclude{role-002V}
+
+
+\p{Now we can make the following definition:}
+
+\transclude{role-002S}
+
+\p{Let's sanity check this new definition of adjunction:}
+
+\transclude{role-002R}

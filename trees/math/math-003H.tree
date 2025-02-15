@@ -1,5 +1,6 @@
 \date{2024-07-10}
 \title{Coherent category}
 \taxon{definition}
+\meta{external}{https://ncatlab.org/nlab/show/coherent+category}
 
-\p{A [category](math-000D) ... (TODO)}
+\p{A \em{coherent} [category](math-000D) is a [regular category](math-0053) where [subobject](math-003W) posets all have finite [joins](math-001U) which are [preserved](math-004F) by base change functors #{f^*: Sub(Y)\rightarrow Sub(X)}.}

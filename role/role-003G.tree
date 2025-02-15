@@ -1,0 +1,45 @@
+\date{2024-08-24}
+\title{Zazzles roles}
+\taxon{example}
+\import{macros}
+\import{base-macros}
+
+\p{Given the [Zazzles](role-0037) implication frame example, we consider what the roles are for each implication:}
+
+\table{
+\tr{
+\th{#{\cR}}
+\th{#{0}}
+\th{#{a^-}}
+\th{#{b^-}}
+\th{#{a^-b^-}}
+}
+\tr{
+\th{#{0}}
+\td{#{\II}}\td{#{S\setminus \{b^+,b^+a^-\} }}\td{#{S \setminus \cP(\{a^+,b^-\})}}\td{#{S}}
+}
+\tr{
+\th{#{a^+}}
+\td{#{S \setminus \cP(\{a^+,b^-\})}}\td{#{S}}\td{#{S \setminus \cP(\{a^+,b^-\})}}\td{#{S}}
+}
+\tr{
+\th{#{b^+}}
+\td{#{S \setminus \cP(\{b^+,a^-\})}}\td{#{S \setminus \cP(\{b^+,a^-\})}}\td{#{S}}\td{#{S}}
+}
+\tr{
+\th{#{a^+,b^+}}
+\td{#{S}}\td{#{S}}\td{#{S}}\td{#{S}}
+}
+}
+
+
+\p{There are 4 co-atomic roles in the lattice:}
+
+\ul{
+\li{#{\II = S\setminus \{b^-,a^+,a^+b^-,b^+,b^+a^-\} }}
+\li{#{S\setminus \{b^+,b^+a^-\}}}
+\li{#{#{S \setminus \cP(\{b^+,a^-\})}}}
+\li{#{#{S \setminus \cP(\{a^+,b^-\})}}}
+}
+
+\p{The lattice of roles has these and all meets thereof.}

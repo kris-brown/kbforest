@@ -1,0 +1,5 @@
+\date{2024-07-23}
+\title{Definable function of a first-order structure}
+\taxon{definition}
+
+\p{A subset of the product sort #{X \times Y} that is the [graph of a function](math-000V).}

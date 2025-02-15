@@ -62,3 +62,20 @@
   \p{I think it lets us talk about the relationship between syntax and semantics/pragmatics (in algebraic theories, we think of \em{free} objects as syntax: here the free implication frame on a lexicon (zero)). It lets us talk about order of explanation in a certain way.}
 }
 
+
+\subtree{
+\p{Can we understand the formula for #{\brack{\land}} as a product in \em{some} category?}
+% https://q.uiver.app/#q=WzAsNCxbMSwwLCIoWl4rLFpeLSkiXSxbMSwxLCIoWF4rXFxzcWN1cCBZXissIFheLVxcc3FjYXAgWV4tIFxcc3FjYXAgKFheLVxcc3FjdXAgWV4tKSJdLFswLDIsIihYXissWF4tKSJdLFsyLDIsIihZXissWV4tKSJdLFswLDEsIiEiLDAseyJzdHlsZSI6eyJib2R5Ijp7Im5hbWUiOiJkYXNoZWQifX19XSxbMSwyLCJcXHBpXzEiXSxbMSwzLCJcXHBpXzIiLDJdLFswLDIsIiIsMix7ImN1cnZlIjoyfV0sWzAsMywiIiwyLHsiY3VydmUiOi0yfV1d
+\quiver{\begin{tikzcd}
+    & {(Z^+,Z^-)} \\
+    & {(X^+\sqcup Y^+, X^-\sqcap Y^- \sqcap (X^-\sqcup Y^-))} \\
+    {(X^+,X^-)} && {(Y^+,Y^-)}
+    \arrow["{!}", dashed, from=1-2, to=2-2]
+    \arrow[curve={height=12pt}, from=1-2, to=3-1]
+    \arrow[curve={height=-12pt}, from=1-2, to=3-3]
+    \arrow["{\pi_1}", from=2-2, to=3-1]
+    \arrow["{\pi_2}"', from=2-2, to=3-3]
+  \end{tikzcd}
+}
+
+}

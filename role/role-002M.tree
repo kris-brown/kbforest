@@ -1,0 +1,21 @@
+\date{2024-08-03}
+\title{Total category of reason relations and interpretation functions}
+\taxon{definition}
+\import{macros}
+\p{The \em{total} [category](math-000D) of [reason relations](phil-01CO) and [interpretation functions](phil-01CU) has:}
+
+\ul{
+\li{As objects, reason relations #{(\cL \in \mathbf{Set},\II \subseteq \cP(\cL)^2)}
+\ul{
+\li{The elements of #{\cL} are \em{implicational role bearers}.}
+\li{The space of possible implications is #{S_A := \cP(\cL)^2}}
+\li{The implications in the subset #{\II} are the 'good' ones, in some sense.}
+\li{An [implicational role](phil-01CQ) is presented by a set of implications. \ul{
+\li{However, two roles are considered equal if they have the same [range of subjunctive robustness](role-0005) (i.e. same functional role).}
+\li{Thus the set of roles is #{\cR_A:=\cP(S_A)/\sim_{RSR}}}}}
+\li{The set of conceptual contents is #{\CC_A:=\mathcal{R}^2_A}}}}
+\li{As morphisms #{A\rightarrow B}, interpretation functions #{\brack{\cdot}: \cL_A\rightarrow \CC_B}}
+\li{For identities: #{a\mapsto \cR(a)}.}
+\li{For composition: [composition of interpretation functions](role-002J).}
+}
+

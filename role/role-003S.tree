@@ -1,0 +1,18 @@
+\date{2024-08-26}
+\title{Motivation (3 min)}
+\parent{role-0034}
+
+\p{Topos' technical vision: \strong{formal}, \strong{conceptual}, \strong{interoperable} \strong{modeling}. There is a tension between \em{formal} and \em{conceptual} that I want to help resolve. We start to see this tension after recognizing a distinction between \em{formal} (or \em{logical}) concepts and \em{informal} (or \em{material}) concepts.}
+
+\p{Material concepts come with inferences that are context-sensitive: it's part of grasping the concept of "bird" that (absent any other context) it's something that flies (but, also, in the context of: "it's a penguin, too", that this doesn't follow). This is at odds with structural properties we demand logical consequence relations have:}
+
+##{Cn(\Gamma) \subseteq Cn(\Gamma\cup\Delta) \ \ \  \ \ \ \ \ \ \ \ Cn(\Gamma)=Cn(Cn(\Gamma))}
+
+\p{These are absurd when applied to material inferences. "Bird" as described cannot be represented. Probability theory can sometimes be deployed to address issues in this vicinity, but this is ultimately a [stopgap](role-003Y).}
+
+\p{Formal logic studies concepts that are characterized by fixed truth conditions: such an attitude seduces us into thinking that there even exists such a (fixed) thing as #{Cn(\Gamma)} at all - in practice, our concepts (and their consequences) are shaped by our very use of them, in stark contrast to the idea that we can \em{completely} fix a 'frame' and then negotiate content.}
+
+##{Meaning \rightarrow Use \ \ \ \ \ \ \ \text{vs} \ \ \ \ \ \ \ \ Meaning \leftrightarrows Use}
+
+\p{The mathematics I'll present is a formalization of the relationship between logical and nonlogical vocabulary. Despite engaging with material concepts, it understands logical vocabulary as special and explains its connections to crystallized thought patterns, coordination, and legibility. The shape of the story has many parallels with ACT themes.}
+

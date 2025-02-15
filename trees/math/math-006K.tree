@@ -1,0 +1,4 @@
+\date{2024-08-23}
+\title{Open map (topology)}
+\taxon{definition}
+\p{A function between [topological spaces](math-002Q) #{X\rightarrow Y} is \em{open} if, for each open set #{U \subseteq X}, the image #{f(U)} is an open set in #{Y}.}

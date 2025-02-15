@@ -1,0 +1,98 @@
+\date{2024-09-01}
+\title{Products in implication frames with continuous maps}
+\import{macros}
+\import{base-macros}
+
+\p{If we consider looking for binary products, we'll have to consider spans #{A \xleftarrow{f} X \xrightarrow{g} B}. If #{A} has one bearer and #{B} has two bearers, what constraints do we have on #{\II_X} as a function of #{\II_A} and #{\II_B}?}
+
+\table{
+\tr{
+\th{#{\II_X}}
+\th{#{0}}
+\th{#{(a,b)^-}}
+\th{#{(a,b')^-}}
+\th{#{(a,b)^-(a,b')^-}}
+}
+\tr{
+\th{#{0}}
+\td{#{\checkmark}}\td{#{\geq b_1}}\td{#{\geq b_2}}\td{#{\geq a_1 \vee b_3}}
+}
+\tr{
+\th{#{(a,b)^+}}
+\td{#{\geq b_4}}\td{#{\geq b_5}}\td{#{\geq b_6}}\td{#{\geq b_7}}
+}
+\tr{
+\th{#{(a,b')^+}}
+\td{#{\geq b_8}}\td{#{\geq b_9}}\td{#{\geq b_{10}}}\td{#{\geq b_{11}}}
+}
+\tr{
+\th{#{(a,b)^+(a,b')^+}}
+\td{#{\geq a_2 \vee b_{12}}}\td{#{\geq b_{13}}}\td{#{\geq b_{14}}}\td{#{\geq a_3 \vee b_{15}}}
+}
+}
+
+\p{Note indices in #{\II_B} are referring to normal reading order of the cells:}
+
+\table{
+\tr{
+\th{#{\II_B}}
+\th{#{0}}
+\th{#{b^-}}
+\th{#{b'^-}}
+\th{#{b^-,b'^-}}
+}
+\tr{
+\th{#{0}}
+\td{#{\checkmark}}\td{#{ b_1}}\td{#{ b_2}}\td{#{b_3}}
+}
+\tr{
+\th{#{b^+}}
+\td{#{ b_4}}\td{#{ b_5}}\td{#{ b_6}}\td{#{ b_7}}
+}
+\tr{
+\th{#{b'^+}}
+\td{#{ b_8}}\td{#{ b_9}}\td{#{ b_{10}}}\td{#{ b_{11}}}
+}
+\tr{
+\th{#{b^+,b'^+}}
+\td{#{  b_{12}}}\td{#{ b_{13}}}\td{#{ b_{14}}}\td{#{  b_{15}}}
+}
+}
+
+
+\p{This formula comes from the following truth table}
+
+\table{
+\tr{
+\th{#{a^- \in \II_A}}
+\th{#{b^- \in \II_B}}
+\th{#{b'^- \in \II_B}}
+\th{Valid possibilities for #{(a,b)^-(a,b')^- \in \II_{A\times B}}}
+}
+\tr{\td{#{\top}}\td{#{\top}}\td{#{\top}}\td{ #{\top} due to both #{\II_A} and #{\II_B}}}
+\tr{\td{#{\top}}\td{#{\top}}\td{#{\bot}}\td{ #{\top} due to #{\II_A}}}
+\tr{\td{#{\top}}\td{#{\bot}}\td{#{\top}}\td{ #{\top} due to #{\II_A}}}
+\tr{\td{#{\top}}\td{#{\bot}}\td{#{\bot}}\td{ #{\top} due to #{\II_A}}}
+\tr{\td{#{\bot}}\td{#{\top}}\td{#{\top}}\td{ #{\top} due to #{\II_B}}}
+\tr{\td{#{\bot}}\td{#{\top}}\td{#{\bot}}\td{ #{\top} or #{\bot}}}
+\tr{\td{#{\bot}}\td{#{\bot}}\td{#{\top}}\td{ #{\top} or #{\bot}}}
+\tr{\td{#{\bot}}\td{#{\bot}}\td{#{\bot}}\td{ #{\top} or #{\bot}}}
+
+}
+
+
+\p{Again we make the most conservative choice by removing all the #{\geq} when defining the product (i.e. only including an implication in #{\II_{A\times B}} if we are forced to).}
+
+\subtree{\title{Products}\taxon{definition}
+\p{The product of implication frames #{A\times B} has #{\cL_{A\times B}:=\cL_A\times \cL_B} and projection morphisms given by this product in \strong{Set}. Any given #{i \in S_{A+B}} is an element of #{{\II_{A+B}}} unless there exists a #{j \notin \II_A} such that #{\iota_A(j)=i} (likewise for #{\iota_B}). Or, in terms of the [contravariant power set functor](math-006J), #{\cP_c}:}
+
+##{\II_{A\times B} := \cP_c \pi_A(\II_A) \cup \cP_c \pi_B (\II_B)}
+}
+
+\subtree{\taxon{proposition}
+\p{#{A\times B} satisfies the universal property of the product for any span #{{A \xleftarrow{f} X \xrightarrow{g} B}}.}
+\subtree{\taxon{proof}
+\p{Given #{{A \xleftarrow{f} X \xrightarrow{g} B}}, the universal property in \strong{Set} gives us the unique morphism #{{X \xrightarrow{u} A\times B}}. That this is unique (if it exists) is given by the fact we are looking at a subcategory of \strong{Set}, so we just need to verify that #{u} satisfies the continuity constraint.}
+
+\p{From the assumption that #{i \in \II_{A\times B}}, we need to show that #{j = u^{-1}(i) \in \II_{X}}. By construction of #{\II_{A\times B}}, we know at least one of #{a \in \II_A} or #{b \in \II_B}, where #{\cP_c(a)\cup\cP_c(b) = i}. By functoriality, we have #{\cP_c(f = u;\pi_A) = \cP_c(\pi_A);\cP_c(u): S_A\rightarrow S_X}. Thus #{f^{-1}} sends #{a \in S_A} to #{j \in S_X} (likewise, #{g^{-1}(b)=j}). Together these constraints say if either #{a \in \II_A} or #{b \in \II_B}, then #{j \in \II_X}. }
+}}

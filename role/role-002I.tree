@@ -1,0 +1,49 @@
+\date{2024-08-02}
+\title{Category of reason relations and interpretations}
+\import{macros}
+
+
+\transclude{role-002K}
+
+\subtree{\title{Zero object}
+\p{Consider the reason relation #{0} on zero bearers. #{\cR_0 = \{S_0\}}, which is a [zero object](math-005R) in the category of meet semilattices, which makes it a zero object in any [wide subcategory](math-006C).}
+}
+
+\subtree{\title{Biproducts}
+
+\p{Now let's look at [coproducts](math-004D): suppose #{A+B = (\cL_A+\cL_B, \II_A\oplus \II_B)}.}
+
+\p{Is there an injection #{\iota_A: A \rightarrow A+B}? It should assign each bearer to its own conceptual content #{{\gamma \mapsto (\cR^+(\gamma),\cR^-(\gamma))}}. This seems to work.}
+
+\p{Now let's check if this cospan has the right universal property. There are two arbitrary maps #{{A\xrightarrow{\brack{\cdot}_f} X \xleftarrow{\brack{\cdot}_g} B}}. What is the map #{{A+B \xrightarrow{\brack{\cdot}_u} X}}? It would seem like we can just concatenate the interpretation functions, that this would make the composites equal and be the unique one to do so.}
+
+\p{Let's check if this is a [biproduct](math-005S). Is there a natural projection #{\pi_A: A+B\rightarrow A}? It seems natural to send the #{A} bearers to their own conceptual contents, and one canonical choice to send bearers of #{B} to is the role presented by #{\{\}} whose [role is unital](role-002G).}
+
+
+\p{Now let's check if this span has the right universal property. There are two arbitrary maps #{{A\xleftarrow{\brack{\cdot}_f} X \xrightarrow{\brack{\cdot}_g} B}}. What is the map #{{X \xrightarrow{\brack{\cdot}_u} A+B}}? One natural thing to try is to send #{x\mapsto \brack{x}_f \sqcup \brack{x}_g}. Let's check if this [composes](role-002J) with the projections to get the right result:}
+
+% ##{
+% \begin{align*}
+%   x \xmapsto{\brack{\cdot}^\pm_{u \cdot \pi_A}} \brack{\brack{a}^\pm_u}_{\pi_A} & = \brack{\brack{x}^\pm_f \sqcup \brack{x}^\pm_g}_{\pi_A}                                                                                                                                                                                                 \\
+%                                                                                 & = \{\ \brack{(\Gamma\cup\Theta,\Delta\cup\Lambda)}_{\pi_A} |\ (\Gamma,\Delta) \in \brack{x}^\pm_f, (\Theta,\Lambda) \in \brack{x}^\pm_g\}                                                                                                                \\
+%                                                                                 & = \{\ \bigsqcup_{\gamma \in \Gamma}\brack{\gamma}_{\pi_A}^+ \sqcup \bigsqcup_{\theta\in\Theta}\brack{\theta}_{\pi_A}^+ \sqcup \bigsqcup_{\delta\in\Delta}\brack{\delta}_{\pi_A}^- \sqcup \bigsqcup_{\lambda\in\Lambda}\brack{\lambda}_{\pi_A}^- |\ ...\} \\
+%                                                                                 & = \{\ \bigsqcup_{\gamma \in \Gamma}\cR^+(\gamma) \sqcup \bigsqcup_{\theta\in\Theta}\{\vsim\} \sqcup \bigsqcup_{\delta\in\Delta}\cR^-(\delta) \sqcup \bigsqcup_{\lambda\in\Lambda}\{\vsim\} |\ ...\}                                                      \\
+%                                                                                 & = \{\ \Gamma\vsim\Delta |\ (\Gamma,\Delta) \in \brack{x}^\pm_f, (\Theta,\Lambda) \in \brack{x}^\pm_g\}                                                                                                                                                   \\
+%                                                                                 & = \{\ \Gamma\vsim\Delta |\ (\Gamma,\Delta) \in \brack{x}^\pm_f \}                                                                                                                                                                                        \\
+%                                                                                 & =\brack{x}^\pm_f
+% \end{align*}
+% }
+
+\p{It seems like this is unique, but that remains to be verified.}
+
+
+\p{This biproduct does satisfy the additional required equations:}
+\ul{
+\li{#{\iota_i \cdot \pi_i = 1_i}: This clearly olds as each bearer is sent to its own conceptual role by both maps.}
+\li{#{\pi_A \cdot \iota_A + \pi_B \cdot \iota_B = 1_{A \oplus B}}: The #{+} is concatenating two identity maps.}
+}
+
+\p{Biproducts allow for a matrix notation for representing morphisms (with composition given by matrix multiplication). They furthermore give a commutative monoid structure on the set of morphisms between any pair of implication frames.}
+}
+
+\p{Related: [Category of reason relations and \em{exact} interpretations](role-0024) (but this doesn't have as much obviously good structure)}

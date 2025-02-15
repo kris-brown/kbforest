@@ -1,0 +1,12 @@
+\date{2024-08-13}
+\title{Meet semilattice}
+\taxon{definition}
+
+\p{A \em{meet semilattice} is a set #{S} with a binary operation #{\land} called a \em{meet} such that, for all #{x,y,z \in S}}
+
+\ul{
+\li{Associativity: #{x \land (y \land z) = (x \land y)\land z}}
+\li{Commutativity: #{x \land y = y \land x}}
+\li{Idempotency: #{x \land x = x}}}
+
+\p{This can be equivalently thought of as extending a preorder with [meets](math-006A) for all pairs of elements.}

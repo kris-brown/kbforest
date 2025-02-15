@@ -7,7 +7,7 @@
 
 \ul{
 \li{#{\forall x \in X, x  \leq \vee X}}
-\li{If #{\forall x \in X, x \leq z}, then #{\vee x \leq z}}
+\li{If #{\forall x \in X, x \leq z}, then #{\vee X \leq z}}
 }
 }
 

@@ -1,0 +1,73 @@
+\date{2024-07-18}
+\title{Rethinking explication of logical vocabulary}
+\import{macros}
+
+\p{In R4L, we see logical vocabulary as sentences in some lexicon #{\cL} making explicit features of a base \em{reason relation} #{{Y:=(\cL_Y,\II_Y\subseteq \cP(\cL_Y)^2)}}.}
+
+\p{I want to explore changing this perspective to say that it makes explicit features of a \em{modeling relation}: assigning each bearer in #{X} a conceptual content in #{Y}, where #{\CC:=\cP(\cP(\cL_Y)^2)^2}. We can take various attitudes towards the significance of this:}
+
+\ul{
+\li{#{\brack{\cdot}} establishes normative governance of #{X} via [content entailment](phil-01CS).}
+\li{To the extent content entailment is satisfied, #{\brack{\cdot}}  provides \em{explanations} of implications of #{X} in terms of (sets of) implications in #{Y}}
+\li{#{\brack{\cdot}} shows how #{X} is a \em{model} of #{Y}. It gives us a way of interpreting #{X} as a syntax for the semantics #{Y}.}
+\li{#{X} is \em{responsible to} #{Y}. To the extent we endorse #{\brack{\cdot}}, #{Y} sets the standard of correctness for implications in #{X}.}
+\li{#{\brack{\cdot}} shows how #{X} is \em{explicative} of #{Y}. To the extent we endorse #{\brack{\cdot}}, we can take implications of #{X} as describing/constraining possibilities for what #{Y} could be. (This is the sense found in R4L)}}
+
+\p{There is a [normative category of implication frames and modeling relations](role-0024). A subcategory of this is the one where the only morphisms are those which satisfy the content entailment criterion (in such a context, #{X\rightarrow Y} means that #{X} does describe #{Y}). When we \em{endorse} a particular subcategory we are picking an [order of explanation](role-0025)}
+
+\subtree{\title{Propositional logic}
+
+\p{This makes explicit the kind of subjunctive robustness #{A \land B} has: it \em{would have} a different RSR if #{A} and #{B} \em{were} different in #{Y}. For example, rather than saying that an interpretation #{\brack{A \land B}} must respect:}
+
+##{
+\begin{align*}
+  \brack{A \land B}^+ & := a^+\sqcup b^+                        \\
+  \brack{A \land B}^- & := a^-\sqcap b^- \sqcap (a^-\sqcup b^-)
+\end{align*}
+}
+
+\p{...we might say \em{any} bearer in #{X}, whose interpretation equals #{(a^+\sqcup b^+, a^-\sqcap b^- \sqcap (a^-\sqcup b^-))} for some #{a, b \in B'}, plays an #{A \land B} role in #{X} (we could refer to it as #{A \land B}). To take some bearer #{b' \in B'} to be #{A \land B} is to say what kind of inferential role it ought have (even if it happens to not have that role in #{X}).}
+}
+
+\subtree{\title{Hazy gesture towards first order logic: attempt 1}
+
+\p{What does first order logical syntax make explicit? What relationship has to hold between #{\brack{P(x)[x/c]}} and #{\brack{P(c)}} for this syntax to be appropriate? (Answer: they must be the same #{\CC}.) These sorts of rules are constraints on the applicability of FOL syntax (I suspect something like Ulf's choosing an 'n-folding' is means of providing the data required for an interpretation that meets these constraints.) }
+
+\p{The semantics of an expression with an unbound variable could be a \em{function} of conceptual content, e.g.}
+
+##{\brack{P(x,y)}^+ := \lambda x, \lambda y, x \sqcap (y \sqcup \brack{Q}^+) }
+
+\p{Then we can give a clear interpretation to #{\brack{\exists x, \forall y, P(x,y)}}.}
+
+\p{It's not yet clear to me what these should quantify over, though a hunch is that it should be RSRs in #{Y}.}
+
+
+\p{\strong{Issue of 'baking in' arities:} Just like the inferential role of some bearer can be updated over time in an open reason relation (it is not fixed at the start), a very realistic dynamic that occurs when reasoning \em{openly} with predicate logic is to realize that the arity of relation was mistaken: "I thought beauty was a property of the object, but it turns out to be a predicate that also depends on the beholder."}
+
+}
+\subtree{\title{Hazy gesture towards first order logic: attempt 2}
+
+\p{Suppose we analyze #{\forall x\in X, Q(x)}. To make sense of any logically complex sentence containing a unary predicate, e.g. #{Q(x)}, we have to regard a set of atomic sentences, e.g. #{\brack{Q} \subseteq B}, as #{Q(a), Q(b),} etc. If we analyze universal quantification as a shorthand for conjunction of these atomic propositions, we obtain the following criteria for regarding a bearer of #{X} as #{{\forall x \in X, Q(x)}}:}
+
+##{
+\begin{align*}
+  \brack{\forall x\in X, Q(x)}^+ & := \bigsqcup_{q \in \brack{Q}} \brack{q}^+                                      \\
+  \brack{\forall x\in X, Q(x)}^- & := \underset{N \in \cP(\brack{Q})}\sqcap (\underset{n \in N}\sqcup \brack{n}^-)
+\end{align*}
+}
+
+% \p{What about #{\forall x \in X, P(x)\rightarrow Q(x)}? Now we have to think of certain bearers in #{Y} as having a common content. For each pair, #{(Pz,Qz)}, we want the content #{(Pz^-\sqcap Qz^+\sqcap(Pz^+\sqcup Pz^+), Pz^+\sqcup Qz^-)} (so the universal statement is mapped to the adjunction of all of these contents)}
+
+% ##{
+% \begin{align*}
+%   \brack{\forall x \in X, P(x)\rightarrow Q(x)}^+ & := \bigsqcup_{(Pz,Qz) \in Z} \brack{Pz}^-\sqcap \brack{Qz}^+\sqcap(\brack{Pz}^+\sqcup \brack{Pz}^+) \\
+%   \brack{\forall x \in X, P(x)\rightarrow Q(x)}^- & := \bigsqcup_{(Pz,Qz) \in Z} \brack{Pz}^+\sqcup \brack{Qz}^-
+% \end{align*}
+% }
+
+\p{Why are conceptual contents standing in the place of the domain of discourse? Same-saying equivalence relations are due to shared conceptual contents: the propositions are directed at / responsible to the same things.}
+
+\p{What \em{makes} these elements of #{X} in correspondence with #{Q(a), Q(b), ...}? What is #{Q} itself? Is #{Q} just a subset of conceptual contents #{\mathbb{C}}, and a predicate of arity #{n} just a subset of #{\mathbb{C}^n}? This seems bad because we should recover propositional logic via #{n=0}. However, this doesn't work.}
+
+\p{How do we have sharing between #{P(a)} and #{Q(a)}? What do they have in common, if they are just bearers (or conceptual contents) in #{Y}?}
+}

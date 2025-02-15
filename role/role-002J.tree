@@ -1,0 +1,24 @@
+\date{2024-08-02}
+\title{Composition of interpretation functions}
+\import{macros}
+
+\p{An interpretation function #{A \xrightarrow{\brack{\cdot}} B} assigns each bearer of #{\cL_A} a pair of sets of truth conditions (subsets of #{S_B}, #{\brack{\cdot}^+, \brack{\cdot}^-}), introductory and conclusory conditions. (Note: these are not \em{roles} themselves, which would additionally require them to be equal to the RSR for some subset of #{S_B}.)}
+
+\p{We can lift the action on bearers to actions on implications: #{S_A \xrightarrow{\brack{\cdot}} \cP(S_B)}}
+
+##{\brack{(\Gamma,\Delta)} \mapsto \brack{\Gamma}^+ \sqcup  \brack{\Delta}^- = \underset{{\gamma \in \Gamma}}\bigsqcup \brack{\gamma}^+ \sqcup \underset{{\delta \in \Delta}}\bigsqcup \brack{\delta}^- }
+
+\p{We can lift furthermore lift the action on implications to actions on truth conditions: #{{\cP(S_A) \xrightarrow{\brack{\cdot}} \cP(S_B)}}}
+
+##{\brack{X}:=\bigcup_{x\in X} \brack{x}}
+
+\p{This is functorial, i.e. a [monotone map](math-0068): #{X \subseteq Y \implies \brack{X}\subseteq \brack{Y}}.}
+
+\p{Now it is clear how interpretation morphisms can be composed: let the composite of #{{A\xrightarrow{f}B\xrightarrow{g}C}} be }
+
+##{\brack{a}_{f\cdot g}:= (\brack{\brack{a}^+_f}_g,\brack{\brack{a}^-_f}_g)}
+
+
+\p{This is associative:}
+
+##{\brack{\brack{a}^\pm_f}_{g\cdot h} = \bigcup_{i \in \brack{a}^\pm_f} (\bigcup_{j \in \brack{i}_g} \brack{j}_h) = \bigcup_{j \in \bigcup_{i \in \brack{a}^\pm_f} \brack{i}_g} \brack{j}_h = \brack{\brack{a}^\pm_{f\cdot g}}_{h}}

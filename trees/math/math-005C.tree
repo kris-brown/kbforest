@@ -1,0 +1,12 @@
+\date{2024-07-28}
+\title{Paracategory functor}
+\import{macros}
+\taxon{definition}
+
+\p{Given [paracatagories](math-005A) #{\cat{C},[-]} and #{\cat{D},[-]}, a \em{functor} of paracategories consists in a [graph homomorphism](math-005D) #{F} such that, for all #{\vec p: A\rightarrow B} in the [path category](math-0058) #{P(\cat{C})}:}
+
+##{F[\vec p]_{(A,B)} \overline{\leftharpoondown} [F \vec p]'_{(F(A),F(B))}}
+
+\p{Where #{\overline{\leftharpoondown}} is [directed Kleene equality](math-0056): i.e. the domain path is undefined or the codomain is defined and the expressions are equal.}
+
+\p{Note: we understand #{F} as acting on paths pointwise: #{F \vec f := F f_1, ..., F f_n}.}

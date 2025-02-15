@@ -1,0 +1,36 @@
+\date{2024-12-27}
+\title{Generalizing the objects of an implication frame}
+\import{macros}
+
+\subtree{\title{Motivation}
+
+\p{[Virtual double categories](role-004F) are a promising way of viewing an [implication frame](role-0036) as a kind of category.}
+
+\p{Such a definition has as a parameter an underlying "tight category" which most closely matches the R4L formalism if we consider it to be the power set category for some lexicon set #{\cL} of claimables. Under such a definition, however, the graph of loose arrows must be the fully connected graph, as there is a \em{candidate} implication between any pair of subsets of #{\cL}. This suggests an idea: why make our notion of what #{a} and #{b} are be something such that not every #{a \vsim b} makes sense? Proposal: the objects are \em{utterables} rather than \em{claimables}.}
+
+\p{Another route to this conclusion is the consideration of subsentential structure. We can refer to parts of sentences or even words. A formalism which cannot even talk about the existence of these features will be incapable of shedding light on them (even if we are committed to the \em{meanings} of the subsentential structure being explanatorily posterior to the meanings of the claimables). But if these non-claimable utterables are in the mix, it will not be the case that every combination of stuff can appear in a turnstile. So in general we should consider our lexicon to be one of utterables; one identifies which of these elements are claimables as the ones which appear as the domain or codomain of a loose morphism.}
+
+\p{A third consideration also points in this direction: the syntax in R4L takes as primitives a turnstile #{{\vsim}} operator (representing simultaneous acceptance and rejection) and a comma {","} operator (representing simultaneous considerations?). There is this symmetric idempotent operation which combines claimables (which can be accepted or rejected) into some composite claimable (which can be accepted or rejected). But there are lots of ways to combine things than "simultaneous consideration".
+}
+
+\p{If one wants multiple claimables to appear on either side of a turnstile, an easy way to obtain this is to work in a monoidal category (when this monoidal operation is idempotent and symmetric, one recovers sets of claimables).}
+
+\p{We want to talk about shared structure in syntax (with no commitments to reference / semantics) in an abstract way: a multicategory (i.e. operad) allows for this. If we consider pro-arrows to be spans in a multicategory (allowing for shared subexpressions of #{\Gamma} and #{\Delta} to be made explicit) we get something potentially interesting, but it's not clear what the vertical arrows should be, in particular if we want to generalize the initial VDC story where the strict category is the powerset category. One way to generalize that story is to consider tight category to be any category and let vertical maps be monics.}
+
+}
+
+\subtree{\title{Possible formalism}
+
+\p{A vocabulary has a lexicon #{\cL} of \em{utterables} (although these should be understood as amphibious between words, syllables, brushstrokes, noises).}
+\p{These form the objects of a [monoidal category](math-0021) whose morphisms are \em{syntactic constructions}. These can be graphically (yet formally) represented via a [wiring diagram syntax](math-007T).}
+
+\transclude{math-007T}
+
+\p{This is presuming structure, but not structure of material implication. It presumes that our notion of 'syntactic construction' satisfies structural rules. There are many examples of people applying monoidal categories to natural language analysis.}
+
+\p{A vocabulary takes a stand on what follows from what \em{and} what is the sort of things that stand in relations of 'following-from'. This latter bit of data is the class of loose morphisms}
+
+
+
+}
+

@@ -10,4 +10,4 @@ let #{G,D \subseteq \mathbb{C}}. Define #{G \Vsim D} to be a relation that holds
 ##{\bigcup(\underset{i}\sqcup g_i^+\ \sqcup\ \underset{j}\sqcup d_j^-)\subseteq \mathbb{I}}
 }
 
-\p{Entailment #{\Gamma \Vsim \Delta} holds if and only if every set of candidate implications, whose range of subjunctive robustness is #{RSR(\Gamma, \Delta⟩)}, includes only good implications.}
+\p{Entailment #{\Gamma \Vsim \Delta} holds if and only if every set of candidate implications, whose range of subjunctive robustness is #{RSR(\Gamma, \Delta)}, includes only good implications.}

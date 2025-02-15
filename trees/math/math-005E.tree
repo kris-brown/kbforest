@@ -1,0 +1,12 @@
+\date{2024-07-28}
+\title{Product of paracategories}
+\taxon{proposition}
+\import{macros}
+
+\p{If #{(\cat{C},[-])} and #{(\cat{D},[-]')} are [paracategories](math-005A), then the following paracatagory is the [product](math-0024) in the category of paracategories and [paracategory functors](math-005C):}
+
+\ul{
+\li{#{\Ob(\cat{C}\times \cat{D}):= \Ob(\cat{C})\times \Ob(\cat{D})}}
+\li{Edges #{(A,A')\rightarrow(B,B')} are elements of #{\cat{C}(A,B) \times \cat{D}(A',B')}}
+\li{#{[(f_1,g_1),...,(f_n,g_n)] \rightleftharpoons ([f_1,...,f_n],[g_1,...,g_n])}}
+}

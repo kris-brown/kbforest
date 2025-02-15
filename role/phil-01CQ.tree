@@ -1,6 +1,6 @@
 \date{2024-06-02}
 \title{Implicational role}
-
+\import{macros}
 
 \subtree{
 \taxon{definition}
@@ -12,7 +12,9 @@
 \ul{
 \li{#{\mathcal{R}(\Alpha \subseteq \mathbb{S}) := \{x\ |\ \Alpha \approx x\}}}
 \li{#{\mathcal{R}(\alpha \in \mathbb{S}) := \mathcal{R}({\{\alpha\}})}}
-\li{#{\mathcal{R}(b \in \mathcal{B}) := (\mathcal{R}(\{b\}, \varnothing),\mathcal{R}(\varnothing,\{b\})) }}
+\li{#{\mathcal{R}(b \in \mathcal{B}) := (\mathcal{R}^+(b),\mathcal{R}^-(b)) }}
+\li{#{\mathcal{R}^+(b \in \cB) := (\{b\}, \varnothing)}}
+\li{#{\mathcal{R}^-(b \in \cB) := (\varnothing,\{b\})}}
 }
 }
 

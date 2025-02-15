@@ -1,0 +1,8 @@
+\date{2024-08-23}
+\title{Power set functor (contravariant)}
+\taxon{definition}
+\import{macros}
+
+\p{The \em{contravariant power set functor} sends each object to its power set. It sends a function #{f: X\rightarrow Y} to the \em{preimage} function #{f^*: \cP(Y)\rightarrow \cP(X)}}
+
+##{(\{y_1,y_2,...\}) \xmapsto{f^*} \{x \in X\ |\ f(x) \in \{y_1,y_2,...\}\}}

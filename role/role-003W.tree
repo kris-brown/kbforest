@@ -1,0 +1,22 @@
+\date{2024-08-26}
+\title{Monoidal product of roles doesn't distribute over joins (intersections)}
+\import{macros}
+##{A \sqcup (B \vee C) = (A\sqcup B)\vee (A\sqcup C)}
+
+\p{Unpacking the definitions:}
+
+##{(A^* \otimes (B \cap C)^*)^* = (A^* \otimes B^*)^* \cap (A^*\otimes C^*)^*}
+
+\p{We can prove that #{LHS\subseteq RHS}. However, the other direction does not go.}
+
+\subtree{\taxon{proof}
+
+\subtree{\title{LHS #{\subseteq} RHS}
+\p{If we have an arbitrary element #{z} of the LHS, then we know for all #{a \in A^*} and #{d \in (B\cap C)^*} that #{zad \in \II}.}
+\p{To show it is an element of the RHS, we need to show that both for all #{(a,b) \in A^*\times B^*} and #{(a,c)\in A^*\times C^*} that #{abz\in \II} and #{acz \in II}. Because #{B\cap C \subseteq B}, we have that #{(B \cap C)^* \supseteq B^*} (as well as #{C^*}), so we can always find element #{d} that proves each condition needed.}
+}
+\subtree{\title{RHS #{\nsubseteq} LHS}
+\p{If we have an arbitrary element #{z} of the RHS, we know that for all pairs  #{(a,b) \in A^*\times B^*} and #{(a,c)\in A^*\times C^*} that #{abz\in \II} and #{acz \in II}. Suppose that #{B} and #{C} are disjoint. Then #{(B\cap C)^* = S}, meaning we'd need to prove that for \em{any} implication #{i} that #{aiz \in \II}. But there is no reason why what we've assumed would let us prove that, given that #{B^* \cup C^*} need not be equal to #{S}.
+}
+}
+}

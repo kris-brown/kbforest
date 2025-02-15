@@ -1,0 +1,6 @@
+\date{2024-08-30}
+\title{Filtered (co)limit}
+\taxon{definition}
+\import{macros}
+
+\p{A (co)limit (of a diagram #{\cat{J}\rightarrow\cat{C}}) is \em{filtered} if the indexing category #{\cat{J}} is a (co)[filtered category](math-006V).}

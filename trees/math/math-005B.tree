@@ -1,0 +1,31 @@
+\date{2024-07-28}
+\title{Paracategory inverses}
+\import{macros}
+\taxon{proposition}
+
+\p{If #{A \overset{b}{\underset{b^{-1}}\rightleftarrows} B} are arrows in a [paracategory](math-005A) such that}
+
+##{[b,b^{-1}]=1_A}
+##{[b^{-1},b]=1_B}
+
+\p{Then, for all #{A\xleftarrow{f} X \xrightarrow{g} B}:}
+
+##{[f,b]=g \iff f=[g,b^{-1}]}
+
+
+% https://q.uiver.app/#q=WzAsMyxbMCwwLCJBIl0sWzIsMCwiQiJdLFsxLDEsIlgiXSxbMCwxLCJiIiwwLHsiY3VydmUiOi0xfV0sWzEsMCwiYl57LTF9IiwwLHsiY3VydmUiOi0xfV0sWzIsMCwiZiJdLFsyLDEsImciLDJdXQ==
+\quiver{\begin{tikzcd}
+    A && B \\
+    & X
+    \arrow["b", curve={height=-6pt}, from=1-1, to=1-3]
+    \arrow["{b^{-1}}", curve={height=-6pt}, from=1-3, to=1-1]
+    \arrow["f", from=2-2, to=1-1]
+    \arrow["g"', from=2-2, to=1-3]
+  \end{tikzcd}}
+
+
+\subtree{\taxon{proof}
+
+\p{From #{[f,b]=g} we can deduce:}
+##{[g,b^{-1}] \rightleftharpoons [[f,b],b^{-1}] \rightleftharpoons [f,b,b^{-1}] \rightleftharpoons [f, [b,b^{-1}]]\rightleftharpoons [f,1] \rightleftharpoons [f] = f}
+}

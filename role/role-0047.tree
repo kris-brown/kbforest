@@ -1,0 +1,28 @@
+\date{2024-08-31}
+\title{Sending implication frames and open maps to roles does not preserve coproducts}
+\import{macros}
+
+\p{There is a function from implication frames from lattices of roles. Before worrying if this is functorial, we consider whether the lattice of roles that #{A+B} is sent to (in the [category of implication frames and open maps](role-0044)), #{\cR(A+B)}, is isomorphic to the coproduct of the corresponding lattices of roles, #{\cR_A \oplus \cR_B}. However, as shown below, this is not the case, since #{|\cR_{A+B}| \approx |\cR_A|+|\cR_B|} whereas #{|\cR_A\oplus\cR_B|=|\cR_A|\times |\cR_B| }.}
+
+% https://q.uiver.app/#q=WzAsNyxbMCwwLCJBIl0sWzAsMiwiQiJdLFswLDEsIkErQiJdLFsxLDEsIlxcbWF0aGNhbHtSfV97QStCfSJdLFsyLDAsIlxcbWF0aGNhbHtSfV97QX0iXSxbMiwyLCJcXG1hdGhjYWx7Un1fe0J9Il0sWzIsMSwiXFxtYXRoY2Fse1J9X3tBfVxcb3BsdXNcXG1hdGhjYWx7Un1fe0J9Il0sWzUsNiwiIiwyLHsic3R5bGUiOnsidGFpbCI6eyJuYW1lIjoibW9ubyJ9fX1dLFs0LDYsIiIsMCx7InN0eWxlIjp7InRhaWwiOnsibmFtZSI6Im1vbm8ifX19XSxbMCwyLCIiLDIseyJzdHlsZSI6eyJ0YWlsIjp7Im5hbWUiOiJtb25vIn19fV0sWzEsMiwiIiwwLHsic3R5bGUiOnsidGFpbCI6eyJuYW1lIjoibW9ubyJ9fX1dLFs2LDMsIlxcY29uZyA/IiwwLHsic3R5bGUiOnsidGFpbCI6eyJuYW1lIjoiYXJyb3doZWFkIn19fV0sWzAsNCwiXFxtYXRoY2Fse1J9Il0sWzEsNSwiXFxtYXRoY2Fse1J9IiwyXSxbMiwzLCJcXG1hdGhjYWx7Un0iLDJdXQ==
+\quiver{\begin{tikzcd}
+    A && {\mathcal{R}_{A}} \\
+    {A+B} & {\mathcal{R}_{A+B}} & {\mathcal{R}_{A}\oplus\mathcal{R}_{B}} \\
+    B && {\mathcal{R}_{B}}
+    \arrow["{\mathcal{R}}", from=1-1, to=1-3]
+    \arrow[tail, from=1-1, to=2-1]
+    \arrow[tail, from=1-3, to=2-3]
+    \arrow["{\mathcal{R}}"', from=2-1, to=2-2]
+    \arrow["{\cong ?}", tail reversed, from=2-3, to=2-2]
+    \arrow[tail, from=3-1, to=2-1]
+    \arrow["{\mathcal{R}}"', from=3-1, to=3-3]
+    \arrow[tail, from=3-3, to=2-3]
+  \end{tikzcd}}
+
+
+
+\p{Now let's consider #{{Atom(\cR_{A+B}) = \{x^*\ |\ x \in S_{A+B}=S_A\times S_B\}} } in the context of [open maps](role-0044), where #{{\II_{A+B} := \cP \iota_A(\II_A) \cup \cP \iota_B(\II_B)}}. Let #{S^{nz} := S\setminus \{0\}}, the possible implications which are nonempty. Importantly, there are \em{no} implications in #{\II_{A+B}} that include claimables from \em{both} #{\cL_A} and #{\cL_B}. So any element of #{S_A^{nz}\times S_B^{nz}} has the role of #{\varnothing}. We can use this to simplify the expression:}
+
+##{Atom(\cR_{A+B}) = \{\II_{A+B}\} + Atom(\cR_A) \cup Atom(\cR_B) \cup \{\varnothing \} }
+
+\p{The exact cardinality depends on whether or not there are bearers in #{A} or #{B} which have roles which make everything into a bad inference (in which case there is overlap with the #{\varnothing} role). This is the wrong cardinality, so this category cannot preserve coproducts.}

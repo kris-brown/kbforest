@@ -17,7 +17,7 @@
 
 \bussproofs{
   \AxiomC{}
-  \UnaryInfC{$R: A\pfun A$}
+  \UnaryInfC{$R: A\pro A$}
   \DisplayProof
 }
 

@@ -3,5 +3,6 @@
 
 \p{Answers to [question of the relationship between logic and reasons](phil-015G):
 }
-\transclude{phil-017A}
+% \transclude{phil-017A}
+\p{Logic first}
 \transclude{phil-017B}

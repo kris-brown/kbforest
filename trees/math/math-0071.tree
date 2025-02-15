@@ -1,0 +1,43 @@
+\date{2024-08-30}
+\title{Biproducts of join semilattices}
+\import{macros}
+
+\p{The category of [join-semilattices](math-006Z) has [biproducts](math-005S).}
+
+\p{First we define [products](math-0024) and then show this also satisfies the universal property of coproducts.}
+
+\subtree{\title{Defining projection and injection maps}
+
+\p{The \em{product} of join-semilattices #{A} and #{B} has, as its underlying set, #{A\times B}, with #{(a_1,b_1)\leq (a_2,b_2) := (a_1\leq a_2)\land (b_1\leq b_2)}. The projection maps from the product in \strong{Set} are therefore monotone maps.}
+
+\p{To show that these preserve all joins by the [adjoint functor theorem](math-0073) we need to demonstrate they are left adjoint the map #{A \times \top_B: A \rightarrow A \times B}. }
+
+
+##{
+\begin{align*}
+  (a_1,b)\leq_{A+B} (A \times \top_B)(a_2) & \iff (a_1,b) \leq_{A+B} (a_2, \top_B) \\
+                                           & \iff a_1 \leq_{A}a_2                  \\
+                                           & \iff \pi_A((a_1,b)) \leq_{A} a_2
+\end{align*}}
+
+\p{The projection map is also right adjoint to #{\iota_A := A \times \bot_B}:}
+
+##{
+\begin{align*}
+  a_1 \leq_A \pi_A((a_2,b)) & \iff a_1 \leq_A a_2                        \\
+                            & \iff (a_1,\bot_B)\leq_{A\times B}(a_2,b)   \\
+                            & \iff \iota_A(a_1) \leq_{A\times B} (a_2,b)
+\end{align*}}
+
+\p{Thus #{\iota_A} also preserves all joins and therefore is a morphism in this category.}
+
+}
+
+\subtree{\title{Checking universal property of (co)product}
+\p{Given a span #{A \xleftarrow{f} X \xrightarrow{g} B}, the underlying #{u:=f\times g} from the universal property in \strong{Set} is itself a monotone map which uniquely makes the product diagram commute (#{u\cdot\pi_A=f} and #{u\cdot\pi_B=g}). Because it is equal to a composite of join-preserving monotone maps, it is itself a join-preserving monotone map.
+
+\p{Given a cospan #{A \xrightarrow{f} X \xleftarrow{g} B}, define #{u: A\times B \rightarrow X} to send #{(a\in A,b\in B)} to #{f(a)\vee g(b)}. We check that this map makes the diagram commute (#{\iota_A\cdot u=f} and #{\iota_B\cdot u=g}): this follows because #{x \vee \bot = x}.}
+}
+}
+
+\p{The full subcategory of \em{atomistic} join semilattices is closed under biproducts (the atoms of the product are the product of the two sets of atoms).}

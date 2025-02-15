@@ -203,41 +203,8 @@
 }
 \p{Examples of the above: Kantians like Korsgaard and [Habermas](habermas) using detailed arguments from the philosophy of action and the philosophy of language (respectively) to draw significant conclusions in moral and political theory.
 }
-\subtree{\title{Prosentential theory of truth}
-
-  \p{Pronouns have a lazy use: "Leibniz was smart and \em{he} was cool"
-    But they also have quantificational uses: "Anyone who votes for X deserves what \em{he} gets."
-  }
-  \p{This is true also of pro-sentences. "Everything the policeman said is true" is a quantificational use (Quine's example). For Brandom, "is true" is a prosentence-forming operator. Also "refers" for him is a pronoun-forming operator. See Brandom's \em{Reference Explained Away}.
-  }
-  \p{If you say "is true" is not a predicate any more than "it" is a thing/kind of thing (i.e. you no longer misconstrue the grammar of 'true'), that precludes you from certain kinds of explanationatory uses of 'true' (you can't make sense of sentence meanings via truth conditions, i.e. truth-conditional semantics - you need a notion of content ... see the explanatory priority of material implications over logical implication). When you understand the expressive role of locutions like "true" and "refers" you see why they're not suitable to do explanatory role in semantics. However, they play a crucial expresive role, you can say things you cannot say any other way.
-  }
-
-  \p{Some people argued for \em{object} naturalism by appealing to semantic deflationism.[^yt] Huw argues that semantic deflationism counts the other way.
-  }
-  \ol{
-    \li{It is itself an exercise in subject naturalism. Instead of saying what the truthmaking relation of truth claim is in natural terms, it explains  how we use this expression. (if you use nonsemantic vocabulary, you can extend that to add notions like 'truth' and 'reference')}
-    \li{It blocks a move that says "these claims you're making in the problematic discourse, they're truth evaluable, so it makes sense to ask what the truthmakers are". Quine talks about semantic ascent ("snow is white" => "'snow is white' is true") and how it adds nothing semantically to what was there already. One can also say semantic descent works the same way.}
-
-  }
-  \p{[^yt]: e.g. [Blackburn](blackburn) using it to argue against Rorty https://www.youtube.com/watch?v=KekgLOAejwM
-  }
-  \p{Brandom thinks the argument is good against saying that S.D. => O.N., but not that S.D. => S.N. Price and Brandom agree that semantic deflationism does not make the representationalist move cheap, easy, or trivial.
-  }
-  \p{Deflationism can be used to argue for declarativism: the commitment to use a uniform semantic model for all declarative sentences (it is a way all declaratives can be put in one bucket).  What Huw realizes is that this does not entail descriptivism (representationalism): the commitment to that semantic model being that of fact-stating, describing (or more generally, representing) how things actually, objectively are. Brandom's issue with Huw is whether he has not rushed from that insight (declarativism, a consequence of semantic deflationism, does not entail descriptivism) to conclude that (properly) rejecting descriptivism as \em{always} the semantic model to use means rejecting the idea that that it is ever an appropriate semantic model to use.
-  }
-  \p{Brandom thinks that inferentialist semantic alternative to representationalism is much more important than semantic minimalism in making pragmatism-as-subject-naturalism work.
-  }
-  \p{But Brandom's Kantian-Sellarsian pragmatic metalinguistic version of local expressivism remains at odds with his \em{global} antirepresentationalism. Huw does not want to reintroduce representational locutions in respectable pragmatist terms so as to have a bifurcation of descriptive and nondescriptive vocabularies. That is because he wants to be nondescriptivist about crucial parts of physics—which is descriptive-representational on just about anybody's way of dividing up vocabularies.
-  }
-
-  \p{This is pointing out that if you think that reference-representation is an objective relation that one can study scientifically-objectively-naturalistically, because one is not a semantic deflationist and is an object naturalist, about semantic vocabulary as about all others, and one sees (correctly) that one cannot, as an object naturalist, have an \em{error theory} about semantic vocabulary (that is, take it not to represent anything, and so to be in principle defective discourse, to be discarded or explained away), because doing so undercuts one's object naturalism (which depends on reference-representation relations referring to or representing something) then you are committed to there being a relation that 'refers' ('represents') stands in to relations of reference and representation that is the \em{same} relation that 'Fido' stands in to Fido (Fodor's 'horses' to horses).
-  }
-  \p{This is a complex, self-referential claim. But Price sees (correctly) that it is absolutely essential to object-naturalism, that is, to applying the descriptive- representational semantic model \em{universally}. And his claim is \em{not} that this idea is unintelligible. Rather, he follows Putnam (in his stuff on "internal" and "external" realism) in claiming not that there is no such relation, but that there are, at least in principle, too \em{many}. The demand for a relation that stands to 'refers' as Fido stands to 'Fido' is not only 1. too weak to pick out a unique relation of reference-representation, but 2. too weak sufficiently to constrain relations so as to pick out only relations that are plausibly or colorably \em{reference or representation} relations. Recall that there are infinite number of respects of similarity between the relations between names and what they are names of and relations between 'refers' and \em{absolutely anything}. Here Putnam imagines someone holding up an uninterpreted sign labeled 'refers', to mediate between words and things, and when asked to interpret it, holds up another sign labeled 'causes' ("in the right way").
-  }
+\transclude{phil-01D9}
 }
-}
-
 \subtree{\title{Finale}
   \p{Goal of the course: synthesize Rorty's pragmatism with Price's global expressivism by seeing the key insight into Wittgensteinian pragmatism as subject naturalism without a scientistic restriction on the dissolving metavocabulary in which one specifies (and demystifies) discursive practice.
   }

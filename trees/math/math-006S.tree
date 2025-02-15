@@ -1,0 +1,8 @@
+\date{2024-08-24}
+\title{Weak monotonicity}
+\taxon{definition}
+\p{\em{Weak monotonicity} is a property of consequence relations that says:}
+
+##{\Gamma \vdash A \implies \Gamma, B\vdash A}
+
+\p{It is weaker than monotonicity because it only applies to actual consequences of some context #{\Gamma}}

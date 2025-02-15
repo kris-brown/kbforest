@@ -1,0 +1,61 @@
+\date{2025-02-10}
+\title{Syntax-semantics adjunctions}
+\import{macros}
+
+\p{What entitles one to call something a \em{syntax} or a \em{semantics}? The vocabulary of category theory offers a particular insight into this question. Consider the following diagram:}
+
+% https://q.uiver.app/#q=WzAsMixbMCwwLCJHZW5lcmF0aW5nXFxcXEZhY3RzIl0sWzIsMCwiQ29tcGxldGVcXFxcV29ybGRzIl0sWzAsMSwibWluaW1hbGx5XFxcXCBhc3N1bXB0aXZlXFwgd29ybGQiLDAseyJjdXJ2ZSI6LTN9XSxbMSwwLCJhbGxcXCB0aGVcXCBmYWN0cyIsMCx7ImN1cnZlIjotM31dLFsyLDMsIiIsMCx7ImxldmVsIjoxLCJzdHlsZSI6eyJuYW1lIjoiYWRqdW5jdGlvbiJ9fV1d
+\quiver{
+  \begin{tikzcd}
+    \begin{array}{c} Generating\\Facts \end{array} && \begin{array}{c} Complete\\Worlds \end{array}
+    \arrow[""{name=0, anchor=center, inner sep=0}, "\begin{array}{c} minimally\\ assumptive\ world \end{array}", curve={height=-18pt}, from=1-1, to=1-3]
+    \arrow[""{name=1, anchor=center, inner sep=0}, "{all\ the\ facts}", curve={height=-18pt}, from=1-3, to=1-1]
+    \arrow["\dashv"{anchor=center, rotate=-90}, draw=none, from=0, to=1]
+  \end{tikzcd}}
+
+\p{The two categories are related via an [adjunction](math-0028).}
+
+\p{Let's look at some examples of this pattern:}
+
+\subtree{\title{Propositional logic}
+
+\p{Syntactic category: [boolean algebras](math-0038) (i.e. propositional logic theories) and homomorphisms.}
+\p{Semantic category: [Stone spaces](math-002P) and continuous maps.}
+
+\p{Terminology}
+
+\ul{
+\li{#{\mathbf{BA}} - the category of Boolean Algebras}
+\li{#{\cB} - some particular Boolean algebra}
+\li{#{Mod_\cB} - the category of models of the boolean algebra #{\cB} ([valuations](math-0080))}
+\li{2 - the two element Boolean algebra (alternatively: the two-element Stone space)}
+\li{#{Hom_\cC(A,B)} - the hom-set from #{A} to #{B} in a category #{\cC}}
+}
+
+##{Mod_\cB \cong Hom_{\mathbf{BA}}(\cB, 2)}
+
+\p{We don't merely have a \em{set} of possible models, we have a topological space of them ()}
+
+##{\cB \cong Hom_{\mathbf{Stone}}(Mod_\cB), 2}
+
+% https://q.uiver.app/#q=WzAsMixbMCwwLCJcXG1hdGhiZntCQX0iXSxbMSwwLCJcXG1hdGhiZntTdG9uZX0iXSxbMSwwLCJIb21fXFxtYXRoYmZ7U3RvbmV9KC0sMikiLDIseyJjdXJ2ZSI6MX1dLFswLDEsIkhvbV9cXG1hdGhiZntCQX0oLSwyKSIsMix7ImN1cnZlIjoxfV0sWzAsMSwiXFxjb25nIiwxLHsic3R5bGUiOnsiYm9keSI6eyJuYW1lIjoibm9uZSJ9LCJoZWFkIjp7Im5hbWUiOiJub25lIn19fV1d
+\quiver{
+  \begin{tikzcd}
+    {\mathbf{BA}} & &{\mathbf{Stone}}
+    \arrow["{Hom_\mathbf{BA}(-,2)}"', curve={height=6pt}, from=1-1, to=1-3]
+    \arrow["\cong"{description}, draw=none, from=1-1, to=1-3]
+    \arrow["{Hom_\mathbf{Stone}(-,2)}"', curve={height=6pt}, from=1-3, to=1-1]
+  \end{tikzcd}
+}
+
+\p{This is called [Stone duality](math-003D).}
+
+
+\p{Source: \ref{ref-00B9}}
+}
+
+\subtree{\title{First order logic}
+
+
+
+}

@@ -1,0 +1,12 @@
+\date{2024-07-23}
+\title{Category of definable sets of a first-order theory}
+\taxon{definition}
+\import{macros}
+
+
+\p{Given a first-order #{\cL}-[theory](math-004I) #{T}, the \em{category of [definable sets](math-004O)} of #{T} has:}
+
+\ul{
+\li{As objects, formulas of #{\cL} (up to provable equivalence)}
+\li{As morphisms #{x \rightarrow y}, formulas #{\varphi} of #{\cL} (up to provable equivalence) such that #{T\vDash \varphi} is a [definable function](math-004S) #{x \rightarrow y}}
+}

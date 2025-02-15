@@ -1,0 +1,6 @@
+\date{2024-07-23}
+\title{Definable set in a first-order structure}
+\taxon{definition}
+\import{macros}
+
+\p{Given a [first-order structure](math-004M) #{M}, a \em{definable set} #{U} is a set for which there exists an #{\cL}-sentence #{\varphi} for which #{M(\varphi)=U}}

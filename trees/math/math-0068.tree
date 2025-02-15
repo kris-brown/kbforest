@@ -1,0 +1,7 @@
+\date{2024-08-11}
+\title{Monotone map}
+\taxon{definition}
+
+\p{A \em{monotone map} between [preorders](math-001R) #{(P,\leq_P) \rightarrow (Q, \leq_Q)} is a [function](math-000V) #{P\rightarrow Q} such that:}
+
+##{p_1\leq_P p_2 \implies f(p_1)\leq_Q f(p_2)}

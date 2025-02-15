@@ -1,0 +1,12 @@
+\date{2024-08-26}
+\title{Relationship between implication space semantics and Girard's phase semantics}
+
+\p{There is a great overlap in between [implication space semantics](role-003L) and [phase semantics](phase semantics).}
+
+\p{They agree up to the point where the phase space gets defined, but Girard uses #{(-)^*} to codify \em{negation}. This seems peculiar from our vantage point because this shows up even earlier, in the definition of a \em{fact}.}
+
+\p{So, to even assign a semantics of some atomic proposition, one needs an antecedent notion of negation, which happens to correspond to the same operation that the semantics of #{\neg} has. Why did negation show up in both of these seemingly unrelated places? How could negation be conceptually prior to conceptual content?}
+
+\p{The formalism works out well, so it's not an issue. However, linear logic is deficient for the purposes of a universally logically-explicative logic, as it can only harmoniously explicate monotonic, transitive concepts.}
+
+\p{Furthermore, this explains why we need \em{two} roles assigned to each bearer in an interpretation. See [Why two roles for bearers?](role-003T) Because #{(-)^*} can't play the role of negation, something else needs to. Drawing from the duality of acceptance and rejection, we can codify negation by a swap operation.}

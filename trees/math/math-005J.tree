@@ -1,0 +1,14 @@
+\date{2024-07-28}
+\title{Quotienting a paracategory by a congruence}
+\import{macros}
+\taxon{definition}
+
+\p{The \em{quotient} of the [path category](math-0058) #{P(\cat{C})/S} by a [congruence](math-005I) #{S} of a ([symmetric monoidal](math-005F)) [paracategory](math-005A) is (symmetric monoidal) paracategory.}
+
+\ul{
+\li{The objects are the same as #{\cat{C}}}
+\li{The edges are #{S}-equivalence classes of paths. Let #{\overline{\vec f}} be the equivalence class of #{\vec f}.}
+\li{Composition is concatenation of paths.}
+\li{The monoidal product is given by #{\boxtimes}, the [box product of paths](math-005K)}
+\li{The symmetries are #{\overline{\sigma_{A,B}}}}
+}

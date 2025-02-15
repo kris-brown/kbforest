@@ -1,0 +1,5 @@
+\date{2024-08-08}
+\title{Diagonal functor}
+\meta{external}{https://ncatlab.org/nlab/show/diagonal+functor}
+\taxon{definition}
+\p{The \em{diagonal} [functor](math-000E) for a category #{\cat{C}} is a functor #{\Delta: \cat{C}\rightarrow \cat{C}\times \cat{C}} that sends #{x\mapsto (x,x)}.}

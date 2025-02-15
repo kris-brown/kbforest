@@ -1,0 +1,69 @@
+\date{2024-08-27}
+\title{Berkeley seminar}
+\import{macros}
+
+\put\transclude/expanded{false}
+
+% Let me motivate things a bit first before jumping into the math.
+\transclude{role-003S}
+\transclude{role-0035}
+
+\subtree{\title{Implication frames and of implicational roles}
+
+  \transclude{role-0036}
+  \transclude{role-0038}
+  \transclude{role-003A}
+  \transclude{role-0039}
+  \transclude{role-003Z}
+  \transclude{role-003U}
+  \transclude{role-003G}
+
+
+}
+
+\transclude{role-0040}
+
+\subtree{\title{Categories of implication frames and roles}
+
+  \transclude{role-003D}
+  \transclude{role-003B}
+  \transclude{role-003C}
+}
+
+\subtree{\title{Gesture towards dynamics}
+
+\p{Given a \em{fixed} implication frame, we can obtain dynamics on a set of commitments. }
+
+\p{Rather than viewing a constraint on interpretation functions (#{\Gamma \vsim_A \Delta \iff \brack{\Gamma\vsim\Delta}\in \II_B}) as a constraint on which morphisms exist, we could view it as a \em{driving force}, a norm which governs how #{\vsim_A} \em{ought be} given how #{\II_B} is (even if it doesn't presently meet that standard).}
+
+\p{In light of Hlobil's reconstruction of Kit Fine's truthmaker semantics \em{as} an implication frame (where the 'incoherence' of rejecting #{\Delta} and accepting #{\Gamma} maps onto Fine's notion of fusing falsemakers of #{\Delta} and truthmakers of #{\Gamma} to yield a (physically) impossible state), one can formulate a representationalist model of language by giving an interpretation function from our implication frames of material concepts into our best scientific world model. }
+
+% https://q.uiver.app/#q=WzAsNCxbMCwwLCJSIl0sWzEsMCwiQSJdLFswLDEsIlInIl0sWzEsMSwiQSciXSxbMCwxLCJbXFxjZG90XSIsMCx7InN0eWxlIjp7ImJvZHkiOnsibmFtZSI6ImJhcnJlZCJ9fX1dLFsxLDMsIlxcRGVsdGFfQSJdLFswLDIsIlxcRGVsdGFfUiIsMl0sWzIsMywiW1xcY2RvdF0nIiwyLHsic3R5bGUiOnsiYm9keSI6eyJuYW1lIjoiYmFycmVkIn19fV0sWzQsNywiXFxhbHBoYSIsMCx7InNob3J0ZW4iOnsic291cmNlIjoyMCwidGFyZ2V0IjoyMH19XV0=
+\quiver{
+  \begin{tikzcd}
+    R & A \\
+    {R'} & {A'}
+    \arrow[""{name=0, anchor=center, inner sep=0}, "{[\cdot]}", "\shortmid"{marking}, from=1-1, to=1-2]
+    \arrow["{\Delta_R}"', from=1-1, to=2-1]
+    \arrow["{\Delta_A}", from=1-2, to=2-2]
+    \arrow[""{name=1, anchor=center, inner sep=0}, "{[\cdot]'}"', "\shortmid"{marking}, from=2-1, to=2-2]
+    \arrow["\alpha", shorten <=4pt, shorten >=4pt, Rightarrow, from=0, to=1]
+  \end{tikzcd}
+}
+
+
+\p{More interesting dynamics are possible when we consider feedback loops: this is known as \em{mutual sense dependence} (one cannot understand some network of concepts #{X} (i.e. navigate its inferential connections) without understanding this other network, #{Y}) two implication frames can regulate each other over time if they are mutually responsible to each other. This is not surprising in the realm of implication frames which are codifying aspects of our talk, but a deeper thesis (which resolves tensions between science being our best understanding of the world as it is independent of us yet also a product of our social practices) could be made. (I won't make it here) In any case, the space of such possible semantic theories ranging from scientific realism to its opposite can be neutrally articulated and compared as different subcategories of the category of implication frames and interpretation functions, where the included morphisms are interpretations that are taken to be (or: actually are) normatively governing.}
+}
+
+\transclude{role-003R}
+
+\subtree{\title{Open questions}
+
+\ol{
+\li{How can we define #{\cat{ImpFrame}} and #{\cat{Role}} such that we recover interpretation functions as a Kleisli category?}
+\li{How can we define a category of (pairs of) roles such that we recover semantics for logical connectives as (co)product / internal hom?}
+\li{The implication frame definition was based on sets, but this automatically builds in contraction and swap. What changes as we switch to other monads (e.g. list monad) to structure the claimables on either side of the turnstile?}
+\li{When generalizing to predicate logic, it's important to not give in to temptation and change our notion of an implication frame by presupposing \em{internal} structure to the claimables. Symbols like #{\forall} and even predicate/function applications, like #{P(x)}, are \em{logical} vocabulary. We want to understand what \em{role} to assign #{\forall x,y: P(x)\implies Q(y,x)} in terms of roles of non-logical implications, e.g. #{a,b\vsim c}. Perhaps #{\brack{P(-)}} could be assigned a set of roles, or a function from roles to roles, etc. such that a recursive semantics for the complex sentences could be given.}
+\li{Can the isomorphism between implication frames (but which category?) and truthmaker state spaces (and which morphisms) be formulated as an equivalence of categories?}
+}
+}

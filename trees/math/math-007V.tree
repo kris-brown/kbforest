@@ -1,0 +1,5 @@
+\date{2024-12-28}
+\title{Operad}
+\taxon{definition}
+
+\p{An \em{operad} is a [multicategory](math-003Q). Sometimes it's implied to be a multicategory with just one object; calling it a \em{colored operad} makes clear if there are multiple objects.}

@@ -1,0 +1,20 @@
+\date{2024-08-06}
+\title{Adjunction is independent of role representative}
+\taxon{proposition}
+\number{105}
+\import{macros}
+
+\p{[Adjunction](phil-01CR) is defined for represntatives of implicational roles. However, the result is independent of which representive is chosen, i.e.}
+
+##{\cR(F)=\cR(F') \implies \cR(F)\sqcup \cR(G) = \cR(F')\sqcup \cR(G)}
+
+\subtree{\taxon{proof}
+
+\p{Suppose #{x \in \cR(F)\sqcup \cR(G) = \cR(\{f+g\ | f \in F, g \in G\})}. I.e. for every single combination of #{F} and #{G} implications, #{f+g+x \in \II}.}
+
+\p{For each individual #{g \in G} we have #{x+g \in RSR(F)} I.e. #{\forall f \in F, f+g+z \in \II}. But #{RSR(F) = RSR(F')}, so we also have #{\forall f' \in F', f'+g+z \in \II}.}
+
+\p{Therefore #{x \in \cR(F')\sqcup \cR(G)}. Identical reasoning in reverse direction.}
+
+}
+

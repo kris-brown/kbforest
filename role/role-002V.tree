@@ -1,0 +1,30 @@
+\date{2024-08-07}
+\title{General proof of RSR = RSR#{^3}}
+\import{macros}
+\taxon{proposition}
+
+\p{This follows immediately from recognizing [RSR](role-0005) as a [self adjunction](math-0062) (which itself follows from internal homs in [closed monoidal categories](math-0031)). But we can also prove it manually:}
+
+##{RSR = RSR^3}
+
+\subtree{\taxon{proof}
+
+\p{Let #{A} be the set of implications to which these #{RSR} operations are being applied. #{R^n} is the result of applying RSR to #{A} that many times.}
+
+\subtree{\title{#{R \subseteq R^3}}
+
+\p{For an arbitrary element #{s \in R}, we want to show #{s \in R^3}, i.e. #{\forall x \in R^2, x+s \in \II}. }
+
+\p{Show this by proving it for an arbitrary such #{x \in R^2}. Now #{x} has the property that, for all #{y \in R}, #{{x+y \in \II}}. But we started off by assuming #{s \in R}, so we can prove for the arbitrary #{x} that #{{x+s \in \II}}.}
+}
+
+\subtree{\title{#{R^3 \subseteq R}}
+
+\p{For an arbitrary element #{s \in R^3}, we want to show #{s \in R}, i.e. #{\forall x \in A, x+s \in \II}. }
+
+\p{This follows once we show that #{A\subseteq R^2}, given that we know #{s} plus any element in #{R^2} is a good implication.}
+
+\p{Take an arbitrary #{x \in A}. To show it is in #{R^2} is to say for all #{y \in R}, #{x+y\in \II}. But elements in #{R} have the property of being good implication when combined with elements of #{A}, so this follows.}
+}
+}
+

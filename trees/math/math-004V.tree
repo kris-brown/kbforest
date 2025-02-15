@@ -1,0 +1,21 @@
+\date{2024-07-23}
+\title{Image of morphism}
+\taxon{definition}
+\import{macros}
+
+\p{The \em{image} of a morphism #{f: A \rightarrow B} in a [category](math-000D) #{\cat{C}} with [subobjects](math-003W) is the initial factorization of #{f} into #{A \xrightarrow{f_I} I\overset{\iota}\rightarrowtail B}, i.e. }
+
+% https://q.uiver.app/#q=WzAsNCxbMCwwLCJBIl0sWzIsMCwiQiJdLFsxLDEsIkknIl0sWzEsMiwiSW0oZikiXSxbMCwzLCJmX3tJbX0iLDJdLFszLDEsIlxcaW90YSIsMix7InN0eWxlIjp7InRhaWwiOnsibmFtZSI6Im1vbm8ifX19XSxbMiwxLCJcXGlvdGEnIiwwLHsic3R5bGUiOnsidGFpbCI6eyJuYW1lIjoibW9ubyJ9fX1dLFswLDEsImYiXSxbMCwyLCJmJyJdLFszLDIsIiIsMSx7InN0eWxlIjp7ImJvZHkiOnsibmFtZSI6ImRhc2hlZCJ9fX1dXQ==
+\quiver{\begin{tikzcd}
+    A && B \\
+    & {I'} \\
+    & {I}
+    \arrow["f", from=1-1, to=1-3]
+    \arrow["{f_I'}", from=1-1, to=2-2]
+    \arrow["{f_{I}}"', from=1-1, to=3-2]
+    \arrow["{\iota'}", tail, from=2-2, to=1-3]
+    \arrow["\iota"', tail, from=3-2, to=1-3]
+    \arrow[dashed, from=3-2, to=2-2]
+  \end{tikzcd}}
+
+\p{For all decompositions #{f= A \xrightarrow{f'}I'\overset{\iota'}\rightarrowtail B}, there exists a unique map #{I\xrightarrow{!} I'} such that #{\iota = !\cdot \iota'}}

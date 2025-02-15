@@ -1,0 +1,9 @@
+\date{2024-09-15}
+\title{Category of wedges}
+\taxon{definition}
+\import{macros}
+
+\p{Given a [difunctor](math-007C) #{P: \cat{C}^{op}\times \cat{C}\rightarrow \cat{D}}, the [category](math-000D) \em{of wedges} in #{P} has [wedges](math-007D) in #{P} as objects and [wedge morphisms](math-007F) as morphisms.
+}
+
+\p{Likewise for the category of [cowedges](math-007G).}

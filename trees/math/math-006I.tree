@@ -1,0 +1,8 @@
+\date{2024-08-23}
+\title{Power set functor (covariant)}
+\taxon{definition}
+\import{macros}
+
+\p{The \em{covariant power set functor} sends each object to its power set. It sends a function #{f: X\rightarrow Y} to the \em{image} function #{f_*: \cP(X)\rightarrow \cP(Y)}}
+
+##{(\{x_1,x_2,...\}) \xmapsto{f_*} \{f(x_1),f(x_2),...\}}

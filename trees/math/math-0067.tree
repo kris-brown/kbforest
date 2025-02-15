@@ -1,0 +1,5 @@
+\date{2024-08-10}
+\title{Fiber of a functor}
+\taxon{definition}
+
+\p{A \em{fiber} of a [functor](math-000E) #{F:\cat{C}\rightarrow \cat{D}} over an object #{d \in \cat{D}} is a [subcategory](math-003Z) of #{\cat{C}} consisting in the objects #{c} such that #{F(c) = d} and the morphisms #{f:c_1\rightarrow c_2} such that #{F(f) = id_d}. }

@@ -1,0 +1,8 @@
+\date{2024-07-22}
+\title{Simple category of implication frames}
+\import{macros}
+\taxon{definition}
+\p{The \em{simple} category of [implication frames](role-0036) has:}
+
+\p{As objects, implication frames #{{(\cL, \II\subseteq \cP(\cL+\cL))}}}
+\p{Let #{P} be the set of functions #{\cL_A\rightarrow \cL_B} such that #{{\forall (\Gamma, \Delta) \in \cP(\cL+\cL): (f(\Gamma),f(\Delta))\in \II_B}}}

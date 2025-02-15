@@ -1,0 +1,9 @@
+\date{2024-08-26}
+\title{Why are there two roles for bearers?}
+
+\blockquote{\p{One might wonder whether #{\{\varphi^+\}^{**}}, the set of positions that incompatibility entail #{\varphi}, is in fact the same as #{\{\varphi^-\}^{*}}, the set of positions incompatible with denying #{\varphi}, and thus, given that we have the #{(-)^*} function, whether treating assertions and denials independenly is really necessary.}
+
+\p{To see that it is indeed necessary, let us consider an example of asserting "Sadie's a mammal." This is incompatible with asserting "Sadie lays eggs." And so #{\{laysEggs(s)^+\}} is in #{\{mammal(s)^+\}^*}. Asserting "Sadie's a platypus" is, of course, not incompatible with asserting "Sadie lays eggs." So, #{\{playtpus(s)^+\}} is \em{not} in #{\{mammal(s)^+\}^{**}}. However, #{\{platypus(s)^+\}} is in #{\{mammal(s)\}^{**}}, since asserting that something's a platypus and denying that it's a mammal is surely incoherent. Thus, #{\{mammal(s)\}^{**} \ne \{mammal(s)^-\}^*}. The incoherence set of the incoherence set of asserting "Sadie's a mammal" is not the same as the incoherence set of denying "Sadie's a mammal."}
+}
+
+\p{- lightly edited argument from [Ryan Simonelli](simonelli)}

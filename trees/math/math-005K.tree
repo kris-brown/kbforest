@@ -1,0 +1,13 @@
+\date{2024-07-28}
+\title{Paracategory box product of paths}
+\import{macros}
+\taxon{notation}
+
+\p{In a [symmetric monoidal paracategory](math-005F) #{(\cat{C}, [-], \otimes, I, \sigma)}, where #{\vec f} and #{\vec g} are paths of possibly different length, let}
+
+##{\vec f \boxtimes \vec g := (\vec f \otimes 1), (1 \otimes \vec g)}
+
+\subtree{
+\taxon{proposition}
+\p{This path is not \em{equal} to #{(1\otimes \vec g), (\vec f \otimes 1)}. But for any [congruence relation](math-005I) we have that #{f\vsim_S f'} and #{g \vsim_S g'} implies #{\vec f \boxtimes \vec g \sim_S  \vec{f'} \boxtimes \vec{g'}}.}
+}

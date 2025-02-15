@@ -1,0 +1,16 @@
+\date{2024-08-23}
+\title{Possibilities for natural choices of ImpFrame morphisms}
+\import{macros}
+
+\p{We have a category with sets #{X} equipped with a distinguished subset of #{\cP(X)} (ignoring the fact that the relation is actually on #{\cP(X+X)} in the case of implication frames).}
+
+\p{What are possible structure-preserving ways of mapping #{(X, \tau_X) \rightarrow (Y, \tau_Y)}? Clearly functions #{X\rightarrow Y} that satisfy \em{some} property. There are two ways to relate power-sets via a function, corresponding to the [covariant](math-006I) (#{\cP}) and [contravariant](math-006J) (#{\cP_c}) power set functors. Furthermore, there are two choices on which way the #{\subseteq} should face.}
+
+\ul{
+\li{[Open](math-006K) maps: #{U \in \tau_X \Rightarrow \cP f(U) \in \tau_Y} (see [here](role-0044))}
+\li{Responsible: #{U \in \tau_X \Leftarrow \cP f(U) \in \tau_Y} (see [here](role-0046))}
+\li{[Continuous](math-006L): #{V \in \tau_Y \Rightarrow \cP_c f(V) \in \tau_X} (see [here](role-0045))}
+\li{Weird map?: #{V \in \tau_Y \Leftarrow \cP_c f(V) \in \tau_X} (see [here](role-0048))}
+}
+
+\p{One could also use biconditionals to yield two more options. However, upon inspection these are very bad categories (see [here](role-0042) and [here](role-0043)).}

@@ -1,0 +1,6 @@
+\date{2024-08-02}
+\title{Biproduct}
+\taxon{definition}
+
+\p{A \em{biproduct} is an object of a [category](math-000D) which is both a categorical [product](math-0024) and a [coproduct](math-004D).}
+

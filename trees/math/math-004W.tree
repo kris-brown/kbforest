@@ -1,0 +1,11 @@
+\date{2024-07-23}
+\title{Logical category}
+\import{macros}
+\taxon{definition}
+
+\p{A [category](math-000D) is \em{logical} if it has}
+\ul{
+  \li{Finite [limits](math-0026)}
+  \li{[Stable images](math-004X)}
+  \li{[Stable](math-004F) finite [joins](math-001U) of subobjects}
+}

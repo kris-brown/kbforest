@@ -1,0 +1,48 @@
+\date{2024-08-22}
+\parent{role-0034}
+\title{Motivation (5-10 minutes)}
+
+\p{Topos' technical vision: \strong{formal}, \strong{conceptual}, \strong{interoperable} \strong{modeling}}
+
+\p{The way we think about \em{formality} can be at odds with the other three goals, but recent technical work in the philosophy of language and logic helps resolve this tension due to its rational reconstruction of the concept of \em{logic}.}
+
+
+\subtree{\taxon{example}
+
+\p{Someone thinks that the economy can be modeled by predicates #{Employee(-)}, #{ManagerOf(-,-)}, #{WorksAt(-,-)} and various equations such as #{{\forall x,y: ManagerOf(x,y) \implies \exists z: WorksAt(x,z) \land WorksAt(y,z)}}. The names of these predicates suggest that they are \em{about} the actual set of employees, management pairs, and employment pairs, but one quickly finds lots of aspects of this model are incorrect or omitted (subtleties to our concepts of "employee" and "manages").}
+}
+
+\subtree{\taxon{example}
+
+  \p{Someone gets the idea "My computer is kind of like an operad of Mealy Machines!" (the \em{theory}), then tests out the theory by making a \em{model} of the theory (assigning sets of referents to types in the theory, based on some understanding of their actual computer), then derives a contradiction between model output and actual observed output, then thinks "I was wrong. Perhaps my computer is more like an operad of Moore Machines?". This iterative process continues.}
+
+}
+
+\p{There is clearly something right about this picture of theory, subject matter, model (connecting the two), error, revising. But the movement between theories occurs \em{outside} of the logical process (formal logic takes us from the assumptions to contradiction).}
+
+\ul{
+  \li{\em{Formally}, contradictions entail everything - \em{informally}, incompatible claims jointly point to particular directions to go which rectify the contradiction.}
+  \li{\em{Formally}, good entailments are true under any context - \em{informally}, there are always supporting and defeating contexts for an entailment, even in science and math! One cannot have definitions "all the way down", so defeasibility can't be wished away by fiat. This is hard to see in math unless we look to places where the dust hasn't settled, e.g. discovering the \em{right} definitions in higher category theory.}
+}
+
+\p{The math today is in support of a perspective, called \em{logical expressivism}, which allows:}
+\ul{
+\li{explicating the \em{rational} (but informal) structure of movement between formal theories}
+\li{making sense of referents of scientific theories \ul{
+\li{When we learn nothing exists that has the properties stated by our theory, it's \strong{not} that the extension our model assigned to #{Employee} failed to refer to the \em{actual} set of employees, but rather we learned something about #{Employee}}}}
+\li{engaging with nonlogical vocabulary, rather than dismissing it}
+\li{showing why logic is deeply connected to crystallized patterns, coordination, and legibility}
+\li{challenging the \em{hard} distinction between defining and discovering, i.e. between negotiating the frame of a discussion and negotiating the content.}
+\li{avoiding impositions on conceptual contents: ability to talk about commitments of others as rational (not absurd) even if they fail to meet certain structural properties of formal logic under the present analysis.}
+}
+
+\subtree{\title{Overlap with themes in ACT}
+
+  \ul{
+    \li{a focus on making pre-existing structure explicit}
+    \li{sensemaking without rigid foundations}
+    \li{characterizing content in terms of external structure rather than internal structure}
+    \li{emphasis on open systems}
+    \li{putting syntax and semantics in the same playing field}
+  }
+}

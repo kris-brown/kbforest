@@ -1,0 +1,12 @@
+\date{2024-09-15}
+\title{Coends as coequalizers}
+\taxon{proposition}
+\import{macros}
+
+\p{The [coend](math-007J) of a [difunctor](math-007C) #{P: \cat{C}^{op}\times \cat{C}\rightarrow \cat{D}^{op}} can be obtained as the [coequalizer](math-005M) of:}
+
+##{\int^{x \in \cat{C}} P(\bar x, x) := coeq(\sum_{f: a\rightarrow b} P(b,a) \rightrightarrows \sum_{c \in \cat{C}} P(c,c)   )}
+
+\p{Where the two morphisms (call them #{P^l, P^r}) are }
+
+##{P_l: \lbrack P(f,id_a)\iota_a;\rbrack \ \ \ \ \ \ P_r: \lbrack P(id_b,f);\iota_b\rbrack}

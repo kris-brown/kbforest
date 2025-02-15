@@ -1,0 +1,8 @@
+\date{2024-07-23}
+\title{Weakly terminal object}
+
+\subtree{\taxon{definition}
+\p{A \em{weakly terminal} object #{1} of a [category](math-000D) is one such that for all objects #{X} in #{\cat{C}} there exists a morphism #{X \rightarrow 1}.}
+}
+
+\p{This generalizes the notion of a [terminal object](math-001G) by removing the restriction that there be a \em{unique} morphism #{X \rightarrow 1}. }

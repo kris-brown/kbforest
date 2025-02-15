@@ -1,0 +1,6 @@
+\date{2024-07-23}
+\title{L-theory of a first-order model}
+\import{macros}
+\taxon{definition}
+
+\p{Given an #{\cL}-[structure](math-004M) #{M}, the \em{#{\cL}-theory} of #{M} is an #{\cL}-[theory](math-004I) consisting in the set of #{\cL} sentences which evaluate to #{1}.}

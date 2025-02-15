@@ -1,0 +1,82 @@
+\date{2024-08-18}
+\title{Reconstruction of R4L}
+\import{macros}
+
+\p{\em{This is my current best attempt at presenting R4L material categorically. This will vary from the original in how some things are defined.}}
+
+\subtree{\title{Motivation}
+
+\scope{
+\put\transclude/heading{false}
+\transclude{role-0030}
+}
+
+\p{There are also general [philosophical arguments](role-002Z) against trying to make the concept of a \em{logically-good reason} explanatorily-prior to the concept of a \em{good reason} (simpliciter), but let's not focus on these now.}
+}
+
+\subtree{\title{Preliminaries}
+\subtree{\title{Implication frames}
+\p{Inferentialist semantics foregrounds \em{inference} as the subject matter. A simple idea is that inferences connect sets of \em{claimables}.}
+
+\p{Let #{\cL} be a [lexicon](phil-01B6), a set of claimables. Let #{S:=\cP(\cL)^2} be the space of possible implications.}
+
+\p{An \em{implication frame} (or \em{vocabulary}) is a lexicon equipped with a distinguished subset of implications, #{\II\subseteq S}. This is a context in which certain things can be claimed and certain inferential moves are good.}
+
+\p{Any implication in an implication frame has a \em{range of subjunctive robustness}:}
+##{{RSR(\Gamma\vsim\Delta) := \{(\Theta,\Lambda) \in S\ |\ (\Theta\cup\Gamma,\Lambda\cup\Delta) \in \II\}}}
+
+\p{These are the set of contexts (thinking of an implication also playing the role of a context for other implications) in which an implication is good. This is the \em{inferential role} of the implication.}
+
+
+\p{We can give a canonical role to each claimable:}
+
+##{
+\begin{align*}
+  \cR^+: \cL \rightarrow \cR     & := a\mapsto (RSR(a \vsim \varnothing)) \\
+  \cR^-: \cL \rightarrow \cR     & := a\mapsto (RSR(\varnothing \vsim a)) \\
+  \cR^\pm: \cL \rightarrow \cR^2 & := \cR^+ \times \cR^-
+\end{align*}
+}
+
+\p{So we can use implications as a way of talking about roles (as a syntax / presentation of roles). We also can use \em{sets} of implications to talk about roles. If we have #{RSR(Dense\vsim Heavy)}, which includes things like #{{Tuesday\vsim\varnothing}} and #{{\varnothing\vsim ZeroGravity}}, and we have #{RSR(IsH_2O\vsim Liquid)}, including things like #{RoomTemp\vsim\varnothing}, we should interpret #{{RSR(\{(Heavy\vsim Dense), (Water\vsim Liquid)\})}} as the contexts which make \em{both} implications good, i.e. the intersection of the roles. Let #{\cD:=\cP(S)} be the set of possible \em{descriptions} and #{{RSR(\cX \in \cD) := \bigcap_{x\in \cX} RSR(x)}}. This is also written as #{\cX^*}. Because both roles and descriptions are both 'just' sets of implications, we can apply #{-^*} to them to interconvert between them.}
+
+\p{We can also combine descriptions / roles:}
+
+##{
+\begin{align*}
+  \text{Descriptions: } X \sqcup Y & := \{i_1\cup i_2\ |\ (i_1,i_2) \in X\times Y\}                                   \\
+  \text{Roles: } \cX \sqcup \cY    & := \{i_1\cup i_2\ |\ (i_1,i_2) \in \cX^*\times \cY^*\}^* = (\cX^*\sqcup \cY^*)^*
+\end{align*}
+}
+
+}
+\subtree{\title{Interpretations}
+
+\p{Now we know what the basic objects of our study are. How do they relate to each other?}
+
+\p{We can take a lexicon and assign its claimables to pairs of roles of some other implication frame. This is an interpretation function #{\brack{-}: \cL_A \rightarrow \cR_B^2} which assigns a claimable a \em{premisory} and a \em{conclusory} role. We can think of it equivalently as a pair of functions #{\brack{-}^+, \brack{-}^-}.}
+
+\p{Any interpretation function also assigns roles to a \em{set} of claimables: #{\brack{\Gamma} := \bigsqcup_{\gamma \in \Gamma} \brack{\gamma}}}
+
+\p{For example, the premisory role of #{Heavy} and the premisory role for #{Water} get combined into a premisory role for #{Heavy,Water} by taking all pairs ....}
+
+\p{Any interpretation #{\brack{-}_f} gives us a notion of whether implication #{\Gamma\vsim \Delta \in S_A} is good:}
+
+##{\Gamma \vDash_f \Delta := \brack{\Gamma}^+_f \sqcup \brack{\Delta}^-_f}
+
+\p{E.g. #{\brack{Dense \vsim Heavy}}, under an interpretation into an implication frame of worldly states. where #{\brack{Dense}^+} are the truthmakers of #{Dense} and #{\brack{Heavy}^-} are the falsemakers of #{Heavy}. This is a good implication if there are every possible combination of truthmaker for #{Dense} and falsemaker for #{Heavy} is an impossible state.}
+
+\p{So interpretations act on bearers directly, indirectly on implications. What about roles? We have}
+
+##{\brack{\cR}': \cR_A \rightarrow \cR_B :=(\bigcup_{i \in \cR^*}\brack{i})^* = \bigcup_{i \in \cR^*}\brack{i}^*}
+
+\p{Interpretation functions #{\brack{-}_f}can be factored uniquely through #{{\cR^\pm}: #{\brack{-}_f=\cR^\pm \cdot (\brack{-}'_f)^2}}. The 'role interpretation' function #{\brack{-}'} is a meet-semilattice morphism.}
+}
+
+\subtree{\title{Categories}
+\p{There is a category of interpretation functions, derived from the subcategory of meet-semilattice morphisms.}
+\p{This is not a [full](math-006D) subcategory, because the role assigned to #{RSR(\Gamma\vsim\Delta)} is determined by where the #{RSR(\gamma)}'s and #{RSR(\delta)}'s are sent.}
+\p{This category has }
+}
+}
+

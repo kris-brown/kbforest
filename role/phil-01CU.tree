@@ -1,15 +1,15 @@
 \date{2024-06-03}
-\title{Implication space interpretation function}
+\title{Implication space interpretation function (R4L)}
 \import{macros}
 
 \subtree{\taxon{definition}\number{70}
-\p{An interpretation function assigns sentences of a language #{\mathfrak{L}} to conceptual contents #{\mathbb{C}} of an an [implication frame](phil-01CO) #{(\mathcal{L}, \mathbb{I})}. This can be freely chosen for atomic sentences, (#{\brack{A} := (a^+,a^-) \in \mathbb{C}}).
+\p{An interpretation function assigns sentences of a language #{\mathfrak{L}} to [conceptual contents](phil-01D6) #{\mathbb{C}} of an an [implication frame](phil-01CO) #{(\mathcal{L}, \mathbb{I})}. This can be freely chosen for atomic sentences, (#{\brack{A} := (a^+,a^-) \in \mathbb{C}}).
 
 \ul{
 \li{#{\brack{\neg A}:=(a^-,a^+)}}
 \li{#{\brack{A \rightarrow B} := (a^-\sqcap b^+ \sqcap (a^-\sqcup b^+), a^+ \sqcup b^-)}}
 \li{#{\brack{A \land B}:=(a^+\sqcup b^+, a^-\sqcap b^- \sqcap (a^- \sqcup b^-))}}
-\li{#{\brack{A \vee B}:=(a^+\sqcap b^+ \sqcap (a^+\sqcup b^-), a^- \sqcup b^-)}}
+\li{#{\brack{A \vee B}:=(a^+\sqcap b^+ \sqcap (a^+\sqcup b^+), a^- \sqcup b^-)}}
 }
 }
 }

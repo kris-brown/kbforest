@@ -1,0 +1,13 @@
+\date{2024-07-30}
+\title{Category of reason relations and exact interpretations}
+\import{macros}
+
+\taxon{definition}
+\p{The objects of the category are reason relations ([implication frames](phil-01CO))}
+\p{A morphism from #{(\cL_A,\II_A)\rightarrow (\cL_B, \II_B)} is an [interpretation function](phil-01CU) #{\brack{\cdot}} sending bearers of #{A} to conceptual contents in #{B} such #{\II_A} is fully determined by [content entailment](phil-01CS):}
+
+##{ (\Gamma \vsim_A \Delta) \iff \brack{\Gamma\vsim\Delta} \in \II_B}
+
+\p{Every reason relation has an identity interpretation function with #{\gamma \mapsto \langle\cR^+(\gamma),\cR^-(\gamma)\rangle}.}
+
+% \transclude{role-002J}

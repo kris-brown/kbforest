@@ -1,0 +1,6 @@
+\date{2024-08-03}
+\title{Zero object of dual category is the same}
+\taxon{proposition}
+
+\p{The [opposite category](math-005U) of a category with a [zero object](math-005R) has the same object as its zero object.}
+

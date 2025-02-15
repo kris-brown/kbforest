@@ -1,0 +1,7 @@
+\date{2024-07-28}
+\title{Graph}
+\taxon{definition}
+
+\p{A \em{directed, multigraph} consists in a pair of sets #{V, E} and a pair of functions #{src, tgt: E \rightarrow V} which assign, for each edge, its source and target vertex.}
+
+\p{This is also called a \em{quiver}.}

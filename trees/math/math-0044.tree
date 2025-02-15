@@ -1,0 +1,10 @@
+\date{2024-07-22}
+\title{Pretopos}
+\meta{external}{https://ncatlab.org/nlab/show/pretopos}
+\subtree{
+  \taxon{definition}
+  \p{A pretopos is a [category](math-000D) which is [exact](math-0045) and [extensive](math-0046)}
+}
+
+
+\p{Any pretopos is [coherent category](math-003H)}

@@ -1,0 +1,5 @@
+\date{2024-08-03}
+\title{Additive category}
+\meta{external}{https://ncatlab.org/nlab/show/additive+category}
+\taxon{definition}
+\p{An \em{additive} [category](math-000D) is one [enriched](math-0060) in [Ab](math-0061) which admits finite [coproducts](math-004D).}

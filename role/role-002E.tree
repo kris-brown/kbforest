@@ -1,0 +1,28 @@
+\title{Check in with with David}
+\date{2024-07-30}
+\import{macros}
+
+\subtree{\title{Int-Sheaves}
+\p{Possibly we could represent the internal structure of a reason relation with an Int-Sheaf}
+
+
+\p{#{Int} = [Twisted arrow](math-005Q) category of #{(\NN, +, 0)}}
+
+\p{Morphisms are how much is leftover on the left and how much is leftover on the right}
+
+\p{#{\Hom_{Int}(1,2) = {(a,b)|a+1+b=2}}}
+
+\p{These are a topos. What is the internal logic?}
+
+
+\p{#{X:Int^{op}\rightarrow \cat{Set}} = the set of X behaviors of length to}
+}
+\subtree{\title{More things to investigate}
+  \p{To do: explore all the reason relations with 0 and 1 bearers, the maps into them and maps out of them.}
+
+  \p{Look at products in the RR category with strict interpretation functions}
+
+  \p{Is the RR with zero bearers both a terminal and initial object?}
+
+  \p{Look for biproducts in the category.}
+}

@@ -1,0 +1,9 @@
+\date{2024-09-15}
+\title{End (category theory)}
+\taxon{definition}
+\import{macros}
+
+\p{Given a [difunctor](math-007C) #{P: \cat{C}^{op}\times \cat{C}\rightarrow \cat{D}}, the \em{end} of #{P} is the [terminal object](math-001G) of the [category of wedges](math-007H) of #{P}.}
+
+
+##{\int_{x:\cat{C}} P(\bar x,x)}

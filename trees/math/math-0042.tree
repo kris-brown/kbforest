@@ -1,0 +1,6 @@
+\date{2024-07-22}
+\title{Equalizer}
+\taxon{definition}
+\meta{external}{https://ncatlab.org/nlab/show/equalizer}
+
+\p{An \em{equalizer} is a [limit](math-0026) of a diagram of the shape #{\bullet \rightrightarrows \bullet}.}

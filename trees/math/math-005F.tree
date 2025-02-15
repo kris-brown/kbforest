@@ -1,0 +1,20 @@
+\date{2024-07-28}
+\title{Symmetric monoidal paracategory}
+\import{macros}
+\taxon{definition}
+
+\p{A \em{strict symmetric monoidal paracategory} #{(\cat{C}, [-], \otimes, I, \sigma)} consists of:}
+
+\ul{
+\li{A [paracategory](math-005A) #{(\cat{C}, [-])}}
+\li{A [functor](math-005C) #{\otimes: C \times C \rightarrow C} and an object #{I} such that \ul{
+\li{Associativity: #{(A \otimes B)\otimes C=A\otimes(B\otimes C)} for all triples of objects (likewise for arrows)}
+\li{Unitality: #{A \otimes I = A = I \otimes A} and #{f\otimes 1_I = f = 1_I \otimes f} for all #{A} and #{f}.}}
+}
+\li{For all objects #{A,B}, an arrow #{\sigma_{A,B}: A\otimes B \rightarrow B\otimes A} such that
+\ul{
+\li{Totality: for every #{f: X \otimes B \otimes A \rightarrow Y} and #{g: Y \rightarrow X \otimes A \otimes B}, #{[1_X\otimes \sigma_{A,B},f]} and #{[g,1_X\otimes \sigma_{A,B}]} are both defined.}
+\li{Naturality: For all #{f:A\rightarrow A'} and #{g: B \rightarrow B'}, #{{[f\otimes 1_B, \sigma]=[\sigma,1_B\otimes f]}} and #{{[1_A\otimes g, \sigma]=[\sigma, g\otimes 1_A]}}}
+\li{Symmetry: #{[\sigma_{A,B},\sigma_{B,A}]= 1_{A\otimes B}}}
+\li{Hexagon: For all triples #{A,B,C}, #{\sigma_{A,B\otimes C} = [\sigma_{A,B}\otimes 1_C,1_B\otimes\sigma_{A,C}]}}}}
+}

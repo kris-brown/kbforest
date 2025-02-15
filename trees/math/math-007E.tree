@@ -1,0 +1,5 @@
+\date{2024-09-15}
+\title{Constant functor}
+\taxon{definition}
+\import{macros}
+\p{A \em{constant} [functor](math-000E) #{K_X: \cat{C}\rightarrow \cat{D}} sends each object in #{\cat{C}} to the object #{X\in \cat{D}} and every morphism in #{\cat{C}} to #{id_X: \Hom_\cat{D}(X,X)}.}

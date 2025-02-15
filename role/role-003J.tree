@@ -1,0 +1,26 @@
+\date{2024-08-25}
+\title{Implication frame interpretation function}
+\import{macros}
+\subtree{\taxon{definition}
+
+\p{An [implication frame](role-0036) \em{interpretation function} #{A\rightarrow B} is a function #{\brack{-}: \cL_A+\cL_A \rightarrow \cR_B} (a pair of functions, #{\brack{-}^+} and #{\brack{-}^-}).}
+}
+
+\p{This is assigning each claimable a \em{premisory role} and a \em{conclusory role}.}
+
+\transclude{role-003T}
+
+\p{Consider how interpretation functions act on sequents:}
+
+\transclude{role-003K}
+
+\p{Given this, we know how all the atoms get mapped. If we define interpretation of roles as #{{\brack{\cR_1 \vee \cR_2} := \brack{\cR_1} \vee \brack{\cR_2}}}, this uniquely picks out a join-semilattice morphism. And any join-semilattice morphism which satisfies the above law determines an interpretation function. As the latter compose (associatively) and have a clear identity morphism, we have a category of interpretation functions.}
+
+\transclude{role-003P}
+
+\p{Again, we have a variety of choices of constraints to possibly put on the morphisms of a category of interpretation functions, using the #{\II} data.}
+
+\transclude{role-002F}
+\transclude{role-003Q}
+
+

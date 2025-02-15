@@ -1,0 +1,19 @@
+\date{2024-07-22}
+\title{Kernel pair is always a congruence}
+
+\taxon{proposition}
+
+\p{A [kernel pair](math-0047) of a morphism #{f: X \rightarrow Y} is always an [internal congruence](math-0049).}
+
+\subtree{\taxon{proof}
+
+\p{The kernel pair has a pair of maps #{(p_1,p_2): A \rightarrow X\times X}.}
+
+\p{TODO: }
+
+\ol{
+\li{Show that #{(p_1,p_2)} is monic}
+\li{Show reflexivity}
+\li{Show symmetry: (because #{p_1=p_2}, we get symmetry for free)}
+\li{transitivity}}
+}

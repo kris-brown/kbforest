@@ -1,0 +1,4 @@
+\date{2024-08-23}
+\title{Reflective subcategory}
+\taxon{definition}
+\p{A [full subcategory](math-006D) is \em{reflective} if the inclusion functor has a [left adjoint](math-0028), called a \em{reflector}.}

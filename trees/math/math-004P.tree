@@ -1,0 +1,11 @@
+\date{2024-07-23}
+\title{Concrete interpretation of first-order structures}
+\taxon{definition}
+\import{macros}
+
+\p{Given an #{\cL}-[structure](math-004M) #{M} and #{\cL'}-structure #{M'}, a \em{concrete interpretation} #{(f,f^*): M \rightarrow M'} consists in:}
+
+\ul{
+\li{For each sort #{S} in #{\cL}, a [definable set](math-004O) #{U_S} in #{M'} and a [surjective function](math-002J) #{U_S\twoheadrightarrow M(S)}. This assignment must preserve products.}
+\li{Such that for every sort #{S} in #{\cL} and definable set #{V \subseteq M(S)}, the preimage #{f^*(V)} is definable in #{M'}.}
+}

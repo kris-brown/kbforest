@@ -1,0 +1,10 @@
+\date{2024-09-01}
+\title{Reflector for join-semilattice subsets}
+
+\p{From "An extension of the Galois Theory of Grothendieck"}
+
+\p{Given any [join semilattice](math-006Z) #{(M,\leq,\vee)} and a subset #{Q\subseteq M} that is closed under [meets](math-006A), one obtains a \em{reflector} #{r:M\twoheadrightarrow Q} }
+
+##{r := m \mapsto \bigwedge \{q \in Q\ |\ r \leq q \}}
+
+\p{#{r} is [left adjoint](math-0028) to the inclusion #{Q\rightarrowtail M}, so it is a valid, surjective join semilattice morphism which exhibits #{Q} as a quotient of #{M}.}

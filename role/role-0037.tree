@@ -1,0 +1,11 @@
+\date{2024-08-22}
+\title{Zazzles}
+\taxon{example}
+\import{macros}
+\import{role-001G}
+\p{Background context: ordinary language context where Zazzles is known to be a cat}
+\ul{\li{#{a=}"Zazzles has 4 legs"} \li{#{b=}"Zazzles lost a leg in an accident"}}
+\RR2{\checkmark}{\times}{\checkmark}{\times}{\times}{\times}{\times}{\checkmark}
+
+\p{Non-monotonicity: adding premise #{b} invalidates the inference #{\vsim a}}
+

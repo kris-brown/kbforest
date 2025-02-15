@@ -1,0 +1,8 @@
+\date{2024-07-23}
+\title{2-category of first-order theories}
+
+\p{The [2-category](math-0012) of [first-order theories](math-004I) has:}
+
+\p{As objects: [first-order theories](math-004I)}
+\p{As morphisms: [strict interpretations](math-004Q)}
+\p{As 2-morphisms: [transformations](math-004Z)}

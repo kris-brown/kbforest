@@ -1,0 +1,5 @@
+\date{2024-09-15}
+\title{(Co)ends as functors for naturals}
+\taxon{proposition}
+\import{macros}
+\p{Given two [difunctors](math-007C) #{P: \cat{C}^{op}\times \cat{C}\rightarrow \cat{D}^{op}}, a [natural transformation](math-002E) #{P\Rightarrow Q} induces a morphism from the [end](math-007I) of #{P} to the end of #{Q} (and likewise for [coends](math-007J)).}

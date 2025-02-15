@@ -1,0 +1,38 @@
+\date{2024-09-01}
+\title{Coequalizers in implication frames with continuous maps}
+\import{macros}
+\import{base-macros}
+
+\p{Once again we'll use colimits in \strong{Set} to define this, but a decision remains to be made about what #{\II} should be. If we made #{\II} empty for the quotient, it would trivially satisfy the continuity constraint (but would then be unable to map into anything else, so we would never obtain a universal map out of the quotient). If we made it total, the coequalizing map from #{B} would not, in general, satisfy the continuity constraint. The universal choice is to make the quotient #{\II} as true as we possibly can, which means we need to know what in #{B} is true in virtue of having two maps #{f,g} from #{A}. This leads to our definition:}
+
+\subtree{\title{Coequalizers}\taxon{definition}
+\p{The [coequalizer](math-005M) of #{\cat{IF_c}} [continuous implication frame](role-0045) maps #{f,g: A \rightrightarrows B}, written as #{Coeq(f,g)} or just #{Q}, has #{\cL_{Q}:=(\cL_A+\cL_B)/\sim} and a coequalizing arrow #{q: B \twoheadrightarrow Q} given by the coequalizer in \strong{Set}. #{\II_Q} is determined by #{{\II_{A}}}:}
+
+##{i \in \II_{Q} := (f;q)^{-1}(i) \in \II_A}
+
+
+\p{Note that #{f;q=g;q}, so it doesn't matter which we pick.}
+}
+
+\subtree{\taxon{proposition}
+\p{#{Q} satisfies the universal property of the coequalizer for any #{h: B \rightarrow X} such that #{f;h=g;h}.}
+
+% https://q.uiver.app/#q=WzAsNCxbMCwwLCJYIl0sWzEsMCwiWSJdLFsyLDAsIlEiXSxbMiwxLCJRJyJdLFsxLDIsInEiXSxbMCwxLCJmIiwwLHsiY3VydmUiOi0xfV0sWzAsMSwiZyIsMix7ImN1cnZlIjoxfV0sWzIsMywidV9oIiwwLHsic3R5bGUiOnsiYm9keSI6eyJuYW1lIjoiZGFzaGVkIn19fV0sWzEsMywiaCIsMl1d
+\quiver{\begin{tikzcd}
+    X & Y & Q \\
+    && {Q'}
+    \arrow["f", curve={height=-6pt}, from=1-1, to=1-2]
+    \arrow["g"', curve={height=6pt}, from=1-1, to=1-2]
+    \arrow["q", from=1-2, to=1-3]
+    \arrow["h"', from=1-2, to=2-3]
+    \arrow["{u_h}", dashed, from=1-3, to=2-3]
+  \end{tikzcd}}
+
+\subtree{\taxon{proof}
+
+\p{Given #{{h}}, the universal property in \strong{Set} gives us the unique morphism #{{u:Q \xrightarrow{u} X}}. That this is unique (if it exists) is given by the fact we are looking at a [subcategory](math-003Z) of [\strong{Set}](math-003L), so we just need to verify that #{u} satisfies the continuity constraint.}
+
+\p{From the assumption that #{i \in \II_{X}}, we need to show that #{u^{-1}(i) \in \II_{Q}}. From how #{\II_Q} is defined, this means showing that #{(f;q)^{-1}(u^{-1}(i)) \in \II_A}. From functorality of the [contravariant power set functor](math-006J), we know #{u^{-1};(f;q)^{-1} = (f;q;u)^{-1} = (f;h)^{-1}}. That #{{f;h}^{-1}(i)\in \II_A} follows from the existence of the composite map #{f;h}, which must obey the continuity constraint.
+
+}
+}}

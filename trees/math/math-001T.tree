@@ -8,6 +8,7 @@
 \p{I.e. #{x \otimes(y \vee z) = (x \otimes y) \vee (x \otimes z)}}
 }
 
+\p{The quantale is \em{unital} if there exists an element #{e} such hat #{x \otimes e = x = e \otimes x}.}
 \p{The quantale is \em{idempotent} if #{x \otimes x = x}.}
 \p{The quantale is \em{affine} if #{\top} is the unit for #{\otimes}.}
 \p{A quantale with an idempotent and affine tensor product is a [frame](math-001V).}

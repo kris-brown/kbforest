@@ -1,0 +1,11 @@
+\date{2024-08-26}
+\title{Antecedent-Adjunction condition}
+\import{macros}
+\taxon{definition}
+
+##{\Gamma, A \land B \vsim \Delta}
+
+\p{iff}
+
+##{\Gamma, A, B \vsim \Delta}
+

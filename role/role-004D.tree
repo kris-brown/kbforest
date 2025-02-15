@@ -1,0 +1,26 @@
+\date{2024-09-17}
+\title{JMM Talk}
+\import{macros}
+\import{base-macros}
+\import{role-001G}
+
+\p{Logic should allow us to reason neutrally about subject matter. We want to say things like "I know #{{a\land b\rightarrow a}} \em{regardless} of what #{a} and #{b} mean!" Logical expressions contain logical symbols (like #{\land, \rightarrow}) as well as nonlogical contents. The nonlogical contents are what logic shouldn't presuppose anything about. Let's fix #{\cL=\{a,b\} } for our nonlogical symbols. This above theorem holds for all 4 possible truth assignments, #{(a=\top,b=\top), (a=\top,b=\bot),(a=\bot,b=\top),(a=\bot,b=\bot)}.}
+
+
+\p{This \em{seems} neutral, but it's not if what we fundamentally care about are \em{inferences} between nonlogical contents. A category theorist might have the intuition that understanding #{a} is a matter of understanding #{a}'s relationships to the other contents of #{\cL}.}
+
+\p{The fundamental question isn't "Is #{a} true?", it's "Does #{c} follow from #{a, b}?". Our real space of possibilities is #{2^{|\cL|^2} = 2^{|\cL|_{prem} + |\cL|_{conc}}}. We have a set of claims on either side of the turnstile: e.g. #{a,b\vdash c}. This is read as "it's out of bounds to assert everything on the left while rejecting everything on the right".}
+
+\p{The rules of classical logic are \em{not} neutral with respect to all of these possibilities: for example, they exclude this one for #{\cL=\{a,b\}}:}
+
+\RR2{\checkmark}{\times}{\times}{\times}{\times}{\times}{\times}{\checkmark}
+
+\p{Where we let #{a^+} represent #{a} being a premise (on the left) and #{a^-} represent #{a} being a conclusion (on the right).}
+
+\p{This is because logical consequence relations are \em{monotonic}: #{\ \ \vdash a \Rightarrow b \vdash a}}
+
+\p{Note that monotonicity is responsible for explosion: #{\ \ a \vdash \ \  \Rightarrow a \vdash b}}
+
+\p{Thus any logic that understands content as fundamentally relational cannot be a monotonic logic.}
+
+\p{Should this be possible? (Examples)}

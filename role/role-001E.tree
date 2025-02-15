@@ -1,5 +1,7 @@
-\date{2024-06-28}
 \title{Update for ROLE group}
+\date{2024-07-22}
+\import{macros}
+
 \put\transclude/expanded{false}
 
 \subtree{\title{Goals}
@@ -8,40 +10,46 @@
   \ul{
     \li{Theoretical goal: this will make it natural/inevitable how to generalize to predicate logic.}
     \li{Practical goal: this will make writing software (argument analysis, belief revision, NLP with logical constraints) easier.}
-    \li{Force multiplier: this will get more people from our community interested in logical expressivism.}
-    \li{Funding: some preliminary results could be used in some NSF grant applications in September.}
+    \li{Force multiplier: this will get more people from our community interested in logical expressivism. (There is synergy between inferentialist semantics and category-theoretic attitudes in mathematics).}
+    \li{Funding: some preliminary results could be used in an NSF grant application in September.}
   }
   \p{Progress: initial understanding of the problems that seem promising to tackle.}
+
+  \ul{
+    \li{Investigation into whether categorical logic is applicable to ROLE}
+    \li{Some prototype software for computing with reason relations}
+    \li{Looking into alternative descriptions of implication frames / implication spaces
+      \ul{
+        \li{[Monoidal categories](role-001B)}\li{[Monads on \strong{Set}](role-001C)}\li{[Quantales](role-0014)}}}
+    \li{Some milage out of understanding interpretation functions as morphisms between reason relations}
+    \li{An approach to thinking about the order of explanation and mutual sense dependence}
+    \li{Some initial formalizations of induced belief dynamics}
+  }
 }
 
-
-\subtree{\title{Goal: predicate logic}
-  \transclude{role-001Z}
-  \transclude{role-0020}
+\subtree{\title{Background: categorical logic}
+\transclude{role-001Z}
+\transclude{role-0020}
+\p{Normal use of categorical logic interprets the turnstile as a kind of morphism that can presumably be composed (transitivity). If we use categorical logic, the "types" will have to be things like #{{a,b\vsim c,d}} rather than #{a} or #{b}.}
 }
+
 \transclude{role-001W}
+\transclude{role-0022}
+\transclude{role-0023}
 
-\subtree{\title{What is the structure of a reason relation?}
-  \p{Implication frames are a set + a binary relation on its power set.}
-  \transclude{role-001B}
-  \p{In addition to thinking of the power set / multiset as a special cases of monoidal categories, we can also think of them as special cases of monads on \strong{Set}:}
-  \transclude{role-001C}
-  \p{We can also think about quantales}
-  \transclude{role-0014}
-}
-
-\transclude{role-001G}
-
-\transclude{role-000C}
 
 \subtree{\title{Dynamics}
   \transclude{role-0018}
-  \transclude{role-000F}
   \transclude{role-001I}
+  \transclude{role-0025}
 }
 
 \subtree{\title{Negative results}
-\p{Category theory was able to redescribe set theory with #{\subseteq} as primitive, not #{\in} as primitive. Can we do something similar?}
+
+\p{First idea for how to do first order logic in a R4L-like way:}
+\transclude{role-001Y}
+
+\p{Category theory was able to redescribe set theory with functions as primitive, not #{\in} as primitive. Can we do something similar?}
 \subtree{\title{Preorder of RSRs rather than distinguished subset}
 \p{I [tried](role-000A) seeing if we could get away with a reason relation defined purely in terms of a set of implications, their additive monoidal structure, and an RSR preorder.}
 \p{This has \em{less} information than reason relations with a distinguished subset of good implications, because we only know relationally when an implication's RSR is subsumed by another's.}

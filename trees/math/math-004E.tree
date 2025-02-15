@@ -1,0 +1,34 @@
+\date{2024-07-23}
+\title{Disjoint coproduct}
+\taxon{definition}
+\meta{external}{https://ncatlab.org/nlab/show/disjoint+coproduct}
+\import{macros}
+
+\p{A binary coproduct #{a+b} in a [category](math-000D) is \em{disjoint} if}
+\ol{
+\li{the coprojections  #{a \rightarrowtail a+b} and #{b \rightarrowtail a+b} are [monic](math-003X)}
+\li{their intersection is an initial object}
+}
+
+\p{I.e. the following pullbacks exist:}
+
+% https://q.uiver.app/#q=WzAsMTIsWzAsMCwiYSJdLFsxLDAsImEiXSxbMCwxLCJhIl0sWzEsMSwiYStiIl0sWzIsMCwiYiJdLFszLDAsImIiXSxbMiwxLCJiIl0sWzMsMSwiYStiIl0sWzQsMCwiMCJdLFs0LDEsImEiXSxbNSwwLCJiIl0sWzUsMSwiYStiIl0sWzgsOV0sWzgsMTBdLFsxMCwxMSwiXFxpb3RhX2IiXSxbOSwxMSwiXFxpb3RhX2EiLDJdLFsyLDMsIlxcaW90YV9hIiwyXSxbMSwzLCJcXGlvdGFfYSJdLFs2LDcsIlxcaW90YV9iIl0sWzUsNywiXFxpb3RhX2IiXSxbOCwxMSwiIiwxLHsic3R5bGUiOnsibmFtZSI6ImNvcm5lciJ9fV0sWzQsNywiIiwyLHsic3R5bGUiOnsibmFtZSI6ImNvcm5lciJ9fV0sWzAsMywiIiwyLHsic3R5bGUiOnsibmFtZSI6ImNvcm5lciJ9fV0sWzAsMiwiIiwxLHsibGV2ZWwiOjIsInN0eWxlIjp7ImhlYWQiOnsibmFtZSI6Im5vbmUifX19XSxbMCwxLCIiLDEseyJsZXZlbCI6Miwic3R5bGUiOnsiaGVhZCI6eyJuYW1lIjoibm9uZSJ9fX1dLFs0LDUsIiIsMCx7ImxldmVsIjoyLCJzdHlsZSI6eyJoZWFkIjp7Im5hbWUiOiJub25lIn19fV0sWzQsNiwiIiwwLHsibGV2ZWwiOjIsInN0eWxlIjp7ImhlYWQiOnsibmFtZSI6Im5vbmUifX19XV0=
+\quiver{\begin{tikzcd}
+    a & a & b & b & 0 & b \\
+    a & {a+b} & b & {a+b} & a & {a+b}
+    \arrow[Rightarrow, no head, from=1-1, to=1-2]
+    \arrow[Rightarrow, no head, from=1-1, to=2-1]
+    \arrow["\lrcorner"{anchor=center, pos=0.125}, draw=none, from=1-1, to=2-2]
+    \arrow["{\iota_a}", from=1-2, to=2-2]
+    \arrow[Rightarrow, no head, from=1-3, to=1-4]
+    \arrow[Rightarrow, no head, from=1-3, to=2-3]
+    \arrow["\lrcorner"{anchor=center, pos=0.125}, draw=none, from=1-3, to=2-4]
+    \arrow["{\iota_b}", from=1-4, to=2-4]
+    \arrow[from=1-5, to=1-6]
+    \arrow[from=1-5, to=2-5]
+    \arrow["\lrcorner"{anchor=center, pos=0.125}, draw=none, from=1-5, to=2-6]
+    \arrow["{\iota_b}", from=1-6, to=2-6]
+    \arrow["{\iota_a}"', from=2-1, to=2-2]
+    \arrow["{\iota_b}", from=2-3, to=2-4]
+    \arrow["{\iota_a}"', from=2-5, to=2-6]
+  \end{tikzcd}}

@@ -1,0 +1,4 @@
+\date{2024-09-15}
+\title{Wedge morphism}
+
+\p{A morphism of [wedges](math-007D) #{(X,\alpha) \rightarrow (X', \alpha')} for a [difunctor](math-007C) #{P: \cat{C}^{op}\times \cat{C}\rightarrow \cat{D}} is a morphism #{f: X\rightarrow Y} in #{\cat{D}} such that #{\alpha_c = f;\alpha_c'} for every #{c \in \cat{C}}.}

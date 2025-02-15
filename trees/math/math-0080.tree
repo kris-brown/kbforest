@@ -1,0 +1,5 @@
+\date{2025-02-10}
+\title{Valuation (propositional logic)}
+\taxon{definition}
+
+\p{A \em{valuation} for a set of atomic sentences #{\cL} is a function #{\cL\rightarrow \{\top,\bot\} }. It assigns each atomic sentence a truth value.}

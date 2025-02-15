@@ -152,7 +152,7 @@
 }
 
 \def\quiver[body]{
-  \tex{\usepackage{quiver}}{\body}
+  \tex{\usepackage{quiver, cmll}}{\body}
 }
 
 \def\bussproofs[body]{
@@ -163,4 +163,12 @@
 
 \def\image[source]{
 \<html:img>[src]{\source}{}
+}
+
+% Just copy the text of a note in
+\def\copy[body]{
+\scope{
+\put\transclude/heading{false}
+\transclude{\body}
+}
 }

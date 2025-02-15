@@ -1,0 +1,6 @@
+\date{2024-08-30}
+\title{Diagram (in a category)}
+\taxon{definition}
+\import{macros}
+
+\p{A \em{diagram} in a category #{\cat{C}} is a (typically [small](small cat)) category #{\cat{J}} (called the \em{indexing} or \em{shape} category) and a [functor](math-000E) #{D: \cat{J}\rightarrow \cat{C}}.}

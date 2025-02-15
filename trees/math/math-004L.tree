@@ -1,0 +1,13 @@
+\date{2024-07-23}
+\title{Model of first-order theory}
+\taxon{definition}
+\import{macros}
+
+\p{A \em{model} #{M} of a [first-order theory](math-004I) #{T} in a [first-order language](math-004G) #{\cL} consists in:}
+
+\ul{
+\li{For each sort #{S} in #{\cL}, an assignment of a set #{M(S)}.}
+\li{For each function #{f} in #{\cL}, an assignment of a set-[function](math-000V) #{M(f)} consistent with the sort assignment.}
+\li{For each relation #{R} in #{\cL}, an assignment of a set-[relation](math-0002) #{M(R)} consistent with the sort assignment.}
+\li{Such that for all #{\cL} sentences #{\psi}, if #{T \vDash \psi} then #{M(\psi)=1}.}
+}

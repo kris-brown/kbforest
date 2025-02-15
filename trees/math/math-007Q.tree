@@ -1,0 +1,25 @@
+\date{2024-12-27}
+\title{Virtual double category of matrices}
+\taxon{definition}
+\import{macros}
+
+\p{Let #{(V,\otimes,I)} be a [monoidal category](math-0021). The [virtual double category](math-007O) #{V\text{-}{\MM}at} has:}
+
+\ul{
+\li{[Set](math-003L) as its tight category}
+\li{As loose morphisms #{X \pro Y}: #{X \times Y}-matrices valued in #{\Ob V}}
+\li{As cells: for each tuple #{(x_0,...,x_n)\in X_0 \times ... \times X_n}, a #{V}-arrow}}
+##{p_1[x_0,x_1]\otimes p_2[x_1,x_2] \otimes ... \xrightarrow{\alpha_{(x_0,...,x_n)}} q[f(x_0),g(x_n)]}
+
+% https://q.uiver.app/#q=WzAsNSxbMCwwLCJYXzAiXSxbMSwwLCIuLi4iXSxbMiwwLCJYX24iXSxbMCwxLCJZXzAiXSxbMiwxLCJZXzEiXSxbMCwxLCJwXzEiXSxbMyw0LCJxIiwyLHsic3R5bGUiOnsiYm9keSI6eyJuYW1lIjoiYmFycmVkIn19fV0sWzEsMiwicF9uIl0sWzAsMywiZiIsMl0sWzIsNCwiZyJdLFsxLDYsIlxcYWxwaGEiLDEseyJzaG9ydGVuIjp7InRhcmdldCI6MjB9LCJzdHlsZSI6eyJib2R5Ijp7Im5hbWUiOiJub25lIn0sImhlYWQiOnsibmFtZSI6Im5vbmUifX19XV0=
+\quiver{\begin{tikzcd}
+	{X_0} & {...} & {X_n} \\
+	{Y_0} && {Y_1}
+	\arrow["{p_1}", from=1-1, to=1-2]
+	\arrow["f"', from=1-1, to=2-1]
+	\arrow["{p_n}", from=1-2, to=1-3]
+	\arrow["g", from=1-3, to=2-3]
+	\arrow[""{name=0, anchor=center, inner sep=0}, "q"', "\shortmid"{marking}, from=2-1, to=2-3]
+	\arrow["\alpha"{description}, draw=none, from=1-2, to=0]
+\end{tikzcd}
+}

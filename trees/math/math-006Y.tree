@@ -1,0 +1,5 @@
+\date{2024-08-30}
+\title{Join semilattices are filtered categories}
+\taxon{proposition}
+
+\p{A [join semilattice](math-006Z) has all [joins](math-001U), hence every [diagram](math-006W) in a join semilattice has a cocone.}

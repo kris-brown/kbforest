@@ -1,0 +1,31 @@
+\date{2024-08-20}
+\title{Example reason relation for prospective rationality}
+\import{macros}
+
+\p{Let #{CM} and #{QM} be sets of propositions characterizing the commitments of classical and quantum mechanics, respectively.}
+
+\p{Let #{Slit} be the propositions associated with the double slit experiment (that the setup was such-and-such, that such-and-such was observed).}
+
+\blockquote{Feynman was fond of saying that all of quantum mechanics can be gleaned from carefully thinking through the implications of this single experiment}
+
+\p{Let #{Particle} and #{Wave} be the claims that the matter involved in the experiment was particle-like and wave-like, respectively.}
+
+\p{#{AppleFalls} stands for the kinds of observations Newton made, #{Duality} is the claim matter can have both wave and particle properties.}
+
+##{
+\begin{align*}
+  AppleFalls                 & \vsim CM           \\
+  CM,Particle                & \vsim Collisions   \\
+  CM,Wave                    & \vsim Interference \\
+  CM,Collisions,Interference & \vsim              \\
+  CM, Particle,Wave          & \vsim              \\
+  CM,Slit                    & \vsim Duality      \\
+  CM, Duality                & \vsim              \\
+  CM, Duality                & \vsim QM           \\
+  CM, QM                     & \vsim              \\
+  QM                         & \vsim Slit         \\
+  QM, Slit                   & \vsim Duality      \\
+  QM                         & \vsim AppleFalls
+\end{align*}
+
+}

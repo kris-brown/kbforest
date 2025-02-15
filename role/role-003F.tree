@@ -1,0 +1,7 @@
+\date{2024-08-24}
+\title{Conic implication space models}
+\taxon{definition}
+\number{94}
+\import{macros}
+
+\p{An implication space model #{\cM} is \em{conic} if it is reflexive, and there is a pair #{(\Gamma,\Delta)} such that #{X \nvsim_\cM} iff #{(X,Y) \in \cP(\Gamma)\times\cP(\Delta)}}

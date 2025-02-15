@@ -1,0 +1,14 @@
+\date{2024-09-02}
+\title{Idea predicate logic makes interpretation functions explicit}
+
+\p{The classical logic connectives make explicit the structure of arbitrary implication frames. This is post-complete.}
+
+\p{This might be evidence that it's a dead end to try to deduce what predicate logical symbols make explicit via looking at (particular) implication frames.}
+
+\p{It's possible that predicate logic makes something else explicit: interpretation functions. The idea here is that #{P(x)} and #{Q(x)} share some common content, they are responsible to the same object, but the inferentialist notion of conceptual content is inferential role.}
+
+\p{So, for example if #{P(x)} were a function #{P \sqcup -} (likewise for #{Q(x)}), and,  we might have #{[\forall x, P(x)\rightarrow Q(x)]} true if for all interpretation functions ...}
+
+\p{Handling multiple arguments is tricky because implication frames have no ordering, but we can understand the arguments as indexed by some set: #{P(x,y)} is #{P(p1=x, p2=y)}. ... and we interpret #{p1,p2} as roles.}
+
+\p{(This all needs to be worked out)}

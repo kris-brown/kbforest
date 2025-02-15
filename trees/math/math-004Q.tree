@@ -1,0 +1,5 @@
+\date{2024-07-23}
+\title{Strict concrete interpretation of first-order structures}
+\taxon{definition}
+
+\p{A [concrete interpretation of first-order structures](math-004P) is \em{strict} if each #{f} component is [injective](math-002L).}

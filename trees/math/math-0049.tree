@@ -1,0 +1,13 @@
+\date{2024-07-22}
+\title{Internal congruence}
+\meta{external}{https://ncatlab.org/nlab/show/congruence#definitions}
+\taxon{definition}
+\import{macros}
+
+\p{In a [category](math-000D) #{\cat{C}} with [pullbacks](math-000J), a \em{congruence} on an object #{X} is a [subobject](math-003W) #{(p_1,p_2): R \rightarrowtail X \times X} which is }
+
+\ul{
+\li{internally reflexive: there exists a morphism #{r: X \rightarrow R} such that #{r \cdot p_1 = r \cdot p_2 = 1_X}}
+\li{internally symmetric: #{s: R\rightarrow R} interchanges #{p_1} and #{p_2} must satisfy #{s \cdot p_1 = p_2} and #{s \cdot p_2= p_1}.}
+\li{internally transitive: (TODO)}
+}

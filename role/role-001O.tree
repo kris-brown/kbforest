@@ -1,27 +1,12 @@
 \date{2024-07-05}
 \title{Reasons for logical expressivism}
 
-\p{This is a growing (inexhaustive) list of convincing, cogent examples of things one can do or explain when taking the perspective of logical expressivism.}
+\p{This is an inexhaustive list of cogent points about things one can do or explain when taking the perspective of logical expressivism.}
 
-\subtree{\title{Contra logicism}
-\p{Let logicism be the idea that what one means by #{\phi} is most perspicuously / fundamentally expressed by truth conditions in some logical syntax.}
+\p{They are largely arguments against \em{logicism}: the idea that behind every good reason is a \em{logically-good} reason. This has the consequence that what one means by #{\phi} is most perspicuously / fundamentally expressed by truth conditions in some logical syntax.}
 \ul{
   \li{ To the extent we cannot do this, our specification of the meaning was 'hazy' / 'ill-defined'.}
   \li{ To the extent we need to revise these truth conditions, our specification was wrong / incorrect.}
 }
 
-\ul{
-\li{Logicists cannot explain how we have reasons to accept or reject certain claims (something we \em{do}) via the [Harmon point](role-001L). Conversely, we can understand the logical syntax as expressing the (explanatorily prior) relations of reasons-for and reasons-against.}
-\li{Logicists take as their starting point the exclusive bivalence of truth and falsity: saying the incompatibility of #{p} and #{q} is symmetric follows from the asymmetry of #{\neg(p\land q)}. This presupposes the symmetry rather than [explaining](role-001Q) it.}
-
-\li{Logicism is committed to reason relations having a topological closure structure. We can't say we actually have a reason if it doesn't have this property, yet all such reasons have an implicit "all else equal". Logicism implicitly commits us to skepticism, saying we the only kinds of claimables we have reasons for are tautologies (e.g. #{((Bird \rightarrow CanFly) \land Bird) \rightarrow CanFly} but not #{Bird \rightarrow CanFly}).}
-
-\li{Logicism rules out the possibility of non-logical conceptual content. This leads to problems like changing definitions and the paradox of analysis.}
-}
-
-
-\p{Other arguments that come to mind (not in the book)}
-\ul{
-  \li{We can understand logically-good in terms of materially good but not vice-versa}
-  \li{Achilles and the Tortoise: we're drawn to logical vocabulary because any particular move can be turned into a logical principle, but this ultimately floats on a sea of common practices.}}
-}
+\transclude{role-002Z}

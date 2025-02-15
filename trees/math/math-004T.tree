@@ -1,0 +1,11 @@
+\date{2024-07-23}
+\title{Category of definable sets of a first-order theory has all finite limits}
+\taxon{proposition}
+
+\p{The [category of definable sets of a first-order theory](math-004R) has all finite [limits](math-0026).}
+
+
+\subtree{\taxon{proof}
+  \p{Proposition 3.5 of Jesse Han's "Theories, interpretations, and pretoposes"}
+  \p{(Shown using the fact that [equalizers and products generate all finite limits](math-004U).)}
+}

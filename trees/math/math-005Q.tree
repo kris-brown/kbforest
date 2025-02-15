@@ -1,0 +1,22 @@
+\date{2024-07-30}
+\title{Twisted arrow category}
+\taxon{definition}
+\import{macros}
+
+\p{The \em{twisted} [arrow category](math-0064) of a [category](math-000D) #{\cat{C}} has:}
+
+\ul{
+\li{As objects, morphisms in #{\cat{C}}}
+\li{As morphisms #{a\xrightarrow{f}b \rightarrow c\xrightarrow{g}d}, squares of the form:
+% https://q.uiver.app/#q=WzAsNCxbMCwwLCJBIl0sWzAsMSwiQiJdLFsxLDAsIkMiXSxbMSwxLCJEIl0sWzIsMCwicCIsMl0sWzEsMywicSIsMl0sWzAsMSwiZiIsMl0sWzIsMywiZyJdXQ==
+
+\quiver{\begin{tikzcd}
+    A & C \\
+    B & D
+    \arrow["f"', from=1-1, to=2-1]
+    \arrow["p"', from=1-2, to=1-1]
+    \arrow["g", from=1-2, to=2-2]
+    \arrow["q"', from=2-1, to=2-2]
+  \end{tikzcd}}}
+}
+

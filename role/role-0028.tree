@@ -1,0 +1,22 @@
+\date{2024-07-24}
+\title{Logically expressive languages can make reason relations explicit by implication}
+\taxon{proposition}
+\number{28}
+\import{macros}
+
+\p{For any two finite sets of sentences, from the extended language #{\mathfrak{L}} for any base #{\mathfrak{B}}, the logically extended lexicon of that base includes sentences that make [explicit by implication](phil-01CM) when the relation of being a reason for and when the relation of being a reason against holds between the two sets.}
+
+\p{If #{\Theta ∪ \Lambda \subseteq \mathfrak{L}} and the sets are finite, then #{\mathfrak{L}} includes sentences that make explicit by implication that #{\Gamma} is a reason for #{\Lambda} and that #{\Gamma} is a reason against #{\Lambda}; i.e., there are sentences, #{\varphi} and #{\psi}, such that, for all #{\Gamma} and #{\Delta}, we have:
+
+\ul{
+\li{#{\Gamma \vsim \varphi, \Delta} just in case #{\Gamma, \Theta \vsim \Lambda, \Delta}}
+\li{#{\Gamma \vsim \varphi, \Delta} just in case #{\Gamma, \Theta, \Lambda \vsim \Delta}}
+}.}
+
+\subtree{\taxon{proof}
+\p{Let #{\varphi := \bigwedge \Theta \rightarrow \bigvee \Lambda}}
+
+\p{Let #{\psi := \neg \bigwedge \Theta \cup \Lambda}}
+
+
+}

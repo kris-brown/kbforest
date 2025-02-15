@@ -10,9 +10,9 @@
 }
 }
 
-\p{#{RSR(\Gamma, \varnothing)} is the premisory role of #{\Gamma}}
+\p{#{RSR(\Gamma, \varnothing)} is the \em{premisory role} of #{\Gamma}}
 
-\p{#{RSR(\varnothing, \Delta)} is the conclusory role of #{\Delta}}
+\p{#{RSR(\varnothing, \Delta)} is the \em{conclusory role} of #{\Delta}}
 
 \p{The range of subjunctive robustness plays an analogous role for implications to the role [truth conditions](phil-01CD) play for sentences. }
 

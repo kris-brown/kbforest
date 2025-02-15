@@ -1,0 +1,12 @@
+\date{2024-07-28}
+\title{Strict symmetric monoidal functor of paracategories}
+\import{macros}
+\taxon{definition}
+
+\p{Given strict [symmetric monoidal paracategories](math-005F) #{(\cat{C},[-],\otimes,I,\sigma)} and #{(\cat{D},[-]',\otimes',I',\sigma')}, a [functor](math-005C) is \em{strict symmetric monoidal} if:}
+
+##{F(A)\otimes' F(B)=F(A\otimes B)}
+
+##{F(f)\otimes' F(g) = F(f\otimes g)}
+
+##{F(\sigma_{A,B}) = \sigma'_{F(A),F(B)}}

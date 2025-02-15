@@ -1,0 +1,7 @@
+\date{2024-08-02}
+\title{Reason relations with one bearer}
+\import{macros}
+\p{There are four reason relations with one bearer that satisfy containment, given that independent, binary choices need to be made for  #{a \vsim} and #{\vsim a}.}
+
+\p{Call these #{a^+, a^-, a^+a^-,a^0}.}
+

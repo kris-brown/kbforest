@@ -10,7 +10,7 @@
 \li{Visualize reason relations via a #{\mathcal{P(B)\times P(B)}} table}
 \li{Implicational roles, symjunction, adjunction}
 \li{Define two categories of reason relations \ol{
-    \li{Simple maps on bearers that preserve good implications} \li{Interpretation functions}}}
+    \li{[Simple maps](role-0026) on bearers that preserve good implications} \li{[Interpretation functions](role-0024)}}}
 \li{Automatically compute all maps (of the first kind) between any pair of reason relations.}}
 
 \p{There are many tests that use the following 'arbitrary' [reason relation on two bearers](role-001G):}

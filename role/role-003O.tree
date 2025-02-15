@@ -1,0 +1,11 @@
+\date{2024-08-26}
+\title{Succedent-Summation condition}
+\import{macros}
+\taxon{definition}
+
+##{\Gamma \vsim A,B,\Delta}
+
+\p{iff}
+
+##{\Gamma  \vsim A \vee B, \Delta}
+

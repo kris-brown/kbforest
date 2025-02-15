@@ -1,0 +1,4 @@
+\date{2024-08-23}
+\title{Continuous map (topology)}
+
+\p{A function between [topological spaces](math-002Q) #{f: X\rightarrow Y} is \em{continuous} if for every open set #{V \subseteq Y}, the inverse image #{f^*(V)} is an open set in #{X}.}

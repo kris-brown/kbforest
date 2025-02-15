@@ -1,0 +1,91 @@
+\date{2024-08-11}
+\title{Interpretation function thoughts}
+\import{macros}
+
+\p{Let #{\cR_A} be the set of roles of a reason relation, #{A = (\cL_A, \II_A)}. Here we understand a role to be the RSR of some set of candidate implications. Let #{(-)^*} be shorthand for taking the RSR of some set of implications.}
+
+
+% https://q.uiver.app/#q=WzAsMjIsWzIsMCwiXFxib3hlZHtcXG1hdGhjYWx7UH0oU19BKX0iXSxbMCwyLCJcXHthXitcXH0iXSxbMSwyLCJcXHthXi1cXH0iXSxbMiwyLCJcXHtiXitcXH0iXSxbNCwyLCJcXHswXFx9Il0sWzMsMiwiLi4uIl0sWzIsMywiXFx2YXJub3RoaW5nIl0sWzAsMSwiXFx7YV4rLGFeLVxcfSJdLFsyLDEsIlxce2FeLSxiXitcXH0iXSxbNCwxLCJcXHswLGJeK1xcfSJdLFsxLDEsIi4uLiJdLFszLDEsIi4uLiJdLFs4LDAsIlxcYm94ZWR7XFxtYXRoY2Fse1J9X0F9Il0sWzgsMywiU19BIl0sWzYsMiwiXFxtYXRoY2Fse1J9XisoYSkiXSxbNywyLCJcXG1hdGhjYWx7Un1eLShhKSJdLFs4LDIsIlxcbWF0aGNhbHtSfV4rKGIpIl0sWzksMiwiLi4uIl0sWzEwLDIsIlxcbWF0aGJie0l9Il0sWzYsMSwiXFxtYXRoY2Fse1J9XisoYSlcXGNhcFxcbWF0aGNhbHtSfV4tKGEpIl0sWzgsMSwiXFxtYXRoY2Fse1J9Xi0oYSlcXGNhcCBcXG1hdGhjYWx7Un1eKyhiKSJdLFsxMCwxLCJcXG1hdGhiYntJfVxcY2FwXFxtYXRoY2Fse1J9XisoYikiXSxbNiwxXSxbNiwyXSxbNiwzXSxbNiw1XSxbNiw0XSxbNCw5XSxbMSw3XSxbMiw4XSxbMyw4XSxbMCwxMiwiUlNSLCAoLSleKiJdLFsxNCwxM10sWzE1LDEzXSxbMTYsMTNdLFsxNywxM10sWzE4LDEzXSxbMjEsMThdLFsyMCwxNl0sWzE5LDE0XSxbMTksMTVdLFsyMCwxNV0sWzMsOV0sWzIsN10sWzIxLDE2XV0=
+\quiver{\begin{tikzcd}
+    && {{\mathcal{P}(S_A)}} &&&&&& {{\mathcal{R}_A}} \\
+    {\{a^+,a^-\}} & {...} & {\{a^-,b^+\}} & {...} & {\{0,b^+\}} && {\mathcal{R}^+(a)\cap\mathcal{R}^-(a)} && {\mathcal{R}^-(a)\cap \mathcal{R}^+(b)} && {\mathbb{I}\cap\mathcal{R}^+(b)} \\
+    {\{a^+\}} & {\{a^-\}} & {\{b^+\}} & {...} & {\{0\}} && {\mathcal{R}^+(a)} & {\mathcal{R}^-(a)} & {\mathcal{R}^+(b)} & {...} & {\mathbb{I}} \\
+    && \varnothing &&&&&& {S_A}
+    \arrow["{RSR, (-)^*}", from=1-3, to=1-9]
+    \arrow[from=2-7, to=3-7]
+    \arrow[from=2-7, to=3-8]
+    \arrow[from=2-9, to=3-8]
+    \arrow[from=2-9, to=3-9]
+    \arrow[from=2-11, to=3-9]
+    \arrow[from=2-11, to=3-11]
+    \arrow[from=3-1, to=2-1]
+    \arrow[from=3-2, to=2-1]
+    \arrow[from=3-2, to=2-3]
+    \arrow[from=3-3, to=2-3]
+    \arrow[from=3-3, to=2-5]
+    \arrow[from=3-5, to=2-5]
+    \arrow[from=3-7, to=4-9]
+    \arrow[from=3-8, to=4-9]
+    \arrow[from=3-9, to=4-9]
+    \arrow[from=3-10, to=4-9]
+    \arrow[from=3-11, to=4-9]
+    \arrow[from=4-3, to=3-1]
+    \arrow[from=4-3, to=3-2]
+    \arrow[from=4-3, to=3-3]
+    \arrow[from=4-3, to=3-4]
+    \arrow[from=4-3, to=3-5]
+  \end{tikzcd}
+}
+
+\transclude{role-003K}
+
+% \p{We can think of #{\brack{-}: \cP(S_A)\rightarrow \cR_B}, with #{\brack{X} = \bigcup_{x \in X} \brack{x}}, which can be restricted to a function #{\brack{-}': \cR_A\rightarrow \cR_B}. However, this seems bad - it isn't the natural notion of structure-preserving-map between roles. Even though roles and sets of implications have the same syntax, they are quite different things.}
+
+\p{For any reason relation #{A}, we can interpret (signed) bearers as roles: #{\cR: \cL^\pm_A\rightarrow \cR_A}. An interpretation function can be lifted to a function on roles (#{\brack{-}': \cR_A\rightarrow \cR_B}) if it factors through this function:}
+
+% https://q.uiver.app/#q=WzAsMyxbMCwwLCJcXG1hdGhjYWx7TH1eXFxwbV9BIl0sWzAsMSwiXFxtYXRoY2Fse1J9X0EiXSxbMSwxLCJcXG1hdGhjYWx7Un1fQiJdLFswLDIsIlstXSJdLFswLDEsIlxcbWF0aGNhbHtSfSIsMl0sWzEsMiwiWy1dJyIsMix7InN0eWxlIjp7ImJvZHkiOnsibmFtZSI6ImRhc2hlZCJ9fX1dLFsxLDMsIlxcY2hlY2ttYXJrIiwxLHsic2hvcnRlbiI6eyJ0YXJnZXQiOjIwfSwiY29sb3VyIjpbMTIwLDYwLDYwXSwic3R5bGUiOnsiYm9keSI6eyJuYW1lIjoibm9uZSJ9LCJoZWFkIjp7Im5hbWUiOiJub25lIn19fSxbMTIwLDYwLDYwLDFdXV0=
+\quiver{\begin{tikzcd}
+    {\mathcal{L}^\pm_A} \\
+    {\mathcal{R}_A} & {\mathcal{R}_B}
+    \arrow["{\mathcal{R}}"', from=1-1, to=2-1]
+    \arrow[""{name=0, anchor=center, inner sep=0}, "{[-]}", from=1-1, to=2-2]
+    \arrow["{[-]'}"', dashed, from=2-1, to=2-2]
+    \arrow["\checkmark"{description}, color={rgb,255:red,92;green,214;blue,92}, draw=none, from=2-1, to=0]
+  \end{tikzcd}}
+
+\p{Given such a #{[-]'} function, we obtain an associative composition operation on interpretation functions by defining #{{\brack{-}_f \cdot \brack{-}_g := \cR \brack{-}'_f \cdot \brack{-}'_g}}. Associativity follows from both #{{\brack{-}_f\cdot (\brack{-}_g \cdot \brack{-}_h)}} and #{{(\brack{-}_f \cdot \brack{-}_g) \cdot \brack{-}_h}} being equal to #{{\cR \cdot \brack{-}'_f \cdot \brack{-}'_g \cdot \brack{-}'_h}}}
+
+\transclude{role-003P}
+
+\p{In fact, we can think of 'interpretation function' really as being one of these #{[-]'} functions, and at any point we can restrict the domain of one to just be the bearer roles.Let's consider this definition for #{\brack{-}' : \cR_A\rightarrow \cR_B}, given a #{\brack{-}: S_A \rightarrow \cR_B}:}
+
+##{\brack{\cR}' := (\bigcup_{i \in \cR^* }\brack{i})^* = \bigcap_{i \in \cR^* }\brack{i}^*}
+
+\p{Why is this a good function? All we have is an interpretation function on implications, so we need to take the RSR of our input role to get its (canonical) set of implications, then we can apply the interpretation function to them all, then we need to combine these into a big set of implications (a union will prove to be most sensible - it's equivalent to combining RSRs via intersection), and lastly we need to get back to an actual role, so we take an RSR. Intuitively this makes sense; let's check if it has nice properties. Firstly, it's not merely a function on roles, it's [monotone map](math-0068) between the preorders of roles.}
+
+##{X \subseteq Y \implies Y^* \subseteq X^* \implies \brack{X}' \subseteq \brack{Y}'}
+
+\p{#{\cR_A} is more than just a preorder, it is a lattice. This algebraic structure is preserved as well, noting that the meet of a power set is the intersection:}
+
+##{\brack{X \cup Y}' =  \bigcap_{i \in (X \cup Y)^* }\brack{i}^* = \bigcap_{i \in X^* \cap Y^* }\brack{i}^* = \bigcap_{i \in X^*}\brack{i}^* \cup \bigcap_{j \in Y^* }\brack{j}^* = \brack{X}' \cap \brack{Y}'}
+
+\p{Thus, this definition of interpretation function is the natural structure-preserving map between spaces of roles (across different reason relations).}
+
+\p{Therefore given functions #{\cR_A\rightarrow \cR_B} between the roles of two reason relations, we obtain . These functions can be composed, therefore we have a category of interpretation functions.}
+
+\subtree{\title{To do}
+\p{Check if even more structure ([quantale structure](https://ncatlab.org/nlab/show/quantale#morphisms_of_quantales)) is preserved by these maps.}
+
+
+\p{First, is it the case that, if #{\cR = X^*}, that #{\brack{\cR} := \bigcap_{i \in X^{**}}\brack{i}^* \overset{?}= \bigcap_{i \in X}\brack{i}^*}?}
+
+\p{#{X \subseteq X^{**}}, so the LHS #{\subseteq} RHS. In other direction, suppose #{s \in } RHS, so we know that:}
+
+##{\forall i \in X, s \in \brack{i}^*}
+##{\forall i \in X, \forall j \in S, (\forall k \in \brack{i}, k+j \in \II) \implies s+j \in \II}
+
+\p{We need to show for an arbitrary #{q \in X^{**}} that #{s \in \brack{q}^*}.}
+
+##{\forall q \in S, (\forall r \in X^*, q+r \in \II)\implies s \in \brack{q}^*}
+
+}

@@ -1,0 +1,12 @@
+\date{2024-08-03}
+\title{Opposite category}
+\taxon{definition}
+\import{macros}
+
+\p{Given any [category](math-000D) #{\cat{C}}, the \em{opposite} category #{\cat{C}^{op}} has}
+
+\ul{
+\li{Objects and identities the same as #{\cat{C}}}
+\li{As #{\Hom_{\cat{C}^{op}}(A,B) := \Hom_\cat{C}(B,A)}}
+\li{As composition #{f\cdot_{\cat{C}^{op}} g}, #{g\cdot_\cat{C} f}}
+}

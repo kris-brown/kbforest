@@ -1,0 +1,14 @@
+\date{2024-08-06}
+\title{Unitality of empty implication for adjunction}
+\taxon{proposition}
+\import{macros}
+
+\p{The RSR presented by #{\{\varnothing\vsim\varnothing\}} (i.e. #{\II}) is unital for #{\sqcup}. Because of the [independence of role representatives](role-002Q), if we replace #{\{\varnothing\vsim\varnothing\}} with #{RSR(\II)} we should get the same result, i.e. .}
+
+##{\cR(F) \sqcup \cR(\{x \in S\ |\ \II x \subseteq \II\}) = \cR(F)}
+
+\subtree{\taxon{proof}
+
+\p{Letting #{F' = \{f + x\ |\ f \in F, x \in S, \II x \subseteq \II\}}, this amounts to #{RSR(F)=RSR(F')} which can be shown by proving inclusions both ways. In the forward direction, we prove the universally quantified statement by picking an arbitrary #{f\in F} and #{x \in RSR(\II)} and show that #{s \in RSR(F) \implies f+s+x \in \II}. Because #{+x} can be added to any good implication, this is tantamount to proving #{f + s \in \II} which we can, because #{s \in RSR(F)}. To prove the reverse direction, we need to show for an arbitrary #{f \in F} that #{f+s \in \II}, assuming that #{s \in RSR(F')}. This assumption means #{s+f' \in \II} for all elements of #{F'}, which includes #{f + 0} (as #{0} is always in #{RSR(\II)}).}
+
+}

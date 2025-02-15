@@ -1,0 +1,14 @@
+\date{2024-12-12}
+\title{Result of Topos Research Camp}
+
+\p{Thank you to sidekicks: Evan, Kevin, David}
+
+\p{We mostly explored a hypothesis of Evan's that virtual double categories might be a categorical formalism for logical expressivism.}
+
+\transclude{math-007O}
+
+\transclude{role-004F}
+
+\subtree{\title{Aside}
+\p{Kevin also vocalized a gripe I've had which is that the notion of comma as some canonical way of conjoining multiple claimables into a joint claimable is dubious. One should be agnostic to how this done by working with some different data: this could range from as simple as a poset to  a monoidal poset to perhaps a monoidal category (there may be multiple ways to obtain a claimable from #{a,b,c}).}
+}

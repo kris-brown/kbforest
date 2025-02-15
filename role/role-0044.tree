@@ -1,0 +1,106 @@
+\date{2024-08-28}
+\title{Category of implication frames and open maps}
+\import{macros}
+\import{base-macros}
+
+##{\forall U \in S_X, U \in \II_X \Rightarrow \cP f(U) \in \II_Y}
+
+\p{The empty implication frame is an initial object.}
+
+\p{The implication frame with one bearer and #{\II=S} is terminal.}
+
+\table{
+\tr{
+\th{#{\II_1}}
+\th{#{0}}
+\th{#{a^-}}
+}
+\tr{
+\th{#{0}}
+\td{#{\checkmark}}\td{#{a_1=\checkmark}}}
+\tr{
+\th{#{a^+}}
+\td{#{a_2=\checkmark}}\td{#{a_3=\checkmark}}}
+}
+
+
+\p{If we consider looking for binary coproducts, we'll have to consider pairs #{A \xrightarrow{f} X \xleftarrow{g} B}. If #{X} is an implication frame with 2 bearers and #{A} and #{B} have one bearer, what must #{\II_X} be in terms of #{\II_A} and #{\II_B}?}
+
+\table{
+\tr{
+\th{#{\II_X}}
+\th{#{0}}
+\th{#{a^-}}
+\th{#{b^-}}
+\th{#{a^-b^-}}
+}
+\tr{
+\th{#{0}}
+\td{#{\checkmark}}\td{#{\geq a_1}}\td{#{\geq b_1}}\td{#{x_1}}
+}
+\tr{
+\th{#{a^+}}
+\td{#{\geq a_2}}\td{#{\geq a_3}}\td{#{x_2}}\td{#{x_3}}
+}
+\tr{
+\th{#{b^+}}
+\td{#{\geq b_2}}\td{#{x_4}}\td{#{\geq b_3}}\td{#{x_5}}
+}
+\tr{
+\th{#{a^+b^+}}
+\td{#{x_6}}\td{#{x_7}}\td{#{x_8}}\td{#{x_9}}
+}
+}
+
+\p{Where #{x_i} are completely unconstrained by the maps #{f,g}. These same constraints apply to #{A+B}, and the universal choice for the #{x_i} is to \em{not} include them in #{II_{A+B}}. And, if #{a_i} is false (such that we have a choice for what to put in the corresponding cell for #{A+B} we pick the same value as #{a_i}.)}
+
+
+\table{
+\tr{
+\th{#{\II_{A+B}}}
+\th{#{0}}
+\th{#{a^-}}
+\th{#{b^-}}
+\th{#{a^-b^-}}
+}
+\tr{
+\th{#{0}}
+\td{#{\checkmark}}\td{#{a_1}}\td{#{b_1}}\td{#{\times}}
+}
+\tr{
+\th{#{a^+}}
+\td{#{a_2}}\td{#{a_3}}\td{#{\times}}\td{#{\times}}
+}
+\tr{
+\th{#{b^+}}
+\td{#{b_2}}\td{#{\times}}\td{#{b_3}}\td{#{\times}}
+}
+\tr{
+\th{#{a^+b^+}}
+\td{#{\times}}\td{#{\times}}\td{#{\times}}\td{#{\times}}
+}
+}
+
+\subtree{\taxon{definition}
+\p{The coproduct of implication frames has its #{\cL} and inclusion maps dictated by coproducts in \strong{Set}. }
+
+##{\II_{A+B} = \cP \iota_1(\II_A) \cup \cP \iota_2(\II_B)}
+}
+
+\subtree{\taxon{proposition}
+
+\p{#{A+B} satisfies the universal property of coproducts}
+}
+
+\p{What about products? We want an implication frame with #{\cL_{A+B}=\cL_A \times \cL_B} so that we have natural projection maps. The projection maps determine which implications are good. }
+
+\subtree{\taxon{definition}
+\p{The product of implication frames has its #{\cL} and projection maps dictated by products in \strong{Set}. }
+
+##{i \in \II_{A\times B} := \pi_1(i) \in \II_A \land \pi_2(i) \in \II_B}
+}
+
+
+\p{We can verify that #{0} and #{1} are the units for (co)products, respectively.}
+
+\p{There seem to be (co)equalizers with the functions given by (co)equalizers in set. Given #{f,g: A \rightarrow B}, we have #{i \in \II_{Eq(f,g)} := eq(i) \in \II_A} and #{i \in \II_{Coeq(f,g)} := \exists j \in \II_B: coeq(j) = i}.}

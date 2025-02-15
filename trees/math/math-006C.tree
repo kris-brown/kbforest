@@ -1,0 +1,6 @@
+\date{2024-08-14}
+\title{Wide subcategory}
+\import{macros}
+\taxon{definition}
+
+\p{A [subcategory](math-003Z) #{\cat{C} \rightarrow \cat{D}} is \em{wide} if #{\Ob(\cat{C})=\Ob(\cat{D})}.}

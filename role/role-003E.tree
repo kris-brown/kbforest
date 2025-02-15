@@ -1,0 +1,13 @@
+\date{2024-08-24}
+\title{Conic implication space models and strong Kleene scheme}
+\taxon{proposition}
+\number{95}
+\import{macros}
+
+\p{Suppose that we consider only [conic implication space models](role-003F), then we can recover the three-valued logics with [strong Kleene](math-006O) connectives easily:}
+
+\ul{
+\li{[LP](math-006P) #{\Gamma \vDash_{LP} \Delta} iff #{(\bigwedge G)^- \preceq D^-}}
+\li{[K3](math-006M): #{\Gamma \vDash_{K3} \Delta} iff #{(\bigvee D)^+ \preceq G^+}}
+\li{[ST](math-006R) #{\Gamma \vDash_{ST} \Delta} iff #{\star \preceq G^+,D^-}}
+\li{[TS](math-006Q) #{\Gamma \vDash_{TS} \Delta} iff #{(\bigwedge G)^- , (\bigvee D)^+ \preceq e}}}

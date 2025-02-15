@@ -1,0 +1,5 @@
+\date{2024-07-23}
+\title{Are strict abstract interpretations the monos?}
+\taxon{conjecture}
+
+\p{Are [strict abstract interpretations](math-004J) just [monomorphisms](math-003X) in a [category](math-000D) of [abstract interpretations of first order theories](math-004H)?}

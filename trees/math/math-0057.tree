@@ -1,0 +1,8 @@
+\date{2024-07-28}
+\title{Partial function}
+\import{macros}
+\taxon{definition}
+
+\p{A \em{partial} [function](math-000V) need not be defined on all inputs.}
+
+\p{Every partial function #{A \pro B} corresponds to a pair of functions #{A \leftarrowtail \bullet \rightarrow B}.}

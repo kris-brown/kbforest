@@ -1,0 +1,12 @@
+\date{2024-07-22}
+\title{Every split monomorphism is a monomorphism}
+\taxon{proposition}
+
+\p{Every [split monomorphism](math-003Y) #{f: A\rightarrow B} (where #{\exists g, f\cdot g=id_A}) is a [monomorphism](math-003X) #{A \rightarrowtail B}.
+}
+
+\subtree{\taxon{proof}
+
+\p{Suppose #{h,i: C \rightarrow A}. If #{h\cdot f = g\cdot f}, then we can postcompose both with #{g} and obtain #{h = i}.}
+
+}

@@ -1,0 +1,6 @@
+\date{2024-08-03}
+\title{Zero objects in functor category}
+\import{macros}
+\taxon{proposition}
+
+\p{Given a small category #{\cat{C}} and a category with a [zero object](math-005R), the [functor category](math-0033) #{[\cat{C},\cat{D}]} has a zero object, given by sending everything to #{0}.}

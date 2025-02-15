@@ -1,0 +1,21 @@
+\date{2024-07-30}
+\title{Category of reason relations and interpretations}
+\import{macros}
+
+\transclude{role-003Q}
+
+\p{Every reason relation has an identity interpretation function with #{\gamma \mapsto \langle\cR^+(\gamma),\cR^-(\gamma)\rangle}.}
+
+\p{This is a subcategory of the category of meet-semilattices.}
+
+
+\subtree{\title{Variations?}
+\p{Is the directionality right?}
+\ul{
+\li{This says that if an implication holds, then its interpretation must hold.}
+\li{The other way around would say that the domain has to at least validate the implications which hold by [content entailment](phil-01CS).}
+\li{They might both be interesting categories, one for authority and one for responsibility (this is the authority one). Do there exist functors between them, and might those be related by [adjoints](math-0028)?}
+\li{However, the current one makes #{0} a [zero object](math-005R), whereas it is not clear if there is a terminal object in the other category.}
+\li{It may seem like this is some sort of [kleisli](math-002G)-like construction for a [simpler category](role-0026), but so far my efforts to make that work out have [failed](role-002L).}
+}
+}

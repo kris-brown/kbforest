@@ -1,0 +1,47 @@
+\date{2024-08-25}
+\title{Star-autonomous category of facts is possibly a quantale}
+\import{macros}
+\taxon{proposition}
+
+\subtree{\title{Attempt 2}
+\p{We'd like to show that the dual monoidal product #{A \sqcup B:= (A^*\otimes B^*)^*} distributes over joins (which are intersections), where #{\otimes} is the monoidal product of #{Q}.}
+
+\p{Let #{A,B,C} be elements of #{Q}: one side of our equation is #{ A^* \sqcup (B^* \cap_\cR C^*)}, which is equal to #{ A^* \sqcup (B \cup_Q C)^*}. The other side is}
+
+\p{We want this to be equal to the following:}
+
+##{
+\begin{align*}
+  (A^* \sqcup B^*) \cap_\cR (A^* \sqcup C^*) & =  (A^{**} \otimes B^{**})^*\cap_\cR (A^{**} \otimes C^{**})^* \\
+                                             & = ((A^{**} \otimes B^{**})\cup_Q (A^{**} \otimes C^{**}))^*    \\
+                                             & = (A^{**} \otimes (B^{**} \cup_Q C^{**}))^*                    \\
+                                             & = A^{*} \sqcup (B^{**} \cup_Q C^{**})^{*^{-1}}                 \\
+\end{align*}
+}
+
+\p{Because roles are closed under union, we know that there exists \em{some} element #{q \in Q} for which #{{q^* = B^{**} \cup_Q C^{**}}}, thus it makes sense to apply an inverse #{(-)^{*^{-1}}} operation to it.}
+
+\p{We have no real constraints on what #{A^*} can be, so our equation only goes through if we can equate #{(B\cup_Q C)^*} with #{(B^{**} \cup_Q C^{**})^{*^{-1}}}, i.e. there exists a choice of inverse element #{q} such that it is equal to #{(B \cup_Q C)^*}, i.e. #{{(B\cup_Q C)^{**} = (B^{**}\cup_Q C^{**})}}. However, this equation is not true. The RHS is a subset of the LHS, but not vice versa. So there is no quantale structure with #{\sqcup}.}
+
+}
+\subtree{\title{Attempt 1}
+\p{We'd like to show that the monoidal product distributes over them. Let #{\otimes} be the monoidal product of #{Q} and #{\bullet} be the monoidal product of #{\cR}}
+
+##{
+\begin{align*}
+  A \bullet (B \vee C) & = (A \otimes (B \vee C))^{**}
+  \\
+                       & = ((A \otimes B) \vee (A\otimes C))^{**}               \\
+                       & \overset{?}= (A \otimes B)^{**} \vee (A\otimes C)^{**} \\
+                       & = (A \bullet B) \vee (A\bullet C)                      \\
+\end{align*}
+}
+
+
+\p{#{Q} is a quantale, so tensor distributes over joins.}
+
+\p{One test case for the potential inequality is seen in the case where #{C=\varnothing}, which yields #{(A \otimes B)^{**} \overset{?}= (A \otimes B)^{**} \cup \varnothing^{**}}, but this actually is an equality. So this is not a counterexample.}
+
+
+\p{Assuming the #{\otimes} are irrelevant to the matter, we're interested in whether #{{(X \cup Y)^{**} = (X^*\cap Y^*)^* = X^{**} \cup Y^{**}}}. Although #{(-)^*} does not preserve meets in general among elements of #{\cP(S)}, it might preserve them among facts due to reflective subcategory properties (creating limits?).}
+}

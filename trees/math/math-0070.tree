@@ -1,0 +1,6 @@
+\date{2024-08-30}
+\title{Cone}
+\import{macros}
+\meta{external}{https://ncatlab.org/nlab/show/cone}
+
+\p{A \em{cone} of a [diagram](math-006W) #{D: \cat{J}\rightarrow\cat{C}} is an object ... (TODO)}

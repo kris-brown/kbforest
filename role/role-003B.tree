@@ -1,0 +1,85 @@
+\date{2024-08-23}
+\title{Functor from ImpFrame to Role}
+\import{macros}
+
+\p{Our goal is to define a [functor](math-000E), #{\cR}, from a category of [implication frames](role-0036) to a [category of roles](role-003U) (viewed as [atomistic](math-006E) [join-semilattices](math-006Z), with [join](math-001U) as intersection.) If #{\cR} is to serve as a [left adjoint](math-0028), we need it to preserve [colimits](math-005N), so we begin by looking for a functor that preserves coproducts.}
+
+\subtree{
+
+% https://q.uiver.app/#q=WzAsNyxbMCwwLCJBIl0sWzAsMiwiQiJdLFswLDEsIkErQiJdLFsxLDEsIlxcbWF0aGNhbHtSfV97QStCfSJdLFsyLDAsIlxcbWF0aGNhbHtSfV97QX0iXSxbMiwyLCJcXG1hdGhjYWx7Un1fe0J9Il0sWzIsMSwiXFxtYXRoY2Fse1J9X3tBfVxcb3BsdXNcXG1hdGhjYWx7Un1fe0J9Il0sWzUsNiwiIiwyLHsic3R5bGUiOnsidGFpbCI6eyJuYW1lIjoibW9ubyJ9fX1dLFs0LDYsIiIsMCx7InN0eWxlIjp7InRhaWwiOnsibmFtZSI6Im1vbm8ifX19XSxbMCwyLCIiLDIseyJzdHlsZSI6eyJ0YWlsIjp7Im5hbWUiOiJtb25vIn19fV0sWzEsMiwiIiwwLHsic3R5bGUiOnsidGFpbCI6eyJuYW1lIjoibW9ubyJ9fX1dLFs2LDMsIlxcY29uZyA/IiwwLHsic3R5bGUiOnsidGFpbCI6eyJuYW1lIjoiYXJyb3doZWFkIn19fV0sWzAsNCwiXFxtYXRoY2Fse1J9Il0sWzEsNSwiXFxtYXRoY2Fse1J9IiwyXSxbMiwzLCJcXG1hdGhjYWx7Un0iLDJdXQ==
+\quiver{\begin{tikzcd}
+    A && {\mathcal{R}_{A}} \\
+    {A+B} & {\mathcal{R}_{A+B}} & {\mathcal{R}_{A}\oplus\mathcal{R}_{B}} \\
+    B && {\mathcal{R}_{B}}
+    \arrow["{\mathcal{R}}", dashed, from=1-1, to=1-3]
+    \arrow[tail, from=1-1, to=2-1]
+    \arrow[from=1-3, to=2-3]
+    \arrow["{\mathcal{R}}"', dashed, from=2-1, to=2-2]
+    \arrow["{\cong ?}", tail reversed, from=2-3, to=2-2]
+    \arrow[tail, from=3-1, to=2-1]
+    \arrow["{\mathcal{R}}"', dashed, from=3-1, to=3-3]
+    \arrow[from=3-3, to=2-3]
+  \end{tikzcd}}
+
+\p{Trying this with the category of [open maps](role-0044), #{\cat{IF_o}}, [failed](role-0047). Here, we look at the category of [implication frames and continuous maps](role-0045) #{\cat{IF_c}}.}
+
+\p{First, let's see if the \em{objects} of #{{\cR_{A\times B}}} and #{{\cR_A \oplus \cR_B}} can be put in bijection: see [here](role-0049) for an overview of coproducts in #{\cat{IF_c}}. The role lattices are all atomistic, so we begin by seeing if we can put the atoms in bijection: #{{Atom(\cR_X) = \{\{x\}^{*_{\II_X}}\ |\ x \in S_X\} }}. The direct product #{\cR_A\oplus\cR_B} has, as its atoms, the cartesian product of the corresponding atoms sets. So we want to show this is equal to:}
+
+##{{Atom(\cR_{A\times B}) = \{\{(a,b)\}^{*_{\II_{A+B}}}\ |\ (a,b) \in S_{A+B}\}}}
+
+\p{Note here we use the fact that implications in #{A+B} can be factored into an #{A} component and a #{B} component via #{S_{A\times B}\cong S_A\times S_B}.}
+
+\p{The definition of #{\II_{A+B}} allows us to say for any #{{(i_A, j_B)}} and #{{(a,b) \in S_{A}\times S_B}} that we have #{(i_A, j_B) \in \{(a,b)\}^{*_{\II_{A\times B}}}} iff #{i_A \in \{a\}^{*_{\II_A}}} and #{j_B \in \{b\}^{*_{\II_B}}}. }
+
+##{(i_A,j_B)\cup (a, b) \in \II_{A\times B} \iff (i_A\cup a \in \II_A) \land (j_B\cup b \in \II_B)}
+
+\p{Ranging over all the possible elements of #{S_{A+B}} will hit upon each possible combination of roles from #{\cR_A} and #{\cR_B}. This establishes a bijection #{Atom(\cR_{A+B})\cong Atom(\cR_A)\times Atom(\cR_B)}: we can think of the roles #{\cR_{A+B}}, then, as pairs of roles. To show that the lattices #{\cR_{A+B}} and #{\cR_A\oplus \cR_B} are isomorphic, we need to joins are the same in both lattices (because they are atomistic, this determines the entire lattice):}
+
+##{
+\begin{align*}
+  (\{a_1\}^{*_{\II_A}} & ,\{b_1\}^{*_{\II_B}} )\vee_{\cR_{A+B}} (\{a_2\}^{*_{\II_A}} ,\{b_2\}^{*_{\II_B}} )                                   \\
+                       & = (\{a_1\}^{*_{\II_A}} ,\{b_1\}^{*_{\II_B}}) \cap_{\cR_{A+B}} (\{a_2\}^{*_{\II_A}} ,\{b_2\}^{*_{\II_B}})             \\
+                       & = \{(x,y) \ |\ (xa_1 \in \II_A) \land (yb_1 \in \II_B)\} \cap \{(x,y) \ |\ (xa_2 \in \II_A) \land (yb_2 \in \II_B)\} \\
+                       & = \{(x,y) \ |\ (xa_1 \in \II_A) \land (xa_2 \in \II_A) \land (yb_1 \in \II_B) \land (yb_2 \in \II_B)\}               \\
+                       & = \{(x,y)\ |\ x \in \{a_1,a_2\}^{*_{\II_A}}, y \in \{b_1,b_2\}^{*_{\II_B}}\}                                         \\
+                       & = (\{a_1,a_2\}^{*_{\II_A}},\ \{b_1, b_2\}^{*_{\II_B}})                                                               \\
+                       & = (a_1 \cap_{\cR_A} a_2,\ b_1\cap_{\cR_B} b_2)                                                                       \\
+                       & = (a_1 \vee_{\cR_A} a_2,\ b_1\vee_{\cR_B} b_2)                                                                       \\
+                       & = (a_1,b_1)\vee_{\cR_{A}\oplus \cR_B} (a_2,b_2)                                                                      \\
+\end{align*}}
+
+\p{This establishes that, as far as the objects-component of the functor #{\cR} goes, continuous maps have coproducts preserved.}
+
+\p{Now we concern ourselves with what atomic join-semilattice morphism is associated with a continuous map #{{f: A\rightarrow B}}. We only need to specify where the atoms go. It is clear where to send the atomic roles which correspond to \em{single bearer} implications: if #{a\xmapsto{f} b}, then #{\{a^+\}^*\mapsto \{b^+\}^*} and #{\{a^-\}^*\mapsto \{b^-\}^*}. Where should the implication #{a_1^+a_2^-} (i.e. #{a_1\vsim a_2}) be sent to? An [interpretation function](role-003J) would send this to the role #{\{a_1^+\}^* \sqcup \{a_2^-\}^* = \{a_1^+a_2^-\}^*}. Thus we can define #{\cR(f)} to send a function on bearers to the corresponding interpretation function (which uniquely factors to a function from bearers to roles and a join-semilattice morphism).}
+
+\p{Preserving coproducts requires the injections of #{\iota^{\cat{IF_c}}_A: A \rightarrowtail A+B} to map onto the corresponding morphisms for the biproduct #{\iota^{\cat{Role}}_A: A \rightarrow A\oplus B}, which are shown [here](math-0071) to have the form #{a \mapsto (a,\bot)}, i.e. #{\{a\}^* \mapsto (\{a\}^*, \{\}^*) }. Thus every atoms of #{A} has a corresponding atom in #{A\oplus B}, and these are precisely the atoms which the interpretation morphism will send them to.}
+}
+
+\p{What remains is to repeat this with coequalizers. }
+\subtree{
+% https://q.uiver.app/#q=WzAsNyxbMCwwLCJBIl0sWzEsMCwiQiJdLFsyLDAsIkNvZXEoZixnKSJdLFsyLDEsIlxcbWF0aGNhbHtSfShDb2VxKGYsZykpIl0sWzAsMiwiXFxtYXRoY2Fse1J9KEEpIl0sWzEsMiwiXFxtYXRoY2Fse1J9KEIpIl0sWzIsMiwiQ29lcShcXG1hdGhjYWx7Un0oZiksXFxtYXRoY2Fse1J9KGcpKSJdLFswLDEsImYiLDAseyJjdXJ2ZSI6LTF9XSxbMCwxLCJnIiwyLHsiY3VydmUiOjF9XSxbMSwyLCJxIl0sWzQsNSwiXFxtYXRoY2Fse1J9KGYpIiwwLHsiY3VydmUiOi0xfV0sWzQsNSwiXFxtYXRoY2Fse1J9KGcpIiwyLHsiY3VydmUiOjF9XSxbNSw2LCJxJyIsMl0sWzYsMywiXFxjb25nPyIsMix7InN0eWxlIjp7InRhaWwiOnsibmFtZSI6ImFycm93aGVhZCJ9fX1dLFsyLDMsIlxcbWF0aGNhbHtSfSIsMCx7InN0eWxlIjp7ImJvZHkiOnsibmFtZSI6ImRhc2hlZCJ9fX1dLFsxLDUsIlxcbWF0aGNhbHtSfSIsMCx7InN0eWxlIjp7ImJvZHkiOnsibmFtZSI6ImRhc2hlZCJ9fX1dLFswLDQsIlxcbWF0aGNhbHtSfSIsMSx7InN0eWxlIjp7ImJvZHkiOnsibmFtZSI6ImRhc2hlZCJ9fX1dXQ==
+\quiver{\begin{tikzcd}
+    A & B & {Q=Coeq(f,g)} \\
+    && {\mathcal{R}(Q)} \\
+    {\mathcal{R}(A)} & {\mathcal{R}(B)} & {Q'=Coeq(\mathcal{R}(f),\mathcal{R}(g))}
+    \arrow["f", curve={height=-6pt}, from=1-1, to=1-2]
+    \arrow["g"', curve={height=6pt}, from=1-1, to=1-2]
+    \arrow["{\mathcal{R}}"{description}, dashed, from=1-1, to=3-1]
+    \arrow["q", from=1-2, to=1-3]
+    \arrow["{\mathcal{R}}", dashed, from=1-2, to=3-2]
+    \arrow["{\mathcal{R}}", dashed, from=1-3, to=2-3]
+    \arrow["{\mathcal{R}(f)}", curve={height=-6pt}, from=3-1, to=3-2]
+    \arrow["{\mathcal{R}(g)}"', curve={height=6pt}, from=3-1, to=3-2]
+    \arrow["{q'}"', from=3-2, to=3-3]
+    \arrow["{\cong?}"', tail reversed, from=3-3, to=2-3]
+  \end{tikzcd}}
+
+\p{See [here](role-004B) for an overview of coequalizers in #{\cat{IF_c}} and [here](math-0079) for an overview of coequalizers in the category of join-semilattices.}
+
+##{Atom(Q') = \{z \in Atom(\cR_B)\ |\ \forall a \in \cR_A: \cR_f(a)\leq z \iff \cR_g(a)\leq z \}}
+
+\p{The explicit construction #{Atom(Q)=\{x^*\ |\ x \in S_Q\} } is:}
+
+##{Atom(Q) = \{\{z \in S_Q\ |\ (f;q)^{-1}(z)+x \in \II_A \} \ |\ x \in S_Q \} }
+
+}

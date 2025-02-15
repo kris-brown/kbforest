@@ -1,0 +1,26 @@
+\date{2024-08-26}
+\title{Monoidal product of roles doesn't distribute over meets (unions)}
+\import{macros}
+##{A \sqcup (B \wedge C) = (A\sqcup B)\wedge (A\sqcup C)}
+
+\p{Unpacking the definitions:}
+
+##{(A^* \otimes (B \cup C)^*)^* = (A^* \otimes B^*)^* \cup (A^*\otimes C^*)^*}
+
+\p{Which can be simplified to}
+
+##{(A^* \otimes (B^* \cap C)^*)^* = (A^* \otimes B^*)^* \cup (A^*\otimes C^*)^*}
+
+\p{This fails #{LHS\subseteq RHS}. However, the other direction does not go.}
+
+\subtree{\taxon{proof}
+
+\subtree{\title{LHS #{\nsubseteq} RHS}
+
+\p{An arbitrary element of the LHS is one such that, for all #{a \in A^*} and #{d \in B^* \cap C^*}, we have #{adz \in \II}.}
+
+\p{We need to show that \em{either} for all #{a \in A^*} and #{b \in B^*} that #{abz}, \em{or} the corresponding claim for #{C^*}.}
+
+\p{However, we can show neither. An arbitrary #{b \in B*} need not be in #{C^*}, which means there need not be any #{d} corresponding to it (by symmetry, the other disjunct won't go through either).}
+}
+}

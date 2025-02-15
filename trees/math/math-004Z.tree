@@ -1,0 +1,11 @@
+\date{2024-07-23}
+\title{Transformation of interpretations of first order theories}
+\taxon{definition}
+
+\p{Given #{I,I'} [strict abstract interpretations](math-004J) #{T_1 \rightarrow T_2}, a \em{transformation} #{I\rightarrow I'} consists of:}
+
+\ul{
+\li{For every sort of #{T_1}, a [definable function](math-004S) #{\eta_S: I(S)\rightarrow I'(S)} in #{T_2}.}
+\li{Such that, for every formula #{\varphi(x)} of sort #{S}: #{\eta_S} restricts to a definable function #{I(\varphi(x))\rightarrow I'(\varphi(x))} }
+}
+

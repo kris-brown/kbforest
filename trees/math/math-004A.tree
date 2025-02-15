@@ -1,0 +1,4 @@
+\date{2024-07-22}
+\title{Isomorphism (category)}
+
+\p{An isomorphism in a [category](math-000D) is a morphism #{f: A\rightarrow B} such that there exists an inverse morphism #{f^{-1}: B \rightarrow A} such that #{f \cdot f^{-1} = id_A } and #{f^{-1}\cdot f=id_B}.}

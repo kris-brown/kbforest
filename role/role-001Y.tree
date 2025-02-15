@@ -58,4 +58,4 @@
   \DisplayProof
 }
 
-\p{This is ad hoc. There is no connection between #{\forall} and an infinite conjunction. There isn't an obvious notion of #{\exists}.}
+\p{\strong{Downsides:} This is ad hoc. It unfortunately presupposes extra internal structure to reason relations (the proposition is not primitive). It presupposes a notion of reference and a set of referents. There is no connection between #{\forall} and an infinite conjunction.}

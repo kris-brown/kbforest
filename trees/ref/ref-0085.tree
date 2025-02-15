@@ -4,37 +4,6 @@
 \import{base-macros}
 
 
-\subtree{
-  \title{my title1}
-  \p{My body}
-
-  \subtree{
-    \title{my title11}
-    \p{My body}
-  }
-
-  \subtree{
-    \title{my title12}
-    \p{My body}
-  }
-}
-
-\subtree{
-  \title{my title2}
-  \p{My body}
-
-  \subtree{
-    \title{my title21}
-    \p{My body}
-  }
-
-  \subtree{
-    \title{my title22}
-    \p{My body}
-  }
-}
-
-
 \p{Does 'virtue' have a determinate meaning? The word has been used so differently throughout history. We wonder if Homer's \em{aretai} should even be translated to \em{virtue} (it may seem like \em{excellence} is a better fit).}
 
 \p{Purported virtues:}

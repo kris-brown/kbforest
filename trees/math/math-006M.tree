@@ -1,0 +1,11 @@
+\date{2024-08-24}
+\title{Strong Kleene Logic (K3)}
+\import{base-macros}
+
+\p{A three-valued logic where the third value #{U} is considered to be "neither true nor false". It has the following truth tables for negation, conjunction, and disjunction.}
+
+\transclude{math-006N}
+
+
+
+

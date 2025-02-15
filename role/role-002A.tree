@@ -1,0 +1,8 @@
+\date{2024-07-26}
+\title{What is the structure of RSR?}
+
+\p{[RSR](phil-01CP) induces an endo-function  #{\cP(\cP(B)^2) \rightarrow \cP(\cP(B)^2).} }
+
+\p{We can ask: does RSR have a fix point?}
+\p{Is it related to a monad?}
+\p{Is it idempotent?}

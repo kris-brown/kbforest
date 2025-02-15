@@ -1,0 +1,16 @@
+\date{2024-08-22}
+\title{Quantale of implication-sets}
+\import{macros}
+
+\subtree{\taxon{definition}
+\p{For any set #{\cL}, with #{S:=\cP(\cL+\cL)}, we have a commutative [quantale](math-001T) #{Q = (\cP(S), \vee, \otimes)}:}
+
+\ul{
+\li{The [poset](math-001O) is #{\cP(S)}}
+\li{The [tensor product](math-0021) is #{A \otimes B := \{a\cup b\ |\ (a,b) \in A \times B\} }}
+\li{The internal hom is #{A \multimap B := \{x \in S\ |\ \forall a \in A, a\cup x \in B\}}}}
+}
+
+\p{This quantale is [atomistic](math-006E) and co-atomistic.}
+
+\p{This can be done for any commutative monoid, but in particular it can be done for #{{(\cP(\cL+\cL), 0, \cup)}}.}

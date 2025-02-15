@@ -1,0 +1,10 @@
+\date{2024-07-21}
+\title{Subcategory}
+\import{macros}
+\meta{external}{https://ncatlab.org/nlab/show/subcategory}
+\taxon{definition}
+
+\p{A \em{subcategory} #{\cat{C}} of a [category](math-000D) #{\cat{D}} has:}
+\ul{
+\li{As objects, a subcollection of the objects of #{D}}
+\li{As morphisms #{A\rightarrow B}, a subcollection of the morphisms in #{\Hom_\cat{D}(A,B)}}}

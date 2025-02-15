@@ -1,0 +1,6 @@
+\date{2024-07-23}
+\title{Equalizers and products generate all finite limits}
+\taxon{proposition}
+
+\p{A [category](math-000D) #{\cat{C}} that has all finite [limits](math-0026) iff it has all [products](math-0024) and all [equalizers](math-0042).}
+

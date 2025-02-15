@@ -1,0 +1,28 @@
+\date{2024-08-20}
+\title{Philosophical arguments against logicism}
+
+
+\subtree{\title{Features of logical vocabulary unexplained}
+\ul{
+\li{Logicists take as their starting point the exclusive bivalence of truth and falsity: saying the incompatibility of #{p} and #{q} is symmetric follows from the asymmetry of #{\neg(p\land q)}. This presupposes the symmetry rather than [explaining](role-001Q) it.}
+
+\li{Logicism has no native answer to the demarcation problem of "what is logical vocabulary?" Logical expressivism characterizes logic by its explicating role.}
+}
+}
+
+\subtree{\title{Features of use of logic in practice unexplained}
+
+\ul{
+\li{Logicism rules out the possibility of non-logical conceptual content. This leads to problems like changing definitions and the [paradox of analysis](https://en.wikipedia.org/wiki/Paradox_of_analysis). We can understand logically-good inference in terms of [materially good inference](int-0007) (but not vice-versa)}
+
+\li{Logicists cannot explain how we have reasons to accept or reject certain claims (something we \em{do}) via the [Harmon point](role-001L). Conversely, we can understand the logical syntax as expressing the (explanatorily prior) relations of reasons-for and reasons-against.}
+
+\li{Logicism is committed to reason relations having a topological closure structure. We can't say we actually have a reason if it doesn't have this property, yet all such reasons have an implicit "all else equal". Logicism implicitly commits us to skepticism, saying we the only kinds of claimables we have reasons for are tautologies (e.g. #{((Bird \rightarrow CanFly) \land Bird) \rightarrow CanFly} but not #{Bird \rightarrow CanFly}).}
+
+\li{[Achilles and the Tortoise](ref-0072): we're drawn to logical vocabulary because any particular move can be turned into a logical principle, but this ultimately floats on a sea of common practices.}
+\li{There is \em{always} a background context to our judgments, thus our notion of 'reason' should not give special status to judgments made in an empty context.}
+
+}
+
+
+}
