@@ -1,0 +1,23 @@
+\date{2025-02-17T19:10:44Z}
+\title{Logical interpretation of Stone duality theorem}
+
+\p{We start with #{\dashv \varphi}}
+
+\p{Because propositional logic is algebraisable:}
+
+##{E_{BA} \vdash \varphi = 1}
+
+\p{Because of the soundness and completeness of [equational logic](math-008F):}
+
+##{BA \vDash \varphi = 1}
+
+\p{Because of the representation theorem (see [FieldOfSets](math-008A))}
+
+##{FieldOfSets \vDash \varphi =1}
+
+\p{Every set-algebra is a subalgebra of a product of 2s}
+
+#{2 \vDash \varphi}
+
+\p{Truth table definition of #{\vDash}}
+##{\dashV \varphi}

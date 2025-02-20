@@ -5,7 +5,7 @@
 \tag{type-theory}
 \date{2016}
 \import{macros}
-\author{mike-shulman}
+\author/literal{Mike Shulman}
 \meta{external}{https://mikeshulman.github.io/catlog/catlog.pdf}
 
 \notes{A primer on type theory directed at category theorists. Does a good job of explaining things like cut elimination, and what properties a system of deduction needs in order to really be called a type theory.}

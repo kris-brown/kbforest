@@ -1,8 +1,8 @@
 \date{2016}
 \title{Liar Paradox}
 \taxon{reference}
-\author{JC Beall}
-\author{David Ripley}
-\author{Michael Glanzberg}
+\author/literal{JC Beall}
+\author/literal{David Ripley}
+\author/literal{Michael Glanzberg}
 \meta{external}{https://plato.stanford.edu/entries/liar-paradox/}
 \tag{sep}

@@ -1,0 +1,7 @@
+\date{2025-02-17T18:23:48Z}
+\title{Field of sets}
+\taxon{definition}
+\import{macros}
+
+\p{A \em{field of sets} is a subset #{A \subseteq \cP X} for some set #{X} that is closed under finite unions, finite intersections, and complements.}
+

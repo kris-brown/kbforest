@@ -2,5 +2,5 @@
 trees = ["role", "macros", "trees"]
 assets = ["assets"]
 theme = "theme"
-root = "role"
-base_url = "https://www.krisb.org/role"
+home = "role"
+host = "https://www.krisb.org/role"

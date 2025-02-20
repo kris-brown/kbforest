@@ -5,3 +5,5 @@
 
 \p{Points of #{\mathbf{Stone}(F(V)/A)} are prime filters in #{F(V)/A}, and the topology has basic open sets determined by elements of #{F(V)/A}.}
 
+\transclude{math-0085}
+

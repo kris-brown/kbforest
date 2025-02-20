@@ -3,5 +3,5 @@
 \taxon{definition}
 \import{macros}
 
-\p{Given a [difunctor](math-007C) #{P: \cat{C}^{op}\times \cat{C}\rightarrow \cat{D}}, a \em{wedge} for #{P} is a pair #{(X,\alpha)} where #{X \in \cat{D}} and #{\alpha: K_X\Rightarrow P} is a [dinatural transformation](math-007B) from the [constant functor](constant fun) #{K_X}.}
+\p{Given a [difunctor](math-007C) #{P: \cat{C}^{op}\times \cat{C}\rightarrow \cat{D}}, a \em{wedge} for #{P} is a pair #{(X,\alpha)} where #{X \in \cat{D}} and #{\alpha: K_X\Rightarrow P} is a [dinatural transformation](math-007B) from the constant functor #{K_X}.}
 

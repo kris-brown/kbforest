@@ -1,0 +1,5 @@
+\date{2025-02-17T20:41:34Z}
+\title{Modal algebra}
+\taxon{definition}
+\ref{ref-00BA}
+\p{A \em{modal algebra} is a [Boolean algebra](math-0038) with an additional finite-meet preserving operation, denoted #{\box}.}

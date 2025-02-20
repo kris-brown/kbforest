@@ -1,0 +1,8 @@
+\date{2025-02-19T04:24:14Z}
+\title{Ambidextrous adjunction}
+\meta{external}{https://ncatlab.org/nlab/show/ambidextrous+adjunction}
+\taxon{definition}
+
+\p{An \em{ambidextrous} adjunction is an [adjunction](math-0028) #{L \dashv R \dashv L'} such that #{L} and #{L'} are [isomorphic](math-0032).}
+
+\p{If #{L = L'}, we call #{L} a [Frobenius functor](math-008X).}

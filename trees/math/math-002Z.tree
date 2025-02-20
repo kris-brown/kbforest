@@ -4,4 +4,4 @@
 \taxon{definition}
 \import{macros}
 
-\p{A [category](category) #{\cat{C}} is \em{cartesian closed} if it is a [closed monoidal category](math-0031) with respect to the [Cartesian product](math-0024) monoidal structure #{(\cat{C}, \times, 1)}.}
+\p{A [category](math-000D) #{\cat{C}} is \em{cartesian closed} if it is a [closed monoidal category](math-0031) with respect to the [Cartesian product](math-0024) monoidal structure #{(\cat{C}, \times, 1)}.}

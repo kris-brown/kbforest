@@ -14,10 +14,7 @@
 \p{The \em{dual} of #{G \subseteq P} is: #{G^\bot:=\{p \in P\ |\ \forall q \in G: (p+q \in \bot_P)\}}}
 }
 
-\subtree{
-\taxon{definition}
-\p{A fact is a subset  #{G \subseteq P} such that #{G^{\bot\bot}=G}.}
-}
+\transclude{math-008Z}
 
 \subtree{
 \taxon{definition}

@@ -1,0 +1,9 @@
+\date{2025-02-17T20:50:20Z}
+\title{Category of general frames}
+\ref{ref-00BA}
+
+\p{The category of general frames has, as objects, [general frames](math-008O).
+}
+
+\p{A general frame morphism #{f:(X,R,A)\rightarrow (X',R',A')} is a function #{X\rightarrow X'} whose graph is a [bisimulation](math-008Q) between #{(X,R)} and #{(X',R')} and whose inverse image function is Boolean algebra morphism #{A'\rightarrow A}.}
+

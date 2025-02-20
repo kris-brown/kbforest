@@ -5,8 +5,8 @@
 \tag{type-theory}
 
 \author{daniel-licata}
-\author{michael-shulman}
-\author{mitchell-riley}
+\author/literal{Michael Shulman}
+\author/literal{Mitchell Riley}
 \date{2017}
 \meta{doi}{10.4230/LIPIcs.FSCD.2017.25}
 \meta{external}{http://dlicata.web.wesleyan.edu/pubs/lsr17multi/lsr17multi-ex.pdf}

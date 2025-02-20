@@ -1,0 +1,6 @@
+\date{2025-02-17T20:26:19Z}
+\title{Represented Boolean algebras are Stone spaces}
+\ref{ref-00BA}
+\p{Given #{X,A} in RBA, let #{\cO X} be the closure of #{A} under arbitrary unions.}
+
+\p{This is [Hausdorff](math-002U) since #{(X,A)} is differentiated, [compact](math-002R) because #{(X,A)} is compact, and has a basis of [clopens](math-008L) because #{A} is a boolean Algebra.}

@@ -1,7 +1,7 @@
 \date{2024-05-31}
 \title{Two-dimensional Kripke Semantics I: Presheaves}
 \taxon{reference}
-\author{G. A. Kavvos}
+\author/literal{G. A. Kavvos}
 \meta{external}{https://arxiv.org/abs/2405.04157}
 
 \p{This paper is interesting and may be instructive for categorifying the logics of [Reasons for Logic, Logic For Reasons](ref-00AU).}

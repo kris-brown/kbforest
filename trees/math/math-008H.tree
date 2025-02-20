@@ -1,0 +1,15 @@
+\date{2025-02-17T19:20:43Z}
+\title{Represented boolean algebras}
+\taxon{definition}
+\import{macros}
+\ref{ref-00BA}
+
+\p{The category of represented boolean algebras has, as objects, [fields of sets](math-008A) which arise as representations of Boolean Algebras, i.e. pairs of sets #{(A,X)} where #{A \subseteq \cP X} and }
+\ul{
+\li{#{(X,A)} is \em{differentiated}, i.e. #{\forall x\ne x' \in X \exists a \in A} where #{x \in a} but #{x'\not\in a} }
+\li{#{(X,A)} is \em{compact}, i.e. if #{\bigcup_{i \in I} a_i = X} then there is a finite subset #{J\subseteq I} such that #{\bigcup_{j \in J} a_j = X}}}
+
+
+\p{A morphism #{f: (X, A) \rightarrow (Y,B)} is a function #{X \rightarrow Y} such that #{\forall b \in B:\ f^{-1}(b)\in A} (i.e. #{f^{-1}} is a boolean algebra morphism #{B \rightarrow A}).}
+
+

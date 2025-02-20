@@ -1,0 +1,25 @@
+#!/usr/bin/env bash
+
+STYLE="article"
+
+TREE=$1
+
+if [ "$TREE" == "" ]; then
+  echo "Usage: ./topdf [-s style] tree"
+  exit 1
+fi
+
+echo $TREE
+
+echo "Compiling tree $TREE to pdf via style $STYLE"
+
+./scripts/saxon "-s:output/$TREE.xml" "-xsl:texstyles/$STYLE.xsl" "-o:output/$TREE.tex"
+cp -r texpackages/* output/
+# cp -r assets/*.pdf output/
+# cp -r assets/*.png output/
+cd output/
+latexmk -pdflua -shell-escape $TREE.tex
+cd ..
+
+# echo "Output pdf to output/$TREE.pdf"
+# echo "Note that conversion to pdf is experimental, and the XSL style sheets in texstyles may need tweaking."

@@ -1,0 +1,12 @@
+\date{2025-02-17T17:45:01Z}
+\title{Consequences of Stone duality theorem}
+
+\p{Consequences of [Stone duality](math-003D):}
+\ul{
+  \li{the logic is [sound](math-0086)}
+  \li{the logic is [complete](math-0087)}
+  \li{the logic is \em{expressive}, or, equivalently, the semantics is \em{fully abstract}}
+
+}
+
+\ref{ref-00BA}

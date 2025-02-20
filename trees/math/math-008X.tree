@@ -1,0 +1,7 @@
+\date{2025-02-19T04:30:47Z}
+\title{Frobenius functor}
+\taxon{definition}
+
+\p{A pair of [functors](math-000E) #{F} and #{G} are a \em{Frobenius pair} iff #{F} is both left and right [adjoint](math-0028) to #{G}.}
+
+\p{We call #{F} a \em{Frobenius functor}.}

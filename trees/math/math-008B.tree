@@ -1,0 +1,18 @@
+\date{2025-02-17T18:25:21Z}
+\title{Boolean algebra representation theorem}
+\taxon{proposition}
+
+\ref{ref-00BA}
+
+\p{Any [boolean algebra](math-0038) is isomorphic to a [field of sets](math-008A).}
+
+\p{Given a boolean algebra #{A}, we obtain a set #{Pt(A):=}[BA](math-008C)#{(-,2)} (a set of 'points'). Elements of #{A} (equivalence classes of propositional formulas) can be identified with subsets of #{Pt(A)}:}
+
+##{\hat a := \{p \in Pt(A)\ |\ p(a)=1\}}
+
+\p{We could say that #{p \in \hat a} means that the point #{p} satisfies the predicate #{a}.}
+
+##{\hat A = \{\hat a\ |\ a \in A\}}
+
+\p{We have #{A\cong \hat A}, which is derivable from the fact #{(\hat \cdot)} is an injective boolean algebra morphism.}
+

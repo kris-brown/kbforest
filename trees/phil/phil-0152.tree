@@ -1,1 +1,6 @@
 \title{Syntax}
+
+\p{\em{Syntax} is defined by some selection of well-formed strings of symbols called formulas or sentences.
+}
+
+\p{It is usually given via an inductive definition.}

@@ -2,4 +2,9 @@
 \title{Lattice}
 \taxon{definition}
 
-\p{A \em{lattice} is a poset with all finite [joins](math-001U) and [meets](meet).}
+\p{A \em{lattice} is a [poset](math-001O) with all finite [joins](math-001U) and [meets](math-006A).}
+
+
+\p{Alternatively, a lattice is a set equipped with constants #{0}, #{1}, and binary operators #{\wedge} and #{\vee} such that:}
+
+##{a \vee (a \wedge b) = a = a \wedge (a \vee b) }

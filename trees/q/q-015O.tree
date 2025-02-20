@@ -1,5 +1,9 @@
 \title{Facts as true thinkables}
+\import{macros}
 \taxon{quote}
 \author{frege}
 
 \blockquote{A fact is a thought that is true.}
+
+\source{q-015O}{ref-00BB}
+\example{q-015O}{phil-01DR}

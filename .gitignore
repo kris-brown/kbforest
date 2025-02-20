@@ -6,6 +6,7 @@ package.json
 build
 latex
 output
+private
 
 *.json
 *.log

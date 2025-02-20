@@ -1,0 +1,10 @@
+\date{2025-02-17T18:13:45Z}
+\title{Boolean lattice}
+\taxon{definition}
+
+\p{A \em{boolean lattice} is a [distributive lattice](math-0089) which furthermore has an operation #{\neg} such that}
+
+\ul{
+\li{#{a \wedge \neg a = 0}}\li{a \vee \neg a = 1}}
+
+

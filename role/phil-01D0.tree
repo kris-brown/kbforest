@@ -1,5 +1,5 @@
 \date{2024-06-03}
-\title{Abstract structure of [implication space semantics](phil-01D3)}
+\title{Abstract structure of implication space semantics}
 
 \p{An [implication frame](phil-01CO) requires a [commutative monoid](math-001Q) #{(M, +, 0)} with a distinguished subset  #{I \subseteq M}.}
 

@@ -3,92 +3,92 @@
 \meta{external}{https://www.youtube.com/watch?v=SurX_oe_MPo}
 
 \subtree{\title{Intro}
-\p{Common in ordinary conversation: "Is that supposed to be a fact or a value judgment?"}
+  \p{Common in ordinary conversation: "Is that supposed to be a fact or a value judgment?"}
 
-\p{This presupposes: 1. if it's a value judgment, it can't be a fact, and 2. value judgments are subjective.
-}
+  \p{This presupposes: 1. if it's a value judgment, it can't be a fact, and 2. value judgments are subjective.
+  }
 
-\p{This has political consequences. Lionel Robbins in 1932 argued against income redistribution by saying value judgments outside the scope of reason: if we disagree about ends it can only end with 'live and let live' or 'thy blood or mine'. If disagreeing about means then scientific analysis can help us resolve our dispute.
-}
+  \p{This has political consequences. Lionel Robbins in 1932 argued against income redistribution by saying value judgments outside the scope of reason: if we disagree about ends it can only end with 'live and let live' or 'thy blood or mine'. If disagreeing about means then scientific analysis can help us resolve our dispute.
+  }
 
-\p{"Why people respond favorably to some facts or unfavorably to others is merely a question for the sociologist" AJ [Ayer](Ayer) (a logical positivist). This attitude was taken to be "undoubtedly correct" even by liberal economists, like Samuelson.}
+  \p{"Why people respond favorably to some facts or unfavorably to others is merely a question for the sociologist" AJ [Ayer](ayer) (a logical positivist). This attitude was taken to be "undoubtedly correct" even by liberal economists, like Samuelson.}
 
-\p{However, this means that discussing value questions rationally is nonsense. This is at odds with our simultaneous habit of taking questions of value to be precisely the most important things we want to discuss rationally and argue carefully about.}
+  \p{However, this means that discussing value questions rationally is nonsense. This is at odds with our simultaneous habit of taking questions of value to be precisely the most important things we want to discuss rationally and argue carefully about.}
 }
 
 \subtree{\title{Two kinds of disagreement}
 
-\p{[Cavell](cavell) discusses the fact-value distinction in Part 3 ("Knowledge and the concept of morality") of his masterwork "The Claim of Reason".
-}
+  \p{[Cavell](cavell) discusses the fact-value distinction in Part 3 ("Knowledge and the concept of morality") of his masterwork "The Claim of Reason".
+  }
 
-\p{Charles Stevenson "Ethics and Language" defends emotivism. There is no such thing as a "valid" ethical argument. The first question: what is the nature of ethical disagreement (is it merely different in subject matter from disagreement in the natural sciences?)? His answer: the former are disagreements in attitude, the latter are disagreements in belief. "Reasons" still can be used in the former, but they are related only 'psychologically'/causally/rhetorically (not deductively/inductively) to the attitudes. Whereas disagreements about facts can be settled either deductively or inductively.
-}
+  \p{Charles Stevenson "Ethics and Language" defends emotivism. There is no such thing as a "valid" ethical argument. The first question: what is the nature of ethical disagreement (is it merely different in subject matter from disagreement in the natural sciences?)? His answer: the former are disagreements in attitude, the latter are disagreements in belief. "Reasons" still can be used in the former, but they are related only 'psychologically'/causally/rhetorically (not deductively/inductively) to the attitudes. Whereas disagreements about facts can be settled either deductively or inductively.
+  }
 
-\transclude{phil-01DN}
+  \transclude{phil-01DN}
 
-\p{Writing about [this](phil-01DN), Cavell remarks one wonders why such examples as much as seem to be examples of moral encounters (Stevenson is committed to denying the possibility that morality has characteristic modes of argument which distinguish it from mere rhetoric/propaganda).
-}
+  \p{Writing about [this](phil-01DN), Cavell remarks one wonders why such examples as much as seem to be examples of moral encounters (Stevenson is committed to denying the possibility that morality has characteristic modes of argument which distinguish it from mere rhetoric/propaganda).
+  }
 
-\transclude{phil-01DO}
+  \transclude{phil-01DO}
 
-\p{Cavell lists four points on which he disagrees with Stevenson (which Stevenson takes to be obvious):}
-\ol{
-  \li{All disagreement in attitude is moral disagreement.}
-  \li{All disagreements which cannot be rationally settled are irrational}
-  \li{A reason which is neither deductive/inductively related to a belief is therefore only psychologically related}
-  \li{What makes science rational is that its subject matter is matters of fact and hence consists of methods which rationally settle disagreements.}
-}
-\p{These implicit beliefs are "culturally institutionalized" they tend to go on and on even though the very philosophers who accept them believe the best arguments for them are terrible.
-}
+  \p{Cavell lists four points on which he disagrees with Stevenson (which Stevenson takes to be obvious):}
+  \ol{
+    \li{All disagreement in attitude is moral disagreement.}
+    \li{All disagreements which cannot be rationally settled are irrational}
+    \li{A reason which is neither deductive/inductively related to a belief is therefore only psychologically related}
+    \li{What makes science rational is that its subject matter is matters of fact and hence consists of methods which rationally settle disagreements.}
+  }
+  \p{These implicit beliefs are "culturally institutionalized" they tend to go on and on even though the very philosophers who accept them believe the best arguments for them are terrible.
+  }
 
-\p{Putnam's strategy: show that so-called descriptive predicates and so-called evaluative predicates are \em{mutually entangled}.
-}
+  \p{Putnam's strategy: show that so-called descriptive predicates and so-called evaluative predicates are \em{mutually entangled}.
+  }
 
-\p{Morton White observed Quine's demolition of the theory/observation (or analytic/synthetic or fact/convention distinction) destroyed the logical positivist's fact/value dichotomy.
-}
+  \p{Morton White observed Quine's demolition of the theory/observation (or analytic/synthetic or fact/convention distinction) destroyed the logical positivist's fact/value dichotomy.
+  }
 
-\p{Logical positivists worked hard to make a fourfold taxonomy of factual propositions, theoretical postulates, mathematical logical propositions, pseudopropositions/nonsense (Carnap said all statements of metaphysics, regulative ethics, or epistemology fall into this camp).}
+  \p{Logical positivists worked hard to make a fourfold taxonomy of factual propositions, theoretical postulates, mathematical logical propositions, pseudopropositions/nonsense (Carnap said all statements of metaphysics, regulative ethics, or epistemology fall into this camp).}
 
-\p{ This was arrived at by [Hempel](hempel) by liberalizing the verifiability theory of meaning to allow theoretical terms (neither observational nor logical combinations of observations) to be cognitively meaningful. So long as they were helpful in prediction. }
+  \p{ This was arrived at by [Hempel](hempel) by liberalizing the verifiability theory of meaning to allow theoretical terms (neither observational nor logical combinations of observations) to be cognitively meaningful. So long as they were helpful in prediction. }
 
-\p{To predict is to deduce observation sentences from a theory. But deduction requires bringing in axioms of mathematics and logic. But these are only true by convention. Morton White accuses this picture of making "meaning not arising up from natural language but being handed down in a legislative way" because a meaning-theorist labels a certain list of observable predicates as meaningful and anything else is meaningful only by deference to that list.}
+  \p{To predict is to deduce observation sentences from a theory. But deduction requires bringing in axioms of mathematics and logic. But these are only true by convention. Morton White accuses this picture of making "meaning not arising up from natural language but being handed down in a legislative way" because a meaning-theorist labels a certain list of observable predicates as meaningful and anything else is meaningful only by deference to that list.}
 
-\p{Many have challenged that there are such things as purely observational terms (observation is theoretically laden) but this was more or less ignored.}
-\p{Logical positivists notion of a fact goes back to Hume's notion: something you could see/hear/etc.
-}
-\p{Quine demolished the metaphysically inflated notion of "analytic"}
-\ul{
+  \p{Many have challenged that there are such things as purely observational terms (observation is theoretically laden) but this was more or less ignored.}
+  \p{Logical positivists notion of a fact goes back to Hume's notion: something you could see/hear/etc.
+  }
+  \p{Quine demolished the metaphysically inflated notion of "analytic"}
+  \ul{
 
-  \li{It was 'inflated' because it was taking something quite trivial ("All bachelors are unmarried") and putting it in a bucket with all mathematical truths.}
-  \li{Quine advocated that we stop trying to sort things into one bucket or the other.}}
+    \li{It was 'inflated' because it was taking something quite trivial ("All bachelors are unmarried") and putting it in a bucket with all mathematical truths.}
+    \li{Quine advocated that we stop trying to sort things into one bucket or the other.}}
 
 }
 
 \subtree{\title{Fact-value entanglement}
 
-\p{  \strong{First sense}: Factual judgments, even in physics, depend on epistemic values. This is a wrench in our platitudes that science is objective whereas values are subjective. Values presupposed by science include coherence, simplicity (itself a whole bundle of values), beauty (Dirac's favorite term for theories), naturalness. All the arguments for noncognitivism in ethics could be repeated for noncognitivism in epistemology: we never have a sense impression of goodness, but we also never have sense impressions of simplicity and coherence.
-}
+  \p{  \strong{First sense}: Factual judgments, even in physics, depend on epistemic values. This is a wrench in our platitudes that science is objective whereas values are subjective. Values presupposed by science include coherence, simplicity (itself a whole bundle of values), beauty (Dirac's favorite term for theories), naturalness. All the arguments for noncognitivism in ethics could be repeated for noncognitivism in epistemology: we never have a sense impression of goodness, but we also never have sense impressions of simplicity and coherence.
+  }
 
-\p{\strong{Second sense}: Logical/grammatical. Consider negative descriptions like cruel and positive descriptions like brave / just (note: these are precisely the sorts of terms Socrates would confound people with they don't admit definitions, one needs an evaluative point of view to use them fluently).}
-
-
-\p{      Iris Murdoch (Sovereignty of Good) : one can always improve one's understanding of a concept, like bravery of justice.
-}
-
-      \p{John MacDowell talks of "disentangling manuever" in an article "Non-cognitivism and Rule Following" a move made by emotivists in separating competence with concepts into firstly a descriptive component (sensitivty to aspects of the world as it really is, independent of attitudes) and secondly a propensity to have an article. 
-        He doubts this can be done for all concepts. He asks us to consider any moral virtue: then the extension of the associated term (as it would be used by someone who belonged to the community) could be mastered independently of the special concerns that in the community would show themselves in admiration of actions of the concept. Such a person would be able to predict when others apply or don't apply the concept without embarking on an attempt to make sense of their admiration nor share it.
-}       
+  \p{\strong{Second sense}: Logical/grammatical. Consider negative descriptions like cruel and positive descriptions like brave / just (note: these are precisely the sorts of terms Socrates would confound people with they don't admit definitions, one needs an evaluative point of view to use them fluently).}
 
 
-\p{John MacDowell invokes Cavell:
-          If we take the case of some specific action, we might take a case where it is described in ethically prejudiced terms ("ought he have killed (vs murdered) him?"). We don't want agreement to turn on how the act is described.
-          Quoting Socrates: People don't disagree about whether the unjust should be punished, they disagree about who/what is unjust.
-          The case in question forms part of the content of the moral argument itself. Actions (unlike goldfish/envelopes) do not come named for assessment, ready for grading.
-        \p{Difference between MacDowell and Cavell: their understanding of the nature of moral life is different. MacDowell comes to this conclusion via Kantian argument that all perception is conceptualized. Our moral arguments are justified by conceptualized experience (we can perceive the cruelty of beating one's horse to death).}
-        \p{Conversely, in Cavell's account, moral disagreement plays a central role. "Morality must leave itself open to repudiation". It provides one possibility of resolving conflict (an alternative to politics, religion, rebellion, withdrawal). Morality is often better than these other brutal options. "We do not have to agree with each other to live in the same moral world but we do have to know and respect each other's differences".}
-        \p{To say there is a truth in skepticism isn't to say the skeptic is right. Entangled terms do have extensions, and we often get them right. Who is to say when that happens? Each of us has a say.}
-\p{Many different branches of philosophy have contributed important innovations to breaking the fact-value dichotomy. 
-Philosophy stops being [education for grown ups](q-015U) when it thinks of itself as a collection of specialities  when different sources are connected to each other, that's when we learn.}
+  \p{      Iris Murdoch (Sovereignty of Good) : one can always improve one's understanding of a concept, like bravery of justice.
+  }
 
-}
+  \p{John MacDowell talks of "disentangling manuever" in an article "Non-cognitivism and Rule Following" a move made by emotivists in separating competence with concepts into firstly a descriptive component (sensitivty to aspects of the world as it really is, independent of attitudes) and secondly a propensity to have an article.
+    He doubts this can be done for all concepts. He asks us to consider any moral virtue: then the extension of the associated term (as it would be used by someone who belonged to the community) could be mastered independently of the special concerns that in the community would show themselves in admiration of actions of the concept. Such a person would be able to predict when others apply or don't apply the concept without embarking on an attempt to make sense of their admiration nor share it.
+  }
+
+
+  \p{John MacDowell invokes Cavell:
+    If we take the case of some specific action, we might take a case where it is described in ethically prejudiced terms ("ought he have killed (vs murdered) him?"). We don't want agreement to turn on how the act is described.
+    Quoting Socrates: People don't disagree about whether the unjust should be punished, they disagree about who/what is unjust.
+    The case in question forms part of the content of the moral argument itself. Actions (unlike goldfish/envelopes) do not come named for assessment, ready for grading.
+    \p{Difference between MacDowell and Cavell: their understanding of the nature of moral life is different. MacDowell comes to this conclusion via Kantian argument that all perception is conceptualized. Our moral arguments are justified by conceptualized experience (we can perceive the cruelty of beating one's horse to death).}
+    \p{Conversely, in Cavell's account, moral disagreement plays a central role. "Morality must leave itself open to repudiation". It provides one possibility of resolving conflict (an alternative to politics, religion, rebellion, withdrawal). Morality is often better than these other brutal options. "We do not have to agree with each other to live in the same moral world but we do have to know and respect each other's differences".}
+    \p{To say there is a truth in skepticism isn't to say the skeptic is right. Entangled terms do have extensions, and we often get them right. Who is to say when that happens? Each of us has a say.}
+    \p{Many different branches of philosophy have contributed important innovations to breaking the fact-value dichotomy.
+      Philosophy stops being [education for grown ups](q-015U) when it thinks of itself as a collection of specialities  when different sources are connected to each other, that's when we learn.}
+
+  }
 }

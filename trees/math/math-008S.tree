@@ -1,0 +1,14 @@
+\date{2025-02-17T20:54:30Z}
+\title{Stone duality for modal logic}
+\import{macros}
+
+\taxon{proposition}
+
+\example{math-008S}{math-008T} % example of equivalence
+
+\p{From [Goldblatt](robert-goldblatt): The categories of [modal algebras](math-008M) and [descriptive general frames](math-008R) are [dually equivalent](math-008T).}
+
+
+\source{math-008S}{ref-00BA}
+
+\examples{math-008S}

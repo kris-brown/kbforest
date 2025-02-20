@@ -1,0 +1,5 @@
+\date{2025-02-17T19:37:54Z}
+\title{Contravariant functor}
+\taxon{definition}
+
+\p{A \em{contravariant} functor #{A \rightarrow B} is another way of describing a [functor](math-000E) #{A^{op}\rightarrow B} (see [op](math-005U)).}

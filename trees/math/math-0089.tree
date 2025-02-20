@@ -1,0 +1,9 @@
+\date{2025-02-17T18:14:34Z}
+\title{Distributive lattice}
+\taxon{definition}
+
+\p{A \em{distributive lattice} is a [lattice](math-0069) which satisfies the following equations:}
+
+\ul{
+\li{#{a \wedge (b \vee c) = (a \wedge b) \vee (a \wedge c)}}
+\li{#{a \vee (b \wedge c) = (a \vee b) \wedge (a \vee c)}}}

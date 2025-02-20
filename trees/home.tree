@@ -28,36 +28,76 @@
 
 \put\transclude/expanded{false}
 
+\let\rel/is-blog{is-blog}
+\execute\datalog{
+\rel/is-blog ?X -: {\rel/has-tag ?X '{blog}}
+}
+
 \subtree{\title{Blog}
-\query{\query/tag{blog}}
+\query\datalog{
+?X -: {\rel/is-blog ?X}}
+}
+
+\let\rel/is-person{is-person}
+\execute\datalog{
+\rel/is-person ?X -: {\rel/has-taxon ?X '{person}}
 }
 
 \subtree{\title{People}
-\query{\query/taxon{person}}
+\query\datalog{
+?X -: {\rel/is-person ?X}}
+}
+
+\let\rel/is-reference{is-reference}
+\execute\datalog{
+\rel/is-reference ?X -: {\rel/has-taxon ?X '{reference}}
 }
 
 \subtree{\title{Works}
-\query{\query/taxon{reference}}
+\query\datalog{
+?X -: {\rel/is-reference ?X}}
 }
 
+
+\let\rel/is-lecture{is-lecture}
+\execute\datalog{
+\rel/is-lecture ?X -: {\rel/has-tag ?X '{lecture}}
+}
 
 \subtree{\title{Notes on lecture series}
-\query{\query/tag{lecture}}
+\query\datalog{
+?X -: {\rel/is-lecture?X}}
 }
 
+\let\rel/is-quote{is-quote}
+\execute\datalog{
+\rel/is-quote ?X -: {\rel/has-taxon ?X '{quote}}
+}
 
 \subtree{\title{Quotes}
-\query{\query/taxon{quote}}
+\query\datalog{
+?X -: {\rel/is-quote ?X}}
+}
+
+\let\rel/is-joke{is-joke}
+\execute\datalog{
+\rel/is-joke ?X -: {\rel/has-tag ?X '{joke}}
 }
 
 \subtree{\title{Jokes}
-\query{\query/tag{joke}}
+\query\datalog{
+?X -: {\rel/is-joke ?X}}
 }
 
 
+\let\rel/is-todo{is-todo}
+\execute\datalog{
+\rel/is-todo ?X -: {\rel/has-tag ?X '{to-do}}
+}
 
 \subtree{\title{To-do}
 \p{Active problems to think about or things which notes should be taken of}
-\query{\query/tag{to-do}}
+\query\datalog{
+?X -: {\rel/is-todo ?X}}
 
 }

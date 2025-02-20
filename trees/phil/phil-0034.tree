@@ -3,6 +3,12 @@
 \p{One way of characterizing dualisms is that they are distinctions which are drawn in such terms that the relation between the distinguished terms becomes unintelligible.}
 
 
-\query{\query/tag{dualism}}
+\let\rel/is-dualism{is-dualism}
+\execute\datalog{
+\rel/is-dualism ?X -: {\rel/has-tag ?X '{dualism}}
+}
+
+\query\datalog{
+?X -: {\rel/is-dualism ?X}}
 
 

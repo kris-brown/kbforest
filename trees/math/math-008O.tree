@@ -1,0 +1,19 @@
+\date{2025-02-17T20:42:22Z}
+\title{General frame}
+\import{macros}
+\taxon{definition}
+\ref{ref-00BA}
+
+\p{A \em{general frame} is a structure #{(X,R,A)} such that #{(X,R)} is a [Kripke frame](math-008P) and #{A} is a collection of \em{admissible subsets} of #{X}. #{A} is closed under boolean operations and #{\square_R: \cP X \rightarrow \cP X}, where}
+
+##{\square_R(Y) := \{x \in X\ |\ Rxy \implies y \in Y\}}
+
+
+\p{A general frame is \em{differentiated} if for all distinct #{s_1,s_2 \in X} there is a 'witness' #{a \in A} such that #{s_1 \in A} and #{s_2 \not\in A}.}
+
+\p{A general frame is \em{tight} if, whenever #{t} is not an #{R}-successor of #{s}, then there is a 'witness' #{a \in A} such that #{s \in \square_R(a)} while #{t \notin a}.}
+
+\p{A general frame is \em{compact} if #{\bigcap A_0 \ne \varnothing} for every subset #{A_0 \subseteq A} which has the finite intersection property. }
+
+
+\p{A general frame is \em{descriptive} if it is differentiated, tight, and compact.}

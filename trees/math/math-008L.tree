@@ -1,0 +1,5 @@
+\date{2025-02-17T20:28:56Z}
+\title{Clopen}
+\taxon{definition}
+
+\p{A \em{clopen} subset of points in a [topological space](math-002Q) is one that is both open and closed.}

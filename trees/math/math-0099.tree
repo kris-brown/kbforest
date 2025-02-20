@@ -1,0 +1,10 @@
+\date{2025-02-20T01:19:31Z}
+\title{Cofiltered category}
+\import{mathml}
+\import{macros}
+\dual{math-0099}{math-006V}
+\open\mml
+\taxon{definition}
+\let\C{\mi{C}}
+
+\p{A [category](math-000D) \C is \em{co-filtered} when \op-cat{\C} is [filtered](math-006V).}

@@ -1,0 +1,26 @@
+\date{2025-02-16T22:54:06Z}
+\title{Classical propositional logic}
+
+\transclude{math-0083}
+
+
+\let\rel/example-of{example-of}
+\execute\datalog{
+\rel/is-reference ?X ?Y -:
+{\rel/is-node ?L}
+{\rel/has-taxon ?L '{exampleOf}}
+{\rel/has-author ?X ?L}
+{\rel/links-to ?L ?Y}
+}
+
+\p{Query this tree is an example of these other trees:}
+
+% \query\datalog{
+% ?X -: {\rel/example-of ?X @{math-0082}}
+% }
+
+% \query\datalog{
+% ?Y   -: {\rel/is-node ?X} {\rel/is-node ?Y} {\rel/has-author ?X ?Y}
+% }
+
+\p{End query}

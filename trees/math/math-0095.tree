@@ -1,0 +1,6 @@
+\date{2025-02-20T00:10:43Z}
+\title{#{G} of an equivalence}
+\import{macros}
+\parent{math-0091}
+
+\p{A [functor](math-000E) #{G: \cat{D}\rightarrow \cat{C}}}

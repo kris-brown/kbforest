@@ -1,10 +1,7 @@
 \date{2024-08-30}
-\title{Fitered category}
+\title{Filtered category}
 \taxon{definition}
 \import{macros}
 
-\p{A [category](math-000D) #{\cat{C}} is \em{filtered} if every finite [diagram](math-0000) in #{\cat{C}} has a cocone.}
+\p{A [category](math-000D) #{\cat{C}} is \em{filtered} if every finite [diagram](math-0000) in #{\cat{C}} has a [cocone](math-0098).}
 
-\p{This means #{\cat{C}}}
-
-\p{#{\cat{C}} is \em{co-filtered} when #{\cat{C}^{op}} is filtered.}

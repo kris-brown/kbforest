@@ -2,49 +2,49 @@
 
 \p{
 
-A [successor concept](ref-0134) to a notion of languages and theories. A vocabulary is a way of talking /  what we deploy in discursive practice.}
+  A [successor concept](phil-0134) to a notion of languages and theories. A vocabulary is a way of talking /  what we deploy in discursive practice.}
 
 \subtree{\title{Examples}
 \ul{
-\li{the vocabulary of 16th century theology}
-\li{also, the vocabulary of \em{modernity} (where that's presumably an [autonomous discursive practice](phil-0013))}
-}
+  \li{the vocabulary of 16th century theology}
+  \li{also, the vocabulary of \em{modernity} (where that's presumably an [autonomous discursive practice](phil-0013))}
+  }
 }
 \subtree{\title{Changing vocabularies}
 
-\p{Rorty doesn't draw a line between speaking in a vocabulary and changing your vocabulary (he thinks almost all speech acts change it due to the  [Duhem point](phil-0035))[^du].
-}
-\p{[^du]:  each time we add a new belief we change the meanings in the rest of our vocabulary, since we have changed the inferential relations.  
-}
-\p{In mature sciences, a lot of work is taken to allow for discourse to proceed as if the vocabulary were fixed:
-}
-\p{The discursive equivalent of "clean rooms", maintained through heroic social disciplinary measures}
-\p{This is for \em{mature} sciences: if you think of the history of temperature,  every single time a new way of measuring temperature was discovered, the concept changed.}
+  \p{Rorty doesn't draw a line between speaking in a vocabulary and changing your vocabulary (he thinks almost all speech acts change it due to the  [Duhem point](phil-0035))[^du].
+  }
+  \p{[^du]:  each time we add a new belief we change the meanings in the rest of our vocabulary, since we have changed the inferential relations.
+  }
+  \p{In mature sciences, a lot of work is taken to allow for discourse to proceed as if the vocabulary were fixed:
+  }
+  \p{The discursive equivalent of "clean rooms", maintained through heroic social disciplinary measures}
+  \p{This is for \em{mature} sciences: if you think of the history of temperature,  every single time a new way of measuring temperature was discovered, the concept changed.}
 
-\p{But it would be a serious mistake to take this extreme, artificial case to  be the paradigm on the basis of which we understand the use of language in general. 
-}
-\p{\em{Sometimes} we want to prevent the vocabulary from changing, [but not always](q-0026).
-}
-\p{Rorty calls this process [redescription](phil-0110).
-}
+  \p{But it would be a serious mistake to take this extreme, artificial case to  be the paradigm on the basis of which we understand the use of language in general.
+  }
+  \p{\em{Sometimes} we want to prevent the vocabulary from changing, [but not always](q-0026).
+  }
+  \p{Rorty calls this process [redescription](phil-0110).
+  }
 }
 \subtree{\title{Quantifying over all vocabularies}
 
-\p{This is a central fallacy of [platonists](int-0011): this is not a determinate or determinable domain. (discursive practice is fundamentally plastic, as Wittgenstein [describes](phil-0140), so \em{at best} you'll get a snapshot of the current moment).
-}
-\p{One doesn't try to do this unless they are trying to permanently [end some philosophical conversation](q-0108) (by finding the final vocabulary).
-}
-\p{Because each vocabulary gives rise to characteristic sorts of facts (e.g. physical facts, culinary facts, theological facts...) we also cannot quantify over all facts.[^tr]
-}
-\p{[^tr]: Contrast with [Tractatus](ref-0066) 1.11: "The world is determined by the facts, and by these being \em{all} the facts."
-}
-\p{Rorty does quantify over all vocabularies insofar as he is a [declarativist](phil-0025) - all vocabularies have something that plays the role of declarative sentences and thus can be interpreted as purportively fact-stating.
-}
+  \p{This is a central fallacy of [platonists](int-0011): this is not a determinate or determinable domain. (discursive practice is fundamentally plastic, as Wittgenstein [describes](phil-0140), so \em{at best} you'll get a snapshot of the current moment).
+  }
+  \p{One doesn't try to do this unless they are trying to permanently [end some philosophical conversation](q-0108) (by finding the final vocabulary).
+  }
+  \p{Because each vocabulary gives rise to characteristic sorts of facts (e.g. physical facts, culinary facts, theological facts...) we also cannot quantify over all facts.[^tr]
+  }
+  \p{[^tr]: Contrast with [Tractatus](ref-0066) 1.11: "The world is determined by the facts, and by these being \em{all} the facts."
+  }
+  \p{Rorty does quantify over all vocabularies insofar as he is a [declarativist](phil-0025) - all vocabularies have something that plays the role of declarative sentences and thus can be interpreted as purportively fact-stating.
+  }
 }\subtree{\title{Comparing different vocabularies}
 
-\p{If you are a representationalist, then you get for free a notion of one vocabulary being better than another.
-Rorty's notion of [coping](phil-0023) is a pragmatist-friendly substitute for this. }
+  \p{If you are a representationalist, then you get for free a notion of one vocabulary being better than another.
+    Rorty's notion of [coping](phil-0023) is a pragmatist-friendly substitute for this. }
 
-\p{The vocabulary vocabulary leads Rorty to questioning the distinction of [Real properties vs Cambridge properties](phil-0109).
-}
+  \p{The vocabulary vocabulary leads Rorty to questioning the distinction of [Real properties vs Cambridge properties](phil-0109).
+  }
 }

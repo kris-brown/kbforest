@@ -4,37 +4,37 @@
 \p{One of the value propositions of applied category theory is that it's possible for you to take your concrete domain of expertise (be it Rubik's cube solving, delivery routes, psychology, etc.) and massage it into the language of a category. Once you do this, you are viewing it from the mile-high view, where everything is just dots and arrows.}
 
 \p{
-The general story of the usefulness of abstracting your subject matter into these dots and arrows is that category theorists have spent decades thinking about categories and special configurations of dots and arrows that have special importance and deserve special names. This lets you inherit a large menu of tools for doing operations/constructions at that level of abstraction. }
+  The general story of the usefulness of abstracting your subject matter into these dots and arrows is that category theorists have spent decades thinking about categories and special configurations of dots and arrows that have special importance and deserve special names. This lets you inherit a large menu of tools for doing operations/constructions at that level of abstraction. }
 
 \p{
-For example, the following configuration highlighted in red is called a \em{coproduct}. The diagram is saying that, for any dot (call it #{X}), if you have arrows #{A\xrightarrow{f} X} and #{B \xrightarrow{g} X} then there exists a unique arrow #{A+B \xrightarrow{!} X} (for which the path #{A \xrightarrow{\iota_1,\ !} X} is the same as #{f} and likewise for #{g}). 
+For example, the following configuration highlighted in red is called a \em{coproduct}. The diagram is saying that, for any dot (call it #{X}), if you have arrows #{A\xrightarrow{f} X} and #{B \xrightarrow{g} X} then there exists a unique arrow #{A+B \xrightarrow{!} X} (for which the path #{A \xrightarrow{\iota_1,\ !} X} is the same as #{f} and likewise for #{g}).
 }
 
 \quiver{\begin{tikzcd}
-	& \textcolor{rgb,255:red,214;green,92;blue,92}{A+B} \\
-	\textcolor{rgb,255:red,214;green,92;blue,92}{A} && \textcolor{rgb,255:red,214;green,92;blue,92}{B} \\
-	& X
-	\arrow["{\iota_1}", color={rgb,255:red,214;green,92;blue,92}, from=2-1, to=1-2]
-	\arrow["{\iota_2}"', color={rgb,255:red,214;green,92;blue,92}, from=2-3, to=1-2]
-	\arrow["{!}"', dashed, from=1-2, to=3-2]
-	\arrow["f"', from=2-1, to=3-2]
-	\arrow["g", from=2-3, to=3-2]
-\end{tikzcd}}
+    & \textcolor{rgb,255:red,214;green,92;blue,92}{A+B} \\
+    \textcolor{rgb,255:red,214;green,92;blue,92}{A} && \textcolor{rgb,255:red,214;green,92;blue,92}{B} \\
+    & X
+    \arrow["{\iota_1}", color={rgb,255:red,214;green,92;blue,92}, from=2-1, to=1-2]
+    \arrow["{\iota_2}"', color={rgb,255:red,214;green,92;blue,92}, from=2-3, to=1-2]
+    \arrow["{!}"', dashed, from=1-2, to=3-2]
+    \arrow["f"', from=2-1, to=3-2]
+    \arrow["g", from=2-3, to=3-2]
+  \end{tikzcd}}
 
 \p{
-The symbol #{A+B} is evocative of what this abstract definition cashes out to when we instantiate this pattern in various categories. For example, it can correspond to adding numbers together, or taking the union of a Venn diagram, or getting the most recent common ancestor from a geneology chart, or, in the case of graphs, obtaining the graph that places graphs #{A} and #{B} side-by-side.[^cat] 
+The symbol #{A+B} is evocative of what this abstract definition cashes out to when we instantiate this pattern in various categories. For example, it can correspond to adding numbers together, or taking the union of a Venn diagram, or getting the most recent common ancestor from a geneology chart, or, in the case of graphs, obtaining the graph that places graphs #{A} and #{B} side-by-side.[^cat]
 }
 
 \p{
-[^cat]: With [Catlab.jl](/https://algebraicjulia.github.io/Catlab.jl/latest/),one can write programs at this level of abstraction, which has many practical advantages, such as being able to reuse the same code in radically different contexts as well as not needing to change one's code even when the underlying data model changes.
+  [^cat]: With [Catlab.jl](https://algebraicjulia.github.io/Catlab.jl/latest/),one can write programs at this level of abstraction, which has many practical advantages, such as being able to reuse the same code in radically different contexts as well as not needing to change one's code even when the underlying data model changes.
 }
 
 \image{blog/mile-high/coprod.png}
 
 \p{
-Beyond things to do within a single category, the category theorists think a lot about how different categories relate to each other, meaning you can relate things in your domain of expertise to \em{other} domains (or other perspectives on your own domain) if the other ones are likewise able to be viewed as dots and arrows.
+  Beyond things to do within a single category, the category theorists think a lot about how different categories relate to each other, meaning you can relate things in your domain of expertise to \em{other} domains (or other perspectives on your own domain) if the other ones are likewise able to be viewed as dots and arrows.
 }
 
 \p{
-Critical to this value proposition is that you then can take these high-level insights back to the ground level, i.e. specialize them in your domain of interest. 
+  Critical to this value proposition is that you then can take these high-level insights back to the ground level, i.e. specialize them in your domain of interest.
 }

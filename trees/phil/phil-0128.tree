@@ -1,9 +1,14 @@
 \title{Skepticism}
 
 \p{
-
-Skepticism comes in many flavors.}
-
-\scope{
-  \query{\query/tag{skepticism}}
+  Skepticism comes in many flavors.
 }
+
+
+\let\rel/is-skepticism{is-skepticism}
+\execute\datalog{
+\rel/is-skepticism ?X -: {\rel/has-tag ?X '{skepticism}}
+}
+
+\query\datalog{
+?X -: {\rel/is-skepticism ?X}}

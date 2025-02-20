@@ -6,9 +6,9 @@
 \tag{preprint}
 
 \import{macros}
-\author{george-peschke}
+\author/literal{George Peschke}
 \import{macros}
-\author{walter-tholen}
+\author/literal{Walter Tholen}
 
 \meta{doi}{10.48550/arXiv.2006.10890}
 
@@ -16,5 +16,5 @@
   The `base' of our web of 2-adjunctions extends earlier work of the Ehresmann school and Guitart and promises to be of independent interest. It involves forming the diagram category of an arbitrary functor, seen as an object of the arrow category of the category of locally small categories, rather than that of a mere category. The left [adjoint](math-0028) of the emerging generalized Guitart 2-adjunction factors through the 2-equivalence of split Grothendieck (co-)fibrations and strictly (co-)indexed categories, which we present here most generally by allowing 2-dimensional variation in the base categories. }
 
 \notes{
-  Cited by [A Diagrammatic View of Differential Equations in Physics](patterson-diagramatic-2022) for diagram categories.
+  Cited by [A Diagrammatic View of Differential Equations in Physics](ref-0043) for diagram categories.
 }

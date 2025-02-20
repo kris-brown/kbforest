@@ -1,0 +1,7 @@
+\date{2025-02-17T18:44:17Z}
+\title{Category of boolean algebras}
+\meta{external}{https://ncatlab.org/nlab/show/BoolAlg}
+
+\p{Has as objects, [boolean algebras](math-0038).}
+
+\p{Has as morphisms, lattice homomorphisms}

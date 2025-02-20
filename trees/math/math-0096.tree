@@ -1,0 +1,6 @@
+\date{2025-02-20T00:13:09Z}
+\title{#{\epsilon} of a natural equivalence}
+\import{macros}
+\parent{math-0091}
+
+\p{A [natural transformation](math-002E) #{\epsilon: FG \Rightarrow 1_D}}

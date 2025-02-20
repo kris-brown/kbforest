@@ -1,6 +1,0 @@
-[forest]
-trees = ["trees/math", "macros"]
-assets = ["assets"]
-theme = "theme"
-root = "home"
-base_url = "https://www.krisb.org/math"

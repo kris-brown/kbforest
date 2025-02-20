@@ -1,7 +1,7 @@
 \date{2024-08-26}
 \title{Relationship between implication space semantics and Girard's phase semantics}
 
-\p{There is a great overlap in between [implication space semantics](role-003L) and [phase semantics](phase semantics).}
+\p{There is a great overlap in between [implication space semantics](role-003L) and [phase semantics](math-006T).}
 
 \p{They agree up to the point where the phase space gets defined, but Girard uses #{(-)^*} to codify \em{negation}. This seems peculiar from our vantage point because this shows up even earlier, in the definition of a \em{fact}.}
 

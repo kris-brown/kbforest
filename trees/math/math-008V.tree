@@ -1,0 +1,7 @@
+\date{2025-02-19T04:18:16Z}
+\title{Adjoint equivalences are ambidexterous}
+\taxon{proposition}
+\p{[source](https://ncatlab.org/nlab/show/adjoint+equivalence#properties)
+}
+
+\p{If #{(f\dashv g,\eta,\varepsilon)} is an [adjoint equivalence](math-008U), then so is #{(g\dashv f,\eta^{-1},\varepsilon{^-1})}, so #{f\dashv g} is an [ambidexterous adjunction](math-008W).}

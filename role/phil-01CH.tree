@@ -2,10 +2,11 @@
 \title{Persistence-codifying modal operator}
 \import{macros}
 
-\subtree{\taxon{definition}
-\p{#{\Gamma \vsim \Box A} iff #{\Gamma \vsim^{\uparrow} A}
-}}
+\defn{phil-01CH}{phil-01DQ}
 
 \p{This is explicitly marking the monotonicity of a particular inference.}
 
 \p{Whether or not #{\Gamma \vsim \Box A} holds depends on whether #{A} is entailed by all supersets of #{\Gamma}.}
+
+
+\source{phil-01CH}{ref-00AU}

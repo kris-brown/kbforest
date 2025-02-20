@@ -1,0 +1,10 @@
+\date{2025-02-19T22:23:17Z}
+\title{Equivalence of categories}
+\taxon{definition}
+\import{macros}
+
+\p{Given two [categories](math-000D) #{\cat{C}} and #{\cat{D}}, the data of an \em{equivalence} is a tuple #{(F,G,\epsilon, \eta)}:}
+\transclude{math-0094}
+\transclude{math-0095}
+\transclude{math-0096}
+\transclude{math-0097}

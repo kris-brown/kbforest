@@ -1,0 +1,12 @@
+\date{2025-02-19T22:25:45Z}
+\title{Equivalence of categories}
+\taxon{definition}
+\import{macros}
+
+\p{Given two [categories](math-000D) #{\cat{C}} and #{\cat{D}}, the data of a weak \em{equivalence} is a functor #{F: \cat{C}\rightarrow \cat{D}} that is:}
+
+\ul{
+  \li{[Full](math-002I)}
+  \li{[Faithful](math-002K)}
+  \li{[Essentially surjective](math-002M)}
+}

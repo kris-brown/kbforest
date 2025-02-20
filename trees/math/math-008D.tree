@@ -1,0 +1,6 @@
+\date{2025-02-17T19:07:42Z}
+\title{FinOp and finite Boolean Algebras are equivalent}
+\taxon{proposition}
+\ref{ref-00BA}
+
+\p{The [categories](math-000D) #{Fin^{op}} (see [Fin](math-008G) and [op](math-005U)) and #{BA_{fin}} are [equivalent](math-002B).}

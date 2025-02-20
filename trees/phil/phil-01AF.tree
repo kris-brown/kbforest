@@ -4,8 +4,7 @@
 \author{rorty}
 
 \scope{
-\put\transclude/title{Endorsing use of truth}
-\transclude{phil-01A7}
+  \transclude{phil-01A7}
 }
 \transclude{phil-01AG}
 \transclude{phil-01AH}

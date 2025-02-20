@@ -1,18 +1,11 @@
 \date{2024-05-04}
 \title{Cumulative transitivity}
-
 \import{macros}
+\defn{phil-01BV}{math-008Y}
 
-\subtree{\taxon{definition}
-  \bussproofs{
-    \AxiomC{$\Gamma \vsim A$}
-    \AxiomC{$\Gamma,A \vsim B$}
-    \BinaryInfC{$\Gamma \vsim B$}
-    \DisplayProof
-  }
-}
 
 \p{Dual to [Cautious monotonicity](phil-01BS)}
 
 \p{This says that [explicitation](phil-01BT) never \em{adds} consequences.}
+
 

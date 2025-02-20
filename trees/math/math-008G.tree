@@ -1,0 +1,5 @@
+\date{2025-02-17T19:16:12Z}
+\title{FinSet category}
+\taxon{definition}
+
+\p{The category \em{FinSet} has finite sets as objects and finite functions as morphisms.}

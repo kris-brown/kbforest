@@ -7,7 +7,7 @@
 
 \ul{
 \li{A class of objects}
-\li{For each pair of objects #{x} and #{y}, a [category](category) of 2-morphisms between them.
+\li{For each pair of objects #{x} and #{y}, a [category](math-000D) of 2-morphisms between them.
 \ul{
 
 \li{The objects of which are morphisms #{x \rightarrow y } in #{\CC} }

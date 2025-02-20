@@ -1,0 +1,7 @@
+\date{2025-02-19T04:10:31Z}
+\title{Adjoint equivalence}
+\meta{external}{https://ncatlab.org/nlab/show/adjoint+equivalence}
+
+\taxon{definition}
+
+\p{An \em{adjoint equivalence} is a pair of [adjoint functors](math-0028) #{f\dashv g} where the unit #{\eta} and the counit #{\varepsilon} are [natural isomorphisms](math-0032).}

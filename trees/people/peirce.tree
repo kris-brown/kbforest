@@ -1,0 +1,18 @@
+\title{Charles Sanders Peirce}
+\taxon{person}
+\tag{philosopher}
+\meta{external}{https://plato.stanford.edu/entries/peirce/}
+
+\p{
+
+  Charles Sanders Peirce (1839-1914). Founder of American pragmatism.
+}
+
+\subtree{\title{Relation to Sellars, habits, and rules}
+
+  \p{For Sellars, the word 'habit' denotes a mere regularity. For Peirce, habit is a normative concept.
+  }
+  \p{He observes that the Latin form in which Newton lies down in Principia is the same form a notice board that says "Neckties will be worn in the office".
+  }
+  \p{Sellars would call this notion of normativity "ought-to-be".
+  }}

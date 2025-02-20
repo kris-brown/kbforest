@@ -1,0 +1,5 @@
+\date{2025-02-19T19:47:50Z}
+\import{macros}
+\taxon{definition}
+\p{#{\Gamma \vsim \Box A} iff #{\Gamma \vsim^{\uparrow} A}
+}

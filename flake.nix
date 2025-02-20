@@ -2,7 +2,7 @@
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/23.11";
     systems.url = "github:nix-systems/default";
-    forester.url = "sourcehut:~jonsterling/ocaml-forester";
+    forester.url = "https://git.sr.ht/~jonsterling/ocaml-forester";
     forest-server.url = "github:kentookura/forest-server";
     bunnycdn-cli.url = "github:olynch/bunnycdn-cli";
   };

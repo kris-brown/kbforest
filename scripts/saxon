@@ -1,0 +1,33 @@
+#!/usr/bin/env bash
+
+SAXON_ZIP="SaxonHE12-5J.zip"
+
+SAXON_URL="https://forester-builds.s3.us-east-2.amazonaws.com/$SAXON_ZIP"
+
+SAXON_DIR="$HOME/.saxon/"
+SAXON_JAR="$SAXON_DIR/saxon-he-12.5.jar"
+
+if [[ ! -f "$SAXON_JAR" ]]; then
+  mkdir -p "$SAXON_DIR"
+  PREV=$(pwd)
+  TMP=$(mktemp -d)
+  cp checksums.txt $TMP
+  cd $TMP
+  curl -O $SAXON_URL
+  which sha256sum
+  if [[ $? -ne 0 ]]; then
+    echo "not verifying checksum; if you would like to verify checksum (only for the paranoid), install sha256sum"
+  else
+    sha256sum -c checksums.txt --ignore-missing
+    if [[ $? -ne 0 ]]; then
+      echo "invalid checksum"
+      exit 1
+    fi
+  fi
+  unzip $SAXON_ZIP
+  mv doc lib *.jar "$SAXON_DIR"
+  cd $PREV
+  rm -rf $TMP
+fi
+
+java -jar $SAXON_JAR $@

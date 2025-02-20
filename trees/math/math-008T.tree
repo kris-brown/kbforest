@@ -1,0 +1,9 @@
+\date{2025-02-17T20:59:30Z}
+\title{Dual equivalence}
+\import{macros}
+
+\example{math-008T}{math-002B} % example of equivalence
+
+\p{[Categories](math-000D) #{C} and #{D} are \em{dually equivalent} when #{C^{op}} and #{D} are [equivalent](math-002B)}
+
+\examples{math-008T}

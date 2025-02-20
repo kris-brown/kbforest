@@ -1,0 +1,4 @@
+\date{2025-02-19T20:05:21Z}
+\taxon{definition}
+\p{A \em{fact} is a subset  #{G \subseteq P} such that #{G^{\bot\bot}=G}.}
+
