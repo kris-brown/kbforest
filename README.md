@@ -1,21 +1,76 @@
-# Setup Instructions
+# Kris Brown's forest
 
-1. Install [nix](https://nixos.org/explore). The best way to do this if you don't already have nix installed is via the [Determinate Nix installer](https://github.com/DeterminateSystems/nix-installer). If you are on macOS, you can do this without even going into Terminal.app, with the [Graphical Nix Installer](https://determinate.systems/posts/graphical-nix-installer).
-2. Clone this repository with `git clone https://github.com/LocalCharts/forest`, or if you have an SSH key on github, `git clone git@github.com:LocalCharts/forest`.
-3. Move into the directory you cloned into with `cd forest`
-4. Run `nix develop`. This step might take a while the first time as it installs OCaml, TeXlive, and the automatically refreshing preview server. If this doesn't work, then try `nix develop '.#shell-minimal'`, which only contains forester and the `new` and `build` wrapper commands. Note that in this case you must have a recent TeXlive installation on your computer.
-5. If you ran `nix develop` before, then run `forester-dev`. This will start a server at `http://localhost:8080` which serves the built version of the forest. Note that if you go to `http://localhost:8080` you will get a blank screen; you have to go to `http://localhost:8080/index.xml` to get the main page, or `http://localhost:8080/namespace-XXXX.xml` for looking at other pages. Otherwise, if you ran `nix develop '.#shell-minimal'`, you can just run `build` to build the site into the `output/` directory, and then run `serve` to start up a server to preview the output; you can then go to `http://localhost:8080/index.xml` as in the previous instructions.
-6. Edit some files in the `trees/` directory! For a reference on forester syntax, see [The Forester markup language](http://www.jonmsterling.com/jms-007N.xml).
+This is the source code for my [forest](https://www.forester-notes.org/) which is hosted on [my website](https://www.krisb.org/forest/index.xml).
 
-# Tips 
+Thank you to [Jon Sterling](https://www.jonmsterling.com/) and [Kento Okura](https://github.com/kentookura) for tireless work on making this excellent tool! Thank you to Owen Lynch for his contributions to forester in addition to making a lot of auxiliary support tools.
 
-If you want to transclude simply the raw content of a tree, do this: 
+I hope this code can be of interest to others writing their own forests. Some interesting things to share:
 
-```latex
-\scope{
-  \put\transclude/heading{false}
-  \transclude{. . .}
+# Why forester over alternatives?
+
+- Free to use, open source
+- Fast, pretty
+- Transclusions done right
+- Full LaTeX support, especially for diagrams
+- Generates static website that can be shared
+- Backlinks
+- Collapsible nesting of subsections
+- A relatively-flat hierarchy of atomic notes with internal linking via IDs (rather than via names) encourages [evergreen note-taking](https://www.forester-notes.org/tfmt-000R.xml), which maximizes reuse of notes.
+
+# Custom relations
+
+There are many relationships that hold between trees. In addition to the `links-to` and `transcludes`
+relations that can occur between trees of any taxa, there are binary relations that obtain between trees of particular taxa:
+
+- `author: Reference -> Person` (e.g. `author(Critique of Pure Reason, Kant)`)
+- `dual: Concept -> Concept` (e.g. `dual(Product, Coproduct)`)
+- `definition: Concept -> Definition` (connecting, e.g. the general page for `Category` with the specific tree containing a definition)
+- `example: Concept -> Concept` (e.g. `example(SMC, Category)`, `example(Stone Duality, Equivalence of categories)`)
+- `supports: Argument -> Argument` (e.g. `supports(Private language argument, Pragmatist theory of semantics)`) and `opposes`
+- `source: [Any] -> Reference` (attributing credit to [nlab](https://ncatlab.org/nlab/show/HomePage) / [SEP](https://plato.stanford.edu/) / a paper)
+
+Adding these relations to the datalog knowledge graph is accomplished with the following macro:
+
+```
+\def\relation[r][x][y]{
+  \execute\datalog{
+    \r @{\x} @{\y} -:
+  }
 }
 ```
 
-Keep an eye out for how [this issue](https://lists.sr.ht/~jonsterling/forester-discuss/%3CCZTDHPB6SZX9.2R4NNQPWGTP5C%40gmail.com%3E) resolves so that this can be done with a convenient macro.
+For example:
+
+```
+\def\rel/dual{kris.dual}
+
+\def\dual[x][y]{
+\relation{\rel/dual}{\x}{\y}
+\subtree{
+  \title{Dual concept}
+  \query\datalog{?X -: {\rel/dual @{\x} ?X}}}
+}
+```
+
+Once forester gains a `current-tree` function, we can remove the `x` parameter.
+
+Right now there is no notion of "schema" which would check that certain taxa have the expected relations.
+
+# Internally-linked mathematical text
+
+A mathematical expression packs a lot of content concisely into its symbols. These symbols, like "+", have meanings which depend on the context. LaTeX doesn't naturally support linking within its expressions such as $x^2$ (one has to accompany the expression with some text: "where the '2' refers to [exponentiation]). Better would be for the elements of the expression to be directly linked to what the notation stands for. 
+
+For example, the "op" in Cofiltered Category (math-0099) is linked to the Opposite Category tree.
+
+This is accomplished by building off of Jon Sterling's mathml macros file like so:
+
+```
+\def\op-link[addr][~C]{\ensure-math{\<mml:msup>{\C{} \<mml:mi>{[op](\addr)}}}}
+
+\def\op-cat[~C]{\op-link{math-005U}{\C{}}}
+```
+
+# Wishlist
+
+- A nice way to format (e.g. sensible indentation) the files in one's forest (I currently crudely use `latexindent`, see the `indentconfig.yaml` which I haven't spent much time towards configuring)
+- Export to PDF

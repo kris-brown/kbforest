@@ -7,7 +7,8 @@ build
 latex
 output
 private
-
+_tmp
+.vscode
 *.json
 *.log
 *.bak0

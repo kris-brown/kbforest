@@ -50,5 +50,6 @@
 
 \def\op-link[addr][~C]{\ensure-math{\<mml:msup>{\C{} \<mml:mi>{[op](\addr)}}}}
 
-\def\op-cat[~C]{\op-link{math-005U}{\C{}}}}
+\def\op-cat[~C]{\op-link{math-005U}{\C{}}}
 
+}
