@@ -1,0 +1,13 @@
+\date{2025-03-06T17:53:33Z}
+\let\curr{math-00E8}
+\import{macros}
+
+
+\title{Incremental homomorphism search for monitoring non-monic matches of a pattern}
+\taxon{algorithm}
+
+\p{The [algorithm](math-00E9) for an incremental \em{monic} query can be leveraged into an algorithm to solve [incremental homomorphism search problems](math-00EB) #{(\cat{C}, X, \cR, \cQ, \cM)} where #{\cQ=\Hom}, i.e. for non-monic morphisms out of one's query pattern #{X}.}
+
+\p{At compile time, we can compute the full poset of quotients #{q_i: X \twoheadrightarrow X/\sim_i}. Then, for each #{X/\sim_i} we maintain a monic incremental hom set as above. Any monic query result #{X/\sim_i\  \rightarrowtail G} can be precomposed with the quotient map #{q_i} to get a map #{X \rightarrow G}.}
+
+\p{This strategy incrementally finds all such maps #{X \rightarrow G} because every such map can be uniquely factored into a pair of composable morphisms #{X\twoheadrightarrow\ X/\sim\  \rightarrowtail G}.}

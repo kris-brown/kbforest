@@ -2,5 +2,21 @@
 \title{Difunctor}
 \taxon{definition}
 \import{macros}
+\import{rel}
+\import{math-0024} % prod
+\import{math-000E} % tofunctor
+\import{math-005U} % op-cat
+\import{math-003L} % set
 
-\p{A \em{difunctor} is a [functor](math-000E) #{\cat{C}^{op}\times \cat{C}}.}
+
+\example{math-00DN}
+\import{mathml}
+\open\mml
+
+
+\p{A \em{difunctor} is a [functor](math-000E) of the form.}
+
+\display{{{\op-cat{\sfC} \prod \sfC} \tofunctor \set}}
+
+
+\examples

@@ -1,0 +1,6 @@
+\date{2025-02-23T17:56:56Z}
+\title{Unitality of identity morphisms}
+\taxon{definition}
+\parent{math-009C}
+
+\p{For all #{a\xrightarrow{f}b} we have #{{id(a)\cdot f = f = f \cdot id(b)}}.}

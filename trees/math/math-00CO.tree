@@ -1,0 +1,8 @@
+\date{2025-02-26T03:12:33Z}
+\title{Lawvere theory}
+\import{rel}
+\taxon{definition}
+
+\source{ref-00BF}
+
+\p{A [Lawvere](lawvere) \em{theory} is a category with finite products in which every object is isomorphic to a finite power #{x^n} for some \em{generic object} #{x} and #{n \in \NN}. }

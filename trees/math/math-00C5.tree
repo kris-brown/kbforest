@@ -1,0 +1,10 @@
+\date{2025-02-25T21:29:08Z}
+\title{Regular monomorphism}
+\taxon{definition}
+\import{macros}
+\import{rel}
+
+\source{math-00C6}
+
+\p{A [monomorphism](math-003X) #{f: c\rightarrowtail d} is \em{regular} iff there exists some pair of morphisms #{d\rightarrow e} for which it is the [equalizer](math-0042).}
+

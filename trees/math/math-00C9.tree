@@ -1,0 +1,27 @@
+\date{2025-02-25T22:05:16Z}
+\title{Yoneda embedding is a generic model for an algebraic theory}
+\taxon{proposition}
+\import{macros}
+\import{rel}
+
+\source{ref-00BC}
+
+
+\scope{
+  \import{mathml}
+  \open\mml
+  \let\y{\mi{[y](math-00CD)}}
+
+  \p{Given an [algebraic theory](math-009Q) \TT, the [Yoneda embedding](math-00CD) \y\colon\to{math-000E}{\sub{\sfC}{\TT}}{\hat{math-00CA}{\sub{\sfC}{\TT}}}}
+}
+\p{can be applied to the universal model #{\cU \in \Ob} to obtain a [generic](math-00CC) model #{\cY := y(\cU)}}
+
+\subtree{\taxon{proof}
+
+\p{To see that #{\cY} has all the required equalities, note that #{y} is a product-[preserving](math-00BG) functor because the [Yoneda embedding preserves limits](math-00CI): any equation that holds in #{\cU} must hold in #{\cY}.}
+
+\p{To see that #{\cY} has \em{only} the required equalities, note that the [Yoneda embedding is faithful](math-00CJ): any equation that holds in #{\cY} must also hold in #{\cU}.}
+}
+
+
+\examples

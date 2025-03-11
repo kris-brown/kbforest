@@ -2,8 +2,9 @@
 \import{macros}
 \taxon{quote}
 \author{frege}
+\import{rel}
 
 \blockquote{A fact is a thought that is true.}
 
-\source{q-015O}{ref-00BB}
-\example{q-015O}{phil-01DR}
+\source{ref-00BB}
+\example{phil-01DR}

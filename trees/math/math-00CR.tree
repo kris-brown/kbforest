@@ -1,0 +1,19 @@
+\date{2025-02-26T03:38:35Z}
+\title{Syntax and functorial semantics are dual for algebraic theories}
+\import{mathml}
+\import{macros}
+\import{math-002B} % congCat
+\import{math-005U} % op-cat
+\import{math-00BB} % synCat
+
+\scope{
+\open\mml
+\let\modT{\mapp{\sfmodLink{math-00CP}{\prn{\TT}}}}
+\let\synT{\mapp{\synCat\prn{\TT}}}
+
+\display{{\synT \congCat \op-cat{\modT}}}
+}
+
+\subtree{\taxon{proof}
+\p{Given that the [syntactic category](math-00BB) #{\cat{Syn}(\TT)} [classifies](math-00BF) #{\TT} models and the (opposite of the) [semantic category](math-00CP) #{\cat{mod(\TT)}} [classifies](math-00CQ) #{\TT} models, and that classification is a [universal property](math-00BU), it must be that #{\cat{Syn}(\TT) \cong \cat{mod(\TT)}^{op}}. }
+}

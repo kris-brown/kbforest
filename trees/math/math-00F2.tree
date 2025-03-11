@@ -1,0 +1,29 @@
+\date{2025-03-09T17:24:08Z}
+
+\title{Incremental homomorphism search with monic rules, monic rule matches, and monic queries}
+\taxon{algorithm}
+\import{macros}
+
+
+\p{Now to adapt the core [algorithm](math-00E9), we need each overlap to produce an [internal relation](ref-00BK) #{R\rightarrowtail G_2\times X} for which #{ev(R)} includes all and only the morphisms #{f: X\rightarrow G_2} where the overlap inclusions form a pullback and #{f} does not completely lie in the image of #{G_1}.  }
+
+\put\transclude/expanded{true}
+
+\transclude{math-00EQ}
+
+\p{Again we'll construct the [specification](math-00EJ) in two pieces: one which ensures the pullback condition and the other which ensures the #{G_1} condition. The first component is a specification #{(\iota_X, \iota_R\cdot r): O \rightarrowtail X\times G_2} induced by the [universal property of products](math-00ER).}
+
+\p{The second component comes from [the product](math-00EU) of [complements](math-00ES) #{\sim \iota_X} and #{\sim r}. The subobject poset #{Sub(X\times G_2)} has meets and joins in a [coherent category](math-003H), hence we can take the join of these two internal relations.}
+
+\p{Let #{R_{\iota_X,\iota_R,r}: (\iota_X, \iota_R\cdot r)\vee(\sim \iota_X  \times \sim r)} be the [join](math-001U) of the two aforementioned specifications. }
+
+
+\subtree{\title{Correctness}
+\taxon{proof}\p{TODO}
+
+
+\p{As we did in the [C-Set case](math-00E9), the trick to showing that this set of overlaps is a solution to the [incremental search problem](math-00EY) will be to show that the search specifications produce all (and only) the morphisms which recover the overlap #{(\iota_X,\iota_R)} that generated them when taking a pullback with #{r:R\rightarrow G_2}.}
+
+\p{Take an arbitrary #{f \in ev(R_{\iota_X,\iota_R,r})}. We know that the [graph](math-00EK) #{\bar f \leq R_{\iota_X,\iota_R,r}}, so we know that both #{f \leq (\iota_X, \iota_R\cdot r)} and #{f \leq (\sim \iota_X  \times \sim r)}.  }
+
+}

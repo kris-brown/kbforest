@@ -1,0 +1,10 @@
+\date{2025-03-08T08:07:43Z}
+
+\title{Universal property of equalizers}
+\tag{todo}
+\import{macros}
+\import{rel}
+
+\example{math-00BU}
+
+\p{The [universal property](math-00BU) of [equalizers](math-0042) is...}

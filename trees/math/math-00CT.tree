@@ -1,0 +1,16 @@
+\date{2025-02-26T04:16:54Z}
+\title{Skeleton of a category}
+\taxon{definition}
+\import{macros}
+\import{rel}
+\import{mathml}
+\import{fonts}
+
+\example{math-00CU}
+
+\def\skel[~x]{\mml/mi{[\sf/S\sf/k\sf/e\sf/l](math-00CT)}\mml/prn{\x{}} }
+
+
+\p{The \em{skeleton} of a category #{\cat{C}} is an [equivalent](math-002B) category where isomorphic objects are always equal.}
+
+

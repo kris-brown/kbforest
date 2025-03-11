@@ -1,0 +1,6 @@
+\date{2025-02-23T17:47:47Z}
+\title{Objects of a category}
+\import{macros}
+\taxon{definition}
+\parent{math-009C}
+\p{A [class](math-00AY) \Ob(\cat{C}), whose elements are called \em{objects}}

@@ -1,0 +1,8 @@
+\date{2025-02-23T17:22:13Z}
+\title{An algebraic theory interpretation satisfying an equality}
+\taxon{definition}
+\import{macros}
+\import{rel}
+\source{ref-00BC}
+
+\p{An [interpretation](math-00AS) #{I} in some [category](math-000D) #{\cat{C}} \em{satisfies} an equation, denoted #{I \vDash x_1,...,x_k\ |\ t = u} iff #{t^I=u^I} as morphisms in #{\cat{C}}}

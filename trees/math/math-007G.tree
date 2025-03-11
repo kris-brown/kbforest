@@ -1,6 +1,11 @@
 \date{2024-09-15}
 \title{Cowedge}
 \taxon{definition}
+\import{rel}
+
 \import{macros}
+
+
+\dual{math-007D}
 
 \p{A \em{cowedge} is [wedge](math-007D) in #{\cat{D}^{op}}.}

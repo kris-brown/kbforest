@@ -1,0 +1,14 @@
+\date{2025-02-26T04:51:29Z}
+\title{Algebraic theory of smooth maps}
+\import{macros}
+\import{rel}
+
+\example{math-00CO}
+
+\p{The \em{algebraic theory of smooth maps} #{\cC^\infty} is a [category](math-000D):}
+
+\p{The objects are #{n}-dimensional [Euclidean spaces](math-00CY): #{1, \RR, \RR^2,...}}
+
+\p{The morphisms are #{\cC^\infty} [maps](math-00CZ)}
+
+\examples

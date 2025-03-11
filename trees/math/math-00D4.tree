@@ -1,0 +1,8 @@
+\date{2025-02-26T06:50:15Z}
+\title{Finitary free functor of a Lawvere theory}
+\import{macros}
+
+\p{Given a [Lawvere theory](math-00CO) #{\AA}, there is a functor #{F}: [FinSet](math-008G)#{\rightarrow \cat{Mod}(\AA)} into the category of set models #{\cat{Mod}_\AA:=\Hom_{FP}(\AA,\cat{Set})}.}
+
+\p{This is obtained by composing two [contravariant functors](math-008I): the [first](math-00D5) which sends #{n\mapsto A^n} and the the second #{X \mapsto \Hom_\AA(X,-)}, which is the [contravariant Yoneda embedding](math-00D6).}
+

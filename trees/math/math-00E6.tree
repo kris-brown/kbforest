@@ -1,0 +1,13 @@
+\date{2025-03-06T17:22:55Z}
+\let\curr{math-00E6}
+\import{macros}
+\import{mathml}
+\import{fonts}
+
+\title{Category of C-Sets}
+\taxon{definition}
+
+\def\CSET{\mml/mi{[\sf/C\sf/S\sf/e\sf/t](math-00E6)}}
+
+
+\p{The \em{category of C-Sets} has objects [C-Sets](math-00E1) and morphisms [C-Set morphisms](math-00E2). It is succinctly described as the [functor category](math-0033) [#{\cat{C}}, [Set](math-003L)].}

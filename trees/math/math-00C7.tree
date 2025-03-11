@@ -1,0 +1,17 @@
+\date{2025-02-25T20:19:07Z}
+\title{Completeness of equational calculus with respect to categorical models}
+\taxon{proposition}
+\import{macros}
+
+\p{The formal system of functorial semantics for algebraic theories is [complete](math-0087).}
+
+\p{For any [algebraic theory](math-009Q) #{\TT}, [terms](math-00A1) #{s,t}:}
+
+##{\forall \cM.\ \cM\vDash s=t \qquad \Rightarrow \qquad \TT \vdash s = t }
+
+
+\subtree{\taxon{proof}
+\p{In particular #{\cU\vDash s = t}, and so #{\TT\vdash s = t} because #{\cU} is generic.}
+}
+
+\p{Note in the classical setting, where models are all in [Set](math-003L), there is no generic model. [Completeness with respect to just](math-00C8) [Set](math-003L) models is harder to prove.}

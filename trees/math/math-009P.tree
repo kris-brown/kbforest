@@ -1,0 +1,12 @@
+\date{2025-02-21T22:14:22Z}
+\title{Group inverse condition}
+\import{mathml}
+\import{math-009K} % cdot-grp
+\open\mml
+
+\p{The \em{inverse} condition of a group asserts that multiplication with an inverse yields the identity element:}
+
+\let\a{\mi{a}}
+\let\e{\mi{[e](math-009J)}}
+\let\inv{\mi{[-1](math-009L)}}
+\display{{\a \cdot-grp \sup{\a}{\inv}} \equals \e}

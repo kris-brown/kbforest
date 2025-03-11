@@ -1,0 +1,11 @@
+\date{2025-02-22T19:48:56Z}
+\title{Empty (trivial) algebraic theory}
+\import{macros}
+\import{rel}
+\example{math-009Q}
+\taxon{definition}
+\p{The \em{empty} (or \em{trivial}) [algebraic theory](math-009Q) has an empty [signature](math-009Y) and empty [set of axioms](math-00A2).}
+
+\subtree{\taxon{notation} \p{This theory is denoted as #{\TT_0}}}
+
+\examples

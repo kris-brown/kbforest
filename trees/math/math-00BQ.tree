@@ -1,0 +1,7 @@
+\date{2025-02-25T08:28:34Z}
+\title{Syntactic model}
+\taxon{definition}
+\import{macros}
+\parent{math-00BJ}
+
+\p{The [syntactic model](math-00BJ) is the [model](math-00AH) which the object component of [evaluation functor](math-00BN) sends the identity morphism of #{\cat{Syn}{\TT}} to.}

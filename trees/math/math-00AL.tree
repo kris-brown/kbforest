@@ -1,0 +1,19 @@
+\date{2025-02-23T02:36:10Z}
+\title{Algebraic theory of groups}
+\import{macros}
+\import{rel}
+\example{math-009Q}
+
+
+\p{The [algebraic theory](math-009Q) of [groups](math-009G) has, as a [signature](math-009Y):}
+
+\ul{
+\li{One binary operator: #{\cdot} }
+\li{One nullary operator: #{e}}
+\li{One unary operator: #{(-)^{-1}}}
+}
+
+\p{Subject to the following [axioms](math-00A2):}
+
+\ul{
+\li{Associativity of #{\cdot}}\li{Left/right unitality of #{e}}\li{Left/right inverse of #{(-)^{-1}}}}

@@ -1,0 +1,9 @@
+\date{2025-03-03T21:04:05Z}
+\let\curr{math-00DM}
+\import{macros}
+
+
+\title{Every set is a filtered colimit of finite sets}
+
+\p{Every [set](math-0001) is a [filtered colimit](math-006U) of [finite sets](math-00A5).
+}

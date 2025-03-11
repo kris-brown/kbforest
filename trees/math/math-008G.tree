@@ -1,5 +1,15 @@
-\date{2025-02-17T19:16:12Z}
-\title{FinSet category}
+\date{2025-02-26T03:58:22Z}
+\title{FinSet}
 \taxon{definition}
+\meta{external}{https://ncatlab.org/nlab/show/FinSet}
+\import{macros}
+\import{rel}
+\import{mathml}
+\import{fonts}
 
-\p{The category \em{FinSet} has finite sets as objects and finite functions as morphisms.}
+\def\finset{\mml/mi{[\sf/F\sf/i\sf/n\sf/S\sf/e\sf/t](math-008G)}}
+
+\defn{math-00DR}
+\defn{math-00DS}
+
+\defns

@@ -1,0 +1,23 @@
+\date{2025-02-21T21:39:33Z}
+\title{Group}
+\parent{math-009G}
+\taxon{definition}
+
+\p{A \em{group} is a tuple #{(X, e, \cdot, {(-)^{-1}})}}
+
+\transclude{math-009I}
+
+\transclude{math-009J}
+
+\transclude{math-009K}
+
+\transclude{math-009L}
+
+\p{Satisfying the following axioms:}
+
+\transclude{math-009W}
+
+\transclude{math-009O}
+
+
+\transclude{math-009P}

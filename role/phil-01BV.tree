@@ -1,7 +1,9 @@
 \date{2024-05-04}
 \title{Cumulative transitivity}
 \import{macros}
-\defn{phil-01BV}{math-008Y}
+\import{rel}
+\defn{math-008Y}
+\defns
 
 
 \p{Dual to [Cautious monotonicity](phil-01BS)}

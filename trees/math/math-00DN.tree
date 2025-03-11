@@ -1,0 +1,22 @@
+\date{2025-03-03T21:48:50Z}
+\import{rel}
+\import{macros}
+\import{math-0024} % prod
+\import{math-000E} % tofunctor
+\import{math-005U} % op-cat
+\import{math-003L} % set
+
+
+\title{Profunctor}
+\taxon{definition}
+\meta{external}{https://ncatlab.org/nlab/show/profunctor}
+
+\import{mathml}
+\open\mml
+
+
+\p{A \em{profunctor} is a [functor](math-000E) of the form:}
+
+\display{{{\op-cat{\sfD} \prod \sfC} \tofunctor \set}}
+
+\examples

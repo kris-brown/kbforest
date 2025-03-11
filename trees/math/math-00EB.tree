@@ -1,0 +1,24 @@
+\date{2025-03-06T18:28:02Z}
+\let\curr{math-00EB}
+\import{macros}
+
+
+\title{Incremental homomorphism search problem (C-Sets)}
+\taxon{definition}
+
+\p{An \em{incremental homomorphism search problem} is a tuple #{(\cat{C}, X, \cR, \cQ, \cM)} where:}
+
+\ul{
+\li{#{\cat{C}} is a [finitely-presented category](math-00E5)}
+\li{#{X \in \Ob \cat{C}}[-Set](math-00E6) is our \em{query pattern}}
+\li{#{\cR=\{L_1\rightarrow R_1,...\} } is a set of morphisms in #{\cat{C}}[-Set](math-00E6) interpreted as (right-hand-sides of) [DPO rewrite rules](math-00DX)}
+\li{#{\cQ} is a class of morphisms in #{\cat{C}}[-Set](math-00E6) which we are interested in tracking for our pattern (typically this is either #{{\rm Mon}} or #{\Hom} - we are interested in either the entire hom set #{\Hom(X,-)} or restricting to just the [monomorphisms](math-003X))}
+\li{#{\cM} is again a subclass of morphisms, either #{{\rm Mon}} or #{\Hom}, now possibly restricting what kind of match morphisms #{L_i \rightarrow G} are allowed to be used in conjunction with rules in #{\cR} for producing incremental updates.}
+}
+
+\p{An \em{incremental change} #{(\cR_i,m)} is a choice of a rule #{L_i\xrightarrow{\cR_i}R_i \in \cR} and a match #{m \in \Hom_\cM(L_i,G_1)}, where #{G_1} is the \em{current state}. By [pushout](math-00DY) this implicitly specifies an updated state #{G_2} with maps #{\Delta: G_1\rightarrow G_2} and #{r: R_i\rightarrow G_2}. Note by postcomposing a query result in #{\Hom_\cQ(X,G_1)} with #{\Delta}, one can interpret matches in #{G_1} as living in #{G_2}. These are precisely the morphisms we do \em{not} want to incrementally find.}
+
+\p{A \em{solution} to such a problem is an algorithm which accepts an incremental change #{(\cR_i,m)} and produces a set #{B} of [backtracking search specifications](math-00E3) such that #{ev(B_i)} are all disjoint (no duplicated work) and #{\bigcup_i ev(B_i) = \Hom_\cQ(X,G_2) \setminus \Hom_\cQ(X,G_1) \cdot \Delta}.
+}
+
+\p{This is generalized [here](math-00EY)}

@@ -1,0 +1,55 @@
+\date{2025-02-25T01:08:42Z}
+\title{Evaluation functor at a syntactic model}
+\import{macros}
+\import{rel}
+\import{math-00B0} % tohom
+\import{math-000E} % tofunctor
+\import{math-00AW} % algmod
+\import{math-00BB} % synCat
+
+\source{ref-00BC}
+\import{mathml}
+% TODO use MathML to make more intelligible
+
+\scope{
+\open\mml
+\let\U{\mi{U}}
+\let\UM{\cU-{math-00BL}}
+\let\k{\mi{k}}
+\let\f{\mi{f}}
+\let\eval{\sub{\mi{eval}}{\UM}}
+\let\F{\mi{F}}
+
+\p{The \em{evaluation functor} is a functor \eval: \mapp{\sub{\sfHomLink{math-0033}}{\mi{[FP](math-00DL)}} \prn{\mapp{\synCat \prn{\TT}}\comma\sfC}} \tofunctor \mapp{\algmod \prn{\TT\comma\sfC}}
+  from a [functor category](math-0033) into the [category of models](math-00AW).}
+
+
+
+
+\p{The [universal property of semantic models](math-00BK) gives us the objects-component of this functor: it identifies each [FP](math-0024)-[functor](math-000E) \F: \synCat \prn{\TT} \tofunctor \sfC with a [model](math-00AH), \F\UM, in \cat{C}. This model's [interpretation](math-00AS) of some arity-\k operation \f in \sfC is: \F(\sup{\f}{\UM}) which is a morphism {\F\prn{\sup{\U}{\k}} \tohom \F\U}}
+
+}
+
+
+
+\p{The morphism component of #{{\rm eval}_\cU} sends [natural transformations](math-002E) to [model morphisms](math-00AV). Suppose #{\alpha: F\Rightarrow G} is a natural transformation between two FP-functors #{\cat{Syn}(\TT)\rightarrow\cat{C}}. #{\alpha} then contains precisely the data of a model morphism. Consider an example binary operation #{f}:}
+
+% https://q.uiver.app/#q=WzAsNixbMCwwLCJGVVxcdGltZXMgRlUiXSxbMSwwLCJHVVxcdGltZXMgR1UiXSxbMCwxLCJGKFVcXHRpbWVzIFUpIl0sWzEsMSwiRyhVXFx0aW1lcyBVKSJdLFswLDIsIkZVIl0sWzEsMiwiR1UiXSxbMiwzLCJcXGFscGhhX3tVXFx0aW1lcyBVfSJdLFswLDEsImhcXHRpbWVzIGgiXSxbMCwyLCJcXGNvbmciXSxbMSwzLCJcXGNvbmciLDJdLFs0LDUsImg9XFxhbHBoYV9VIiwyXSxbMiw0LCJGZiJdLFszLDUsIkdmIiwyXSxbMCw0LCJmXntGXFxtYXRoY2Fse1V9fSIsMix7ImN1cnZlIjo0fV0sWzEsNSwiZl57R1xcbWF0aGNhbHtVfX0iLDAseyJjdXJ2ZSI6LTR9XV0=
+\quiver{
+  \begin{tikzcd}
+    {FU\times FU} & {GU\times GU} \\
+    {F(U\times U)} & {G(U\times U)} \\
+    FU & GU
+    \arrow["{h\times h}", from=1-1, to=1-2]
+    \arrow["\cong", from=1-1, to=2-1]
+    \arrow["{f^{F\mathcal{U}}}"', curve={height=24pt}, from=1-1, to=3-1]
+    \arrow["\cong"', from=1-2, to=2-2]
+    \arrow["{f^{G\mathcal{U}}}", curve={height=-24pt}, from=1-2, to=3-2]
+    \arrow["{\alpha_{U\times U}}", from=2-1, to=2-2]
+    \arrow["Ff", from=2-1, to=3-1]
+    \arrow["Gf"', from=2-2, to=3-2]
+    \arrow["{h=\alpha_U}"', from=3-1, to=3-2]
+  \end{tikzcd}
+}
+
+\p{The upper square commutes by preservation of products, the lower one by naturality.}

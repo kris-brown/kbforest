@@ -1,0 +1,9 @@
+\date{2025-02-26T07:46:18Z}
+\title{Contravariant Yoneda embedding}
+\meta{external}{https://ncatlab.org/nlab/show/Yoneda+embedding#remarks}
+
+\p{If we swap the order of the [hom functor](math-00CG) for some [category](math-000D) #{\cat{C}} and then [curry](math-00D7) to obtain a [functor](math-000E)}
+
+##{\cat{C}^{op}\rightarrow \cat{Set}^\cat{C}}
+
+\p{called the \em{contravariant} [Yoneda embedding](math-00CD). However, this functor is equal to yoneda embeding of #{\cat{C}^{op}} and does not require special treatment.}

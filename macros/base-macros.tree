@@ -1,6 +1,7 @@
-\title{basic macros}
+\title{Basic macros}
+\author/literal{Jon Sterling}
 
-\p{This tree defines some basic notational macros used across my forest.}
+\p{This tree defines some basic notational macros used across Jon Sterling's forest.}
 
 \import{latex-preamble}
 

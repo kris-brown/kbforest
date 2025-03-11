@@ -1,0 +1,16 @@
+\date{2025-02-25T20:19:07Z}
+\title{Soundness of equational calculus with respect to categorical models}
+\taxon{proposition}
+\import{macros}
+
+\p{The formal system of functorial semantics for algebraic theories is [sound](math-0086).}
+
+\p{For any [algebraic theory](math-009Q) #{\TT}, [terms](math-00A1) #{s,t}:}
+
+##{\TT \vdash s = t \qquad \Rightarrow \qquad \forall \cM.\ \cM\vDash s=t}
+
+
+\subtree{\taxon{proof}
+
+\p{We have #{\TT \vdash s = t \Rightarrow \cU \vDash s = t} by the construction of the [universal model](math-00BJ). Because there is a product-preserving functor from #{\cU} into [every](math-00BO) other model of the theory, that such functors preserve all equations shows the functorial semantics is sound.}
+}

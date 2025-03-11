@@ -1,6 +1,11 @@
 \date{2024-07-08}
 \title{Equivalence of categories}
 \import{macros}
+\import{rel}
+\import{mathml}
+
+\def\congCat{\mml/cong-{math-002B}}
+
 
 \relation{\rel/def}{math-002B}{math-0091}
 \relation{\rel/def}{math-002B}{math-0092}

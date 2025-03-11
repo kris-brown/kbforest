@@ -1,0 +1,33 @@
+\date{2025-02-26T03:57:06Z}
+\title{Syntax semantics duality for the trivial algebraic theory}
+\import{macros}
+\import{rel}
+\import{math-002B} % congCat
+\import{math-005U} % op-cat
+\import{math-008G} % finset
+\import{math-00CT} % skel
+
+
+\example{math-003E}
+\source{ref-00BC}
+
+\import{mathml}
+\import{fonts}
+\open\mml
+
+\let\T{\mi{[\bb/T\sub/s0](math-00A4)}}
+\let\X{\mi{X}}
+
+
+\p{A model of \T is a [set](math-0001) \X.  All \T [algebras](math-00AH) are [free](math-00AC), so \sfmodLink{math-00CP}(\T) = \skel{\finset}
+}
+
+\p{There is an equivalence {\mapp{\sub{\sfHomLink{math-0033}}{\mi{[FP](math-00DL)}} \prn{\mapp{\op-cat{\finset}}\comma\sfC}} \congCat {\mapp{\algmod \prn{\T\comma\sfC}} \cong \sfC}}.}
+
+\p{Since \finset [is the free finite coproduct category on one object](math-00DR), i.e. \op-cat{\finset} is the free FP category on one object.}
+
+
+\p{How is the syntax of the pure theory of equality, \T, "hidden" in the opposite of the category of finite sets? Let's consider the [syntactic category](math-00BB) \sub{\sfC-{math-00BB}}{\T} the only terms in context are #{(x_1,...,x_n\ |\ x_i)}, which represent product projections. The maps are just tuples of variables. The only provable equations are#{x_i=x_j \iff i=j}. But this is precisely the opposite of the catgory of finite sets, where contexts are [coproducts](math-004D) #{1+...+1}.
+}
+
+\examples

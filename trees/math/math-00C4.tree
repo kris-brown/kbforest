@@ -1,0 +1,7 @@
+\date{2025-02-25T21:07:45Z}
+\title{Structure}
+\meta{external}{https://ncatlab.org/nlab/show/structure}
+
+\p{\em{Structure} is something that can be put onto something unstructured - this is relevant for what counts as a homomorphism between such objects. Alternatively, one might say the concepts of structure and structure-preserving map must be mutually understood.}
+
+\p{For example, a group is a [set](math-0001) with extra structure - [group homomorphisms](math-00BX) must respect this structure. Likewise, algebraic theories and models are concerned with categories with finite products: the relevant functors involved must all be product-preserving functors.}

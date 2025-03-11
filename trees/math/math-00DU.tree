@@ -1,0 +1,9 @@
+\date{2025-03-04T07:48:18Z}
+\let\curr{math-00DU}
+\import{macros}
+
+
+\title{Syntactic models are logically generic}
+\taxon{proposition}
+
+\p{The [syntactic model](math-00BJ) is [logically generic](math-00CC): it [satisfies](math-00AU) all and only the [equations](math-00A2) of the [theory](math-009Q).}

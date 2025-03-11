@@ -1,0 +1,11 @@
+\date{2025-03-04T00:16:47Z}
+\import{macros}
+\import{rel}
+
+
+\title{Copresheaf}
+
+\dual{math-00CB}
+\example{math-000E}
+
+\p{A [functor](math-000E) of the form #{\cat{C}\rightarrow}[Set](math-003L)}

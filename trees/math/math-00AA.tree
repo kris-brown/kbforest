@@ -1,0 +1,9 @@
+\date{2025-02-22T21:09:26Z}
+\title{Algebraic theory of vector spaces over #{\mathbb{F}}}
+\import{macros}
+\import{rel}
+\example{math-009Q}
+
+\p{Let #{\FF} be a [field](math-009R). Even though the theory of fields is not an [algebraic theory](math-009Q), the theory of \em{vector spaces over a field} #{\FF} is algebraic.}
+
+\p{We define this just as we define the theory of [left #{R} modules](math-00A8), replacing #{R} with #{\FF}.}

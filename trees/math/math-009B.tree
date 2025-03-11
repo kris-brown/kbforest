@@ -1,0 +1,40 @@
+\date{2025-02-20T17:11:28Z}
+\title{Logical conjunction (propositional logic)}
+\taxon{definition}
+\import{macros}
+\import{rel}
+
+\import{base-macros}
+\example{math-009A}
+
+\p{In [propositional logic](math-0081), the \em{conjunction} #{A \wedge B} of two propositions is defined via the following truth table:}
+
+\table{
+\tr{
+\th{#{A}}
+\th{#{B}}
+\th{#{A\wedge B}}
+}
+\tr{
+\td{#{\top}}
+\td{#{\top}}
+\th{#{\top}}
+}
+\tr{
+\td{#{\bot}}
+\td{#{\top}}
+\th{#{\bot}}
+}
+\tr{
+\td{#{\top}}
+\td{#{\bot}}
+\th{#{\bot}}
+}
+\tr{
+\td{#{\bot}}
+\td{#{\bot}}
+\th{#{\bot}}
+}
+}
+
+\examples

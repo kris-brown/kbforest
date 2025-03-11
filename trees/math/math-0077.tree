@@ -7,4 +7,4 @@
 
 #{f_*:= y \mapsto \bigvee \{x \in X\ | f(x) \leq y\}}
 
-\p{This is \em{not} a join semilattice morphism because it preserves [meets](math-006A), not joins. However, it \em{is} a join semilattice morphism #{Y^{op}\rightarrow X^{op}}.}
+\p{This is \em{not} a join semilattice morphism because it [preserves](math-00BG) [meets](math-006A), not joins. However, it \em{is} a join semilattice morphism #{Y^{op}\rightarrow X^{op}}.}

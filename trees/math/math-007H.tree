@@ -2,6 +2,11 @@
 \title{Category of wedges}
 \taxon{definition}
 \import{macros}
+\import{rel}
+
+\let\curr{math-007H}
+
+\example{math-000D}
 
 \p{Given a [difunctor](math-007C) #{P: \cat{C}^{op}\times \cat{C}\rightarrow \cat{D}}, the [category](math-000D) \em{of wedges} in #{P} has [wedges](math-007D) in #{P} as objects and [wedge morphisms](math-007F) as morphisms.
 }

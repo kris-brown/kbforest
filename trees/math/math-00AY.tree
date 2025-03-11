@@ -1,0 +1,5 @@
+\date{2025-02-23T17:48:05Z}
+\title{Class}
+\p{Informally, a \em{class} is something like a [set](math-0001) but has the potential to be even bigger. We can ask if a given element is in some class.}
+
+\p{For example, there exists [no set of all sets](math-00AZ), but there can be a class of all sets, e.g. the class of objects of the category [Set](math-003L).}

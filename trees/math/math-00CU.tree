@@ -1,0 +1,10 @@
+\date{2025-02-26T04:17:52Z}
+\title{Evil}
+\taxon{definition}
+\import{rel}
+
+\import{macros}
+
+\p{Definitions which rely on equality of objects, rather than being up-to-isomorphism or equivalence, are called \em{evil} (half-jokingly).}
+
+\examples

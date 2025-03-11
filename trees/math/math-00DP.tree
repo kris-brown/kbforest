@@ -1,0 +1,38 @@
+\date{2025-03-03T23:52:58Z}
+\import{rel}
+\import{macros}
+
+
+\title{Unpacking naturality condition of adjoint functor hom set definition}
+\example{math-00DO}
+
+\p{Lets unpack "an isomorphism #{\Hom_\cat{D}(L(c),d)\cong\Hom_\cat{C}(c,R(d))} for functors #{L,R: \cat{C}\rightarrow\cat{D}} natural in #{c} and #{d}" in terms of the definition of "natural in" [here](math-00DO).}
+
+\p{The parameterized objects live in [Set](math-003L). The functors into [Set](math-003L) on either side of the #{\cong} symbol are the [Hom functors](math-00CG) #{\cat{C}^{op}\times\cat{D}\rightarrow \cat{Set}}. Well orient the #{\cong} to be read as a map #{\alpha} (in [Set](math-003L)) from left to right which happens to be a bijection.}
+
+\p{Naturality in #{c} boils down to the following natural transformations (for all objects #{d \in \Ob \cat{D}}) between two [presheaves](math-00CB) #{\cat{C}^{op}\rightarrow \cat{Set}}, which are #{\Hom_\cat{D}(-,R(d))} and #{\Hom_\cat{D}(L(-),d)}.
+}
+
+% https://q.uiver.app/#q=WzAsNCxbMCwwLCJ7XFxybSBIb219X3tEJ30oTCh5KSxkKSJdLFsxLDAsIntcXHJtIEhvbX1fe0QnfSh5LFIoZCkpIl0sWzAsMSwie1xccm0gSG9tfV97RCd9KEwoeCksZCkiXSxbMSwxLCJ7XFxybSBIb219X3tEJ30oeCxSKGQpKSJdLFsyLDMsIlxcYWxwaGEoeCxkKSIsMl0sWzAsMSwiXFxhbHBoYSh5LGQpIl0sWzAsMiwie1xccm0gSG9tfV97RCd9KEwoZiksZCkiLDJdLFsxLDMsIntcXHJtIEhvbX1fe0QnfShmLFIoZCkpIl1d
+\quiver{\begin{tikzcd}
+    {{\rm Hom}_{D}(L(y),d)} & {{\rm Hom}_{D}(y,R(d))} \\
+    {{\rm Hom}_{D}(L(x),d)} & {{\rm Hom}_{D}(x,R(d))}
+    \arrow["{\alpha(y,d)}", from=1-1, to=1-2]
+    \arrow["{{\rm Hom}_{D}(L(f),d)}", from=1-1, to=2-1]
+    \arrow["{{\rm Hom}_{D}(f,R(d))}", from=1-2, to=2-2]
+    \arrow["{\alpha(x,d)}", from=2-1, to=2-2]
+  \end{tikzcd}}
+
+
+\p{Naturality in #{d} boils down to the following natural transformations (for all objects #{c \in \Ob \cat{C}^{op}}) between two [copresheaves](math-00DQ) #{\cat{D}\rightarrow \cat{Set}}, which are #{\Hom_\cat{C}(c,R(-))} and #{\Hom_\cat{C}(L(c),-)}.
+}
+
+% https://q.uiver.app/#q=WzAsNCxbMCwwLCJ7XFxybSBIb219X3tDJ30oTChjKSx4KSJdLFsxLDAsIntcXHJtIEhvbX1fe0MnfShjLFIoeCkpIl0sWzAsMSwie1xccm0gSG9tfV97Qyd9KEwoYykseSkiXSxbMSwxLCJ7XFxybSBIb219X3tDJ30oYyxSKHkpKSJdLFsyLDMsIlxcYWxwaGEoYyx5KSIsMl0sWzAsMSwiXFxhbHBoYShjLHgpIl0sWzAsMiwie1xccm0gSG9tfV97Qyd9KEwoYyksZikiLDJdLFsxLDMsIntcXHJtIEhvbX1fe0MnfShjLFIoZikpIl1d
+\quiver{\begin{tikzcd}
+    {{\rm Hom}_{C}(L(c),x)} & {{\rm Hom}_{C}(c,R(x))} \\
+    {{\rm Hom}_{C}(L(c),y)} & {{\rm Hom}_{C}(c,R(y))}
+    \arrow["{\alpha(c,x)}", from=1-1, to=1-2]
+    \arrow["{{\rm Hom}_{C}(L(c),f)}", from=1-1, to=2-1]
+    \arrow["{{\rm Hom}_{C}(c,R(f))}", from=1-2, to=2-2]
+    \arrow["{\alpha(c,y)}", from=2-1, to=2-2]
+  \end{tikzcd}}

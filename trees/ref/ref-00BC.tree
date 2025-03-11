@@ -1,6 +1,62 @@
-\date{2025-02-19T22:20:13Z}
 \title{Introduction to Categorical Logic}
 \taxon{reference}
 \author{awodey}
 \author{andrej-bauer}
 
+\put\transclude/expanded{false}
+
+\subtree{\taxon{chapter} \title{Algebraic Theories} \number{1}
+\subtree{\title{Syntax and semantics}
+\subtree{\title{Algebraic theories}
+\transclude{math-009H} % Set-defn of Group
+\transclude{math-009X} % AlgTheory defn
+
+\p{Other examples: [trivial theory](math-00A4), [pointed set](math-00A7), [R-modules](math-00A8), [commutative ring w/ unit](math-00D1), [inductive datatypes](math-00AB)}
+}
+\subtree{\title{Models of algebraic theories}
+
+  \transclude{math-00AM} % group internal to a cat
+
+  \transclude{math-00AR} % cat of internal groups
+
+  \transclude{math-00AS} % interpretation defn
+  \transclude{math-00AT} % model defn
+  \transclude{math-00AW} % the category Mod(T,C)
+
+
+  \p{So an [internal group](math-00AM) is a model of [ThGroup](math-00AL).}
+}
+\subtree{\title{Theories as categories}
+
+  \p{Don't want our concept of a group to depend on mere notational choices, such as [defining groups with a double-division operator](math-00B9).}
+
+  \transclude{math-00BE}
+
+}
+\subtree{\title{Models as functors}
+  \transclude{math-00BL}
+  \transclude{math-00BK}
+  \transclude{math-00BN}
+  \transclude{math-00BO}
+
+}
+\subtree{\title{Soundness and completeness}}
+\subtree{\title{Functorial semantics}}
+}
+\subtree{\title{Lawvere duality}
+  \subtree{\title{Logical duality}}
+  \subtree{\title{Lawvere algebraic theories}}
+  \subtree{\title{Algebraic categories}}
+  \subtree{\title{Algebraic functors}}
+  \subtree{\title{Dualities for algebraic theories}}
+  \subtree{\title{Definability}}
+
+}
+
+}
+
+\subtree{\title{Reference for...}
+\def\rel/source{kris.source}
+
+\query\datalog{?X -: {\rel/source ?X @{ref-00BC} }}
+}

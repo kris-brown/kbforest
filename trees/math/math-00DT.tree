@@ -1,0 +1,13 @@
+\date{2025-03-04T02:15:38Z}
+
+\import{macros}
+\import{rel}
+
+
+\title{Terminal category}
+\example{math-000D}
+\example{math-001G}
+
+\p{The \em{terminal category} is the [category](math-000D) with one object and one identity morphism.}
+
+\p{It is notated sometimes as #{1}, as it is a [terminal object](math-001G) in [Cat](math-000F)}

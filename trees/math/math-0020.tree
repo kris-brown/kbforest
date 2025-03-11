@@ -1,4 +1,11 @@
 \title{Symmetric monoidal category}
 \taxon{definition}
+\import{macros}
+\import{rel}
+
+\example{math-0021}
+
 \p{A [monoidal category](math-0021) where the tensor product #{\otimes} is symmetric.}
 \p{I.e. there is an additional isomorphism for each pair of objects #{\sigma_{A,B}: A \otimes B \cong B \otimes A}}
+
+\examples

@@ -1,7 +1,15 @@
 \date{2024-07-10}
 \title{Category of sets and functions}
 \taxon{definition}
+\import{macros}
+\import{rel}
+\import{mathml}
+\import{fonts}
+
+\def\set{\mml/mi{[\sf/S\sf/e\sf/t](math-003L)}}
+
+\example{math-000D}
 
 \p{\strong{Set} is the [category](math-000D) whose objects are [sets](math-0001) and whose morphisms are [functions](math-000V).}
 
-
+\examples

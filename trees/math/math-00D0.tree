@@ -1,0 +1,10 @@
+\date{2025-02-26T05:45:10Z}
+\import{macros}
+\import{rel}
+
+\title{#{\cC^\infty} algebra}
+\example{math-00AH}
+
+\p{A model of the [algebraic theory of smooth maps](math-00CX) in [Set](math-0001).}
+
+\p{Since multiplication and addition are smooth maps, #{A} is a [commutative ring with a unit](math-00D1). Therefore models are #{\cC^\infty} rings.}

@@ -1,0 +1,11 @@
+\date{2025-03-07T22:51:37Z}
+\import{macros}
+
+\title{Concrete category}
+\taxon{definition}
+\import{rel}
+
+\example{math-002K}
+\source{ref-00BJ}
+
+\p{A \em{concrete} category is a [category](math-000D) #{\cat{C}} equipped with a [faithful functor](math-002K) #{U: \cat{C}\rightarrow}[Set](math-003L).}

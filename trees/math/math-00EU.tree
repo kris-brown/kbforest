@@ -1,0 +1,5 @@
+\date{2025-03-09T00:55:38Z}
+
+\title{Product of morphisms}
+
+\p{In a category with products with #{f \in \Hom(A,B)} and #{g\in \Hom(C,D)}, we can write #{f\times g: A\times C \rightarrow B \times D}. It is defined by [pairing](math-00EC) #{\pi_A\cdot f} and #{\pi_C \cdot g}.}

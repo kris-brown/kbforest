@@ -2,7 +2,7 @@
 \title{Functor from ImpFrame to Role}
 \import{macros}
 
-\p{Our goal is to define a [functor](math-000E), #{\cR}, from a category of [implication frames](role-0036) to a [category of roles](role-003U) (viewed as [atomistic](math-006E) [join-semilattices](math-006Z), with [join](math-001U) as intersection.) If #{\cR} is to serve as a [left adjoint](math-0028), we need it to preserve [colimits](math-005N), so we begin by looking for a functor that preserves coproducts.}
+\p{Our goal is to define a [functor](math-000E), #{\cR}, from a category of [implication frames](role-0036) to a [category of roles](role-003U) (viewed as [atomistic](math-006E) [join-semilattices](math-006Z), with [join](math-001U) as intersection.) If #{\cR} is to serve as a [left adjoint](math-0028), we need it to [preserve](math-00BG) [colimits](math-005N), so we begin by looking for a functor that preserves coproducts.}
 
 \subtree{
 

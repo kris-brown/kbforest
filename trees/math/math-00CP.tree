@@ -1,0 +1,21 @@
+\date{2025-02-26T03:33:10Z}
+\title{Finitely-generated free models of an algebraic theory}
+\taxon{notation}
+\import{macros}
+\import{rel}
+\import{math-00AW} % algmod
+
+
+\source{ref-00BC}
+\example{math-006D}
+
+\import{mathml}
+\open\mml
+
+\let\m{\mi{𝗆𝗈𝖽}}
+
+\p{The \em{finitely-generated free models} of an [algebraic theory](math-009Q) \TT is denoted \mapp{\m\prn{\TT}}.}
+
+\p{It is a [full subcategory](math-006D) of \mapp{\algmod\prn{\TT}} restrict to objects being contexts with finitely many generators.}
+
+

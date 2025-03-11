@@ -1,0 +1,13 @@
+\date{2025-02-21T21:45:38Z}
+\title{#{\cdot} - the group multiplication operation}
+\parent{math-009H}
+\import{mathml}
+\import{math-0004} % cartprod
+\import{math-000V} % tofun
+\open\mml
+
+\def\cdot-grp{\cdot-{math-009K}}
+
+\let\X{\mi{[X](math-009I)}}
+
+\p{\cdot : \X \cartprod \X \tofun \X is the group \em{multiplication} function.}

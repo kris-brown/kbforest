@@ -1,0 +1,10 @@
+\date{2025-03-09T17:13:28Z}
+
+\title{Complete category}
+\import{macros}
+\import{rel}
+
+\dual{math-00F1}
+
+
+\p{A [category](math-000D) is \em{complete} when it has all [limits](math-0026).}

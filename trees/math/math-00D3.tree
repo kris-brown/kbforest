@@ -1,0 +1,54 @@
+\date{2025-02-26T06:38:51Z}
+\title{Syntax-semantics duality for Lawvere theories}
+\import{macros}
+\import{rel}
+\import{math-002B} % congCat
+\import{math-005U} % op-cat
+
+
+\example{math-003E}
+\source{ref-00BC}
+\taxon{proposition}
+
+\p{Any [Lawvere theory](math-00CO) #{\AA} is [equivalent](math-0092) to the [opposite](math-005U) of the category of models.}
+
+\scope{
+\import{mathml}
+\open\mml
+
+\display{{\AA \congCat \sfmodLink{math-00CP}}\op-cat{\prn{\AA}}}
+}
+
+\subtree{\taxon{proof}
+
+\p{Let #{\AA} have a generating object #{A}.}
+
+\p{Let #{\cat{Mod}(\AA):=\cat{Set}^\AA} (we are only considering [Set](math-003L) models).}
+
+\p{Let #{U:= eval_A = \cat{Mod}(\AA)\rightarrow \cat{Set}} be a [forgetful functor](math-00D8) which sends a model #{M: \AA\rightarrow \cat{Set}} to its underlying set (i.e. #{M(A)} which we will write as #{|M|}).}
+
+\p{Let #{F: \cat{FinSet}\rightarrow \cat{Mod}(\AA)} be the [finitary free functor of a Lawvere theory](math-00D4).}
+
+\p{There is an [adjunction](math-0028) #{F \vdash U}:}
+
+##{\Hom_{\cat{Mod}(\AA)}(F(n),M)\cong \Hom_\cat{Set}(n,U(M))}
+
+\p{The RHS is just #{|M|^n}. The LHS is simplified as follows: }
+
+##{
+\begin{align*}
+  \Hom_{\cat{Mod}(\AA)}(F(n),M) & =  \Hom_{\cat{Mod}(\AA)}(\Hom_\AA(A^n,-),M) & \text{defn of }F       \\
+                                & = \Hom_{\cat{Set}^\AA}(\Hom_\AA(A^n,-),M)   & \text{ Mod(A) is full} \\
+                                & \cong M(A^n)                                & \text{by Yoneda}       \\
+                                & \cong M(A)^n                                & M\text{ is FP}         \\
+                                & = |M|^n                                     & \text{defn of }|M|
+\end{align*}
+}
+
+\p{This functor from [FinSet](math-008G) can be lifted to a functor from [Set](math-003L) by noting that [every set is a filtered colimit of finite sets](math-00DM) and that [filtered colimits commute with finite products](math-00D9). }
+
+\p{Todo finish the proof}
+
+}
+
+

@@ -1,0 +1,12 @@
+\date{2025-02-22T06:56:04Z}
+\title{Group associativity}
+\import{mathml}
+\import{math-009K} % cdot-grp
+\open\mml
+\p{The \em{associativity} condition of a group asserts that group multiplication operation is associative:}
+
+\let\a{\mi{a}}
+\let\b{\mi{b}}
+\let\c{\mi{c}}
+
+\display{{{\prn{{\a\cdot-grp \b}} \cdot-grp \c}\equals {\a \cdot-grp \prn{{\b\cdot-grp\c}}}}}

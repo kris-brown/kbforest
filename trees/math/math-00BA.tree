@@ -1,0 +1,8 @@
+\date{2025-02-23T21:40:23Z}
+\title{Algebraic theories as syntactic categories}
+
+\p{Consider the [algebraic theory of groups](math-00AL). We should be hesitant to call this \em{the} theory of groups, since formally one gets a different signature (and therefore a different [theory](math-009Q)) if one merely changes one's name for an operator. Likewise, one can axiomatize groups in [different ways](math-00B9) that go beyond simple renaming. We can reconcile this if we view the [signature+axiom definition](math-009X) of a theory as a \em{presentation} of a presentation-independent thing.}
+
+\p{One might want to take the presentation-independent thing for the theory of groups to be a theory with a signature which includes \em{all} operations one can build with #{e, \cdot, (-)^{-1}} and \em{all} valid equations as axioms, though this definition privileges which thin}
+
+\p{We call the thing that these theories are presenting the [syntactic category](math-00BB).}

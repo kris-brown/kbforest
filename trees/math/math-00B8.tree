@@ -1,0 +1,30 @@
+\date{2025-02-23T21:18:53Z}
+\title{Model of an algebraic theory in a copresheaf category}
+\taxon{proposition}
+\import{macros}
+\import{mathml}
+\import{rel}
+\import{math-002B} % congCat
+\import{math-003L} % set
+\import{math-00AW} % algmod
+
+\source{ref-00BC}
+
+\p{A [model of an algebraic theory](math-00AH) #{\TT} in a [functor category](math-0033) [Set](math-003L)#{^{\cat{C}}} is the same as a [functor](math-000E) from #{\cat{C}} into the category of [Set](math-003L)-models:}
+
+\scope{
+\open\mml
+
+\display{{\mapp{\algmod\prn{\TT\comma\sup{\set}{\sfC-{math-0033}}}} \congCat \sup{\mapp{\algmod\prn{\TT\comma\set}}}{\sfC-{math-0033}}}}
+
+}
+
+
+\p{This can be summarized, with the case of [groups](math-00AL) as an example, that the \em{a group in the category of variable sets may be regarded as a variable group}.}
+
+\subtree{\taxon{proof}
+
+\p{For each object #{C \in \Ob\cat{C}} there is an evaluation functor #{{\rm eval}_\cat{C}:\cat{Set}^\cat{C}\rightarrow \cat{Set}} with #{{\rm eval}_\cat{C}(F)= F(C)}. Evaluation preserves products because they are computed pointwise in the functor category. (etc., see the reference for the rest of proof...)
+}
+
+}

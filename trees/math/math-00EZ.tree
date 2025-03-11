@@ -1,0 +1,6 @@
+\date{2025-03-09T17:12:36Z}
+
+\title{Bicomplete category}
+\taxon{definition}
+
+\p{A \em{bicomplete} [category](math-000D) is one which is both [complete](math-00F0) and [cocomplete](math-00F1)}

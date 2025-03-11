@@ -1,0 +1,7 @@
+\date{2025-02-23T17:11:45Z}
+\title{Model of an algebraic theory}
+\taxon{definition}
+\parent{math-00AH}
+\import{macros}
+
+\p{A \em{model} #{M} of an [algebraic theory](math-009Q) #{\TT} is an [interpretation](math-00AS) of the [signature](math-009Y) of #{\TT} that [satisfies](math-00AU) all of the [axioms](math-00A2) of #{\TT}.}

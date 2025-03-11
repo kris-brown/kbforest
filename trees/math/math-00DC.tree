@@ -1,0 +1,12 @@
+\date{2025-02-26T17:51:14Z}
+\import{rel}
+\import{macros}
+
+
+\title{Translation of algebraic theories}
+
+\source{ref-00BC}
+
+\p{\em{Syntactically} a translation between two [algebraic theories](math-009Q) involves assigning types and terms of one theory to types and terms of the other, while respecting axioms.}
+
+\p{We can abstractly characterize such a translation by a [functor](math-000E) between the their corresponding categories.}

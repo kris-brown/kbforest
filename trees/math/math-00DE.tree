@@ -1,0 +1,15 @@
+\date{2025-02-28T07:17:21Z}
+\import{rel}
+\import{macros}
+
+
+\title{Underlying set functor for category of models of algebraic theory}
+\example{math-00D8}
+\example{math-00DB}
+
+\p{There is an [algebraic functor](math-00D8) from any [category of models of an algebraic theory](math-00AW) #{\AA} into [Set](math-003L) which sends each model to its underlying set.}
+
+\p{This is induced by [precomposition](math-00DD) with the canonical theory morphism from the [trivial (empty) theory](math-00A4), which is [initial](math-0052).}
+
+
+\examples

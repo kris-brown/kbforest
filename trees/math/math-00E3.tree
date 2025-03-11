@@ -1,0 +1,15 @@
+\date{2025-03-06T10:13:23Z}
+\let\curr{math-00E3}
+\import{macros}
+
+
+\title{Backtracking search specification (C-Sets)}
+\taxon{definition}
+
+\p{A \em{backtracking search specification} #{B:=(X,Y,I_c\subseteq X_c \times Y_c)}, implicitly specifies a set of [morphisms](math-00E2) in #{\cat{C}}[-Set](math-00E6), namely #{ev(B):=\{\alpha \in  \Hom(X,Y)\ |\ \forall c \in \Ob\cat{C}.\ \alpha_c \subseteq I_c\} }.}
+
+\p{A computational implementation of this \em{evaluation function} #{ev} for backtracking search is implemented in [Catlab](ref-00BG) for any #{\cat{C}}[-Set](math-00E6) category. It first initializes #{\alpha_c(i)} for all #{i \in X_c} for which #{I_c(i)} is a singleton set (i.e. there is only one valid assignment for it). It then branches on the most constrained value among all unassigned elements in #{X_c} (across all #{c}). We optionally can restrict the search to finding [monic](math-003X) maps.}
+
+\p{The complexity of the backtracking search algorithm is NP-complete, as it is reducible to a subgraph isomorphism problem. However, if we can initialize any values of #{\alpha} via the #{I_c} constraint, this becomes a \em{rooted} subgraph isomorphism problem which is constant time (if there are upper bounds on the size of #{X} and maximal node degree of #{Y}). See: \ref{ref-00BH}.}
+
+\p{This can be [generalized](math-00EJ) to general categories with finite limits.}

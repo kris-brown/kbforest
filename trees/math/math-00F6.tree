@@ -1,0 +1,28 @@
+\date{2025-03-10T00:09:55Z}
+
+\title{Galois connection between internal relations and hom sets}
+\import{macros}
+
+\p{Let #{\bar f} represent the [graph](math-00EK) of a morphism #{f:X\rightarrow Y}, [viewed as a subobject](math-00EW) of #{X\times Y}.}
+
+\p{The [Galois connection](math-0063) between the subobject poset of [internal relations](ref-00BK) and hom sets #{\Hom(X,Y)} is given by the maps}
+
+\ul{
+\li{#{F: fs\subseteq \Hom(X,Y) \mapsto \bigvee_{f \in fs} \bar f}}
+\li{#{G: R\rightarrowtail X\times Y \mapsto \{f \in \Hom(X,Y)\ | \bar f \leq R \} }}}
+
+\p{We have #{F \dashv G}}
+
+\subtree{\taxon{proof}
+
+\p{Via [this formulation of Galois connections](math-00F7):}
+
+##{\forall R \rightarrowtail X\times Y.\ F(G(R))\leq R}
+
+\p{ This amounts to #{\bigvee_{\bar f \leq R} \bar f \leq R}, which is a property of the join being a \em{least} upper bound.}
+
+##{\forall fs \subseteq \Hom(X,Y).\ fs \subseteq G(F(fs))}
+
+\p{This amounts to #{f \in fs \implies \bar f \leq \bigvee_{f \in fs} \bar f}, which follows from the join being an \em{upper} bound.}
+
+}

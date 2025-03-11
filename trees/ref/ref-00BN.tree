@@ -1,0 +1,11 @@
+\date{1996-09}
+
+\title{Structure in mathematics and logic: a categorical perspective}
+\taxon{reference}
+\author{awodey}
+
+\subtree{\title{Abstract}
+
+  \p{A precise notion of 'mathematical structure' other than that given by model theory may prove fruitful in the philosophy of mathematics. It is shown how the language and methods of category theory provide such a notion, having developed out of a structural approach in modern mathematical practice. As an example, it is then shown how the categorical notion of a topos provides a characterization of ‘logical structure’, and an alternative to the Pregean approach to logic which is continuous with the modern structural approach in mathematics.
+
+  }}

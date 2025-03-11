@@ -1,0 +1,17 @@
+\date{2025-03-10T00:29:08Z}
+
+\title{Galois operation in terms of closure operators}
+\taxon{proposition}
+\p{Suppose #{f: P\rightarrow Q} and #{g: Q \rightarrow P} are [monotone maps](math-0068). Then #{f\dashv g} is a [Galois connection](math-0063) iff: }
+
+##{\forall p \in P.\ p \leq g(f(p))}
+
+\p{and}
+
+##{\forall q \in Q.\ f(g(q))\ leq q}
+
+\subtree{
+  \taxon{proof}
+
+  \p{See [Seven Sketches](ref-00BL) Prop 1.107}
+}

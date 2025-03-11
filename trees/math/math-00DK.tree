@@ -1,0 +1,10 @@
+\date{2025-02-28T08:05:25Z}
+\let\curr{math-00DK}
+\import{macros}
+
+
+\title{Algebraic functors are isomorphic to translations}
+\taxon{proposition}
+\p{For any two [Lawvere algebraic theories](math-00CO) #{\AA} and #{\BB}, \em{every} [algebraic functor](math-00DB) (i.e. #{f: \cat{Mod}(\BB)\rightarrow \AA} with #{\cU_\BB\cong f\cdot \cU_\AA }) is of the form #{f \cong T^* } for some unique (up-to-iso) FP functor #{T: \AA\rightarrow \BB}}
+
+\subtree{\taxon{proof} \tag{todo}}

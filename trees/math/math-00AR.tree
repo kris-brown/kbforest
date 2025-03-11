@@ -1,0 +1,19 @@
+\date{2025-02-23T07:50:32Z}
+\title{Category of groups internal to a category}
+\import{macros}
+\import{rel}
+
+\example{math-00AW}
+
+\p{The \em{category of groups internal to a [category](math-000D)} #{\cat{C}} has:}
+
+\ul{
+\li{Objects: [internal groups](math-00AM)}
+\li{Morphisms: [internal group morphisms](math-00AQ)}
+}
+
+\p{[Composition](math-00B2) and [identities](math-00B1) are inherited from #{\cat{C}}}
+
+\p{This is denoted #{Group(\cat{C})}.}
+
+\examples

@@ -1,0 +1,8 @@
+\date{2025-02-23T18:02:01Z}
+\title{Axioms of a category}
+\parent{math-009C}
+
+\p{The [data](math-00B6) of a category the following axioms:}
+
+\transclude{math-00B3}
+\transclude{math-00B4}

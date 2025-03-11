@@ -1,0 +1,5 @@
+\date{2025-02-25T22:42:45Z}
+\title{Presheaf}
+\taxon{definition}
+
+\p{A \em{presheaf} is a [functor](math-000E) #{\cat{C}^{op}\rightarrow}[Set](math-003L) for some [category](math-000D) #{\cat{C}}.}

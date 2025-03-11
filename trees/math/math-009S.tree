@@ -1,0 +1,22 @@
+\date{2025-02-22T06:06:16Z}
+\title{Axioms vs equations}
+\import{math-009V} % univ
+\import{math-009K} % cdot-grp
+
+\p{In an [algebraic theory](math-009Q), we can express the laws as [first-order logic](math-009T) axioms or as equations.}
+
+\p{For example, take the unitality equations of a [group](math-009G):}
+
+\transclude{math-009W}
+
+\p{These could be expressed in a logical notation by using quantifiers:}
+
+\import{mathml}
+\open\mml
+\let\a{\mi{a}}
+\let\b{\mi{b}}
+\let\c{\mi{c}}
+\display{\univ{\a}{\univ{\b}{\univ{\c}{{{\prn{{\a\cdot-grp\b}} \cdot-grp \c} \equals {\a \cdot-grp \prn{{\b \cdot-grp \c}}}}}}}}
+
+
+\p{But we can unambiguously drop these operators because algebraic theories let us interpret all variables as ranging over the entire [domain of discourse](math-009U). }

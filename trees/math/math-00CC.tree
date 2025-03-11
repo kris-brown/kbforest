@@ -1,0 +1,9 @@
+\date{2025-02-26T00:13:19Z}
+\title{Logically generic}
+\taxon{definition}
+\import{macros}
+\import{rel}
+\example{math-00BM}
+
+\p{A model is \em{logically generic} if it satisfies all and only the equations of the theory.}
+

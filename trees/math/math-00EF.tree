@@ -1,0 +1,10 @@
+\date{2025-03-07T01:34:47Z}
+\let\curr{math-00EF}
+\import{macros}
+
+
+\title{Incremental hom search: merging}
+
+\p{I have started some thoughts on how to incrementally address merging [here](https://docs.localcharts.org/J1W9CRNvRuuMe3yer7IVog). However, the solution there is a bit unsatisfying because the results the algorithm finds can have some intersection with results already in the answer set.}
+
+\p{However, just like deletion could be made trivial by using an underlying "mark as deleted" data representation, merging could be made trivial by using an underlying "union-find" data representation.}

@@ -1,0 +1,8 @@
+\date{2025-03-06T08:39:11Z}
+\let\curr{math-00DZ}
+\import{macros}
+
+
+\title{Span}
+
+\p{A \em{span} in some category #{\cat{C}} is a pair of morphisms #{A\xleftarrow{f}B\xrightarrow{g}C} which agree on a common object, called the \em{apex}. #{A} and #{C} need not be distinct from each other or the apex.}

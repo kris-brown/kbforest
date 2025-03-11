@@ -1,0 +1,11 @@
+\date{2025-02-21T22:14:22Z}
+\title{Group unitality condition}
+\import{mathml}
+\import{math-009K} % cdot-grp
+\open\mml
+\p{The \em{unitality} condition of a group asserts that multiplication with the identity does not change an element:}
+
+\let\a{\mi{a}}
+\let\e{\mi{[e](math-009J)}}
+
+\display{{{\a \cdot-grp \e} \equals \a \equals {\e \cdot-grp \a}}}

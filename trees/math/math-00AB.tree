@@ -1,0 +1,7 @@
+\date{2025-02-22T21:13:09Z}
+\title{Inductive datatypes}
+\import{macros}
+\import{rel}
+\example{math-009Q}
+
+\p{\em{Inductive datatypes} in computer science are examples of [algebraic theories](math-009Q). These theories have no equations because computer scientists are interested in [free models](math-00AC) of their theories.}

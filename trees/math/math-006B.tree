@@ -1,6 +1,8 @@
 \date{2024-08-13}
 \title{Meet semilattice}
 \taxon{definition}
+\import{rel}
+\example{math-009Q}
 
 \p{A \em{meet semilattice} is a set #{S} with a binary operation #{\land} called a \em{meet} such that, for all #{x,y,z \in S}}
 

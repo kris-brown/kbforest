@@ -1,0 +1,21 @@
+\date{2025-02-22T19:43:47Z}
+\title{Algebraic theory of commutative rings with units}
+\import{macros}
+\import{rel}
+
+\example{math-009Q}
+
+\p{The signature has nullary operations #{0} and #{1}, one unary operation #{-}, and two binary operations #{+,\times}.}
+
+\p{The equations are:}
+
+\ul{
+\li{#{(x+y)+z=x+(y+z)}}
+\li{#{x+0=x=0+x}}
+\li{#{x\times 1=x=1\times x}}
+\li{#{(x\times y)\times z = x \times (y\times z)}}
+\li{#{x + (-x) = 0 = (-x)+x}}
+\li{#{x+y = y+x}}
+\li{#{x\times y = y\times x}}
+\li{#{(x+y)\times z = x\times z + y \times z}}
+}

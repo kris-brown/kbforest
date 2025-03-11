@@ -1,0 +1,15 @@
+\date{2025-02-25T00:55:04Z}
+\title{Syntactic model of an algebraic theory}
+\import{macros}
+\taxon{definition}
+\import{rel}
+
+\source{ref-00BC}
+
+\p{Given an algebraic theory #{\TT}, one can define a \em{universal} (or \em{syntactic}) [model](math-00AH) #{\cU} of #{\TT} in the [syntactic category](math-00BB) #{\cat{Syn}\TT}.}
+
+\p{The model's distinguished object #{U \in \Ob \cat{Syn}\TT} is the one-variable context.}
+
+\p{Each operation of the theory #{f} of arity #{k} is sent to the morphism #{(f(x_1,...,x_k)): [x_1,...,x_k]\rightarrow [x_1]}}
+
+\p{The axioms are satisfied because the equivalence relation on terms is #{\TT}-provable equality, i.e. #{\cU \vDash s = t \iff \TT \vdash s = t}.}

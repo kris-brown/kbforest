@@ -1,0 +1,12 @@
+\date{2025-02-26T04:32:53Z}
+\title{Affine schemes are dual to commutative rings with unit}
+\taxon{proposition}
+\import{macros}
+\import{rel}
+
+\source{ref-00BC}
+\example{math-003E}
+
+##{\cat{Scheme}_{aff} = \cat{Ring}^{op}}
+
+\p{There is a ring object in affine schemes, called the \em{affine line}.}

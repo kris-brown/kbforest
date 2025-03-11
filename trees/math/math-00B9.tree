@@ -1,0 +1,17 @@
+\date{2025-02-23T21:35:50Z}
+\title{Theory of groups with double division}
+\import{macros}
+\import{rel}
+\example{math-009Q}
+
+\p{The [signature](math-009Y) of this theory of [groups](math-009G) has a constant #{e} and a binary operation #{\odot} called "double division".}
+
+\p{There is one [axiom](math-00A2): #{(x \odot (((x \odot y)\odot z)\odot(y\odot e)))\odot(e\odot e)=z}}
+
+\p{The [usual group operations](math-00AL) can be understood in terms of #{\odot}:}
+
+\ul{
+\li{#{x \odot y = x^{-1}\cdot y^{-1}}}
+\li{#{x^{-1}=x\odot e}}
+\li{#{x\cdot y=(x\odot e)\odot(y\odot e)}}
+}

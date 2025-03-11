@@ -1,0 +1,20 @@
+\date{2025-02-23T17:36:26Z}
+\import{rel}
+\import{macros}
+
+\title{Category of algebraic #{\TT} models in a category #{\mathsf{C}}}
+\example{math-000D}
+\import{mathml}
+
+\def\algmod{\mml/sfModLink{math-00AW}}
+
+\p{The \em{category of algebraic} #{\TT} \em{models} in a [category](math-000D) #{\mathsf{C}} has:}
+
+\p{As objects, #{\mathbb{T}} [models](math-00AH) in #{\cat{C}}}
+\p{As morphisms, #{\mathbb{T}} model [homomorphisms](math-00AV)}
+
+\p{This inherits [identities](math-00B1) and [composition](math-00B2) from #{\cat{C}}, and it satisfies the [axioms of a category](math-00B5) due to this inheritance.}
+
+\subtree{\taxon{notation} \p{This is denoted #{\cat{Mod}(\TT,\cat{C})}}}
+
+\examples

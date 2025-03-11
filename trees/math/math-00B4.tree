@@ -1,0 +1,5 @@
+\date{2025-02-23T17:57:28Z}
+\title{Associativity of composition}
+\taxon{definition}
+\parent{math-009C}
+\p{For all triples of composable morphisms #{f,g,h}, we have #{f\cdot(g\cdot h) = (f\cdot g)\cdot h}}

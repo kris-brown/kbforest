@@ -1,0 +1,7 @@
+\date{2025-02-23T17:55:31Z}
+\title{Identity operation of a category}
+\import{macros}
+\taxon{definition}
+\parent{math-009C}
+
+\p{An \em{identity} operation which assigns, for each object #{a \in \Ob(\cat{C})}, an identity morphism #{id(a)\in \Hom(a,a)}}

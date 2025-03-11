@@ -1,0 +1,11 @@
+\date{2025-03-10T02:31:30Z}
+
+\title{FOL not general enough}
+% \source{ref-00BM} add this in as part of generalized backmatter
+
+\p{[FOL](math-009T) does not easily accommodate unconventional semantics.}
+
+\ul{
+  \li{nondeterminism}
+  \li{resource-boundedness}
+}

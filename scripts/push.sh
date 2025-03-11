@@ -1,4 +1,4 @@
-forester build public.toml || exit 1
+./forester build || exit 1
 julia scripts/check_filenames.jl || exit 1
 rm -r ../netlify/forest
 cp -r output ../netlify/forest

@@ -1,0 +1,6 @@
+\date{2025-02-25T22:41:32Z}
+\title{Presheaf notation}
+\taxon{notation}
+\import{macros}
+
+\p{Given a [category](math-000D) #{\cat{C}}, the notation #{\hat{\cat{C}}} denotes [Set](math-003L)#{^{\cat{C}^{op}}}, the category of [presheaves](math-00CB) on #{\cat{C}}.}

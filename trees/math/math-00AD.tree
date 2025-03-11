@@ -1,0 +1,14 @@
+\date{2025-02-22T21:15:40Z}
+\title{Binary trees with integer leaves as an algebraic theory}
+\import{macros}
+\import{rel}
+
+\example{math-00AB}
+\source{ref-00BC}
+\p{One can declare the following [inductive data type](math-00AB) in a programming language}
+
+\pre{type tree = Leaf of int | Node of tree * tree}
+
+\p{This corresponds to an algebraic theory where there is a constant #{Leaf\ n} for each integer #{n \in \NN} and a binary operation #{Node}.}
+
+\examples

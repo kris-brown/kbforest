@@ -1,0 +1,9 @@
+\date{2025-02-26T02:33:47Z}
+\title{Free group}
+\meta{external}{https://ncatlab.org/nlab/show/free+group}
+\import{macros}
+\import{rel}
+
+\example{math-00BM}
+
+\p{The \em{free group} on #{n \in \NN} generators is a [group](math-009G) which has only the equations demanded by group axioms. It is denoted #{F(n)} sometimes.}

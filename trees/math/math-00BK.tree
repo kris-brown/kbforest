@@ -1,0 +1,16 @@
+\date{2025-02-25T00:53:31Z}
+\title{Universal property of syntactic model of an algebraic theory}
+\import{macros}
+\taxon{proposition}
+\import{math-002B} % congCat
+\import{math-000E} % tofunctor
+\import{math-00BB} % synCat
+
+\import{mathml}
+\open\mml
+
+\let\U{\mi{U}}
+
+\p{Any [model](math-00AH) \cM (of some [algebraic theory](math-009Q) \TT) in any finite product [category](math-000D) \sfC is the image of the [syntactic model](math-00BJ) \U under an [essentially unique](math-00BV), [finite-product-preserving](math-00BG) [functor](math-000E) \sup{\cM}{\pound}:\synCat \prn{\TT} \tofunctor \sfC.}
+
+\display{{\sup{\cM}{\pound}\prn{\U} \congCat \cM}}

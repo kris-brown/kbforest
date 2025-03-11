@@ -1,0 +1,10 @@
+\date{2025-03-06T09:12:07Z}
+\let\curr{math-00E1}
+\import{macros}
+
+
+\title{C-Set}
+
+\p{A #{\cat{C}}-Set #{X} is a database with finitely-presented #{\cat{C}} as its schema (objects are table names, generating morphisms as its foreign keys). Each object #{a \in \Ob\cat{C}} is sent to a set of table rows, #{X_c \in \cat{Set}}. Each generating morphism #{f: a\rightarrow b} is sent to a column #{X_f \in X_b^{X_a}} (i.e. a function between rows of tables).}
+
+\p{A \cat{C}-set then is precisely a [copresheaf](math-00DQ).}

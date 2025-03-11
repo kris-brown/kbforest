@@ -1,0 +1,18 @@
+\date{2025-03-08T03:03:17Z}
+
+\title{Graph of a morphism}
+\import{macros}
+\taxon{definition}
+\p{The \em{graph} of a [morphism](math-00B0) #{f: X\rightarrow Y} is a [pullback](math-000J) of the following form}
+
+
+% https://q.uiver.app/#q=WzAsNCxbMCwxLCJYIl0sWzEsMSwiWSJdLFsxLDAsIlkiXSxbMCwwLCJYXFx0aW1lc19ZIFkiXSxbMiwxLCIiLDAseyJsZXZlbCI6Miwic3R5bGUiOnsiaGVhZCI6eyJuYW1lIjoibm9uZSJ9fX1dLFswLDEsImYiLDJdLFszLDBdLFszLDJdLFszLDEsIiIsMSx7InN0eWxlIjp7Im5hbWUiOiJjb3JuZXIifX1dXQ==
+\quiver{\begin{tikzcd}
+    {X\times_Y Y} & Y \\
+    X & Y
+    \arrow[from=1-1, to=1-2]
+    \arrow[from=1-1, to=2-1]
+    \arrow["\lrcorner"{anchor=center, pos=0.125}, draw=none, from=1-1, to=2-2]
+    \arrow[equals, from=1-2, to=2-2]
+    \arrow["f"', from=2-1, to=2-2]
+  \end{tikzcd}}

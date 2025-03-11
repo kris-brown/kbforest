@@ -1,0 +1,7 @@
+\date{2025-03-10T06:27:49Z}
+
+\title{Topological group}
+\import{rel}
+\example{math-00AM} % group internal to Top
+
+\p{A \em{topological group} is a [group internal](math-00AM) to [Top](math-00FF)}

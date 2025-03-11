@@ -1,0 +1,17 @@
+\date{2025-03-08T10:06:21Z}
+
+\title{Generalizing beyond C-Sets}
+\import{macros}
+\put\transclude/expanded{false}
+
+\p{\strong{Note this is work in progress}}
+
+\p{C-Sets are very general, but it could be cleaner to reformulate this algorithm in terms not specific to it.}
+
+\p{This begins with a new definition of what an [backtracking search specification](math-00EJ) is:}
+
+\transclude{math-00EJ}
+\transclude{math-00EY}
+\transclude{math-00F2}
+
+\p{The algorithms which generalize to [non-monic queries](math-00E8) and [non-monic matches](math-00E7) were formulated in ways which did not depend on C-Sets.}

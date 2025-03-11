@@ -1,0 +1,19 @@
+\date{2025-02-23T08:31:36Z}
+\title{Interpretation of an algebraic theory signature}
+\import{macros}
+\import{rel}
+
+\source{ref-00BC}
+
+\p{The data of an \em{interpretation} #{I} of the [signature](math-009Y) of an [algebraic theory](math-009Q) #{\TT} in some category #{\cat{C}} is:}
+\ul{
+\li{A choice of some #{X \in \Ob\cat{C}}}
+\li{For each #{n}-ary operation #{f}, a choice of some #{f^I: X^n\rightarrow X}}
+}
+
+\p{We can extend this to an interpretation of arbitrary [terms](math-00A1) in that theory. Every term #{t} occurs in a \em{context} of #{n} variables, #{\{x_1,x_2,...\}}. An interpretation #{t^I} is a morphism #{X^n\rightarrow X} defined inductively:}
+
+\ul{
+\li{The interpretation #{x_i^I} is the #{i}'th projection #{\pi_i: X^n\rightarrow x}}
+\li{The interpretation #{f(t_1,...,t_k)^I} is the composite #{X^n\xrightarrow{(t_1^I,...,t_k^I)}X^k\xrightarrow{f^I}X}}
+}

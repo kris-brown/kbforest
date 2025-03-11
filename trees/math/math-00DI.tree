@@ -1,0 +1,9 @@
+\date{2025-02-28T07:57:36Z}
+\let\curr{math-00DI}
+\import{macros}
+
+
+\title{Created (co)limit}
+\meta{external}{https://ncatlab.org/nlab/show/created+limit}
+
+\p{A limit #{J: \cat{I}\rightarrow\cat{C}} is \em{created} by a functor #{F: \cat{C}\rightarrow\cat{D}} if #{F} both [preserves](math-00BG) and [reflects](math-00DJ) the limit.}

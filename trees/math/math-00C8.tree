@@ -1,0 +1,16 @@
+\date{2025-02-25T22:02:48Z}
+\title{Completeness of equational calculus with respect to Set models}
+\taxon{proposition}
+\import{macros}
+\tag{todo}
+
+\p{The formal system of functorial semantics for algebraic theories is [complete](math-0087) with respect to models in [Set](math-003L).}
+
+\p{For any [algebraic theory](math-009Q) #{\TT}, [terms](math-00A1) #{s,t}:}
+
+##{\forall \cM .\ \cM\vDash s=t \qquad \Rightarrow \qquad \TT \vdash s = t }
+
+\subtree{\taxon{proof}
+
+\p{[Yoneda embedding is a generic model for](math-00C9) #{\TT}, and combined with [this proposition](math-00CN). (Todo: work this out and understand it.)}
+}

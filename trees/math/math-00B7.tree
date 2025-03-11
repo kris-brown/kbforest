@@ -1,0 +1,18 @@
+\date{2025-02-23T18:21:27Z}
+\title{Category of models of the trivial algebraic theory}
+\import{macros}
+
+\import{mathml}
+\open\mml
+\let\Mod{\mi{[𝖬𝗈𝖽](math-00AW)}}
+\let\T{\mi{[𝕋₀](math-00A4)}}
+\let\C{\mi{[𝖢](math-000D)}}
+
+\display{\mrow{\Mod\prn{\T\comma\C} \equals \C}}
+
+\subtree{
+  \taxon{proof}
+  \p{A [model](math-00AH) of the [trivial algebraic theory](math-00A4) \T in some category \C is just a choice of some object in \C, as there are no operations and therefore no other data to provide.}
+
+  \p{A morphism of models is just a morphism in \C, as there are commutativity constraints as there are no operations.}
+}

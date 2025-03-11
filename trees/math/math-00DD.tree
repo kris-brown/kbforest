@@ -1,0 +1,8 @@
+\date{2025-02-26T20:33:07Z}
+\let\curr{math-00DD}
+\import{macros}
+
+
+\title{Delta migration of algebraic models}
+
+\p{Given a [functor](math-000E) #{F: \AA \rightarrow \BB} between [algebraic theories](math-009Q) and an [algebraic category](math-00DA) #{\BB\rightarrow \cat{C}}, one obtains an algebraic category #{F\cdot M: \AA\rightarrow \cat{C}} by precomposition.}

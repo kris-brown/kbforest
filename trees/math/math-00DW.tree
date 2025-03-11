@@ -1,0 +1,58 @@
+\date{2025-03-06T08:23:59Z}
+\let\curr{math-00DW}
+\import{macros}
+\taxon{presentation}
+
+\title{Incremental homomomorphism search}
+
+\p{This page organizes some research ideas related to incremental computation, particularly in the context of databases.}
+
+\p{The context for our problem is this: we are given some category #{\cat{C}} and a pattern #{X \in \Ob\cat{C}} and "world state" #{G \in \Ob\cat{C}}. We want to know all of the pattern matches, i.e. #{\Hom_\cat{C}(X, G)}. This is expensive to compute because #{G} can be very large. It's ok to do this once, but in many situations, #{G} is \em{changing}. We want to know #{\Hom_\cat{C}(X, G_2)} given an update #{\Delta(G_1, G_2)}, for some appropriate notion of \em{update}.}
+
+\p{It's often the case that the updates to #{G} come from a fixed set of [rewrite rules](math-00DX). So, we know more than just the raw \em{extensional} diff between #{G_1} and #{G_2}: we also know the \em{intensional} diff, the abstract shape of the change that was used to generate the diff. Given a small enough, fixed set of possible changes that we may be anticipating, we wish to leverage this additional information in order to minimize the computation needed to update #{\Hom_\cat{C}(X,G_1)} to #{\Hom_\cat{C}(X,G_2)}.}
+
+\p{Although many aspects of this problem and its solution are generic for any category (at least, ones which have [pullbacks](math-000J) and [pushouts](math-00DY) which are [well-behaved](math-00E4).), henceforth we restrict our attention to the category of #{\cat{C}}[-sets](math-00E6) for some [finitely-presented category](math-00E5) #{\cat{C}}.}
+
+\p{Let's express this formally: }
+
+\put\transclude/expanded{false}
+
+\transclude{math-00E3}
+\transclude{math-00EH}
+
+
+\transclude{math-00EB}
+
+\p{The source of efficiency in this incremental search approach is to transform the subgraph isomorphism problem into a manageable number of \em{rooted} subgraph isomorphism problems. An initial thought for looking for the subset of #{\Hom(X,G_2)} which is not already in #{\Hom(X,G_1)} is to perform a backtracking search that initially assigns some part of #{X} in #{G_2\setminus G_1}; however there is no straightforward way to choose which part(s) of #{X} to label as root nor what part(s) of #{G_2\setminus G_1} to label as root, especially if one wishes to avoid double counting solutions. The proposed solution here does something like this systematically. }
+
+\subtree{\title{Deletion and merging}
+\p{Note that this definition of the search problem only concerns additions and possibly merging of data. This is because deletion of data is trivial to handle:}
+
+\transclude{math-00EE}
+
+\p{See also the following comment on merging. Algorithms and examples further below will only address rewrite rules which do not merge, i.e. all elements of #{\cR} are monomorphisms.}
+
+\transclude{math-00EF}
+}
+
+\p{For algorithms, let's start with a constrained version of this problem, which is the base case for some generalizations:}
+
+\transclude{math-00E9}
+
+\p{We can now generalize this in two orthogonal ways: we can consider extending the classes #{\cQ} and #{\cM} from #{{\rm Mon}} to #{\Hom}, while still keeping the requirement that the morphisms in #{\cR} are all monic (i.e. rule applications to not merge anything together).}
+
+
+\transclude{math-00E8}
+
+\transclude{math-00E7}
+
+\p{Now let's see how these ideas play out with a concrete example:}
+
+\transclude{math-00ED}
+
+\subtree{\title{Computational implementation}
+
+  \p{These algorithms are implemented in [AlgebraicRewriting](ref-00BI).}
+}
+
+\transclude{math-00EP}

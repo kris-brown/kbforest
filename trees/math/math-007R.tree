@@ -1,4 +1,14 @@
 \date{2024-12-27}
-\title{Bool symmetric monoidal preorder}
+\title{Bool: the symmetric monoidal preorder}
+\import{macros}
+\import{rel}
 
-\p{The symmetric monoidal preorder #{Bool} has two objects, #{\bot} and #{\top} with #{\bot \leq \top}. The monoidal product #{\otimes} is given by logical conjunction, #{\wedge}.}
+\import{mathml}
+\open\mml
+\taxon{definition}
+
+\example{math-002O}
+
+\p{The [symmetric monoidal preorder](math-002O) #{Bool} has two objects, #{\bot} and #{\top} with #{\bot \leq \top}. \otimes-{math-002O} is given by \wedge-{math-009B}.}
+
+\examples

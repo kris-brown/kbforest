@@ -1,0 +1,14 @@
+\date{2025-03-10T02:07:26Z}
+
+\title{FOL too general}
+\import{macros}
+% \source{ref-00BM} add this in as part of generalized backmatter
+
+\p{Simple kinds of theories are needlessly complicated when encoded in [FOL](math-009T) and their structure is lost.}
+\ul{
+  \li{E.g. the equational character of [algebraic theories](math-009Q)}
+}
+
+\transclude{math-009S}
+
+\p{The richer the logical system, the fewer models its theories can have.}

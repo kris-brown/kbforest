@@ -1,0 +1,6 @@
+\date{2025-02-21T22:11:39Z}
+\title{Function as a special kind of relation (graph)}
+\taxon{definition}
+\p{A [relation](math-0002) between [sets](math-0001) #{A} and #{B} is a \em{function} #{A \xrightarrow{f} B} if it has exactly one element #{(a_i,b_j)} for each #{a_i \in A}.}
+
+\p{This relation can be thought of as the function itself or is called the \em{graph} of the function.}

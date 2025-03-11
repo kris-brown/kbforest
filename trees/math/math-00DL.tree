@@ -1,0 +1,10 @@
+\date{2025-03-03T00:30:59Z}
+\import{rel}
+\import{macros}
+
+
+\example{math-006C}
+
+\title{Category of categories with finite product preserving functors}
+
+\p{[Wide subcategory](math-006C) of [Cat](math-000F) restricting morphisms to finite-[product](math-0024) [preserving](math-00BG) [functors](math-000E)  }

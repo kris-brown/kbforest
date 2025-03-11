@@ -1,0 +1,10 @@
+\date{2025-02-21T21:45:38Z}
+\title{#{e} - the identity element}
+\parent{math-009H}
+\import{mathml}
+\import{math-009M} % inset
+\open\mml
+\let\e{\mi{e}}
+\let\X{\mi{[X](math-009I)}}
+
+\p{\e \inset \X is the \em{identity} element}

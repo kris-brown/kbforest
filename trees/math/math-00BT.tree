@@ -1,0 +1,9 @@
+\date{2025-02-25T08:54:45Z}
+\title{Classifying category of an algebraic theory}
+\taxon{definition}
+\import{macros}
+\p{The \em{classifying category} of an [algebraic theory](math-009Q) is a FP category #{\cat{C}_\TT} with a [distinguished model](math-00BJ) #{\cU} such that:}
+
+\ul{
+\li{For any model #{\cM} in some FP-category #{\cat{C}}, there is an FP functor #{\cM^\#: \cat{C}_\TT\rightarrow\cat{C}} and isomorphism of models #{\cM\cong\cM^\#(\cU)}}
+\li{For any FP functors #{F,G: \cat{C}_\TT\rightarrow \cat{C}} and model homomorphism #{h: F(\cU)\rightarrow G(\cU)}, there is a unique natural transformation #{\alpha: F \Rightarrow G} with #{\alpha_\cU = h}.}}

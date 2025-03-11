@@ -1,0 +1,30 @@
+\date{2025-03-03T21:54:58Z}
+\import{rel}
+\import{macros}
+
+
+\title{Natural in...}
+\taxon{definition}
+
+\p{It is common to have a parameterized collection of morphisms in some category #{\cat{D}}, written as #{F(a_1,...,a_n) \xrightarrow{\alpha(a_1,...,a_n)} G(a_1,...,a_n)} where each parameter is regarded as object from some particular category #{\cat{C}_i}. Moreover, these parameterizations are functorial: #{F(a_1,...,a_n)} and #{G(a_1,...,a_n)} are not merely \em{functions} #{\Ob \cat{C}_1\times...\times\Ob\cat{C}_n \rightarrow \Ob \cat{D}} but \em{functors} #{\cat{C}_1\times...\times\cat{C}_n \rightarrow \cat{D}} (which particular functor is assumed to be implicit from context).}
+
+\p{Let #{F_i: \cat{C}_1\to\cat{D}} be the functor one gets by plugging in particular objects for the remaining parameters (likewise for #{G_i} and #{\alpha_i}). To say that #{\alpha(a_1,...,a_n)}  is \em{natural in} some parameter, e.g. #{a \in \cat{C}_i}, is to say #{\alpha_i: F_i \Rightarrow G_i} is a [natural transformation](math-002E). I.e. for all #{f \in \Hom_\cat{C_1}(x,y)}:}
+
+% https://q.uiver.app/#q=WzAsNCxbMCwwLCJGX2koYV8xKSJdLFswLDEsIkZfaShhXzIpIl0sWzEsMCwiR19pKHgpIl0sWzEsMSwiR197aX0oeSkiXSxbMCwxLCJGX2koZikiLDJdLFsyLDMsIkdfaShmKSJdLFswLDIsIlxcYWxwaGFfaSh4KSIsMCx7Im9mZnNldCI6LTF9XSxbMSwzLCJcXGFscGhhX2koeSkiLDIseyJvZmZzZXQiOjF9XV0=
+\quiver{
+  \begin{tikzcd}
+    {F_i(a_1)} & {G_i(x)} \\
+    {F_i(a_2)} & {G_{i}(y)}
+    \arrow["{\alpha_i(x)}", shift left, from=1-1, to=1-2]
+    \arrow["{F_i(f)}"', from=1-1, to=2-1]
+    \arrow["{G_i(f)}", from=1-2, to=2-2]
+    \arrow["{\alpha_i(y)}"', shift right, from=2-1, to=2-2]
+  \end{tikzcd}}
+
+
+\p{Note: we often also have a situation where #{\alpha} is a parameterized collection of \em{bijections}, but this is not relevant to this definition.}
+
+\p{Caveat: one has to reason contextually to figure out what the categories #{\cat{C}_i} and #{\cat{D}} are. In particular, one might need the [opposite category](math-005U) of the obvious category, as in the case of the natural isomorphism of hom sets in one [definition of adjoint functors](math-002A).}
+
+
+\examples

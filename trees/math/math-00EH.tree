@@ -1,0 +1,41 @@
+\date{2025-03-07T07:48:05Z}
+\let\curr{math-00EH}
+\import{macros}
+
+
+\title{Backtracking hom search specification example}
+
+
+\p{In the context of [the category of graphs](math-00EG), suppose we are looking for [morphisms](math-005D) #{X\rightarrow Y}}
+
+% https://q.uiver.app/#q=WzAsOCxbMSwxLCJ2XzIiXSxbMSwyLCJ2XzMiXSxbMywyLCJ2XzEiXSxbMywxLCJ2XzIiXSxbNCwxLCJ2XzMiXSxbMCwxLCJ2XzEiXSxbMSwwLCJYIl0sWzQsMCwiWSJdLFswLDEsImVfMiIsMl0sWzIsNCwiZV8zIiwyXSxbMiwzLCJlXzEiXSxbMyw0LCJlXzIiXSxbMywzLCJlXzQiXSxbNSwwLCJlXzEiLDJdXQ==
+\quiver{
+  \begin{tikzcd}[cramped]
+    & X &&& Y \\
+    {v_1} & {v_2} && {v_2} & {v_3} \\
+    & {v_3} && {v_1}
+    \arrow["{e_1}"', from=2-1, to=2-2]
+    \arrow["{e_2}"', from=2-2, to=3-2]
+    \arrow["{e_4}", from=2-4, to=2-4, loop, in=55, out=125, distance=10mm]
+    \arrow["{e_2}", from=2-4, to=2-5]
+    \arrow["{e_1}", from=3-4, to=2-4]
+    \arrow["{e_3}"', from=3-4, to=2-5]
+  \end{tikzcd}}
+
+
+\p{There are four morphisms total:}
+
+\ol{
+\li{#{\alpha_1=([v_1,v_2,v_3],[e_1,e_2])}}
+\li{#{\alpha_2=([v_1,v_2,v_2],[e_1,e_4])}}
+\li{#{\alpha_3=([v_2,v_2,v_2],[e_4,e_4])}}
+\li{#{\alpha_4=([v_2,v_2,v_3],[e_4,e_2])}}
+}
+
+\p{Each of these functions can be [thought of as a relation](math-009N).}
+
+\p{We can control which matches we are interested in via a [backtracking search specification](math-00E3) which provides relations #{I_V} and #{I_E}. If we choose the top elements of the poset of relations (i.e. #{\top_V := X_V\times Y_V} and #{\top_E: X_E\times Y_E}), then we are effectively not imposing any constraint: any graph homomorphism #{(\alpha_V,\alpha_E)} will have #{\alpha_V\subseteq \top_V} and #{\alpha_E\subseteq \top_E}.}
+
+\p{It is more natural to think of these relations equivalently as functions #{X_V\rightarrow \cP(Y_V)} and #{X_E\rightarrow \cP(Y_E)}. Sending an element to the top element of the subset lattice is equivalent to not constraining it at all. Assigning the empty set to any vertex or edge will result in no morphisms being included in such a specification.}
+
+\p{Suppose we have #{I_V(v_3) = \{v_1,v_3\} } and for all other vertices and edges #{I_V(-)=Y_V} and #{I_E(-)=Y_E} (i.e. no further constraints). Such a [backtracking search specification](math-00E3) #{S} would have #{ev(S)=\{\alpha_1,\alpha_4\}} as these are the only morphisms which assign #{v_3} in #{X} to #{v_1} or #{v_3} in #{Y}.}

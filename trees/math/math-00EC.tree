@@ -1,0 +1,10 @@
+\date{2025-03-06T23:31:09Z}
+\let\curr{math-00EC}
+\import{macros}
+
+
+\title{Pairing (universal property)}
+\meta{external}{https://ncatlab.org/nlab/show/pairing}
+
+\p{In a category with products, one can \em{pair} two morphisms of a [span](math-00DZ) #{(f:A\rightarrow B,g: A \rightarrow C)} to obtain a morphism #{(f,g): A \rightarrow B\times C}. This is applying the [universal property of products](math-00ER). This is a composite #{A \xrightarrow{\Delta_A}A\times A\xrightarrow{f\times g}B\times C }}
+

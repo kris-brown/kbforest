@@ -1,0 +1,5 @@
+\date{2025-02-26T01:33:50Z}
+\title{Yoneda embedding is faithful}
+\taxon{proposition}
+
+\p{The [Yoneda embedding](math-00CD) is [faithful](math-002K)}

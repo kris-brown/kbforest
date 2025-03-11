@@ -1,0 +1,13 @@
+\date{2025-02-25T08:51:26Z}
+\title{Classifying category of an algebraic theory}
+\import{macros}
+\import{rel}
+
+\defn{math-00BT}
+\defns
+
+\p{The first bullet point in above definition says the [evaluation functor](math-00BN) is [essentially surjective](math-002M).}
+
+\p{The second bullet point says it is [full](math-002I) and [faithful](math-002K)}
+
+\p{This determines the [syntactic category](math-00BB), up to [equivalence](math-002B), by this [universal mapping property](math-00BU).}

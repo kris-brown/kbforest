@@ -1,0 +1,12 @@
+\date{2025-02-23T18:02:21Z}
+\title{Data of a category}
+\import{macros}
+\parent{math-009C}
+
+\p{A \em{category} #{\cat{C}} consists in the data #{(\Ob,\Hom,id,\cdot)}:}
+
+\transclude{math-00AX}
+\transclude{math-00B0}
+\transclude{math-00B1}
+\transclude{math-00B2}
+

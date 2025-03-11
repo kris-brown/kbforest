@@ -1,0 +1,14 @@
+\date{2025-02-28T07:46:34Z}
+\import{macros}
+\import{rel}
+
+
+\title{Regular epimorphism}
+\meta{external}{https://ncatlab.org/nlab/show/regular+epimorphism}
+\example{math-00DH}
+\dual{math-00C5}
+\taxon{definition}
+
+\p{A \em{regular epimorphism} is an [epimorphism](math-00DH) which arises as the [coequalizer](math-005M) of some pair of morphisms.}
+
+\examples

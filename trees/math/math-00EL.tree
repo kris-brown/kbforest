@@ -1,0 +1,27 @@
+\date{2025-03-08T07:52:55Z}
+
+\title{Pullbacks as equalizers}
+\import{macros}
+\taxon{proposition}
+
+\p{Let #{\cat{C}} be a [category](math-000D) with [products](math-0024). Suppose the two triangles in the following diagram commute:}
+
+% https://q.uiver.app/#q=WzAsNSxbMCwwLCJQIl0sWzEsMSwiQVxcdGltZXMgQiJdLFsyLDEsIkEiXSxbMSwyLCJCIl0sWzIsMiwiQyJdLFsyLDQsImYiXSxbMyw0LCJnIiwyXSxbMSwzLCJcXHBpXzIiLDJdLFsxLDIsIlxccGlfMSJdLFswLDEsImUiXSxbMCwzLCJwXzIiLDIseyJjdXJ2ZSI6Mn1dLFswLDIsInBfMSIsMCx7ImN1cnZlIjotMn1dXQ==
+\quiver{\begin{tikzcd}
+    P \\
+    & {A\times B} & A \\
+    & B & C
+    \arrow["e", from=1-1, to=2-2]
+    \arrow["{p_1}", curve={height=-12pt}, from=1-1, to=2-3]
+    \arrow["{p_2}"', curve={height=12pt}, from=1-1, to=3-2]
+    \arrow["{\pi_1}", from=2-2, to=2-3]
+    \arrow["{\pi_2}"', from=2-2, to=3-2]
+    \arrow["f", from=2-3, to=3-3]
+    \arrow["g"', from=3-2, to=3-3]
+  \end{tikzcd}}
+
+\p{Then #{(p_1,p_2)} is the pullback of #{(f,g)} iff #{e} is the equalizer of #{(\pi_1\cdot f, \pi_2\cdot g)}.}
+
+\subtree{\taxon{proof}
+  \p{See [ProofWiki](https://proofwiki.org/wiki/Pullback_as_Equalizer).}
+}

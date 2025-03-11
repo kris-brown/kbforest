@@ -1,0 +1,15 @@
+\date{2025-02-22T18:44:28Z}
+\title{Algebraic theory}
+\import{macros}
+
+\taxon{definition}
+\parent{math-009Q}
+
+\p{An \em{algebraic theory} #{\TT} consists in a tuple #{(\Sigma_\TT, A_\TT)}}
+
+
+\transclude{math-009Y}
+
+\transclude{math-00A2}
+
+

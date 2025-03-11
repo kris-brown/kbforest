@@ -1,0 +1,5 @@
+\date{2025-02-22T19:33:53Z}
+\title{Terms of an algebraic theory}
+\taxon{definition}
+
+\p{Given a [signature](math-009Y), a term is either a \em{variable} (#{x,y,z,...}) or a \em{k-ary operation} applied to #{k} terms. I.e. if #{t_1,...,t_k} are terms and #{f\in \Sigma_k}, then #{f(t_1,...,t_k)} is a term.}

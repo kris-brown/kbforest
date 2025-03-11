@@ -1,0 +1,27 @@
+\date{2025-03-08T07:59:05Z}
+
+\title{Every equalizer is monic}
+\taxon{proposition}
+\import{macros}
+
+\p{Every [equalizer](math-0042) morphism is a [monomorphism](math-003X).}
+
+\subtree{\taxon{proof}
+
+
+\p{Let #{i:e\rightarrow a} equalize #{f,g:a\rightarrow b} and let #{j,l: c \rightarrow e} be other morphisms which are equal when postcomposed with #{i}.}
+
+% https://q.uiver.app/#q=WzAsNCxbMSwwLCJlIl0sWzIsMCwiYSJdLFszLDAsImIiXSxbMCwwLCJjIl0sWzEsMiwiZiIsMCx7ImN1cnZlIjotMX1dLFsxLDIsImciLDIseyJjdXJ2ZSI6MX1dLFswLDEsImkiLDJdLFszLDAsImoiLDAseyJjdXJ2ZSI6LTF9XSxbMywwLCJsIiwyLHsiY3VydmUiOjF9XSxbMywxLCJqXFxjZG90IGkgPSBsXFxjZG90IGkiLDIseyJjdXJ2ZSI6NX1dXQ==
+\quiver{
+  \begin{tikzcd}
+    c & e & a & b
+    \arrow["j", curve={height=-6pt}, from=1-1, to=1-2]
+    \arrow["l"', curve={height=6pt}, from=1-1, to=1-2]
+    \arrow["{j\cdot i = l\cdot i}"', curve={height=30pt}, from=1-1, to=1-3]
+    \arrow["i"', from=1-2, to=1-3]
+    \arrow["f", curve={height=-6pt}, from=1-3, to=1-4]
+    \arrow["g"', curve={height=6pt}, from=1-3, to=1-4]
+  \end{tikzcd}}
+
+\p{The [universal property of equalizers](math-00EN) says that, because the morphism #{j\cdot i} (equivalently, #{l \cdot i}) is equalized by #{f} and #{g} that there is a \em{unique} morphism #{u: c\rightarrow e} such that when postcomposed with #{i} equals #{j\cdot i = l\cdot i}. Because this morphism is unique, #{j = l}.}
+}

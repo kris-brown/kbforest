@@ -1,16 +1,14 @@
 \date{2024-05-05}
 \title{Poset}
+\import{macros}
+\import{rel}
 
-\subtree{\taxon{definition}
-
-\p{A partially-ordered set (poset) consists of a set #{P} and an [binary relation](math-001M) #{\leq} on #{P} such that:}
-
-\ul{
-\li{Reflexivity: #{p \leq p}}
-\li{Anti-symmetry: #{a \leq b} and #{b \leq a} implies #{a = b}}
-\li{Transivity: #{a \leq b} and #{b \leq c} implies #{a \leq c}}
-}
-
-}
+\nonexample{math-009Q}
+\defn{math-00AE}
+\defns
 
 \p{Posets do not contain cycles.}
+
+
+\nonexamples
+\examples

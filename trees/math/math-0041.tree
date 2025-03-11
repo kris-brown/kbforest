@@ -1,6 +1,8 @@
 \date{2024-07-22}
 \title{Regular monomorphism}
-\taxon{definition}
-\meta{external}{https://ncatlab.org/nlab/show/regular+monomorphism}
+\import{macros}
+\import{rel}
 
-\p{A [monomorphism](math-003X) #{f: c\rightarrowtail d} is \em{regular} iff there exists some pair of morphisms #{d\rightarrow e} for which it is the [equalizer](math-0042).}
+\defn{math-00C5}
+\defns
+\p{This is sometimes called an [embedding](https://ncatlab.org/nlab/show/embedding).}

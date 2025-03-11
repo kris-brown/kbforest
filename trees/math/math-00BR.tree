@@ -1,0 +1,8 @@
+\date{2025-02-25T08:45:13Z}
+\title{Representable functor}
+\taxon{definition}
+\import{macros}
+\import{rel}
+\example{math-000E}
+
+\p{A \em{representable functor} is a [functor](math-000E) #{\cat{C^{op}}\rightarrow}[Set](math-003L) which is [naturally isomorphic](math-0032) to #{\Hom(A,-)} for some set #{A}, called the \em{representing object}}

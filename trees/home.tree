@@ -2,8 +2,7 @@
 
 \p{A collection of notes on math and philosophy.}
 
-\p{Here are some example pages:}
-
+\subtree{\title{Example pages}
 \ul{
 \li{Lecture: [The Concept of Representation](lec-0001)}
 \li{Example: [Shopping list](phil-0126)}
@@ -15,15 +14,39 @@
 \li{Reference: [Empiricism and the Philosophy of Mind](ref-0016)}
 \li{Math: [category](math-000D)}
 }
-
-\p{Or navigate the entire list of pages via \code{Ctrl + K}.}
-
-\p{Particularly in philosophy, there are some things which are hard to write 'neutrally' about. I will use the authorship of pages to mark which viewpoint I am attributing the content to. This has its own problems:}
-
-\ul{
-  \li{Authors' views can change over time, so this can be ambiguous.}
-  \li{The attribution of a claim to an author is itself a claim which can be not entirely neutral.}
 }
+
+\p{This is built with [forester](https://www.forester-notes.org/). The source code is [here](https://github.com/kris-brown/kbforest). The design and structure of the forest is in flux as \code{forester} updates to version 5.}
+
+\p{One can search for pages by title or address across the whole forest via \code{Ctrl + K}.}
+
+\subtree{\title{Lightweight ontology}
+
+  \p{The forest is largely unstructured. However, trees can be annotated with a \strong{taxon}, classifying it as a certain type, e.g.:}
+
+  \ul{
+    \li{\code{Definition}}\li{\code{Reference}}\li{\code{Person}}\li{\code{Quote}}}
+
+  \p{In addition to taxa there are \strong{tags}, but these aren't visible to the reader of the forest and such just are used to control datalog queries.}
+
+  \p{There are also \strong{relations} between the trees, the primary one being one tree linking to another. These appear in the backmatter of a page under \em{Related} (for outgoing links) and \em{Backlinks} (for incoming links). There are other relations which are important to keep track of, some of which are characteristic of certain taxa.}
+
+  \ul{
+    \li{\strong{Source}: The reference used as a basis for writing the tree (or the source of a quotation). If this is a person rather than a particular book or website, then it means the tree was written "from that person's perspective" (which a commitment of the author of the tree).}
+    \li{\strong{Definition}: Particularly in math, we want to distinguish a concept from its definition as separate trees. In fact, there might multiple definitions of the same concept. However, usually a definition has just one concept it is the definition of, so I often use \code{forester}'s experimental \code{\parent{...}} feature for definitions, which makes clear in any child tree which parent tree it is a child of.}
+    \li{\strong{Example / instance / subconcept of}: many concepts are examples of other concepts, in some informal sense. This comes in two flavors: a binary relation connects trees which are "obviously" related in this way, such as a definition which just qualifies another definition. Any time there needs to be some explanation of \em{how} one tree is an example of another, there will be a third tree which has the explanation and a ternary relation which relates it to the other two trees. Ditto for \strong{Counterexample}.}
+    \li{\strong{Dual}: many concepts in category theory come with dual concepts. It would be repetitive to say everything in one such tree and then repeat (with some flipping) in the dual tree. Sometimes this is done because seeing it explicitly written out is helpful.}
+  }
+
+}
+
+
+% \p{Particularly in philosophy, there are some things which are hard to write 'neutrally' about. I will use the authorship of pages to mark which viewpoint I am attributing the content to. This has its own problems:}
+
+% \ul{
+%   \li{Authors' views can change over time, so this can be ambiguous.}
+%   \li{The attribution of a claim to an author is itself a claim which can be not entirely neutral.}
+% }
 
 
 \put\transclude/expanded{false}
@@ -84,10 +107,10 @@
 \rel/is-joke ?X -: {\rel/has-tag ?X '{joke}}
 }
 
-\subtree{\title{Jokes}
-\query\datalog{
-?X -: {\rel/is-joke ?X}}
-}
+% \subtree{\title{Jokes}
+% \query\datalog{
+% ?X -: {\rel/is-joke ?X}}
+% }
 
 
 \let\rel/is-todo{is-todo}

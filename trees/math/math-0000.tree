@@ -1,8 +1,12 @@
 \title{Diagram Category}
 \date{2023-12-25}
 \import{macros}
+\import{rel}
 
-\p{Given a category #{\cC}, let #{\Diag(\cC)} be the category where the objects are [diagrams in #{\cC}](https://ncatlab.org/nlab/show/diagram), and the morphisms are diagrams of the form:}
+\example{math-000D}
+
+
+\p{Given a [category](math-000D) #{\cC}, let #{\Diag(\cC)} be the category where the objects are [diagrams in #{\cC}](https://ncatlab.org/nlab/show/diagram), and the morphisms are diagrams of the form:}
 
 \quiver{
   \begin{tikzcd}
@@ -14,3 +18,5 @@
     \arrow["\alpha", shorten <=6pt, shorten >=6pt, Rightarrow, from=0, to=1]
   \end{tikzcd}
 }
+
+\examples

@@ -1,0 +1,6 @@
+\date{2025-02-26T07:47:08Z}
+\title{Currying}
+\meta{external}{https://ncatlab.org/nlab/show/currying}
+
+
+\p{For functions, currying is taking a function of two arguments #{f: X\times Y\rightarrow Z} and producing a function #{X \rightarrow Z^Y}. This can actually be performed in any [closed monoidal category](math-0031).}

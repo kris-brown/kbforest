@@ -1,0 +1,9 @@
+\date{2025-03-07T01:41:15Z}
+\let\curr{ref-00BI}
+\import{macros}
+
+
+\title{AlgebraicRewriting.jl}
+\taxon{software}
+\author{kris-brown}
+\meta{external}{https://github.com/AlgebraicJulia/AlgebraicRewriting.jl}

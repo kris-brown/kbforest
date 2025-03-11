@@ -1,0 +1,20 @@
+\date{2025-02-23T21:55:45Z}
+\title{Syntactic category of an algebraic theory}
+\import{macros}
+\import{rel}
+\import{mathml}
+
+\example{math-000D}
+
+\def\synCat{\mml/sfSynLink{math-00BB}}
+
+
+\p{The \em{syntactic category} of an [algebraic theory](math-009Q) #{\TT} contains the same "algebraic" information as the theory from which it was built but in a syntax-invariant way (e.g. two different presentations of the theory of groups would generate equivalent syntactic categories).}
+
+\p{We can think of it as the [Lindenbaum-Tarski](math-00FK) category of #{\TT}}
+
+\subtree{\taxon{notation} \p{We write this as #{\cat{Syn}(\TT)}}}
+
+\defn{math-00BE}
+
+\defns

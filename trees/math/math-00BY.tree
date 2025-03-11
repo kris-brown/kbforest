@@ -1,0 +1,18 @@
+\date{2025-02-25T16:29:08Z}
+\title{Limits in functor categories are computed pointwise}
+\taxon{proposition}
+\import{macros}
+\p{Let:}
+\ul{
+\li{#{\cat{D}} be a small category}
+\li{#{\cat{D}'} be any other category}
+\li{#{\cat{C}} be any category which admits limits of shape #{\cat{D}}}
+\li{#{[\cat{D}',\cat{C}]} be the [functor category](math-0033)}
+\li{#{F: \cat{D}^{op}\rightarrow [\cat{D}',\cat{C}]} be a diagram in the functor category}
+}
+
+\p{#{[\cat{D}',\cat{C}]} admits #{\cat{D}}-shaped [limits](math-0026)}
+\p{These are computed [pointwise](math-00BZ) in #{\cat{C}}: }
+##{lim(F)(d') \cong lim(F(-)(d'))}
+
+\p{The limit on the right is in #{\cat{C}}.}

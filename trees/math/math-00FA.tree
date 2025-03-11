@@ -1,0 +1,10 @@
+\date{2025-03-10T02:37:43Z}
+
+\title{Modern mathematics is structural}
+% \source{ref-00BM} add this in as part of generalized backmatter
+\import{mathml}
+\import{math-00CL} % Nat
+\import{math-00FB} % Reals
+
+\open\mml
+\p{Rather than studying specific objects and their properties (e.g. \Nat, \Reals), we study structures (e.g. [groups](math-009G), [rings](math-00A9)) with [algebra](math-00AF) playing a central role.}

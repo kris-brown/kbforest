@@ -2,6 +2,8 @@
 \title{Functor}
 \import{macros}
 \taxon{definition}
+\import{mathml}
+\def\tofunctor{\mml/to-{math-000E}}
 
 \p{A \em{functor} between [categories](math-000D) #{F: \cat{C} \rightarrow \cat{D}} consists in:}
 

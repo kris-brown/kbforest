@@ -1,0 +1,24 @@
+\date{2025-02-22T20:17:54Z}
+\title{Algebraic theory of left #{R} modules}
+\import{macros}
+\import{rel}
+\example{math-009Q}
+\p{Let #{R} be a [ring](math-00A9). The [algebraic theory](math-009Q) of \em{left} #{R} \em{modules} has the following signature:}
+
+\ul{
+\li{Constant: #{0}}
+\li{Unary operation: #{-}}
+\li{Binary operation: #{+}}
+\li{For each #{a \in R}, a unary operation #{\bar a} called \em{scalar multiplication} by #{a}}
+}
+
+\p{As axioms, we have:}
+
+\ul{
+\li{Associativity of #{+}}
+\li{Left and right unitality of #{0}}
+\li{#{-} as a left and right inverse to #{+}}
+\li{For every #{a,b\in R} \ul{
+\li{#{\overline a(x+y)=\overline a x + \overline a y}}
+\li{#{\overline a(\overline b x) = \overline{(ab)} x}}\li{#{\overline{(a+b)}x = \overline a x + \overline b x}}}}}
+

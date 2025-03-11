@@ -1,0 +1,10 @@
+\date{2025-03-04T02:13:03Z}
+\let\curr{math-00DR}
+\import{macros}
+
+
+\title{FinSet (free cocompletion)}
+\parent{math-008G}
+\taxon{definition}
+
+\p{\em{FinSet} is the [free](math-00BM) finite [coproduct](math-004D) category on the [terminal category](math-00DT).}

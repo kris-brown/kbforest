@@ -1,0 +1,26 @@
+\date{2025-03-07T01:22:43Z}
+\let\curr{math-00EE}
+\import{macros}
+
+
+\title{Incremental homomorphism search: deletion}
+
+\p{Depending on one's implementation of #{\cat{C}}[-Sets](math-00E1), addressing deletion of data ranges from trivial to very easy. }
+
+\p{If one's underlying elements can be marked as deleted, then we need not do anything at that moment in time to the existing answer set. Rather, at the time of \em{using} any morphism #{f:X\rightarrow G} in our answer set, it can be checked for validity by seeing if the image of #{f} touches upon any elements which have been marked as deleted.}
+
+\p{If one's representation of the underlying sets of a #{\cat{C}}-set are simply integers (representing the set #{\{1,...,n\}}), then a deletion #{d: G_1\leftarrowtail G_2} involves nontrivial data. Given a map #{X\rightarrow G_1} which does not have any deleted data in its image, one can obtain a map #{X\rightarrow G_2} via [pullback](math-000J):}
+
+
+% https://q.uiver.app/#q=WzAsNCxbMCwxLCJHXzEiXSxbMSwxLCJHXzIiXSxbMCwwLCJYIl0sWzEsMCwiWCJdLFsxLDAsImQiLDAseyJzdHlsZSI6eyJ0YWlsIjp7Im5hbWUiOiJtb25vIn19fV0sWzIsMCwiZl8xIiwyXSxbMywyLCJcXGNvbmciLDIseyJzdHlsZSI6eyJib2R5Ijp7Im5hbWUiOiJkYXNoZWQifX19XSxbMywxLCJmXzIiLDAseyJzdHlsZSI6eyJib2R5Ijp7Im5hbWUiOiJkYXNoZWQifX19XSxbMywwLCIiLDEseyJzdHlsZSI6eyJuYW1lIjoiY29ybmVyIn19XV0=
+\quiver{\begin{tikzcd}
+    X & X \\
+    {G_1} & {G_2}
+    \arrow["{f_1}"', from=1-1, to=2-1]
+    \arrow["\cong"', dashed, from=1-2, to=1-1]
+    \arrow["\lrcorner"{anchor=center, pos=0.125, rotate=-90}, draw=none, from=1-2, to=2-1]
+    \arrow["{f_2}", dashed, from=1-2, to=2-2]
+    \arrow["d", tail, from=2-2, to=2-1]
+  \end{tikzcd}}
+
+\p{In this case, whenever one applies a deletion one should iterate through one's matches, apply the above pullback to replace each #{f_1} with a #{f_2}, discarding the original match #{f_1} from the answer set if the top morphism is not an isomorphism.}

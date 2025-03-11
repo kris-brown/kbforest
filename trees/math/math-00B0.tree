@@ -1,0 +1,13 @@
+\date{2025-02-23T17:52:10Z}
+\title{Morphisms of a category}
+\taxon{definition}
+\parent{math-009C}
+\import{mathml}
+\import{macros}
+
+\def\tohom{\mml/to-{math-00B0}}
+
+
+\p{For every pair of objects #{X,Y}, the [class](math-00AY) #{\Hom_\cat{C}(X,Y)}, has elements are called \em{morphisms}, or \em{maps}, or \em{arrows} whose \em{domain} is #{X} and \em{codomain} is #{Y}.}
+
+\p{For example, #{f: a \rightarrow b} is a morphism from object #{a} to object #{b}}

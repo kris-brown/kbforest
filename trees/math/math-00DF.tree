@@ -1,0 +1,7 @@
+\date{2025-02-28T07:37:42Z}
+\let\curr{math-00DF}
+\import{macros}
+
+
+\title{Forgetful functor of Lawevere algebraic category and (co)limits}
+\p{If #{\cA} is a [Lawvere algebraic theory](math-00DA), then the [forgetful functor](math-00DE) #{\cA\rightarrow }[Set](math-003L) not only preserves but also creates all small limits, [filtered colimits](math-006U), and [regular epimorphisms](math-00DG).}

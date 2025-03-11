@@ -1,0 +1,24 @@
+\date{2025-02-25T20:26:00Z}
+\title{Semantics (logic)}
+\import{rel}
+
+\source{ref-00BC}
+
+\p{Traditional approach to semantics for logic involves four parts:}
+
+\ul{
+  \li{\strong{Terms}: there is an underlying [type theory](math-0036) consisting of types and terms. Terms are built from variables and a [signature](math-00C3).}
+  \li{\strong{Equations}: particularly simple logics involve equations which hold between terms}
+  \li{\strong{Theories}: logical syntax consisting in sets of uninterpreted, formal expressions, generated inductively by axioms and rules of inference.}
+  \li{\strong{Models}: equipping a theory with a set and operations which are interpretations of the signature. It is a model when it satisfies the axioms.}
+}
+
+\p{Alternatively:}
+
+\ul{
+\li{\strong{Theories are categories}: A [structured](math-00C4) [category](math-000D) captures the same information of operations and axioms.}
+\li{\strong{Models are functors}: A model is a structure-preserving [functor](math-000E) - by construction this is can be thought of as an interpretation in which axioms are satisfied.}
+\li{\strong{Homomorphisms are natural transformations}: we obtain a notion of morphism between models for free - this agrees with the usual notion of homomorphism of models (e.g. [group homomorphism](math-00BX)).}
+\li{\strong{Universal models}: our generalized picture allows for models in places other than set; in particular, we can look for models in the [classifying category](math-00BS) #{\cat{C}_\TT} and see how any model of #{\TT} (in any category) is a functorial image of a particular model #{\cU \in \cat{Mod}(\cat{C}_\TT)}. Thus #{\cU} has all and only the logical properties had by all models.}
+\li{\strong{Logical completeness}: the construction of the classifying category shows that the universal model is \em{generic}: it has exactly those properties provable in the theory #{\TT}. This implies [soundness](math-0086) and [completeness](math-0087) with respect to the categorical semantics. Completeness with respect to just [Set](math-003L) models results from an [embedding](math-0041) theorem for the classifying category.}
+}

@@ -3,7 +3,7 @@
 \import{macros}
 \meta{external}{https://ncatlab.org/nlab/show/functor+category}
 \taxon{definition}
-\p{Given [categories](math-000D) #{\cat{C}} and #{\cat{D}}, the \em{functor category} #{[\cat{C},\cat{D}]} (or #{\cat{D}^\cat{C}}) has:}
+\p{Given [categories](math-000D) #{\cat{C}} and #{\cat{D}}, the \em{functor category} #{[\cat{C},\cat{D}]} (also written as: #{\cat{D}^\cat{C}}) has:}
 
 \ul{
 \li{As objects, [functors](math-000E) #{C \rightarrow D}}

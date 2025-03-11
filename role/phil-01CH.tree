@@ -1,12 +1,14 @@
 \date{2024-06-02}
 \title{Persistence-codifying modal operator}
 \import{macros}
+\import{rel}
 
-\defn{phil-01CH}{phil-01DQ}
+\defn{phil-01DQ}
+\defns
 
 \p{This is explicitly marking the monotonicity of a particular inference.}
 
 \p{Whether or not #{\Gamma \vsim \Box A} holds depends on whether #{A} is entailed by all supersets of #{\Gamma}.}
 
 
-\source{phil-01CH}{ref-00AU}
+\source{ref-00AU}

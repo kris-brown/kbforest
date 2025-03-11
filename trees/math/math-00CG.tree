@@ -1,0 +1,14 @@
+\date{2025-02-26T01:02:09Z}
+\title{Hom functor}
+\taxon{definition}
+\import{rel}
+
+\import{macros}
+\source{ref-00BE}
+
+\p{For any [locally-small category](math-00CH) #{\cat{C}}, there exists a [functor](math-000E):}
+
+##{\Hom: \cat{C}^{op} \times \cat{C} \rightarrow \cat{Set}}
+
+\p{The object component of this functor sends #{(X \in \Ob\cat{C},Y \in \Ob\cat{C})} to the hom set #{\Hom_\cat{C}(X,Y)}}
+\p{The morphism component of this functor sends #{(f^{op},g)} to the function which precomposes with #{f} and postcomposes with #{g}.}

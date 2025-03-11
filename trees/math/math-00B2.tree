@@ -1,0 +1,7 @@
+\date{2025-02-23T17:56:05Z}
+\title{Composition operation of a category}
+\import{macros}
+\taxon{definition}
+\parent{math-009C}
+
+\p{A \em{composition} operation assigns, for each pair of composable morphisms, #{{x\xrightarrow{f}y\xrightarrow{g}z}}, a composite morphism #{f\cdot g \in \Hom_\cat{C}(x,z)}.}

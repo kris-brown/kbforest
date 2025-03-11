@@ -1,0 +1,13 @@
+\date{2025-02-22T19:08:47Z}
+\title{Signature of an algebraic theory}
+\import{rel}
+\parent{math-009X}
+\import{macros}
+\example{math-00C3}
+
+
+\p{#{\Sigma_\TT} is a [family](math-009Z) of sets #{\{\Sigma_k\}_{k \in \NN} }}
+
+\p{Each element #{\Sigma_k} is a [set](math-0001) of \em{k-ary operations}}
+
+\p{In particular, #{\Sigma_0} is a set of \em{constants} (or \em{nullary operations}).}

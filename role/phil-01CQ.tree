@@ -2,21 +2,7 @@
 \title{Implicational role}
 \import{macros}
 
-\subtree{
-\taxon{definition}
-\number{65}
-
-\p{#{RSR} induces an equivalence class among subsets of #{S}. These equivalence classes are called \em{implicational roles}.}
-
-
-\ul{
-\li{#{\mathcal{R}(\Alpha \subseteq \mathbb{S}) := \{x\ |\ \Alpha \approx x\}}}
-\li{#{\mathcal{R}(\alpha \in \mathbb{S}) := \mathcal{R}({\{\alpha\}})}}
-\li{#{\mathcal{R}(b \in \mathcal{B}) := (\mathcal{R}^+(b),\mathcal{R}^-(b)) }}
-\li{#{\mathcal{R}^+(b \in \cB) := (\{b\}, \varnothing)}}
-\li{#{\mathcal{R}^-(b \in \cB) := (\varnothing,\{b\})}}
-}
-}
+\transclude{role-004H}
 
 \p{We can interchange bearers \em{salva consequentia} if they have the same implicational role.}
 

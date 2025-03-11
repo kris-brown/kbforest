@@ -1,0 +1,16 @@
+\date{2025-02-20T18:51:46Z}
+\title{Bool: the set}
+\taxon{definition}
+\import{macros}
+\import{rel}
+
+\example{math-0001}
+
+\p{\em{Bool} denotes the set with two elements:}
+
+\transclude{math-009E}
+\transclude{math-009F}
+
+\subtree{\taxon{notation}
+\p{Bool is often is denoted with the symbol #{\BB}.
+}}

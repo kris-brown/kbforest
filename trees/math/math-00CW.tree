@@ -1,0 +1,6 @@
+\date{2025-02-26T04:42:13Z}
+\title{Obtaining an algebraic theory from a Lawvere theory}
+
+\p{One obtains an [algebraic theory](math-009Q) from a [Lawvere theory](math-00CO) #{\AA} by taking the [signature](math-009Y) to be all morphisms into the generating object: #{\Sigma(\AA)_k = \Hom_\AA(A^k,A)} }
+
+\p{An equation #{u=v} is taken as an axiom if interpreting the terms as morphisms yields an identical morphism in #{\AA}.}

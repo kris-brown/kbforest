@@ -2,6 +2,10 @@
 \title{Opposite category}
 \taxon{definition}
 \import{macros}
+\import{mathml}
+
+\def\op-cat[~CatExpr]{\mml/op-{math-005U}{\CatExpr{}}}
+
 
 \p{Given any [category](math-000D) #{\cat{C}}, the \em{opposite} category #{\cat{C}^{op}} has}
 

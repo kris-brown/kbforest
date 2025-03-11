@@ -1,0 +1,13 @@
+\date{2025-02-25T01:42:04Z}
+\title{Mapping of objects natural in some parameter}
+\import{macros}
+\taxon{definition}
+
+
+\p{A mapping #{F} that is parameterized by some objects #{x_1\in \cat{C}_1,...,x_n\in\cat{C}_n},  #{F: \varphi(x_1,...,x_n) \rightarrow \psi(x_1,...,x_n)} is \em{natural} in #{x_i} iff for any morphism #{m \in \Hom_{\cat{C}_i}(x_i,y_i)} we have #{F(x_1,...,x_i,...,x_n) \mapsto}  ???? }
+
+\p{Examples: }
+
+\p{A natural transformation is a map #{\eta_\cat{C}: F(C)\rightarrow G(C)} that is [natural in](math-00DO) #{\cat{C}}}
+
+\p{An adjunction is a pair of functors #{F: \cat{C}\rightarrow\cat{D}} and #{G:\cat{D}\rightarrow\cat{C}} together with a natural isomorphism between the functors #{\Hom_\cat{D}(F(-),-)} and #{\Hom_\cat{C}(-,G(-))} i.e. a family of bijections #{\Hom_\cat{D}(F(a),b)\cong\Hom_\cat{C}(a,G(b))} \em{natural in} #{a} and #{b}}

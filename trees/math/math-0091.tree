@@ -2,6 +2,7 @@
 \title{Equivalence of categories}
 \taxon{definition}
 \import{macros}
+\parent{math-002B}
 
 \p{Given two [categories](math-000D) #{\cat{C}} and #{\cat{D}}, the data of an \em{equivalence} is a tuple #{(F,G,\epsilon, \eta)}:}
 \transclude{math-0094}

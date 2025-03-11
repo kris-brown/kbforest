@@ -1,0 +1,8 @@
+\date{2025-03-06T08:38:27Z}
+\let\curr{math-00DY}
+\import{macros}
+
+
+\title{Pushout}
+
+\p{A \em{pushout} is a [colimit](math-005N) where the diagram shape is a [span](math-00DZ).}

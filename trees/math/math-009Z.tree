@@ -1,0 +1,4 @@
+\date{2025-02-22T19:15:03Z}
+\title{Disjoint union}
+
+\p{The \em{disjoint union} of two sets is a set which has the elements of both sets \em{tagged} by which set they came from. This means any elements which occur in both sets will have 'two copies' in the disjoint union. (Formally they aren't the same element, since the tags are different, as sets cannot have duplicate elements).}

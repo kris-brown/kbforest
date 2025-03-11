@@ -1,0 +1,14 @@
+\date{2025-02-22T03:08:23Z}
+\title{Algebraic theory}
+\import{macros}
+\import{rel}
+
+\p{An \em{algebraic theory} is characterized by axioms which involve only a single sort of variables, operations, and equations.}
+
+\defn{math-009X}
+\defns
+
+\p{We don't assume the set of [operations](math-009Y) nor the set of [axioms](math-00A2) to be [finite](math-00A5)}
+
+\examples
+\nonexamples

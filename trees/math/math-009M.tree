@@ -1,0 +1,8 @@
+\date{2025-02-21T21:53:40Z}
+\title{Element of}
+\taxon{notation}
+\import{mathml}
+
+\def\inset{\mml/in-{math-009M}}
+
+\p{The notation #{x \in X} denotes that #{x} is an element of the [set](math-0001) #{X}}

@@ -1,0 +1,10 @@
+\date{2025-03-06T18:43:40Z}
+\let\curr{ref-00BG}
+\import{macros}
+
+
+\title{Catlab.jl}
+\taxon{software}
+\meta{external}{https://github.com/AlgebraicJulia/Catlab.jl}
+
+\p{A computational framework for categorical algebra.}

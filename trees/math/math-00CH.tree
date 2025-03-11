@@ -1,0 +1,8 @@
+\date{2025-02-26T01:06:21Z}
+\title{Locally small category}
+\taxon{definition}
+\import{macros}
+\import{rel}
+\example{math-000D}
+
+\p{A [category](math-000D) #{\cat{C}} is \em{locally small} if, for every pair of objects #{X,Y \in \Ob \cat{C}}, the class of morphisms #{\Hom_\cat{C}(X,Y)} is a [set](math-0001).}

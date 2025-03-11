@@ -1,0 +1,67 @@
+\date{2025-03-06T17:55:17Z}
+\let\curr{math-00E9}
+\import{macros}
+
+
+\title{Incremental homomorphism search with monic rules, monic rule matches, and monic queries (C-Sets)}
+\taxon{algorithm}
+
+\p{This algorithm constructs a solution to an [incremental search problem](math-00EB) #{(\cat{C}, X, \cR, \cQ, \cM)} where we restrict all elements of #{\cR} to be [monomorphisms](math-003X) and restrict #{\cQ} and #{\cM} to be #{\rm Mon}, the subclass of monomorphisms in #{\cat{C}}-[Set](math-00E6), i.e. the only kind of incremental change we are concerned with is a [pushout](math-00DY) of monic maps (a rule #{L\rightarrowtail R} applied via a match #{L\rightarrowtail G_1}), and we are only interested in monic query results from our pattern of interest #{X}. The algorithm proceeds in three steps:}
+
+\subtree{\title{Generate overlaps}\taxon{step}
+\p{Let #{O(X,Y)} be the set of partial overlaps between any two #{\cat{C}}-Sets #{X} and #{Y}. In this step we construct all possible overlaps #{{(O,\ \iota_R:O\rightarrowtail R_i,\  \iota_X: O\rightarrowtail X)}} for all rewrite rules #{\cR_i: L_i\rightarrow R_i}}
+
+\p{We compute #{O(X,Y)} by enumerating the subobjects of #{X} and, for each subobject #{X'\rightarrowtail X}, searching for monomorphisms #{X'\rightarrowtail Y}.}
+}
+
+\subtree{\title{Filter overlaps}\taxon{step}
+\p{Each #{R_i} can be partitioned into \em{preserved} material (the subobject #{L_i\rightarrowtail R_i}) and \em{newly-introduced} material (the complement #{R_i\setminus L_i}). It will be important that the overlap include some intersection with newly introduced material, i.e. we define the \em{relevant} set of overlaps #{O_i} for each rewrite rule #{\cR_i} to be #{\{O \in O(R_i,X)\ |\ O \nsubseteq L_i\}}.}
+}
+\subtree{\title{Interpret overlaps as search specifications}\taxon{step}
+
+\p{The following diagram depicts some particular overlap #{(O, \iota_{R_i}, \iota_X)} in the context of an incremental change #{(\cR_i,m)}:}
+
+\transclude{math-00EQ}
+
+\p{We define a [backtracking search specification](math-00E3) #{(X, G_2, I_c)} that finds all #{f:X \rightarrowtail G_2} such that the right square is a [pullback](math-000J). In plain language, this specification will:}
+\ol{\li{Initialize all data in #{X}'s overlap with #{R} to the value specified by #{r}}
+\li{Force anything \em{not} in the overlap with #{R} is forced to go to \em{something} strictly in #{G_1}}}
+\p{Formally, the [relation](math-0002) #{I} is the [union](math-00A0) of two relations. Firstly, the [pair](math-00EC) #{(\iota_X,\iota_R\cdot r)}, which captures the first point above. Secondly, the relation #{((X\setminus O) \times (G_2\setminus R))}, which captures the second point above. This is done [pointwise](math-00BZ), i.e. for each #{c \in \Ob \cat{C}}.}
+}
+
+\subtree{\title{Performance}
+\p{Note that the first two steps can be performed at compile time. as #{X} and the set #{\cR} are known at this time. The backtracking searches at runtime are constant time, thus the overall runtime cost is #{\cO(|O_i||\cR|)}. To get a sense of how many relevant overlaps there are that one needs to check, ... (TODO)  }
+
+
+\p{Note there is another performance optimization we can perform, which filters candidate overlaps which produce search specifications which are impossible to be satisfied upon inspection due to the naturality constraint of any #{\cat{C}}[-Set morphism](math-00E2). Given some #{f \in \Hom_\cat{C}(A,B)}, if #{a \in \iota_{X,A}} but #{b \notin \iota_{X,B}}, then we are saying that #{a} is sent to something in the image of #{r} but #{b} is not. This is not possible (e.g. if the edge of a graph is in the image of some morphism, then both its source and target must be, too), so we can avoid storing and iterating over this overlap at runtime without any loss of correctness.}
+}
+
+\subtree{\title{Correctness}\taxon{proof}
+
+\p{Fix some arbitrary incremental update #{(\cR_i: L_i\rightarrow R_i , m: L_i\rightarrow G_1)}. Let #{ev} be a function which sends an overlap #{O_{i,j}} to the set of morphisms #{\Hom(X, G_2)} induced by the [backtracking search specification](math-00E3) specified by the overlap. Let #{res := \bigcup_{i,j} ev(O_{i,j})} be the entire set of new morphisms discovered by this algorithm and #{exp:=\Hom_{\rm Mon}(X,G_2)\setminus \Hom_{\rm Mon}(X,G_1)\cdot\Delta} be the set of morphisms we expect of a valid solution.}
+
+\p{To show that this algorithm does construct a valid solution to the original incremental search problem requires showing the following things:}
+
+\subtree{\taxon{lemma}\title{Morphisms found via the search specifications are pullbacks}
+\p{Let #{f} be such a morphism. Pullbacks are defined pointwise in #{\cat{C}}-[Set](math-00E6). So for an arbitrary #{c \in \Ob\cat{C}}, we have the functions #{r_c: R_{i,c}\rightarrowtail G_{2,c}} and #{f_c: X_c\rightarrowtail G_{2,c}}, which we can think of elements in the [lattice](math-0069) of [subobjects](math-003W) of #{G_{2,c}}. The pullback of the functions in [Set](math-003L) is the [meet](math-006A) in the lattice, corresponding to the intersection of the subsets. Thus the overlap elements #{O_c} include only and all of the elements of #{X_c} which under the image of #{f_c} are also in the image of #{r_c}. But this is implied by our backtracking search constraint: overlap elements were sent to some element in the image of #{r_c}, and the \em{only} constraint on anything not in the overlap was that it is sent outside the image of #{r_c}.
+
+\p{Let #{pb} be the function which sends maps in #{\Hom_{\rm Mon}(X,G_2)} to overlaps #{O_{i,j}} which are their pullback.}
+}
+}
+
+\subtree{\title{#{ev(O_{i,j})} are disjoint for distinct #{(i,j)}}
+
+\p{There is a unique pullback #{pb(f)} for each new match morphism #{f} found. Therefore there cannot be two different pullback overlaps which induce the same morphism.}
+}
+
+
+
+\subtree{\title{ #{fs \subseteq exp}}
+\p{Any new match #{f} found is an element of #{\Hom_{\rm Mon}(X,G_2)} by construction, as it is obtained by a backtracking search which enforces this. What needs to be shown is that any such #{f} is \em{not} an element of #{\Hom_{\rm Mon}(X,G_1)\cdot\Delta}. However, because there exists \em{some} element of #{X} which is in the overlap with #{R_i\setminus L_i}, #{f} sends an element of #{X} to something not in the image of #{\Delta}.}
+}
+
+\subtree{\title{ #{exp \subseteq fs}}
+
+\p{We can apply #{pb} to any element of #{\Hom(X,G_2)\setminus \Hom(X,G_1)} and obtain an overlap that will specify a search process that finds it. This overlap was included in our precomputed set of overlaps because it involves sending something in #{X} to something in #{r(R_i\setminus L_i)}.}
+}
+}

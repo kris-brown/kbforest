@@ -1,0 +1,23 @@
+\date{2025-03-09T01:22:30Z}
+
+\title{Graph of morphism as subobject of product}
+\import{macros}
+
+
+\p{If we start with the [graph](math-00EK) of a morphism #{f} we can [pair](math-00EC) the legs of the cone #{(\Pi_X,\Pi_Y)} to obtain a [subobject](math-003W) of the product #{X\times Y}.}
+
+% https://q.uiver.app/#q=WzAsNSxbMSwyLCJYIl0sWzIsMiwiWSJdLFsyLDEsIlkiXSxbMCwwLCJYXFx0aW1lc19ZIFkiXSxbMSwxLCJYXFx0aW1lcyBZIl0sWzIsMSwiIiwwLHsibGV2ZWwiOjIsInN0eWxlIjp7ImhlYWQiOnsibmFtZSI6Im5vbmUifX19XSxbMCwxLCJmIiwyXSxbMywwLCJcXFBpX1giLDIseyJjdXJ2ZSI6Mn1dLFszLDIsIlxcUGlfWSIsMCx7ImN1cnZlIjotMn1dLFs0LDIsIlxccGlfWSIsMl0sWzQsMCwiXFxwaV9YIl0sWzMsNCwidSIsMCx7InN0eWxlIjp7ImJvZHkiOnsibmFtZSI6ImRhc2hlZCJ9fX1dXQ==
+\quiver{\begin{tikzcd}
+    {X\times_Y Y} \\
+    & {X\times Y} & Y \\
+    & X & Y
+    \arrow["u", dashed, tail, from=1-1, to=2-2]
+    \arrow["{\Pi_Y}", curve={height=-12pt}, from=1-1, to=2-3]
+    \arrow["{\Pi_X}"', curve={height=12pt}, from=1-1, to=3-2]
+    \arrow["{\pi_Y}"', from=2-2, to=2-3]
+    \arrow["{\pi_X}", from=2-2, to=3-2]
+    \arrow[equals, from=2-3, to=3-3]
+    \arrow["f"', from=3-2, to=3-3]
+  \end{tikzcd}}
+
+\p{According to [relationship between pullbacks and equalizers](math-00EL) this universal map is the [equalizer](math-0042) of #{\pi_X\cdot f} and #{\pi_Y}. Because it is an equalizer [it is monic](math-00EM).}

@@ -1,0 +1,11 @@
+\date{2025-02-26T02:29:28Z}
+\title{Natural numbers}
+\meta{external}{https://ncatlab.org/nlab/show/natural+number}
+\import{macros}
+\import{rel}
+\example{math-0001}
+\import{mathml}
+
+\def\Nat{\mml/NN-{math-00CL}}
+
+\p{The \em{natural numbers} are a [set](math-0001) #{\NN:\{0, 1, 2, 3, ...\}} and so on. They can be formally defined in a variety of ways.}

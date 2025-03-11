@@ -1,0 +1,14 @@
+\date{2025-03-09T00:48:49Z}
+
+\title{Complement (Bi-Heyting topos)}
+
+\p{In a [Bi-Heyting topos](math-00ET), the \em{complement} of #{A}, denoted #{\sim A}, is defined as #{\top\setminus A}.}
+
+\ul{
+\li{#{\sim A \leq B}}
+\li{#{\top \setminus A \leq B}}
+\li{#{\top \leq A \vee B}}
+\li{#{T \cong A \vee B}}
+}
+
+\p{[Source](https://blog.algebraicjulia.org/post/2021/09/cset-graphs-4/)}

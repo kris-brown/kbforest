@@ -1,0 +1,39 @@
+\date{2025-03-06T17:52:47Z}
+\let\curr{math-00E7}
+\import{macros}
+
+
+\title{Incremental homomorphism search for applying rules with non-monic matches}
+\taxon{algorithm}
+
+
+\p{The [algorithm for monic rules, monic queries, and monic update matches](math-00E9) can be leveraged for solving [incremental homomorphism search problems](math-00EB)#{(\cat{C}, X, \cR, \cQ, \cM)} with #{\cM=\Hom}, i.e. with updates originating from non-monic matches. We can replace the pushout square on the left with the one on the right. }
+
+% https://q.uiver.app/#q=WzAsMTEsWzAsMCwiTCJdLFsxLDAsIlIiXSxbMCwyLCJHXzEiXSxbMSwyLCJHXzInIl0sWzIsMSwiPSJdLFszLDAsIkwiXSxbNCwwLCJSIl0sWzMsMSwiTFxcIC9cXHNpbSJdLFs0LDEsIlJcXCAvXFxzaW0iXSxbMywyLCJHXzEiXSxbNCwyLCJHXzIiXSxbMCwyLCJtIiwyXSxbMSwzLCIiLDAseyJzdHlsZSI6eyJib2R5Ijp7Im5hbWUiOiJkYXNoZWQifX19XSxbMiwzLCIiLDEseyJzdHlsZSI6eyJ0YWlsIjp7Im5hbWUiOiJtb25vIn0sImJvZHkiOnsibmFtZSI6ImRhc2hlZCJ9fX1dLFswLDEsInIiLDAseyJzdHlsZSI6eyJ0YWlsIjp7Im5hbWUiOiJtb25vIn19fV0sWzMsMCwiIiwxLHsib2Zmc2V0IjotMSwic3R5bGUiOnsibmFtZSI6ImNvcm5lciJ9fV0sWzksMTAsIiIsMSx7InN0eWxlIjp7InRhaWwiOnsibmFtZSI6Im1vbm8ifSwiYm9keSI6eyJuYW1lIjoiZGFzaGVkIn19fV0sWzcsOSwibV9tIiwyLHsic3R5bGUiOnsidGFpbCI6eyJuYW1lIjoibW9ubyJ9fX1dLFs4LDEwLCIiLDEseyJzdHlsZSI6eyJ0YWlsIjp7Im5hbWUiOiJtb25vIn0sImJvZHkiOnsibmFtZSI6ImRhc2hlZCJ9fX1dLFs1LDcsIm1fZSIsMix7InN0eWxlIjp7ImhlYWQiOnsibmFtZSI6ImVwaSJ9fX1dLFs2LDgsIiIsMSx7InN0eWxlIjp7InRhaWwiOnsibmFtZSI6Im1vbm8ifSwiYm9keSI6eyJuYW1lIjoiZGFzaGVkIn0sImhlYWQiOnsibmFtZSI6ImVwaSJ9fX1dLFs3LDgsIlxcZm9vdG5vdGVzaXple3JcXCAvXFxzaW19IiwwLHsibGFiZWxfcG9zaXRpb24iOjQwLCJzdHlsZSI6eyJ0YWlsIjp7Im5hbWUiOiJtb25vIn0sImJvZHkiOnsibmFtZSI6ImRhc2hlZCJ9fX1dLFs1LDYsIlxcZm9vdG5vdGVzaXple3J9IiwwLHsic3R5bGUiOnsidGFpbCI6eyJuYW1lIjoibW9ubyJ9fX1dLFsxMCw3LCIiLDEseyJzdHlsZSI6eyJuYW1lIjoiY29ybmVyIn19XSxbOCw1LCIiLDEseyJzdHlsZSI6eyJuYW1lIjoiY29ybmVyIn19XV0=
+\quiver{\begin{tikzcd}[cramped]
+    L & R && L & R \\
+    && {=} & {L\ /\sim} & {R\ /\sim} \\
+    {G_1} & {G_2'} && {G_1} & {G_2}
+    \arrow["r", tail, from=1-1, to=1-2]
+    \arrow["m"', from=1-1, to=3-1]
+    \arrow[dashed, from=1-2, to=3-2]
+    \arrow["{\footnotesize{r}}", tail, from=1-4, to=1-5]
+    \arrow["{m_e}"', two heads, from=1-4, to=2-4]
+    \arrow[dashed, tail, two heads, from=1-5, to=2-5]
+    \arrow["{\footnotesize{r\ /\sim}}"{pos=0.4}, dashed, tail, from=2-4, to=2-5]
+    \arrow["{m_m}"', tail, from=2-4, to=3-4]
+    \arrow["\lrcorner"{anchor=center, pos=0.125, rotate=180}, draw=none, from=2-5, to=1-4]
+    \arrow[dashed, tail, from=2-5, to=3-5]
+    \arrow[dashed, tail, from=3-1, to=3-2]
+    \arrow["\lrcorner"{anchor=center, pos=0.125, rotate=180}, shift left, draw=none, from=3-2, to=1-1]
+    \arrow[dashed, tail, from=3-4, to=3-5]
+    \arrow["\lrcorner"{anchor=center, pos=0.125, rotate=180}, draw=none, from=3-5, to=2-4]
+  \end{tikzcd}}
+
+\p{We can then ignore the top pushout square and just pretend our rewrite rule was #{r/\sim} all along, now with a monic match #{m_m}. We get the equivalent effect to applying rule #{r} with non-monic match #{m}.}
+
+
+\p{The correctness of this approach uses the [pasting law for pushouts](math-00EA).}
+
+
+\p{Because our algorithm requires knowledge of the rewrite rules used ahead of time for precomputation, we can take any rule #{r} and generate a collection of rules #{r/\sim}, one for every element of the poset of quotients of #{L}. At runtime, one can look at the match morphism and cheaply look up which #{r/\sim} one should use and compute what is the corresponding monic match #{m_m} to use for rule.}

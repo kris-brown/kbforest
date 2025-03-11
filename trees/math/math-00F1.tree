@@ -1,0 +1,9 @@
+\date{2025-03-09T17:13:28Z}
+
+\title{Cocomplete category}
+\import{macros}
+\import{rel}
+
+\dual{math-00F0}
+
+\p{A [category](math-000D) is \em{complete} when it has all [colimits](math-005N).}

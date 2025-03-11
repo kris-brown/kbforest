@@ -1,0 +1,23 @@
+\date{2025-02-26T02:11:20Z}
+\title{Universal presheaf model for theory of groups}
+\import{macros}
+\import{rel}
+
+\example{math-00C9}
+\source{ref-00BC}
+
+\p{Here we specialize [this theorem](math-00C9) to the special case of groups.}
+
+\p{Let #{\GG:=\TT_{Group}} be the [classifying category](math-00BS) of the [theory of groups](math-00AL).}
+
+\p{One object in #{\hat \GG} is #{Y=|\cY|}, the underlying object of the universal presheaf model. It is obtained by applying the yoneda embedding to the underlying object of the syntactic model, which is the one-variable context #{[x_1]}. So #{Y=y([x_1]) = \GG(-,[x_1])}. This is a functor which sends contexts to hom-sets. Thus it has an assignment #{Y_n} for every [natural number](math-00CL) #{n}.}
+
+##{Y_n = \GG([x_1,...,x_n], [x_1])}
+
+\p{#{Y_n} is a set of all terms #{[x_1,...,x_n\ |\ t]} modulo the group axioms. This is the set of elements of the [free group](math-00CM) on #{n} generators.}
+
+\p{#{Y} sends a map #{s \in \Hom_\GG([x_1,...,x_m], [x_1,...,x_n])} to the substitution of terms #{(s=(s_1,...,s_n))} into the elements #{t \in Y_n}.}
+
+##{Y(s)(t) = \GG(s,[x_1])(t) = t[s_1/x_1,...,s_n/x_n]}
+
+\p{To do: finish this example and understand it...}

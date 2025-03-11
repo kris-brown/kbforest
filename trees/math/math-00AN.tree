@@ -1,0 +1,16 @@
+\date{2025-02-23T03:58:34Z}
+\title{Group object commutativity}
+\import{macros}
+
+% https://q.uiver.app/#q=WzAsNCxbMCwwLCJHXFx0aW1lcyBHXFx0aW1lcyBHICJdLFsxLDAsIkdcXHRpbWVzIEciXSxbMSwxLCJHIl0sWzAsMSwiR1xcdGltZXMgRyJdLFswLDMsIlxccGlfMFxcdGltZXMgXFxjZG90IiwyXSxbMCwxLCJcXGNkb3RcXHRpbWVzIFxccGlfMiJdLFsxLDIsIlxcY2RvdCJdLFszLDIsIlxcY2RvdCIsMl1d
+\quiver{
+  \begin{tikzcd}
+    {G\times G\times G } & {G\times G} \\
+    {G\times G} & G
+    \arrow["{\cdot\times \pi_2}", from=1-1, to=1-2]
+    \arrow["{\pi_0\times \cdot}"', from=1-1, to=2-1]
+    \arrow["\cdot", from=1-2, to=2-2]
+    \arrow["\cdot"', from=2-1, to=2-2]
+  \end{tikzcd}
+}
+

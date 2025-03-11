@@ -1,0 +1,6 @@
+\date{2025-02-22T19:40:25Z}
+\title{Axioms of an algebraic theory}
+\parent{math-009X}
+\import{macros}
+
+\p{The \em{axioms} of an algebraic theory #{A_\TT} are a [set](math-0001) of pairs of [terms](math-00A1). We denote a pair #{(t,u)} as an equation #{t=u}.}

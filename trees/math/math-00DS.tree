@@ -1,0 +1,10 @@
+\date{2025-03-04T02:14:05Z}
+\let\curr{math-00DS}
+\import{macros}
+
+
+\title{FinSet}
+\taxon{definition}
+\parent{math-008G}
+
+\p{The category \em{FinSet} of [finite sets](math-00A5) and functions between them is a full category of [Set](math-003L).}

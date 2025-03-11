@@ -1,0 +1,12 @@
+\date{2025-02-22T06:17:34Z}
+\title{Universal quantifier}
+\import{mathml}
+
+\def\univ[~x][~y]{\mml/mrow{\mml/forall-{math-009V}\x{}\mml/period\y{}}}
+
+
+\p{In [first-order logic](math-009T), the formula #{\forall x: \varphi(x)} has the informal meaning of "for all #{x}, the formula #{\varphi(x)} is true".}
+
+\p{Its truth value is defined as being true iff for every element #{i} in the [domain of discourse](math-009U), when we substitute in #{i} for the variable #{x} we get a true statement.}
+
+\p{We can think of it as an infinite conjunction #{\varphi(i_1) \wedge \varphi(i_2) \wedge ...}.}

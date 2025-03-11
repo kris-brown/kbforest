@@ -1,0 +1,22 @@
+\date{2025-02-26T00:56:56Z}
+\title{Yoneda embedding - concrete definition}
+\taxon{definition}
+\import{macros}
+\import{math-005U} % op-cat
+\import{math-003L} % set
+
+\import{rel}
+
+\source{ref-00BD}
+\scope{
+\import{mathml}
+\open\mml
+\let\C{\sfC-{math-000D}}
+\let\y{\mi{y}}
+\let\c{\mi{c}}
+
+\p{The \em{Yoneda embedding} is a [functor](math-000E) \y\colon\to{math-000E}{\C}{\sup{\set}{\op-cat{\C}}}}
+}
+\p{On objects, #{y} sends an object #{c \in \Ob \cat{C}} to the [representable](math-00BR) [presheaf](math-00CB) #{\Hom_\cat{C}(-,c): \cat{C}^{op}\rightarrow\cat{Set}} }
+
+\p{On morphisms: #{y} sends a morphism #{f: A\rightarrow B} to the function between hom-sets defined by post-composition with #{f} (which turns "maps into #{A}" into "maps into #{B}").}

@@ -1,0 +1,10 @@
+\date{2025-02-26T06:02:21Z}
+\title{Total theory of an object in a category with finite products}
+\import{macros}
+\import{rel}
+
+\taxon{definition}
+\example{math-00CO}
+\source{ref-00BC}
+
+\p{Given a [category](math-000D) #{\cat{C}} with finite [products](math-0024) and an object #{A \in \Ob\cat{C}}, the [full subcategory](math-006D) spanned by #{1, A, A^2,...} is called the \em{total theory} of #{A} in #{\cat{C}}}

@@ -1,0 +1,31 @@
+\date{2025-02-23T22:26:15Z}
+\title{Equivalence of models of an algebraic theory and functors from the syntactic category}
+\taxon{proposition}
+\import{macros}
+\import{mathml}
+\import{rel}
+\import{math-002B} % congCat
+\import{math-00AW} % algmod
+\import{math-00BB} % synCat
+
+\source{ref-00BC}
+
+\scope{
+  \open\mml
+
+  \display{{\mapp{\sub{\sfHomLink{math-0033}}{\mi{[FP](math-00DL)}} \prn{\mapp{\synCat \prn{\TT}}\comma\sfC}} \congCat \mapp{\algmod \prn{\TT\comma\sfC}}}}
+}
+
+\p{There is an [equivalence](math-002B) between}
+\ul{
+\li{the [category of models of an algebraic theory](math-00AW) #{\TT} in some [category](math-000D) #{\cat{C}}}
+\li{The [category](math-0033) of [product](math-0024)-[preserving](math-00BG) [functors](math-000E) from the [syntactic category](math-00BA) #{\cat{Syn}(\TT)\rightarrow\cat{C}} (with [natural transformations](math-002E) as morphisms). }
+}
+
+\p{This equivalence is [natural in](math-00DO) #{\cat{C}}.}
+
+\p{See related [equivalence](math-00CQ) with [finitely-generated free models](math-00CP).}
+
+\p{This equivalence is witnessed by a [functor](math-00BN) #{\Hom_{FP}(\cat{Syn}(\TT), \cat{C}) \rightarrow \cat{Mod}(\TT,\cat{C})} }
+
+\p{This says that the functor #{\cat{Mod}(\TT,\cat{C})} is [representable](math-00BR) with representing object #{\cat{Syn}(\TT)}.}

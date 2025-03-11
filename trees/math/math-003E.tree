@@ -1,5 +1,8 @@
 \date{2024-07-10}
 \title{Syntax-semantics duality}
+\import{macros}
+\import{rel}
+
 \import{base-macros}
 
 
@@ -25,3 +28,10 @@
     \td{Makkai 1987 and Awodey, Forssell, 2013}
   }
 }
+
+\p{The duality #{{\rm Syntax} \cong {\rm Semantics}^{op}} was first observed by [Lawvere](lawvere).}
+
+\p{The [equivalence of categories](math-002B) #{\cat{C}_\TT\cong \cat{C}_\TT \cong mod(\TT)^{op}} makes the [syntactic category](math-00BB) dual to the \em{semantic category} #{\cat{Mod}(\TT)}.}
+
+
+\examples

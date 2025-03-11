@@ -1,0 +1,13 @@
+\date{2025-03-07T01:52:51Z}
+
+\import{macros}
+\import{rel}
+
+
+\title{Category of directed multigraphs}
+\example{math-000D}
+\taxon{definition}
+
+\p{The [category](math-000D) \em{of directed multigraphs} has:}
+\p{Objects: [graphs](math-0059)}
+\p{Morphisms: [graph homomorphisms](math-005D)}

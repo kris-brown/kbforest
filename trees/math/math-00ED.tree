@@ -1,0 +1,257 @@
+\date{2025-03-07T01:22:01Z}
+\let\curr{math-00ED}
+\import{macros}
+
+
+\title{Incremental hom search example: edges to triangles}
+\subtree{\title{Scenario}
+\p{Our example takes place in the [category of directed multigraphs](math-00EG), which are #{\cat{C}}-sets with schema #{E\overset{src}{\underset{tgt}{\rightrightarrows} V}}.}
+
+\p{Let us consider a single rule #{L\rightarrowtail R}, with the #{\cat{C}}-Set morphism components #{\alpha_V} and #{\alpha_E} indicated by dotted lines (when vertices are incident to some edge, we need not specify them directly because of naturality of graph homomorphisms).}
+
+% https://q.uiver.app/#q=WzAsNyxbMCwxLCJcXGJ1bGxldCJdLFswLDMsIlxcYnVsbGV0Il0sWzEsMSwiXFxidWxsZXQiXSxbMSwzLCJcXGJ1bGxldCJdLFsyLDIsIlxcYnVsbGV0Il0sWzAsMCwiTCJdLFsxLDAsIlIiXSxbMCwxXSxbMiw0XSxbNCwzXSxbMiwzXSxbNSw2LCIiLDAseyJzdHlsZSI6eyJ0YWlsIjp7Im5hbWUiOiJtb25vIn19fV0sWzcsMTAsIiIsMCx7InNob3J0ZW4iOnsic291cmNlIjoxMCwidGFyZ2V0IjoxMH0sImxldmVsIjoxLCJzdHlsZSI6eyJib2R5Ijp7Im5hbWUiOiJkYXNoZWQifX19XV0=
+\quiver{\begin{tikzcd}
+    L & R \\
+    \bullet & \bullet \\
+    && \bullet \\
+    \bullet & \bullet
+    \arrow[tail, from=1-1, to=1-2]
+    \arrow[""{name=0, anchor=center, inner sep=0}, from=2-1, to=4-1]
+    \arrow[from=2-2, to=3-3]
+    \arrow[""{name=1, anchor=center, inner sep=0}, from=2-2, to=4-2]
+    \arrow[from=3-3, to=4-2]
+    \arrow[shorten <=3pt, shorten >=3pt, dashed, from=0, to=1]
+  \end{tikzcd}}
+
+
+\p{This rule looks for an edge #{a\rightarrow b} and then adds a new vertex #{c} and two new edges #{a\rightarrow c} and #{c \rightarrow b}.}
+
+
+\p{Our pattern of interest is pair of composable edges: #{X:=\bullet \rightarrow \bullet \rightarrow\bullet}}
+}
+\subtree{\title{Everything monic: compile-time computation}
+\p{At this point, even without any answer sets to incrementally update, we can perform a lot of pre-computation with this data. Let's first compute what we need for the simplest [algorithm](math-00E9): incrementally updating #{\Hom_{\rm Mon}(X, -)} with respect to rewrites that use monic matches.}
+
+\p{We begin by computing all overlaps between #{L} and #{X} that have \em{some} intersection with #{R\setminus L} and filtering the ones which could not possibly lead to new matches due to naturality of graph homomorphisms. This leaves five possible overlaps:}
+
+
+\p{The first overlap is the entire pattern #{X}, which maps onto the two newly-created edges in #{R}. The meaning of this overlap is "you get one new result for your query #{X} immediately from applying the rule in this way".}
+% https://q.uiver.app/#q=WzAsMTIsWzIsMSwiXFxidWxsZXQiXSxbMiwyLCJcXGJ1bGxldCJdLFsyLDMsIlxcYnVsbGV0Il0sWzIsMCwiTyJdLFszLDEsIlxcYnVsbGV0Il0sWzMsMiwiXFxidWxsZXQiXSxbMywzLCJcXGJ1bGxldCJdLFszLDAsIlgiXSxbMCwxLCJcXGJ1bGxldCJdLFswLDMsIlxcYnVsbGV0Il0sWzEsMiwiXFxidWxsZXQiXSxbMSwwLCJSIl0sWzAsMV0sWzEsMl0sWzQsNV0sWzUsNl0sWzgsOV0sWzgsMTBdLFsxMCw5XSxbMywxMSwiIiwyLHsic3R5bGUiOnsidGFpbCI6eyJuYW1lIjoibW9ubyJ9fX1dLFszLDcsIiIsMCx7InN0eWxlIjp7InRhaWwiOnsibmFtZSI6Im1vbm8ifX19XSxbMTMsMTgsIiIsMCx7InNob3J0ZW4iOnsic291cmNlIjoyMCwidGFyZ2V0IjoyMH0sImxldmVsIjoxLCJzdHlsZSI6eyJib2R5Ijp7Im5hbWUiOiJkYXNoZWQifX19XSxbMTIsMTcsIiIsMCx7InNob3J0ZW4iOnsic291cmNlIjoyMCwidGFyZ2V0IjoyMH0sImxldmVsIjoxLCJzdHlsZSI6eyJib2R5Ijp7Im5hbWUiOiJkYXNoZWQifX19XSxbMTIsMTQsIiIsMix7InNob3J0ZW4iOnsic291cmNlIjoyMCwidGFyZ2V0IjoyMH0sImxldmVsIjoxLCJzdHlsZSI6eyJib2R5Ijp7Im5hbWUiOiJkYXNoZWQifX19XSxbMTMsMTUsIiIsMix7InNob3J0ZW4iOnsic291cmNlIjoyMCwidGFyZ2V0IjoyMH0sImxldmVsIjoxLCJzdHlsZSI6eyJib2R5Ijp7Im5hbWUiOiJkYXNoZWQifX19XV0=
+\quiver{\begin{tikzcd}
+    & R & O & X \\
+    \bullet && \bullet & \bullet \\
+    & \bullet & \bullet & \bullet \\
+    \bullet && \bullet & \bullet
+    \arrow[tail, from=1-3, to=1-2]
+    \arrow[tail, from=1-3, to=1-4]
+    \arrow[""{name=0, anchor=center, inner sep=0}, from=2-1, to=3-2]
+    \arrow[from=2-1, to=4-1]
+    \arrow[""{name=1, anchor=center, inner sep=0}, from=2-3, to=3-3]
+    \arrow[""{name=2, anchor=center, inner sep=0}, from=2-4, to=3-4]
+    \arrow[""{name=3, anchor=center, inner sep=0}, from=3-2, to=4-1]
+    \arrow[""{name=4, anchor=center, inner sep=0}, from=3-3, to=4-3]
+    \arrow[""{name=5, anchor=center, inner sep=0}, from=3-4, to=4-4]
+    \arrow[shorten <=10pt, shorten >=10pt, dashed, from=1, to=0]
+    \arrow[shorten <=6pt, shorten >=6pt, dashed, from=1, to=2]
+    \arrow[shorten <=10pt, shorten >=10pt, dashed, from=4, to=3]
+    \arrow[shorten <=6pt, shorten >=6pt, dashed, from=4, to=5]
+  \end{tikzcd}}
+
+\p{The next overlap states that we \em{almost} have a match whenever we apply this rewrite rule; the only thing we need to dynamically assign at runtime is an edge #{\textcolor{red}{red} \rightarrow \textcolor{green}{green}} within #{G_2}. Moreover we only need to look for edges from #{\textcolor{blue}{blue}} to #{\textcolor{fuchsia}{purple}} in #{G_2}.}
+
+% https://q.uiver.app/#q=WzAsMTIsWzIsMSwiXFxidWxsZXQiXSxbMiwyLCJcXGJ1bGxldCJdLFsyLDMsIlxcYnVsbGV0Il0sWzIsMCwiTyJdLFszLDEsIlxcYnVsbGV0Il0sWzMsMiwiXFxidWxsZXQiLFswLDYwLDYwLDFdXSxbMywzLCJcXGJ1bGxldCIsWzEyMCw2MCw2MCwxXV0sWzMsMCwiWCJdLFswLDMsIlxcYnVsbGV0IixbMzAwLDYwLDYwLDFdXSxbMCwxLCJcXGJ1bGxldCIsWzI0MCw2MCw2MCwxXV0sWzEsMiwiXFxidWxsZXQiXSxbMSwwLCJSIl0sWzAsMV0sWzQsNV0sWzUsNl0sWzgsOV0sWzgsMTBdLFsxMCw5XSxbMywxMSwiIiwyLHsic3R5bGUiOnsidGFpbCI6eyJuYW1lIjoibW9ubyJ9fX1dLFszLDcsIiIsMCx7InN0eWxlIjp7InRhaWwiOnsibmFtZSI6Im1vbm8ifX19XSxbMiw4LCIiLDAseyJzdHlsZSI6eyJib2R5Ijp7Im5hbWUiOiJkYXNoZWQifX19XSxbMTIsMTMsIiIsMix7InNob3J0ZW4iOnsic291cmNlIjoyMCwidGFyZ2V0IjoyMH0sImxldmVsIjoxLCJzdHlsZSI6eyJib2R5Ijp7Im5hbWUiOiJkYXNoZWQifX19XSxbMTIsMTcsIiIsMCx7InNob3J0ZW4iOnsic291cmNlIjoxMCwidGFyZ2V0IjoxMH0sImxldmVsIjoxLCJzdHlsZSI6eyJib2R5Ijp7Im5hbWUiOiJkYXNoZWQifX19XV0=
+\quiver{\begin{tikzcd}
+    & R & O & X \\
+    \textcolor{rgb,255:red,92;green,92;blue,214}{\bullet} && \bullet & \bullet \\
+    & \bullet & \bullet & \textcolor{rgb,255:red,214;green,92;blue,92}{\bullet} \\
+    \textcolor{rgb,255:red,214;green,92;blue,214}{\bullet} && \bullet & \textcolor{rgb,255:red,92;green,214;blue,92}{\bullet}
+    \arrow[tail, from=1-3, to=1-2]
+    \arrow[tail, from=1-3, to=1-4]
+    \arrow[""{name=0, anchor=center, inner sep=0}, from=2-3, to=3-3]
+    \arrow[""{name=1, anchor=center, inner sep=0}, from=2-4, to=3-4]
+    \arrow[""{name=2, anchor=center, inner sep=0}, from=3-2, to=2-1]
+    \arrow[from=3-4, to=4-4]
+    \arrow[from=4-1, to=2-1]
+    \arrow[from=4-1, to=3-2]
+    \arrow[dashed, from=4-3, to=4-1]
+    \arrow[shorten <=5pt, shorten >=5pt, dashed, from=0, to=2]
+    \arrow[shorten <=6pt, shorten >=6pt, dashed, from=0, to=1]
+  \end{tikzcd}}
+
+\p{There is a similar overlap which simply doesn't include #{\textcolor{green}{green}} in the defined domain. This means we must search for both an outgoing edge to #{\textcolor{blue}{blue}} and its target vertex (which is forbidden from being in the image of #{r}, and thereby does not lead to overlapping matches with the previous overlap).}
+% https://q.uiver.app/#q=WzAsMTIsWzIsMSwiXFxidWxsZXQiXSxbMiwyLCJcXGJ1bGxldCJdLFsyLDMsIlxcYnVsbGV0Il0sWzIsMCwiTyJdLFszLDEsIlxcYnVsbGV0Il0sWzMsMiwiXFxidWxsZXQiLFswLDYwLDYwLDFdXSxbMywzLCJcXGJ1bGxldCIsWzEyMCw2MCw2MCwxXV0sWzMsMCwiWCJdLFswLDMsIlxcYnVsbGV0IixbMzAwLDYwLDYwLDFdXSxbMCwxLCJcXGJ1bGxldCIsWzI0MCw2MCw2MCwxXV0sWzEsMiwiXFxidWxsZXQiXSxbMSwwLCJSIl0sWzAsMV0sWzQsNV0sWzUsNl0sWzgsOV0sWzgsMTBdLFsxMCw5XSxbMywxMSwiIiwyLHsic3R5bGUiOnsidGFpbCI6eyJuYW1lIjoibW9ubyJ9fX1dLFszLDcsIiIsMCx7InN0eWxlIjp7InRhaWwiOnsibmFtZSI6Im1vbm8ifX19XSxbMiw4LCIiLDAseyJzdHlsZSI6eyJib2R5Ijp7Im5hbWUiOiJkYXNoZWQifX19XSxbMTIsMTMsIiIsMix7InNob3J0ZW4iOnsic291cmNlIjoyMCwidGFyZ2V0IjoyMH0sImxldmVsIjoxLCJzdHlsZSI6eyJib2R5Ijp7Im5hbWUiOiJkYXNoZWQifX19XSxbMTIsMTcsIiIsMCx7InNob3J0ZW4iOnsic291cmNlIjoxMCwidGFyZ2V0IjoxMH0sImxldmVsIjoxLCJzdHlsZSI6eyJib2R5Ijp7Im5hbWUiOiJkYXNoZWQifX19XV0=
+\quiver{\begin{tikzcd}
+    & R & O & X \\
+    \textcolor{rgb,255:red,92;green,92;blue,214}{\bullet} && \bullet & \bullet \\
+    & \bullet & \bullet & \textcolor{rgb,255:red,214;green,92;blue,92}{\bullet} \\
+    \textcolor{rgb,255:red,214;green,92;blue,214}{\bullet} && \bullet & \textcolor{rgb,255:red,92;green,214;blue,92}{\bullet}
+    \arrow[tail, from=1-3, to=1-2]
+    \arrow[tail, from=1-3, to=1-4]
+    \arrow[""{name=0, anchor=center, inner sep=0}, from=2-3, to=3-3]
+    \arrow[""{name=1, anchor=center, inner sep=0}, from=2-4, to=3-4]
+    \arrow[""{name=2, anchor=center, inner sep=0}, from=3-2, to=2-1]
+    \arrow[from=3-4, to=4-4]
+    \arrow[from=4-1, to=2-1]
+    \arrow[from=4-1, to=3-2]
+    \arrow[dashed, from=4-3, to=4-1]
+    \arrow[shorten <=5pt, shorten >=5pt, dashed, from=0, to=2]
+    \arrow[shorten <=6pt, shorten >=6pt, dashed, from=0, to=1]
+  \end{tikzcd}}
+
+\p{The remaining two overlaps are dual to the previous two, except for the fact that they look for incoming edges for the newly created edge that goes \em{to} the newly created vertex.}
+
+
+\p{We now have recipes for five #{O(1)} search problems to update #{\Hom_{\rm Mon}(X,G)} whenever we incrementally update #{G} via applying the rewrite rule.}}
+
+\subtree{\title{Everything monic: runtime computation}
+\p{If we perform the following rewrite (where the match #{L\rightarrowtail G_1} is not shown but can be inferred to have matched the pink edge in #{G_1}) and consider the last overlap visualized above:}
+
+% https://q.uiver.app/#q=WzAsMjAsWzEsNSwiXFxidWxsZXQiXSxbMiw1LCJcXGJ1bGxldCJdLFszLDUsIlxcYnVsbGV0Il0sWzEsMywiXFxidWxsZXQiXSxbMiwzLCJcXGJ1bGxldCJdLFszLDMsIlxcYnVsbGV0Il0sWzIsMiwiXFxidWxsZXQiXSxbMCw1LCJHXzEiXSxbMCwzLCJHXzIiXSxbMSwxLCJcXGJ1bGxldCJdLFsyLDEsIlxcYnVsbGV0Il0sWzIsMCwiXFxidWxsZXQiXSxbMCwxLCJSIl0sWzUsMiwiXFxidWxsZXQiXSxbNSwzLCJcXGJ1bGxldCJdLFs1LDQsIlxcYnVsbGV0Il0sWzQsMCwiXFxidWxsZXQiXSxbNSwwLCJcXGJ1bGxldCJdLFs2LDAsIk8iXSxbNiwzLCJYIl0sWzAsMSwiIiwwLHsiY3VydmUiOi0xLCJjb2xvdXIiOlszMDAsNjAsNjBdfV0sWzEsMl0sWzMsNCwiIiwwLHsiY3VydmUiOi0xfV0sWzQsNV0sWzMsNl0sWzYsNF0sWzksMTFdLFs5LDEwXSxbMTEsMTBdLFsxMywxNF0sWzE0LDE1XSxbMTYsMTddLFs0LDMsIiIsMCx7Im9mZnNldCI6MSwiY3VydmUiOi0xfV0sWzEsMCwiIiwxLHsib2Zmc2V0IjoxLCJjdXJ2ZSI6LTF9XSxbNyw4LCIiLDIseyJzdHlsZSI6eyJ0YWlsIjp7Im5hbWUiOiJtb25vIn19fV0sWzEyLDgsIiIsMCx7InN0eWxlIjp7InRhaWwiOnsibmFtZSI6Im1vbm8ifX19XSxbMTgsMTksIiIsMCx7InN0eWxlIjp7InRhaWwiOnsibmFtZSI6Im1vbm8ifX19XSxbMTgsMTIsIiIsMSx7ImN1cnZlIjo1LCJzdHlsZSI6eyJ0YWlsIjp7Im5hbWUiOiJtb25vIn19fV0sWzIxLDIzLCIiLDAseyJzaG9ydGVuIjp7InNvdXJjZSI6MTAsInRhcmdldCI6MTB9LCJsZXZlbCI6MSwic3R5bGUiOnsiYm9keSI6eyJuYW1lIjoiZGFzaGVkIn19fV0sWzI3LDIyLCIiLDIseyJzaG9ydGVuIjp7InNvdXJjZSI6MTAsInRhcmdldCI6MTB9LCJsZXZlbCI6MSwic3R5bGUiOnsiYm9keSI6eyJuYW1lIjoiZGFzaGVkIn19fV0sWzI2LDI0LCIiLDAseyJjdXJ2ZSI6MSwic2hvcnRlbiI6eyJzb3VyY2UiOjEwLCJ0YXJnZXQiOjEwfSwibGV2ZWwiOjEsInN0eWxlIjp7ImJvZHkiOnsibmFtZSI6ImRhc2hlZCJ9fX1dLFsyOCwyNSwiIiwwLHsiY3VydmUiOi0yLCJzaG9ydGVuIjp7InNvdXJjZSI6MTAsInRhcmdldCI6MTB9LCJsZXZlbCI6MSwic3R5bGUiOnsiYm9keSI6eyJuYW1lIjoiZGFzaGVkIn19fV0sWzMxLDI4LCIiLDAseyJzaG9ydGVuIjp7InNvdXJjZSI6MTAsInRhcmdldCI6MTB9LCJsZXZlbCI6MSwic3R5bGUiOnsiYm9keSI6eyJuYW1lIjoiZGFzaGVkIn19fV0sWzMxLDI5LCIiLDIseyJzaG9ydGVuIjp7InNvdXJjZSI6MTAsInRhcmdldCI6MTB9LCJsZXZlbCI6MSwic3R5bGUiOnsiYm9keSI6eyJuYW1lIjoiZGFzaGVkIn19fV0sWzI5LDI1LCIiLDIseyJzaG9ydGVuIjp7InNvdXJjZSI6MTAsInRhcmdldCI6MTB9LCJsZXZlbCI6MSwiY29sb3VyIjpbMTIwLDYwLDYwXSwic3R5bGUiOnsiYm9keSI6eyJuYW1lIjoiZGFzaGVkIn19fV0sWzIwLDIyLCIiLDAseyJjdXJ2ZSI6LTEsInNob3J0ZW4iOnsic291cmNlIjoxMH0sImxldmVsIjoxLCJzdHlsZSI6eyJib2R5Ijp7Im5hbWUiOiJkYXNoZWQifX19XSxbMzMsMzIsIiIsMSx7ImN1cnZlIjoxLCJsZXZlbCI6MSwic3R5bGUiOnsiYm9keSI6eyJuYW1lIjoiZGFzaGVkIn19fV0sWzMwLDIzLCIiLDIseyJjdXJ2ZSI6LTEsInNob3J0ZW4iOnsic291cmNlIjoxMCwidGFyZ2V0IjoxMH0sImxldmVsIjoxLCJjb2xvdXIiOlswLDYwLDYwXSwic3R5bGUiOnsiYm9keSI6eyJuYW1lIjoiZGFzaGVkIn19fV1d
+\quiver{\begin{tikzcd}
+    R && \bullet && \bullet & \bullet & O \\
+    & \bullet & \bullet \\
+    && \bullet &&& \bullet \\
+    {G_2} & \bullet & \bullet & \bullet && \bullet & X \\
+    &&&&& \bullet \\
+    {G_1} & \bullet & \bullet & \bullet
+    \arrow[""{name=0, anchor=center, inner sep=0}, from=1-3, to=2-3]
+    \arrow[""{name=1, anchor=center, inner sep=0}, from=1-5, to=1-6]
+    \arrow[curve={height=30pt}, tail, from=1-7, to=1-1]
+    \arrow[tail, from=1-7, to=4-7]
+    \arrow[tail, from=1-1, to=4-1]
+    \arrow[""{name=2, anchor=center, inner sep=0}, from=2-2, to=1-3]
+    \arrow[""{name=3, anchor=center, inner sep=0}, from=2-2, to=2-3]
+    \arrow[""{name=4, anchor=center, inner sep=0}, from=3-3, to=4-3]
+    \arrow[""{name=5, anchor=center, inner sep=0}, from=3-6, to=4-6]
+    \arrow[""{name=6, anchor=center, inner sep=0}, from=4-2, to=3-3]
+    \arrow[""{name=7, anchor=center, inner sep=0}, curve={height=-6pt}, from=4-2, to=4-3]
+    \arrow[""{name=8, anchor=center, inner sep=0}, shift right, curve={height=-6pt}, from=4-3, to=4-2]
+    \arrow[""{name=9, anchor=center, inner sep=0}, from=4-3, to=4-4]
+    \arrow[""{name=10, anchor=center, inner sep=0}, from=4-6, to=5-6]
+    \arrow[tail, from=6-1, to=4-1]
+    \arrow[""{name=11, anchor=center, inner sep=0}, color={rgb,255:red,214;green,92;blue,214}, curve={height=-6pt}, from=6-2, to=6-3]
+    \arrow[""{name=12, anchor=center, inner sep=0}, shift right, curve={height=-6pt}, from=6-3, to=6-2]
+    \arrow[""{name=13, anchor=center, inner sep=0}, from=6-3, to=6-4]
+    \arrow[curve={height=-12pt}, shorten <=5pt, shorten >=5pt, dashed, from=0, to=4]
+    \arrow[shorten <=8pt, shorten >=8pt, dashed, from=1, to=0]
+    \arrow[shorten <=5pt, shorten >=5pt, dashed, from=1, to=5]
+    \arrow[curve={height=6pt}, shorten <=4pt, shorten >=4pt, dashed, from=2, to=6]
+    \arrow[shorten <=4pt, shorten >=4pt, dashed, from=3, to=7]
+    \arrow[draw={rgb,255:red,92;green,214;blue,92}, shorten <=10pt, shorten >=10pt, dashed, from=5, to=4]
+    \arrow[draw={rgb,255:red,214;green,92;blue,92}, curve={height=-6pt}, shorten <=8pt, shorten >=8pt, dashed, from=10, to=9]
+    \arrow[curve={height=-6pt}, shorten <=4pt, dashed, from=11, to=7]
+    \arrow[curve={height=6pt}, dashed, from=12, to=8]
+    \arrow[shorten <=4pt, shorten >=4pt, dashed, from=13, to=9]
+  \end{tikzcd}}
+
+\p{The algorithm forces the overlapping edge in #{X} to be assigned to where it is sent by #{r: R\rightarrow X} (dotted green line). The unassigned edge and vertex are constrained to map anywhere outside the image of #{R}, and there is just one possible match that meets this criterion (in dotted red).}
+}
+
+\subtree{\title{Non-monic query patterns}
+\p{The #{\bullet \leftrightarrows \bullet} in #{G_1} or #{G_2} was not part of the answer set, as we were only looking for monic matches from #{X}. In order to address this, we use [this algorithm](math-00E8) and compute the poset of quotients of #{X}:}
+
+% https://q.uiver.app/#q=WzAsMTEsWzIsMCwiXFxidWxsZXQiXSxbMywwLCJcXGJ1bGxldCJdLFs0LDAsIlxcYnVsbGV0Il0sWzIsMSwiXFxidWxsZXQiXSxbNCwxLCJcXGJ1bGxldCJdLFs1LDEsIlxcYnVsbGV0Il0sWzYsMSwiXFxidWxsZXQiXSxbMCwxLCJcXGJ1bGxldCJdLFsxLDEsIlxcYnVsbGV0Il0sWzMsMiwiXFxidWxsZXQiXSxbMywzLCJcXGJ1bGxldCJdLFswLDFdLFsxLDJdLFszLDQsIiIsMCx7ImN1cnZlIjoxfV0sWzQsMywiIiwwLHsiY3VydmUiOjF9XSxbNSw2XSxbNiw2XSxbNyw4XSxbNyw3XSxbOSw5LCIiLDEseyJhbmdsZSI6OTB9XSxbOSw5LCIiLDEseyJhbmdsZSI6LTkwfV0sWzEwLDEwLCIiLDEseyJhbmdsZSI6LTE4MH1dXQ==
+\quiver{\begin{tikzcd}
+    && \bullet & \bullet & \bullet \\
+    \bullet & \bullet & \bullet && \bullet & \bullet & \bullet \\
+    &&& \bullet \\
+    &&& \bullet
+    \arrow[from=1-3, to=1-4]
+    \arrow[from=1-4, to=1-5]
+    \arrow[from=2-1, to=2-1, loop, in=55, out=125, distance=10mm]
+    \arrow[from=2-1, to=2-2]
+    \arrow[curve={height=6pt}, from=2-3, to=2-5]
+    \arrow[curve={height=6pt}, from=2-5, to=2-3]
+    \arrow[from=2-6, to=2-7]
+    \arrow[from=2-7, to=2-7, loop, in=55, out=125, distance=10mm]
+    \arrow[from=3-4, to=3-4, loop, in=325, out=35, distance=10mm]
+    \arrow[from=3-4, to=3-4, loop, in=145, out=215, distance=10mm]
+    \arrow[from=4-4, to=4-4, loop, in=235, out=305, distance=10mm]
+  \end{tikzcd}}
+
+\p{We maintain a (monic) incremental hom set for \em{each} of these patterns, and by doing so we can track whenever the #{\bullet \leftrightarrows \bullet} is introduced via apply the rule. However, the set of relevant overlaps for this pattern and rule is empty: there's no way introduce a length-2 cycle! Among all these quotients of #{X}, the only new overlaps we need to check are one for the leftmost quotient and one for the rightmost one: a new (non-monic) match is introduced iff there is a loop on the source of the matched edge or on the target of the matched edge. For example, the only relevant overlap for the rightmost quotient is:}
+
+% https://q.uiver.app/#q=WzAsMTAsWzEsMCwiUiJdLFsyLDAsIk8iXSxbMywwLCJYIl0sWzIsMiwiXFxidWxsZXQiXSxbMiwxLCJcXGJ1bGxldCJdLFszLDEsIlxcYnVsbGV0Il0sWzMsMiwiXFxidWxsZXQiXSxbMSwzLCJcXGJ1bGxldCJdLFswLDIsIlxcYnVsbGV0Il0sWzEsMSwiXFxidWxsZXQiXSxbMSwwLCIiLDAseyJzdHlsZSI6eyJ0YWlsIjp7Im5hbWUiOiJtb25vIn19fV0sWzEsMiwiIiwyLHsic3R5bGUiOnsidGFpbCI6eyJuYW1lIjoibW9ubyJ9fX1dLFs0LDNdLFs2LDYsIiIsMix7InJhZGl1cyI6LTN9XSxbNSw2XSxbOCw3XSxbOCw5XSxbNyw5XSxbMTIsMTcsIiIsMCx7InNob3J0ZW4iOnsic291cmNlIjoyMCwidGFyZ2V0IjoyMH0sImxldmVsIjoxLCJzdHlsZSI6eyJib2R5Ijp7Im5hbWUiOiJkYXNoZWQifX19XSxbMTIsMTQsIiIsMix7InNob3J0ZW4iOnsic291cmNlIjoyMCwidGFyZ2V0IjoyMH0sImxldmVsIjoxLCJzdHlsZSI6eyJib2R5Ijp7Im5hbWUiOiJkYXNoZWQifX19XV0=
+\quiver{\begin{tikzcd}[cramped]
+    & R & O & X \\
+    & \bullet & \bullet & \bullet \\
+    \bullet && \bullet & \bullet \\
+    & \bullet
+    \arrow[tail, from=1-3, to=1-2]
+    \arrow[tail, from=1-3, to=1-4]
+    \arrow[""{name=0, anchor=center, inner sep=0}, from=2-3, to=3-3]
+    \arrow[""{name=1, anchor=center, inner sep=0}, from=2-4, to=3-4]
+    \arrow[from=3-1, to=2-2]
+    \arrow[from=3-1, to=4-2]
+    \arrow[from=3-4, to=3-4, loop, in=305, out=235, distance=10mm]
+    \arrow[""{name=2, anchor=center, inner sep=0}, from=4-2, to=2-2]
+    \arrow[shorten <=6pt, shorten >=6pt, dashed, from=0, to=2]
+    \arrow[shorten <=6pt, shorten >=6pt, dashed, from=0, to=1]
+  \end{tikzcd}}
+
+
+\p{This means there are total 5+1+1 overlaps one must monitor for incrementally updating a set of matches #{\Hom(X,G)} with respect to applications of the rule #{L\rightarrowtail R} with \em{monic} matches. }
+}
+\subtree{\title{Applying rewrites with non-monic matches }
+\p{We may be interested in considering the possibility of an application of our rule where the source and target vertex are not distinct. The above overlaps are unable to detect one of the new matches arising from applying the rule to a loop: }
+% https://q.uiver.app/#q=WzAsMTIsWzEsNCwiXFxidWxsZXQiXSxbMyw0LCJcXGJ1bGxldCJdLFs0LDQsIlxcYnVsbGV0Il0sWzEsMiwiXFxidWxsZXQiXSxbMiwyLCJcXGJ1bGxldCJdLFszLDIsIlxcYnVsbGV0Il0sWzQsMiwiXFxidWxsZXQiXSxbNCwxLCJcXGJ1bGxldCJdLFswLDAsIkwiXSxbNSwwLCJSIl0sWzUsNSwiR18yIl0sWzAsNSwiR18xIl0sWzAsMF0sWzEsMiwiIiwwLHsiY3VydmUiOjEsImNvbG91ciI6WzEyMCw2MCw2MF19XSxbMiwxLCIiLDAseyJjdXJ2ZSI6MSwiY29sb3VyIjpbMCw2MCw2MF19XSxbMyw0XSxbNSw3XSxbNyw2XSxbNSw2XSxbMSwxLCIiLDIseyJhbmdsZSI6LTkwfV0sWzAsMSwiIiwwLHsic3R5bGUiOnsiYm9keSI6eyJuYW1lIjoiZGFzaGVkIn19fV0sWzExLDEwLCIiLDAseyJzdHlsZSI6eyJ0YWlsIjp7Im5hbWUiOiJtb25vIn19fV0sWzksMTBdLFs4LDExXSxbOCw5LCIiLDIseyJzdHlsZSI6eyJ0YWlsIjp7Im5hbWUiOiJtb25vIn19fV0sWzEwLDgsIiIsMSx7InN0eWxlIjp7Im5hbWUiOiJjb3JuZXIifX1dLFsxNSwwLCIiLDIseyJzaG9ydGVuIjp7InNvdXJjZSI6MTAsInRhcmdldCI6MzB9LCJsZXZlbCI6MSwic3R5bGUiOnsiYm9keSI6eyJuYW1lIjoiZGFzaGVkIn19fV0sWzE1LDE4LCIiLDIseyJjdXJ2ZSI6Miwic2hvcnRlbiI6eyJzb3VyY2UiOjIwLCJ0YXJnZXQiOjEwfSwibGV2ZWwiOjEsInN0eWxlIjp7ImJvZHkiOnsibmFtZSI6ImRhc2hlZCJ9fX1dLFsxNiwxNCwiIiwyLHsiY3VydmUiOi0xLCJsZXZlbCI6MSwic3R5bGUiOnsiYm9keSI6eyJuYW1lIjoiZGFzaGVkIn19fV0sWzE3LDEzLCIiLDIseyJjdXJ2ZSI6LTIsImxldmVsIjoxLCJzdHlsZSI6eyJib2R5Ijp7Im5hbWUiOiJkYXNoZWQifX19XSxbMTgsMjAsIiIsMCx7ImN1cnZlIjotMSwic2hvcnRlbiI6eyJ0YXJnZXQiOjMwfSwibGV2ZWwiOjEsInN0eWxlIjp7ImJvZHkiOnsibmFtZSI6ImRhc2hlZCJ9fX1dXQ==
+\quiver{\begin{tikzcd}[cramped]
+    L &&&&& R \\
+    &&&& \bullet \\
+    & \bullet & \bullet & \bullet & \bullet \\
+    \\
+    & \bullet && \bullet & \bullet \\
+    {G_1} &&&&& {G_2}
+    \arrow[tail, from=1-1, to=1-6]
+    \arrow[from=1-1, to=6-1]
+    \arrow[from=1-6, to=6-6]
+    \arrow[""{name=0, anchor=center, inner sep=0}, from=2-5, to=3-5]
+    \arrow[""{name=1, anchor=center, inner sep=0}, from=3-2, to=3-3]
+    \arrow[""{name=2, anchor=center, inner sep=0}, from=3-4, to=2-5]
+    \arrow[""{name=3, anchor=center, inner sep=0}, from=3-4, to=3-5]
+    \arrow[from=5-2, to=5-2, loop, in=55, out=125, distance=10mm]
+    \arrow[""{name=4, anchor=center, inner sep=0}, dashed, from=5-2, to=5-4]
+    \arrow[from=5-4, to=5-4, loop, in=145, out=215, distance=10mm]
+    \arrow[""{name=5, anchor=center, inner sep=0}, color={rgb,255:red,92;green,214;blue,92}, curve={height=-6pt}, from=5-4, to=5-5]
+    \arrow[""{name=6, anchor=center, inner sep=0}, color={rgb,255:red,214;green,92;blue,92}, curve={height=-6pt}, from=5-5, to=5-4]
+    \arrow[tail, from=6-1, to=6-6]
+    \arrow["\lrcorner"{anchor=center, pos=0.125, rotate=180}, draw=none, from=6-6, to=1-1]
+    \arrow[curve={height=-12pt}, dashed, from=0, to=6]
+    \arrow[curve={height=12pt}, shorten <=14pt, shorten >=7pt, dashed, from=1, to=3]
+    \arrow[shorten <=4pt, shorten >=12pt, dashed, from=1, to=5-2]
+    \arrow[curve={height=-6pt}, dashed, from=2, to=5]
+    \arrow[curve={height=-6pt}, shorten >=18pt, dashed, from=3, to=4]
+  \end{tikzcd}}
+
+\p{Applying this rule introduces four new answers to our query pattern; however, none of our seven overlaps above can detect the introduction of #{[\textcolor{red}{red}, \textcolor{green}{green}]}. To do this, we need to extend what we compute via [this algorithm](math-00E7). This starts with enumerating the possible quotients of #{L}. However there is just one quotient: the map which sends #{L} to the [terminal graph](math-001G) (one vertex, one loop). We use this map #{L\twoheadrightarrow L/\sim} to generate a new, quotiented rule #{L/\sim\ \rightarrowtail R/\sim} via a pushout:  }
+
+
+% https://q.uiver.app/#q=WzAsMTIsWzIsMSwiXFxidWxsZXQiXSxbNCwxLCJcXGJ1bGxldCJdLFszLDAsIlxcYnVsbGV0Il0sWzAsMSwiXFxidWxsZXQiXSxbMSwxLCJcXGJ1bGxldCJdLFsxLDMsIlxcYnVsbGV0Il0sWzMsMywiXFxidWxsZXQiXSxbNCwzLCJcXGJ1bGxldCJdLFswLDAsIkwiXSxbNCwwLCJSIl0sWzAsNCwiTC9cXHNpbSJdLFs0LDQsIlIvXFxzaW0iXSxbMCwyXSxbMCwxXSxbMiwxXSxbMyw0XSxbNSw1LCIiLDAseyJhbmdsZSI6NDV9XSxbNiw3LCIiLDAseyJjdXJ2ZSI6LTF9XSxbNiw2LCIiLDIseyJhbmdsZSI6LTkwfV0sWzcsNiwiIiwwLHsiY3VydmUiOi0xfV0sWzUsNiwiIiwwLHsic2hvcnRlbiI6eyJzb3VyY2UiOjMwLCJ0YXJnZXQiOjQwfSwic3R5bGUiOnsiYm9keSI6eyJuYW1lIjoiZGFzaGVkIn19fV0sWzgsMTAsIiIsMSx7ImN1cnZlIjoyLCJzdHlsZSI6eyJoZWFkIjp7Im5hbWUiOiJlcGkifX19XSxbOCw5LCIiLDEseyJjdXJ2ZSI6LTIsInN0eWxlIjp7InRhaWwiOnsibmFtZSI6Im1vbm8ifX19XSxbMTAsMTEsIiIsMSx7InN0eWxlIjp7InRhaWwiOnsibmFtZSI6Im1vbm8ifX19XSxbOSwxMSwiIiwxLHsiY3VydmUiOi0yLCJzdHlsZSI6eyJoZWFkIjp7Im5hbWUiOiJlcGkifX19XSxbMTUsNSwiIiwyLHsic2hvcnRlbiI6eyJ0YXJnZXQiOjEwfSwibGV2ZWwiOjEsInN0eWxlIjp7ImJvZHkiOnsibmFtZSI6ImRhc2hlZCJ9fX1dLFsxMyw2LCIiLDIseyJjdXJ2ZSI6Miwic2hvcnRlbiI6eyJ0YXJnZXQiOjEwfSwibGV2ZWwiOjEsInN0eWxlIjp7ImJvZHkiOnsibmFtZSI6ImRhc2hlZCJ9fX1dLFsxMiwxNywiIiwwLHsiY3VydmUiOjEsImxldmVsIjoxLCJzdHlsZSI6eyJib2R5Ijp7Im5hbWUiOiJkYXNoZWQifX19XSxbMTQsMTksIiIsMix7ImN1cnZlIjotMSwibGV2ZWwiOjEsInN0eWxlIjp7ImJvZHkiOnsibmFtZSI6ImRhc2hlZCJ9fX1dLFsxNSwxMywiIiwxLHsiY3VydmUiOjIsInNob3J0ZW4iOnsidGFyZ2V0IjoxMH0sImxldmVsIjoxLCJzdHlsZSI6eyJib2R5Ijp7Im5hbWUiOiJkYXNoZWQifX19XV0=
+\quiver{\begin{tikzcd}[cramped]
+    L &&& \bullet & R \\
+    \bullet & \bullet & \bullet && \bullet \\
+    \\
+    & \bullet && \bullet & \bullet \\
+    {L/\sim} &&&& {R/\sim}
+    \arrow[curve={height=-12pt}, tail, from=1-1, to=1-5]
+    \arrow[curve={height=12pt}, two heads, from=1-1, to=5-1]
+    \arrow[""{name=0, anchor=center, inner sep=0}, from=1-4, to=2-5]
+    \arrow[curve={height=-12pt}, two heads, from=1-5, to=5-5]
+    \arrow[""{name=1, anchor=center, inner sep=0}, from=2-1, to=2-2]
+    \arrow[""{name=2, anchor=center, inner sep=0}, from=2-3, to=1-4]
+    \arrow[""{name=3, anchor=center, inner sep=0}, from=2-3, to=2-5]
+    \arrow[from=4-2, to=4-2, loop, in=10, out=80, distance=10mm]
+    \arrow[shorten <=14pt, shorten >=19pt, dashed, from=4-2, to=4-4]
+    \arrow[from=4-4, to=4-4, loop, in=145, out=215, distance=10mm]
+    \arrow[""{name=4, anchor=center, inner sep=0}, curve={height=-6pt}, from=4-4, to=4-5]
+    \arrow[""{name=5, anchor=center, inner sep=0}, curve={height=-6pt}, from=4-5, to=4-4]
+    \arrow[tail, from=5-1, to=5-5]
+    \arrow[curve={height=-6pt}, dashed, from=0, to=5]
+    \arrow[curve={height=12pt}, shorten >=9pt, dashed, from=1, to=3]
+    \arrow[shorten >=4pt, dashed, from=1, to=4-2]
+    \arrow[curve={height=12pt}, shorten >=4pt, dashed, from=3, to=4-4]
+    \arrow[curve={height=6pt}, dashed, from=2, to=4]
+  \end{tikzcd}}
+
+\p{The entire analysis we performed with #{X} and #{L\rightarrow R} is then performed again for our new quotiented rule at compile time. At runtime, we have two complete sets of overlaps to pick from. We look at how the match morphism implicitly quotiented our pattern #{L} and use the overlaps for the appropriate rule: for example, if we are given the match morphism that maps to a loop, we apply the quotiented rule and use the overlaps which were computed for monic matches for \em{that} rule. In that case, we will detect all four new matches. }
+}

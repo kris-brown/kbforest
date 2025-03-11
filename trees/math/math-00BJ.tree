@@ -1,0 +1,18 @@
+\date{2025-02-25T00:38:15Z}
+\title{Syntactic model of an algebraic theory}
+\import{macros}
+\import{rel}
+
+
+
+
+\defn{math-00BL}
+\defn{math-00BQ}
+
+\defns
+
+\example{math-00BM}
+
+\transclude{math-00DU}
+
+\p{The syntactic model can be thought of as the "[free](math-00BM) finite product category with a [model](math-00AH) of #{\TT}".}

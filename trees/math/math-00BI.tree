@@ -1,0 +1,13 @@
+\date{2025-02-24T22:31:46Z}
+\title{The category of contexts of an algebraic theory has all products}
+\import{macros}
+
+\p{The [product](math-0024) of two contexts #{[x_1,...,x_n]} and #{[x_1,...,x_m]} in the [category of contexts](math-00BB) of an algebraic theory is the context #{[x_1,...,x_{n+m}]}. This exists for any pair of contexts.}
+
+\subtree{\taxon{proof}
+
+\p{ To provide the data of #{n} terms (from a context of #{x} variables) \em{and} to provide the data of #{m} terms (from a context of #{x} variables) is precisely the data of providing #{n+m} terms (from a context of #{x} variables). A pair of maps #{f:x\rightarrow n} and #{g:x\rightarrow m} can be uniquely expressed as a map #{(f,g): x \rightarrow n+m} which concatenates the term vectors. The projection maps #{\pi_1} and #{\pi_2} are #{(x_1,...,x_n)} and #{(x_{n+1},...x_{n+m})}.
+}
+
+}
+

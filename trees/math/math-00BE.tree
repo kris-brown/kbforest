@@ -1,0 +1,14 @@
+\date{2025-02-23T22:22:26Z}
+\title{Syntactic category of an algebraic theory}
+\import{macros}
+\parent{math-00BB}
+\taxon{definition}
+
+\p{The \em{syntactic category} #{\cat{Syn}(\TT)} of an [algebraic theory](math-009Q) has \em{contexts} as objects: these are natural numbers thought of as lists of distinct variables #{[x_1,...x_n]}.}
+
+\p{A morphism #{[x_1,...,x_m]\to[x_1,...,x_n]} is an #{n}-tuple of terms #{(t_1,...,t_n)} where each term is in the context #{[x_1,...,x_m]}. Morphisms #{(t_1,...,t_n)} and #{(s_1,...,s_n)} are considered equal iff #{\forall k \in \bar n. \TT \vdash t_k=s_k}. (I.e. formally morphisms are [equivalence classes](math-00BC) of terms under the provable equality relation of the theory, but it's convenient to work with representatives).
+}
+
+\p{The [identity morphism](math-00B1) for the context #{[x_1,...,x_n]} is the tuple of terms #{(x_1,...,x_n)}.}
+
+\p{[Composition](math-00B2) of #{(t_1,...,t_m)} and #{(s_1,...,s_n)} is given by simultaneous [substitution](math-00BD) of all variables (#{[x_1,...,x_m]}) in the #{s} terms, i.e. the composite is #{(r_1,...,r_n)} where #{r_i:=s_i[t_1/x_1,...,t_m/x_m]}.}

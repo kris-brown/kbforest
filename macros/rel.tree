@@ -1,0 +1,96 @@
+%%%%%%%%%%%%%%%%%%%%
+% Custom relations %
+%%%%%%%%%%%%%%%%%%%%
+
+\def\relation[r][x][y]{
+  \execute\datalog{
+    \r @{\x} @{\y} -:
+  }
+}
+
+\def\symmetric-closure[r]{
+\execute\datalog{
+\r ?Y ?X -: {\r ?X ?Y}
+}
+}
+
+% turn any binary relation into its transitive closure
+\def\transitive-closure[r]{
+\execute\datalog{
+\r ?X ?Z -: {\r ?X ?Y} {\r ?Y ?Z}
+}
+}
+
+
+% Concepts being examples of other concepts
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\def\rel/example{kris.example}
+\transitive-closure{\rel/example} % make this relation transitively closed
+
+\def\example[y]{\relation{\rel/example}{\current-tree}{\y}}
+
+\def\exampleOf{\subtree{\title{This is example of...}
+\query\datalog{?X -: {\rel/example @{\current-tree} ?X}}}
+}
+
+\def\exampleOfThis{\subtree{\title{Examples of this...}
+\query\datalog{?X -: {\rel/example ?X @{\current-tree}}}}
+}
+
+\def\examples{\exampleOf \exampleOfThis} % add to backmatter
+
+
+
+% Non-examples
+%%%%%%%%%%%%%%
+
+\def\rel/nonexample{kris.nonexample}
+
+\def\nonexample[y]{\relation{\rel/nonexample}{\current-tree}{\y}}
+
+\def\nonexampleOf{\subtree{\title{This is a nonexample of...}
+\query\datalog{?X -: {\rel/nonexample @{\current-tree} ?X}}}
+}
+
+\def\nonexampleOfThis{\subtree{\title{Nonexamples of this...}
+\query\datalog{?X -: {\rel/nonexample ?X @{\current-tree}}}}
+}
+
+\def\nonexamples{\nonexampleOf \nonexampleOfThis} % add to backmatter
+
+% Definition of a tree
+%%%%%%%%%%%%%%%%%%%%%%
+
+% mark another tree as a definition of the current one and show via a query
+\def\rel/def{kris.def}
+\def\defn[y]{\relation{\rel/def}{\current-tree}{\y}}
+\def\defns{
+\query\datalog{?X -: {\rel/def @{\current-tree} ?X}}
+}
+
+% if we have multiple definitions, show them all (declare them separately)
+\def\defs{
+\subtree{\title{Definitions}
+\scope{\query\datalog{?X -: {\rel/def @{\current-tree} ?X}}}
+}
+}
+
+% Source (reference) for a tree
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\def\rel/source{kris.source}
+\def\source[y]{
+\relation{\rel/source}{\current-tree}{\y}
+\subtree{\title{Source}\query\datalog{?X -: {\rel/source @{\current-tree} ?X}}}
+}
+
+
+% Dual concept
+%%%%%%%%%%%%%%
+
+\def\rel/dual{kris.dual}
+\symmetric-closure{\rel/dual} % make this relation symmetrically closed
+
+\def\dual[y]{ % TODO replace x with [current tree]
+\relation{\rel/dual}{\current-tree}{\y}
+\subtree{\title{Dual concept}\query\datalog{?X -: {\rel/dual @{\current-tree} ?X}}}
+}

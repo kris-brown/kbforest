@@ -1,0 +1,9 @@
+\date{2025-02-22T20:18:22Z}
+\title{Ring}
+
+\p{A \em{ring} is a tuple #{X,0,1,+,-,\times}}
+
+\p{Satisfying the following axioms:}
+
+\p{Associativity, unitality, negation as inverse, distributivity}
+

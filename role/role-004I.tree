@@ -1,0 +1,26 @@
+\date{2025-03-09T17:43:20Z}
+\title{Categorical logic for logical expressivists}
+\import{macros}
+\import{rel}
+
+\taxon{presentation}
+
+\p{These notes are intended to both introduce the mathematics of categorical logic (to an audience that is comfortable only with logic only insofar as it appears within philosophy) and to draw some connections with logical expressivism.}
+
+\p{Why should we be \em{pluralist} about logic?}
+
+\transclude{math-00F8}
+\transclude{math-00F9}
+
+\p{Why should be \em{structuralist} about logic?}
+
+\transclude{math-00FA}
+
+\p{Categorical logic is [structuralism](math-00FD) applied to logic ([cf](ref-00BN)).}
+
+\p{Categorical logic is not 'one thing'. It is parameterized by a [doctrine](math-00F3), which corresponds to the thing being varied when we switch from propositional to intuitionistic to (various fragments of) first order logic, and so on. }
+
+
+
+
+\source{ref-00BM}

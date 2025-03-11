@@ -1,0 +1,6 @@
+\date{2025-02-22T20:06:37Z}
+\title{Finite set}
+\import{macros}
+\taxon{definition}
+
+\p{A [set](math-0001) is \em{finite} if it is in [bijection](math-00A6) with a set #{ \{1,2,...,n\}} for some natural number #{n \in \NN}.}

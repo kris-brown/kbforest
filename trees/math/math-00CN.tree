@@ -1,0 +1,14 @@
+\date{2025-02-26T02:54:07Z}
+\title{Embedding copresheaves into Set}
+\import{macros}
+\import{rel}
+
+\source{ref-00BC}
+
+\p{For any small [category](math-000D) #{\cat{C}}, there is a jointly [faithful](math-002K) family of finite product preserving functors #{E_{i \in I}: \cat{Set}^\cat{C}\rightarrow \cat{Set}}.}
+
+\p{I.e. for any maps #{f,g: A\rightarrow B \in \cat{Set}^\cat{C}}, if #{\forall i \in I.\ E_i(f)=E_i(g)}, then #{f=g}.}
+
+\subtree{\taxon{proof}
+\p{Let #{I := \Ob \cat{C}}. let #{E_c := eval_c: \cat{Set}^{\cat{C}}\rightarrow \cat{Set}} (the [evaluation](math-00BN)). These are jointly [faithful](math-002K). They preserve all limits and colimits.}
+}

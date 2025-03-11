@@ -2,7 +2,10 @@
 \title{Cofiltered category}
 \import{mathml}
 \import{macros}
-\dual{math-0099}{math-006V}
+\import{rel}
+\import{math-005U} % op-cat
+
+\dual{math-006V}
 \open\mml
 \taxon{definition}
 \let\C{\mi{C}}

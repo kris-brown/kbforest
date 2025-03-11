@@ -1,0 +1,8 @@
+\date{2025-03-06T17:01:41Z}
+\let\curr{math-00E5}
+\import{macros}
+
+
+\title{Finitely-presented category}
+
+\p{A \em{finitely-presented category} is a [graph](math-0059) equipped with some equations between parallel paths. We interpret the vertices as objects and edges as \em{generating} morphisms of some category. The morphisms of this category are all paths in the graph, quotiented by the equations.}

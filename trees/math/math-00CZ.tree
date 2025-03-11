@@ -1,0 +1,5 @@
+\date{2025-02-26T05:29:54Z}
+\import{macros}
+\title{#{\cC^\infty} maps}
+
+\p{A #{\cC^\infty} \em{map} is a function #{f: \RR^n\rightarrow \RR^m} which has all higher partial derivatives.}

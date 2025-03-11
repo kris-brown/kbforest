@@ -1,0 +1,12 @@
+\date{2025-02-26T08:30:42Z}
+\title{Algebraic category}
+\taxon{definition}
+\import{macros}
+\import{rel}
+
+
+\source{ref-00BC}
+
+\p{A [locally-small category](math-00CH) #{\cA} is \em{algebraic} if it is [equivalent](math-002B) to a [functor category](math-0033) of the form #{Hom_{FP}(\AA, \cat{Set})}, where #{\AA} is any small finite product category.}
+
+\p{If #{\AA} is a [Lawvere theory](math-00CO), then #{\cA} is a \em{Lawvere algebraic category}}

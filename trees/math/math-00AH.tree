@@ -1,0 +1,23 @@
+\date{2025-02-23T01:57:38Z}
+
+\title{Model of an algebraic theory}
+\import{macros}
+\import{rel}
+
+\example{math-00AF}
+\example{math-000E}
+
+\p{Also called a #{\TT}-[algebra](math-00AF)}
+
+\defn{math-00AT}
+
+\defns
+
+\p{If we think of a theory as a represented by a [category](math-000D), a \em{model} of a theory #{\TT} is a [functor](math-000E) into a semantics category (paradigmatically: [Set](math-003L)).}
+
+
+\p{We can also consider models in other category #{\cat{C}} if it has [products](math-0024).  In the theory of groups, multiplication  (#{\cdot}) is a morphism #{X \times X \rightarrow X}. This means in order to give a semantics to #{\cdot} in some category via a functor #{F}, we need a morphism #{F(X)\times F(X)\rightarrow F(X)}. The associativity axiom is expressed by the following commutative diagram:}
+
+\transclude{math-00AN}
+
+\examples

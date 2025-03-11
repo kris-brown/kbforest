@@ -1,0 +1,24 @@
+\date{2025-02-26T03:36:15Z}
+\title{Opposite of semantic category classifies models of an algebraic theory}
+\taxon{proposition}
+\import{mathml}
+\import{macros}
+\import{rel}
+\import{math-002B} % congCat
+\import{math-005U} % op-cat
+\import{math-00AW} % algmod
+
+
+\source{ref-00BC}
+
+\open\mml
+
+\p{For any [algebraic theory](math-009Q) \TT and [category](math-000D) \sfC:}
+
+\display{{\mapp{\sub{\sfHomLink{math-0033}}{\mi{[FP](math-00DL)}} \prn{\mapp{\op-cat{\mapp{\sfmodLink{math-00CP}\prn{\TT}}}}\comma\sfC}} \congCat \mapp{\algmod \prn{\TT\comma\sfC}}}}
+
+
+\p{which is [natural in](math-00DO) \sfC as functors #{\cat{Cat}_{FP}\rightarrow \cat{Cat}} (when you fix #{\cat{C}}, one obtains a such a functor on the LHS and RHS).}
+
+\p{(See related [equivalence](math-00BF) with functors from the [syntactic category](math-00BB))
+}

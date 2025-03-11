@@ -1,0 +1,4 @@
+\date{2025-02-23T02:34:28Z}
+\title{Groupoid}
+\taxon{definition}
+\p{A \em{groupoid} is a [category](math-000D) in which all morphisms are [isomorphisms](math-004A).}

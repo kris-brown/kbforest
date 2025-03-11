@@ -1,0 +1,8 @@
+\date{2025-02-26T17:45:16Z}
+\let\curr{math-00DB}
+\import{macros}
+
+
+\title{Algebraic functor}
+
+\p{An \em{algebraic functor} between two [algebraic categories](math-00DA) #{\cat{Mod}(\AA) \rightarrow \cat{Mod}{\BB}} is one which arises from a [translation of theories](math-00DC). }

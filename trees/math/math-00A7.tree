@@ -1,0 +1,8 @@
+\date{2025-02-22T20:15:17Z}
+\title{Pointed set algebraic theory}
+\taxon{definition}
+\import{macros}
+\import{rel}
+\example{math-009Q}
+
+\p{The \em{pointed set theory} is an [algebraic theory](math-009Q) with one [constant](math-009Y) and no [equations](math-00A2).}

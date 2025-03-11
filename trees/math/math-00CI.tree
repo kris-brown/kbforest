@@ -1,0 +1,5 @@
+\date{2025-02-26T01:11:49Z}
+\title{Yoneda embedding preserves all limits}
+\taxon{proposition}
+
+\p{The [Yoneda embedding](math-00CD) [preserves](math-00BG) all [limits](math-0026)}

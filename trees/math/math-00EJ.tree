@@ -1,0 +1,16 @@
+\date{2025-03-08T01:26:47Z}
+
+\title{Backtracking search specification}
+\import{macros}
+\taxon{definition}
+
+\p{A \em{backtracking search specification} for #{\Hom_\cat{C}(X,Y)} in some category #{\cat{C}} is an [internal relation](ref-00BK), i.e. #{R \rightarrowtail X \times Y}.}
+
+
+\p{There is a [monotone map](math-0068) #{ev: Sub(X\times Y)\rightarrow \cP(\Hom_\cat{C}(X,Y))} which sends specifications to subsets of the Hom set. A morphism #{f: X\rightarrow Y} is in #{ev(R)} if the [graph](math-00EK) #{f \leq R} in #{Sub(X\times Y)}.}
+
+\p{#{ev} is the [right adjoint of a Galois connection](math-00F6), so #{ev(R\land S)=ev(R)\cap ev(S)}.}
+
+\p{If we think of #{\cat{C}} as a [concrete category](ref-00BJ), then #{X\times Y} represents all possible assignments #{x \mapsto y}, and the subobject #{R} picks a subset of admissible assignments. Given any actual map #{f}, as a [graph](math-00EK) it picks out the subset of candidate assignments that were actually assigned. The map #{f \rightarrowtail R} witnesses that every part of #{X} had a valid assignment.}
+
+\put\transclude/expanded{false}

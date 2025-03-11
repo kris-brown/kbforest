@@ -1,0 +1,16 @@
+\date{2025-02-25T16:14:37Z}
+\title{Grp - the category of groups}
+\import{macros}
+\import{rel}
+\example{math-000D}
+
+\p{The \em{category of groups}, #{\cat{Grp}}, has:}
+
+\p{As objects: [groups](math-009G)}
+
+\p{As morphisms: [group homomorphisms](math-00BX)}
+
+\p{Identities and composition come from [Set](math-003L).}
+
+
+\examples

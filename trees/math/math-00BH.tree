@@ -1,0 +1,6 @@
+\date{2025-02-24T22:29:04Z}
+\title{Terminal object in category of contexts}
+
+\p{The empty context #{[]} is [terminal](math-001G) in the [category of contexts](math-00BB) of an algebraic theory.}
+
+\subtree{\taxon{proof} \p{There is a unique way to construct 0 terms given any other context of variables.}}
